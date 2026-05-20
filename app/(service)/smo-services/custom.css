@@ -1,0 +1,171 @@
+.pricing-block {
+    position: relative;
+    padding: 0 0px;
+    margin-bottom: 50px;
+}
+
+.pricing-block .inner-box {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    padding: 0 0 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 20px solid #40cbb4;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.pricing-block .icon-box {
+    position: relative;
+    padding: 15px 30px 0;
+    background-color: #40cbb4;
+    text-align: center;
+}
+
+.pricing-block .icon-box:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+    background-color: #ffffff;
+    content: "";
+}
+
+.pricing-block .icon-box .icon-outer {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pricing-block .icon-box i {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+    line-height: 120px;
+    border: 5px solid #40cbb4;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #40cbb4;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.pricing-block .inner-box:hover .icon-box i {
+    transform: rotate(360deg);
+}
+
+.pricing-block .price-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.pricing-block .title {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #222222;
+    font-weight: 600;
+}
+
+
+
+.pricing-block.yellow .icon-box {
+    background-color: #ffde2f;
+}
+
+.pricing-block.yellow .icon-box i {
+    border: 5px solid #ffde2f;
+    color: #ffde2f;
+}
+
+.pricing-block.yellow .inner-box {
+    border-bottom: 20px solid #ffde2f;
+}
+
+.pricing-block.fb .icon-box {
+    background-color: #23408f !important;
+}
+
+.pricing-block.fb .icon-box i {
+    border: 5px solid #23408f !important;
+    color: #23408f !important;
+}
+
+.pricing-block.fb .inner-box {
+    border-bottom: 20px solid #23408f !important;
+}
+
+.pricing-block.rd .icon-box {
+    background-color: #c72f2a !important;
+}
+
+.pricing-block.rd .icon-box i {
+    border: 5px solid #c72f2a !important;
+    color: #c72f2a !important;
+}
+
+.pricing-block.rd .inner-box {
+    border-bottom: 20px solid #c72f2a !important;
+}
+
+.pricing-block.vt .icon-box {
+    background-color: #a32a9c !important;
+}
+
+.pricing-block.vt .icon-box i {
+    border: 5px solid #a32a9c !important;
+    color: #a32a9c !important;
+}
+
+.pricing-block.vt .inner-box {
+    border-bottom: 20px solid #a32a9c !important;
+}
+
+.pricing-block.blk .icon-box {
+    background-color: #000000 !important;
+}
+
+.pricing-block.blk .icon-box i {
+    border: 5px solid #000000 !important;
+    color: #000000 !important;
+}
+
+.pricing-block.blk .inner-box {
+    border-bottom: 20px solid #000000 !important;
+}
+
+
+
+.services-small-item {
+    width: 14% !important;
+    float: left;
+    box-shadow: inset -1px -1px #dceaf4, -1px -1px #dceaf4;
+    padding: 16px;
+}
+
+.services-small-item img{
+    width: 100%;
+}
+
+@media(max-width:767px) {
+    .services-small-item {
+        width: 33.33% !important;
+        float: left;
+        box-shadow: inset -1px -1px #dceaf4, -1px -1px #dceaf4;
+        padding: 16px;
+    }
+}

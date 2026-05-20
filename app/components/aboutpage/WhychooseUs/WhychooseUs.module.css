@@ -1,0 +1,84 @@
+.ChooseBtn {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+    position: relative;
+    padding-left: 50px;
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center
+}
+
+.ChooseBtn:focus,.ChooseBtn:hover {
+    text-decoration: underline
+}
+
+.ChooseBtn::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #c01f29;
+    border-radius: 100px
+}
+
+.ChooseBtn::after {
+    position: absolute;
+    content: "";
+    background-image: url(/images/about/arrow-right-white.svg);
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center
+}
+
+.ChooseBtn:hover::after {
+    animation: slideInLeft infinite 1s
+}
+
+.BlockImage{
+    border-radius: 20px;
+}
+
+.PlayIcon {
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    background: linear-gradient(45deg,#bf1b1e,#de2a26);
+    border-radius: 100px;
+    cursor: pointer;
+    animation: shadow-pulse 1s infinite
+}
+
+.PlayIcon::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 30px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -10px
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0,0,0,.2)
+    }
+
+    to {
+        box-shadow: 0 0 0 35px transparent
+    }
+}

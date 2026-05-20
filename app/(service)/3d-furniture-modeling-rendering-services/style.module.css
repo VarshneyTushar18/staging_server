@@ -1,0 +1,322 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.IconBox svg {
+    width: 55px;
+    height: 55px;
+}
+
+.IconBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+}
+
+.ImageBox h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ProcessContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProcessColumnInput {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.ProcessColumnOutput {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.ProcessColumnInput .ColumnTitle {
+    background-color: #234268;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px 6px 0 0;
+}
+
+.ProcessColumnOutput .ColumnTitle {
+    background-color: #C01F29;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px 6px 0 0;
+}
+
+.ProcessColumnInput .Item {
+    background-color: #e4e4e4;
+    margin-top: 5px;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.ProcessColumnOutput .Item {
+    background-color: #faeee9;
+    margin-top: 5px;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.ProcessContainer .Arrow {
+    font-size: 30px;
+    margin: 0 15px;
+    color: #C01F29;
+    font-weight: bold;
+}
+
+
+
+
+.IcoGreyCard {
+    text-align: center;
+}
+
+.IcoGreyCard svg {
+    color: #0d6efd;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.BorderedWrapper {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+
+.BorderedWrapper {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+
+.BorderedWrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.CustomCard {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.UsecaseCard {
+    background: #fff;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.UsecaseCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #234268, rgb(34, 67, 107));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.UsecaseContent {
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.UsecaseCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.UsecaseCard h6 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.UsecaseCard p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.UsecaseCard .UsecaseIcon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(202, 97, 28, 0.1), rgba(230, 126, 34, 0.1));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.UsecaseCard:hover::before {
+    transform: scaleX(1);
+}
+
+.UsecaseCard .UsecaseIcon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.TechStacks img {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.TechStacks img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.TechStacks p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.WhiteDashedBox {
+    background-color: #ffffff;
+    border: 1.5px dashed #cccccc;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.WhiteDashedBox h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #234268;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+}
+
+.WhiteDashedBox p {
+    font-size: 14.5px;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.CardImgTop {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+
+@media (max-width:767px) {
+    .ProcessContainer {
+        flex-direction: column;
+    }
+
+    .Arrow {
+        transform: rotate(90deg);
+    }
+}

@@ -1,0 +1,34 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+
+
+
+@media(max-width:767px) {
+    .SingleItem {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+.ThreeCol{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    
+}

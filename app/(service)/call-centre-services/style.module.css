@@ -1,0 +1,171 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.IconBox svg {
+    width: 55px;
+    height: 55px;
+}
+
+.IconBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+}
+
+.ImageBox h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.FaqWide :global(.col-lg-6) {
+    width: 100%;
+}
+
+.IcoCard {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-block: 20px;
+    position: relative;
+    border-bottom: 4px double rgba(0, 0, 0, .1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .03);
+    border-top: 2px solid #515151;
+    list-style-type: none;
+    margin-top: 0;
+    min-height: 496px;
+}
+
+.IcoCard::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid #515151;
+    border-bottom: 30px solid transparent;
+    right: 0;
+    top: 0;
+}
+
+.IcoCard img {
+    margin-bottom: 16px;
+}
+
+.IcoCard h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IcoCard p {
+    text-align: left;
+}
+
+.FourList {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+}
+
+.FourList li {
+    margin-bottom: 16px;
+}
+
+.CallImages {
+    width: 100%;
+}
+
+.BenefitsSection {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, .50);
+    padding: 50px;
+    background-blend-mode: multiply;
+    background-image: url(/images/services/service-inner/document_processing.jpg);
+    margin-block: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+
+.WhiteCard {
+    background-color: #ffffff;
+    padding: 25px;
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+
+    .IcoCard {
+        min-height: auto;
+    }
+
+    .FourList {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}

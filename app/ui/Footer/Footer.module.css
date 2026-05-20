@@ -1,0 +1,178 @@
+/* Footer styles */
+.Footer {
+    background-color: #0B2E58;
+    color: white;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer {
+        /* margin-bottom: 50px; */
+    }
+}
+
+
+
+.Footer::before,
+.Footer::after {
+    content: "";
+    position: absolute;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Footer::before {
+    top: 0;
+    right: 0;
+    width: 275px;
+    height: 258px;
+    background-image: url("/images/Footer-right-pattern.png");
+    background-size: contain;
+    pointer-events: none;
+}
+
+.Footer::after {
+    bottom: 0;
+    left: 0;
+    width: 275px;
+    height: 258px;
+    background-image: url("/images/Footer-left-pattern.png");
+    background-size: contain;
+    pointer-events: none;
+}
+
+.Footer h5 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+    width: max-content;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.Footer h5:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    border-radius: 6px;
+    background-color: #C01F29;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Footer a:hover {
+    font-weight: 600;
+}
+
+.Footer .SocialIcons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.Footer .SocialIcons .Icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.Footer .SocialIcons .Facebook {
+    background-color: #3b5998;
+}
+
+.Footer .SocialIcons .Linkedin {
+    background-color: #0077b5;
+}
+
+.Footer .SocialIcons .Instagram {
+    background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #4f5bd5);
+}
+
+.Footer .SocialIcons .Youtube {
+    background-color: #ff0000;
+}
+
+.Footer .SocialIcons .Twitter {
+    background-color: #ffffff;
+    color: #000000 !important;
+}
+
+
+.Icon:hover {
+    transform: scale(1.1);
+}
+
+.CertificationLogos img {
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+}
+
+@media(min-width:1200px) and (max-width:1320px) {
+    .CertificationLogos img {
+        width: 70px;
+        height: 70px;
+        margin: 6px;
+    }
+}
+
+.subscribe-input {
+    max-width: 300px;
+    display: flex;
+}
+
+.subscribe-input input {
+    border-radius: 0 !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    padding: 10px !important;
+    font-size: unset !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.subscribe-input button {
+    background-color: #C01F29;
+    color: white;
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-block: 10px;
+    padding-inline: 15px;
+}
+
+.FooterHiring{
+    width: 100px;
+    height: 64px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+}
+
+@media (max-width: 767px) {
+    .FooterCertifications {
+        order: 5!important;
+    }
+}

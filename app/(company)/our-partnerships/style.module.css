@@ -1,0 +1,109 @@
+.PtCard {
+    position: relative;
+    border: 1px solid #d1d4db;
+    border-radius: 16px;
+    padding: 24px 28px 28px;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.PtCard:hover {
+    background: #b0c4de66;
+    border: 1px solid #b0c4de66;
+    box-shadow: 5px 5px 25px hsla(226, 8%, 57%, .3);
+}
+
+.PtCard img {
+    margin-bottom: 8px;
+    width: 65%;
+    border-radius: 8px;
+    margin-inline: auto;
+}
+
+.BadgeLabel {
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+    background-color: #234268;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.BadgeLabel::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 6px solid #8d8d8d;
+    border-top: 6px solid transparent;
+}
+
+.PtCard .Category {
+    background: #f6f7f8;
+    border-radius: 6px;
+    padding: 5px 10px 7px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 18px;
+    width: max-content;
+}
+
+.PtCard h3 {
+    font-size: 18px;
+}
+
+.PtCard .Desc {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.PtCard .LinkBtn {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 11px 45px 11px 35px;
+    align-items: center;
+    justify-content: center;
+    background: #b0c4de66;
+    color: #000000;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    margin-top: auto;
+    text-align: center;
+}
+
+.PtCard:hover .LinkBtn {
+    background: #0B2E58;
+    color: #ffffff;
+}
+
+
+.type1 {
+    background-color: #FE938C;
+    color: #000;
+}
+
+.type2 {
+    background-color: #84DCCF;
+    color: #000;
+}
+
+.type3 {
+    background: #13293D;
+    color: #ffffff;
+}
+
+.type4 {
+    background: #EE964B;
+    color: #000000;
+}

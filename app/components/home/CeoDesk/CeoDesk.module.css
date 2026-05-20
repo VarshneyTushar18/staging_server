@@ -1,0 +1,104 @@
+/* ceo-desk */
+.CeoDesk {
+    padding-block: 50px;
+    position: relative;
+    background-image: url('/images/ceo-desk/bg-pattern-1.webp');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+
+.CeoDesk .FounderInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.CeoDesk .FounderInfo .Thumb img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.CeoDesk .Description {
+    font-size: 1rem;
+    color: #696969;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.CeoDesk .FounderInfo .Info{
+    margin-right: 16px;
+}
+
+
+.CeoDesk .FounderInfo .Info .Name {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.CeoDesk .FounderInfo .Info .Designation {
+    margin-bottom: 12px;
+    color: #696969;
+}
+
+.CeoDesk .FounderInfo .Thumb {
+    background: -webkit-gradient(linear, left top, left bottom, from(#C01F29), to(#141E46));
+    background: linear-gradient(#C01F29, #141E46);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    line-height: 59px;
+    margin-right: 14px;
+    text-align: center;
+}
+
+.CeoDesk .FounderInfo svg {
+   color: #0A6BCA;
+   width: 32px;
+   height:32px;
+}
+
+.CeoImage {
+    position: relative;
+}
+
+.CeoImage::before,
+.CeoImage::after {
+    content: '';
+    position: absolute;
+    background-image: url('/images/ceo-desk/diagonal-sm-pattern.png');
+    background-size: cover;
+    z-index: -1;
+}
+
+.CeoImage::before {
+    top: -15px;
+    left: 65px;
+    width: 120px;
+    height: 400px;
+}
+
+.CeoImage::after {
+    bottom: -15px;
+    right: 65px;
+    width: 120px;
+    height: 400px;
+}
+
+@media (max-width: 1400px) {
+
+    .CeoImage::before {
+        display: none;
+    }
+
+    .CeoImage::after {
+        display: none;
+    }
+}

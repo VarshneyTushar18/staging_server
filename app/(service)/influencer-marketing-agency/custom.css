@@ -1,0 +1,171 @@
+.why-chose-box-icon {
+    width: 120px;
+    display: grid;
+    place-content: center;
+    height: 120px;
+    border-radius: 100%;
+    margin: 0 auto;
+    line-height: 13.5 !important;
+    border: 4px solid #fff;
+    box-shadow: 0px 1px 4px #bebebe;
+}
+
+.our-exper-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    vertical-align: middle;
+    display: grid;
+    place-content: center;
+    background: #275c93;
+    margin: 0 auto;
+    line-height: 10.5;
+}
+
+.award-sec .our-exper-icon {
+    width: 65px;
+}
+
+.why-should-content-bg {
+    width: 100%;
+    background: #275c93;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 6px 12px;
+}
+
+.how-our-bg {
+    background-image: url(/images/influencerbg-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    padding-top: 4%;
+    padding-bottom: 7% !important;
+}
+
+.our-expert-content h-100 shadow-sm p-4 rounded {
+    width: 100%;
+    min-height: 399px !important;
+    background: #ffffff !important;
+    padding: 25px 15px;
+    box-shadow: 5px 5px 18px #ededed;
+}
+
+.media .media-left {
+    width: 10%;
+}
+
+.media-body,
+.media-left,
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.our-to-media-subheading {
+    color: #1e4a77;
+    font-size: 22px;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 10px;
+}
+
+.cartFeature h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.port-row .card-img img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.port-row .card-img {
+    height: 125px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .cartFeature h3 {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .port-row .card-img {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-md-6.banner-btns a {
+        padding: 10px !important;
+        margin: 10px 0 0 0 !important;
+        width: max-content;
+        font-size: 12px;
+    }
+}
+
+div#mygallery {
+    text-align: center;
+}
+
+.portfolioContainer .tabbable ul.nav.nav-tabs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: none;
+    border-bottom: medium none;
+    border-radius: 2px;
+    padding: 0;
+    border: none;
+}
+
+.portfolioContainer ul.nav.nav-tabs li {
+    margin: 4px 6px;
+    background: #c6010b;
+    margin-bottom: 0px;
+    border-right: 1px solid #e7e5e6;
+    line-height: normal;
+    display: flex !important;
+    padding: 4px 10px !important;
+    border-radius: 5px;
+}
+
+.portfolioContainer ul.nav.nav-tabs li a {
+    color: #fff;
+}
+
+
+.my-influance-tab {
+    border: none !important;
+    width: 140px;
+    min-height: 100px !important;
+    background: #1c1c1c !important;
+    color: #fff;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+h2.heading-text,
+.card-body .card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.my-influance-tab:hover {
+    color: red;
+}
+
+.my-influance-tab.active {
+    color: #fff;
+    background-color: #ff9b04 !important;
+}

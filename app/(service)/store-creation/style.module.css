@@ -1,0 +1,130 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+.ContentDiv h5 {
+    font-weight: 600;
+}
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.IconBox svg {
+    width: 55px;
+    height: 55px;
+}
+
+.IconBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+}
+
+.ImageBox h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ImgIco {
+    background-color: #c01f29;
+    text-align: left;
+    padding: 5px !important;
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 30px;
+    max-width: max-content;
+}
+
+.PageAccordion .AccordionItem {
+    margin-bottom: 16px;
+    border: 1px solid #dee2e6;
+}
+
+.PageAccordion  .AccordionBody {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+}
+
+.PageAccordion .AccordionButton  {
+    border: none;
+    width: 100%;
+    background-color: #b0c4de66;
+    color: #234268;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton:global(.collapsed){
+    border: none;
+    width: 100%;
+    background-color: #efefef;
+    color: #313131;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton {
+    outline:none!important;
+    box-shadow: none !important;
+}
+
+:global(.contactBottominfo){
+    display: none;
+}

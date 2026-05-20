@@ -1,0 +1,42 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+.LogoGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.LogoGrid img {
+    width: 100%;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+@media(max-width:767px) {
+
+    .LogoGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .SingleItem {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+

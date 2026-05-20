@@ -1,0 +1,494 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.IconBox svg {
+    width: 55px;
+    height: 55px;
+}
+
+.IconBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+}
+
+.ImageBox h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.CtaSection {
+    position: relative;
+    background: url('/images/services/service-inner/bg-micro-cta.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.CtaSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(1px) brightness(0.7);
+    z-index: 0;
+}
+
+.CtaSection>* {
+    position: relative;
+    z-index: 1;
+}
+
+.BtnBlock a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.ContentDiv :global(.accordion-item) {
+    border: 0;
+}
+
+.ContentDiv :global(.accordion-button:not(.collapsed)) {
+    color: #f15a29 !important;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.ContentDiv :global(.accordion-button:hover) {
+    outline: none;
+    box-shadow: none;
+}
+
+.Headesc {
+    top: 100px;
+}
+
+.TextOrange {
+    color: #ff6f3c;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.StepCard {
+    background: #26262600 !important;
+    box-shadow: inset 0 0 10px 0 rgb(75 75 75 / 30%);
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+
+.StepCard .ImageWrapper {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StepCard .ImageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.MovingBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 106, 0, 0.1) 2px, transparent 2px);
+    background-size: 40px 40px;
+    animation: moveBg 8s linear infinite;
+    z-index: 0;
+}
+
+@keyframes moveBg {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 40px;
+    }
+}
+
+.ContentDiv p {
+    color: #5e5e5e;
+}
+
+.EnCard svg {
+    color: #ff6f3c;
+    font-size: 32px;
+}
+
+.IndustryCard {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.IndustryCard svg {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 16px;
+    margin: auto auto 16px auto;
+}
+
+.IndustryCard:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+}
+
+.IndustryCard h3 {
+    color: #f8f9fa;
+    font-size: 20px;
+}
+
+.IndustryCard p {
+    color: #f8f9fa;
+    font-size: 16px;
+}
+
+.FeatureBox {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.FeatureIcon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: #ffe5d5;
+    color: #ff6f3c;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.FeatureTitle {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.FtBtnBlock a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.DashboardCard {
+    background: #ffe5d5;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.DashboardCard h5 {
+    color: #ff5722;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.DashboardCard p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.DashboardCard img {
+    margin-top: 12px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+}
+
+.DashBtnBlock a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ComparisonTable {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.ComparisonTable h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.ComparisonTable>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    background: #f15a29 !important;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ComparisonTable td,
+.ComparisonTable th {
+    padding: 16px;
+    vertical-align: top;
+    background: #ffe5d5;
+    text-align: left;
+}
+
+.CriteriaCol {
+    font-weight: bold;
+}
+
+.InhouseCol svg {
+    color: #f15a29;
+    margin-right: 8px;
+}
+
+.ConsultantCol svg {
+    color: #198754;
+    margin-right: 8px;
+}
+
+.BiFeatureCard {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #E4E4E7;
+}
+
+.BiFeatureNumber {
+    background: #234268;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: background 0.3s ease;
+}
+
+.BiFeatureCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.BiFeatureCard:hover .BiFeatureNumber {
+    background: #1a3b63;
+}
+
+.BiFeatureCard h3 {
+    margin-bottom: 10px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.BiFeatureCard p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.BiFeatures {
+    position: relative;
+    padding: 60px 0px;
+}
+
+.BiFeatures::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(135deg, rgba(202, 97, 28, 0.1), rgba(230, 126, 34, 0.1));
+    clip-path: ellipse(90% 75% at 50% 70%);
+    z-index: 0;
+}
+
+.FiBtnBlock a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.BiBanner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.6) 25%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 75%, rgba(0, 0, 0, 0.85) 100%), url(/images/services/service-inner/business-data-dashboard-provide-brisk-business-intelligence-analytics.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
+
+
+.BiBanner h1 {
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.BannerBtn a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.BiServices .BgBlock {
+    background: linear-gradient(135deg,
+            rgba(200, 220, 240, 0.9),
+            rgba(176, 196, 222, 0.8),
+            rgba(160, 180, 210, 0.8),
+            rgba(200, 220, 240, 0.9));
+    background-size: 300% 300%;
+    animation: softGradientShift 25s ease-in-out infinite;
+    padding: 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(176, 196, 222, 0.9);
+    box-shadow: 0 4px 20px rgba(176, 196, 222, 0.25);
+}
+
+.LeftBlock :global(.position-sticky) {
+    top: 130px;
+}
+
+.LeftBlock h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.BiBtnBlock a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.BiServiceCard {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0B2E58;
+    box-shadow: 5px 5px 20px #0000002e;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.BiServiceCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(/images/services/service-inner/tech-icon.png) no-repeat top left;
+    opacity: 0.3;
+    z-index: 0;
+    background-position-x: -25px;
+    background-position-y: -25px;
+}
+
+.BiServiceCard:hover{
+    border-color: #c1222c;
+    box-shadow: 0 6px 25px rgba(193, 34, 44, 0.25);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.BiServiceCard .Icon {
+    background: #234268;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.BiServiceCard .Title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.BiServiceCard .Desc {
+    font-size: 14px;
+}

@@ -1,0 +1,1335 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/tech2globe-nextjs/app/utilities/BootstrapClient.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>BootstrapClient
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+function BootstrapClient() {
+    _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "BootstrapClient.useEffect": ()=>{
+            __turbopack_context__.r("[project]/tech2globe-nextjs/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js [app-client] (ecmascript)");
+        }
+    }["BootstrapClient.useEffect"], []);
+    return null;
+}
+_s(BootstrapClient, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = BootstrapClient;
+var _c;
+__turbopack_context__.k.register(_c, "BootstrapClient");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/tech2globe-nextjs/app/utilities/LightboxInitializer.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>LightboxInitializer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+function LightboxInitializer() {
+    _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "LightboxInitializer.useEffect": ()=>{
+            let lightbox;
+            // Dynamically import GLightbox only in the browser
+            __turbopack_context__.A("[project]/tech2globe-nextjs/node_modules/glightbox/dist/js/glightbox.min.js [app-client] (ecmascript, async loader)").then({
+                "LightboxInitializer.useEffect": (param)=>{
+                    let { default: GLightbox } = param;
+                    lightbox = GLightbox({
+                        selector: ".glightbox",
+                        touchNavigation: true,
+                        loop: true,
+                        zoomable: true
+                    });
+                }
+            }["LightboxInitializer.useEffect"]);
+            return ({
+                "LightboxInitializer.useEffect": ()=>{
+                    if (lightbox) {
+                        lightbox.destroy();
+                    }
+                }
+            })["LightboxInitializer.useEffect"];
+        }
+    }["LightboxInitializer.useEffect"], []);
+    return null; // no UI, just initialization
+}
+_s(LightboxInitializer, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = LightboxInitializer;
+var _c;
+__turbopack_context__.k.register(_c, "LightboxInitializer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/tech2globe-nextjs/app/ui/Footer/Footer.module.css [app-client] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "CertificationLogos": "Footer-module__6jpaLq__CertificationLogos",
+  "Facebook": "Footer-module__6jpaLq__Facebook",
+  "Footer": "Footer-module__6jpaLq__Footer",
+  "FooterCertifications": "Footer-module__6jpaLq__FooterCertifications",
+  "FooterHiring": "Footer-module__6jpaLq__FooterHiring",
+  "Icon": "Footer-module__6jpaLq__Icon",
+  "Instagram": "Footer-module__6jpaLq__Instagram",
+  "Linkedin": "Footer-module__6jpaLq__Linkedin",
+  "SocialIcons": "Footer-module__6jpaLq__SocialIcons",
+  "Twitter": "Footer-module__6jpaLq__Twitter",
+  "Youtube": "Footer-module__6jpaLq__Youtube",
+  "subscribe-input": "Footer-module__6jpaLq__subscribe-input",
+  "text-white": "Footer-module__6jpaLq__text-white",
+});
+}),
+"[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.module.css [app-client] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "ContactCard": "GlobalPresence-module__MVwuhq__ContactCard",
+  "ContactCardCol": "GlobalPresence-module__MVwuhq__ContactCardCol",
+  "WorldwideLocations": "GlobalPresence-module__MVwuhq__WorldwideLocations",
+  "address": "GlobalPresence-module__MVwuhq__address",
+});
+}),
+"[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>GlobalPresence
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/@fortawesome/react-fontawesome/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/@fortawesome/free-solid-svg-icons/index.mjs [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+function GlobalPresence() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].WorldwideLocations,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "sub-title text-uppercase text-center",
+                    children: "GLOBAL PRESENCE"
+                }, void 0, false, {
+                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                    lineNumber: 11,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "title text-center",
+                    children: "Our Worldwide Offices"
+                }, void 0, false, {
+                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "container-fluid",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "row g-4 justify-content-center justify-content-xl-center gap-4 px-2 mt-4 ",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCardCol, " col-xxl-2 col-xl-2 col-lg-4 col-md-3 col-sm-6 col-12 px-3 px-sm-0"),
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCard,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "d-flex align-items-center mb-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/global-presence/us-flag.png",
+                                                width: 45,
+                                                height: 31,
+                                                alt: "US Flag"
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                lineNumber: 18,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 17,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                            className: "ml-2 mb-2",
+                                            children: "NEW YORK"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 20,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted address",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faMapMarkerAlt"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 22,
+                                                    columnNumber: 37
+                                                }, this),
+                                                "1538, Old Country Road, Plainview, New York, 11803"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 21,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted mb-1",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faPhone"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 26,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "tel:+1-516-858-5840",
+                                                    className: "hover-underline",
+                                                    "aria-label": "Call New York office at +1-516-858-5840",
+                                                    children: "+1-516-858-5840 (Sales)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 27,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 25,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                    lineNumber: 16,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                lineNumber: 15,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCardCol, " col-xxl-2 col-xl-2 col-lg-4 col-md-3 col-sm-6 col-12 px-3 px-sm-0"),
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCard,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "d-flex align-items-center mb-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/global-presence/ca-flag.png",
+                                                width: 45,
+                                                height: 31,
+                                                alt: "Canada Flag"
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                lineNumber: 35,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 34,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                            className: "mb-2",
+                                            children: "MISSISSAUGA, CANADA"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 37,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted address",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faMapMarkerAlt"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 37
+                                                }, this),
+                                                "975 Mid-Way Blvd UNIT 12, Mississauga, ON L5T 2C6, Canada"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 38,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted mb-1",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faPhone"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 43,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "tel:+1-516-858-4836",
+                                                    className: "hover-underline",
+                                                    "aria-label": "Call Mississauga office at +1-516-858-4836",
+                                                    children: "+1-516-858-4836 (Sales)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 44,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 42,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                    lineNumber: 33,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                lineNumber: 32,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCardCol, " col-xxl-2 col-xl-2 col-lg-4 col-md-3 col-sm-6 col-12 px-3 px-sm-0"),
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCard,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "d-flex align-items-center mb-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/global-presence/ca-flag.png",
+                                                width: 45,
+                                                height: 31,
+                                                alt: "Canada Flag"
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                lineNumber: 52,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 51,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                            className: "mb-2",
+                                            children: "PORT ALBERNI, CANADA"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 54,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted address",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faMapMarkerAlt"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 56,
+                                                    columnNumber: 37
+                                                }, this),
+                                                "3836 Keeha Dr Port Alberni, BC, V9Y8C8, Canada"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 55,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted mb-1",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faPhone"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 60,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "tel:+1-778-382-9628",
+                                                    className: "hover-underline",
+                                                    "aria-label": "Call Port Alberni office at +1-778-382-9628",
+                                                    children: "+1-778-382-9628 (Sales)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 59,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                    lineNumber: 50,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                lineNumber: 49,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCardCol, " col-xxl-2 col-xl-2 col-lg-4 col-md-3 col-sm-6 col-12 px-3 px-sm-0"),
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ContactCard,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "d-flex align-items-center mb-2",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/global-presence/in-flag.png",
+                                                width: 45,
+                                                height: 31,
+                                                alt: "India Flag"
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                lineNumber: 69,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 68,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                            className: "mb-2",
+                                            children: "NOIDA, INDIA"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 71,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted address",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faMapMarkerAlt"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 73,
+                                                    columnNumber: 37
+                                                }, this),
+                                                "701, 7th Floor, Tower B, Logix Cyber Park, C Block, Phase 2, Sector 62, Noida, Uttar Pradesh 201301"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 72,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-muted mb-1",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                    icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faPhone"]
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 77,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "tel:+91-9899675039",
+                                                    className: "hover-underline",
+                                                    "aria-label": "Call Noida, India office at +91-9899675039",
+                                                    children: "+91-9899675039 (Sales)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                                    lineNumber: 78,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                            lineNumber: 76,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                    lineNumber: 67,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                                lineNumber: 66,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+                    lineNumber: 13,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js",
+            lineNumber: 10,
+            columnNumber: 13
+        }, this)
+    }, void 0, false);
+}
+_c = GlobalPresence;
+var _c;
+__turbopack_context__.k.register(_c, "GlobalPresence");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/tech2globe-nextjs/app/ui/Footer/Footer.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Footer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/@fortawesome/react-fontawesome/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/app/ui/Footer/Footer.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$brands$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/@fortawesome/free-brands-svg-icons/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/@fortawesome/free-solid-svg-icons/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/app/components/home/GlobalPresence/GlobalPresence.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/tech2globe-nextjs/node_modules/next/navigation.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+function Footer() {
+    _s();
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    // Hide GlobalPresence only on contact-us page
+    const hideGlobalPresence = pathname === "/contact-us";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            !hideGlobalPresence && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$components$2f$home$2f$GlobalPresence$2f$GlobalPresence$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                lineNumber: 20,
+                columnNumber: 37
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Footer,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "container-fluid px-4 px-xl-5 position-relative",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "row justify-content-evenly",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-5 mb-xl-0",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                            children: "Our Policies"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 26,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "list-unstyled mb-0",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/",
+                                                        children: "Home"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 28,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 28,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/Privacy-Policy",
+                                                        children: "Privacy Policy"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 29,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 29,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/cookies-privacy-policy",
+                                                        children: "Cookies"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 30,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 30,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/sitemap.xml",
+                                                        children: "Sitemap"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 31,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 31,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 27,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-5 mb-xl-0",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                            children: "More Info"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 36,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "list-unstyled mb-0",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/about-us",
+                                                        children: "About Tech2Globe"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 38,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 38,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/our-partnerships",
+                                                        children: "Our Partnerships"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 39,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/infrastructure",
+                                                        children: "Infrastructure"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 40,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 40,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/values",
+                                                        children: "Values"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 41,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 41,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/associations-ascription",
+                                                        children: "Associations"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 42,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/clients",
+                                                        children: "Clients"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 43,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 43,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/our-team",
+                                                        children: "Our Team"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 44,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/life-at-tech2globe",
+                                                        children: "Life at Tech2globe"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 45,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 45,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 37,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 35,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-md-5 mb-xl-0",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                            children: "Support"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 50,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "list-unstyled mb-0",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/contact-us",
+                                                        children: "Contact Us"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 52,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 52,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/customer-support",
+                                                        children: "24*7 Support"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 53,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 53,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/faq",
+                                                        children: "FAQ"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                        lineNumber: 54,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 54,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 51,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/career",
+                                            className: "mt-3",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/we-re-hiring.png",
+                                                alt: "We're hiring",
+                                                width: 150,
+                                                height: 96,
+                                                className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].FooterHiring, " img-fluid mt-3")
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 56,
+                                                columnNumber: 67
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 56,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "list-unstyled mt-3",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "tel:+91-120-4983647",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                            icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$solid$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faPhone"],
+                                                            style: {
+                                                                width: '16px',
+                                                                height: '16px'
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 58,
+                                                            columnNumber: 70
+                                                        }, this),
+                                                        " +91-120-4983647 (HR)"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 58,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 58,
+                                                columnNumber: 33
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 57,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 49,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].FooterCertifications, " col-12 col-sm-6 col-md-6 col-lg-5 col-xl-3 mb-4 mb-md-5 mb-xl-0"),
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].CertificationLogos, " d-flex flex-wrap"),
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://clutch.co/profile/tech2globe-web-solutions",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/Clutch.png",
+                                                    alt: "Tech2Globe Clutch Reviews",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 65,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 64,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.goodfirms.co/company/tech2globe-web-solutions-llp",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/goodfirms.png",
+                                                    alt: "Goodfirms",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 67,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.designrush.com/agency/profile/tech2globe",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/DR-LOGO.png",
+                                                    alt: "Tech2Globe Design Rush Review",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 71,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 70,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.trustpilot.com/review/tech2globe.com",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/TrustPilot.png",
+                                                    alt: "Tech2Globe Trustpilot Reviews",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 74,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 73,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://upcity.com/profiles/tech2globe-canada",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/TDA.png",
+                                                    alt: "Top Digital Agency | UP City",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 77,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 76,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.escindia.in/membership-certifica/tech2globe-web-solutions-llp/",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/ESC-LOGO.png",
+                                                    alt: "ESC Member",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 80,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 79,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.albernichamber.ca/directory/tech2globe-web-solutions-inc",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/Alberni-Valley.png",
+                                                    alt: "Alberni Valley Chamber of India",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 83,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 82,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.topseos.com/profile/tech2globe-web-solutions-llp",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/top-seo-best-in-search.png",
+                                                    alt: "Top Seos Best in Search",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 86,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 85,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://www.indiasoft.org/",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/india-soft.png",
+                                                    alt: "India Soft",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 89,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 88,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "https://litextension.com/partner.html",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/images/footer/litextensions.png",
+                                                    alt: "Litextensions",
+                                                    width: 110,
+                                                    height: 110,
+                                                    className: "img-fluid mb-3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 92,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 91,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/footer/DMCA.png",
+                                                alt: "DMCA Protected",
+                                                width: 110,
+                                                height: 110,
+                                                className: "img-fluid mb-3"
+                                            }, void 0, false, {
+                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                lineNumber: 94,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                        lineNumber: 63,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 62,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "col-12 col-sm-6 col-md-6 col-lg-5 col-xl-3 mb-4 mb-md-5 mb-xl-0",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "row",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "col-12",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                                    children: "Follow Us"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].SocialIcons,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "https://www.facebook.com/tech2globe.software",
+                                                            target: "_blank",
+                                                            className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Icon, " ").concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Facebook),
+                                                            "aria-label": "Follow us on Facebook",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$brands$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faFacebookF"]
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                lineNumber: 104,
+                                                                columnNumber: 196
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 104,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "https://www.linkedin.com/company/tech2globe",
+                                                            target: "_blank",
+                                                            className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Icon, " ").concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Linkedin),
+                                                            "aria-label": "Follow us on LinkedIn",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$brands$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faLinkedinIn"]
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                lineNumber: 105,
+                                                                columnNumber: 195
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 105,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "https://www.instagram.com/tech2globeweb/",
+                                                            target: "_blank",
+                                                            className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Icon, " ").concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Instagram),
+                                                            "aria-label": "Follow us on Instagram",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$brands$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faInstagram"]
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                lineNumber: 106,
+                                                                columnNumber: 194
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 106,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "https://www.youtube.com/user/Tech2Globe",
+                                                            target: "_blank",
+                                                            className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Icon, " ").concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Youtube),
+                                                            "aria-label": "Watch us on YouTube",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$react$2d$fontawesome$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FontAwesomeIcon"], {
+                                                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f40$fortawesome$2f$free$2d$brands$2d$svg$2d$icons$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["faYoutube"]
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                lineNumber: 107,
+                                                                columnNumber: 188
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 107,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "https://twitter.com/Tech2Globe",
+                                                            target: "_blank",
+                                                            className: "".concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Icon, " ").concat(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$app$2f$ui$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].Twitter),
+                                                            "aria-label": "Follow us on Twitter",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                                xmlns: "http://www.w3.org/2000/svg",
+                                                                width: "20",
+                                                                height: "auto",
+                                                                viewBox: "0 0 22 22",
+                                                                fill: "",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    d: "M16.7991 1.74512H19.8914L13.1356 9.46665L21.0833 19.9739H14.8603L9.9862 13.6013L4.40912 19.9739H1.31489L8.54098 11.7149L0.916664 1.74512H7.29768L11.7034 7.56992L16.7991 1.74512ZM15.7138 18.123H17.4273L6.36661 3.49882H4.52784L15.7138 18.123Z",
+                                                                    fill: ""
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                    lineNumber: 109,
+                                                                    columnNumber: 45
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                                lineNumber: 108,
+                                                                columnNumber: 180
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                            lineNumber: 108,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 101,
+                                            columnNumber: 33
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                        lineNumber: 99,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 98,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                            lineNumber: 23,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "row mt-4 text-center",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "col-md-12 text-md-right mt-4 mt-md-0 text-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-white",
+                                    children: [
+                                        "©  Copyright ",
+                                        new Date().getFullYear(),
+                                        " | All Rights Reserved by",
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/",
+                                            className: "hover-underline",
+                                            "aria-label": "Visit Tech2Globe's homepage",
+                                            children: "Tech2Globe"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 123,
+                                            columnNumber: 33
+                                        }, this),
+                                        " ",
+                                        "|",
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/contact-us",
+                                            className: "hover-underline",
+                                            "aria-label": "Refer us page",
+                                            children: "Refer Us"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 131,
+                                            columnNumber: 33
+                                        }, this),
+                                        " ",
+                                        "|",
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/scam-alert",
+                                            className: "hover-underline",
+                                            "aria-label": "Scam Alert page",
+                                            children: "Scam Alert"
+                                        }, void 0, false, {
+                                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                            lineNumber: 139,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                    lineNumber: 121,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                                lineNumber: 120,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                            lineNumber: 119,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                    lineNumber: 22,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/tech2globe-nextjs/app/ui/Footer/Footer.js",
+                lineNumber: 21,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true);
+}
+_s(Footer, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$tech2globe$2d$nextjs$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
+    ];
+});
+_c = Footer;
+var _c;
+__turbopack_context__.k.register(_c, "Footer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=tech2globe-nextjs_app_f9ea17cd._.js.map

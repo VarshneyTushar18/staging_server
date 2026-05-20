@@ -1,0 +1,14 @@
+table > thead > tr > th{
+    text-align: left!important;
+}
+
+table button {
+    background-color:#c6010b;
+    color: #fff;
+    padding: 8px 27px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,96 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+.ServiceCard .Icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f0fe;
+    display: flex;
+    color: #234268;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 12px auto;
+    font-size: 32px;
+}
+
+
+.ServiceCard:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ConsCard .IcoHolder {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.InnerIcon {
+    text-align: left;
+    background-color: #c9010c;
+    padding: 5px !important;
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 30px;
+    max-width: max-content;
+}
+
+.PageAccordion .AccordionItem {
+    margin-bottom: 16px;
+    border: 1px solid #dee2e6;
+}
+
+.PageAccordion .AccordionBody {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+}
+
+.PageAccordion .AccordionButton {
+    border: none;
+    width: 100%;
+    background-color: #b0c4de66;
+    color: #234268;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton:global(.collapsed) {
+    border: none;
+    width: 100%;
+    background-color: #efefef;
+    color: #313131;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media(max-width:767px) {
+    .SingleItem {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}

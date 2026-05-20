@@ -1,0 +1,60 @@
+.PanelTitle{
+    margin-bottom: 0;
+}
+
+.PanelTitle a {
+    color: #505050;
+    font-size: 18px;
+    padding: 12px;
+    border-bottom: 1px solid #e2e2e2;
+    align-items: center;
+    display: flex;
+    background: #ececec;
+    justify-content: space-between;
+}
+
+.PanelBody {
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    padding: 15px;
+    border-width: 0px 1px 1px;
+    border-style: solid solid solid;
+    border-color: rgb(226, 226, 226) rgb(226, 226, 226) rgb(226, 226, 226);
+    border-image: initial;
+    border-top: 0px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.Panel{
+    margin-bottom: 20px;
+}
+
+
+.FaqIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Plus {
+    display: inline-block;
+}
+
+.Minus {
+    display: none;
+}
+
+:global(a[aria-expanded="true"]) .Minus {
+  display: inline-block;
+}
+:global(a[aria-expanded="true"]) .Plus {
+  display: none;
+}

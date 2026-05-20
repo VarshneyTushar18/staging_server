@@ -1,0 +1,101 @@
+
+.WorldwideLocations {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-image: url("/images/global-presence/diagonal-pattern.webp");
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .WorldwideLocations {
+        padding-block: 20px;
+    }
+}
+
+.ContactCard {
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    border: unset;
+}
+
+.ContactCard img {
+    margin-bottom: 10px;
+}
+
+.ContactCard :global(h6) {
+    font-weight: bold;
+    color: #141E46;
+    font-size: 16px;
+}
+
+.ContactCard :global(.text-muted) {
+    font-size: 0.9em;
+    color: #111111 !important;
+}
+
+.ContactCard svg {
+    margin-right: 8px;
+    color: #141E46;
+    width: 10.78px;
+}
+
+.ContactCard i {
+    margin-right: 8px;
+    color: #141E46;
+}
+
+.ContactCard :global(.address) {
+    min-height: 65px;
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+    .ContactCard .address {
+        min-height: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    .ContactCard .address {
+        min-height: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ContactCardCol {
+        width: 45%;
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ContactCardCol {
+        width: 30%;
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .ContactCardCol {
+        width: 30%;
+        margin-inline: 6px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .ContactCardCol {
+        width: 21% !important;
+        margin-inline: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .ContactCardCol {
+        width: 22.56% !important;
+        margin-inline: 0;
+    }
+}

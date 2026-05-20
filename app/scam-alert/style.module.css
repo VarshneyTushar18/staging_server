@@ -1,0 +1,15 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.BannerAlert {
+    background-image: url(/images/scam-alert-banner.jpg) !important;
+    background-color: rgb(164 164 164) !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: 0px !important;
+    padding: 120px 0;
+    background-blend-mode: multiply;
+}

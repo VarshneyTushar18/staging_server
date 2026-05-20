@@ -1,0 +1,58 @@
+.ContactFormSection {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-image: url(/images/contact-us-feature-banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode: multiply;
+    background-color: rgba(20, 33, 42, 0.75);
+    padding-block: 50px;
+}
+
+.ContactFormSection h1 {
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ContactFormSection ol {
+    padding-left: 0;
+}
+
+.ContactFormSection ol li {
+    padding-block: 1em;
+    list-style-type: none;
+}
+
+.Formbox {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 30px 30px;
+    margin-block: 30px;
+    width: 100%;
+}
+
+.Formbox input:hover,
+.Formbox textarea:hover,
+.Formbox select:hover {
+    border-color: #C01F29;
+    box-shadow: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.Formbox input:focus,
+.Formbox textarea:focus,
+.Formbox select:focus {
+    border-color: #C01F29;
+    background: #dcdcdc;
+    box-shadow: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}

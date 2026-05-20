@@ -1,0 +1,442 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+
+.IconBox svg {
+    width: 55px;
+    height: 55px;
+}
+
+.IconBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+}
+
+.ImageBox h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ClientOuter {
+    width: 19%;
+    border: 1px dashed #dfdfdf;
+    margin: 2px;
+}
+
+.ClientOuter .Clientlg {
+    text-align: center;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Thumb {
+    padding: 7px;
+}
+
+.CertificationCard {
+    display: block;
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 40px 28px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.commonInner {
+    width: 19%;
+    border: 1px dashed #dfdfdf;
+    margin: 2px;
+    background-color: #c6010b !important;
+    text-align: center;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commonInner .Title {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 0px;
+    font-weight: 500;
+}
+
+.ServiceCard .Icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f0fe;
+    display: flex;
+    color: #234268;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 12px auto;
+    font-size: 32px;
+}
+
+
+.ServiceCard:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ConsCard .IcoHolder {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.InnerIcon {
+    text-align: left;
+    background-color: #c9010c;
+    padding: 5px !important;
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 30px;
+    max-width: max-content;
+}
+
+.ThreeList {
+    --webkit-column-count: 3;
+    -webkit-column-gap: 30px;
+    column-count: 3;
+    column-gap: 30px;
+}
+
+.IcoCardTwo {}
+
+.IcoCardBlock {
+    background: #fff;
+    padding: 30px 25px;
+    box-shadow: 0 0px 25px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    -webkit-transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+    min-height: 380px;
+}
+
+.IcoCardTwo img {
+    width: 50px;
+}
+
+
+.MyTable th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    background: #c6010b;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.ContentImage img {
+    width: 100%;
+}
+
+.ColorIconBox {
+    background: url(/images/services/service-inner/box-background.jpg);
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.050);
+    border-radius: 15px !important;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    padding: 20px 10px 10px !important;
+    overflow: hidden;
+}
+
+.ColorIconBox h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    min-height: 50px;
+}
+
+.ColorIconBox p {
+    border-radius: 5px;
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.ColorOne h3 {
+    color: #1cc7d0;
+}
+
+.ColorOne p {
+    background: #5ad6dd;
+    color: #fff;
+}
+
+.ColorTwo h3 {
+    color: #fe739a;
+}
+
+.ColorTwo p {
+    background: #fe739a;
+    color: #fff;
+}
+
+.ColorThree h3 {
+    color: #f37737;
+}
+
+.ColorThree p {
+    background: #fda06b;
+    color: #fff;
+}
+
+.ColorFour h3 {
+    color: #156eb3;
+}
+
+.ColorFour p {
+    background: #539cd4;
+    color: #fff;
+}
+
+.ColorFive h3 {
+    color: #204156;
+}
+
+.ColorFive p {
+    background: #57829e;
+    color: #fff;
+}
+
+.ColorSix h3 {
+    color: #ef5541;
+}
+
+.ColorSix p {
+    background: #fb8879;
+    color: #fff;
+}
+
+.ColorSeven h3 {
+    color: #b7338d;
+}
+
+.ColorSeven p {
+    background: #e371bf;
+    color: #fff;
+}
+
+.ColorEight h3 {
+    color: #1cc7d0;
+}
+
+.ColorEight p {
+    background: #5ad6dd;
+    color: #fff;
+}
+
+.ColorNine h3 {
+    color: #025760;
+}
+
+.ColorNine p {
+    background: #2daab5;
+    color: #fff;
+}
+
+.ColorTen h3 {
+    color: #155791;
+}
+
+.ColorTen p {
+    background: #548bbb;
+    color: #fff;
+}
+
+.ColorEleven h3 {
+    color: #ff4f81;
+}
+
+.ColorEleven p {
+    background: #ff8aab;
+    color: #fff;
+}
+
+.ColorTwelve h3 {
+    color: #f98d00;
+}
+
+.ColorTwelve p {
+    background: #f6bb62;
+    color: #fff;
+}
+
+.ColorThirteen h3 {
+    color: #ff4f85;
+}
+
+.ColorThirteen p {
+    background: #fe739a;
+    color: #fff;
+}
+
+.ColorFourteen h3 {
+    color: #1cc7d0;
+}
+
+.ColorFourteen p {
+    background: #5ad6dd;
+    color: #fff;
+}
+
+.ColorFifteen h3 {
+    color: #f05541;
+}
+
+.ColorFifteen p {
+    background: #fb8879;
+    color: #fff;
+}
+
+.ColorSixteen h3 {
+    color: #00588e;
+}
+
+.ColorSixteen p {
+    background: #3c90c4;
+    color: #fff;
+}
+
+
+
+.ColorIconBox ul {
+    font-size: 15px;
+}
+
+
+.MobileInner {
+    display: none;
+}
+
+@media(max-width:767px) {
+    .ClientOuter {
+        width: 23% !important;
+    }
+
+    .ClientOuter .Clientlg img {
+        width: 100%;
+    }
+
+    .DesktopInner {
+        display:none;
+    }
+
+    .MobileInner {
+        display: block;
+    }
+
+    .MobileInner .inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .MobileInner .inner .commonInner{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .Clientlg {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .Clientlg img{
+        width: 100%;
+    }
+
+    .IcoCardTwo :global(.col-md-4){
+        width: 100%!important;
+    }
+
+    .IcoCardBlock{
+        min-height: max-content;
+    }
+}

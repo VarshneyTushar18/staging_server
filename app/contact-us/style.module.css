@@ -1,0 +1,27 @@
+.AddressSection iframe {
+    height: 250px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    box-shadow: 0px 35px 70px rgba(0, 0, 0, .08);
+    margin-top: 30px;
+}
+
+.AddressSection img {
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+
+.AddressText{
+    color: #667085;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    padding-bottom: 8px;
+    min-height: 90px;
+}
+
+.TelBlock{
+    min-height: 20px;
+}

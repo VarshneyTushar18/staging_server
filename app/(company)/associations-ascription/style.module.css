@@ -1,0 +1,40 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.AssociationsCard img {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 230px;
+    max-height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.AssociationsCard h3 {
+    background-color: #c7010c;
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1.6;
+    padding-block: 12px;
+    min-height: 80px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-inline: 15px;
+}
+
+@media (max-width:767px) {
+    .AssociationsCard h3 {
+        min-height: max-content;
+    }
+
+    .AssociationsCard img {
+        object-fit: contain;
+    }
+}

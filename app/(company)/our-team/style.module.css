@@ -1,0 +1,14 @@
+.TeamCard figure{
+    background-color: #d6dbe1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 6px solid #e8e8e8;
+    margin: 0px auto;
+}
+
+.TeamCard figure img {
+    min-width: 100%;
+    min-height: 75%;
+}

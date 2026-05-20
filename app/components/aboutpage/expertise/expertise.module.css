@@ -1,0 +1,77 @@
+.ExpertiseSection {
+    background-image: url(/images/about/navigation-complaxing-business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.5);
+     padding-left: 100px!important;
+    padding-right: 100px!important
+}
+
+.IconBoxWrapper li {
+    width: 24%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-block: 25px;
+    position: relative;
+    padding-left: 107px
+}
+
+.IconBoxWrapper li h6{
+    font-size: 14px;
+    color: #202020;
+    padding: 30px 0px;
+    margin: 0;
+}
+
+.IconBoxWrapper li a{
+    display: flex;
+    align-items: center;
+}
+
+.IconBoxWrapper figure{
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDAF4B;
+}
+
+.IconBoxWrapper li:nth-child(2) figure{
+    background: #37C1B4;
+}
+
+.IconBoxWrapper li:nth-child(3) figure{
+    background: #FF6F69;
+}
+
+.IconBoxWrapper li:nth-child(4) figure{
+    background: #7CA2E1;
+}
+
+.IconBoxWrapper li:nth-child(5) figure{
+    background: #7CA2E1;
+}
+
+.IconBoxWrapper li:nth-child(6) figure{
+    background: #FF6F69;
+}
+
+.IconBoxWrapper li:nth-child(7) figure{
+    background: #37C1B4;
+}
+
+.IconBoxWrapper figure img{
+    width: 40%;
+    object-fit: cover;
+}
+

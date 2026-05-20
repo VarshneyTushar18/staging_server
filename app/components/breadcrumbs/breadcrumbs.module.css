@@ -1,0 +1,32 @@
+.BreadcrumbBg {
+    background-color: #e8e8e8;
+    margin-bottom: 50px;
+    padding-block: 8px;
+}
+
+.BreadcrumbBg ul {
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.BreadcrumbBg ul li a {
+    text-transform: capitalize;
+}
+
+.BreadcrumbBg ul li:first-child a {
+    text-decoration: underline;
+}
+
+
+@media (max-width:767px) {
+    .BreadcrumbBg {
+        margin-bottom: 30px;
+    }
+
+    .BreadcrumbBg {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,41 @@
+.SidebarCard {
+    background: #f8f9fa;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    border: 1px solid #ededed;
+}
+
+.SidebarTitle {
+    background: #234268;
+    padding: 10px 18px;
+    border-radius: 8px 8px 0px 0px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 5px solid #c8070b;
+    margin-bottom: 0;
+}
+
+.Listing {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Listing .ListItem {
+    padding: 8px 18px;
+    border-bottom: 1px dashed #cbcbcb;
+}
+
+.Listing .ListItem:last-child {
+    border-bottom: none;
+}
+
+.Listing .ListItem a{
+    font-size: 14px;
+}
+
+.Listing .ListItem a:hover {
+    color: #c8070b;
+    text-decoration: underline;
+}

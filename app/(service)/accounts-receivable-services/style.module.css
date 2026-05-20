@@ -1,0 +1,152 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inner .commonInner {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.inner2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inner2 .commonInner {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/* ----- ROW 1 (odd inner container): gray-red alternating ----- */
+.commonInner:nth-child(1) {
+    background: #e28525;
+}
+
+.commonInner:nth-child(2) {
+    background: #016972;
+}
+
+.commonInner:nth-child(3) {
+    background: #f44336;
+}
+
+.commonInner:nth-child(4) {
+    background: #c34416;
+}
+
+.commonInner:nth-child(5) {
+    background: #00403f;
+}
+
+.inner2 .commonInner:nth-child(1) {
+    background: #e91e63;
+}
+
+.inner2 .commonInner:nth-child(2) {
+    background: #2196f3;
+}
+
+.inner2 .commonInner:nth-child(3) {
+    background: #9e9e9e;
+}
+
+.inner2 .commonInner:nth-child(4) {
+    background: #3f51b5;
+}
+
+.inner2 .commonInner:nth-child(5) {
+    background: #cb983b;
+}
+
+.inner .commonInner:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.inner .commonInner:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.inner .commonInner .img {
+    height: 65px;
+}
+
+.inner .commonInner .title {
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.inner2 .commonInner:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.inner2 .commonInner:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.inner2 .commonInner .img {
+    height: 65px;
+}
+
+.inner2 .commonInner .title {
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.ClientOuter {
+    width: 19%;
+    border: 1px dashed #dfdfdf;
+    margin: 2px;
+}
+
+.ClientOuter .Clientlg {
+    text-align: center;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media(max-width:767px) {
+    
+
+    .ClientOuter {
+        width: 23% !important;
+    }
+
+    .ClientOuter .Clientlg img {
+        width: 100%;
+    }
+}

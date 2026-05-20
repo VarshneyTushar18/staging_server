@@ -1,0 +1,89 @@
+ul.amazon-marketplace-tabs {
+
+    border: 0;
+
+    padding: .7rem;
+
+    background-color: #c8000b;
+
+    z-index: 2;
+
+    position: relative;
+
+    border-radius: 2px;
+
+    display: flex;
+
+    align-items: center;
+
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+
+}
+
+
+
+ul.amazon-marketplace-tabs li {
+
+    flex-basis: 0;
+
+    -webkit-box-flex: 1;
+
+    -ms-flex-positive: 1;
+
+    flex-grow: 1;
+
+    text-align: center;
+
+    margin-left: 0;
+
+    display: table-cell;
+
+    width: 1%;
+
+}
+
+
+
+ul.amazon-marketplace-tabs>li.active>a,
+
+ul.amazon-marketplace-tabs>li.active>a:hover,
+
+ul.amazon-marketplace-tabs>li.active>a:focus {
+
+    background: #ffffff;
+
+    color: #c8070b !important;
+
+}
+
+
+
+
+
+ul.amazon-marketplace-tabs li a {
+
+    border: 0;
+
+    color: #fff;
+
+    display: block;
+
+    margin: 0;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+@media (max-width: 767px) {
+    ul.amazon-marketplace-tabs li {
+        width: 100%;
+    }
+}

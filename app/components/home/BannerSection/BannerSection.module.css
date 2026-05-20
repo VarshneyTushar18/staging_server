@@ -1,0 +1,131 @@
+.BannerSection {
+    background: url(/images/homepage/banner/site-bn-2.jpg);
+    background-repeat: no-repeat;
+    height: 480px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(22, 30, 69, 0.50);
+    background-position: center;
+    /* padding-top: 100px;
+    margin-top: -85px; */
+    z-index: 1;
+}
+
+.BannerSection :global(h1) {
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.HomeBanner :global(.row) {
+    width: 75%;
+}
+
+:global(.hover-underline) {
+    text-decoration: none;
+    color: inherit;
+    transition: text-decoration 0.3s ease;
+}
+
+:global(.hover-underline:hover) {
+    text-decoration: underline;
+}
+
+
+
+.CertifiedSection :global(ul) {
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.BgLight {
+    background: #ffffffe0 !important;
+    width: 106px;
+    height: 60px;
+    padding: 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CertifiedSection-row {
+    width: 74% !important;
+}
+
+.CertifiedSection {
+    width: 75%;
+}
+
+
+@media (min-width: 1200px) and (max-width:1400px) {
+
+    .BannerSection :global(h1) {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+}
+
+@media(max-width:1200px) {
+
+    .CertifiedSection-row {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .CertifiedSection {
+        width: 100%;
+    }
+
+    .CertifiedSection :global(ul) {
+        gap: 8px;
+    }
+
+
+    .BgLight {
+        width: 101px;
+        height: 47px;
+        padding: 7px;
+    }
+}
+
+@media (max-width:767px) {
+
+
+    .HomeBanner :global(.row) {
+        width: 100%;
+    }
+
+    .BannerSection {
+        height: auto;
+    }
+
+    .BannerSection :global(h1) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .BannerSection :global(p) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .BannerSection {
+        height: auto;
+    }
+
+    .BannerSection :global(h1) {
+        font-size: 24px !important;
+        line-height: 32px;
+    }
+
+    .HomeBanner :global(.row) {
+        width: 100%;
+    }
+
+}

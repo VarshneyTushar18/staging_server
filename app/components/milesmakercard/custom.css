@@ -1,0 +1,38 @@
+.modal-dialog {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 4px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #dc3545;
+    justify-content: right;
+}
+
+.modal-header button {
+    margin-right: 20px;
+}
+
+.modal-footer {
+    min-height: 16.43px;
+    padding: 4px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #dc3545;
+}
+
+.MilesImage{
+    background: #e1e6e9;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog {
+        max-width: 100%;
+    }
+
+    .card .card-body{
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        border-radius: 15px;
+    }
+}

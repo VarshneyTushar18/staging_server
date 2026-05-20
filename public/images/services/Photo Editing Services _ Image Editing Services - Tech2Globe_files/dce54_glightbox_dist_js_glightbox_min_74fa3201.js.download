@@ -1,0 +1,13 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/tech2globe-nextjs/node_modules/glightbox/dist/js/glightbox.min.js [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/dce54_glightbox_dist_js_glightbox_min_fb05c2d0.js",
+  "static/chunks/dce54_glightbox_dist_js_glightbox_min_99a5a754.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/tech2globe-nextjs/node_modules/glightbox/dist/js/glightbox.min.js [app-client] (ecmascript)");
+    });
+});
+}),
+]);

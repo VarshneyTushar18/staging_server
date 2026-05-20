@@ -1,0 +1,132 @@
+.ourTestimonials {
+    padding-block: 50px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .ourTestimonials {
+        padding-block: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ourTestimonials {
+        padding-block: 20px;
+    }
+}
+
+.bgShape1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 350px;
+    background-image: url(/images/tech-pattern.webp);
+    background-position: left center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+@media (max-width: 992px) {
+    .bgShape1 {
+        display: none;
+    }
+}
+
+.bounceY {
+    animation: bounceY 10s infinite linear;
+}
+
+@keyframes bounceY {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.testimonialCard {
+    max-width: 450px;
+    padding: 14px 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px rgba(105, 105, 105, 0.2);
+    position: relative;
+    margin-block: 10px;
+    margin-right: 10px;
+}
+
+.testimonialCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(#C01F29, #141E46);
+}
+
+.testimonialHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+}
+
+.stars {
+    color: #C01F29;
+    font-size: 14px;
+}
+
+.testimonialText {
+    margin-top: 10px;
+    color: #696969;
+    line-height: 24px;
+    min-height: 168px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+}
+
+.testimonialFooter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.companyLogo {
+    width: 45px;
+    height: 45px;
+}
+
+.postedOnLink {
+    font-size: 14px;
+    color: #696969;
+}
+
+.postedOnLink .company {
+    color: #234268;
+    display: block;
+}
+
+.quoteIcon {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}

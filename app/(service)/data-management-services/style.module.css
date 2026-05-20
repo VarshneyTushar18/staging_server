@@ -1,0 +1,113 @@
+.ContentDiv h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ContentDivDesignTwo ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ContentDivDesignTwo ol li {
+    width: 30.33%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+    margin-block: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.ContentDivDesignTwo ol li::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 8px;
+    background: linear-gradient(45deg, #FCBAAD, #c6010b);
+}
+
+.ContentDivDesignTwo ol li h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    padding: 0 0 15px 0;
+    color: #515151;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.ContentDivDesignTwo ol li h3::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #c6010b;
+    bottom: 0;
+    left: 0;
+}
+
+.ContentDivDesignThree {
+    width: 100%;
+    background-color: #272829;
+    height: auto;
+    display: inline-block;
+    margin-block: 50px;
+}
+
+.ContentDivDesignThree ol {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-block: 50px;
+    padding-inline: 0;
+}
+
+.ContentDivDesignThree ol li {
+    width: 40%;
+    margin-block: 25px;
+}
+
+.ContentDivDesignThree ol li figure img {
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 0;
+    image-rendering: -webkit-optimize-contrast;
+    margin-bottom: 0px;
+}
+
+.ContentDivDesignThree ol li h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    padding-block: 15px;
+    margin: 0;
+    padding-inline: 0px;
+    position: relative;
+}
+
+.ContentDivDesignThree ol li h3::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #c6010b;
+    bottom: 0;
+    left: 0;
+}
+
+.ContentDivDesignThree ol li p {
+    color: #ffffff;
+    margin-block: 10px;
+}
+
+.StickyTop{
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}

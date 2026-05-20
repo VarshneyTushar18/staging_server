@@ -1,0 +1,77 @@
+.IndustriesServe :global(.title-section) {
+    max-width: 475px;
+}
+
+.IndustriesServe :global(.swiper) {
+    margin: 50px 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .industries-we-serve .title-section {
+        max-width: 100%;
+    }
+}
+
+.IndustriesCard {
+    width: 160px;
+    height: 190px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(176, 196, 222, 0.4);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    color: #234268;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    flex-direction: column;
+}
+
+.IndustriesCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/images/homepage/dots-pattern.png');
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.IndustriesCard:hover::before {
+    display: none;
+}
+
+.IndustriesCard:hover {
+    background: rgba(176, 196, 222, 1);
+}
+
+.IndustriesIcon {
+    width: 80px;
+    height: 80px;
+}
+
+.industries-we-serve .owl-carousel .owl-item img {
+    width: 100%;
+    height: auto;
+}
+
+.IndustriesTitle {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #141E46;
+    z-index: 2;
+    position: relative;
+}
+
+
+@media (max-width:767px) {
+    .IndustriesCard {
+        width: 100%;
+    }
+}

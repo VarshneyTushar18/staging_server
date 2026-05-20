@@ -1,0 +1,83 @@
+.tabCard {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 100, 103, 0.2861519607843137) 58%, rgba(255, 255, 255, 1) 100%);
+    border-top: 2px solid #C8070B !important;
+    height: 100px;
+    width: 130px;
+    border-radius: 0;
+    border: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.imgWrapper {
+    height: 50% !important;
+    width: 50% !important;
+    margin: 8px auto 0px auto;
+}
+
+.imgWrapper .img {
+    object-fit: cover;
+}
+
+.tabCard .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.tabCard.active {
+    border-top: 3px solid red;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 100, 103, 0.74) 58%, rgba(255, 255, 255, 1) 100%);
+}
+
+.contentBox h2 {
+    font-size: 20px;
+    font-weight: 500;
+    border-left: 3px solid red;
+    padding-left: 10px;
+    line-height: 2.5rem;
+}
+
+.yearBtn{
+    background: #ff0005;
+    margin-right: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+.yearBtn.active{
+    background: linear-gradient(280deg, rgba(200, 7, 11, 1) 0%, rgba(133, 0, 3, 1) 100%);
+}
+
+.bannerBlock{
+    position: relative;
+}
+
+.imgBanner{
+    position: relative;
+}
+
+
+.bannerContentBlock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bannerContentBlock h4{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bg-danger{
+    background: #c6010b !important;
+    color: #fff;
+}

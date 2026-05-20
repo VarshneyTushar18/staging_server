@@ -1,0 +1,11 @@
+.FeatureBanner {
+    max-height: 300px;
+    overflow: hidden;
+    top: -2px;
+    padding: 0;
+}
+
+.FeatureBanner h1 {
+    font-size: 40px;
+    font-weight: 800;
+}

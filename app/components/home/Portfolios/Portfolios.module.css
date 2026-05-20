@@ -1,0 +1,80 @@
+.mContainer {
+    background-color: #e8e8e8;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 1.2rem !important;
+    line-height: 1.2rem !important;
+}
+
+.portfolioDescription {
+    font-size: 16px;
+    color: #000 !important;
+    line-height: unset;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 0;
+    border: 0;
+}
+
+.cardImgOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: none;
+    border-radius: 0;
+    border: 0;
+    gap: 20px;
+}
+
+.cardImgOverlay .btn {
+    background-color: #C01F29;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.gslideDesc .btn {
+    background-color: #C01F29;
+    width: fit-content;
+}
+
+.portfolioCustomNav button {
+    background-color: #0D1B38;
+    border-radius: 50%;
+    color: #fff;
+    outline: none;
+    border: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.card:hover .cardImgOverlay {
+    opacity: 1;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expandIcon{
+    color: #ffffff;
+    font-size: 26px;
+}
+
+@media (max-width:767px){
+    .ServicePortfolio{
+        padding: 20px;
+    }
+}

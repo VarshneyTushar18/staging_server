@@ -1,0 +1,91 @@
+.ClientSlider{
+  padding: 0px 30px;
+}
+
+.ClientSlider :global(.testimonial-slide){
+    height: max-content !important;
+}
+
+.ClientSlider :global(.swiper-button-prev) {
+    background-size: 60% !important;
+    background-color: #c8070b;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    color: #fff !important;
+    transform: rotate(180deg);
+    margin: auto;
+}
+
+.ClientSlider :global(.swiper-button-next) {
+    background-size: 60% !important;
+    background-color: #c8070b;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    color: #fff !important;
+    margin: auto;
+}
+
+.ClientSlider :global(.swiper-pagination){
+    display: none !important;
+}
+
+.ClientSlider {
+  position: relative;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  background: #c8070b;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.navBtn:hover {
+  background: rgb(165, 13, 29); /* red / bootstrap danger */
+  color: white;
+}
+
+.prevBtn {
+  left: 0px;
+}
+
+.nextBtn {
+  right: 0px;
+}
+
+@media (max-width: 768px) {
+
+  .navBtn{
+    width: 25px;
+    height: 25px;
+  }
+
+  .navBtn svg{
+    font-size: 14px;
+  }
+
+  .prevBtn {
+    left: 5px;
+  }
+  .nextBtn {
+    right: 5px;
+  }
+
+  .TestimonialSlide h3{
+    font-size: 20px;
+  }
+
+}

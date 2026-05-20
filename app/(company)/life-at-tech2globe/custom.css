@@ -1,0 +1,11 @@
+.inner-banner {
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 75px 0;
+}
+
+.banner-2 {
+    background-image: url('/images/services/service-inner/lifeatbanner.jpg');
+}

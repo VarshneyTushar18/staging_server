@@ -1,0 +1,426 @@
+.cardblock {
+    background: #d8d8d86b;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardimage img {
+    border-radius: 12px;
+}
+
+.cta-btn {
+    margin-top: 25px;
+    background: #c01f2935;
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+
+.whychoosebox {
+    background: linear-gradient(90deg, #fff3f4, #fde2e3);
+    padding: 25px 25px;
+    border-radius: 12px;
+}
+
+.whychoosebox p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.whychoosebox img {
+    border-radius: 12px;
+}
+
+.bordered-card-wrapper {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+
+.bordered-card-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.custom-card {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.servicecardslide {
+    background: #d8d8d86b;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border: 0;
+}
+
+.accordion-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f9f9f9;
+    color: #d9534f;
+    /* Highlight active with soft red */
+    border-color: #d9534f;
+}
+
+.future-wrapper {
+    background: linear-gradient(90deg, #fff3f4, #fde2e3);
+    background-size: cover;
+    padding: 50px 45px 50px 45px;
+    border-radius: 12px;
+}
+
+.future-card {
+    background: #ffffff85;
+    border: 1px solid #C1222C;
+    padding: 25px 25px;
+    border-radius: 12px;
+}
+
+.future-card p {
+    margin-bottom: 0;
+}
+
+.future-wrapper .item {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.usecase-card {
+    background: #fff;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.usecase-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #234268, rgb(34, 67, 107));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.usecase-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.usecase-card:hover::before {
+    transform: scaleX(1);
+}
+
+.usecase-card span {
+    font-size: 90px;
+    font-weight: 700;
+    color: #0b2e5810;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.usecase-card .card-content {
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.usecase-card .icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(202, 97, 28, 0.1), rgba(230, 126, 34, 0.1));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.usecase-card .icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.usecase-card h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.usecase-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+
+.usecase-card .learn-more svg {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.usecase-card:hover .learn-more svg {
+    transform: translateX(3px);
+}
+
+.bg-integration {
+    /* Add linear gradient background on image */
+    background: linear-gradient(90deg, #00000085, #00000070), url(/images/integration-bg.webp) no-repeat center center;
+    background-size: cover;
+    padding: 50px 45px 50px 45px;
+    border-radius: 12px;
+}
+
+.bg-integration .block-fixed {
+    position: sticky;
+    top: 100px;
+}
+
+.bg-integration p {
+    color: #8D8D8D;
+}
+
+.bg-integration .int-card {
+    background: linear-gradient(90deg, #fff3f4, #fde2e3);
+    background-size: cover;
+    padding: 30px 30px;
+    border-radius: 12px;
+}
+
+.bg-integration .int-card p {
+    margin-bottom: 0;
+}
+
+.integrationImg {
+    border-radius: 12px;
+}
+
+.white-dashed-box {
+    background-color: #ffffff;
+    border: 1.5px dashed #cccccc;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    padding: 15px 20px;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white-dashed-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.white-dashed-box h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #234268;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+}
+
+.white-dashed-box p {
+    font-size: 14.5px;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .white-dashed-box {
+        padding: 1.5rem;
+    }
+
+    .white-dashed-box h3 {
+        font-size: 1.1rem;
+    }
+
+    .white-dashed-box p {
+        font-size: 0.9rem;
+    }
+}
+
+.cta-wrapper {
+    /* Add linear gradient background on image */
+    background: linear-gradient(90deg, #00000017, #00000000), url(/images/cta-bg.webp) no-repeat center center;
+    background-size: cover;
+    padding: 50px 45px 50px 45px;
+    border-radius: 12px;
+}
+
+.cta-wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+.whychoosedev .custom-card {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.whychoosedev .custom-card p {
+    margin-bottom: 0;
+}
+
+.dev-services .ser-slider .item {
+    background: #d8d8d86b;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dev-services .ser-slider .item ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+.application-card {
+    background: linear-gradient(90deg, #fff3f4, #fde2e3);
+    padding: 25px 25px;
+    border-radius: 12px;
+}
+
+.application-card p {
+    margiN-bottom: 0;
+}
+
+.industry-applications-section {
+    position: relative;
+}
+
+.industry-applications-section .application-image {
+    width: 330px;
+    position: absolute;
+    left: 38%;
+    height: 330px;
+    top: 15%;
+}
+
+.industry-applications-section .swiper .swiper-wrapper {
+    padding: 50px 0px !important;
+}
+
+.future-wrapper {
+    background: linear-gradient(90deg, #fff3f4, #fde2e3);
+    background-size: cover;
+    padding: 50px 45px 50px 45px;
+    border-radius: 12px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .application-slider {
+        padding: 0 0px;
+    }
+
+    .industry-applications-section .application-image {
+        width: 280px;
+        position: absolute;
+        left: 31%;
+        height: 280px;
+        top: 28%;
+    }
+
+    .cta-wrapper .col-md-8 {
+        width: 100%;
+    }
+
+    .development-process-section .col-md-4 {
+        width: 50%;
+    }
+
+    .invest-section .col-md-4 {
+        width: 50%;
+    }
+
+    .whychoosedev .col-md-4 {
+        width: 50%;
+    }
+
+    .whychoosesection .col-md-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+
+    .application-slider .col-md-4 {
+        margin-bottom: 16px;
+    }
+
+    .industry-applications-section .application-image {
+        display: none;
+    }
+
+    .bg-integration .block-fixed {
+        margin-bottom: 20px;
+    }
+
+    .bg-integration {
+        padding: 35px 30px 30px 35px;
+    }
+
+    .future-wrapper {
+        padding: 35px 30px 30px 35px;
+    }
+
+    .cta-wrapper {
+        padding: 35px 30px 30px 35px;
+    }
+
+    .dev-services .ser-slider .item {
+        padding: 35px 30px
+    }
+
+    .breadcrumbBg {
+        margin-bottom: 0px;
+    }
+}

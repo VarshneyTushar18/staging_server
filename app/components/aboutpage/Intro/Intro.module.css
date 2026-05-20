@@ -1,0 +1,61 @@
+.AboutPage{
+    margin-bottom: 100px;
+}
+
+.AboutCounter{
+    display: flex;
+    flex-flow: wrap;
+    width: 440px;
+    margin-block: 28px;
+}
+
+.CounterBlock {
+    width: 50%;
+    text-align: center;
+}
+
+.CounterBlock strong {
+    color: #C01F29;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.IntroImageOne img {
+    width: 400px;
+    height: 535px;
+    object-fit: cover;
+}
+
+.IntroImageTwo {
+    position: absolute;
+    top: 232px;
+    left: 350px;
+}
+
+.IntroImageTwo figcaption {
+    background-color: #242E53;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 435px;
+}
+
+.IntroImageTwo figure img {
+    border: 12px solid #ffffff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.IntroImageTwo figcaption figure strong {
+    text-align: center;
+    font-size: 18px;
+    padding-block: 12px;
+    font-weight: 600;
+}
+
+.IntroImageTwo figcaption figure h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}

@@ -1,0 +1,22 @@
+
+.ProductCard {
+    background-color: #e4e4e4;
+    margin-top: 5px;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.ProductCard .ImageWrapper {
+    max-width: 220px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.ProductCard .Title {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #333;
+}

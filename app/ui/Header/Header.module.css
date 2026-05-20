@@ -1,0 +1,114 @@
+.TopBar {
+    background-color: rgba(11, 46, 88, 90.2%);
+    padding-block: 6px;
+    color: #FFFFFF;
+    z-index: 1030;
+}
+
+.TopBar :global(.hover-underline) {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.TopBar:global(.contact-info) {
+    display: flex;
+    align-items: center;
+}
+
+.TopBar:global(.contact-info i) {
+    margin-right: 5px;
+}
+
+@media (max-width: 576px) {
+    .TopBar {
+        display: none;
+    }
+}
+
+.NavbarBrand img {
+    width: 220px;
+    max-width: 100%;
+}
+
+
+.CloseBtn {
+    background: #fff;
+    opacity: 1;
+    border-radius: 2px;
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    width: 41px;
+    height: 41px;
+    padding: 5px;
+    top: 14px;
+    left: -45px;
+    cursor: pointer;
+    border: 0;
+}
+
+.CloseBtn::before {
+    content: "✕";
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(20, 30, 70);
+}
+
+.ButtonRed {
+    appearance: none;
+    background-color: #C01F29;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 5px;
+    opacity: 1;
+    outline: 0;
+    padding: 1.5em 2.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1), background-color 100ms cubic-bezier(.694, 0, 0.335, 1), color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    padding: 1em 1em;
+    border-radius: 5px;
+}
+
+.OffCanvas {
+    width: 85%;
+    max-width: 85%;
+    /* transform: none !important;
+    visibility: visible !important; */
+}
+
+/* .OffCanvas_Backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+} */
+
+
+
+@media (max-width:1180px){
+    .TopBar{
+        display: none;
+    }
+}

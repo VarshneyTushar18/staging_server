@@ -1,0 +1,37 @@
+.ws-featurecard {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ws-featurecard .ws-iconblock {
+    width: 12%;
+    text-align: center;
+}
+
+.ws-featurecard .ws-iconblock img {
+    width: 55%;
+}
+
+.ws-featurecard .ws-contentblock {
+    width: 88%;
+}
+
+@media (max-width:767px) {
+    .ws-featurecard .ws-iconblock {
+        width: 20%;
+    }
+
+    .ws-featurecard .ws-contentblock {
+        width: 80%;
+    }
+
+    .ws-featurecard .ws-iconblock img {
+        width: 65%;
+        margin-right: 15px;
+    }
+}
+
+.borderleft {
+    border-left: 4px solid #234268;
+    padding-left: 6px;
+}

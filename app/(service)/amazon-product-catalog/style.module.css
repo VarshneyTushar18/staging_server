@@ -1,0 +1,57 @@
+.innerIcons {
+    text-align: left;
+    background-color: #c9010c;
+    padding: 5px !important;
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 30px;
+    max-width: max-content;
+}
+
+.headingText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.PageAccordion .AccordionItem {
+    margin-bottom: 16px;
+    border: 1px solid #dee2e6;
+}
+
+.PageAccordion .AccordionBody {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+}
+
+.PageAccordion .AccordionButton {
+    border: none;
+    width: 100%;
+    background-color: #b0c4de66;
+    color: #234268;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton:global(.collapsed) {
+    border: none;
+    width: 100%;
+    background-color: #efefef;
+    color: #313131;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PageAccordion .AccordionButton {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}

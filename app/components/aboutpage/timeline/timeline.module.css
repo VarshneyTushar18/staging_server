@@ -1,0 +1,74 @@
+.TimelineWrapper ol {
+    text-align: left;
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+
+.TimelineWrapper ol::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #141e46;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 10px
+}
+
+.TimelineWrapper ol li {
+    list-style-type: none;
+    max-width: 500px
+}
+
+.TimelineWrapper ol li h5 {
+    color: #141e46;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative
+}
+
+.TimelineWrapper ol li p {
+    padding-right: 50px
+}
+
+.TimelineWrapper ol li:nth-child(odd) {
+    margin-left: 530px
+}
+
+.TimelineWrapper ol li:nth-child(even) {
+    margin-left: -530px
+}
+
+.TimelineWrapper ol li:nth-child(even) h5::before,.TimelineWrapper ol li:nth-child(odd) h5::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #141e46;
+    border-radius: 100px;
+    animation: shadow-pulse 1s infinite
+}
+
+.TimelineWrapper ol li:nth-child(odd) h5::before {
+    left: 0;
+    margin-left: -82px
+}
+
+.TimelineWrapper ol li:nth-child(even) h5::before {
+    right: 0;
+    margin-right: 32px
+}
+
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0,0,0,.2)
+    }
+
+    to {
+        box-shadow: 0 0 0 35px transparent
+    }
+}

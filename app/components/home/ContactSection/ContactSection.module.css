@@ -1,0 +1,127 @@
+/* contact-us section */
+.ContactSection {
+    background-image: url('/images/form-banner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.Overlay {
+    background-color: rgba(27, 25, 35, 0.4);
+    padding: 60px 0;
+    color: white;
+}
+
+.ContactSection :global(.sub-title) {
+    color: #C01F29;
+}
+
+.ContactSection :global(.sub-title:before) {
+    color: #C01F29;
+}
+
+.ContactSection :global(.title) {
+    color: #ffffff;
+}
+
+.ContactSection .ContactForm {
+    background-color: rgba(192, 31, 41, 0.7);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.ContactSection :global(.form-control),
+.ContactSection :global(.form-select) {
+    padding: .75rem 0.80rem
+}
+
+.ContactSection :global(.form-control:focus),
+.ContactSection :global(.form-select:focus) {
+    color: var(--bs-body-color);
+    background-color: #E8F0FE;
+    border-color: #E8F0FE;
+    outline: 0;
+    box-shadow: none;
+}
+
+.ContactSection .btn-check:checked+.btn,
+.ContactSection .btn.active,
+.ContactSection .btn.show,
+.ContactSection .btn:first-child:active,
+.ContactSection :not(.btn-check)+.btn:active {
+    background-color: #234268 !important;
+}
+
+.ContactSection .form-control {
+    border-radius: 4px;
+}
+
+.ContactSection .contact-info {
+    color: white;
+}
+
+.ContactSection .contact-info h5 {
+    font-weight: bold;
+}
+
+.ContactSection .contact-info p {
+    font-size: 1.1rem;
+}
+
+.ContactSection .Icon {
+    background-color: rgba(192, 31, 41, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    margin-right: .5rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+}
+
+.ContactSection :global(.btn-primary) {
+    background-color: #141E46;
+    border: unset;
+    border-radius: 4px;
+    outline: 0;
+}
+
+
+/* ===== React Select Fix (GLOBAL) ===== */
+
+:global(.custom-select__menu-portal) {
+    z-index: 9999;
+}
+
+:global(.custom-select__menu) {
+    z-index: 9999;
+}
+
+/* Default option */
+:global(.custom-select__option) {
+    background-color: #ffffff;
+    color: #000;
+}
+
+/* Hover */
+:global(.custom-select__option--is-focused) {
+    background-color: #E8F0FE !important;
+    color: #000;
+}
+
+/* Selected */
+:global(.custom-select__option--is-selected) {
+    background-color: #C01F29 !important;
+    color: #fff !important;
+}
+
+/* Active */
+:global(.custom-select__option:active) {
+    background-color: #234268 !important;
+}

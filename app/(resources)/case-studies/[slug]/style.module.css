@@ -1,0 +1,54 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv li{
+    padding-bottom: .5rem !important;
+}
+
+
+/* TEXT */
+.ContentWrapper {
+  line-height: 1.7;
+}
+
+.ContentWrapper h1,
+.ContentWrapper h2,
+.ContentWrapper h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* TABLE */
+.ContentWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ContentWrapper th {
+  background-color: #d60000;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.ContentWrapper td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.ContentWrapper tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* IMAGES */
+.ContentWrapper img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+}

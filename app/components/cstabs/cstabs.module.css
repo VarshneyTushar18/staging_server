@@ -1,0 +1,28 @@
+.PorfolioTab {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border-bottom: medium none;
+  border-radius: 2px;
+  padding: 0;
+  border: none;
+}
+
+.PorfolioTab li a {
+  margin: 4px 6px;
+  background: #b0c4def2;
+  margin-bottom: 0px;
+  border-right: 1px solid #e7e5e6;
+  line-height: normal;
+  display: flex !important;
+  padding: 4px 10px !important;
+  border-radius: 5px;
+  color: #141e46;
+}
+
+
+.PorfolioTab li a:global(.active) {
+  background: #141e46;
+  color: #fff;
+}
