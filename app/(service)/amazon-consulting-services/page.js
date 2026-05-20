@@ -172,7 +172,7 @@ export default function AmazonConsulting() {
     return (
         <>
             <div className="">
-                <img src="/images/services/service-inner/tech2globe-consulting-banner-6.png" alt="AMAZON PPC CONSULTING" className="img-fluid" />
+                <img src="/images/homepage/Amazon-services-banner.webp" alt="AMAZON PPC CONSULTING" className="img-fluid" />
             </div>
             <Breadcrumb pageName="Amazon Consulting Services" />
             <BrandSection />
