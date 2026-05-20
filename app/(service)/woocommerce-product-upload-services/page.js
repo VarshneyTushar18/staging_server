@@ -25,7 +25,7 @@ export const metadata = {
     title: "Woocommerce Product Upload Services | Product Data Entry",
     description:
       "Reliable WooCommerce product upload and data entry services to enhance your store with accurate, optimized, and detailed product listings for increased sales.",
-    url: "https://www.tech2globe.com/woocommerce-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/woocommerce-product-upload-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -36,7 +36,7 @@ export const metadata = {
       "Reliable WooCommerce product upload and data entry services to enhance your store with accurate, optimized, and detailed product listings for increased sales."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/woocommerce-product-upload-services"
+    canonical: "https://stagenew.tech2globe.tech/woocommerce-product-upload-services"
   }
 };
 

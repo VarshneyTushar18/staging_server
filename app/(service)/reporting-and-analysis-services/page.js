@@ -20,13 +20,13 @@ export const metadata = {
     "Data Analysis services",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/reporting-and-analysis-services",
+    canonical: "https://stagenew.tech2globe.tech/reporting-and-analysis-services",
   },
   openGraph: {
     title: "Data Reporting and Analysis Services | Data Analysis services",
     description:
       "Our experts help directly from gathering basic information to analysing it, recognizing sales & revealing opportunities for development with Data Reporting & Analysis Services.",
-    url: "https://www.tech2globe.com/reporting-and-analysis-services",
+    url: "https://stagenew.tech2globe.tech/reporting-and-analysis-services",
     siteName: "Tech2Globe",
     type: "website",
   },

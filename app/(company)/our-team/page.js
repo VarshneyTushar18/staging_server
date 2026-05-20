@@ -12,7 +12,7 @@ export const metadata = {
     title: "Our Team | Digital Marketing Agency - Tech2Globe",
     description:
       "Meet our expert team at Tech2Globe, a leading digital marketing agency. Trusted professionals dedicated to your business growth and success.",
-    url: "https://www.tech2globe.com/our-team",
+    url: "https://stagenew.tech2globe.tech/our-team",
     type: "website",
     siteName: "Tech2Globe",
   },
@@ -25,7 +25,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/our-team",
+    canonical: "https://stagenew.tech2globe.tech/our-team",
   },
 };
 
@@ -251,3 +251,4 @@ export default function OurTeam() {
     </>
   );
 }
+

@@ -20,7 +20,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Do you need reliable support? At Tech2Globe, our inbound outsourcing call centre delivers seamless customer support services to enhance your business.",
-        url: "https://www.tech2globe.com/call-centre-services"
+        url: "https://stagenew.tech2globe.tech/call-centre-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -29,7 +29,7 @@ export const metadata = {
             "Do you need reliable support? At Tech2Globe, our inbound outsourcing call centre delivers seamless customer support services to enhance your business."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/call-centre-services"
+        canonical: "https://stagenew.tech2globe.tech/call-centre-services"
     }
 };
 
@@ -143,7 +143,7 @@ export default function CallCentre() {
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div className={Style.ContentDiv}>
                                 <h2>Key Inclusions Of Call Centre Services</h2>
-                                <p>Whether it&apos;s call centre service, <a href="https://www.tech2globe.com/data-entry-services">data entry service</a>, or any other support, you can trust Tech2Globe Web Solutions for comprehensive solutions. We provide a wide range of solutions to improve your customer service, sales, and overall business operations using our industry know-how and cutting-edge technology.</p>
+                                <p>Whether it&apos;s call centre service, <a href="https://stagenew.tech2globe.tech/data-entry-services">data entry service</a>, or any other support, you can trust Tech2Globe Web Solutions for comprehensive solutions. We provide a wide range of solutions to improve your customer service, sales, and overall business operations using our industry know-how and cutting-edge technology.</p>
                                 <p>Regardless of how big or small your business is, as a reliable call service centre, we have services specifically designed to match your unique objectives.</p>
                             </div>
 

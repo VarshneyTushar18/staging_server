@@ -16,13 +16,13 @@ export const metadata = {
   description: "Tech2Globe offers the best drop shadow services for stunning visual effects. Enhance your images with our expert shadow effects.",
   // keywords empty → intentionally omitted
   alternates: {
-    canonical: "https://www.tech2globe.com/drop-shadow",
+    canonical: "https://stagenew.tech2globe.tech/drop-shadow",
   },
 
   openGraph: {
     title: " Best Shadow Effects | tech2globe",
     description: "Tech2Globe offers the best drop shadow services for stunning visual effects. Enhance your images with our expert shadow effects.",
-    url: "https://www.tech2globe.com/drop-shadow",
+    url: "https://stagenew.tech2globe.tech/drop-shadow",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

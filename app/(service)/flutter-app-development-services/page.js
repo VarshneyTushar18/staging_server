@@ -16,14 +16,14 @@ export const metadata = {
     "We offer flutter app development services to build scalable and highly functional mobile applications. Hire our flutter app developers.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/flutter-app-development-services",
+    canonical: "https://stagenew.tech2globe.tech/flutter-app-development-services",
   },
 
   openGraph: {
     title: "Flutter App Development Services | Tech2Globe",
     description:
       "We offer flutter app development services to build scalable and highly functional mobile applications. Hire our flutter app developers.",
-    url: "https://www.tech2globe.com/flutter-app-development-services",
+    url: "https://stagenew.tech2globe.tech/flutter-app-development-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -314,3 +314,4 @@ export default function PhonegapAppDevelopment() {
     </>
   )
 };
+

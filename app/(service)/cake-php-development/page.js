@@ -21,13 +21,13 @@ export const metadata = {
     "PHP developers",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/cake-php-development",
+    canonical: "https://stagenew.tech2globe.tech/cake-php-development",
   },
   openGraph: {
     title: "Cake PHP development | Cake PHP development company",
     description:
       "If you looking for best cake PHP development for you then Tech2Globe is right place for you. We have expert team for cake PHP development.",
-    url: "https://www.tech2globe.com/cake-php-development",
+    url: "https://stagenew.tech2globe.tech/cake-php-development",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -241,3 +241,4 @@ export default function CakePHPWebDevelopment() {
     </>
   )
 };
+

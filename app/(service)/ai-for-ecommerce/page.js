@@ -34,7 +34,7 @@ export const metadata = {
         title: "AI for Ecommerce Services | Tech2Globe",
         description:
             "Boost Your Ecommerce Business with Tailored Technological Solutions. Revolutionize Your Online Business with Customized Solutions.",
-        url: "https://tech2globe.com/service/ai-for-ecommerce",
+        url: "https://stagenew.tech2globe.tech/service/ai-for-ecommerce",
         siteName: "Tech2Globe",
     },
 

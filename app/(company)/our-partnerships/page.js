@@ -12,7 +12,7 @@ export const metadata = {
     description:
       "Explore Tech2Globe’s global awards, industry certifications, and strategic partnerships. Recognized for excellence, innovation, and trusted collaborations worldwide.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/our-partnerships",
+    url: "https://stagenew.tech2globe.tech/our-partnerships",
     type: "website",
   },
 
@@ -24,7 +24,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/our-partnerships",
+    canonical: "https://stagenew.tech2globe.tech/our-partnerships",
   },
 };
 
@@ -413,4 +413,5 @@ export default function Partnerships() {
     </>
   );
 }
+
 

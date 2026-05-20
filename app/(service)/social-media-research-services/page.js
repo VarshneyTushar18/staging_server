@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/social-media-research-services",
+    canonical: "https://stagenew.tech2globe.tech/social-media-research-services",
   },
 
   openGraph: {
     title: "Social Media Research Services | Social media Research Company",
     description:
       "By Outsourcing Social Media Research Services you can spare more than 65% on working expenses. Our web research expert’s analysis your social channels to get helpful insights.",
-    url: "https://www.tech2globe.com/social-media-research-services",
+    url: "https://stagenew.tech2globe.tech/social-media-research-services",
     siteName: "Tech2Globe",
     type: "website",
   },

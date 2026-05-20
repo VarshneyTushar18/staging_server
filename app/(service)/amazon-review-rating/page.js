@@ -27,7 +27,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/amazon-review-rating",
+        canonical: "https://stagenew.tech2globe.tech/amazon-review-rating",
     },
 
     openGraph: {
@@ -35,7 +35,7 @@ export const metadata = {
             "Amazon Review and Rating Management Guide",
         description:
             "How to Effectively Manage your Amazon Reviews & Rating to Accelerate Sales with Tech2Globe",
-        url: "https://www.tech2globe.com/amazon-review-rating",
+        url: "https://stagenew.tech2globe.tech/amazon-review-rating",
         siteName: "Tech2Globe",
         type: "website",
     },

@@ -28,7 +28,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/seo-by-industry",
+    canonical: "https://stagenew.tech2globe.tech/seo-by-industry",
   },
 
   openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
       "SEO By Industry | Industry-Based SEO Services in India - Tech2Globe",
     description:
       "Tech2Globe provides industry-based SEO services in India, delivering customized SEO strategies tailored to specific business sectors to improve rankings, traffic, and lead generation.",
-    url: "https://www.tech2globe.com/seo-by-industry",
+    url: "https://stagenew.tech2globe.tech/seo-by-industry",
     siteName: "Tech2Globe",
     type: "website",
   },

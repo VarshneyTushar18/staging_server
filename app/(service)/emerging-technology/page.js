@@ -18,10 +18,10 @@ export const metadata = {
     title: "Emerging Technology Services Solutions With Tech2Globe",
     description:
       "Explore Tech2Globe’s comprehensive solutions in emerging technologies. Stay ahead with our innovative services tailored to your business needs.",
-    url: "https://www.tech2globe.com/emerging-technology",
+    url: "https://stagenew.tech2globe.tech/emerging-technology",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/emerging-technology",
+    canonical: "https://stagenew.tech2globe.tech/emerging-technology",
   },
 };
 
@@ -181,3 +181,4 @@ export default function EmergingTechnology() {
     </>
   )
 };
+

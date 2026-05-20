@@ -16,13 +16,13 @@ export const metadata = {
   description:
     "Tech2Globe offers expert image stitching for stunning real estate panoramas. Elevate your property listings with immersive visuals!",
   alternates: {
-    canonical: "https://www.tech2globe.com/real-estate-panoramas",
+    canonical: "https://stagenew.tech2globe.tech/real-estate-panoramas",
   },
   openGraph: {
     title: "Real Estate Panoramas with Expert Image Stitching - Tech2Globe",
     description:
       "Tech2Globe offers expert image stitching for stunning real estate panoramas. Elevate your property listings with immersive visuals!",
-    url: "https://www.tech2globe.com/real-estate-panoramas",
+    url: "https://stagenew.tech2globe.tech/real-estate-panoramas",
     siteName: "Tech2Globe",
     type: "website",
   },

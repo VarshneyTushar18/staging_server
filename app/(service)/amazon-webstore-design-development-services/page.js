@@ -22,7 +22,7 @@ export const metadata = {
     "Amazon Store Design Services"
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/amazon-webstore-design-development-services"
+    canonical: "https://stagenew.tech2globe.tech/amazon-webstore-design-development-services"
   },
 
   openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
     description:
       "Try our staffing services to identify and hire employee who meet the specific needs of your organization. Tech2Globe is here to help you address your staffing needs",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/amazon-webstore-design-development-services",
+    url: "https://stagenew.tech2globe.tech/amazon-webstore-design-development-services",
     type: "website"
   },
 

@@ -16,14 +16,14 @@ export const metadata = {
     "Performance Marketing Pricing",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/performance-marketing-packages",
+    canonical: "https://stagenew.tech2globe.tech/performance-marketing-packages",
   },
   openGraph: {
     title: "Performance Marketing Packages @Enhanced ROI & Conversions",
     description:
       "Performance Marketing Packages to grow your business faster online.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/performance-marketing-packages",
+    url: "https://stagenew.tech2globe.tech/performance-marketing-packages",
     type: "website",
   },
   twitter: {

@@ -18,7 +18,7 @@ export const metadata = {
         title: "Top Minneapolis Digital Marketing Agency And Services",
         description:
             "Choose Minneapolis’s top digital marketing agency with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/minneapolis-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/minneapolis-digital-marketing-agency",
         type: "website",
     },
     twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
     },
     alternates: {
         canonical:
-            "https://www.tech2globe.com/minneapolis-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/minneapolis-digital-marketing-agency",
     },
 };
 

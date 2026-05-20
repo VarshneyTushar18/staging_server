@@ -29,14 +29,14 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/logistics-services",
+        canonical: "https://stagenew.tech2globe.tech/logistics-services",
     },
 
     openGraph: {
         title: "Best Logistics Service Provider | Logistics Company & Solutions",
         description:
             "Logistics Company: Hire best logistics services provider for your every need. We offer top-notch logistics solutions with a team of dedicated professionals.",
-        url: "https://www.tech2globe.com/logistics-services",
+        url: "https://stagenew.tech2globe.tech/logistics-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

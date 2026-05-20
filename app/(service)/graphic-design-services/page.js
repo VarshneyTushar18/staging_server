@@ -19,7 +19,7 @@ export const metadata = {
     title: "Graphic Designing Agency | Graphic Design Services Company - Tech2globe",
     description:
       "Tech2globe provides professional graphic design services. Graphic Designing plays a vital role in promoting the brand better with visuals that attract. We offer affordable professional graphic design services to agencies all around the world.",
-    url: "https://www.tech2globe.com/graphic-design-services",
+    url: "https://stagenew.tech2globe.tech/graphic-design-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website"
   },
@@ -30,7 +30,7 @@ export const metadata = {
       "Tech2globe provides professional graphic design services. Graphic Designing plays a vital role in promoting the brand better with visuals that attract. We offer affordable professional graphic design services to agencies all around the world."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/graphic-design-services"
+    canonical: "https://stagenew.tech2globe.tech/graphic-design-services"
   }
 };
 
@@ -219,3 +219,4 @@ export default function GraphicDesign() {
     </>
   )
 };
+

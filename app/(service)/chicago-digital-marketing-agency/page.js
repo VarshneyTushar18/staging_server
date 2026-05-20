@@ -18,11 +18,11 @@ export const metadata = {
         title: "Top Digital Marketing Agency And Services In Chicago",
         description:
             "Choose the top digital marketing agency in Chicago with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/chicago-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/chicago-digital-marketing-agency",
         siteName: "Digital Marketing Agency Chicago",
         images: [
             {
-                url: "https://www.tech2globe.com/images/new-page-images/tech2globe-logo.png",
+                url: "https://stagenew.tech2globe.tech/images/new-page-images/tech2globe-logo.png",
             },
         ],
         type: "website",
@@ -35,7 +35,7 @@ export const metadata = {
     },
     alternates: {
         canonical:
-            "https://www.tech2globe.com/chicago-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/chicago-digital-marketing-agency",
     },
 };
 

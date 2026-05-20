@@ -18,7 +18,7 @@ export const metadata = {
     title: "Outsource Offline Data Entry Services | Offline Data Entry Company",
     description:
       "Tech2Globe offers the widest range of offline data entry services to businesses in all major languages - French, German & many more. Get free consultation today.",
-    url: "https://www.tech2globe.com/offline-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/offline-data-entry-services",
     type: "website"
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata = {
       "Tech2Globe offers the widest range of offline data entry services to businesses in all major languages - French, German & many more. Get free consultation today."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/offline-data-entry-services"
+    canonical: "https://stagenew.tech2globe.tech/offline-data-entry-services"
   }
 };
 

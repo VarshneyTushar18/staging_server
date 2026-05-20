@@ -16,7 +16,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/e-commerce-mobile-apps-development-services",
+      "https://stagenew.tech2globe.tech/e-commerce-mobile-apps-development-services",
   },
 
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata = {
     description:
       "Tech2globe is the leading eCommerce app development company that provides custom eCommerce mobile app development solutions for Android and iOS users.",
     url:
-      "https://www.tech2globe.com/e-commerce-mobile-apps-development-services",
+      "https://stagenew.tech2globe.tech/e-commerce-mobile-apps-development-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

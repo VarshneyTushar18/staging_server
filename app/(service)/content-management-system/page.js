@@ -23,7 +23,7 @@ export const metadata = {
     title: "Content Management System Services | CMS Services | Tech2Globe",
     description:
       "Tech2Globe provide website design and development services by using content management System services. We have a team of web developers experts for WordPress, Joomla & more.",
-    url: "https://www.tech2globe.com/content-management-system",
+    url: "https://stagenew.tech2globe.tech/content-management-system",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "Tech2Globe provide website design and development services by using content management System services. We have a team of web developers experts for WordPress, Joomla & more.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/content-management-system",
+    canonical: "https://stagenew.tech2globe.tech/content-management-system",
   },
 };
 

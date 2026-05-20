@@ -17,7 +17,7 @@ export const metadata = {
     description:
       "Tech2globe is a leading React Native App Development Company offering consulting services for both Android and iOS apps. Call now to hire experienced React Native App developers.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/react-native-app-development",
+    url: "https://stagenew.tech2globe.tech/react-native-app-development",
     type: "website",
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata = {
       "Tech2globe is a leading React Native App Development Company offering consulting services for both Android and iOS apps. Call now to hire experienced React Native App developers.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/react-native-app-development",
+    canonical: "https://stagenew.tech2globe.tech/react-native-app-development",
   },
 };
 
@@ -214,3 +214,4 @@ export default function ReactNativeAppDevelopment() {
     </>
   )
 };
+

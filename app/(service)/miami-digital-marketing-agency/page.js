@@ -18,11 +18,11 @@ export const metadata = {
         title: "Top Miami Digital Marketing Agency And Services",
         description:
             "Choose Miami’s top digital marketing agency with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts ✔Free Audit. Enquire Now!",
-        url: "https://www.tech2globe.com/miami-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/miami-digital-marketing-agency",
         siteName: "Miami Digital Marketing Agency",
         images: [
             {
-                url: "https://www.tech2globe.com/images/new-page-images/tech2globe-logo.png",
+                url: "https://stagenew.tech2globe.tech/images/new-page-images/tech2globe-logo.png",
             },
         ],
         type: "website",
@@ -35,7 +35,7 @@ export const metadata = {
     },
     alternates: {
         canonical:
-            "https://www.tech2globe.com/miami-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/miami-digital-marketing-agency",
     },
 };
 

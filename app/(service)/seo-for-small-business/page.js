@@ -21,14 +21,14 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/seo-for-small-business",
+    canonical: "https://stagenew.tech2globe.tech/seo-for-small-business",
   },
 
   openGraph: {
     title: "How to Find the Right SEO Service for Your Small Business",
     description:
       "Understanding SEO is hard enough, let alone finding an agency you can trust. This post equips you with everything you need to know to get the right small business SEO services for your site—including what to look for, questions to ask, and terms to know.",
-    url: "https://www.tech2globe.com/seo-for-small-business",
+    url: "https://stagenew.tech2globe.tech/seo-for-small-business",
     siteName: "Tech2Globe",
     type: "article",
   },

@@ -13,7 +13,7 @@ export const metadata = {
     description:
       "At Tech2globe, our commitment to providing high quality services is proved by the standards certifications and accreditation that we have achieved over the years.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/associations-ascription",
+    url: "https://stagenew.tech2globe.tech/associations-ascription",
     type: "website"
   },
 
@@ -25,7 +25,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/associations-ascription"
+    canonical: "https://stagenew.tech2globe.tech/associations-ascription"
   }
 };
 
@@ -215,3 +215,4 @@ export default function AssociationsAscription() {
     </>
   );
 }
+

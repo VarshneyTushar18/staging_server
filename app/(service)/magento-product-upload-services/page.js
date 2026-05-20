@@ -15,10 +15,10 @@ export const metadata = {
     openGraph: {
         title: "Magento product upload Services | Magento Data Entry Services",
         siteName: "Tech2Globe Web Solutions",
-        url: "https://tech2globe.com/magento-product-upload-services",
+        url: "https://stagenew.tech2globe.tech/magento-product-upload-services",
         description:
             "Magento product upload and data entry services to streamline your eCommerce operations, ensuring accurate and optimized product listings for better sales.",
-        images: ["https://tech2globe.com/images/services/magentoproductUpload.jpg"],
+        images: ["https://stagenew.tech2globe.tech/images/services/magentoproductUpload.jpg"],
         type: "website",
     },
     twitter: {
@@ -26,10 +26,10 @@ export const metadata = {
         title: "Magento product upload Services | Magento Data Entry Services",
         description:
             "Magento product upload and data entry services to streamline your eCommerce operations, ensuring accurate and optimized product listings for better sales.",
-        images: ["https://tech2globe.com/images/services/magentoproductUpload.jpg"],
+        images: ["https://stagenew.tech2globe.tech/images/services/magentoproductUpload.jpg"],
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/magento-product-upload-services",
+        canonical: "https://stagenew.tech2globe.tech/magento-product-upload-services",
     },
 };
 

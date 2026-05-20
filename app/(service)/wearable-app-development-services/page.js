@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2globe offers the best wearable app development services for different industries. Hire skilled Apple Watch and Android Wearable app developers. We deliver customized and customer-centric wearable applications.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/wearable-app-development-services",
+    url: "https://stagenew.tech2globe.tech/wearable-app-development-services",
   },
 
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/wearable-app-development-services",
+    canonical: "https://stagenew.tech2globe.tech/wearable-app-development-services",
   },
 };
 
@@ -193,3 +193,4 @@ export default function WearableAppDevelopment() {
     </>
   )
 };
+

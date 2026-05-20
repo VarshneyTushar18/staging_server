@@ -16,13 +16,13 @@ export const metadata = {
   description: "Colorize black and white images online using AI. Reimagine the past by colorizing pictures of ancestors and historic figures",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/blackandwhite-imagesto-color",
+    canonical: "https://stagenew.tech2globe.tech/blackandwhite-imagesto-color",
   },
 
   openGraph: {
     title: "Colorize pictures: turn black and white photos to color with AI",
     description: "Colorize black and white images online using AI. Reimagine the past by colorizing pictures of ancestors and historic figures",
-    url: "https://www.tech2globe.com/blackandwhite-imagesto-color",
+    url: "https://stagenew.tech2globe.tech/blackandwhite-imagesto-color",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

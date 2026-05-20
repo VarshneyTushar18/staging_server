@@ -18,13 +18,13 @@ export const metadata = {
   // keywords empty → intentionally omitted
 
   alternates: {
-    canonical: "https://www.tech2globe.com/old-photo-restoration",
+    canonical: "https://stagenew.tech2globe.tech/old-photo-restoration",
   },
 
   openGraph: {
     title: "Old Photo Restoration Services | Digital Photo Restoration Services",
     description: "Tech2globe Photo Restorer helps restore old photos instantly. AI enables online old photo restoration as it auto-fixes damaged, faded, and scratch old photos. Get your Old Photo Restoration With Us today!",
-    url: "https://www.tech2globe.com/old-photo-restoration",
+    url: "https://stagenew.tech2globe.tech/old-photo-restoration",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

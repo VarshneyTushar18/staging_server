@@ -30,7 +30,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/invoice-processing-services",
+    canonical: "https://stagenew.tech2globe.tech/invoice-processing-services",
   },
 
   openGraph: {
@@ -38,7 +38,7 @@ export const metadata = {
       "Outsource Invoice Processing Services | Automated Invoice Processing",
     description:
       "Comprehend the significance of invoicing services for the success of your business. We offer help to make it simpler for you to Outsource Invoice Processing Services to us.",
-    url: "https://www.tech2globe.com/invoice-processing-services",
+    url: "https://stagenew.tech2globe.tech/invoice-processing-services",
     siteName: "Tech2Globe",
     type: "website",
   },

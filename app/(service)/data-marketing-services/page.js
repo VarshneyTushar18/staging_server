@@ -19,13 +19,13 @@ export const metadata = {
     "Database marketing services",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/data-marketing-services",
+    canonical: "https://stagenew.tech2globe.tech/data-marketing-services",
   },
   openGraph: {
     title: "Outsource Data Marketing Services | Database Marketing Services",
     description:
       "Our Data Marketing Services offer complete answers for assisting you with accomplishing noteworthy market immersion. Build up your present customer relationships with Tech2Globe.",
-    url: "https://www.tech2globe.com/data-marketing-services",
+    url: "https://stagenew.tech2globe.tech/data-marketing-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -289,3 +289,4 @@ export default function DataMarketing() {
     </>
   )
 };
+

@@ -19,14 +19,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/automation-through-vba-macros-services",
+    canonical: "https://stagenew.tech2globe.tech/automation-through-vba-macros-services",
   },
 
   openGraph: {
     title: "Automation Through VBA Macros Services | VBA Services - Tech2Globe",
     description:
       "Get Automation Through VBA Macros Services with Tech2Globe. Our VBA consultants utilize VBA code and automation practices to help expand your productivity.",
-    url: "https://www.tech2globe.com/automation-through-vba-macros-services",
+    url: "https://stagenew.tech2globe.tech/automation-through-vba-macros-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

@@ -18,12 +18,12 @@ export const metadata = {
     title: "Front End Development Company & Custom Development Services - Tech2Globe",
     description:
       "Tech2Globe: Your front-end development experts providing custom services tailored to your needs. Elevate your digital presence today!",
-    url: "https://www.tech2globe.com/front-end-development-company",
+    url: "https://stagenew.tech2globe.tech/front-end-development-company",
     type: "website",
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/front-end-development-company",
+    canonical: "https://stagenew.tech2globe.tech/front-end-development-company",
   },
 };
 
@@ -230,3 +230,4 @@ export default function FrontEndDevelopment() {
     </>
   )
 };
+

@@ -25,7 +25,7 @@ export const metadata = {
     title: "Drupal Development Services | Drupal Development Company | Tech2globe",
     description:
       "Get professional Drupal development services including Drupal web development, theme customization, and design. We make your website stand out and deliver the best outcomes.",
-    url: "https://www.tech2globe.com/drupal-development",
+    url: "https://stagenew.tech2globe.tech/drupal-development",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -36,7 +36,7 @@ export const metadata = {
       "Get professional Drupal development services including Drupal web development, theme customization, and design. We make your website stand out and deliver the best outcomes."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/drupal-development"
+    canonical: "https://stagenew.tech2globe.tech/drupal-development"
   }
 };
 
@@ -151,3 +151,4 @@ export default function ResponsiveWebDesign() {
     </>
   )
 };
+

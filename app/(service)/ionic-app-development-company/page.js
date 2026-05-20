@@ -16,14 +16,14 @@ export const metadata = {
     "Tech2globe is top-rated Ionic Development Company which will help you build future-ready mobile applications with Ionic development services.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ionic-app-development-company",
+    canonical: "https://stagenew.tech2globe.tech/ionic-app-development-company",
   },
 
   openGraph: {
     title: "Ionic App Development Services | Ionic Development Company - Tech2Globe",
     description:
       "Tech2globe is top-rated Ionic Development Company which will help you build future-ready mobile applications with Ionic development services.",
-    url: "https://www.tech2globe.com/ionic-app-development-company",
+    url: "https://stagenew.tech2globe.tech/ionic-app-development-company",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -263,3 +263,4 @@ export default function IonicAppDevelopment() {
     </>
   )
 };
+

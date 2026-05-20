@@ -24,7 +24,7 @@ export const metadata = {
     title: "Jet Product Upload Services | Jet Product Data Entry Services",
     description:
       "Advance Your Jet Product Upload Services. get your Jet product data entry services on commercial centers rapidly and without losing quality.",
-    url: "https://www.tech2globe.com/jet-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/jet-product-upload-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -35,7 +35,7 @@ export const metadata = {
       "Advance Your Jet Product Upload Services. get your Jet product data entry services on commercial centers rapidly and without losing quality."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/jet-product-upload-services"
+    canonical: "https://stagenew.tech2globe.tech/jet-product-upload-services"
   }
 };
 

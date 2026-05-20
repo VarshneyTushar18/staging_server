@@ -31,7 +31,7 @@ export const metadata = {
       "Web Application Development services | Web App development company",
     description:
       "Tech2Globe offers web application development services. Our development team build powerful web applications with scalable features & process to full-fill key challenge",
-    url: "https://www.tech2globe.com/web-application-development",
+    url: "https://stagenew.tech2globe.tech/web-application-development",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -46,7 +46,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/web-application-development",
+      "https://stagenew.tech2globe.tech/web-application-development",
   },
 };
 
@@ -130,3 +130,4 @@ export default function WebApplicationDevelopment() {
     </>
   )
 };
+

@@ -18,11 +18,11 @@ export const metadata = {
     title: "Framework Development Services Company - Tech2Globe",
     description:
       "Tech2Globe: Your trusted framework development services company. Harness the power of robust frameworks for scalable and efficient solutions.",
-    url: "https://www.tech2globe.com/framework-development-services",
+    url: "https://stagenew.tech2globe.tech/framework-development-services",
     type: "website"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/framework-development-services"
+    canonical: "https://stagenew.tech2globe.tech/framework-development-services"
   }
 };
 
@@ -205,3 +205,4 @@ export default function FrameworkDevelopment() {
     </>
   )
 };
+

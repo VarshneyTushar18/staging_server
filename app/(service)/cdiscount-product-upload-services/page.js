@@ -24,7 +24,7 @@ export const metadata = {
     title: "CDiscount Product Upload Services | marketplace management",
     description:
       "Expert CDiscount product upload and marketplace management services. Enhance listings, improve visibility, and increase sales with precise, optimized product data.",
-    url: "https://www.tech2globe.com/cdiscount-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/cdiscount-product-upload-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -35,7 +35,7 @@ export const metadata = {
       "Expert CDiscount product upload and marketplace management services. Enhance listings, improve visibility, and increase sales with precise, optimized product data.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/cdiscount-product-upload-services",
+    canonical: "https://stagenew.tech2globe.tech/cdiscount-product-upload-services",
   },
 };
 

@@ -23,7 +23,7 @@ export const metadata = {
     title: "Cake PHP Development Services | Hire Cake PHP Developer | Tech2globe",
     description:
       "Hire Cake PHP developers from Tech2globe at flexible hiring model. We specialize in Cake PHP framework development and bring solutions that are compatible with the latest PHP versions.",
-    url: "https://www.tech2globe.com/cake-php-web-development",
+    url: "https://stagenew.tech2globe.tech/cake-php-web-development",
     siteName: "Tech2globe",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "Hire Cake PHP developers from Tech2globe at flexible hiring model. We specialize in Cake PHP framework development and bring solutions that are compatible with the latest PHP versions."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/cake-php-web-development"
+    canonical: "https://stagenew.tech2globe.tech/cake-php-web-development"
   }
 };
 
@@ -243,3 +243,4 @@ export default function CakePHPWebDevelopment() {
     </>
   )
 };
+

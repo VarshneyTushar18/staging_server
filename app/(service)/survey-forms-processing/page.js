@@ -28,7 +28,7 @@ export const metadata = {
     description:
       "Tech2Globe gives productive Survey Data Processing Services to enable organizations to catch, process, and manage research data precisely. Get a free consultation today with us.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/survey-forms-processing",
+    url: "https://stagenew.tech2globe.tech/survey-forms-processing",
     type: "website"
   },
   twitter: {
@@ -38,7 +38,7 @@ export const metadata = {
       "Tech2Globe gives productive Survey Data Processing Services to enable organizations to catch, process, and manage research data precisely. Get a free consultation today with us."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/survey-forms-processing"
+    canonical: "https://stagenew.tech2globe.tech/survey-forms-processing"
   }
 };
 
@@ -305,3 +305,4 @@ export default function SurveyFormsProcessing() {
     </>
   )
 };
+

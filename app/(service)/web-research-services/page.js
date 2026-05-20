@@ -28,14 +28,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/web-research-services",
+    canonical: "https://stagenew.tech2globe.tech/web-research-services",
   },
 
   openGraph: {
     title: "Outsource Web Research Services | Customized Web Research Solutions",
     description:
       "Tech2Globe offers a wide range of customized web research services to various industry verticals and specialties including lawful, real estate, fund, & banking & more.",
-    url: "https://www.tech2globe.com/web-research-services",
+    url: "https://stagenew.tech2globe.tech/web-research-services",
     type: "website",
     siteName: "Tech2Globe Web Solutions LLP",
   },

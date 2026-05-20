@@ -29,7 +29,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/telemarketing-services",
+    canonical: "https://stagenew.tech2globe.tech/telemarketing-services",
   },
 
   openGraph: {
@@ -37,7 +37,7 @@ export const metadata = {
       " Telemarketing Services | outsourcing telemarketing company",
     description:
       "Take your sales to the next level with telemarketing services from Tech2Globe telemarketing outsourcing company. our ability to deliver top-notch telemarketing services",
-    url: "https://www.tech2globe.com/telemarketing-services",
+    url: "https://stagenew.tech2globe.tech/telemarketing-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

@@ -19,7 +19,7 @@ export const metadata = {
     title: "Outsource Data Processing Services Company | Tech2Globe",
     description:
       "Outsource data processing services to improve your business operations. We offer high-end data processing services for master data management with experts.",
-    url: "https://www.tech2globe.com/data-processing-services",
+    url: "https://stagenew.tech2globe.tech/data-processing-services",
     type: "website"
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
       "Outsource data processing services to improve your business operations. We offer high-end data processing services for master data management with experts."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-processing-services"
+    canonical: "https://stagenew.tech2globe.tech/data-processing-services"
   }
 };
 
@@ -69,7 +69,7 @@ const caseStudies = [
     image: "/images/services/service-inner/data-processing-2-bn.jpg",
     description:
       "Data Processing is an upgrade over our data entry services, offered upon the requirement...",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/CASE%20STUDY%20-%20Data%20Processing%20Case%20Study%20.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/CASE%20STUDY%20-%20Data%20Processing%20Case%20Study%20.pdf",
   },
 ];
 

@@ -17,12 +17,12 @@ export const metadata = {
     "Social Media Optimization Packages",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/smo-packages",
+    canonical: "https://stagenew.tech2globe.tech/smo-packages",
   },
   openGraph: {
     title: "SMO Packages | SMO Packages India | SMO Services Packages",
     description: "Looking for SMO packages but worried about budget? Tech2Globe provides affordable SMO packages in India with guaranteed results to increase ROI.",
-    url: "https://www.tech2globe.com/smo-packages",
+    url: "https://stagenew.tech2globe.tech/smo-packages",
     type: "website",
   },
   twitter: {
@@ -153,77 +153,77 @@ const caseStudies = [
     "title": "Product Visibility & Drive Sales 0.1",
     "image": "/images/services/service-inner/untitled-design-20.png",
     "description": "The client has been in the lighting business since 2011, specializing...",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Case Study 2 - Sales Increase in different categories-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 2 - Sales Increase in different categories-converted.pdf"
   },
   {
     "id": 2,
     "title": "EBC and Storefront",
     "image": "/images/services/service-inner/ebca.png",
     "description": "Client deals in Health & Household items and Pet Supplies products on Amazon and wants...",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Case Study 3 - EBC and Storefront-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 3 - EBC and Storefront-converted.pdf"
   },
   {
     "id": 3,
     "title": "Amazon PPC",
     "image": "/images/services/service-inner/amazon-ppc.png",
     "description": "Clients came to us with a range of Amazon PPC management difficulties....",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Amazon PPC-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon PPC-converted.pdf"
   },
   {
     "id": 4,
     "title": "Product Visibility & Drive Sales",
     "image": "/images/services/service-inner/untitled-design-18.png",
     "description": "Client has been in the business of selling fine grooming products for over 15 years......",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Case Study 1 - Sales Increase in different categories-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 1 - Sales Increase in different categories-converted.pdf"
   },
   {
     "id": 5,
     "title": "e-Commerce Store for Luxury Goods",
     "image": "/images/services/service-inner/e-commerce-store-for-luxury-goods.png",
     "description": "It is the ultimate luxury fashion destination for the distribution and retail of Italian, French…",
-    "docLink": "https://tech2globe.com/casestudies-docs1/E-Commerce Store for Luxury Goods-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce Store for Luxury Goods-converted.pdf"
   },
   {
     "id": 6,
     "title": "Amazon Sale Boost",
     "image": "/images/services/service-inner/amazon-sale-boost.jpg",
     "description": "Find out the most important areas where our team required utmost attention to showcase the work from day one …",
-    "docLink": "https://tech2globe.com/casestudies-docs1/amazon-india-case-study.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf"
   },
   {
     "id": 7,
     "title": "About Drop shipping",
     "image": "/images/services/service-inner/about-drop-shipping.jpg",
     "description": "Drop shipping is an e-retail term where someone facilitates the selling and delivery of an online product without …",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Case-Study-Drop-Shipping.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case-Study-Drop-Shipping.pdf"
   },
   {
     "id": 8,
     "title": "Migration from Sooq to Amazon.ae",
     "image": "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
     "description": "Forgiving the best solution to our client and comprehensive support is our specialty which we successfully …",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Migration-from-Sooq-to-AmazonAE.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Migration-from-Sooq-to-AmazonAE.pdf"
   },
   {
     "id": 9,
     "title": "e-Commerce Multivendor Store 1.0",
     "image": "/images/services/service-inner/e-commerce-multivendor-store-1-0.jpg",
     "description": "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
-    "docLink": "https://tech2globe.com/casestudies-docs1/E-commerce version upgrade (1).pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce version upgrade (1).pdf"
   },
   {
     "id": 10,
     "title": "e-Commerce Store Version Upgrade",
     "image": "/images/services/service-inner/e-commerce-store-version-upgrade.jpg",
     "description": "The previous version had issues with accepting payments via credit cards, so one of the improvement areas was to set …",
-    "docLink": "https://tech2globe.com/casestudies-docs/E-commerce version upgrade.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs/E-commerce version upgrade.pdf"
   },
   {
     "id": 11,
     "title": "Promotion of 2 x Shopify Stores",
     "image": "/images/services/service-inner/promotion-of-2-x-shopify-stores.png",
     "description": "In 2.5 periods of month projects handling, we’ve generated more than 6,000 Facebook Page Followers on “Fashion & Cosmetic”…",
-    "docLink": "https://tech2globe.com/casestudies-docs1/Promotion of 2 x Shopify Stores-converted.pdf"
+    "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Promotion of 2 x Shopify Stores-converted.pdf"
   }
 ]
 
@@ -288,7 +288,7 @@ export default function SmoPackages() {
                         <td>Any 2 (Facebook, Instagram,LinkedIn, YouTube, Twitter, Pinterest)</td>
                         <td>Any 3 (Facebook, Instagram, TikTok, LinkedIn, YouTube, Twitter, Pinterest)</td>
                         <td>Any 4 (Facebook, Instagram, TikTok, LinkedIn, YouTube, Twitter, Pinterest)</td>
-                        <td rowspan="6"><a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
+                        <td rowspan="6"><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="td-left">
@@ -346,7 +346,7 @@ export default function SmoPackages() {
                         <td>Upto $300</td>
                         <td>Upto $600</td>
                         <td>Upto $1000</td>
-                        <td rowspan="6"><a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
+                        <td rowspan="6"><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="td-left">
@@ -404,7 +404,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
-                        <td rowspan="8"><a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
+                        <td rowspan="8"><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="td-left">
@@ -480,7 +480,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
-                        <td rowspan="23"><a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
+                        <td rowspan="23"><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="td-left">
@@ -692,7 +692,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="19">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -869,7 +869,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="5">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -921,7 +921,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="12">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1036,7 +1036,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="19">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1214,7 +1214,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="9">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1302,7 +1302,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="7">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1372,7 +1372,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="3">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1406,7 +1406,7 @@ export default function SmoPackages() {
                         <td>Bi-Weekly</td>
                         <td>Weekly</td>
                         <td rowspan="2">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -1431,7 +1431,7 @@ export default function SmoPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="check" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="2">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-normal">Contact Us</a>
                         </td>
                       </tr>
                       <tr>

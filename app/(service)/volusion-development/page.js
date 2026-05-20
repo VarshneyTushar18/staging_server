@@ -22,14 +22,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/volusion-development",
+    canonical: "https://stagenew.tech2globe.tech/volusion-development",
   },
 
   openGraph: {
     title: "Volusion Development Services | Volusion Experts",
     description:
       "Our Volusion developers are experts in Volusion store design, Volusion templates, and Volusion custom integration. Contact us today to see how we can help.",
-    url: "https://www.tech2globe.com/volusion-development",
+    url: "https://stagenew.tech2globe.tech/volusion-development",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

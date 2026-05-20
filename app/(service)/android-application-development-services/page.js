@@ -26,7 +26,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/android-application-development-services",
+      "https://stagenew.tech2globe.tech/android-application-development-services",
   },
 
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata = {
       "Android App development company | Android application development services",
     description:
       "Tech2Globe is a top Android App Development Company providing Android application development services tailored to specific business requirements.",
-    url: "https://www.tech2globe.com/android-application-development-services",
+    url: "https://stagenew.tech2globe.tech/android-application-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -282,3 +282,4 @@ export default function AndroidApplicationDevelopment() {
     </>
   )
 };
+

@@ -31,7 +31,7 @@ export const metadata = {
         siteName: "Tech2Globe web Solutions LLP",
         description:
             "Tech2Globe delivers restaurant menu data entry services and menu digitization service to streamline operations and improve menu accessibility for customers.",
-        url: "https://www.tech2globe.com/restaurant-menu-entry-services"
+        url: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -40,7 +40,7 @@ export const metadata = {
             "Tech2Globe delivers restaurant menu data entry services and menu digitization service to streamline operations and improve menu accessibility for customers."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/restaurant-menu-entry-services"
+        canonical: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"
     }
 };
 
@@ -79,7 +79,7 @@ const caseStudies = [
         image: "/images/services/service-inner/restaurant-menu-data-entry.jpg",
         description:
             "A leading UK based restaurant brand with over 1000+ employees with 70 nationalities across 5 continents work for delivery hero.....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/restaurant-menu-data-entry.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/restaurant-menu-data-entry.pdf",
     },
     {
         id: 2,

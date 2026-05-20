@@ -19,12 +19,12 @@ export const metadata = {
     title: "Mobile Application Design Services - Tech2Globe",
     description:
       "Tech2Globe offers professional mobile application design services, crafting intuitive and visually appealing interfaces for seamless user experiences.",
-    url: "https://www.tech2globe.com/mobile-application-design-services",
+    url: "https://stagenew.tech2globe.tech/mobile-application-design-services",
     type: "website",
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/mobile-application-design-services",
+    canonical: "https://stagenew.tech2globe.tech/mobile-application-design-services",
   },
 };
 
@@ -250,3 +250,4 @@ export default function MobileApplicationDesign() {
     </>
   )
 };
+

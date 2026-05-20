@@ -13,7 +13,7 @@ export const metadata = {
     description:
       "Tech2globe leading-edge of latest technologies and apps, making sure that our professional record and knowledge, technical expertise, experience and level of client service is incomparable in the industry.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/values",
+    url: "https://stagenew.tech2globe.tech/values",
     type: "website"
   },
   twitter: {
@@ -23,7 +23,7 @@ export const metadata = {
       "Tech2globe leading-edge of latest technologies and apps, making sure that our professional record and knowledge, technical expertise, experience and level of client service is incomparable in the industry."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/values"
+    canonical: "https://stagenew.tech2globe.tech/values"
   }
 };
 
@@ -103,3 +103,4 @@ export default function Values() {
     </>
   );
 }
+

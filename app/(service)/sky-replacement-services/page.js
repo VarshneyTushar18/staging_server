@@ -27,13 +27,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/sky-replacement-services",
+    canonical: "https://stagenew.tech2globe.tech/sky-replacement-services",
   },
 
   openGraph: {
     title: "Sky Replacement Services | Tech2globe",
     description: "Tech2gobe has been providing professional Sky Replacement Services for real estate photos to clients around the globe at cost-effective prices.",
-    url: "https://www.tech2globe.com/sky-replacement-services",
+    url: "https://stagenew.tech2globe.tech/sky-replacement-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

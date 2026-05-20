@@ -23,14 +23,14 @@ export const metadata = {
     "human translation",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/translation-services",
+    canonical: "https://stagenew.tech2globe.tech/translation-services",
   },
   openGraph: {
     title: "Professional Translation Services | Translation Services - Tech2globe",
     description:
       "Tech2globe - Translation Company in India. We have a tendency to work as a superior language services provider in all major global languages like French, Spanish, & German and more.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/translation-services",
+    url: "https://stagenew.tech2globe.tech/translation-services",
     type: "website",
   },
   twitter: {
@@ -340,3 +340,4 @@ export default function Translation() {
     </>
   )
 };
+

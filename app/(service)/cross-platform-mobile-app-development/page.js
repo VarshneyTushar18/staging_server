@@ -18,7 +18,7 @@ export const metadata = {
     title: "Top Hybrid Mobile App Development Company - Tech2Globe",
     description:
       "Tech2Globe: Your top choice for hybrid mobile app development. Exceptional quality, innovation, and reliability. Elevate your app today!",
-    url: "https://www.tech2globe.com/cross-platform-mobile-app-development",
+    url: "https://stagenew.tech2globe.tech/cross-platform-mobile-app-development",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2Globe: Your top choice for hybrid mobile app development. Exceptional quality, innovation, and reliability. Elevate your app today!"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/cross-platform-mobile-app-development"
+    canonical: "https://stagenew.tech2globe.tech/cross-platform-mobile-app-development"
   },
 };
 
@@ -275,3 +275,4 @@ export default function CrossPlatformMobileAppDevelopment() {
     </>
   )
 };
+

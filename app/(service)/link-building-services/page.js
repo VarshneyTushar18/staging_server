@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/link-building-services",
+    canonical: "https://stagenew.tech2globe.tech/link-building-services",
   },
 
   openGraph: {
     title: "Link Building Services | Link Building Packages | Tech2Globe",
     description:
       "Get the best SEO with manual link-building services with tech2globe, our white hat, manual link-building services earn links that improve your site’s authority. Call Now!",
-    url: "https://www.tech2globe.com/link-building-services",
+    url: "https://stagenew.tech2globe.tech/link-building-services",
     siteName: "Tech2Globe",
     type: "website",
   },

@@ -21,7 +21,7 @@ export const metadata = {
     title: "Banking Data Entry Services | Banking Data Entry Services In India",
     description:
       "Tech2Globe provides online & offline Banking Data Entry Services to various industries. Banking data entry plays an essential role in financial organizations.",
-    url: "https://www.tech2globe.com/banking-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/banking-data-entry-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -32,7 +32,7 @@ export const metadata = {
       "Tech2Globe provides online & offline Banking Data Entry Services to various industries. Banking data entry plays an essential role in financial organizations."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/banking-data-entry-services"
+    canonical: "https://stagenew.tech2globe.tech/banking-data-entry-services"
   }
 };
 const pageHeaderData = {

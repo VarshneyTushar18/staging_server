@@ -22,7 +22,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/influencer-marketing-agency",
+      "https://stagenew.tech2globe.tech/influencer-marketing-agency",
   },
 
   openGraph: {
@@ -33,7 +33,7 @@ export const metadata = {
       "Tech2globe is an influencer marketing agency and the most trusted platform connecting brands with influencers for better sales. Consult our influencer specialists today!",
 
     url:
-      "https://www.tech2globe.com/influencer-marketing-agency",
+      "https://stagenew.tech2globe.tech/influencer-marketing-agency",
 
     siteName: "Tech2Globe Web Solutions LLP",
 

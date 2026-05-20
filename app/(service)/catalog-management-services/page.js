@@ -29,7 +29,7 @@ export const metadata = {
       "ECommerce Catalog Management Services | Content Management Company",
     description:
       "Tech2Globe delivers ecommerce catalog management services in time. We offer catalog management and brochure design services and more for eCommerce and retail businesses. Consult with us today.",
-    url: "https://www.tech2globe.com/catalog-management-services",
+    url: "https://stagenew.tech2globe.tech/catalog-management-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -41,7 +41,7 @@ export const metadata = {
       "Tech2Globe delivers ecommerce catalog management services in time. We offer catalog management and brochure design services and more for eCommerce and retail businesses. Consult with us today.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/catalog-management-services",
+    canonical: "https://stagenew.tech2globe.tech/catalog-management-services",
   },
 };
 

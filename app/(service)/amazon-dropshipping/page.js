@@ -17,14 +17,14 @@ export const metadata = {
     "Amazon Dropshipping services",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/amazon-dropshipping",
+    canonical: "https://stagenew.tech2globe.tech/amazon-dropshipping",
   },
   openGraph: {
     title: "Amazon Dropshipping Services India - Tech2Globe",
     description:
       "Tech2Globe offers comprehensive Amazon Dropshipping automation solutions.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/amazon-dropshipping",
+    url: "https://stagenew.tech2globe.tech/amazon-dropshipping",
     type: "website",
   },
   twitter: {

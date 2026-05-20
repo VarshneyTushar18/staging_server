@@ -22,7 +22,7 @@ export const metadata = {
     description:
       "Boost customer loyalty with Tech2Globe’s Voice Support Service for AI-based Products, offering responsive, scalable, and AI-driven voice solutions.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/voice-support-for-ai-products",
+    url: "https://stagenew.tech2globe.tech/voice-support-for-ai-products",
     type: "website",
   },
 
@@ -35,7 +35,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/voice-support-for-ai-products",
+      "https://stagenew.tech2globe.tech/voice-support-for-ai-products",
   },
 };
 
@@ -353,7 +353,7 @@ const caseStudies = [
     image: "/images/services/service-inner/e-commerce-store-version-upgrade.jpg",
     description:
       "The previous version had issues with accepting payments via credit cards, so one of the improvement areas was to set …",
-    docLink: "https://www.tech2globe.com/casestudies-docs/E-commerce%20version%20upgrade.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs/E-commerce%20version%20upgrade.pdf",
   },
   {
     id: 2,
@@ -361,7 +361,7 @@ const caseStudies = [
     image: "/images/services/service-inner/e-commerce-multivendor-store-1-0.jpg",
     description:
       "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
   },
   {
     id: 3,
@@ -369,7 +369,7 @@ const caseStudies = [
     image: "/images/services/service-inner/portfolio/4.jpg",
     description:
       "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
   },
   {
     id: 4,
@@ -377,7 +377,7 @@ const caseStudies = [
     image: "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
     description:
       "Forgiving the best solution to our client and comprehensive support is our specialty which we successfully …",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
   },
   {
     id: 5,
@@ -385,7 +385,7 @@ const caseStudies = [
     image: "/images/services/service-inner/about-drop-shipping.jpg",
     description:
       "Drop shipping is an e-retail term where someone facilitates the selling and delivery of an online product without …",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
   },
   {
     id: 6,
@@ -393,7 +393,7 @@ const caseStudies = [
     image: "/images/services/service-inner/amazon-sale-boost.jpg",
     description:
       "Find out the most important areas where our team required utmost attention to showcase the work from day one …",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/amazon-india-case-study.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf",
   },
 
 ]

@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Get seamless, scalable websites with Tech2Globe, a premier WordPress Development Services Company focused on delivering quality and performance.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/wordPress-development",
+    url: "https://stagenew.tech2globe.tech/wordPress-development",
     type: "website",
   },
 
@@ -32,7 +32,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/wordPress-development",
+    canonical: "https://stagenew.tech2globe.tech/wordPress-development",
   },
 };
 
@@ -233,3 +233,4 @@ export default function WordpressDevelopment() {
     </>
   )
 };
+

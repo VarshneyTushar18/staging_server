@@ -20,7 +20,7 @@ export const metadata = {
     title: "Outsource Transcription Services | Professional Transcription Services",
     description:
       "Our professional transcription services come up with 99% accuracy guarantee for good audio. Get high quality-services at affordable rates with quick turnaround time with us.",
-    url: "https://www.tech2globe.com/transcription-services",
+    url: "https://stagenew.tech2globe.tech/transcription-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -29,7 +29,7 @@ export const metadata = {
       "Our professional transcription services come up with 99% accuracy guarantee for good audio. Get high quality-services at affordable rates with quick turnaround time with us.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/transcription-services",
+    canonical: "https://stagenew.tech2globe.tech/transcription-services",
   },
 };
 

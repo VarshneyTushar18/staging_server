@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Tech2globe offer multi-platform AR VR app development services for desktop & mobile. Contact our experts for most immersive AR VR software development solutions.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/ar-vr-app-development-company",
+    url: "https://stagenew.tech2globe.tech/ar-vr-app-development-company",
     type: "website"
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Tech2globe offer multi-platform AR VR app development services for desktop & mobile. Contact our experts for most immersive AR VR software development solutions."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/ar-vr-app-development-company"
+    canonical: "https://stagenew.tech2globe.tech/ar-vr-app-development-company"
   }
 };
 
@@ -295,3 +295,4 @@ export default function ArVrAppDevelopment() {
     </>
   )
 };
+

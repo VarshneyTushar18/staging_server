@@ -25,7 +25,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: 'https://www.tech2globe.com/e-commerce-development',
+    canonical: 'https://stagenew.tech2globe.tech/e-commerce-development',
   },
 
   openGraph: {
@@ -35,7 +35,7 @@ export const metadata = {
     description:
       'Tech2Globe offers expert E-Commerce and Web Development services, ensuring seamless online experiences. Trust us for innovative solutions and responsive designs.',
 
-    url: 'https://www.tech2globe.com/e-commerce-development',
+    url: 'https://stagenew.tech2globe.tech/e-commerce-development',
 
     siteName: 'Tech2Globe',
 

@@ -28,7 +28,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Ensure clean and accurate data with Tech2Globe's outsource data cleansing services. Improve analysis, reporting, and decision-making for your business.",
-        url: "https://www.tech2globe.com/data-cleansing-services"
+        url: "https://stagenew.tech2globe.tech/data-cleansing-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -37,7 +37,7 @@ export const metadata = {
             "Ensure clean and accurate data with Tech2Globe's outsource data cleansing services. Improve analysis, reporting, and decision-making for your business."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/data-cleansing-services"
+        canonical: "https://stagenew.tech2globe.tech/data-cleansing-services"
     }
 };
 

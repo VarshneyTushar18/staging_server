@@ -26,7 +26,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Unlock accurate and timely insights with the best outsource web data extraction services company, delivering fast, reliable, and scalable data solutions.",
-        url: "https://www.tech2globe.com/data-extraction-services"
+        url: "https://stagenew.tech2globe.tech/data-extraction-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -35,7 +35,7 @@ export const metadata = {
             "Unlock accurate and timely insights with the best outsource web data extraction services company, delivering fast, reliable, and scalable data solutions."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/data-extraction-services"
+        canonical: "https://stagenew.tech2globe.tech/data-extraction-services"
     }
 };
 
@@ -79,7 +79,7 @@ const caseStudies = [
         image: "/images/services/service-inner/data-extraction-services-bn-1.jpg",
         description:
             "Reviewing the customer account and classified the data....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Data%20Extraction%20services-converted%20(1).pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Data%20Extraction%20services-converted%20(1).pdf",
     },
 ];
 

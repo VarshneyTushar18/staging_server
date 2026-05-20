@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/real-estate-day-to-night-conversion-services",
+    canonical: "https://stagenew.tech2globe.tech/real-estate-day-to-night-conversion-services",
   },
 
   openGraph: {
     title: "Outsource Real Estate Day to Night Conversion Services | Tech2globe",
     description: "Outsource Real Estate Day to Night Conversion Services to Flatworld Solutions and save considerable amount of time and money and generate greater revenues.",
     url:
-      "https://www.tech2globe.com/real-estate-day-to-night-conversion-services",
+      "https://stagenew.tech2globe.tech/real-estate-day-to-night-conversion-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

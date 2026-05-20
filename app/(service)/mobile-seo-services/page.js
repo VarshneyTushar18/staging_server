@@ -27,14 +27,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/mobile-seo-services",
+    canonical: "https://stagenew.tech2globe.tech/mobile-seo-services",
   },
 
   openGraph: {
     title: "Mobile SEO Services in India | Mobile SEO Agency - Tech2Globe",
     description:
       "Tech2Globe offers mobile SEO services in India to improve mobile search visibility, enhance performance, and support mobile-first indexing requirements.",
-    url: "https://www.tech2globe.com/mobile-seo-services",
+    url: "https://stagenew.tech2globe.tech/mobile-seo-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

@@ -25,7 +25,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "By Outsourcing Business Data Analytics Services with Tech2Globe you can beat all these difficulties at a reasonable cost & make a strong foundation for development.",
-        url: "https://www.tech2globe.com/data-analytics-services"
+        url: "https://stagenew.tech2globe.tech/data-analytics-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -34,7 +34,7 @@ export const metadata = {
             "By Outsourcing Business Data Analytics Services with Tech2Globe you can beat all these difficulties at a reasonable cost & make a strong foundation for development."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/data-analytics-services"
+        canonical: "https://stagenew.tech2globe.tech/data-analytics-services"
     }
 };
 

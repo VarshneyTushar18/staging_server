@@ -16,12 +16,12 @@ export const metadata = {
     "Ecommerce Pay Per Click Packages",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/ecommerce-ppc-packages",
+    canonical: "https://stagenew.tech2globe.tech/ecommerce-ppc-packages",
   },
   openGraph: {
     title: "Ecommerce PPC Packages | Maximum Sales at Minimum Cost",
     description: "Ecommerce PPC packages to drive maximum sales at minimum cost. Affordable ecommerce PPC pricing with free PPC audits, account setup, and expert campaign management.",
-    url: "https://www.tech2globe.com/ecommerce-ppc-packages",
+    url: "https://stagenew.tech2globe.tech/ecommerce-ppc-packages",
     type: "website",
   },
   twitter: {

@@ -16,12 +16,12 @@ export const metadata = {
     "Influencer Marketing Company",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/influencer-marketing-package",
+    canonical: "https://stagenew.tech2globe.tech/influencer-marketing-package",
   },
   openGraph: {
     title: "Influencer Marketing Packages | Influencer Marketing Packages India",
     description: "Explore cost-effective influencer marketing packages in India. Tech2Globe delivers result-driven influencer campaigns for brands of all sizes.",
-    url: "https://www.tech2globe.com/influencer-marketing-package",
+    url: "https://stagenew.tech2globe.tech/influencer-marketing-package",
     type: "website",
   },
 
@@ -199,7 +199,7 @@ export default function InfluencerMarketingPackage() {
                           <h3><strong>Our Management Fee</strong></h3>
                         </td>
                         <td>
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>

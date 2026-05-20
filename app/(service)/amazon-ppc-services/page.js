@@ -17,7 +17,7 @@ export const metadata = {
         title: "Amazon PPC Services | Tech2Globe PPC Management & Ad Optimization",
         description:
             "Amazon PPC Services to lower ACoS and increase sales. Tech2Globe offers PPC management, smart bidding, ad optimization, and reporting for Amazon sellers.",
-        url: "https://www.tech2globe.com/amazon-ppc-services",
+        url: "https://stagenew.tech2globe.tech/amazon-ppc-services",
     },
     twitter: {
         card: "summary_large_image",
@@ -26,7 +26,7 @@ export const metadata = {
             "Amazon PPC Services to lower ACoS and increase sales. Tech2Globe offers PPC management, smart bidding, ad optimization, and reporting for Amazon sellers.",
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/amazon-ppc-services",
+        canonical: "https://stagenew.tech2globe.tech/amazon-ppc-services",
     },
 };
 
@@ -133,7 +133,7 @@ const caseStudies = [
         image: "/images/services/service-inner/amazon-ppc.png",
         description:
             "Clients came to us with a range of Amazon PPC management difficulties. Among them were poor search term management, bids, insufficient...",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Amazon%20PPC-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon%20PPC-converted.pdf",
     },
     {
         id: 2,
@@ -141,7 +141,7 @@ const caseStudies = [
         image: "/images/services/service-inner/amazon-sale-boost.jpg",
         description:
             "Clients often approach us with challenges in managing their Amazon PPC campaigns effectively....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/amazon-ppc-case-study.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-ppc-case-study.pdf",
     },
 ];
 

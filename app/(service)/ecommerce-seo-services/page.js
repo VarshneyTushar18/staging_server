@@ -28,14 +28,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ecommerce-seo-services",
+    canonical: "https://stagenew.tech2globe.tech/ecommerce-seo-services",
   },
 
   openGraph: {
     title: "Ecommerce SEO Services | Ecommerce SEO Company in USA ",
     description:
       "Tech2globe can help you gain higher visibility and reach millions of customers in the USA. Contact the Best eCommerce SEO company today for ecommerce SEO services.",
-    url: "https://www.tech2globe.com/ecommerce-seo-services",
+    url: "https://stagenew.tech2globe.tech/ecommerce-seo-services",
     siteName: "Tech2Globe",
     type: "website",
   },

@@ -22,7 +22,7 @@ export const metadata = {
     title: "Donor Research & Data Analytics Services | Donor Research Services",
     description:
       "Get Donor Research & Data Analytics Services with Tech2Globe. Our donor analysis experts provide fast and convenient donor data transfer for thousands of clients worldwide.",
-    url: "https://www.tech2globe.com/donor-research-data-analytics-services",
+    url: "https://stagenew.tech2globe.tech/donor-research-data-analytics-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/donor-research-data-analytics-services"
+      "https://stagenew.tech2globe.tech/donor-research-data-analytics-services"
   }
 };
 

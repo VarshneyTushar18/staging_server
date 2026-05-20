@@ -16,13 +16,13 @@ export const metadata = {
         "Choose Oakland’s top digital marketing agency with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
     alternates: {
         canonical:
-            "https://www.tech2globe.com/oakland-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/oakland-digital-marketing-agency",
     },
     openGraph: {
         title: "Oakland Digital Marketing Agency @Best Digital Services",
         description:
             "Choose Oakland’s top digital marketing agency with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/oakland-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/oakland-digital-marketing-agency",
         type: "website",
     },
     twitter: {

@@ -30,7 +30,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/social-media-optimization",
+        canonical: "https://stagenew.tech2globe.tech/social-media-optimization",
     },
 
     openGraph: {
@@ -38,7 +38,7 @@ export const metadata = {
             "#1 Social Media Optimization Company For Branding | Tech2globe",
         description:
             "Are you looking to work with a top-rated social media optimization company? Tech2globe helps to boost customers’ businesses effectively on various social networks.",
-        url: "https://www.tech2globe.com/social-media-optimization",
+        url: "https://stagenew.tech2globe.tech/social-media-optimization",
         siteName: "Tech2Globe web Solutions LLP",
         type: "website",
     },

@@ -13,7 +13,7 @@ export const metadata = {
     description:
       "Corporate social responsibility (CSR) is a business model that helps a company be socially accountable to itself, its stakeholders, and the public.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/csr-initiatives",
+    url: "https://stagenew.tech2globe.tech/csr-initiatives",
     type: "website"
   },
 
@@ -25,7 +25,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/csr-initiatives"
+    canonical: "https://stagenew.tech2globe.tech/csr-initiatives"
   }
 };
 
@@ -120,3 +120,4 @@ export default function CSRInitiatives() {
     </>
   );
 }
+

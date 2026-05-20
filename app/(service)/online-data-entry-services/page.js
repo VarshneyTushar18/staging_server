@@ -19,7 +19,7 @@ export const metadata = {
     title: "Best Online Data Entry Services - Tech2globe",
     description:
       "Tech2Globe is a pioneer in giving quality online data entry services. Our exceptionally trained specialists can assist you with finishing all your data section within time.",
-    url: "https://www.tech2globe.com/online-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/online-data-entry-services",
     type: "website",
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
       "Tech2Globe is a pioneer in giving quality online data entry services. Our exceptionally trained specialists can assist you with finishing all your data section within time.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/online-data-entry-services",
+    canonical: "https://stagenew.tech2globe.tech/online-data-entry-services",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata = {
     description:
       "Tech2globe designed the infrastructure related components of the new space such as computer room, voice, data and power for the workspace.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/Infrastructure",
+    url: "https://stagenew.tech2globe.tech/Infrastructure",
     type: "website"
   },
 
@@ -25,7 +25,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/Infrastructure"
+    canonical: "https://stagenew.tech2globe.tech/Infrastructure"
   }
 };
 
@@ -111,3 +111,4 @@ export default function Infrastructure() {
     </>
   );
 }
+

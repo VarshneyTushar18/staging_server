@@ -14,13 +14,13 @@ export const metadata = {
   description:
     "Create amazing videos with Clipchamp’s easy drag-and-drop video editor that has pro features and designer video templates. No downloads required. Trim, cut or crop any video, add transitions and even edit green screen videos quickly.",
   alternates: {
-    canonical: "https://www.tech2globe.com/video-editing",
+    canonical: "https://stagenew.tech2globe.tech/video-editing",
   },
   openGraph: {
     title: "Free Online Video Editor | Tech2globe",
     description:
       "Create amazing videos with Clipchamp’s easy drag-and-drop video editor that has pro features and designer video templates. No downloads required. Trim, cut or crop any video, add transitions and even edit green screen videos quickly.",
-    url: "https://www.tech2globe.com/video-editing",
+    url: "https://stagenew.tech2globe.tech/video-editing",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

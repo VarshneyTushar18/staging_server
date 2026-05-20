@@ -27,7 +27,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/yellow-and-white-pages-data-entry-services",
+      "https://stagenew.tech2globe.tech/yellow-and-white-pages-data-entry-services",
   },
 
   openGraph: {
@@ -35,7 +35,7 @@ export const metadata = {
       "Yellow pages data entry services | White pages data entry services",
     description:
       "Get professional yellow and white pages data entry services at lower cost with Tech2Globe, with the help of tools like Adobe reader, Prizmo & more. Get free consultation today.",
-    url: "https://www.tech2globe.com/yellow-and-white-pages-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/yellow-and-white-pages-data-entry-services",
     siteName: "Tech2Globe",
     type: "website",
   },

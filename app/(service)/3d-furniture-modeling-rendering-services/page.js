@@ -21,7 +21,7 @@ export const metadata = {
         title: "Outsource 3D Furniture Modeling Services",
         description:
             "Bring your furniture designs to life with Tech2Globe's outsource 3D furniture modeling services. Accurate, realistic, and high-quality 3D models delivered fast.",
-        url: "https://www.tech2globe.com/3d-furniture-modeling-rendering-services",
+        url: "https://stagenew.tech2globe.tech/3d-furniture-modeling-rendering-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },
@@ -33,7 +33,7 @@ export const metadata = {
     },
     alternates: {
         canonical:
-            "https://www.tech2globe.com/3d-furniture-modeling-rendering-services",
+            "https://stagenew.tech2globe.tech/3d-furniture-modeling-rendering-services",
     },
 };
 

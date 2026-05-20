@@ -19,7 +19,7 @@ export const metadata = {
     title: "Mobile App Development services | Mobile Apps Development Company",
     description:
       "Tech2globe is a Mobile App Development Company in India working for brands across the globe. We provides topnotch, savvy, money making mobile apps for your business.",
-    url: "https://www.tech2globe.com/mobile-application-development-services",
+    url: "https://stagenew.tech2globe.tech/mobile-application-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -30,7 +30,7 @@ export const metadata = {
       "Tech2globe is a Mobile App Development Company in India working for brands across the globe. We provides topnotch, savvy, money making mobile apps for your business.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/mobile-application-development-services",
+    canonical: "https://stagenew.tech2globe.tech/mobile-application-development-services",
   },
 };
 

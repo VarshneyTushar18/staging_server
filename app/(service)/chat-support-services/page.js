@@ -28,7 +28,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/chat-support-services",
+        canonical: "https://stagenew.tech2globe.tech/chat-support-services",
     },
 
     openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
             "Live Chat Support Services | Outsource Chat support Services",
         description:
             "Tech2Globe a leading outsourcing company in India,offers cost effective Live Chat Support Services to customers.We offered 24x7 chat support services to your customers.",
-        url: "https://www.tech2globe.com/chat-support-services",
+        url: "https://stagenew.tech2globe.tech/chat-support-services",
         siteName: "Tech2Globe",
         type: "website",
     },

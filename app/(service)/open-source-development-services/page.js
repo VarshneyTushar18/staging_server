@@ -18,7 +18,7 @@ export const metadata = {
     title: "Open Source Development Services - Tech2Globe",
     description:
       "Tech2Globe offers expert open-source development services tailored to your needs. Leverage the power of open-source solutions for your business growth.",
-    url: "https://www.tech2globe.com/open-source-development-services",
+    url: "https://stagenew.tech2globe.tech/open-source-development-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -30,7 +30,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/open-source-development-services"
+      "https://stagenew.tech2globe.tech/open-source-development-services"
   }
 };
 
@@ -222,3 +222,4 @@ export default function OpenSourceDevelopment() {
     </>
   )
 };
+

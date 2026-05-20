@@ -19,7 +19,7 @@ export const metadata = {
     title: "Online Reputation Management Services | ORM Services | Tech2Globe",
     description:
       "Protect your brand with our finest and experienced online reputation management services. Our consultants can bring your reputation on track so you'll get the best outcome.",
-    url: "https://www.tech2globe.com/online-reputation-management-services",
+    url: "https://stagenew.tech2globe.tech/online-reputation-management-services",
     siteName: "Tech2Globe",
   },
 
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/online-reputation-management-services",
+    canonical: "https://stagenew.tech2globe.tech/online-reputation-management-services",
   },
 };
 
@@ -162,3 +162,4 @@ export default function PPCManagement() {
     </>
   )
 };
+

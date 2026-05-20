@@ -17,18 +17,18 @@ export const metadata = {
 
     alternates: {
         canonical:
-            "https://www.tech2globe.com/new-york-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/new-york-digital-marketing-agency",
     },
 
     openGraph: {
         title: "Best Digital Marketing Agency And Services In New York",
         description:
             "Choose the top digital marketing agency in New York with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/new-york-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/new-york-digital-marketing-agency",
         type: "website",
         images: [
             {
-                url: "https://www.tech2globe.com/images/new-page-images/tech2globe-logo.png",
+                url: "https://stagenew.tech2globe.tech/images/new-page-images/tech2globe-logo.png",
             },
         ],
     },
@@ -39,7 +39,7 @@ export const metadata = {
         description:
             "Choose the top digital marketing agency in New York with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
         images: [
-            "https://www.tech2globe.com/images/new-page-images/tech2globe-logo.png",
+            "https://stagenew.tech2globe.tech/images/new-page-images/tech2globe-logo.png",
         ],
     },
 };

@@ -20,7 +20,7 @@ export const metadata = {
     keywords: "",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/call-center-monitoring",
+        canonical: "https://stagenew.tech2globe.tech/call-center-monitoring",
     },
 
     openGraph: {
@@ -28,7 +28,7 @@ export const metadata = {
             "Best Call Center Monitoring Support Services By Tech2globe Expert",
         description:
             " We provide global clients with a full range of call center quality monitoring services. We can help you achieve customer service excellence with ease",
-        url: "https://www.tech2globe.com/call-center-monitoring",
+        url: "https://stagenew.tech2globe.tech/call-center-monitoring",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

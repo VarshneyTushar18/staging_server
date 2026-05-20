@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Professional food photography editing service from $5 per image. If you want to make your food photos delicious-looking, refer to our food photo retouching service",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/food-photo-editing-services",
+    url: "https://stagenew.tech2globe.tech/food-photo-editing-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Professional food photography editing service from $5 per image. If you want to make your food photos delicious-looking, refer to our food photo retouching service",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/food-photo-editing-services",
+    canonical: "https://stagenew.tech2globe.tech/food-photo-editing-services",
   },
 };
 

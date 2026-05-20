@@ -19,7 +19,7 @@ export const metadata = {
     title: "Image Editing Packages | Image editing services | images editing",
     description:
       "Tech2Globe offers image editing packages outsourcing. We have experienced image editors who can transform your dull pictures & highly proficient in handling imaging software.",
-    url: "https://www.tech2globe.com/image-editing-packages",
+    url: "https://stagenew.tech2globe.tech/image-editing-packages",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -32,7 +32,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/image-editing-packages",
+    canonical: "https://stagenew.tech2globe.tech/image-editing-packages",
   },
 };
 

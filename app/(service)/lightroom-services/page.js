@@ -21,14 +21,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/lightroom-services",
+    canonical: "https://stagenew.tech2globe.tech/lightroom-services",
   },
 
   openGraph: {
     title: "Lightroom Editing Services | Tech2globe",
     description:
       "Lightroom services by Flatworld Solutions provide clients with top quality photo editing services at cost-effective prices.",
-    url: "https://www.tech2globe.com/lightroom-services",
+    url: "https://stagenew.tech2globe.tech/lightroom-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

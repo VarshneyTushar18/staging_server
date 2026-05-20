@@ -25,7 +25,7 @@ import AiTestimonial from "@/app/components/newpages/AiTestimonial/AiTestimonial
 //       "Outsource Indexing Services | Document Indexing Services | Tech2Globe",
 //     description:
 //       "Tech2Globe is a trusted Outsourcing Company in India & our experts has delivered the best in class quality results for Document Indexing Services. Get in touch with us today.",
-//     url: "https://www.tech2globe.com/indexing-services",
+//     url: "https://stagenew.tech2globe.tech/indexing-services",
 //     type: "website"
 //   },
 //   twitter: {
@@ -36,7 +36,7 @@ import AiTestimonial from "@/app/components/newpages/AiTestimonial/AiTestimonial
 //       "Tech2Globe is a trusted Outsourcing Company in India & our experts has delivered the best in class quality results for Document Indexing Services. Get in touch with us today."
 //   },
 //   alternates: {
-//     canonical: "https://www.tech2globe.com/indexing-services"
+//     canonical: "https://stagenew.tech2globe.tech/indexing-services"
 //   }
 // };
 
@@ -57,7 +57,7 @@ import AiTestimonial from "@/app/components/newpages/AiTestimonial/AiTestimonial
 //       "Outsource Indexing Services | Document Indexing Services | Tech2Globe",
 //     description:
 //       "Tech2Globe is a trusted Outsourcing Company in India & our experts has delivered the best in class quality results for Document Indexing Services. Get in touch with us today.",
-//     url: "https://www.tech2globe.com/indexing-services",
+//     url: "https://stagenew.tech2globe.tech/indexing-services",
 //     type: "website"
 //   },
 //   twitter: {
@@ -68,7 +68,7 @@ import AiTestimonial from "@/app/components/newpages/AiTestimonial/AiTestimonial
 //       "Tech2Globe is a trusted Outsourcing Company in India & our experts has delivered the best in class quality results for Document Indexing Services. Get in touch with us today."
 //   },
 //   alternates: {
-//     canonical: "https://www.tech2globe.com/indexing-services"
+//     canonical: "https://stagenew.tech2globe.tech/indexing-services"
 //   }
 // };
 

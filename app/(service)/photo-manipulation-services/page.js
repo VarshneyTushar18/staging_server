@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "At Tech2globe, we leverage comprehensive testing frameworks and advanced technologies to deliver unparalleled E-commerce website and mobile application testing services.",
-    url: "https://www.tech2globe.com/ecommerce-testing-services",
+    url: "https://stagenew.tech2globe.tech/ecommerce-testing-services",
   },
 
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ecommerce-testing-services",
+    canonical: "https://stagenew.tech2globe.tech/ecommerce-testing-services",
   },
 };
 
@@ -98,3 +98,4 @@ export default function PhotoManipulation() {
     </>
   )
 };
+

@@ -20,7 +20,7 @@ export const metadata = {
     keywords: "",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/call-center-consulting",
+        canonical: "https://stagenew.tech2globe.tech/call-center-consulting",
     },
 
     openGraph: {
@@ -28,7 +28,7 @@ export const metadata = {
             "Call Center Consulting Services | Best call center agency",
         description:
             "We are a leading offshore call center consulting provider, with our 14 years of experience offering a wide range of services to international clients ",
-        url: "https://www.tech2globe.com/call-center-consulting",
+        url: "https://stagenew.tech2globe.tech/call-center-consulting",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

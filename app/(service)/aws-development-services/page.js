@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2globe is a reliable AWS development company, We offer AWS cloud application development, migration, consulting, cloud BI & analytics, and managed cloud services on AWS.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/aws-development-services",
+    url: "https://stagenew.tech2globe.tech/aws-development-services",
   },
 
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/aws-development-services",
+    canonical: "https://stagenew.tech2globe.tech/aws-development-services",
   },
 };
 
@@ -248,3 +248,4 @@ export default function AwsDevelopment() {
     </>
   )
 };
+

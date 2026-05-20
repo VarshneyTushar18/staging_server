@@ -22,7 +22,7 @@ export const metadata = {
     description:
       "Enhance your visuals with Tech2Globe’s precise Photo Clipping Path services. Trust our expert Clipping Path services for flawless image editing and perfection.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/clipping-path-services",
+    url: "https://stagenew.tech2globe.tech/clipping-path-services",
     type: "website",
   },
   twitter: {
@@ -32,7 +32,7 @@ export const metadata = {
       "Enhance your visuals with Tech2Globe’s precise Photo Clipping Path services. Trust our expert Clipping Path services for flawless image editing and perfection.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/clipping-path-services",
+    canonical: "https://stagenew.tech2globe.tech/clipping-path-services",
   },
 };
 

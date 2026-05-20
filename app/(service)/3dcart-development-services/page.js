@@ -22,7 +22,7 @@ export const metadata = {
         title: "3dcart Development Services | 3dcart Store Development",
         description:
             "Professional 3dcart development services to build and enhance your online store. Get best solutions and support for seamless 3dcart store development.",
-        url: "https://www.tech2globe.com/3dcart-development-services",
+        url: "https://stagenew.tech2globe.tech/3dcart-development-services",
         siteName: "Tech2Globe",
         type: "website"
     },
@@ -33,7 +33,7 @@ export const metadata = {
             "Professional 3dcart development services to build and enhance your online store. Get best solutions and support for seamless 3dcart store development."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/3dcart-development-services"
+        canonical: "https://stagenew.tech2globe.tech/3dcart-development-services"
     }
 };
 

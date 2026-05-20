@@ -14,14 +14,14 @@ export const metadata = {
     keywords:
         "Amazon Virtual Assistance, Amazon Virtual Assistance Services, Outsourcing Your Amazon Virtual Assistant, Amazon VA services",
     alternates: {
-        canonical: "https://www.tech2globe.com/amazon-virtual-assistance",
+        canonical: "https://stagenew.tech2globe.tech/amazon-virtual-assistance",
     },
     openGraph: {
         title: "Amazon Virtual Assistant Services | Best Amazon VA services",
         description:
             "Our Amazon virtual assistants are extremely adaptable, frequently addressing account performance and sharing notes about logistical delays with Experience 14 Years.",
         siteName: "Tech2Globe web Solutions LLP",
-        url: "https://www.tech2globe.com/amazon-virtual-assistance",
+        url: "https://stagenew.tech2globe.tech/amazon-virtual-assistance",
         type: "website",
     },
     twitter: {

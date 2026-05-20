@@ -12,7 +12,7 @@ export const metadata = {
   description: "2D to 3D Floor Plan Converter – Professional, Quick & Unbeatable Price: We do convert 2D plans, images, sketches to 3D floor plans at unbeatable prices.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/twodthreed-floor-plan-conversion",
+    canonical: "https://stagenew.tech2globe.tech/twodthreed-floor-plan-conversion",
   },
 
   openGraph: {
@@ -20,7 +20,7 @@ export const metadata = {
       "2D to 3D Floor Plan Converter by The 2D3D Floor Plan Company | Tech2globe",
     description:
       "2D to 3D Floor Plan Converter – Professional, Quick & Unbeatable Price: We do convert 2D plans, images, sketches to 3D floor plans at unbeatable prices.",
-    url: "https://www.tech2globe.com/twodthreed-floor-plan-conversion",
+    url: "https://stagenew.tech2globe.tech/twodthreed-floor-plan-conversion",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

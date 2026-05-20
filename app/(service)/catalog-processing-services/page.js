@@ -27,14 +27,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/catalog-processing-services",
+    canonical: "https://stagenew.tech2globe.tech/catalog-processing-services",
   },
 
   openGraph: {
     title: "Outsource Catalog Processing Services Company | Tech2Globe",
     description:
       "Tech2Globe Provides the Catalog Processing Services directly from the most fundamental ecommerce product catalog processing outsourcing services like product data entry & more.",
-    url: "https://www.tech2globe.com/catalog-processing-services",
+    url: "https://stagenew.tech2globe.tech/catalog-processing-services",
     type: "website",
   },
 

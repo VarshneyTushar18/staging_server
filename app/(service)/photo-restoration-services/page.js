@@ -17,13 +17,13 @@ export const metadata = {
 
   // keywords empty in source → safely omitted (recommended)
   alternates: {
-    canonical: "https://www.tech2globe.com/photo-restoration-services",
+    canonical: "https://stagenew.tech2globe.tech/photo-restoration-services",
   },
 
   openGraph: {
     title: "Photo Restoration Services | Restoring Old Photos | Tech2globe",
     description: "Photo Restoration Services  We Repair and Restore Old Photos. Fading and Damage can be Repaired, Preserving them for Future Generations.",
-    url: "https://www.tech2globe.com/photo-restoration-services",
+    url: "https://stagenew.tech2globe.tech/photo-restoration-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

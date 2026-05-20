@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Corporate Branding solutions from a leading branding agency, Tech2globe, for corporate identity design –provide constructive branding solutions to define a business’s personality and we are here to do the exact same thing.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/corporate-branding",
+    url: "https://stagenew.tech2globe.tech/corporate-branding",
     type: "website"
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Corporate Branding solutions from a leading branding agency, Tech2globe, for corporate identity design –provide constructive branding solutions to define a business’s personality and we are here to do the exact same thing."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/corporate-branding"
+    canonical: "https://stagenew.tech2globe.tech/corporate-branding"
   }
 };
 
@@ -220,3 +220,4 @@ export default function CorporateBranding() {
     </>
   )
 };
+

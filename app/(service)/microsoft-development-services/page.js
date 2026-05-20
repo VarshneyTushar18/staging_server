@@ -20,11 +20,11 @@ export const metadata = {
       "Microsoft Development Services | Microsoft Technology Solution - Tech2Globe",
     description:
       "Tech2Globe delivers top-notch Microsoft development services and solutions. Harness the power of Microsoft technologies for your business success.",
-    url: "https://www.tech2globe.com/microsoft-development-services",
+    url: "https://stagenew.tech2globe.tech/microsoft-development-services",
     type: "website"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/microsoft-development-services"
+    canonical: "https://stagenew.tech2globe.tech/microsoft-development-services"
   }
 };
 
@@ -252,3 +252,4 @@ export default function MicrosoftDevelopment() {
     </>
   )
 };
+

@@ -21,7 +21,7 @@ export const metadata = {
     title: "Best Web Development | Tech2Globe",
     description:
       "Web development refers to building and maintaining websites. It includes web design, web publishing, web programming, and database management.",
-    url: "https://www.tech2globe.com/web-development",
+    url: "https://stagenew.tech2globe.tech/web-development",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website"
   },
@@ -32,7 +32,7 @@ export const metadata = {
       "Web development refers to building and maintaining websites. It includes web design, web publishing, web programming, and database management."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/web-development"
+    canonical: "https://stagenew.tech2globe.tech/web-development"
   }
 };
 
@@ -218,3 +218,4 @@ export default function ResponsiveWebDesign() {
     </>
   )
 };
+

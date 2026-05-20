@@ -31,14 +31,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/3dcart-development",
+    canonical: "https://stagenew.tech2globe.tech/3dcart-development",
   },
 
   openGraph: {
     title: "3Dcart Development | 3Dcart Custom Theme Development - Tech2Globe",
     description:
       "Tech2Globe is an experienced 3Dcart development company delivering an extensive range of 3Dcart development services at unbeatable prices.",
-    url: "https://www.tech2globe.com/3dcart-development",
+    url: "https://stagenew.tech2globe.tech/3dcart-development",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

@@ -24,7 +24,7 @@ export const metadata = {
     title: "PHP Development Services | PHP development company | Tech2Globe",
     description:
       "Tech2Globe offers you bespoken PHP development services. With our PHP development company, your business gains admittance to maximum functionality & great programming.",
-    url: "https://www.tech2globe.com/php-development-services",
+    url: "https://stagenew.tech2globe.tech/php-development-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -35,7 +35,7 @@ export const metadata = {
       "Tech2Globe offers you bespoken PHP development services. With our PHP development company, your business gains admittance to maximum functionality & great programming."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/php-development-services"
+    canonical: "https://stagenew.tech2globe.tech/php-development-services"
   }
 };
 
@@ -192,3 +192,4 @@ export default function PHPWebDevelopment() {
     </>
   )
 };
+

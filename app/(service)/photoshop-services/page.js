@@ -23,13 +23,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/photoshop-services",
+    canonical: "https://stagenew.tech2globe.tech/photoshop-services",
   },
 
   openGraph: {
     title: "Image Editing - Photoshop, Editing & Retouching Services | Tech2globe",
     description: "Affordable Freelance Photoshop, Editing & Retouching Services. Hire a freelance Photoshop Designer expert services & get your Photoshop project within 24hr.",
-    url: "https://www.tech2globe.com/photoshop-services",
+    url: "https://stagenew.tech2globe.tech/photoshop-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

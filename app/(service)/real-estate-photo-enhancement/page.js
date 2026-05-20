@@ -23,13 +23,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical:"https://www.tech2globe.com/real-estate-photo-enhancement",
+    canonical:"https://stagenew.tech2globe.tech/real-estate-photo-enhancement",
   },
 
   openGraph: {
     title: "#1 Real Estate Photo Editing Services | Tech2globe",
     description:"Real estate photo editing services from $1 per image for photographers & real estate agents. We guarantee the best property photography for your listings. Start making real estate photo enhancement fast",
-    url: "https://www.tech2globe.com/real-estate-photo-enhancement",
+    url: "https://stagenew.tech2globe.tech/real-estate-photo-enhancement",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

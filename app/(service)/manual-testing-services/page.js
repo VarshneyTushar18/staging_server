@@ -21,7 +21,7 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "At TestingXperts, we provide best manual testing services and solutions to our clients in order to deliver flawless performance of projects with zero defects.",
-    url: "https://www.tech2globe.com/manual-testing-services",
+    url: "https://stagenew.tech2globe.tech/manual-testing-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ export const metadata = {
       "At TestingXperts, we provide best manual testing services and solutions to our clients in order to deliver flawless performance of projects with zero defects.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/manual-testing-services",
+    canonical: "https://stagenew.tech2globe.tech/manual-testing-services",
   },
 };
 
@@ -203,3 +203,4 @@ export default function ManualTesting() {
     </>
   )
 };
+

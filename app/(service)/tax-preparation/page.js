@@ -21,7 +21,7 @@ export const metadata = {
         "Accounting Services | Accounting Services | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/tax-preparation",
+        canonical: "https://stagenew.tech2globe.tech/tax-preparation",
     },
 
     openGraph: {
@@ -29,7 +29,7 @@ export const metadata = {
             "Best Tax Preparation Services of 2023 | Tech2globe ",
         description:
             "The best services will take the complexity out of doing your taxes. We rounded up the best tax preparation services based on cost, convenience, and more.",
-        url: "https://www.tech2globe.com/tax-preparation",
+        url: "https://stagenew.tech2globe.tech/tax-preparation",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

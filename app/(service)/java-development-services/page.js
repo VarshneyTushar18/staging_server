@@ -23,7 +23,7 @@ export const metadata = {
     title: "Java Development Services | Java Development Company | Tech2Globe",
     description:
       "At Tech2Globe, our expert Java developers help you set up and run Java applications flawlessly. We tailor our Java development services to best fit your business needs.",
-    url: "https://www.tech2globe.com/java-development-services",
+    url: "https://stagenew.tech2globe.tech/java-development-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "At Tech2Globe, our expert Java developers help you set up and run Java applications flawlessly. We tailor our Java development services to best fit your business needs."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/java-development-services"
+    canonical: "https://stagenew.tech2globe.tech/java-development-services"
   }
 };
 
@@ -288,3 +288,4 @@ export default function JavaWebDevelopment() {
     </>
   )
 };
+

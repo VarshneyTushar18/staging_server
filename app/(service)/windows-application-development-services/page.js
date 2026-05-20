@@ -21,7 +21,7 @@ export const metadata = {
     title: "Windows Development Services | Windows App Development services",
     description:
       "Tech2Globe offers Windows App Development services by best phone developers. We are known for providing secure and results-driven Windows Phone Apps Development solutions",
-    url: "https://www.tech2globe.com/windows-application-development-services",
+    url: "https://stagenew.tech2globe.tech/windows-application-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -33,7 +33,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/windows-application-development-services",
+      "https://stagenew.tech2globe.tech/windows-application-development-services",
   },
 };
 

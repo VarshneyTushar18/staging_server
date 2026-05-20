@@ -42,7 +42,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/local-seo",
+    canonical: "https://stagenew.tech2globe.tech/local-seo",
   },
 
   openGraph: {
@@ -50,7 +50,7 @@ export const metadata = {
       "#1 Ranked Local SEO Services Solution for Local Companies - Tech2Globe",
     description:
       "Tech2Globe is the all in one platform for your business 360 degree digital needs, including IT consulting, software development, ecommerce, digital marketing, data analytics, and much more Connect with us now to expand your business ",
-    url: "https://www.tech2globe.com/local-seo",
+    url: "https://stagenew.tech2globe.tech/local-seo",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },

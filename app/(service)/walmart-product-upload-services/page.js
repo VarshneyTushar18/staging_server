@@ -21,14 +21,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/walmart-product-upload-services",
+    canonical: "https://stagenew.tech2globe.tech/walmart-product-upload-services",
   },
 
   openGraph: {
     title: "Walmart Product Upload Services | Walmart Product Data Entry",
     description:
       "Professional Walmart product upload and data entry services. Optimize listings, enhance visibility, and boost sales with accurate, detailed product information.",
-    url: "https://www.tech2globe.com/walmart-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/walmart-product-upload-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

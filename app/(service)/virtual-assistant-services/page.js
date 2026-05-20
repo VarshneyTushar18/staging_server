@@ -16,7 +16,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Tech2Globe offers professional outsourced virtual assistant services. Optimize business operations with skilled remote helpers for your administrative support.",
-        url: "https://www.tech2globe.com/virtual-assistant-services",
+        url: "https://stagenew.tech2globe.tech/virtual-assistant-services",
     },
     twitter: {
         card: "Outsource Reliable Virtual Assistant Services for Business",
@@ -24,7 +24,7 @@ export const metadata = {
             "Tech2Globe offers professional outsourced virtual assistant services. Optimize business operations with skilled remote helpers for your administrative support.",
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/virtual-assistant-services",
+        canonical: "https://stagenew.tech2globe.tech/virtual-assistant-services",
     },
 };
 

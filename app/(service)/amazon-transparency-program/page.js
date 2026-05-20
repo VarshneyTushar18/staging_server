@@ -25,14 +25,14 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/amazon-transparency-program",
+        canonical: "https://stagenew.tech2globe.tech/amazon-transparency-program",
     },
 
     openGraph: {
         title: "Amazon Transparency Program | Transparency Program Amazon",
         description:
             "Ensure trust and authenticity on Amazon with Tech2Globe’s expert assistance in the Transparency Program. Safeguard your brand with our Amazon Transparency Program services.",
-        url: "https://www.tech2globe.com/amazon-transparency-program",
+        url: "https://stagenew.tech2globe.tech/amazon-transparency-program",
         siteName: "Tech2Globe web Solutions LLP",
         type: "website",
     },

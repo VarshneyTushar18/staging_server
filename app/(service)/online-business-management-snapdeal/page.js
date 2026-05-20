@@ -21,7 +21,7 @@ export const metadata = {
       "Snapdeal Product Listing Services | Snapdeal Seller Central Management",
     description:
       "We provide you full support in the form of services to sell products or goods on Snapdeal. We have a separate team of professionals to provide Snapdeal Marketplace Services.",
-    url: "https://www.tech2globe.com/online-business-management-snapdeal",
+    url: "https://stagenew.tech2globe.tech/online-business-management-snapdeal",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -33,7 +33,7 @@ export const metadata = {
       "We provide you full support in the form of services to sell products or goods on Snapdeal. We have a separate team of professionals to provide Snapdeal Marketplace Services.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/online-business-management-snapdeal",
+    canonical: "https://stagenew.tech2globe.tech/online-business-management-snapdeal",
   },
 };
 

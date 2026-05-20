@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/social-media-marketing",
+    canonical: "https://stagenew.tech2globe.tech/social-media-marketing",
   },
 
   openGraph: {
     title: "Social Media Marketing for Businesses | Tech2globe",
     description:
       "Social media marketing is a powerful way to grow your business. Use these tips and steps to build your best social media marketing strategy yet.",
-    url: "https://www.tech2globe.com/social-media-marketing",
+    url: "https://stagenew.tech2globe.tech/social-media-marketing",
     type: "website",
   },
 

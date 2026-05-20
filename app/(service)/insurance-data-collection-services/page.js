@@ -17,14 +17,14 @@ export const metadata = {
   keywords:
     "Insurance Claims Data Entry Services, Outsource insurance claims data entry services, Insurance data entry services, Medical claims data entry services, Medical and insurance claims data entry services.",
   alternates: {
-    canonical: "https://www.tech2globe.com/insurance-data-collection-services",
+    canonical: "https://stagenew.tech2globe.tech/insurance-data-collection-services",
   },
 
   openGraph: {
     title: "Outsource Insurance Data Collection Services Company - Tech2Globe",
     description:
       "Outsource insurance data collection services from Tech2Globe that offers top-quality insurance claims, medical claims, health insurance, life insurance, and vehicle insurance data collection services at the lowest prices.",
-    url: "https://www.tech2globe.com/insurance-data-collection-services",
+    url: "https://stagenew.tech2globe.tech/insurance-data-collection-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -293,3 +293,4 @@ export default function LeadQualification() {
     </>
   )
 };
+

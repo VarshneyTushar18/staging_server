@@ -24,7 +24,7 @@ export const metadata = {
     title: "Outsource Audio Transcription Services | Video Transcription Services",
     description:
       "Our audio transcription services can translate with 100% accuracy. We have built a three-step transcription process to guarantee that you get a superior quality transcription.",
-    url: "https://www.tech2globe.com/audio-transcription-services",
+    url: "https://stagenew.tech2globe.tech/audio-transcription-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -35,7 +35,7 @@ export const metadata = {
       "Our audio transcription services can translate with 100% accuracy. We have built a three-step transcription process to guarantee that you get a superior quality transcription."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/audio-transcription-services"
+    canonical: "https://stagenew.tech2globe.tech/audio-transcription-services"
   }
 };
 

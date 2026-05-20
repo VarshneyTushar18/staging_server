@@ -25,7 +25,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Enhance business insights with Tech2Globe. Outsource data mining services companies providers outsourcing data mining services for accurate, timely results.",
-        url: "https://www.tech2globe.com/data-mining-services"
+        url: "https://stagenew.tech2globe.tech/data-mining-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -34,7 +34,7 @@ export const metadata = {
             "Enhance business insights with Tech2Globe. Outsource data mining services companies providers outsourcing data mining services for accurate, timely results."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/data-mining-services"
+        canonical: "https://stagenew.tech2globe.tech/data-mining-services"
     }
 };
 
@@ -55,7 +55,7 @@ const caseStudies = [
         image: "/images/services/service-inner/data-mining-on-crm-for-health-Industry.png",
         description:
             "The client has worked in a system where they have a team dedicated to improving the lives of patients and their families...",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Data%20Mining%20on%20CRM%20for%20Health%20Industry%20-%20Case%20Study%20(1).pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Data%20Mining%20on%20CRM%20for%20Health%20Industry%20-%20Case%20Study%20(1).pdf",
     },
     {
         id: 2,
@@ -63,7 +63,7 @@ const caseStudies = [
         image: "/images/services/service-inner/data-mining-bn-2.jpg",
         description:
             "Most businesses wish they could take better advantage of their data to make better, more informed decisions — but that is much easier said than done....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/CASE%20STUDY-%20Data%20Mining%20Service-main.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/CASE%20STUDY-%20Data%20Mining%20Service-main.pdf",
     },
 ];
 

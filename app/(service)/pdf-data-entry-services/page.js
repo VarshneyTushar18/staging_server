@@ -18,7 +18,7 @@ export const metadata = {
     title: "Outsource PDF Data Entry Services |PDF Conversion Services- Tech2globe",
     description:
       "Tech2Globe has expertise in giving PDF data entry services at 60% cutting rates, with having huge experience. we offer dependable, financially savvy PDF data entry services.",
-    url: "https://www.tech2globe.com/pdf-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/pdf-data-entry-services",
     type: "website"
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata = {
       "Tech2Globe has expertise in giving PDF data entry services at 60% cutting rates, with having huge experience. we offer dependable, financially savvy PDF data entry services."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/pdf-data-entry-services"
+    canonical: "https://stagenew.tech2globe.tech/pdf-data-entry-services"
   }
 };
 

@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Tech2globe is known for building creative, innovative and responsive apple watch applications. Our iWatch app development services lead and inspire others in the industry.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/iwatch-application-development-services",
+    url: "https://stagenew.tech2globe.tech/iwatch-application-development-services",
     type: "website"
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Tech2globe is known for building creative, innovative and responsive apple watch applications. Our iWatch app development services lead and inspire others in the industry."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/iwatch-application-development-services"
+    canonical: "https://stagenew.tech2globe.tech/iwatch-application-development-services"
   }
 };
 
@@ -256,3 +256,4 @@ export default function IwatchApplicationDevelopment() {
     </>
   )
 };
+

@@ -17,14 +17,14 @@ export const metadata = {
     "Professional EBay Store Design services"
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/ebay-store-design-services"
+    canonical: "https://stagenew.tech2globe.tech/ebay-store-design-services"
   },
   openGraph: {
     title: "EBay Store Design | EBay Store Designer Services - Tech2Globe",
     description:
       "We have professional ebay store designs to transform the look of your ebay shop. Visually appealing ebay store design grow your business with ebay design!",
     siteName: "Tech2Globe",
-    url: "https://www.tech2globe.com/ebay-store-design-services",
+    url: "https://stagenew.tech2globe.tech/ebay-store-design-services",
     type: "website"
   },
   twitter: {

@@ -24,7 +24,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/accounts-receivable-services",
+        canonical: "https://stagenew.tech2globe.tech/accounts-receivable-services",
     },
 
     openGraph: {
@@ -32,7 +32,7 @@ export const metadata = {
             "Accounts Receivable Services | Accounts Receivable process | Tech2Globe",
         description:
             "Tech2globe provides high-quality account receivable services to clients around the world at cost-effective price. ",
-        url: "https://www.tech2globe.com/accounts-receivable-services",
+        url: "https://stagenew.tech2globe.tech/accounts-receivable-services",
         type: "website",
     },
 

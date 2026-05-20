@@ -20,7 +20,7 @@ export const metadata = {
     keywords: "",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/lead-generation-services",
+        canonical: "https://stagenew.tech2globe.tech/lead-generation-services",
     },
 
     openGraph: {
@@ -28,7 +28,7 @@ export const metadata = {
             "Best Lead Generation Services Agency & Specialists | Tech2globe",
         description:
             "Tech2globe is one among the best companies offers lead generation services and boost your sales result by converting customer interest into enquiry. We offers quality leads generation services with the help of specialists for businesses of all sizes.",
-        url: "https://www.tech2globe.com/lead-generation-services",
+        url: "https://stagenew.tech2globe.tech/lead-generation-services",
         siteName: "Tech2Globe",
         type: "website",
     },

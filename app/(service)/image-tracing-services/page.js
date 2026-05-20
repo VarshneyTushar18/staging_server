@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "If you want to get a manual vector conversion service, take our image tracing service in Illustrator. We are the best image tracing and vector conversion provider",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/image-tracing-services",
+    url: "https://stagenew.tech2globe.tech/image-tracing-services",
     type: "website",
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "If you want to get a manual vector conversion service, take our image tracing service in Illustrator. We are the best image tracing and vector conversion provider",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/image-tracing-services",
+    canonical: "https://stagenew.tech2globe.tech/image-tracing-services",
   },
 };
 

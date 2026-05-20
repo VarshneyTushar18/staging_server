@@ -19,11 +19,11 @@ export const metadata = {
     description:
       "Tech2Globe offers professional 360 panorama photo stitching services. Transform your images into immersive experiences with our expert solutions.",
     siteName: "Tech2Globe",
-    url: "https://www.tech2globe.com/threesixty-panorma",
+    url: "https://stagenew.tech2globe.tech/threesixty-panorma",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/threesixty-panorma",
+    canonical: "https://stagenew.tech2globe.tech/threesixty-panorma",
   },
 };
 

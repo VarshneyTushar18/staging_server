@@ -28,7 +28,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/financial-data-entry-services",
+    canonical: "https://stagenew.tech2globe.tech/financial-data-entry-services",
   },
 
   openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
       "Financial data entry service provider",
     description:
       "We at Tech2Globe provide valid financial data entry services to business worldwide. Our financial data entry service help banks/institutes and accounting professionals.",
-    url: "https://www.tech2globe.com/financial-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/financial-data-entry-services",
     type: "website",
   },
 

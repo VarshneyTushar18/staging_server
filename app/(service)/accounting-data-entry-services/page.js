@@ -37,7 +37,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/accounting-data-entry-services",
+    canonical: "https://stagenew.tech2globe.tech/accounting-data-entry-services",
   },
 
   openGraph: {
@@ -45,7 +45,7 @@ export const metadata = {
       "Outsource Accounting Data Entry Services | Data Entry Services",
     description:
       "Outsource accounting data entry services & bookkeeping data entry services to the most trusted company in India with Tech2Globe avail quick, accurate, and reliable services at highly and cost-effective rates.",
-    url: "https://www.tech2globe.com/accounting-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/accounting-data-entry-services",
     siteName: "Tech2Globe",
     type: "website",
   },

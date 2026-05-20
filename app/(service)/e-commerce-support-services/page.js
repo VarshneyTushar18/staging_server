@@ -26,14 +26,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/e-commerce-support-services",
+    canonical: "https://stagenew.tech2globe.tech/e-commerce-support-services",
   },
 
   openGraph: {
     title: "E-Commerce Support Services | E-Commerce Support Specialists",
     description:
       "Outsource eCommerce support services to Tech2Globe. Our eCommerce specialists help manage business tasks efficiently and drive consistent online sales growth.",
-    url: "https://www.tech2globe.com/e-commerce-support-services",
+    url: "https://stagenew.tech2globe.tech/e-commerce-support-services",
     siteName: "Tech2Globe",
     type: "website",
   },

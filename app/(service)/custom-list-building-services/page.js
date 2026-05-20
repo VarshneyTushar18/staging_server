@@ -21,7 +21,7 @@ export const metadata = {
     title: "Custom List Building Services | B2B list building service | Tech2Globe",
     description:
       "Tech2Globe offers you the most ideal method of streamlining your list enhancement initiative with Custom List Building Services. With our B2B list building services, you can boost marketing efforts & reduce customer acquisition cost.",
-    url: "https://www.tech2globe.com/custom-list-building-services",
+    url: "https://stagenew.tech2globe.tech/custom-list-building-services",
     siteName: "Tech2Globe",
   },
 
@@ -33,7 +33,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/custom-list-building-services",
+    canonical: "https://stagenew.tech2globe.tech/custom-list-building-services",
   },
 };
 
@@ -261,3 +261,4 @@ export default function CustomListBuilding() {
     </>
   )
 };
+

@@ -18,7 +18,7 @@ export const metadata = {
     description:
       "We use best-in-class tools and state-of-the-art Kotlin application development services to make Android development faster. Hire kotlin app developers from us.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/kotlin-app-development",
+    url: "https://stagenew.tech2globe.tech/kotlin-app-development",
     type: "website",
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
       "We use best-in-class tools and state-of-the-art Kotlin application development services to make Android development faster. Hire kotlin app developers from us.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/kotlin-app-development",
+    canonical: "https://stagenew.tech2globe.tech/kotlin-app-development",
   },
 };
 
@@ -210,3 +210,4 @@ export default function KotlinAppDevelopment() {
     </>
   )
 };
+

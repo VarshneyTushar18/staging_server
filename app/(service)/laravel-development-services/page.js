@@ -18,7 +18,7 @@ export const metadata = {
     title: "Laravel Development Company | Top Services | Tech2globe",
     description:
       "Tech2globe is a trusted Laravel development company, renowned for offering feature-packed web apps. Grow with our best Laravel development services.",
-    url: "https://www.tech2globe.com/laravel-development-services",
+    url: "https://stagenew.tech2globe.tech/laravel-development-services",
     type: "website"
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
       "Tech2globe is a trusted Laravel development company, renowned for offering feature-packed web apps. Grow with our best Laravel development services."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/laravel-development-services"
+    canonical: "https://stagenew.tech2globe.tech/laravel-development-services"
   }
 };
 
@@ -198,3 +198,4 @@ export default function LaravelDevelopment() {
     </>
   )
 };
+

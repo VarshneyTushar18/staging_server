@@ -19,7 +19,7 @@ export const metadata = {
     title: "Display Advertising Services | Tech2globe - Digital Marketing Agency",
     description:
       "Tech2globe is a display advertising company engaged in providing display adverting services that aware consumers of your products or services and generate sales and traffic.",
-    url: "https://www.tech2globe.com/display-advertising-services",
+    url: "https://stagenew.tech2globe.tech/display-advertising-services",
     type: "website",
   },
 
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/display-advertising-services",
+    canonical: "https://stagenew.tech2globe.tech/display-advertising-services",
   },
 };
 

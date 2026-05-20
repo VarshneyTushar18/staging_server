@@ -29,11 +29,11 @@ export const metadata = {
     title: "Tech2Globe: Online Marketing | Ecommerce & IT Consulting | BPO/KPO",
     description:
       "Tech2Globe is Web Portal & Software Development Company that helps to drive top-line revenue growth for their clients. We also offer data management, eCommerce, IT Consulting, online marketing & more.",
-    url: "https://www.tech2globe.com/",
+    url: "https://stagenew.tech2globe.tech/",
     siteName: "Tech2Globe web Solutions LLP",
     images: [
       {
-        url: "https://tech2globe.com/images/tech2globe.jpg",
+        url: "https://stagenew.tech2globe.tech/images/tech2globe.jpg",
         width: 1200,
         height: 630,
       },
@@ -46,11 +46,11 @@ export const metadata = {
     title: "Tech2Globe: Online Marketing | Ecommerce & IT Consulting | BPO/KPO",
     description:
       "Tech2Globe is the all-in-one platform for your business 360 degree digital needs, including IT consulting, software development, ecommerce, digital marketing, data analytics, and much more. Connect with us now to expand your business.",
-    images: ["https://tech2globe.com/images/tech2globe.jpg"],
+    images: ["https://stagenew.tech2globe.tech/images/tech2globe.jpg"],
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com",
+    canonical: "https://stagenew.tech2globe.tech",
   },
 };
 
@@ -75,3 +75,5 @@ export default function Home() {
     </div>
   );
 }
+
+

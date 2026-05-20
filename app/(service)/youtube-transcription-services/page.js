@@ -25,7 +25,7 @@ export const metadata = {
     title: "Outsource YouTube Transcription Services | Video Transcription Service",
     description:
       "We at Tech2Globe utilize professional YouTube transcription services to guarantee that you get precise transcription services. Contact us today for a free consultation.",
-    url: "https://www.tech2globe.com/youtube-transcription-services",
+    url: "https://stagenew.tech2globe.tech/youtube-transcription-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -36,7 +36,7 @@ export const metadata = {
       "We at Tech2Globe utilize professional YouTube transcription services to guarantee that you get precise transcription services. Contact us today for a free consultation."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/youtube-transcription-services"
+    canonical: "https://stagenew.tech2globe.tech/youtube-transcription-services"
   }
 };
 

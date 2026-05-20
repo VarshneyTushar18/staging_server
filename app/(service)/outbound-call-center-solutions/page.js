@@ -29,7 +29,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/outbound-call-center-solutions",
+        canonical: "https://stagenew.tech2globe.tech/outbound-call-center-solutions",
     },
 
     openGraph: {
@@ -37,7 +37,7 @@ export const metadata = {
             "Outbound Call Center Solutions | Outbound Call Center Services",
         description:
             "At Tech2Globe, we have a step-by-step process for outbound call center services that are designed to ensure your business is always meeting the needs of your customers.",
-        url: "https://www.tech2globe.com/outbound-call-center-solutions",
+        url: "https://stagenew.tech2globe.tech/outbound-call-center-solutions",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

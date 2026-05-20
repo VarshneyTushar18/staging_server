@@ -17,14 +17,14 @@ export const metadata = {
   keywords:
     "Product research services, Ecommerce product research services, Market research services",
   alternates: {
-    canonical: "https://www.tech2globe.com/product-research-services",
+    canonical: "https://stagenew.tech2globe.tech/product-research-services",
   },
 
   openGraph: {
     title: "Ecommerce Product Research Services | Market Research - Tech2Globe",
     description:
       "Tech2Globe specialists use new product launch research to deliver end-to-end product research services, from product launch analysis to product packaging insights. Contact us now.",
-    url: "https://www.tech2globe.com/product-research-services",
+    url: "https://stagenew.tech2globe.tech/product-research-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -278,3 +278,4 @@ export default function ProductResearch() {
     </>
   )
 };
+

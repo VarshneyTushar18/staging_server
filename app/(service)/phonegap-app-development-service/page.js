@@ -16,14 +16,14 @@ export const metadata = {
     "Planning to build a hybrid app for your business? Quintero Solutions offers PhoneGap App Development services with best user experience that reach out to a larger audience.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/phonegap-app-development-service",
+    canonical: "https://stagenew.tech2globe.tech/phonegap-app-development-service",
   },
 
   openGraph: {
     title: "PhoneGap App Development Services Provider Company - Tech2Globe",
     description:
       "Planning to build a hybrid app for your business? Quintero Solutions offers PhoneGap App Development services with best user experience that reach out to a larger audience.",
-    url: "https://www.tech2globe.com/phonegap-app-development-service",
+    url: "https://stagenew.tech2globe.tech/phonegap-app-development-service",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -267,3 +267,4 @@ export default function PhonegapAppDevelopment() {
     </>
   )
 };
+

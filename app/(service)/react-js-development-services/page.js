@@ -19,7 +19,7 @@ export const metadata = {
     title: "React JS App Development Services | React js Development Company",
     description:
       "Tech2globe is a leading React.js Development Company in India & USA. We offers custom react app development services and React js consulting services at affordable rate.",
-    url: "https://www.tech2globe.com/react-js-development-services",
+    url: "https://stagenew.tech2globe.tech/react-js-development-services",
     type: "website"
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2globe is a leading React.js Development Company in India & USA. We offers custom react app development services and React js consulting services at affordable rate."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/react-js-development-services"
+    canonical: "https://stagenew.tech2globe.tech/react-js-development-services"
   }
 };
 
@@ -276,3 +276,4 @@ export default function ReactJsDevelopment() {
     </>
   )
 };
+

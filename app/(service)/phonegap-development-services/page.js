@@ -20,7 +20,7 @@ export const metadata = {
     title: "PhoneGap App Development Services | PhoneGap App Development Company",
     description:
       "Tech2Globe is phoneGap app Development Company. We design & build customer-engaging apps for insurance, ecommerce, retail, or banking that will achieve your business goals.",
-    url: "https://www.tech2globe.com/phonegap-development-services",
+    url: "https://stagenew.tech2globe.tech/phonegap-development-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -31,7 +31,7 @@ export const metadata = {
       "Tech2Globe is phoneGap app Development Company. We design & build customer-engaging apps for insurance, ecommerce, retail, or banking that will achieve your business goals."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/phonegap-development-services"
+    canonical: "https://stagenew.tech2globe.tech/phonegap-development-services"
   }
 };
 

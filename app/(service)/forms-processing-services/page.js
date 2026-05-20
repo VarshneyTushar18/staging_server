@@ -21,7 +21,7 @@ export const metadata = {
     title: "Outsource Forms Processing Services | Forms Processing Experts",
     description:
       "At Tech2Globe, we offer precise and dependable Forms Processing Services, which can enable your association to refute human errors via mechanizing the data collection.",
-    url: "https://www.tech2globe.com/forms-processing-services",
+    url: "https://stagenew.tech2globe.tech/forms-processing-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ export const metadata = {
       "At Tech2Globe, we offer precise and dependable Forms Processing Services, which can enable your association to refute human errors via mechanizing the data collection.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/forms-processing-services",
+    canonical: "https://stagenew.tech2globe.tech/forms-processing-services",
   },
 };
 
@@ -298,3 +298,4 @@ export default function DataScrubbing() {
     </>
   )
 };
+

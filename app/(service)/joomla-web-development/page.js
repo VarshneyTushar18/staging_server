@@ -13,13 +13,13 @@ export const metadata = {
   description:
     "Tech2Globe offers expert Joomla web development services. Elevate your online presence with our tailored Joomla solutions for your business.",
   alternates: {
-    canonical: "https://www.tech2globe.com/joomla-web-development",
+    canonical: "https://stagenew.tech2globe.tech/joomla-web-development",
   },
   openGraph: {
     title: "Joomla Web Development | Joomla Development Services - Tech2Globe",
     description:
       "Tech2Globe offers expert Joomla web development services. Elevate your online presence with our tailored Joomla solutions for your business.",
-    url: "https://www.tech2globe.com/joomla-web-development",
+    url: "https://stagenew.tech2globe.tech/joomla-web-development",
     type: "website",
     siteName: "Tech2Globe",
   },
@@ -283,3 +283,4 @@ export default function JoomlaWebDevelopment() {
     </>
   )
 };
+

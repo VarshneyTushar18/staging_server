@@ -27,7 +27,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/web-scraping-services",
+    canonical: "https://stagenew.tech2globe.tech/web-scraping-services",
   },
 
   openGraph: {
@@ -35,7 +35,7 @@ export const metadata = {
       "Expert Data Extraction Services for Efficient Insights | Tech2Globe",
     description:
       "Tech2Globe provides reliable Data Extraction services through advanced Web Scraping techniques. Harness valuable insights for strategic decision-making with our expert solutions.",
-    url: "https://www.tech2globe.com/web-scraping-services",
+    url: "https://stagenew.tech2globe.tech/web-scraping-services",
     siteName: "Tech2Globe",
     type: "website",
   },

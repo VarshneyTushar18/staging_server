@@ -16,13 +16,13 @@ export const metadata = {
   description: "Outsource image vector services to Flatworld Solutions and get access to accurate vector images, and vector graphics services",
   // keywords empty → intentionally omitted
   alternates: {
-    canonical: "https://www.tech2globe.com/image-vector-services",
+    canonical: "https://stagenew.tech2globe.tech/image-vector-services",
   },
 
   openGraph: {
     title: "Outsource Image Vector Services | Tech2globe",
     description: "Outsource image vector services to Flatworld Solutions and get access to accurate vector images, and vector graphics services",
-    url: "https://www.tech2globe.com/image-vector-services",
+    url: "https://stagenew.tech2globe.tech/image-vector-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

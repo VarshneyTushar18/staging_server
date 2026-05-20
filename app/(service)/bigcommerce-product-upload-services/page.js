@@ -29,7 +29,7 @@ export const metadata = {
     title: "Bigcommerce Product Upload Services | Data Entry Services",
     description:
       "Bigcommerce product upload and data entry services to streamline your online store operations with accurate, optimized, and compelling product listings.",
-    url: "https://www.tech2globe.com/bigcommerce-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/bigcommerce-product-upload-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -40,7 +40,7 @@ export const metadata = {
       "Bigcommerce product upload and data entry services to streamline your online store operations with accurate, optimized, and compelling product listings."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/bigcommerce-product-upload-services"
+    canonical: "https://stagenew.tech2globe.tech/bigcommerce-product-upload-services"
   }
 };
 

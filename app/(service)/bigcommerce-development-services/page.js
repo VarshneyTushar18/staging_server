@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/bigcommerce-development-services",
+    canonical: "https://stagenew.tech2globe.tech/bigcommerce-development-services",
   },
 
   openGraph: {
     title: "BigCommerce App Development | Custom App Solutions - Tech2Globe",
     description:
       "Get expert BigCommerce development services to build, optimize, and enhance your online store for improved performance and sustained sales growth.",
-    url: "https://www.tech2globe.com/bigcommerce-development-services",
+    url: "https://stagenew.tech2globe.tech/bigcommerce-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },

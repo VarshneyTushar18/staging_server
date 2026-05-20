@@ -20,7 +20,7 @@ export const metadata = {
     title: "Expert Woocommerce Development Services - Tech2Globe",
     description:
       "Unlock the full potential of your e-commerce website with Tech2Globe’s expert WooCommerce development services. Optimize sales and user experience!",
-    url: "https://www.tech2globe.com/woocommerce-development",
+    url: "https://stagenew.tech2globe.tech/woocommerce-development",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -31,7 +31,7 @@ export const metadata = {
       "Unlock the full potential of your e-commerce website with Tech2Globe’s expert WooCommerce development services. Optimize sales and user experience!"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/woocommerce-development"
+    canonical: "https://stagenew.tech2globe.tech/woocommerce-development"
   }
 };
 

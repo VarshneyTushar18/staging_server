@@ -16,12 +16,12 @@ export const metadata = {
     "Pay Per Click Packages",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/ppc-packages",
+    canonical: "https://stagenew.tech2globe.tech/ppc-packages",
   },
   openGraph: {
     title: "Affordable PPC Services Packages | PPC Packages India",
     description: "Tech2Globe offers affordable PPC packages with certified experts. From PPC audits and account setup to ad management and campaign monitoring, we deliver measurable results.",
-    url: "https://www.tech2globe.com/ppc-packages",
+    url: "https://stagenew.tech2globe.tech/ppc-packages",
     type: "website",
   },
   twitter: {
@@ -385,7 +385,7 @@ export default function PpcPackages() {
                           3 Months
                         </td>
                         <td>
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -480,7 +480,7 @@ export default function PpcPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td>
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -562,7 +562,7 @@ export default function PpcPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image003.gif" alt="" src="images/services/service-inner/clip_image003.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image003.gif" alt="" src="images/services/service-inner/clip_image003.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
-                        <td><a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a></td>
+                        <td><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="full-row" colspan="5">Reporting</td>
@@ -592,7 +592,7 @@ export default function PpcPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image003.gif" alt="" src="images/services/service-inner/clip_image003.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
-                        <td><a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a></td>
+                        <td><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a></td>
                       </tr>
                       <tr>
                         <td class="full-row" colspan="5">Customer Support</td>
@@ -613,7 +613,7 @@ export default function PpcPackages() {
                         <td>Monthly</td>
                         <td>Bi-Weekly</td>
                         <td>Weekly</td>
-                        <td><a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a></td>
+                        <td><a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a></td>
                       </tr>
                     </tbody>
                   </table>

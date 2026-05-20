@@ -16,7 +16,7 @@ export const metadata = {
     title: "Drupal Web Development | Drupal Web Development Company - Tech2Globe",
     description:
       "Tech2Globe: Your go-to Drupal web development company. Elevate your online presence with our expert Drupal solutions tailored to your needs.",
-    url: "https://www.tech2globe.com/drupal-web-development",
+    url: "https://stagenew.tech2globe.tech/drupal-web-development",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -27,7 +27,7 @@ export const metadata = {
       "Tech2Globe: Your go-to Drupal web development company. Elevate your online presence with our expert Drupal solutions tailored to your needs.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/drupal-web-development",
+    canonical: "https://stagenew.tech2globe.tech/drupal-web-development",
   },
 };
 
@@ -216,3 +216,4 @@ export default function DrupalWebDevelopment() {
     </>
   )
 };
+

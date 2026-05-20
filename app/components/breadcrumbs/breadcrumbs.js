@@ -10,7 +10,7 @@ export default function Breadcrumb({ pageName, parentName }) {
                     <ul className="breadcrumb flex space-x-2">
                         {/* Home */}
                         <li>
-                            <Link href="https://www.tech2globe.com/">Home</Link>
+                            <Link href="https://stagenew.tech2globe.tech/">Home</Link>
                         </li>
 
                         {/* Parent (text only, no link) */}

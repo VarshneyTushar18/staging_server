@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2globe is an AI-Based Chatbot Development provides industry specifc chatbots to improve customer engagement and business efficiency. We can integrated across multiple platforms and reduce overall operational costs. Get a FREE consultation today!",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/ai-chatbot-development",
+    url: "https://stagenew.tech2globe.tech/ai-chatbot-development",
   },
 
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ai-chatbot-development",
+    canonical: "https://stagenew.tech2globe.tech/ai-chatbot-development",
   },
 };
 
@@ -280,3 +280,4 @@ export default function AwsDevelopment() {
     </>
   )
 };
+

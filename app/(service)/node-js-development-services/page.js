@@ -19,7 +19,7 @@ export const metadata = {
     title: "Node JS Development Company | Node JS Development Services | Tech2globe",
     description:
       "Tech2globe is the best NodeJS development company providing quality NodeJS development services to build secure, scalable, user-friendly and faster web applications.",
-    url: "https://www.tech2globe.com/node-js-development-services",
+    url: "https://stagenew.tech2globe.tech/node-js-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -30,7 +30,7 @@ export const metadata = {
       "Tech2globe is the best NodeJS development company providing quality NodeJS development services to build secure, scalable, user-friendly and faster web applications.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/node-js-development-services",
+    canonical: "https://stagenew.tech2globe.tech/node-js-development-services",
   },
 };
 
@@ -210,3 +210,4 @@ export default function NodeJSDevelopment() {
     </>
   )
 };
+

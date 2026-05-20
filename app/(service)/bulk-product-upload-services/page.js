@@ -21,7 +21,7 @@ export const metadata = {
         title: "Efficient Ecommerce Bulk Product Upload Services - Tech2Globe",
         description:
             "Struggling with product uploads? Tech2Globe's ecommerce bulk product upload services solve overload, delivering fast, accurate and hassle-free catalog management.",
-        url: "https://www.tech2globe.com/bulk-product-upload-services"
+        url: "https://stagenew.tech2globe.tech/bulk-product-upload-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -30,7 +30,7 @@ export const metadata = {
             "Struggling with product uploads? Tech2Globe's ecommerce bulk product upload services solve overload, delivering fast, accurate and hassle-free catalog management."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/bulk-product-upload-services"
+        canonical: "https://stagenew.tech2globe.tech/bulk-product-upload-services"
     }
 };
 

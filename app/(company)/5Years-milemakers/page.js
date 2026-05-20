@@ -11,12 +11,12 @@ export const metadata = {
     title: "5 YEARS CREW | Online Marketing Agency - Tech2Globe",
     description:
       "Join the 5 Years Crew at Tech2Globe, an online marketing agency. Experience expert strategies, innovation, and growth for your business.",
-    url: "https://www.tech2globe.com/5years-milemakers",
+    url: "https://stagenew.tech2globe.tech/5years-milemakers",
     siteName: "Tech2Globe",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/5years-milemakers",
+    canonical: "https://stagenew.tech2globe.tech/5years-milemakers",
   },
 };
 

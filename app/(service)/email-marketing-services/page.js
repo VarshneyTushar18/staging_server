@@ -19,7 +19,7 @@ export const metadata = {
     title: "Email Marketing services | Email Marketing service provider",
     description:
       "Tech2globe is the best email marketing service provider which can help you to reach a wide audience in a short period of time & allows recipients to act immediately.",
-    url: "https://www.tech2globe.com/email-marketing-services",
+    url: "https://stagenew.tech2globe.tech/email-marketing-services",
     type: "website",
   },
 
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/email-marketing-services",
+    canonical: "https://stagenew.tech2globe.tech/email-marketing-services",
   },
 };
 

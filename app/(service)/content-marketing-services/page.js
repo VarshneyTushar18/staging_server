@@ -20,14 +20,14 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/content-marketing-services",
+    canonical: "https://stagenew.tech2globe.tech/content-marketing-services",
   },
 
   openGraph: {
     title: "Content Marketing Services | SEO Content Creation| Tech2globe ",
     description:
       "We offer content marketing services that include strategy development, content creation, and more. Browse our content marketing services packages",
-    url: "https://www.tech2globe.com/content-marketing-services",
+    url: "https://stagenew.tech2globe.tech/content-marketing-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

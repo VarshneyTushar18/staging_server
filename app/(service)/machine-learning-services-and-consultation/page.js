@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "With our Machine Learning Development, we make your applications smarter. We provide reliable Machine Learning Services And Consultation to help your business thrive.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/machine-learning-services-and-consultation",
+    url: "https://stagenew.tech2globe.tech/machine-learning-services-and-consultation",
     type: "website"
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "With our Machine Learning Development, we make your applications smarter. We provide reliable Machine Learning Services And Consultation to help your business thrive."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/machine-learning-services-and-consultation"
+    canonical: "https://stagenew.tech2globe.tech/machine-learning-services-and-consultation"
   }
 };
 
@@ -236,3 +236,4 @@ export default function MachineLearningServicesAndConsultation() {
     </>
   )
 };
+

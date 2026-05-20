@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Reimagine your photos and give them a new, improved look with tech2glbe Creative image masking services. Visit our website to find out how it works",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/image-masking-services",
+    url: "https://stagenew.tech2globe.tech/image-masking-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Reimagine your photos and give them a new, improved look with tech2glbe Creative image masking services. Visit our website to find out how it works",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/image-masking-services",
+    canonical: "https://stagenew.tech2globe.tech/image-masking-services",
   },
 };
 

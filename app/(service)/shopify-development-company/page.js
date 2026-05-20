@@ -31,7 +31,7 @@ export const metadata = {
         siteName: "Tech2Globe web Solutions LLP",
         description:
             "Shopify Development Company: Hire the best Shopify web development company in USA. Elevate your brand with Shopify development services for your online success.",
-        url: "https://www.tech2globe.com/shopify-development-company"
+        url: "https://stagenew.tech2globe.tech/shopify-development-company"
     },
     twitter: {
         card: "summary_large_image",
@@ -40,7 +40,7 @@ export const metadata = {
             "Shopify Development Company: Hire the best Shopify web development company in USA. Elevate your brand with Shopify development services for your online success."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/shopify-development-company"
+        canonical: "https://stagenew.tech2globe.tech/shopify-development-company"
     }
 };
 
@@ -84,7 +84,7 @@ const caseStudies = [
         image: "/images/services/service-inner/buxaz-case-study.png",
         description:
             "We believe amazing products should be sold in amazing stores. We are accredited Shopify Experts with a proven track....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Buxaz%20case%20study.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Buxaz%20case%20study.pdf",
     },
     {
         id: 2,
@@ -92,7 +92,7 @@ const caseStudies = [
         image: "/images/services/service-inner/nopcommerce-development.jpg",
         description:
             "Besteleasy.nl based on Netherlands and offers best quality electronic gadgets in the entire location of Europe, especially wireless speakers, data cables & headphones.....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%20-%20Besteleasy.nl%20(FINAL%20CASE%20STUDY).pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20Besteleasy.nl%20(FINAL%20CASE%20STUDY).pdf",
     },
     {
         id: 3,
@@ -100,7 +100,7 @@ const caseStudies = [
         image: "/images/services/service-inner/workshop-internal-employees-400x300.png",
         description:
             "Vichitra Collection based on New Delhi, India and offers best quality traditional textiles and arts outlet. Company established in 1996 and running their business offline.....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%20-%20VichitraCollection.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20VichitraCollection.pdf",
     },
     {
         id: 4,
@@ -108,7 +108,7 @@ const caseStudies = [
         image: "/images/services/service-inner/promotion-of-2-x-shopify-stores.png",
         description:
             "This website is a well-established brand in the USA, and they are dealing into women beauty & grooming products. They owned 100% women-oriented products....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study_%20Shopify%20Multi%20Currency%20Checkout%20.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study_%20Shopify%20Multi%20Currency%20Checkout%20.pdf",
     },
     {
         id: 5,
@@ -116,7 +116,7 @@ const caseStudies = [
         image: "/images/services/service-inner/OnlineBusinessGrowth.png",
         description:
             "Ellie Bianca is a proudly Canadian, all-natural, environmentally sustainable, socially conscious, luxury skin care....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/ellie%20bianca.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/ellie%20bianca.pdf",
     },
 ];
 
@@ -287,7 +287,7 @@ export default function ShopifyDevelopment() {
                                             <div className={Style.CardContent}>
                                                 <div className={Style.IconBox}><FaStore /></div>
                                                 <h5> <strong>Shopify Store Development</strong></h5>
-                                                <p>Get started with your online business with our <a href="https://www.tech2globe.com/e-commerce-development">eCommerce website design and development services</a> for the Shopify platform in a fast and simple way. We plan our development according to your eCommerce goals and provide the ideal eStore. You can count on us to set up your store and make it market-ready without missing a beat.</p>
+                                                <p>Get started with your online business with our <a href="https://stagenew.tech2globe.tech/e-commerce-development">eCommerce website design and development services</a> for the Shopify platform in a fast and simple way. We plan our development according to your eCommerce goals and provide the ideal eStore. You can count on us to set up your store and make it market-ready without missing a beat.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -320,7 +320,7 @@ export default function ShopifyDevelopment() {
                                             <div className={Style.CardContent}>
                                                 <div className={Style.IconBox}><FaSearch /></div>
                                                 <h5> <strong>Shopify SEO Implementation</strong></h5>
-                                                <p>Shopify&apos;s value lies in its quick but robust offering of features. Implementing SEO (<a href="https://www.tech2globe.com/seo-services">Search Engine Optimization</a>) is essential for growing visibility in search engine results for a Shopify site. With our Shopify SEO implementation solution, you can grab the limelight, rise above the crowd, and attract an infinite stream of clients.</p>
+                                                <p>Shopify&apos;s value lies in its quick but robust offering of features. Implementing SEO (<a href="https://stagenew.tech2globe.tech/seo-services">Search Engine Optimization</a>) is essential for growing visibility in search engine results for a Shopify site. With our Shopify SEO implementation solution, you can grab the limelight, rise above the crowd, and attract an infinite stream of clients.</p>
                                             </div>
                                         </div>
                                     </div>

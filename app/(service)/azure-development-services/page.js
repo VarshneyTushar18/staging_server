@@ -18,7 +18,7 @@ export const metadata = {
     title: "Azure Development Services | Leading Microsoft Partner",
     description:
       "Microsoft Azure is a great tool for process automation. We provides azure development services in USA, UK, Germany, India and other countries.",
-    url: "https://www.tech2globe.com/azure-development-services",
+    url: "https://stagenew.tech2globe.tech/azure-development-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -30,7 +30,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/azure-development-services"
+      "https://stagenew.tech2globe.tech/azure-development-services"
   }
 };
 
@@ -267,3 +267,4 @@ export default function AzureDevelopment() {
     </>
   )
 };
+

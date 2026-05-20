@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "Amazon Store Creation services for brand growth. Tech2Globe builds custom Amazon storefronts, A+ content, and optimized designs to boost visibility and sales.",
-    url: "https://www.tech2globe.com/store-creation"
+    url: "https://stagenew.tech2globe.tech/store-creation"
   },
   twitter: {
     card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata = {
       "Amazon Store Creation services for brand growth. Tech2Globe builds custom Amazon storefronts, A+ content, and optimized designs to boost visibility and sales."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/store-creation"
+    canonical: "https://stagenew.tech2globe.tech/store-creation"
   }
 };
 
@@ -215,7 +215,7 @@ const caseStudies = [
         image: "/images/services/service-inner/untitled-design-20.png",
         description:
             "The client has been in the lighting business since 2011, specializing...",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
     },
     {
         id: 2,
@@ -223,7 +223,7 @@ const caseStudies = [
         image: "/images/services/service-inner/ebca.png",
         description:
             "Client deals in Health & Household items and Pet Supplies products on Amazon and wants...",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%203%20-%20EBC%20and%20Storefront-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%203%20-%20EBC%20and%20Storefront-converted.pdf",
     },
     {
         id: 3,
@@ -231,7 +231,7 @@ const caseStudies = [
         image: "/images/services/service-inner/amazon-ppc.png",
         description:
             "Clients came to us with a range of Amazon PPC management difficulties....",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Amazon%20PPC-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon%20PPC-converted.pdf",
     },
     {
         id: 4,
@@ -239,7 +239,7 @@ const caseStudies = [
         image: "/images/services/service-inner/untitled-design-18.png",
         description:
             "Client has been in the business of selling fine grooming products for over 15 years......",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%201%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%201%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
     },
     {
         id: 5,
@@ -247,7 +247,7 @@ const caseStudies = [
         image: "/images/services/service-inner/e-commerce-store-for-luxury-goods.png",
         description:
             "It is the ultimate luxury fashion destination for the distribution and retail of Italian, French…",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
     },
     {
         id: 6,
@@ -255,7 +255,7 @@ const caseStudies = [
         image: "/images/services/service-inner/amazon-sale-boost.jpg",
         description:
             "Find out the most important areas where our team required utmost attention to showcase the work from day one …",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/amazon-india-case-study.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf",
     },
     {
         id: 7,
@@ -263,7 +263,7 @@ const caseStudies = [
         image: "/images/services/service-inner/about-drop-shipping.jpg",
         description:
             "Drop shipping is an e-retail term where someone facilitates the selling and delivery of an online product without …",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%202%20-%20Sales%20Increase%20in%20different%20categories-converted.pdf",
     },
     {
         id: 8,
@@ -271,7 +271,7 @@ const caseStudies = [
         image: "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
         description:
             "Forgiving the best solution to our client and comprehensive support is our specialty which we successfully …",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce%20Store%20for%20Luxury%20Goods-converted.pdf",
     },
     {
         id: 9,
@@ -279,7 +279,7 @@ const caseStudies = [
         image: "/images/services/service-inner/e-commerce-multivendor-store-1-0.jpg",
         description:
             "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce%20version%20upgrade%20(1).pdf",
     },
     {
         id: 10,
@@ -287,7 +287,7 @@ const caseStudies = [
         image: "/images/services/service-inner/e-commerce-store-version-upgrade.jpg",
         description:
             "The previous version had issues with accepting payments via credit cards, so one of the improvement areas was to set …",
-        docLink: "https://www.tech2globe.com/casestudies-docs/E-commerce%20version%20upgrade.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs/E-commerce%20version%20upgrade.pdf",
     },
     {
         id: 11,
@@ -295,7 +295,7 @@ const caseStudies = [
         image: "/images/services/service-inner/promotion-of-2-x-shopify-stores.png",
         description:
             "In 2.5 periods of month projects handling, we've generated more than 6,000 Facebook Page Followers on “Fashion & Cosmetic”…",
-        docLink: "https://www.tech2globe.com/casestudies-docs1/Promotion%20of%202%20x%20Shopify%20Stores-converted.pdf",
+        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Promotion%20of%202%20x%20Shopify%20Stores-converted.pdf",
     }
 ];
 
@@ -467,7 +467,7 @@ export default function StoreCreation() {
                                         </h2>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div className={`${Style.AccordionBody} accordion-body`}>
-                                                <p className="para-text">Your Amazon shop serves as a website for your business. You&apos;ll get a unique URL as well as a place to promote your business and products. <i>Even better</i>, your Amazon Store can also include social network connections. As a consequence, you may see an increase in interaction across all of your <a href="https://www.tech2globe.com/social-media-marketing-services">social media</a> channels. It may also increase these customers&apos; loyalty. When you debut a new product, for example, you may inform your social media followers about it and include a link to your Amazon listing.</p>
+                                                <p className="para-text">Your Amazon shop serves as a website for your business. You&apos;ll get a unique URL as well as a place to promote your business and products. <i>Even better</i>, your Amazon Store can also include social network connections. As a consequence, you may see an increase in interaction across all of your <a href="https://stagenew.tech2globe.tech/social-media-marketing-services">social media</a> channels. It may also increase these customers&apos; loyalty. When you debut a new product, for example, you may inform your social media followers about it and include a link to your Amazon listing.</p>
                                             </div>
                                         </div>
                                     </div>

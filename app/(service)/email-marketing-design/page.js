@@ -26,7 +26,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/email-marketing-design",
+    canonical: "https://stagenew.tech2globe.tech/email-marketing-design",
   },
 
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata = {
       "Design High-Performing Email Campaigns | Email Marketing | Tech2Globe",
     description:
       "Design high-performing email marketing campaigns with Tech2Globe. Our expert email designers create visually compelling, conversion-focused email templates that drive engagement.",
-    url: "https://www.tech2globe.com/email-marketing-design",
+    url: "https://stagenew.tech2globe.tech/email-marketing-design",
     siteName: "Tech2Globe",
     type: "website",
   },

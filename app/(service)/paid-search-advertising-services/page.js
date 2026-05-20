@@ -21,7 +21,7 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/paid-search-advertising-services",
+    canonical: "https://stagenew.tech2globe.tech/paid-search-advertising-services",
   },
 
   openGraph: {
@@ -29,7 +29,7 @@ export const metadata = {
       "Paid Search Advertising Services | Google Ads Management Services - Tech2Globe",
     description:
       "Drive results with Tech2Globe’s Paid Search Advertising services. Optimize campaigns and maximize ROI with our expert Google Ads Management services.",
-    url: "https://www.tech2globe.com/paid-search-advertising-services",
+    url: "https://stagenew.tech2globe.tech/paid-search-advertising-services",
     siteName: "Tech2Globe",
     type: "website",
   },

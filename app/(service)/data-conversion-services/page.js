@@ -28,14 +28,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/data-conversion-services",
+    canonical: "https://stagenew.tech2globe.tech/data-conversion-services",
   },
 
   openGraph: {
     title: "Data Conversion Services | Reliable Data Conversion Company",
     description:
       "Data Conversion Services: Choose the best data conversion company for data conversion services. Outsource data conversion & transform your data efficiently.",
-    url: "https://www.tech2globe.com/data-conversion-services",
+    url: "https://stagenew.tech2globe.tech/data-conversion-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },

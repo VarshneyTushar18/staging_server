@@ -19,7 +19,7 @@ export const metadata = {
     title: "Real Estate Image Processing Service",
     description:
       "Capture attention with Tech2Globe’s Real Estate Image Processing Service, turning ordinary property photos into visually compelling real estate assets.",
-    url: "https://www.tech2globe.com/real-estate-image-processing",
+    url: "https://stagenew.tech2globe.tech/real-estate-image-processing",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },
@@ -33,7 +33,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/real-estate-image-processing",
+      "https://stagenew.tech2globe.tech/real-estate-image-processing",
   },
 };
 

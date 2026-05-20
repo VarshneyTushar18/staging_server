@@ -30,7 +30,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/real-estate-photo-blending-services",
+      "https://stagenew.tech2globe.tech/real-estate-photo-blending-services",
   },
 
   openGraph: {
@@ -39,7 +39,7 @@ export const metadata = {
     description:
       "Outsource Real Estate Photo Blending Services to Tech2glbe and get high-quality photo blending services at an affordable price.",
     url:
-      "https://www.tech2globe.com/real-estate-photo-blending-services",
+      "https://stagenew.tech2globe.tech/real-estate-photo-blending-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

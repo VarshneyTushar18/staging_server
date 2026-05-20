@@ -20,7 +20,7 @@ export const metadata = {
     title: "PPC Management Services | Pay Per Click | PPC Services | Tech2Globe",
     description:
       "Tech2globe offers PPC management services. Get guaranteed results and increase ROI with our experienced and well qualified PPC experts. Boost traffic now.",
-    url: "https://www.tech2globe.com/ppc-management-services",
+    url: "https://stagenew.tech2globe.tech/ppc-management-services",
     siteName: "Tech2Globe",
   },
 
@@ -32,7 +32,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ppc-management-services",
+    canonical: "https://stagenew.tech2globe.tech/ppc-management-services",
   },
 };
 
@@ -175,3 +175,4 @@ export default function PPCManagement() {
     </>
   )
 };
+

@@ -24,7 +24,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Optimize your business with expert document processing outsourcing services & solution company, ensuring accurate data handling, efficiency, and cost savings.",
-        url: "https://www.tech2globe.com/document-processing-services"
+        url: "https://stagenew.tech2globe.tech/document-processing-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata = {
             "Optimize your business with expert document processing outsourcing services & solution company, ensuring accurate data handling, efficiency, and cost savings."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/document-processing-services"
+        canonical: "https://stagenew.tech2globe.tech/document-processing-services"
     }
 };
 

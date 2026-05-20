@@ -22,7 +22,7 @@ export const metadata = {
     "Accounting Services | Accounting Services | Tech2globe ",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/accounting-services",
+    canonical: "https://stagenew.tech2globe.tech/accounting-services",
   },
 
   openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Accounting Services | Accounting Services | Tech2globe ",
     description:
       "Tech2globe accounting service provides the support, objectivity and expertise businesses need to succeed within the context of an ever-changing business landscape.",
-    url: "https://www.tech2globe.com/accounting-services",
+    url: "https://stagenew.tech2globe.tech/accounting-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

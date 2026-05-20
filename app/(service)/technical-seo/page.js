@@ -20,7 +20,7 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/technical-seo",
+    canonical: "https://stagenew.tech2globe.tech/technical-seo",
   },
 
   openGraph: {
@@ -28,7 +28,7 @@ export const metadata = {
       "Technical SEO Company | Professional Technical SEO Services-Tech2globe",
     description:
       "Our Tech2globe technical SEO strategies and techniques to manage and maintain your website and Improve your rankings and build your website on a solid foundation with technical SEO tactics that put your user first.",
-    url: "https://www.tech2globe.com/technical-seo",
+    url: "https://stagenew.tech2globe.tech/technical-seo",
     siteName: "Tech2Globe",
     type: "website",
   },

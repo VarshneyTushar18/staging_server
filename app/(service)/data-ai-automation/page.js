@@ -37,7 +37,7 @@ export const metadata = {
     title: "Data & AI Automation | Tech2Globe",
     description:
       "Revolutionize business operations with intelligent automation, data-driven workflows, and AI solutions built for efficiency.",
-    url: "https://www.tech2globe.com/service/data-ai-automation",
+    url: "https://stagenew.tech2globe.tech/service/data-ai-automation",
     siteName: "Tech2Globe",
   },
   twitter: {
@@ -47,7 +47,7 @@ export const metadata = {
       "Transform operations with Data & AI Automation services designed to improve accuracy, speed, and business outcomes.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/service/data-ai-automation",
+    canonical: "https://stagenew.tech2globe.tech/service/data-ai-automation",
   },
 };
 
@@ -461,3 +461,4 @@ export default function DataAiAutomation() {
     </>
   );
 }
+

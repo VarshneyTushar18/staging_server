@@ -28,14 +28,14 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/insurance-claims-processing-services",
+        canonical: "https://stagenew.tech2globe.tech/insurance-claims-processing-services",
     },
 
     openGraph: {
         title: "Insurance Claims Processing Services | Tech2Globe",
         description:
             "Avail insurance claims processing services with expert assistance and quick settlements. Get hassle-free insurance claim processing services. Contact Now!",
-        url: "https://www.tech2globe.com/insurance-claims-processing-services",
+        url: "https://stagenew.tech2globe.tech/insurance-claims-processing-services",
         type: "website",
     },
 

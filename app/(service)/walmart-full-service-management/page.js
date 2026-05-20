@@ -19,7 +19,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Tech2Globe is a Walmart full service marketing agency, delivering expert strategies to boost brand visibility, sales, and online performance efficiently.",
-        url: "https://www.tech2globe.com/walmart-full-service-management",
+        url: "https://stagenew.tech2globe.tech/walmart-full-service-management",
     },
     twitter: {
         card: "Walmart Full Service Marketing Agency",
@@ -28,7 +28,7 @@ export const metadata = {
             "Tech2Globe is a Walmart full service marketing agency, delivering expert strategies to boost brand visibility, sales, and online performance efficiently.",
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/walmart-full-service-management",
+        canonical: "https://stagenew.tech2globe.tech/walmart-full-service-management",
     },
 };
 

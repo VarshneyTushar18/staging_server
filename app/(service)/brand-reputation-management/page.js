@@ -17,13 +17,13 @@ export const metadata = {
     "Find out what is brand reputation management and shape the way the PUBLIC sees your business to match the way YOU see it.",
   keywords: "",
   alternates: {
-    canonical: "https://www.tech2globe.com/brand-reputation-management",
+    canonical: "https://stagenew.tech2globe.tech/brand-reputation-management",
   },
   openGraph: {
     title: "Guide to Brand Reputation Management | Tech2globe",
     description:
       "Find out what is brand reputation management and shape the way the PUBLIC sees your business to match the way YOU see it.",
-    url: "https://www.tech2globe.com/brand-reputation-management",
+    url: "https://stagenew.tech2globe.tech/brand-reputation-management",
     siteName: "Tech2globe",
     type: "article",
   },

@@ -23,7 +23,7 @@ export const metadata = {
     title: "Nopcommerce Website Development | Nopcommerce Web Service",
     description:
       "Expert Nopcommerce website development and web services. Create robust, customized e-commerce solutions to enhance user experience and boost your online sales.",
-    url: "https://www.tech2globe.com/nop-commerce-development-services",
+    url: "https://stagenew.tech2globe.tech/nop-commerce-development-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "Expert Nopcommerce website development and web services. Create robust, customized e-commerce solutions to enhance user experience and boost your online sales."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/nop-commerce-development-services"
+    canonical: "https://stagenew.tech2globe.tech/nop-commerce-development-services"
   }
 };
 

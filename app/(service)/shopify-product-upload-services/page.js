@@ -23,7 +23,7 @@ export const metadata = {
     title: "Shopify Product Upload Services | Shopify Product Listing",
     description:
       "Shopify bulk product upload services by Tech2Globe ensure experienced experts, 100% quality, and on-time project delivery to help scale your online store.",
-    url: "https://www.tech2globe.com/shopify-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/shopify-product-upload-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "We provide the best Shopify product upload and listing services worldwide. Our Shopify experts help entrepreneurs manage, grow, and scale their online stores and businesses."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/shopify-product-upload-services"
+    canonical: "https://stagenew.tech2globe.tech/shopify-product-upload-services"
   }
 };
 

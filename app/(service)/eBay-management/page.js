@@ -28,7 +28,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/eBay-management",
+    canonical: "https://stagenew.tech2globe.tech/eBay-management",
   },
 
   openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
       "Ebay Account Management services | Ebay Management Agency- Tech2globe",
     description:
       "Tech2Globe has experienced resources for eBay management. We have expertise in manual product listing, bulk uploading through Excel/Turbolister for eBay marketplace",
-    url: "https://www.tech2globe.com/eBay-management",
+    url: "https://stagenew.tech2globe.tech/eBay-management",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

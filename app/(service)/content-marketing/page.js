@@ -27,7 +27,7 @@ export const metadata = {
     title: "Content Marketing Services | SEO Content Creation | Tech2Globe",
     description:
       "Boost your brand visibility with result-driven content marketing services, including SEO content creation, strategy development, and high-quality publishing.",
-    url: "https://www.tech2globe.com/content-marketing-services",
+    url: "https://stagenew.tech2globe.tech/content-marketing-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -40,7 +40,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/content-marketing-services",
+    canonical: "https://stagenew.tech2globe.tech/content-marketing-services",
   },
 };
 
@@ -169,3 +169,4 @@ export default function ContentMarketing() {
     </>
   )
 };
+

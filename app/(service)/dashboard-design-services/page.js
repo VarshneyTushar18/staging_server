@@ -25,7 +25,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/dashboard-design-services",
+    canonical: "https://stagenew.tech2globe.tech/dashboard-design-services",
   },
 
   openGraph: {
@@ -33,7 +33,7 @@ export const metadata = {
       "Dashboard designing services | Dashboard designers | Tech2Globe",
     description:
       "Tech2globe Dashboard Designing services make a compact dashboard with perfect to expose group basic information and maintain a superior business. Get a free consultation today with us.",
-    url: "https://www.tech2globe.com/dashboard-design-services",
+    url: "https://stagenew.tech2globe.tech/dashboard-design-services",
     siteName: "Tech2Globe",
     type: "website",
   },

@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Floor Plan Conversion Services Floor plan conversion services are essential like real estate photo editing services in a real estate business.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/floor-plan-conversions",
+    url: "https://stagenew.tech2globe.tech/floor-plan-conversions",
     type: "website",
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Floor Plan Conversion Services Floor plan conversion services are essential like real estate photo editing services in a real estate business.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/floor-plan-conversions",
+    canonical: "https://stagenew.tech2globe.tech/floor-plan-conversions",
   },
 };
 

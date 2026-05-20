@@ -14,12 +14,12 @@ export const metadata = {
     "guest posting package",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/guest-posting-packages",
+    canonical: "https://stagenew.tech2globe.tech/guest-posting-packages",
   },
   openGraph: {
     title: "Guest Posting Services | Guest Posting Packages | Tech2Globe",
     description: "Tech2Globe offers guest posting packages for small and medium businesses worldwide. Improve your site authority, credibility, and organic traffic today.",
-    url: "https://www.tech2globe.com/guest-posting-packages",
+    url: "https://stagenew.tech2globe.tech/guest-posting-packages",
     type: "website",
   },
   twitter: {
@@ -120,7 +120,7 @@ export default function GuestPostingPackages() {
                           <td>DA 25-40</td>
                           <td>DA 40-60</td>
                           <td rowspan="9">
-                            <a href="https://tech2globe.com/contact-us" class="btn btn-danger">Contact Us</a>
+                            <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger">Contact Us</a>
                           </td>
                         </tr>
                         <tr>

@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "",
     description:
       "Contact Tech2Globe to find out about full scope of Business Research Services. Our research and analysis team works away at the task according to your directions. Call us today.",
-    url: "https://www.tech2globe.com/business-research-services",
+    url: "https://stagenew.tech2globe.tech/business-research-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -29,7 +29,7 @@ export const metadata = {
       "Contact Tech2Globe to find out about full scope of Business Research Services. Our research and analysis team works away at the task according to your directions. Call us today.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/business-research-services",
+    canonical: "https://stagenew.tech2globe.tech/business-research-services",
   },
 };
 

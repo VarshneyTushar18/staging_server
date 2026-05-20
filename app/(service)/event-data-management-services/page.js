@@ -22,13 +22,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/event-data-management-services",
+    canonical: "https://stagenew.tech2globe.tech/event-data-management-services",
   },
 
   openGraph: {
     title: "Event Data Management services | Event Marketing Services | Tech2Globe",
     description: "Tech2Globe offers you a total range of Event Data Management Services for your marketing & limited time events including shows & meetings, speaking events & more.",
-    url: "https://www.tech2globe.com/event-data-management-services",
+    url: "https://stagenew.tech2globe.tech/event-data-management-services",
     type: "website",
   },
 

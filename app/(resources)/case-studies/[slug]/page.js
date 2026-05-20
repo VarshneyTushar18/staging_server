@@ -42,7 +42,7 @@ const sidebarSections = [{ heading: "Resources", links: resources }];
         : "Case Study | Tech2Globe",
       description: data?.short_description || "Browse our case studies.",
       alternates: {
-        canonical: `https://www.tech2globe.com/case-studies/${slug}`,
+        canonical: `https://stagenew.tech2globe.tech/case-studies/${slug}`,
       },
     };
   } catch {

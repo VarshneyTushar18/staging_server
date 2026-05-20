@@ -22,7 +22,7 @@ export const metadata = {
     title: "Mailchimp Template Design & Development Service | Tech2globe",
     description:
       "Tech2Globe provides Mailchimp template design and development services worldwide. Responsive email design and custom template creation to match your website and keep your branding consistent.",
-    url: "https://www.tech2globe.com/mailchimp-template-design-services",
+    url: "https://stagenew.tech2globe.tech/mailchimp-template-design-services",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/mailchimp-template-design-services"
+      "https://stagenew.tech2globe.tech/mailchimp-template-design-services"
   }
 };
 
@@ -207,3 +207,4 @@ export default function ResponsiveWebDesign() {
     </>
   )
 };
+

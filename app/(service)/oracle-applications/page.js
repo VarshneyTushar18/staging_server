@@ -16,7 +16,7 @@ export const metadata = {
     title: "Oracle Services & Solutions | Oracle Applications | Tech2Globe",
     description:
       "We offer solutions across all the applications in Oracle. such as CRM, SCM, or PLM. Tech2globe is well equipped and thoroughly trained with professional knowledge and experience",
-    url: "https://www.tech2globe.com/oracle-applications",
+    url: "https://stagenew.tech2globe.tech/oracle-applications",
     type: "website"
   },
   twitter: {
@@ -25,7 +25,7 @@ export const metadata = {
       "We offer solutions across all the applications in Oracle. such as CRM, SCM, or PLM. Tech2globe is well equipped and thoroughly trained with professional knowledge and experience"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/oracle-applications"
+    canonical: "https://stagenew.tech2globe.tech/oracle-applications"
   }
 };
 

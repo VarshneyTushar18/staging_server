@@ -28,7 +28,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/medical-data-entry-services",
+    canonical: "https://stagenew.tech2globe.tech/medical-data-entry-services",
   },
 
   openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
       "Outsource Medical Data Entry Services | Healthcare Data Entry",
     description:
       "Outsource medical data entry services for 100% accuracy & secure records. Our healthcare data entry services are one of the best data entry in medical field.",
-    url: "https://www.tech2globe.com/medical-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/medical-data-entry-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

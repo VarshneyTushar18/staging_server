@@ -22,7 +22,7 @@ export const metadata = {
     keywords: "",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/smo-services",
+        canonical: "https://stagenew.tech2globe.tech/smo-services",
     },
 
     openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
             "SMO Services | Best Social Media Optimization Company| Tech2globe ",
         description:
             "Get new followers and engage existing followers on your social media profiles with our top quality social media services now. Hire us for SMO Services",
-        url: "https://www.tech2globe.com/smo-services",
+        url: "https://stagenew.tech2globe.tech/smo-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

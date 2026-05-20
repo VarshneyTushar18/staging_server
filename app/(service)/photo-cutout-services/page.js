@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Elevate your visuals with Tech2Globe’s top-notch Photo Cutout services. Our skilled team ensures precision in Image Cutout services for stunning and impactful results.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/photo-cutout-services",
+    url: "https://stagenew.tech2globe.tech/photo-cutout-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Elevate your visuals with Tech2Globe’s top-notch Photo Cutout services. Our skilled team ensures precision in Image Cutout services for stunning and impactful results.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/photo-cutout-services",
+    canonical: "https://stagenew.tech2globe.tech/photo-cutout-services",
   },
 };
 

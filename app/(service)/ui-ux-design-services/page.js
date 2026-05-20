@@ -18,12 +18,12 @@ export const metadata = {
     title: "UI/UX Design Services Agency - Tech2Globe",
     description:
       "Tech2Globe: Your premier UI/UX design services agency. Elevate your digital presence with our innovative and user-centric design solutions.",
-    url: "https://www.tech2globe.com/ui-ux-design-services",
+    url: "https://stagenew.tech2globe.tech/ui-ux-design-services",
     type: "website",
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/ui-ux-design-services",
+    canonical: "https://stagenew.tech2globe.tech/ui-ux-design-services",
   },
 };
 
@@ -257,3 +257,4 @@ export default function UIUXDesign() {
     </>
   )
 };
+

@@ -14,14 +14,14 @@ export const metadata = {
     "Leading Xamarin mobile app development company in USA, India to develop top-notch & high-end Xamarin cross platform mobile applications. Contact us now to get experts Xamarin app development services.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/xamarin-mobile-app-development",
+    canonical: "https://stagenew.tech2globe.tech/xamarin-mobile-app-development",
   },
 
   openGraph: {
     title: "Xamarin Development Services | Xamarin Mobile App Development Company",
     description:
       "Leading Xamarin mobile app development company in USA, India to develop top-notch & high-end Xamarin cross platform mobile applications. Contact us now to get experts Xamarin app development services.",
-    url: "https://www.tech2globe.com/xamarin-mobile-app-development",
+    url: "https://stagenew.tech2globe.tech/xamarin-mobile-app-development",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },
@@ -271,3 +271,4 @@ export default function XamarinMobileAppDevelopment() {
     </>
   )
 };
+

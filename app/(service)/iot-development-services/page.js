@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "We are one of the leading IoT service providers. At Tech2globe, we offer a complete suite of IoT consulting services and solutions to empower businesses of all sizes.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/iot-development-services",
+    url: "https://stagenew.tech2globe.tech/iot-development-services",
   },
 
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/iot-development-services",
+    canonical: "https://stagenew.tech2globe.tech/iot-development-services",
   },
 };
 
@@ -230,3 +230,4 @@ export default function IotDevelopment() {
     </>
   )
 };
+

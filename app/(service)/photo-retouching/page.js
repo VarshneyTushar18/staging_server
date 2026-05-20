@@ -19,7 +19,7 @@ export const metadata = {
     description:
       "Tech2Globe offers professional photo retouching services. Transform your images online for free with our expert retouching solutions.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/photo-retouching",
+    url: "https://stagenew.tech2globe.tech/photo-retouching",
     type: "website",
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2Globe offers professional photo retouching services. Transform your images online for free with our expert retouching solutions.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/photo-retouching",
+    canonical: "https://stagenew.tech2globe.tech/photo-retouching",
   },
 };
 

@@ -22,7 +22,7 @@ export const metadata = {
         "Accounting Services | Accounting Services | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/payroll-processing-services",
+        canonical: "https://stagenew.tech2globe.tech/payroll-processing-services",
     },
 
     openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
             "Payroll Processing Services | Tech2globe ",
         description:
             "We provide payroll processing for your business to simplify complex tasks and help you save time and money.",
-        url: "https://www.tech2globe.com/payroll-processing-services",
+        url: "https://stagenew.tech2globe.tech/payroll-processing-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

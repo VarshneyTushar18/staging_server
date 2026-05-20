@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2Globe delivers seamless watermark removal services, ensuring pristine images. Trust our expert image watermarking service for a polished and professional visual impact.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/watermark-removal-services",
+    url: "https://stagenew.tech2globe.tech/watermark-removal-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Tech2Globe delivers seamless watermark removal services, ensuring pristine images. Trust our expert image watermarking service for a polished and professional visual impact.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/watermark-removal-services",
+    canonical: "https://stagenew.tech2globe.tech/watermark-removal-services",
   },
 };
 

@@ -27,7 +27,7 @@ export const metadata = {
 
     alternates: {
         canonical:
-            "https://www.tech2globe.com/online-business-management-amazon-in",
+            "https://stagenew.tech2globe.tech/online-business-management-amazon-in",
     },
 
     openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
         description:
             "Use our Amazon Marketing Services to increase sales in the United States. To improve exposure and increase traffic to your listings, professional services.",
         url:
-            "https://www.tech2globe.com/online-business-management-amazon-in",
+            "https://stagenew.tech2globe.tech/online-business-management-amazon-in",
         type: "website",
     },
 

@@ -21,14 +21,14 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/guest-posting-services",
+    canonical: "https://stagenew.tech2globe.tech/guest-posting-services",
   },
 
   openGraph: {
     title: "Guest Posting Service| tech2globe",
     description:
       "Niche guest posting services where you approve the sites. Improve rankings with our manual guest post outreach link building. Only real sites with traffic.",
-    url: "https://www.tech2globe.com/guest-posting-services",
+    url: "https://stagenew.tech2globe.tech/guest-posting-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

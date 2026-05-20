@@ -19,7 +19,7 @@ export const metadata = {
     description:
       "Tech2Globe offers Codeigniter web development services to build secure, scalable, and user-friendly websites that engage and convert visitors",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/codeigniter-development-services",
+    url: "https://stagenew.tech2globe.tech/codeigniter-development-services",
     type: "website"
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2Globe offers Codeigniter web development services to build secure, scalable, and user-friendly websites that engage and convert visitors"
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/codeigniter-development-services"
+    canonical: "https://stagenew.tech2globe.tech/codeigniter-development-services"
   }
 };
 
@@ -249,3 +249,4 @@ export default function CodeigniterDevelopment() {
     </>
   )
 };
+

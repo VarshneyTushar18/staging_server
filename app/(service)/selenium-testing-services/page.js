@@ -13,7 +13,7 @@ export const metadata = {
   description: "",
   keywords: [],
   alternates: {
-    canonical: "https://www.tech2globe.com/selenium-testing-services",
+    canonical: "https://stagenew.tech2globe.tech/selenium-testing-services",
   },
 };
 
@@ -160,3 +160,4 @@ export default function SeleniumTesting() {
     </>
   )
 };
+

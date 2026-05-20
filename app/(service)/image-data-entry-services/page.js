@@ -24,7 +24,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/image-data-entry-services",
+    canonical: "https://stagenew.tech2globe.tech/image-data-entry-services",
   },
 
   openGraph: {
@@ -32,7 +32,7 @@ export const metadata = {
       "Outsource Image Data Entry Services | Scanned Image Data Entry Service",
     description:
       "Tech2Globe can help when you need high-quality image data entry services. Our prepared image data entry specialists can deal with any volume of images in any organization.",
-    url: "https://www.tech2globe.com/image-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/image-data-entry-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

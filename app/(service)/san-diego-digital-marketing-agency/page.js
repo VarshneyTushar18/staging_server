@@ -19,7 +19,7 @@ export const metadata = {
         title: "Best Digital Marketing Agency And Services In San Diego",
         description:
             "Choose the top digital marketing agency in San Diego with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/san-diego-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/san-diego-digital-marketing-agency",
         type: "website",
     },
 
@@ -32,7 +32,7 @@ export const metadata = {
 
     alternates: {
         canonical:
-            "https://www.tech2globe.com/san-diego-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/san-diego-digital-marketing-agency",
     },
 };
 

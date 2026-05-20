@@ -13,7 +13,7 @@ export const metadata = {
   description: "Tech2Globe offers efficient bulk image conversion services for all your business needs. Enhance productivity with streamlined processes!",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/bulk-image-conversion",
+    canonical: "https://stagenew.tech2globe.tech/bulk-image-conversion",
   },
 
   openGraph: {
@@ -21,7 +21,7 @@ export const metadata = {
       "Efficient Bulk Image Conversion Services for Your Business Needs - Tech2Globe",
     description:
       "Tech2Globe offers efficient bulk image conversion services for all your business needs. Enhance productivity with streamlined processes!",
-    url: "https://www.tech2globe.com/bulk-image-conversion",
+    url: "https://stagenew.tech2globe.tech/bulk-image-conversion",
     siteName: "Tech2Globe",
     type: "website",
   },

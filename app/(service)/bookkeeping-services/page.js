@@ -21,7 +21,7 @@ export const metadata = {
         "Bookkeeping Services - Advantages, Types, Procedure | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/bookkeeping-services",
+        canonical: "https://stagenew.tech2globe.tech/bookkeeping-services",
     },
 
     openGraph: {
@@ -29,7 +29,7 @@ export const metadata = {
             "Bookkeeping Services - Advantages, Types, Procedure | Tech2globe ",
         description:
             "Bookkeeping is a lengthy and diversified process, and it is very difficult for a businessperson to comply with the all the requirement and get it done by themselves.",
-        url: "https://www.tech2globe.com/bookkeeping-services",
+        url: "https://stagenew.tech2globe.tech/bookkeeping-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

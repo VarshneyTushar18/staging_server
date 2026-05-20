@@ -24,13 +24,13 @@ export const metadata = {
     "architecture design",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/real-estate-HDR-image-blending",
+    canonical: "https://stagenew.tech2globe.tech/real-estate-HDR-image-blending",
   },
   openGraph: {
     title: "Real Estate HDR Image Blending Services | Tech2globe",
     description:
       "Elevate your real estate visuals with Tech2Globe’s HDR Image Blending services. Achieve stunning, high-quality results for property listings with our expert solutions.",
-    url: "https://www.tech2globe.com/real-estate-HDR-image-blending",
+    url: "https://stagenew.tech2globe.tech/real-estate-HDR-image-blending",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

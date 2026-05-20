@@ -21,14 +21,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/woocommerce-development-services",
+    canonical: "https://stagenew.tech2globe.tech/woocommerce-development-services",
   },
 
   openGraph: {
     title: "WooCommerce Development Services & Experts | Tech2Globe",
     description:
       "Unlock the power of WooCommerce with our expert developers. Get custom eCommerce solutions, seamless integration, and top-notch WooCommerce development services.",
-    url: "https://www.tech2globe.com/woocommerce-development-services",
+    url: "https://stagenew.tech2globe.tech/woocommerce-development-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

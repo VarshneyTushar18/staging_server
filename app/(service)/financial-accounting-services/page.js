@@ -22,7 +22,7 @@ export const metadata = {
         "Finance and Accounting Outsourcing Services | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/financial-accounting-services",
+        canonical: "https://stagenew.tech2globe.tech/financial-accounting-services",
     },
 
     openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
             "Finance and Accounting Outsourcing Services | Tech2globe ",
         description:
             "Infosys BPM accounting and finance outsourcing services help leaders transform and operate finance functions digitally. Know how we add value with f&a services.",
-        url: "https://www.tech2globe.com/financial-accounting-services",
+        url: "https://stagenew.tech2globe.tech/financial-accounting-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

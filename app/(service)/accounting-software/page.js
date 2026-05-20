@@ -21,7 +21,7 @@ export const metadata = {
         "Accounting Services | Accounting Services | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/accounting-software",
+        canonical: "https://stagenew.tech2globe.tech/accounting-software",
     },
 
     openGraph: {
@@ -29,7 +29,7 @@ export const metadata = {
             "Best Accounting Software Services | tech2globe ",
         description:
             "To help you choose the right business accounting software services for your company, we have identified the best in each class.",
-        url: "https://www.tech2globe.com/accounting-software",
+        url: "https://stagenew.tech2globe.tech/accounting-software",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

@@ -19,7 +19,7 @@ export const metadata = {
     "Unlock the power of advanced Google Remarketing with Tech2Globe’s best-in-class services. Maximize ROI and drive conversions effectively.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/remarketing-services",
+    canonical: "https://stagenew.tech2globe.tech/remarketing-services",
   },
 
   openGraph: {
@@ -27,7 +27,7 @@ export const metadata = {
       "Best Google Remarketing services | Advanced Google Remarketing - Tech2Globe",
     description:
       "Unlock the power of advanced Google Remarketing with Tech2Globe’s best-in-class services. Maximize ROI and drive conversions effectively.",
-    url: "https://www.tech2globe.com/remarketing-services",
+    url: "https://stagenew.tech2globe.tech/remarketing-services",
     siteName: "Tech2Globe",
     type: "website",
   },

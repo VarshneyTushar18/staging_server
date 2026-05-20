@@ -23,7 +23,7 @@ export const metadata = {
       "ShopClues Seller Central Management | ShopClues Seller | Tech2Globe",
     description:
       "Tech2globe offers you ShopClues Seller Central Management services & assures you one of the finest seller experiences & helps to reach out to millions of users.",
-    url: "https://www.tech2globe.com/online-business-management-shopclues",
+    url: "https://stagenew.tech2globe.tech/online-business-management-shopclues",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -36,7 +36,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/online-business-management-shopclues",
+      "https://stagenew.tech2globe.tech/online-business-management-shopclues",
   },
 };
 

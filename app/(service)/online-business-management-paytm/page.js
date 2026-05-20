@@ -21,7 +21,7 @@ export const metadata = {
     title: "Paytm Seller Central Management | Paytm for Seller | Tech2Globe",
     description:
       "Are you having a hard time listing your products? Tech2Globe can help you to reach millions of customers by providing sell on paytm & paytm seller account services.",
-    url: "https://www.tech2globe.com/online-business-management-paytm",
+    url: "https://stagenew.tech2globe.tech/online-business-management-paytm",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -32,7 +32,7 @@ export const metadata = {
       "Are you having a hard time listing your products? Tech2Globe can help you to reach millions of customers by providing sell on paytm & paytm seller account services.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/online-business-management-paytm",
+    canonical: "https://stagenew.tech2globe.tech/online-business-management-paytm",
   },
 };
 

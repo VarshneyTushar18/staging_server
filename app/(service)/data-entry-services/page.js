@@ -24,7 +24,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Get accurate, secure, and cost-effective data entry services. Tech2Globe offers online, offline, and catalog data entry solutions to streamline your business.",
-        url: "https://www.tech2globe.com/data-entry-services"
+        url: "https://stagenew.tech2globe.tech/data-entry-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata = {
             "Get accurate, secure, and cost-effective data entry services. Tech2Globe offers online, offline, and catalog data entry solutions to streamline your business."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/data-entry-services"
+        canonical: "https://stagenew.tech2globe.tech/data-entry-services"
     }
 };
 
@@ -260,24 +260,24 @@ export default function DataEntry() {
                                 <ol className="ps-0">
                                     <li>
                                         <h5>Online Data Entry Services:</h5>
-                                        <p>Being a dedicated data entry services company, we understand the importance of precision in handling information. By gathering data provided by clients and from numerous web sources and entering it into the format and system suitable for the project, we help you digitize and organize your data. In addition to e-commerce, research, content management, and other areas, we offer <a href="https://www.tech2globe.com/online-data-entry-services" target="_blank">online data entry services</a> for remote solutions.</p>
+                                        <p>Being a dedicated data entry services company, we understand the importance of precision in handling information. By gathering data provided by clients and from numerous web sources and entering it into the format and system suitable for the project, we help you digitize and organize your data. In addition to e-commerce, research, content management, and other areas, we offer <a href="https://stagenew.tech2globe.tech/online-data-entry-services" target="_blank">online data entry services</a> for remote solutions.</p>
                                     </li><hr />
 
                                     <li>
                                         <h5>Offline Data Entry:</h5>
-                                        <p>Our <a href="https://tech2globe.com/offline-data-entry-services">offline data entry services</a> can assist you if you need to transfer offline data, such as written records or physical documents, into digital form. Whether small, medium or large, every enterprise heavily relies on digitized data. Our professionals, with their years of experience, will carefully record and input the data with utmost precision.
+                                        <p>Our <a href="https://stagenew.tech2globe.tech/offline-data-entry-services">offline data entry services</a> can assist you if you need to transfer offline data, such as written records or physical documents, into digital form. Whether small, medium or large, every enterprise heavily relies on digitized data. Our professionals, with their years of experience, will carefully record and input the data with utmost precision.
                                         </p>
                                     </li><hr />
 
                                     <li>
                                         <h5>Data Conversion:</h5>
-                                        <p>Our <a href="https://tech2globe.com/data-conversion-services">Data Conversion Services</a> are available to transform your data from one format to another. We work with various file types, including PDF, Word, Excel, HTML, XML, and more, to ensure accurate and accessible data transformation. Providing flexible access to data helps organizations to streamline their operations.Our Data Conversion Services are available to transform your data from one format to another. We work with various file types, including PDF, Word, Excel, HTML, XML, and more, to ensure accurate and accessible data transformation. Providing flexible access to data helps organizations to streamline their operations.
+                                        <p>Our <a href="https://stagenew.tech2globe.tech/data-conversion-services">Data Conversion Services</a> are available to transform your data from one format to another. We work with various file types, including PDF, Word, Excel, HTML, XML, and more, to ensure accurate and accessible data transformation. Providing flexible access to data helps organizations to streamline their operations.Our Data Conversion Services are available to transform your data from one format to another. We work with various file types, including PDF, Word, Excel, HTML, XML, and more, to ensure accurate and accessible data transformation. Providing flexible access to data helps organizations to streamline their operations.
                                         </p>
                                     </li><hr />
 
                                     <li>
                                         <h5>Mining and Extraction:</h5>
-                                        <p>With the help of our data mining and <a href="https://tech2globe.com/data-extraction-services" target="_blank">Data Extraction Services</a>, you can maximize the value of your data. Our knowledgeable virtuous use cutting-edge methods and softwares to glean insightful information from massive chunks of data, enabling you to make wise business decisions.
+                                        <p>With the help of our data mining and <a href="https://stagenew.tech2globe.tech/data-extraction-services" target="_blank">Data Extraction Services</a>, you can maximize the value of your data. Our knowledgeable virtuous use cutting-edge methods and softwares to glean insightful information from massive chunks of data, enabling you to make wise business decisions.
                                         </p>
                                     </li><hr />
 

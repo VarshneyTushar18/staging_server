@@ -19,7 +19,7 @@ export const metadata = {
     description:
       "Sign up with our panorama image stitching services to give your audience a real time experience of 360-degree panorama view of your products.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/panorama-image-stitching-services",
+    url: "https://stagenew.tech2globe.tech/panorama-image-stitching-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/panorama-image-stitching-services",
+      "https://stagenew.tech2globe.tech/panorama-image-stitching-services",
   },
 };
 

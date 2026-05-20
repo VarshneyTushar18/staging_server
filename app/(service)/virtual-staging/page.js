@@ -15,13 +15,13 @@ export const metadata = {
   description:
     "Tech2globe provides virtual staging services for your real estate listings to help buyers visualize fully furnished empty homes, sell faster, and achieve top value with a digital remodel of any property.",
   alternates: {
-    canonical: "https://www.tech2globe.com/virtual-staging",
+    canonical: "https://stagenew.tech2globe.tech/virtual-staging",
   },
   openGraph: {
     title: "Virtual Staging Service Provider | Virtual Staging for Real Estate",
     description:
       "Tech2globe provides virtual staging services for your real estate listings to help buyers visualize fully furnished empty homes, sell faster, and achieve top value with a digital remodel of any property.",
-    url: "https://www.tech2globe.com/virtual-staging",
+    url: "https://stagenew.tech2globe.tech/virtual-staging",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

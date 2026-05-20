@@ -26,7 +26,7 @@ export const metadata = {
     title: "Outsourcing Lead Qualification Services | Sales Lead Qualification",
     description:
       "Outsource lead qualification services to discover qualified prospects and help build long-lasting relationships with potential customers. Call us today.",
-    url: "https://www.tech2globe.com/lead-qualification-services",
+    url: "https://stagenew.tech2globe.tech/lead-qualification-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -39,7 +39,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/lead-qualification-services",
+    canonical: "https://stagenew.tech2globe.tech/lead-qualification-services",
   },
 };
 
@@ -324,3 +324,4 @@ export default function LeadQualification() {
     </>
   )
 };
+

@@ -18,11 +18,11 @@ export const metadata = {
     title: "Outsource Image Clipping Services | High-Quality Picture Clipping",
     description:
       "Need image clipping done in bulk? Tech2Globe delivers outsource image clipping services with accuracy, speed, and professional-quality results every time.",
-    url: "https://www.tech2globe.com/image-clipping",
+    url: "https://stagenew.tech2globe.tech/image-clipping",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/image-clipping",
+    canonical: "https://stagenew.tech2globe.tech/image-clipping",
   },
 };
 

@@ -17,13 +17,13 @@ export const metadata = {
   keywords:
     "Sales Support Services, Sales and marketing support services, Sale support service provider company, Marketing and sales support services.",
   alternates: {
-    canonical: "https://www.tech2globe.com/sales-support-services",
+    canonical: "https://stagenew.tech2globe.tech/sales-support-services",
   },
   openGraph: {
     title: "Sales Support Service Provider Company | Tech2Globe",
     description:
       "We give end-to-end Outsource Sales Support Services directly from finding contact to lead age.",
-    url: "https://www.tech2globe.com/sales-support-services",
+    url: "https://stagenew.tech2globe.tech/sales-support-services",
     siteName: "Tech2Globe",
     type: "website",
   },

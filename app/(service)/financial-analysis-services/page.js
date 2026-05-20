@@ -22,7 +22,7 @@ export const metadata = {
         "Accounting Services | Accounting Services | Tech2globe ",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/financial-analysis-services",
+        canonical: "https://stagenew.tech2globe.tech/financial-analysis-services",
     },
 
     openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
             "Financial Analysis Services | Tech2globe ",
         description:
             "Our financial analysis services will help you thoroughly analyze your financial data so you get valuable insights to drive business growth. Contact us now!",
-        url: "https://www.tech2globe.com/financial-analysis-services",
+        url: "https://stagenew.tech2globe.tech/financial-analysis-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

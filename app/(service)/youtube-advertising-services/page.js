@@ -18,14 +18,14 @@ export const metadata = {
     "YouTube advertising services from Tech2globe can help your company reach new leads and grow. Learn more about our YouTube ad services now!",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/youtube-advertising-services",
+    canonical: "https://stagenew.tech2globe.tech/youtube-advertising-services",
   },
 
   openGraph: {
     title: "YouTube Advertising Services | YouTube Marketing Agency",
     description:
       "YouTube advertising services from Tech2globe can help your company reach new leads and grow. Learn more about our YouTube ad services now!",
-    url: "https://www.tech2globe.com/youtube-advertising-services",
+    url: "https://stagenew.tech2globe.tech/youtube-advertising-services",
     type: "website",
   },
 

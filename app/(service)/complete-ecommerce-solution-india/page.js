@@ -21,7 +21,7 @@ export const metadata = {
     title: "Complete Ecommerce Solution Services | Sell Online | Ecommerce Web Store",
     description:
       "Are you looking for a complete e-commerce solution? Tech2Globe experts manage your business by focusing on conversion techniques that meet your specific objectives.",
-    url: "https://www.tech2globe.com/complete-ecommerce-solution-india",
+    url: "https://stagenew.tech2globe.tech/complete-ecommerce-solution-india",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -32,7 +32,7 @@ export const metadata = {
       "Are you looking for a complete e-commerce solution? Tech2Globe experts manage your business by focusing on conversion techniques that meet your specific objectives."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/complete-ecommerce-solution-india"
+    canonical: "https://stagenew.tech2globe.tech/complete-ecommerce-solution-india"
   }
 };
 

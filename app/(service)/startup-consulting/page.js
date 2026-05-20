@@ -11,14 +11,14 @@ export const metadata = {
     description:
         "Our Start-up consulting services help fast-growth businesses and entrepreneurs through every step of their journey to become global leaders.",
     alternates: {
-        canonical: "https://www.tech2globe.com/startup-consulting",
+        canonical: "https://stagenew.tech2globe.tech/startup-consulting",
     },
     openGraph: {
         title: "Hire Startup Consultants | Startup Consulting Services - Tech2globe",
         description:
             "Our Start-up consulting services help fast-growth businesses and entrepreneurs grow globally.",
         siteName: "Tech2Globe Web Solutions LLP",
-        url: "https://www.tech2globe.com/startup-consulting",
+        url: "https://stagenew.tech2globe.tech/startup-consulting",
         type: "website",
     },
     twitter: {

@@ -20,7 +20,7 @@ export const metadata = {
 
 
     alternates: {
-        canonical: "https://www.tech2globe.com/digital-marketing-for-law-firms",
+        canonical: "https://stagenew.tech2globe.tech/digital-marketing-for-law-firms",
     },
 
 
@@ -28,7 +28,7 @@ export const metadata = {
         title: "Legal Marketing Agency | Digital Growth for Law Firms",
         description:
             "Boost your law firm’s online presence with expert SEO, PPC, and lead generation services designed specifically for legal professionals.",
-        url: "https://www.tech2globe.com/digital-marketing-for-law-firms",
+        url: "https://stagenew.tech2globe.tech/digital-marketing-for-law-firms",
         type: "website",
     },
 

@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Expert Volusion development services to build and optimize your online store. Partner with a leading Volusion development company for tailored solutions and support.",
     siteName: "Tech2Globe",
-    url: "https://www.tech2globe.com/volusion-development-services"
+    url: "https://stagenew.tech2globe.tech/volusion-development-services"
   },
   twitter: {
     card: "summary",
@@ -32,7 +32,7 @@ export const metadata = {
       "Expert Volusion development services to build and optimize your online store. Partner with a leading Volusion development company for tailored solutions and support."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/volusion-development-services"
+    canonical: "https://stagenew.tech2globe.tech/volusion-development-services"
   }
 };
 

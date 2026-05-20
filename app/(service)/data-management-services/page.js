@@ -25,7 +25,7 @@ export const metadata = {
     siteName: "Tech2Globe Web Solutions LLP",
     description:
       "Transform your business operations efficiently with data management & entry services, ensuring accurate, organized, and secure handling of all critical data.",
-    url: "https://www.tech2globe.com/data-management-services"
+    url: "https://stagenew.tech2globe.tech/data-management-services"
   },
   twitter: {
     card: "summary_large_image",
@@ -34,7 +34,7 @@ export const metadata = {
       "Transform your business operations efficiently with data management & entry services, ensuring accurate, organized, and secure handling of all critical data."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-management-services"
+    canonical: "https://stagenew.tech2globe.tech/data-management-services"
   }
 };
 

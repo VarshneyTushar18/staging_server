@@ -20,7 +20,7 @@ export const metadata = {
     title: "Outsource Data Scrubbing Services | Data Scrubbing Company | Tech2Globe",
     description:
       "Tech2Globe offers data scrubbing services and gives help with checking & adjusting your business-critical information & we assist you with keeping up a perfect database.",
-    url: "https://www.tech2globe.com/data-scrubbing-services",
+    url: "https://stagenew.tech2globe.tech/data-scrubbing-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2Globe offers data scrubbing services and gives help with checking & adjusting your business-critical information & we assist you with keeping up a perfect database.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-scrubbing-services",
+    canonical: "https://stagenew.tech2globe.tech/data-scrubbing-services",
   },
 };
 
@@ -328,3 +328,4 @@ export default function DataScrubbing() {
     </>
   )
 };
+

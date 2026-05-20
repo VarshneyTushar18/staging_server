@@ -21,14 +21,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/magento-development-company",
+    canonical: "https://stagenew.tech2globe.tech/magento-development-company",
   },
 
   openGraph: {
     title: "Magento Development Services | Magento Development Company",
     description:
       "Hire expert Magento developers for eCommerce solutions. Our Magento development company offers reliable services for website design and development.",
-    url: "https://www.tech2globe.com/magento-development-company",
+    url: "https://stagenew.tech2globe.tech/magento-development-company",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

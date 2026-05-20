@@ -26,14 +26,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/insurance-claims-data-entry-services",
+      "https://stagenew.tech2globe.tech/insurance-claims-data-entry-services",
   },
 
   openGraph: {
     title: "Outsource Insurance Claims Data Entry Services | Tech2Globe",
     description:
       "Outsourcing your insurance claims data entry services to Tech2Globe. We are driving supplier of data processing services for insurance companies and third-party administrators.",
-    url: "https://www.tech2globe.com/insurance-claims-data-entry-services",
+    url: "https://stagenew.tech2globe.tech/insurance-claims-data-entry-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

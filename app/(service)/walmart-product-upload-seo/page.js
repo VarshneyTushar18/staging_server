@@ -22,7 +22,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Drive more sales on Walmart with Tech2Globe's Walmart PPC advertising. Trusted as the best Walmart advertising agency for professional, results-driven campaigns.",
-        url: "https://www.tech2globe.com/walmart-advertisement",
+        url: "https://stagenew.tech2globe.tech/walmart-advertisement",
     },
     twitter: {
         card: "Best Walmart Advertising Agency | Walmart PPC Service",
@@ -31,7 +31,7 @@ export const metadata = {
             "Drive more sales on Walmart with Tech2Globe's Walmart PPC advertising. Trusted as the best Walmart advertising agency for professional, results-driven campaigns.",
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/walmart-advertisement",
+        canonical: "https://stagenew.tech2globe.tech/walmart-advertisement",
     },
 };
 

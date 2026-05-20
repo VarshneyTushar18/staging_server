@@ -18,7 +18,7 @@ export const metadata = {
     title: "Outsourcing Data De-Duplication Services | Data De-Duplication Experts",
     description:
       "Outsourcing data de-duplication services to Tech2Globe will offer you phenomenal outcomes at reasonable rates. Our team of workers who can cleanse your data with great ease.",
-    url: "https://www.tech2globe.com/data-de-duplication-services",
+    url: "https://stagenew.tech2globe.tech/data-de-duplication-services",
     type: "website"
   },
   twitter: {
@@ -27,7 +27,7 @@ export const metadata = {
       "Outsourcing data de-duplication services to Tech2Globe will offer you phenomenal outcomes at reasonable rates. Our team of workers who can cleanse your data with great ease."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-de-duplication-services"
+    canonical: "https://stagenew.tech2globe.tech/data-de-duplication-services"
   }
 };
 

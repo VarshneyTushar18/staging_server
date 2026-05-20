@@ -24,7 +24,7 @@ export const metadata = {
       "Real estate image editing services | Post processing of real estate images",
     description:
       "Outsource your real estate photo editing, retouching, and post-processing needs to Tech2Globe, a professional photo retouching service provider.",
-    url: "https://www.tech2globe.com/post-processing-of-real-estate-images",
+    url: "https://stagenew.tech2globe.tech/post-processing-of-real-estate-images",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website"
   },
@@ -37,7 +37,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/post-processing-of-real-estate-images"
+      "https://stagenew.tech2globe.tech/post-processing-of-real-estate-images"
   }
 };
 
@@ -109,3 +109,4 @@ export default function SeleniumTesting() {
     </>
   )
 };
+

@@ -21,7 +21,7 @@ export const metadata = {
     title: "Best Reputation Management Services Providers in 2023 | Tech2globe",
     description:
       "Ready to take control of your reputation? Choose from our list of top reputation management services (review management services, brand mention tools, and NPS).",
-    url: "https://www.tech2globe.com/corporate-reputation-management-services",
+    url: "https://stagenew.tech2globe.tech/corporate-reputation-management-services",
     type: "website",
   },
 
@@ -34,7 +34,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/corporate-reputation-management-services",
+      "https://stagenew.tech2globe.tech/corporate-reputation-management-services",
   },
 };
 

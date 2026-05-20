@@ -15,14 +15,14 @@ export const metadata = {
     "A hybrid app is a mix of web and native apps. The hybrid app development process involves building and running one project for every platform seamlessly.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/hybrid-mobile-app-development",
+    canonical: "https://stagenew.tech2globe.tech/hybrid-mobile-app-development",
   },
 
   openGraph: {
     title: "What is Hybrid App Development? The Ultimate Guide",
     description:
       "A hybrid app is a mix of web and native apps. The hybrid app development process involves building and running one project for every platform seamlessly.",
-    url: "https://www.tech2globe.com/hybrid-mobile-app-development",
+    url: "https://stagenew.tech2globe.tech/hybrid-mobile-app-development",
     siteName: "Tech2Globe web Solutions LLP",
     type: "article",
   },
@@ -266,3 +266,4 @@ export default function HybridMobileApp() {
     </>
   )
 };
+

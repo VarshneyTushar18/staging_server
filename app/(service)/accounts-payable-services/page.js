@@ -25,7 +25,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/accounts-payable-services",
+        canonical: "https://stagenew.tech2globe.tech/accounts-payable-services",
     },
 
     openGraph: {
@@ -33,7 +33,7 @@ export const metadata = {
             "Account payable services | Outsource Accounts Payable Services",
         description:
             "Account payable services by tech2globe offer end-to-end account payable BPO services to clients globally. We analyze, detect, investigate, and inspection every fraud",
-        url: "https://www.tech2globe.com/accounts-payable-services",
+        url: "https://stagenew.tech2globe.tech/accounts-payable-services",
         siteName: "Tech2Globe",
         type: "website",
     },

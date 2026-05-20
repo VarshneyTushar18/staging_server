@@ -24,7 +24,7 @@ export const metadata = {
     description:
       "Image manipulation services for photographers from $25 per image. If you need a head replacement or any creative photo manipulation services.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/image-manipulation-services",
+    url: "https://stagenew.tech2globe.tech/image-manipulation-services",
     type: "website",
   },
 
@@ -37,7 +37,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/image-manipulation-services",
+    canonical: "https://stagenew.tech2globe.tech/image-manipulation-services",
   },
 };
 

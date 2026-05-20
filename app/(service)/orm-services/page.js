@@ -21,14 +21,14 @@ export const metadata = {
   keywords: "",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/orm-services",
+    canonical: "https://stagenew.tech2globe.tech/orm-services",
   },
 
   openGraph: {
     title: "ORM Company | Online Reputation Management | Tech2globe",
     description:
       "Looking an ORM Company? Reputation is everything. We understand it &amp; so is our online reputation Management Services team. Hire ORM Services.",
-    url: "https://www.tech2globe.com/orm-services",
+    url: "https://stagenew.tech2globe.tech/orm-services",
     siteName: "Tech2Globe",
     type: "website",
   },

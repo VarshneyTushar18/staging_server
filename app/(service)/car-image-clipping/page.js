@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Outsource car image clipping services to a specialized Photoshop artists to ensure accurate clipping, background removal, and added quality car effects.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/car-image-clipping",
+    url: "https://stagenew.tech2globe.tech/car-image-clipping",
     type: "website",
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Outsource car image clipping services to a specialized Photoshop artists to ensure accurate clipping, background removal, and added quality car effects.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/car-image-clipping",
+    canonical: "https://stagenew.tech2globe.tech/car-image-clipping",
   },
 };
 

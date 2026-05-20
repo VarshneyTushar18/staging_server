@@ -17,7 +17,7 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "Tech2Globe is the best TikTok shop management agency, helping brands optimize listings, drive sales, and grow their presence on TikTok Shop effectively.",
-    url: "https://www.tech2globe.com/tiktok-shop-management-services"
+    url: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
   },
   twitter: {
     card: "Best Walmart Advertising Agency | Walmart PPC Service",
@@ -26,7 +26,7 @@ export const metadata = {
       "Tech2Globe is the best TikTok shop management agency, helping brands optimize listings, drive sales, and grow their presence on TikTok Shop effectively."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/tiktok-shop-management-services"
+    canonical: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
   }
 };
 

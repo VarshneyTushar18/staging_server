@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Tech2Globe Web Solutions LLP",
     description:
       "With Tech2Globe's AI-based Data Support Services, companies gain smarter data handling, predictive analytics, and automation to accelerate success.",
-    url: "https://www.tech2globe.com/data-support-ai-services"
+    url: "https://stagenew.tech2globe.tech/data-support-ai-services"
   },
   twitter: {
     card: "summary_large_image",
@@ -35,7 +35,7 @@ export const metadata = {
       "With Tech2Globe's AI-based Data Support Services, companies gain smarter data handling, predictive analytics, and automation to accelerate success."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-support-ai-services"
+    canonical: "https://stagenew.tech2globe.tech/data-support-ai-services"
   }
 };
 

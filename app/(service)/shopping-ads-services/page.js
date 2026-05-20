@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/shopping-ads-services",
+    canonical: "https://stagenew.tech2globe.tech/shopping-ads-services",
   },
 
   openGraph: {
     title: "Google Shopping Ads Agency | Shopping Ads Services | Tech2globe",
     description:
       "Make sure you get your products seen with Google Shopping. Get more information about Tech2globe Google Ads management.",
-    url: "https://www.tech2globe.com/shopping-ads-services",
+    url: "https://stagenew.tech2globe.tech/shopping-ads-services",
     siteName: "Tech2Globe",
     type: "website",
   },

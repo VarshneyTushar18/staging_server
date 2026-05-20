@@ -17,13 +17,13 @@ export const metadata = {
   keywords:
     "software development, software development company, software development services, software development India, software company",
   alternates: {
-    canonical: "https://www.tech2globe.com/software-development",
+    canonical: "https://stagenew.tech2globe.tech/software-development",
   },
   openGraph: {
     title: "Software Development company | Software Development Services",
     description:
       "Tech2Globe is a leading software development company that provides software development services for completing software developing needs and provides you wide range of solutions.",
-    url: "https://www.tech2globe.com/software-development",
+    url: "https://stagenew.tech2globe.tech/software-development",
     siteName: "Tech2Globe",
     type: "website",
   },

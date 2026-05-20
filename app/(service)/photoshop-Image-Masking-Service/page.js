@@ -24,14 +24,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/photoshop-Image-Masking-Service",
+      "https://stagenew.tech2globe.tech/photoshop-Image-Masking-Service",
   },
 
   openGraph: {
     title: "Outsource photo masking process | Image masking services | Tech2Globe",
     description: "Outsource image masking services to Tech2Globe and get access to expert image masking, and Photoshop image masking. We provide high-quality image editing with the latest masking techniques and tools.",
     url:
-      "https://www.tech2globe.com/photoshop-Image-Masking-Service",
+      "https://stagenew.tech2globe.tech/photoshop-Image-Masking-Service",
     // Ognames is empty → safely omitted
     type: "website",
   },

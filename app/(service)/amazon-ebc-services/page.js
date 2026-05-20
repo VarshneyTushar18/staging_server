@@ -19,7 +19,7 @@ export const metadata = {
     title: "Amazon EBC services | Amazon Enhanced Brand Content | Tech2Globe",
     description:
       "Hire Amazon EBC services by Tech2Globe to use correct pricing strategies to expand your rankings, conversions, and income. Adding EBC to your page has a larger number of advantages.",
-    url: "https://www.tech2globe.com/amazon-ebc-services",
+    url: "https://stagenew.tech2globe.tech/amazon-ebc-services",
     siteName: "Tech2Globe",
   },
 
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/amazon-ebc-services",
+    canonical: "https://stagenew.tech2globe.tech/amazon-ebc-services",
   },
 };
 
@@ -154,3 +154,4 @@ export default function AmazonEbc() {
     </>
   )
 };
+

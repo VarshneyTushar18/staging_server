@@ -21,7 +21,7 @@ export const metadata = {
     description:
       "Tech2globe Software Testing Automation Services enables you to increase productivity, expands test coverage and achieve faster time-to-market. Our home-grown automation testing framework increases efficiency in the overall process.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/automation-testing-services",
+    url: "https://stagenew.tech2globe.tech/automation-testing-services",
     type: "website"
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Tech2globe Software Testing Automation Services enables you to increase productivity, expands test coverage and achieve faster time-to-market. Our home-grown automation testing framework increases efficiency in the overall process."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/automation-testing-services"
+    canonical: "https://stagenew.tech2globe.tech/automation-testing-services"
   }
 };
 
@@ -213,3 +213,4 @@ export default function AutomationTesting() {
     </>
   )
 };
+

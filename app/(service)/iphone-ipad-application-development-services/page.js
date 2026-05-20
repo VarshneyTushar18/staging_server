@@ -18,7 +18,7 @@ export const metadata = {
     title: "iPhone app development company | iOS development services | Tech2Globe",
     description:
       "Get experienced professionals IOS development services from reputed iPhone app Development Company. Our IOS Developers have hands-on experience of working on the latest tools.",
-    url: "https://www.tech2globe.com/iphone-ipad-application-development-services",
+    url: "https://stagenew.tech2globe.tech/iphone-ipad-application-development-services",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -30,7 +30,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/iphone-ipad-application-development-services",
+      "https://stagenew.tech2globe.tech/iphone-ipad-application-development-services",
   },
 };
 

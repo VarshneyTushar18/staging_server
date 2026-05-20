@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Best hair masking freelance services online. Outsource your hair masking project and get it quickly done and delivered remotely online",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/hair-masking-services",
+    url: "https://stagenew.tech2globe.tech/hair-masking-services",
     type: "website",
   },
   twitter: {
@@ -30,7 +30,7 @@ export const metadata = {
       "Best hair masking freelance services online. Outsource your hair masking project and get it quickly done and delivered remotely online",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/hair-masking-services",
+    canonical: "https://stagenew.tech2globe.tech/hair-masking-services",
   },
 };
 

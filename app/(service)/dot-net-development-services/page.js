@@ -19,7 +19,7 @@ export const metadata = {
     description:
       "Tech2globe is a leading dot net development company in the USA, Australia, Netherlands, Canada, Dubai, and India. We offer ASP.NET web and application development services that are outstanding and perfect for any business.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/dot-net-development-services",
+    url: "https://stagenew.tech2globe.tech/dot-net-development-services",
     type: "website"
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2globe is a leading dot net development company in the USA, Australia, Netherlands, Canada, Dubai, and India. We offer ASP.NET web and application development services that are outstanding and perfect for any business."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/dot-net-development-services"
+    canonical: "https://stagenew.tech2globe.tech/dot-net-development-services"
   }
 };
 
@@ -289,3 +289,4 @@ export default function DotNetDevelopment() {
     </>
   )
 };
+

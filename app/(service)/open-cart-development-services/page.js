@@ -18,14 +18,14 @@ export const metadata = {
     "OpenCart Theme Design and Development"
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/open-cart-development-services"
+    canonical: "https://stagenew.tech2globe.tech/open-cart-development-services"
   },
   openGraph: {
     title: "OpenCart Development Services | Opencart Web development",
     description:
       "Professional services for OpenCart development to create and enhance your online store. Join forces with us for customized OpenCart web development solutions.",
     siteName: "Tech2Globe",
-    url: "https://www.tech2globe.com/open-cart-development-services",
+    url: "https://stagenew.tech2globe.tech/open-cart-development-services",
     type: "website"
   },
   twitter: {

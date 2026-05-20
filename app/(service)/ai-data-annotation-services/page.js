@@ -38,7 +38,7 @@ export const metadata = {
     title: "AI Data Annotation Services - Tech2Globe",
     description:
       "Professional AI Data Annotation services covering image, text, audio, and video annotation for ML systems, automation, and intelligent applications.",
-    url: "https://tech2globe.com/ai-data-annotation-services",
+    url: "https://stagenew.tech2globe.tech/ai-data-annotation-services",
     siteName: "Tech2Globe",
   },
 
@@ -50,7 +50,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://tech2globe.com/ai-data-annotation-services",
+    canonical: "https://stagenew.tech2globe.tech/ai-data-annotation-services",
   },
 };
 

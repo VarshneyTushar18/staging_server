@@ -21,7 +21,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/quick-commerce-onboarding-services",
+      "https://stagenew.tech2globe.tech/quick-commerce-onboarding-services",
   },
 
   openGraph: {
@@ -30,7 +30,7 @@ export const metadata = {
     description:
       "Get your brand live faster on Blinkit, Zepto, Swiggy Instamart & Amazon with our quick commerce onboarding services. End-to-end seller setup and product listing.",
     url:
-      "https://www.tech2globe.com/quick-commerce-onboarding-services",
+      "https://stagenew.tech2globe.tech/quick-commerce-onboarding-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

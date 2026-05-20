@@ -23,7 +23,7 @@ export const metadata = {
     title: "Rakuten Product Listing Services | Rakuten Product Entry Services",
     description:
       "Rakuten is one of the largest Ecommerce site from Japan. Tech2globe provide uploading product data and selling items on Rakuten marketplace to boost sales. We provide Best quality services to our clients.",
-    url: "https://www.tech2globe.com/online-business-management-rakuten",
+    url: "https://stagenew.tech2globe.tech/online-business-management-rakuten",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "Rakuten is one of the largest Ecommerce site from Japan. Tech2globe provide uploading product data and selling items on Rakuten marketplace to boost sales. We provide Best quality services to our clients.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/online-business-management-rakuten",
+    canonical: "https://stagenew.tech2globe.tech/online-business-management-rakuten",
   },
 };
 

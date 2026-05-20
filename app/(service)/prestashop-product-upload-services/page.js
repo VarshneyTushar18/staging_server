@@ -19,14 +19,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/prestashop-product-upload-services",
+    canonical: "https://stagenew.tech2globe.tech/prestashop-product-upload-services",
   },
 
   openGraph: {
     title: "Prestashop Product Upload Services | Prestashop Data Entry",
     description:
       "Reliable Prestashop product upload and data entry services. Optimize your listings, enhance visibility, and boost sales with accurate product information.",
-    url: "https://www.tech2globe.com/prestashop-product-upload-services",
+    url: "https://stagenew.tech2globe.tech/prestashop-product-upload-services",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

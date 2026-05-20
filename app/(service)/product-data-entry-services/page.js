@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "Simplify product management using the best outsource ecommerce product data entry solutions services to handle high-volume data entry with an efficient process.",
-    url: "https://www.tech2globe.com/product-data-entry-services"
+    url: "https://stagenew.tech2globe.tech/product-data-entry-services"
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ export const metadata = {
       "Simplify product management using the best outsource ecommerce product data entry solutions services to handle high-volume data entry with an efficient process."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/product-data-entry-services"
+    canonical: "https://stagenew.tech2globe.tech/product-data-entry-services"
   }
 };
 
@@ -82,7 +82,7 @@ const caseStudies = [
     image: "/images/services/service-inner/data-processing-2-bn.jpg",
     description:
       "Company was approached by a client seeking assistance in creating a robust account database within their CRM portal....",
-    docLink: "https://www.tech2globe.com/casestudies-docs1/Case%20Study-Product%20Data%20Entry.pdf",
+    docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study-Product%20Data%20Entry.pdf",
   },
 ];
 

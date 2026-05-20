@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/Joomla-development",
+    canonical: "https://stagenew.tech2globe.tech/Joomla-development",
   },
 
   openGraph: {
     title: "Joomla CMS Development Services | Joomla Web Development Company",
     description:
       "Tech2Globe is a leading Joomla web development company in India. Our Joomla theming services include creating new themes, customizing themes, theme modification, and more.",
-    url: "https://www.tech2globe.com/Joomla-development",
+    url: "https://stagenew.tech2globe.tech/Joomla-development",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -176,3 +176,4 @@ export default function JoomlaDevelopement() {
     </>
   )
 };
+

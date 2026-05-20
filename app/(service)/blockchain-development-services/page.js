@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2globe, as a leading Blockchain Development Company, has multidisciplinary expertise in various custom Blockchain development services. Our global network services, expertly matched to fit your most urgent business needs, on demand.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/blockchain-development-services",
+    url: "https://stagenew.tech2globe.tech/blockchain-development-services",
   },
 
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/blockchain-development-services",
+    canonical: "https://stagenew.tech2globe.tech/blockchain-development-services",
   },
 };
 
@@ -212,3 +212,4 @@ export default function BlockChainDevelopment() {
     </>
   )
 };
+

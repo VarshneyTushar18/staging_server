@@ -21,7 +21,7 @@ export const metadata = {
     title: "Photo Editing Services | Image Editing Services - Tech2Globe",
     description:
       "Tech2Globe provides top-notch photo editing services. Elevate your images with our expert image editing solutions tailored to your needs.",
-    url: "https://www.tech2globe.com/photo-editing-services",
+    url: "https://stagenew.tech2globe.tech/photo-editing-services",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -32,7 +32,7 @@ export const metadata = {
       "Tech2Globe provides top-notch photo editing services. Elevate your images with our expert image editing solutions tailored to your needs."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/photo-editing-services"
+    canonical: "https://stagenew.tech2globe.tech/photo-editing-services"
   }
 };
 

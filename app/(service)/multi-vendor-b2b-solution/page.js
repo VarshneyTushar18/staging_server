@@ -16,7 +16,7 @@ export const metadata = {
     "View the best B2B eCommerce Platform software with Multi-Vendor in 2023. Compare verified user ratings & reviews to find the best match for your business size, need & industry.",
 
   alternates: {
-    canonical: "https://www.tech2globe.com/multi-vendor-b2b-solution",
+    canonical: "https://stagenew.tech2globe.tech/multi-vendor-b2b-solution",
   },
 
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata = {
       "Best B2B eCommerce Platform Software with Multi-Vendor 2023 | Tech2Globe",
     description:
       "View the best B2B eCommerce Platform software with Multi-Vendor in 2023. Compare verified user ratings & reviews to find the best match for your business size, need & industry.",
-    url: "https://www.tech2globe.com/multi-vendor-b2b-solution",
+    url: "https://stagenew.tech2globe.tech/multi-vendor-b2b-solution",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },

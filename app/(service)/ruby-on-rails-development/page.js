@@ -21,7 +21,7 @@ export const metadata = {
       "Ruby on Rails Development Company | RoR Development Agency -Tech2globe",
     description:
       "Hire Rails programmers at Tech2globe to get flexible and robust web application for business development and growth. Our RoR developers can create a powerful web application for your business boost and growth in several days using standard tools of Rails programming.",
-    url: "https://www.tech2globe.com/ruby-on-rails-development",
+    url: "https://stagenew.tech2globe.tech/ruby-on-rails-development",
     type: "website"
   },
   twitter: {
@@ -32,7 +32,7 @@ export const metadata = {
       "Hire Rails programmers at Tech2globe to get flexible and robust web application for business development and growth. Our RoR developers can create a powerful web application for your business boost and growth in several days using standard tools of Rails programming."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/ruby-on-rails-development"
+    canonical: "https://stagenew.tech2globe.tech/ruby-on-rails-development"
   }
 };
 
@@ -241,3 +241,4 @@ export default function RubyOnRailsDevelopment() {
     </>
   )
 };
+

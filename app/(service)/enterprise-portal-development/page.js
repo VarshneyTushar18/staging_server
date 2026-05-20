@@ -23,7 +23,7 @@ export const metadata = {
     title: "Enterprise Portal Development Services | Web Portal Development Company",
     description:
       "Tech2Globe is a trustworthy enterprise portal development company offering robust and scalable enterprise portal development services for your individual needs at an effective rate.",
-    url: "https://www.tech2globe.com/enterprise-portal-development",
+    url: "https://stagenew.tech2globe.tech/enterprise-portal-development",
     siteName: "Tech2Globe",
     type: "website"
   },
@@ -34,7 +34,7 @@ export const metadata = {
       "Tech2Globe is a trustworthy enterprise portal development company offering robust and scalable enterprise portal development services for your individual needs at an effective rate."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/enterprise-portal-development"
+    canonical: "https://stagenew.tech2globe.tech/enterprise-portal-development"
   }
 };
 

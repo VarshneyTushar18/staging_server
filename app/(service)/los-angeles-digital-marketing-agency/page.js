@@ -19,7 +19,7 @@ export const metadata = {
         title: "Best Digital Marketing Agency and Services in Los Angeles",
         description:
             "Choose the top digital marketing agency in Los Angeles with 360° digital marketing services. ✔7000+ Successful Projects ✔300+ Experts. Enquire Now!",
-        url: "https://www.tech2globe.com/los-angeles-digital-marketing-agency",
+        url: "https://stagenew.tech2globe.tech/los-angeles-digital-marketing-agency",
         type: "website",
     },
 
@@ -32,7 +32,7 @@ export const metadata = {
 
     alternates: {
         canonical:
-            "https://www.tech2globe.com/los-angeles-digital-marketing-agency",
+            "https://stagenew.tech2globe.tech/los-angeles-digital-marketing-agency",
     },
 };
 

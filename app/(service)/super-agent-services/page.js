@@ -20,7 +20,7 @@ export const metadata = {
     keywords: "",
 
     alternates: {
-        canonical: "https://www.tech2globe.com/super-agent-services",
+        canonical: "https://stagenew.tech2globe.tech/super-agent-services",
     },
 
     openGraph: {
@@ -28,7 +28,7 @@ export const metadata = {
             "Top Super Agent Services | outsource super agent services",
         description:
             "Our super agent services offer decades of experience in both inbound and outbound call center services. We have a team of specialists who help you with the exact solution",
-        url: "https://www.tech2globe.com/super-agent-services",
+        url: "https://stagenew.tech2globe.tech/super-agent-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },

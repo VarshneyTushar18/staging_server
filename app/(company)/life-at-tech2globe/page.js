@@ -9,14 +9,14 @@ export const metadata = {
   description:
     "Folks who only work and never play are very dull indeed. Be it Diwali, Christmas, New Year, or Holi, we celebrate every holiday as a team in Tech2globe.",
   alternates: {
-    canonical: "https://www.tech2globe.com/life-at-tech2globe",
+    canonical: "https://stagenew.tech2globe.tech/life-at-tech2globe",
   },
   openGraph: {
     title: "Life@Tech2Globe: Social and cultural events",
     description:
       "Celebrating festivals and events together at Tech2Globe builds a vibrant workplace culture.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/life-at-tech2globe",
+    url: "https://stagenew.tech2globe.tech/life-at-tech2globe",
     type: "website",
   },
   twitter: {
@@ -67,3 +67,4 @@ export default function LifeAtTech2Globe() {
     </>
   );
 }
+

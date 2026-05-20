@@ -15,11 +15,11 @@ export const metadata = {
         title: "Customer Support Services 27*7 - Tech2Globe",
         description:
             "Tech2Globe provides 24/7 customer support services, ensuring prompt assistance and satisfaction. Trust our team for reliable support around the clock.",
-        url: "https://www.tech2globe.com/customer-support",
+        url: "https://stagenew.tech2globe.tech/customer-support",
         siteName: "Tech2Globe",
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/customer-support",
+        canonical: "https://stagenew.tech2globe.tech/customer-support",
     },
 };
 

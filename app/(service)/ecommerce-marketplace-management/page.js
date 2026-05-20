@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Tech2Globe Web Solutions LLP",
     description:
       "eCommerce Marketplace Management services for Amazon, Flipkart, eBay & more. Tech2Globe helps sellers with cataloging, listing, SEO & global growth.",
-    url: "https://www.tech2globe.com/ecommerce-marketplace-management"
+    url: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
   },
   twitter: {
     card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata = {
       "eCommerce Marketplace Management services for Amazon, Flipkart, eBay & more. Tech2Globe helps sellers with cataloging, listing, SEO & global growth."
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/ecommerce-marketplace-management"
+    canonical: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
   }
 };
 

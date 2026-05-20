@@ -19,12 +19,12 @@ export const metadata = {
       "Angular JS Development Services | Angular JS Development Solutions - Tech2Globe",
     description:
       "Tech2Globe provides AngularJS development services and solutions tailored to your needs. Harness the power of AngularJS for your projects.",
-    url: "https://www.tech2globe.com/angular-js-development-services",
+    url: "https://stagenew.tech2globe.tech/angular-js-development-services",
     type: "website"
   },
   alternates: {
     canonical:
-      "https://www.tech2globe.com/angular-js-development-services"
+      "https://stagenew.tech2globe.tech/angular-js-development-services"
   }
 };
 
@@ -277,3 +277,4 @@ export default function AngularJsDevelopment() {
     </>
   )
 };
+

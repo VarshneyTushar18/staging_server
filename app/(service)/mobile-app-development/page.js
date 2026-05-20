@@ -23,7 +23,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/mobile-app-development",
+    canonical: "https://stagenew.tech2globe.tech/mobile-app-development",
   },
 
   openGraph: {
@@ -31,7 +31,7 @@ export const metadata = {
       "Mobile app development services, Mobile app Development Company, Mobile Application Developers, Custom Mobile App Development Company",
     description:
       "Tech2Globe, a mobile app Development Company. Our extensive experts delivering a full range of mobile app development services that are a perfect match for the client’s needs.",
-    url: "https://www.tech2globe.com/mobile-app-development",
+    url: "https://stagenew.tech2globe.tech/mobile-app-development",
     type: "website",
   },
 

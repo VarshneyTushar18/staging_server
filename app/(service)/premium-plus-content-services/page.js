@@ -26,7 +26,7 @@ export const metadata = {
     ],
 
     alternates: {
-        canonical: "https://www.tech2globe.com/premium-plus-content-services",
+        canonical: "https://stagenew.tech2globe.tech/premium-plus-content-services",
     },
 
     openGraph: {
@@ -34,7 +34,7 @@ export const metadata = {
             "Premium A+ Content Services | Amazon A+ Content services ",
         description:
             "Tech2Globe premium A+ content services ensure that it can provide a competitive edge in the market Tech2Globe offers value-added services.",
-        url: "https://www.tech2globe.com/premium-plus-content-services",
+        url: "https://stagenew.tech2globe.tech/premium-plus-content-services",
         siteName: "Tech2Globe web Solutions LLP",
         type: "website",
     },

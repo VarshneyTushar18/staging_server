@@ -16,12 +16,12 @@ export const metadata = {
     "Social Media Marketing Pricing",
   ],
   alternates: {
-    canonical: "https://www.tech2globe.com/social-media-marketing-packages",
+    canonical: "https://stagenew.tech2globe.tech/social-media-marketing-packages",
   },
   openGraph: {
     title: "Social Media Marketing Packages & Pricing for Your Brand Growth",
     description: "Get the best social media package for your business. Packages include social media content posting, blogging, videos, and more. Get set up and running in just 3 days.",
-    url: "https://www.tech2globe.com/social-media-marketing-packages",
+    url: "https://stagenew.tech2globe.tech/social-media-marketing-packages",
     type: "website",
   },
   twitter: {
@@ -101,7 +101,7 @@ export default function SocialMediaMarketingPackages() {
                         <td>$4,000 - $10,000</td>
                         <td>Above $10,000</td>
                         <td rowspan="4">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -143,7 +143,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="6">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -204,7 +204,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="14">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -337,7 +337,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="3">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -371,7 +371,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="4">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -414,7 +414,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="9">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -501,7 +501,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td> - </td>
                         <td rowspan="10">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -598,7 +598,7 @@ export default function SocialMediaMarketingPackages() {
                         <td>Bi-Weekly</td>
                         <td>Weekly</td>
                         <td rowspan="2">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>
@@ -623,7 +623,7 @@ export default function SocialMediaMarketingPackages() {
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td><img class="lazyloaded" data-src="images/services/service-inner/clip_image002.gif" alt="" src="images/services/service-inner/clip_image002.gif" /></td>
                         <td rowspan="2">
-                          <a href="https://tech2globe.com/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
+                          <a href="https://stagenew.tech2globe.tech/contact-us" class="btn btn-danger fw-medium">Contact Us</a>
                         </td>
                       </tr>
                       <tr>

@@ -20,7 +20,7 @@ export const metadata = {
     title: "Data Standardization Services | Outsource Data Standardization",
     description:
       "Tech2globe empowers businesses to make timely and well-informed decisions by providing customized data standardization services at an affordable cost.",
-    url: "https://www.tech2globe.com/data-standardization-services",
+    url: "https://stagenew.tech2globe.tech/data-standardization-services",
   },
   twitter: {
     card: "summary_large_image",
@@ -29,7 +29,7 @@ export const metadata = {
       "Tech2globe empowers businesses to make timely and well-informed decisions by providing customized data standardization services at an affordable cost.",
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/data-standardization-services",
+    canonical: "https://stagenew.tech2globe.tech/data-standardization-services",
   },
 };
 
@@ -271,3 +271,4 @@ export default function DataScrubbing() {
     </>
   )
 };
+

@@ -24,7 +24,7 @@ export const metadata = {
         siteName: "Tech2Globe Web Solutions LLP",
         description:
             "Protect your property with Tech2Globe, one of the best outsource remote CCTV monitoring services companies, offering reliable 24/7 surveillance to monitor.",
-        url: "https://www.tech2globe.com/cctv-monitoring-services"
+        url: "https://stagenew.tech2globe.tech/cctv-monitoring-services"
     },
     twitter: {
         card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata = {
             "Protect your property with Tech2Globe, one of the best outsource remote CCTV monitoring services companies, offering reliable 24/7 surveillance to monitor."
     },
     alternates: {
-        canonical: "https://www.tech2globe.com/cctv-monitoring-services"
+        canonical: "https://stagenew.tech2globe.tech/cctv-monitoring-services"
     }
 };
 

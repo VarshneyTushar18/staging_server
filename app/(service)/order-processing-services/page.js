@@ -30,7 +30,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/order-processing-services",
+    canonical: "https://stagenew.tech2globe.tech/order-processing-services",
   },
 
   openGraph: {
@@ -38,7 +38,7 @@ export const metadata = {
       "Outsource Order Processing Services | Data Entry Order Processing",
     description:
       "Tech2Globe offers start to finish eCommerce Order Processing Services. We are proficient at taking care of whole procedure of internet business order processing. Call us today.",
-    url: "https://www.tech2globe.com/order-processing-services",
+    url: "https://stagenew.tech2globe.tech/order-processing-services",
     siteName: "Tech2Globe",
     type: "website",
   },

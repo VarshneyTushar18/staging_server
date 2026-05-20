@@ -25,9 +25,9 @@ export const metadata = {
     siteName: "Tech2Globe web Solutions LLP",
     description:
       "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
-    url: "https://tech2globe.com/amazon-consulting-services",
+    url: "https://stagenew.tech2globe.tech/amazon-consulting-services",
     images: [
-      "https://tech2globe.com/images/tech2globe-consulting-banner-2.jpg",
+      "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
     ],
   },
   twitter: {
@@ -36,11 +36,11 @@ export const metadata = {
     description:
       "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
     images: [
-      "https://tech2globe.com/images/tech2globe-consulting-banner-2.jpg",
+      "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
     ],
   },
   alternates: {
-    canonical: "https://www.tech2globe.com/amazon-consulting-services",
+    canonical: "https://stagenew.tech2globe.tech/amazon-consulting-services",
   },
 };
 
@@ -78,14 +78,14 @@ const caseStudies = [
         "title": "Customer Business and Delivered",
         "image": "/images/services/service-inner/untitled-design-20.png",
         "description": "How Well We Understand Customer Business and Delivered Fruitful Results...",
-        "docLink": "https://www.tech2globe.com/casestudies-docs1/Case%20Study%20-%20Ecommerce%20Consulting%20Services.pdf"
+        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20Ecommerce%20Consulting%20Services.pdf"
     },
     {
         "id": 2,
         "title": "Online Promotion Strategies",
         "image": "/images/services/service-inner/online-promotion-strategies.jpg",
         "description": "The client is USA based and he is a Neuroscientist by profession with over 15 years of basic and applied research experience in the same field...",
-        "docLink": "https://www.tech2globe.com/casestudies-docs1/Case%20Study%20-%20showGlamour%20&%20LeMirch%20(1).pdf"
+        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20showGlamour%20&%20LeMirch%20(1).pdf"
     },
 ]
 

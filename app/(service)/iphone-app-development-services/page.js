@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Build powerful apps with Tech2Globe’s iPhone App Development Services, delivering seamless performance, sleek design, and cutting-edge features",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://www.tech2globe.com/iphone-app-development-services",
+    url: "https://stagenew.tech2globe.tech/iphone-app-development-services",
     type: "website",
   },
 
@@ -33,7 +33,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/iphone-app-development-services",
+      "https://stagenew.tech2globe.tech/iphone-app-development-services",
   },
 };
 
@@ -241,3 +241,4 @@ export default function IphoneAppDevelopment() {
     </>
   )
 };
+

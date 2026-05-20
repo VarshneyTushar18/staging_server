@@ -31,7 +31,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.tech2globe.com/search-engine-optimization",
+    canonical: "https://stagenew.tech2globe.tech/search-engine-optimization",
   },
 
   openGraph: {
@@ -39,7 +39,7 @@ export const metadata = {
       "India Most Trusted SEO Services Agency | SEO Company - Tech2globe",
     description:
       "Achieve #1 rankings with Tech2globe - Best SEO Agecny in India. Our seo company offer powerful SEO services that drive clicks, quality organic traffic, enquires, and sales. Call Now for Top of Google rankings.",
-    url: "https://www.tech2globe.com/search-engine-optimization",
+    url: "https://stagenew.tech2globe.tech/search-engine-optimization",
     siteName: "Tech2Globe",
     type: "website",
   },

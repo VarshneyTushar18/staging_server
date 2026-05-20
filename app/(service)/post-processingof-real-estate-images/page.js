@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Outsource Real Estate Image Editing Services to Flatworld Solutions & get access to skilled resources who provide quick, efficient, and affordable services.",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/post-processingof-real-estate-images",
+    url: "https://stagenew.tech2globe.tech/post-processingof-real-estate-images",
     type: "website",
   },
 
@@ -36,7 +36,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.tech2globe.com/post-processingof-real-estate-images",
+      "https://stagenew.tech2globe.tech/post-processingof-real-estate-images",
   },
 };
 

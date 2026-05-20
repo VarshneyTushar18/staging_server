@@ -18,7 +18,7 @@ export const metadata = {
     title: "Outsource Digital Image Enhancement Services in Bulk",
     description:
       "Outsource digital image enhancement services in bulk with Tech2Globe. Get professional, fast, and accurate image editing solutions for your business.",
-    url: "https://www.tech2globe.com/image-enhancement",
+    url: "https://stagenew.tech2globe.tech/image-enhancement",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },
@@ -31,7 +31,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/image-enhancement",
+    canonical: "https://stagenew.tech2globe.tech/image-enhancement",
   },
 };
 

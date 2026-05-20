@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Tech2gobe provides high-quality skin retouching services to clients around the world at cost-effective rates starting at $7/hour. Contact us now!",
     siteName: "Tech2Globe Web Solutions LLP",
-    url: "https://www.tech2globe.com/skin-retouching-services",
+    url: "https://stagenew.tech2globe.tech/skin-retouching-services",
     type: "website",
   },
 
@@ -32,7 +32,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.tech2globe.com/skin-retouching-services",
+    canonical: "https://stagenew.tech2globe.tech/skin-retouching-services",
   },
 };
 
