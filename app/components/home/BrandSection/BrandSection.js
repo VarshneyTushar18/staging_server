@@ -56,10 +56,10 @@ export default function BrandSection() {
   ];
 
   return (
-    <section className="container">
+    <section className="container pb-0">
       <div className={`row d-flex justify-content-center mb-2 ${Style.BrandBox}`}>
         {data.map((item, index) => (
-          <div key={index} className="col-6 col-md-3 col-lg-2 py-3 py-md-0">
+          <div key={index} className={`col col-md-3 col-lg-2 pt-3 pb-3 py-md-0 ${Style.brandItem}`}>
             <div className={Style.ratingContent}>
               <div className={Style.imgContainer}>
                 <Image

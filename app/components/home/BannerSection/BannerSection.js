@@ -65,25 +65,47 @@ export default function BannerSection() {
     //   </div>
     // </section>
 
-    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src="images/homepage/Ai-Solution-Banner.webp" className="d-block w-100" alt="..." />
-        </div>
-        <div className="carousel-item">
-          <img src="images/homepage/Data-Management-Banner.webp" className="d-block w-100" alt="..." />
-        </div>
-      </div>
+    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
+      <div className="carousel-inner carouselFixed">
+        <div className="carousel-item active h-100">
+          <img src="images/homepage/banner/Ai-Banner-Demo-1.webp" className="d-block w-100 bannerImg" alt="..." />
+          <div className="carouselOverlay"></div>
+          <div className="carouselCaptionCustom">
+            <div className="container h-100 d-flex align-items-center">
+              <div className="carouselContent">
+                <h1 className="carouselHeading">Transform Ideas into Ai Solutions</h1>
+                <p className="carouselDesc">Hire AI Experts for Agents AI & Intelligent Agent Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="carousel-item h-100">
+          <img src="images/homepage/banner/Data-Banner-Demo-1.webp" className="d-block w-100 bannerImg" alt="..." />
+          <div className="carouselOverlay"></div>
+          <div className="carouselCaptionCustom">
+            <div className="container h-100 d-flex align-items-center">
+              <div className="carouselContent">
+                <h1 className="carouselHeading">Data Mangement solution</h1>
+                <p className="carouselDesc">transforming data into organized, secure and actionable insights to drive better business decisions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <div className="carouselArrowCircle">
+          <span className="carousel-control-prev-icon carouselArrowIcon" aria-hidden="true"></span>
+        </div>
         <span className="visually-hidden">Previous</span>
       </button>
       <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <div className="carouselArrowCircle">
+          <span className="carousel-control-next-icon carouselArrowIcon" aria-hidden="true"></span>
+        </div>
         <span className="visually-hidden">Next</span>
       </button>
     </div>

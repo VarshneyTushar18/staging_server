@@ -84,25 +84,48 @@
 
 @media (max-width: 767px) {
     .BrandBox {
-        padding-block: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         gap: 0px;
+    }
+
+    .brandItem {
+        padding: 0 2px !important;
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 
     .imgContainer {
         width: 100% !important;
         margin: 0 auto 4px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .imgContainer img {
-        width: 113px;
-        height: 38px;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 60px !important;
+        object-fit: contain;
     }
 
-    .reviewNum  {
-        font-size: 14px !important;
+    .reviewNum {
+        font-size: 10px !important;
+        padding: 0 2px;
+    }
+
+    .subStarContainer {
+        gap: 1px;
     }
 
     .subStarContainer svg {
-        font-size: 9px!important;
+        font-size: 7px !important;
+        padding: 1px;
+    }
+
+    .reviewCounter p {
+        font-size: 9px !important;
+        margin: 2px 0px;
     }
 }
