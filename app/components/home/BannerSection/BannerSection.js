@@ -77,7 +77,7 @@ export default function BannerSection() {
           <div className="carouselCaptionCustom">
             <div className="container h-100 d-flex align-items-center">
               <div className="carouselContent">
-                <h1 className="carouselHeading">Transform Ideas into Ai Solutions</h1>
+                <h1 className="carouselHeading">Transform Ideas Into AI Solutions</h1>
                 <p className="carouselDesc">Hire AI Experts for Agents AI & Intelligent Agent Development</p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function BannerSection() {
           <div className="carouselCaptionCustom">
             <div className="container h-100 d-flex align-items-center">
               <div className="carouselContent">
-                <h1 className="carouselHeading">Data Mangement solution</h1>
+                <h1 className="carouselHeading">Data Mangement Solution</h1>
                 <p className="carouselDesc">transforming data into organized, secure and actionable insights to drive better business decisions</p>
               </div>
             </div>

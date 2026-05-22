@@ -58,7 +58,12 @@
 }
 
 .carouselContent {
-  width: 50%;
+  width: 40%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
 }
 
 @media (max-width: 1400px) {
