@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Style from "./BannerSection.module.css";
 import "./custom.css";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function BannerSection() {
   return (
@@ -79,6 +80,9 @@ export default function BannerSection() {
               <div className="carouselContent">
                 <h1 className="carouselHeading">Transform Ideas Into AI Solutions</h1>
                 <p className="carouselDesc">Hire AI Experts for Agents AI & Intelligent Agent Development</p>
+                <div className="btnblock">
+                  <Link href="https://www.tech2globe.ai" className="button-red mt-2 mx-0" target="_blank">Talk to an AI Expert <FaArrowRight /></Link>
+                </div>
               </div>
             </div>
           </div>
