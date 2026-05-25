@@ -88,18 +88,6 @@ export default function BannerSection() {
             </div>
           </div>
         </div>
-        <div className="carousel-item h-100">
-          <img src="images/homepage/banner/Data-Banner-Demo-1.webp" className="d-block w-100 bannerImg" alt="..." />
-          <div className="carouselOverlay"></div>
-          <div className="carouselCaptionCustom">
-            <div className="container h-100 d-flex align-items-center">
-              <div className="carouselContent">
-                <h1 className="carouselHeading">Data Mangement Solution</h1>
-                <p className="carouselDesc">transforming data into organized, secure and actionable insights to drive better business decisions</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="carousel-item h-100 ecomm">
           <img src="images/homepage/banner/Ecommerce-Banner.webp" className="d-block w-100 bannerImg" alt="..." />
@@ -113,6 +101,21 @@ export default function BannerSection() {
             </div>
           </div>
         </div>
+
+        <div className="carousel-item h-100">
+          <img src="images/homepage/banner/Data-Banner-Demo-1.webp" className="d-block w-100 bannerImg" alt="..." />
+          <div className="carouselOverlay"></div>
+          <div className="carouselCaptionCustom">
+            <div className="container h-100 d-flex align-items-center">
+              <div className="carouselContent">
+                <h1 className="carouselHeading">Data Mangement Solution</h1>
+                <p className="carouselDesc">transforming data into organized, secure and actionable insights to drive better business decisions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
         <div className="carouselArrowCircle">

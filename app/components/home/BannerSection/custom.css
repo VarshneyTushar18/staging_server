@@ -8,11 +8,12 @@
 }
 
 .carouselFixed {
-  height: 580px;
+  height: 600px;
 }
 
 .bannerImg {
   height: 100%;
+  object-position: center;
   object-fit: cover;
 }
 
