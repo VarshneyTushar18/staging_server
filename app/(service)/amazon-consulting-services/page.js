@@ -8,40 +8,40 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import "./custom.css";
 
 export const metadata = {
-  title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
-  description:
-    "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
-  keywords: [
-    "amazon consulting services",
-    "amazon consulting service",
-    "amazon services consulting",
-    "amazon consultancy services",
-    "amazon seller consulting services in india",
-    "amazon consulting and services",
-    "best amazon consulting service providers",
-  ],
-  openGraph: {
-    title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
-    siteName: "Tech2Globe web Solutions LLP",
-    description:
-      "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
-    url: "https://stagenew.tech2globe.tech/amazon-consulting-services",
-    images: [
-      "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
     title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
     description:
-      "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
-    images: [
-      "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
+        "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+    keywords: [
+        "amazon consulting services",
+        "amazon consulting service",
+        "amazon services consulting",
+        "amazon consultancy services",
+        "amazon seller consulting services in india",
+        "amazon consulting and services",
+        "best amazon consulting service providers",
     ],
-  },
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-consulting-services",
-  },
+    openGraph: {
+        title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
+        siteName: "Tech2Globe web Solutions LLP",
+        description:
+            "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+        url: "https://stagenew.tech2globe.tech/amazon-consulting-services",
+        images: [
+            "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
+        description:
+            "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+        images: [
+            "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
+        ],
+    },
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-consulting-services",
+    },
 };
 
 const pageHeaderData = {
@@ -172,7 +172,7 @@ export default function AmazonConsulting() {
     return (
         <>
             <div className="">
-                <img src="/images/homepage/Amazon-services-banner.webp" alt="AMAZON PPC CONSULTING" className="img-fluid" />
+                <img src="/images/services/service-inner/Amazon-consult-banner.png" alt="AMAZON PPC CONSULTING" className="img-fluid" />
             </div>
             <Breadcrumb pageName="Amazon Consulting Services" />
             <BrandSection />
