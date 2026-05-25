@@ -58,7 +58,19 @@
 }
 
 .carouselContent {
-  width: 40%;
+  width: 45%;
+}
+
+.carouselContent h1 {
+  width: 90%;
+}
+
+.carouselContent p {
+  width: 90%;
+}
+
+.carouselContent .ecomm h1 {
+  width: 100%;
 }
 
 .carousel-control-next,
