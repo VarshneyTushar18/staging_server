@@ -12,9 +12,9 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ShopifySlider from "@/app/components/services/shopifypageslider/shopifypageslider";
 
 export const metadata = {
-    title: "Best Shopify Website Development Company in USA - Tech2Globe",
+    title: "Shopify Development Company | AI-Ready Stores Built for Performance & Scale",
     description:
-        "Shopify Development Company: Hire the best Shopify web development company in USA. Elevate your brand with Shopify development services for your online success.",
+        "Build a high-performance Shopify store with Tech2Globe, a leading AI-ready Shopify development company in the USA. We design conversion-optimized, scalable Shopify stores integrated with smart automation tools for long-term ecommerce success.",
     keywords: [
         "shopify development company",
         "shopify app development company",
@@ -27,17 +27,17 @@ export const metadata = {
         "best shopify development companies"
     ],
     openGraph: {
-        title: "Best Shopify Website Development Company in USA - Tech2Globe",
+        title: "Shopify Development Company | AI-Ready Stores Built for Performance & Scale",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Shopify Development Company: Hire the best Shopify web development company in USA. Elevate your brand with Shopify development services for your online success.",
+            "Build a high-performance Shopify store with Tech2Globe, a leading AI-ready Shopify development company in the USA. We design conversion-optimized, scalable Shopify stores integrated with smart automation tools for long-term ecommerce success.",
         url: "https://stagenew.tech2globe.tech/shopify-development-company"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Best Shopify Website Development Company in USA - Tech2Globe",
+        title: "Shopify Development Company | AI-Ready Stores Built for Performance & Scale",
         description:
-            "Shopify Development Company: Hire the best Shopify web development company in USA. Elevate your brand with Shopify development services for your online success."
+            "Build a high-performance Shopify store with Tech2Globe, a leading AI-ready Shopify development company in the USA. We design conversion-optimized, scalable Shopify stores integrated with smart automation tools for long-term ecommerce success."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/shopify-development-company"

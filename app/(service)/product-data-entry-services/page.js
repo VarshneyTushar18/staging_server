@@ -12,9 +12,9 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 
 export const metadata = {
-  title: "Outsource Ecommerce Product Data Entry Solutions Services",
+  title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
   description:
-    "Simplify product management using the best outsource ecommerce product data entry solutions services to handle high-volume data entry with an efficient process.",
+    "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms.",
   keywords: [
     "Product Data Entry Process",
     "Product Data Entry Solutions",
@@ -25,17 +25,17 @@ export const metadata = {
     "Data Entry Services"
   ],
   openGraph: {
-    title: "Outsource Ecommerce Product Data Entry Solutions Services",
+    title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
     siteName: "Tech2Globe web Solutions LLP",
     description:
-      "Simplify product management using the best outsource ecommerce product data entry solutions services to handle high-volume data entry with an efficient process.",
+      "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms.",
     url: "https://stagenew.tech2globe.tech/product-data-entry-services"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Outsource Ecommerce Product Data Entry Solutions Services",
+    title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
     description:
-      "Simplify product management using the best outsource ecommerce product data entry solutions services to handle high-volume data entry with an efficient process."
+      "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms."
   },
   alternates: {
     canonical: "https://stagenew.tech2globe.tech/product-data-entry-services"

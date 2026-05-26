@@ -14,9 +14,9 @@ import "./custom.css";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Amazon Marketing Services | PPC, SEO & Storefront Consulting",
+    title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
     description:
-        "Amazon Marketing Services to grow your sales. Tech2Globe provides PPC ads, SEO, product listing optimization, and storefront design for global sellers.",
+        "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
     keywords: [
         "Amazon marketing services",
         "Amazon marketing",
@@ -29,117 +29,117 @@ export const metadata = {
         "amazon marketing services consultant",
     ],
     openGraph: {
-        title: "Amazon Marketing Services | PPC, SEO & Storefront Consulting",
+        title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Amazon Marketing Services to grow your sales. Tech2Globe provides PPC ads, SEO, product listing optimization, and storefront design for global sellers.",
+            "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
         url: "https://stagenew.tech2globe.tech/amazon-marketing-services",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Amazon Marketing Services | PPC, SEO & Storefront Consulting",
+        title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
         description:
-            "Amazon Marketing Services to grow your sales. Tech2Globe provides PPC ads, SEO, product listing optimization, and storefront design for global sellers.",
+            "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/amazon-marketing-services",
     },
 };
 
-  const schemaData = {
+const schemaData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How does AMS work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "AMS allows sellers to create and run sponsored product ads, sponsored brand ads, and product display ads on Amazon. Sellers can target their ads to keywords, products, or categories and pay only when someone clicks."
+        {
+            "@type": "Question",
+            "name": "How does AMS work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "AMS allows sellers to create and run sponsored product ads, sponsored brand ads, and product display ads on Amazon. Sellers can target their ads to keywords, products, or categories and pay only when someone clicks."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I set a budget for my AMS ads?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "Yes. Sellers can set a daily or lifetime budget to control ad spend."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I track the performance of my AMS ads?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "The AMS dashboard shows impressions, clicks, conversions, and lets sellers optimize campaigns."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I target my AMS ads to specific regions or countries?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. AMS ads can be targeted to specific regions or countries."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is AMS only available to professional sellers?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. AMS is available to both individual and professional sellers."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the difference between AMS and Amazon Advertising?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "Amazon Advertising is the umbrella for all Amazon ad services, including AMS, Amazon DSP, and more."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I get started with AMS?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "You need an active seller account and a product detail page. Then you can build ads using the AMS ad builder."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What pricing model is used for AMS?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "AMS uses a pay-per-click model. You pay only when a shopper clicks your ad."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I cancel my contract at any time?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "Cancellation terms depend on the agreement you sign. Always review your contract carefully."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can you manage campaigns for all Amazon categories?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text":
+                    "Yes. Even categories with special rules can be managed by our team."
+            }
         }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I set a budget for my AMS ads?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "Yes. Sellers can set a daily or lifetime budget to control ad spend."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I track the performance of my AMS ads?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "The AMS dashboard shows impressions, clicks, conversions, and lets sellers optimize campaigns."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I target my AMS ads to specific regions or countries?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. AMS ads can be targeted to specific regions or countries."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is AMS only available to professional sellers?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. AMS is available to both individual and professional sellers."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between AMS and Amazon Advertising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "Amazon Advertising is the umbrella for all Amazon ad services, including AMS, Amazon DSP, and more."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I get started with AMS?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "You need an active seller account and a product detail page. Then you can build ads using the AMS ad builder."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What pricing model is used for AMS?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "AMS uses a pay-per-click model. You pay only when a shopper clicks your ad."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I cancel my contract at any time?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "Cancellation terms depend on the agreement you sign. Always review your contract carefully."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can you manage campaigns for all Amazon categories?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":
-            "Yes. Even categories with special rules can be managed by our team."
-        }
-      }
     ]
-  };
+};
 
 const pageHeaderData = {
     title: "Accelerate Your Brand Growth With The #1 Amazon Marketing Services",
@@ -968,7 +968,7 @@ export default function AmazonMarketing() {
             </div>
 
             <div className="StoreCreationTabs">
-                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'}/>
+                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
 
             <div className="pt-5 pb-5">

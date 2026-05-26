@@ -10,31 +10,31 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 
 export const metadata = {
-  title: "Amazon Store Creation Services | Storefront Design & Setup Experts",
-  description:
-    "Amazon Store Creation services for brand growth. Tech2Globe builds custom Amazon storefronts, A+ content, and optimized designs to boost visibility and sales.",
-  keywords: [
-    "Amazon store creation",
-    "Amazon storefront design services",
-    "Amazon brand store creation",
-    "amazon store front service"
-  ],
-  openGraph: {
-    title: "Amazon Store Creation Services | Storefront Design & Setup Experts",
-    siteName: "Tech2Globe web Solutions LLP",
+    title: "Amazon Store Creation Services | AI-Enhanced Storefront Design & Brand Setup",
     description:
-      "Amazon Store Creation services for brand growth. Tech2Globe builds custom Amazon storefronts, A+ content, and optimized designs to boost visibility and sales.",
-    url: "https://stagenew.tech2globe.tech/store-creation"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Amazon Store Creation Services | Storefront Design & Setup Experts",
-    description:
-      "Amazon Store Creation services for brand growth. Tech2Globe builds custom Amazon storefronts, A+ content, and optimized designs to boost visibility and sales."
-  },
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/store-creation"
-  }
+        "Launch a high-converting Amazon storefront with Tech2Globe's AI-enhanced store creation services. We design branded, data-informed storefronts that attract shoppers, communicate trust, and turn browsers into buyers.",
+    keywords: [
+        "Amazon store creation",
+        "Amazon storefront design services",
+        "Amazon brand store creation",
+        "amazon store front service"
+    ],
+    openGraph: {
+        title: "Amazon Store Creation Services | AI-Enhanced Storefront Design & Brand Setup",
+        siteName: "Tech2Globe web Solutions LLP",
+        description:
+            "Launch a high-converting Amazon storefront with Tech2Globe's AI-enhanced store creation services. We design branded, data-informed storefronts that attract shoppers, communicate trust, and turn browsers into buyers.",
+        url: "https://stagenew.tech2globe.tech/store-creation"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Amazon Store Creation Services | AI-Enhanced Storefront Design & Brand Setup",
+        description:
+            "Launch a high-converting Amazon storefront with Tech2Globe's AI-enhanced store creation services. We design branded, data-informed storefronts that attract shoppers, communicate trust, and turn browsers into buyers."
+    },
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/store-creation"
+    }
 };
 
 const pageHeaderData = {

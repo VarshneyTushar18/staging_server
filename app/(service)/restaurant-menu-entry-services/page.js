@@ -11,9 +11,9 @@ import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownlo
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Restaurant Menu Data Entry Services.",
+    title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
     description:
-        "Tech2Globe delivers restaurant menu data entry services and menu digitization service to streamline operations and improve menu accessibility for customers.",
+        "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience.",
     keywords: [
         "Outsource restaurant menu entry services",
         "Data entry for restaurant menu",
@@ -27,17 +27,17 @@ export const metadata = {
         "data entry"
     ],
     openGraph: {
-        title: "Restaurant Menu Data Entry Services.",
+        title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Tech2Globe delivers restaurant menu data entry services and menu digitization service to streamline operations and improve menu accessibility for customers.",
+            "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience.",
         url: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Restaurant Menu Data Entry Services.",
+        title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
         description:
-            "Tech2Globe delivers restaurant menu data entry services and menu digitization service to streamline operations and improve menu accessibility for customers."
+            "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"

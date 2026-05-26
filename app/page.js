@@ -19,16 +19,16 @@ import ClientSection from "./components/home/ClientSection/ClientSection";
 import Header from "./ui/Header/Header";
 
 export const metadata = {
-  title: "Tech2Globe: Online Marketing | Ecommerce & IT Consulting | BPO/KPO",
+  title: "Tech2Globe: AI-Powered Ecommerce, IT Consulting & Digital Marketing Services",
   description:
-    "Tech2Globe is the all-in-one platform for your business 360 degree digital needs, including IT consulting, software development, ecommerce, digital marketing, data analytics, and much more. Connect with us now to expand your business.",
+    "Tech2Globe delivers AI-powered solutions for ecommerce growth, IT consulting, BPO/KPO, data analytics, and digital marketing. Partner with us to automate, scale, and future-proof your business with intelligent technology.",
   keywords:
     "Software Development Company India, enterprise portal development, content management system, data management services, data processing services, catalog management services, complete marketplace management service, data entry services, data mining services, data conversion services, Indexing Services, data analytics services, photo editing services, Post Processing of Real Estate Images and photos, photo manipulation services, Image Clipping Services, Photo Enhancement Services, ecommerce solutions, oscommerce ecommerce, SEO Services and Packages. Nopcommerce and magento website development.",
 
   openGraph: {
-    title: "Tech2Globe: Online Marketing | Ecommerce & IT Consulting | BPO/KPO",
+    title: "Tech2Globe: AI-Powered Ecommerce, IT Consulting & Digital Marketing Services",
     description:
-      "Tech2Globe is Web Portal & Software Development Company that helps to drive top-line revenue growth for their clients. We also offer data management, eCommerce, IT Consulting, online marketing & more.",
+      "Tech2Globe delivers AI-powered solutions for ecommerce growth, IT consulting, BPO/KPO, data analytics, and digital marketing. Partner with us to automate, scale, and future-proof your business with intelligent technology.",
     url: "https://stagenew.tech2globe.tech/",
     siteName: "Tech2Globe web Solutions LLP",
     images: [
@@ -43,9 +43,9 @@ export const metadata = {
 
   twitter: {
     card: "summary",
-    title: "Tech2Globe: Online Marketing | Ecommerce & IT Consulting | BPO/KPO",
+    title: "Tech2Globe: AI-Powered Ecommerce, IT Consulting & Digital Marketing Services",
     description:
-      "Tech2Globe is the all-in-one platform for your business 360 degree digital needs, including IT consulting, software development, ecommerce, digital marketing, data analytics, and much more. Connect with us now to expand your business.",
+      "Tech2Globe delivers AI-powered solutions for ecommerce growth, IT consulting, BPO/KPO, data analytics, and digital marketing. Partner with us to automate, scale, and future-proof your business with intelligent technology.",
     images: ["https://stagenew.tech2globe.tech/images/tech2globe.jpg"],
   },
 

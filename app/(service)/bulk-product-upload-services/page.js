@@ -10,24 +10,24 @@ import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbul
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Efficient Ecommerce Bulk Product Upload Services - Tech2Globe",
+    title: "Bulk Product Upload Services | AI-Accelerated Ecommerce Catalogue Management",
     description:
-        "Struggling with product uploads? Tech2Globe's ecommerce bulk product upload services solve overload, delivering fast, accurate and hassle-free catalog management.",
+        "Upload thousands of products faster and error-free with Tech2Globe's AI-accelerated bulk upload services. We use intelligent data mapping and automated validation to ensure your ecommerce catalogue is accurate, complete, and live quickly.",
     keywords: [
         "Bulk Product Upload Services",
         "Ecommerce Product Upload"
     ],
     openGraph: {
-        title: "Efficient Ecommerce Bulk Product Upload Services - Tech2Globe",
+        title: "Bulk Product Upload Services | AI-Accelerated Ecommerce Catalogue Management",
         description:
-            "Struggling with product uploads? Tech2Globe's ecommerce bulk product upload services solve overload, delivering fast, accurate and hassle-free catalog management.",
+            "Upload thousands of products faster and error-free with Tech2Globe's AI-accelerated bulk upload services. We use intelligent data mapping and automated validation to ensure your ecommerce catalogue is accurate, complete, and live quickly.",
         url: "https://stagenew.tech2globe.tech/bulk-product-upload-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Efficient Ecommerce Bulk Product Upload Services - Tech2Globe",
+        title: "Bulk Product Upload Services | AI-Accelerated Ecommerce Catalogue Management",
         description:
-            "Struggling with product uploads? Tech2Globe's ecommerce bulk product upload services solve overload, delivering fast, accurate and hassle-free catalog management."
+            "Upload thousands of products faster and error-free with Tech2Globe's AI-accelerated bulk upload services. We use intelligent data mapping and automated validation to ensure your ecommerce catalogue is accurate, complete, and live quickly."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/bulk-product-upload-services"
@@ -51,7 +51,7 @@ const resources = [
     { id: 5, name: "Data Product Entry", path: "/product-data-entry-services" },
 ];
 
-const usefulLinks = [ 
+const usefulLinks = [
     { id: 6, name: "Food Industries", path: "/food-industries-services" },
     { id: 7, name: "Non-profit Organization", path: "/non-profit-organizations-services" },
     { id: 8, name: "Medical And Health", path: "/medical-and-health-services" },

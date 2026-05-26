@@ -9,25 +9,25 @@ import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbul
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-  title: "Best Tiktok Shop Management Agency",
-  description:
-    "Tech2Globe is the best TikTok shop management agency, helping brands optimize listings, drive sales, and grow their presence on TikTok Shop effectively.",
-  openGraph: {
-    title: "Best Tiktok Shop Management Agency",
-    siteName: "Tech2Globe web Solutions LLP",
+    title: "TikTok Shop Management Agency | AI-Driven Listings, Ads & Sales Growth",
     description:
-      "Tech2Globe is the best TikTok shop management agency, helping brands optimize listings, drive sales, and grow their presence on TikTok Shop effectively.",
-    url: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
-  },
-  twitter: {
-    card: "Best Walmart Advertising Agency | Walmart PPC Service",
-    title: "Best Tiktok Shop Management Agency",
-    description:
-      "Tech2Globe is the best TikTok shop management agency, helping brands optimize listings, drive sales, and grow their presence on TikTok Shop effectively."
-  },
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
-  }
+        "Scale your TikTok Shop with Tech2Globe's AI-driven management services. We optimize your product listings, run data-backed ad campaigns, and use intelligent trend analysis to grow your brand's visibility and sales on TikTok Shop.",
+    openGraph: {
+        title: "TikTok Shop Management Agency | AI-Driven Listings, Ads & Sales Growth",
+        siteName: "Tech2Globe web Solutions LLP",
+        description:
+            "Scale your TikTok Shop with Tech2Globe's AI-driven management services. We optimize your product listings, run data-backed ad campaigns, and use intelligent trend analysis to grow your brand's visibility and sales on TikTok Shop.",
+        url: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
+    },
+    twitter: {
+        card: "TikTok Shop Management Agency | AI-Driven Listings, Ads & Sales Growth",
+        title: "TikTok Shop Management Agency | AI-Driven Listings, Ads & Sales Growth",
+        description:
+            "Scale your TikTok Shop with Tech2Globe's AI-driven management services. We optimize your product listings, run data-backed ad campaigns, and use intelligent trend analysis to grow your brand's visibility and sales on TikTok Shop."
+    },
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/tiktok-shop-management-services"
+    }
 };
 
 const pageHeaderData = {
@@ -111,14 +111,14 @@ export default function DataAnalytics() {
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h4><Image src="/images/services/service-inner/question.png" alt="" width={30} height={30} className={Style.ImgIco}/> Why TikTok Became the Next Great Ecommerce Opportunity</h4>
+                                <h4><Image src="/images/services/service-inner/question.png" alt="" width={30} height={30} className={Style.ImgIco} /> Why TikTok Became the Next Great Ecommerce Opportunity</h4>
                                 <p>TikTok is not a platform of trends and dances anymore, it is one of the most effective means of discovering a product and directly purchasing it. More than a billion users scroll TikTok every day, and approximately half of this number actively engage with brands and products.</p>
                                 <p>However, the trick is that the TikTok ecosystem is dynamic and intricate. Unless your store, content, and ads are optimized every day, you are leaving sales on the table.</p>
                                 <p>Our business is to assure you that you never pass on such opportunities.</p>
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h4><Image src="/images/services/service-inner/store-icon-new.png" alt="" width={30} height={30} className={Style.ImgIco}/> All-In-One TikTok Store Management-Done on Your Behalf</h4>
+                                <h4><Image src="/images/services/service-inner/store-icon-new.png" alt="" width={30} height={30} className={Style.ImgIco} /> All-In-One TikTok Store Management-Done on Your Behalf</h4>
                                 <p>We make it easy: Do all of it, so that you do not. Whether you are opening a new TikTok Shop or trying to grow an old one, we design our services according to your brand requirements and the field it is launched in.</p>
                                 <p>We take care of everything, all under the same roof, including the process of creating your store, uploading optimized product listings, making native video content, TikTok ads management, etc. No guesswork. Simply a small team that continues to develop and nurture your presence on TikTok via reliable techniques and measuring performance.</p>
                             </div>
@@ -244,16 +244,16 @@ export default function DataAnalytics() {
                                 </div>
 
                             </div>
- 
+
                             <div className={Style.ContentDiv}>
-                                <h4 className="pt-3"><Image src="/images/services/service-inner/services-icon.png" alt="" width={30} height={30} className={Style.ImgIco}/> TikTok Growth Services We Offer</h4>
+                                <h4 className="pt-3"><Image src="/images/services/service-inner/services-icon.png" alt="" width={30} height={30} className={Style.ImgIco} /> TikTok Growth Services We Offer</h4>
                                 <p className="pb-3">Whether you&apos;re starting from scratch or need help scaling, Tech2Globe offers everything you need under one roof:</p>
                                 <div className="row pb-3">
 
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/retailer.png" alt="TikTok Shop Management" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/retailer.png" alt="TikTok Shop Management" width={40} height={40} />
                                             </div>
                                             <h3>TikTok Shop Management</h3>
                                             <p>End-to-end handling of your store, listings, compliance, and updates</p>
@@ -262,7 +262,7 @@ export default function DataAnalytics() {
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/feature.png" alt="TikTok Product Listings" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/feature.png" alt="TikTok Product Listings" width={40} height={40} />
                                             </div>
                                             <h3>TikTok Product Listings</h3>
                                             <p>Keyword-rich, engaging titles and descriptions that rank and convert.</p>
@@ -271,7 +271,7 @@ export default function DataAnalytics() {
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/ads.png" alt="TikTok Ads Management" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/ads.png" alt="TikTok Ads Management" width={40} height={40} />
                                             </div>
                                             <h3>TikTok Ads Management</h3>
                                             <p>Full ad funnel builds with ongoing A/B testing and creative refreshes.</p>
@@ -281,7 +281,7 @@ export default function DataAnalytics() {
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/content-management.png" alt="TikTok Content Optimization" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/content-management.png" alt="TikTok Content Optimization" width={40} height={40} />
                                             </div>
                                             <h3>TikTok Content Optimization</h3>
                                             <p>Creative scripting, native-style editing, trend alignment, and sound selection.</p>
@@ -290,7 +290,7 @@ export default function DataAnalytics() {
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/influencer.png" alt="Influencer Campaigns" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/influencer.png" alt="Influencer Campaigns" width={40} height={40} />
                                             </div>
                                             <h3>Influencer Campaigns</h3>
                                             <p>Creator matchmaking and campaign execution to drive brand trust.</p>
@@ -299,7 +299,7 @@ export default function DataAnalytics() {
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
                                         <div className={Style.IconCard}>
                                             <div className={Style.Ico}>
-                                                <Image src="/images/services/service-inner/cross-selling.png" alt="Live Selling Support" width={40} height={40}/>
+                                                <Image src="/images/services/service-inner/cross-selling.png" alt="Live Selling Support" width={40} height={40} />
                                             </div>
                                             <h3>Live Selling Support</h3>
                                             <p>Production, hosting strategy, and on-stream performance enhancement.</p>
@@ -310,7 +310,7 @@ export default function DataAnalytics() {
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h4 className="pt-3"><Image src="/images/services/service-inner/growth-icon.png" alt="" width={30} height={30} className={Style.ImgIco}/> Ready to Grow Your TikTok Sales?</h4>
+                                <h4 className="pt-3"><Image src="/images/services/service-inner/growth-icon.png" alt="" width={30} height={30} className={Style.ImgIco} /> Ready to Grow Your TikTok Sales?</h4>
                                 <p>Whether you&apos;re struggling to get started or looking to scale your store to six figures and beyond, Tech2Globe is your growth partner for everything TikTok commerce.</p>
                                 <p>We combine creative, strategic, and technical expertise into one seamless solution that drives real results.</p>
                             </div>

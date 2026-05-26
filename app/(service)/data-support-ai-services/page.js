@@ -10,9 +10,9 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 
 export const metadata = {
-  title: "AI-Based Data Support Services",
+  title: "AI-Based Data Support Services | Intelligent Data Processing & Management",
   description:
-    "With Tech2Globe's AI-based Data Support Services, companies gain smarter data handling, predictive analytics, and automation to accelerate success.",
+    "Tech2Globe's AI-based data support services combine artificial intelligence with expert human oversight to deliver intelligent data processing, annotation, validation, and management — built for businesses that run on clean, reliable data.",
   keywords: [
     "AI-Based Data Support Services",
     "AI Data Management",
@@ -22,17 +22,17 @@ export const metadata = {
     "AI Data Entry Support"
   ],
   openGraph: {
-    title: "AI-Based Data Support Services",
+    title: "AI-Based Data Support Services | Intelligent Data Processing & Management",
     siteName: "Tech2Globe Web Solutions LLP",
     description:
-      "With Tech2Globe's AI-based Data Support Services, companies gain smarter data handling, predictive analytics, and automation to accelerate success.",
+      "Tech2Globe's AI-based data support services combine artificial intelligence with expert human oversight to deliver intelligent data processing, annotation, validation, and management — built for businesses that run on clean, reliable data.",
     url: "https://stagenew.tech2globe.tech/data-support-ai-services"
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI-Based Data Support Services",
+    title: "AI-Based Data Support Services | Intelligent Data Processing & Management",
     description:
-      "With Tech2Globe's AI-based Data Support Services, companies gain smarter data handling, predictive analytics, and automation to accelerate success."
+      "Tech2Globe's AI-based data support services combine artificial intelligence with expert human oversight to deliver intelligent data processing, annotation, validation, and management — built for businesses that run on clean, reliable data."
   },
   alternates: {
     canonical: "https://stagenew.tech2globe.tech/data-support-ai-services"

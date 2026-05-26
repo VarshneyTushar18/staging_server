@@ -11,9 +11,9 @@ import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbul
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Data analytics services | Big Data Services Providers | Tech2Globe",
+    title: "Data Analytics Services | AI-Driven Big Data Insights & Business Intelligence",
     description:
-        "By Outsourcing Business Data Analytics Services with Tech2Globe you can beat all these difficulties at a reasonable cost & make a strong foundation for development.",
+        "Turn raw data into revenue with Tech2Globe's AI-driven data analytics services. We apply machine learning models and advanced BI tools to help businesses uncover trends, predict outcomes, and make data-informed decisions with confidence.",
     keywords: [
         "Data analytic services provider",
         "Data analytics experts",
@@ -21,17 +21,17 @@ export const metadata = {
         "Big data analytics solutions"
     ],
     openGraph: {
-        title: "Data analytics services | Big Data Services Providers | Tech2Globe",
+        title: "Data Analytics Services | AI-Driven Big Data Insights & Business Intelligence",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "By Outsourcing Business Data Analytics Services with Tech2Globe you can beat all these difficulties at a reasonable cost & make a strong foundation for development.",
+            "Turn raw data into revenue with Tech2Globe's AI-driven data analytics services. We apply machine learning models and advanced BI tools to help businesses uncover trends, predict outcomes, and make data-informed decisions with confidence.",
         url: "https://stagenew.tech2globe.tech/data-analytics-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Data Analytic Services Provider | Data Analytics Experts | Tech2Globe",
+        title: "Data Analytics Services | AI-Driven Big Data Insights & Business Intelligence",
         description:
-            "By Outsourcing Business Data Analytics Services with Tech2Globe you can beat all these difficulties at a reasonable cost & make a strong foundation for development."
+            "Turn raw data into revenue with Tech2Globe's AI-driven data analytics services. We apply machine learning models and advanced BI tools to help businesses uncover trends, predict outcomes, and make data-informed decisions with confidence."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/data-analytics-services"
@@ -55,7 +55,7 @@ const resources = [
     { id: 5, name: "Data Product Entry", path: "/product-data-entry-services" },
 ];
 
-const usefulLinks = [ 
+const usefulLinks = [
     { id: 6, name: "Food Industries", path: "/food-industries-services" },
     { id: 7, name: "Non-profit Organization", path: "/non-profit-organizations-services" },
     { id: 8, name: "Medical And Health", path: "/medical-and-health-services" },
