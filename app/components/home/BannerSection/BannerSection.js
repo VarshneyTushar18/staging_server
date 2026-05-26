@@ -90,7 +90,7 @@ export default function BannerSection() {
         </div>
 
         <div className="carousel-item h-100 ecomm">
-          <img src="images/homepage/banner/a0bd5483-f6a3-49f1-a23e-8f6d60f7d3011.webp" className="d-block w-100 bannerImg" alt="..." />
+          <img src="images/homepage/banner/Ecommerce-Banner1.png" className="d-block w-100 bannerImg" alt="..." />
           <div className="carouselOverlay"></div>
           <div className="carouselCaptionCustom">
             <div className="container h-100 d-flex align-items-center">
