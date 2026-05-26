@@ -25,28 +25,28 @@ import CTASection from "@/app/components/ai-pages/cta/CTASection";
 
 
 export const metadata = {
-  title: "Generative AI Solutions",
+  title: "Generative AI Solutions for Business Growth & Automation",
   description:
-    "Unlock intelligent content creation and business automation with Generative AI Solutions. Expert developers delivering customized frameworks and scalable digital infrastructures.",
+    "Unlock the power of generative AI solutions for content creation, workflow automation, customer engagement, and smarter business decision-making.",
   keywords: "generative AI, content creation, business automation, AI solutions, digital transformation",
 
   openGraph: {
-    title: "Generative AI Solutions",
+    title: "Generative AI Solutions for Business Growth & Automation",
     description:
-      "Unlock intelligent content creation and business automation with Generative AI Solutions.",
-    url: "/service/generative-ai-solutions",
+      "Unlock the power of generative AI solutions for content creation, workflow automation, customer engagement, and smarter business decision-making.",
+    url: "https://stagenew.tech2globe.tech/generative-ai-solutions",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Generative AI Solutions",
+    title: "Generative AI Solutions for Business Growth & Automation",
     description:
-      "Unlock intelligent content creation and business automation with Generative AI Solutions.",
+      "Unlock the power of generative AI solutions for content creation, workflow automation, customer engagement, and smarter business decision-making.",
   },
 
   alternates: {
-    canonical: "/service/generative-ai-solutions",
+    canonical: "https://stagenew.tech2globe.tech/generative-ai-solutions",
   },
 };
 

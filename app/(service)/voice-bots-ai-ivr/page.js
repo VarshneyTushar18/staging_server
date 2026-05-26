@@ -24,28 +24,28 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "Voice Bots & AI IVR",
+  title: "AI Voice Bots & VR Solutions for Interactive Experiences",
   description:
-    "Transform customer engagement with voice bots and AI IVR solutions. Deliver seamless, interactive support with intelligent voice technologies.",
+    "Build AI voice bots and VR-powered solutions for automated conversations, immersive experiences, and next-generation customer engagement.",
   keywords: "voice bots, AI IVR, customer engagement, intelligent voice solutions",
 
   openGraph: {
-    title: "Voice Bots & AI IVR",
+    title: "AI Voice Bots & VR Solutions for Interactive Experiences",
     description:
-      "Transform customer engagement with voice bots and AI IVR solutions.",
-    url: "/service/voice-bots-ai-ivr",
+      "Build AI voice bots and VR-powered solutions for automated conversations, immersive experiences, and next-generation customer engagement.",
+    url: "https://stagenew.tech2globe.tech/voice-bots-ai-ivr",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Voice Bots & AI IVR",
+    title: "AI Voice Bots & VR Solutions for Interactive Experiences",
     description:
-      "Transform customer engagement with voice bots and AI IVR solutions.",
+      "Build AI voice bots and VR-powered solutions for automated conversations, immersive experiences, and next-generation customer engagement.",
   },
 
   alternates: {
-    canonical: "/service/voice-bots-ai-ivr",
+    canonical: "https://stagenew.tech2globe.tech/voice-bots-ai-ivr",
   },
 };
 
@@ -393,7 +393,7 @@ export default function VoiceBotsAiIvr() {
             <div class="p-4 bg-info-subtle shadow-sm rounded h-100">
               <h5 class="fw-semibold">Voice Interaction Analytics</h5>
               <p class="text-muted mb-0">
-                 Track and analyze conversations to uncover trends, identify service gaps, and optimize voice support strategies.
+                Track and analyze conversations to uncover trends, identify service gaps, and optimize voice support strategies.
               </p>
             </div>
           </div>

@@ -24,28 +24,28 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "Prompt Engineering Services",
+  title: "Prompt Engineering Services for Advanced AI Models",
   description:
-    "Empower your business with advanced Prompt Engineering Services. Unlock the true potential of generative AI models with strategic, high-impact prompts.",
+    "Optimize AI performance with expert prompt engineering services designed for ChatGPT, LLMs, automation workflows, and AI-driven business applications.",
   keywords: "prompt engineering, AI optimization, generative AI, LLM prompts, AI services",
 
   openGraph: {
-    title: "Prompt Engineering Services",
+    title: "Prompt Engineering Services for Advanced AI Models",
     description:
-      "Empower your business with advanced Prompt Engineering Services. Unlock the true potential of generative AI models.",
+      "Optimize AI performance with expert prompt engineering services designed for ChatGPT, LLMs, automation workflows, and AI-driven business applications.",
     url: "/service/prompt-engineering-services",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Prompt Engineering Services",
+    title: "Prompt Engineering Services for Advanced AI Models",
     description:
-      "Unlock the true potential of generative AI with strategic Prompt Engineering Services.",
+      "Optimize AI performance with expert prompt engineering services designed for ChatGPT, LLMs, automation workflows, and AI-driven business applications.",
   },
 
   alternates: {
-    canonical: "/service/prompt-engineering-services",
+    canonical: "https://stagenew.tech2globe.tech/prompt-engineering-services",
   },
 };
 

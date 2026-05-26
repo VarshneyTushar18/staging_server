@@ -24,28 +24,28 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "Customer Support AI Chatbots",
+  title: "Customer Support AI Chatbots for 24/7 Assistance",
   description:
-    "Revolutionize Customer Service with AI Chatbots. Deliver Fast, Personalized Support at Scale.",
+    "Deploy AI-powered customer support chatbots to reduce response time, automate queries, and improve customer satisfaction across channels.",
   keywords: "customer support, AI chatbots, personalized support, scalable support",
 
   openGraph: {
-    title: "Customer Support AI Chatbots",
+    title: "Customer Support AI Chatbots for 24/7 Assistance",
     description:
-      "Revolutionize Customer Service with AI Chatbots.",
-    url: "/service/customer-support-ai-chatbots",
+      "Deploy AI-powered customer support chatbots to reduce response time, automate queries, and improve customer satisfaction across channels.",
+    url: "https://stagenew.tech2globe.tech/customer-support-ai-chatbots",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Customer Support AI Chatbots",
+    title: "Customer Support AI Chatbots for 24/7 Assistance",
     description:
-      "Revolutionize Customer Service with AI Chatbots.",
+      "Deploy AI-powered customer support chatbots to reduce response time, automate queries, and improve customer satisfaction across channels.",
   },
 
   alternates: {
-    canonical: "/service/customer-support-ai-chatbots",
+    canonical: "https://stagenew.tech2globe.tech/customer-support-ai-chatbots",
   },
 };
 
