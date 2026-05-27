@@ -25,24 +25,24 @@ import FutureSlider from "@/app/components/ai-pages/FutureSlider/FutureSlider";
 
 
 export const metadata = {
-    title: "AI for Ecommerce Services | Tech2Globe",
+    title: "AI for eCommerce Solutions to Boost Online Sales",
     description:
-        "Boost Your Ecommerce Business with Tailored Technological Solutions. Revolutionize Your Online Business with Customized Solutions.",
+        "Transform your online store with AI for eCommerce solutions including automation, recommendations, personalization, and smart analytics.",
     keywords: "AI for ecommerce, ecommerce AI solutions, AI ecommerce development, ecommerce automation, AI personalization",
 
     openGraph: {
-        title: "AI for Ecommerce Services | Tech2Globe",
+        title: "AI for eCommerce Solutions to Boost Online Sales",
         description:
-            "Boost Your Ecommerce Business with Tailored Technological Solutions. Revolutionize Your Online Business with Customized Solutions.",
+            "Transform your online store with AI for eCommerce solutions including automation, recommendations, personalization, and smart analytics.",
         url: "https://stagenew.tech2globe.tech/service/ai-for-ecommerce",
         siteName: "Tech2Globe",
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "AI for Ecommerce Services | Tech2Globe",
+        title: "AI for eCommerce Solutions to Boost Online Sales",
         description:
-            "Boost Your Ecommerce Business with Tailored Technological Solutions. Revolutionize Your Online Business with Customized Solutions.",
+            "Transform your online store with AI for eCommerce solutions including automation, recommendations, personalization, and smart analytics.",
     },
 
     alternates: {
@@ -515,7 +515,7 @@ export default function AiForEcommerce() {
                     </div>
                 </div>
 
-         
+
 
                 <div class="row pt-5 pb-5">
                     <div class="col-md-12">

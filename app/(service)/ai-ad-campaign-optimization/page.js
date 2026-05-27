@@ -22,24 +22,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "AI Ad Campaign Optimization Services | Tech2Globe",
+  title: "AI Ad Campaign Optimization for Higher ROI",
   description:
-    "Optimize your ad campaigns with AI-powered tools for better targeting, higher conversions, and maximum ROI. Tech2Globe's AI Ad Campaign Optimization services.",
+    "Maximize campaign performance with AI-powered ad optimization services for Google Ads, Meta Ads, and digital marketing campaigns.",
   keywords: "AI ad campaign optimization, AI-powered advertising, ad campaign automation, targeted advertising, conversion optimization",
 
   openGraph: {
-    title: "AI Ad Campaign Optimization Services | Tech2Globe",
+    title: "AI Ad Campaign Optimization for Higher ROI",
     description:
-      "Optimize your ad campaigns with AI-powered tools for better targeting, higher conversions, and maximum ROI. Tech2Globe's AI Ad Campaign Optimization services.",
+      "Maximize campaign performance with AI-powered ad optimization services for Google Ads, Meta Ads, and digital marketing campaigns.",
     url: "https://stagenew.tech2globe.tech/service/ai-ad-campaign-optimization",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Ad Campaign Optimization Services | Tech2Globe",
+    title: "AI Ad Campaign Optimization for Higher ROI",
     description:
-      "Optimize your ad campaigns with AI-powered tools for better targeting, higher conversions, and maximum ROI. Tech2Globe's AI Ad Campaign Optimization services.",
+      "Maximize campaign performance with AI-powered ad optimization services for Google Ads, Meta Ads, and digital marketing campaigns.",
   },
 
   alternates: {
@@ -344,7 +344,7 @@ export default function AiAdCampaignOptimization() {
 
         </div>
 
-        
+
 
 
         <div className="row align-items-center pt-5 pb-5">

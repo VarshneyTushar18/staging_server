@@ -24,24 +24,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "AI Product Recommendations",
+  title: "AI Product Recommendation Engine for eCommerce",
   description:
-    "Enhance customer engagement with AI-powered product recommendations. Deliver smart, personalized shopping experiences that boost conversions and satisfaction.",
+    "Increase conversions with AI-powered product recommendation solutions that deliver personalized shopping experiences and smarter upselling.",
   keywords: "AI product recommendations, personalized shopping, e-commerce AI, recommendation systems",
 
   openGraph: {
-    title: "AI Product Recommendations",
+    title: "AI Product Recommendation Engine for eCommerce",
     description:
-      "Enhance customer engagement with AI-powered product recommendations.",
+      "Increase conversions with AI-powered product recommendation solutions that deliver personalized shopping experiences and smarter upselling.",
     url: "/service/ai-product-recommendations",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Product Recommendations",
+    title: "AI Product Recommendation Engine for eCommerce",
     description:
-      "Enhance customer engagement with AI-powered product recommendations.",
+      "Increase conversions with AI-powered product recommendation solutions that deliver personalized shopping experiences and smarter upselling.",
   },
 
   alternates: {

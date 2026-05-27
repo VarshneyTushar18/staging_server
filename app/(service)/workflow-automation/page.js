@@ -23,24 +23,24 @@ import {
 
 
 export const metadata = {
-    title: "Workflow Automation",
+    title: "Workflow Automation Services with AI Integration",
     description:
-        "Streamline operations with workflow automation. Enhance efficiency, accuracy, and scalable business processes using AI and intelligent systems.",
+        "Simplify business processes with workflow automation services powered by AI, smart integrations, and intelligent task management.",
     keywords: "workflow automation, business process automation, RPA, AI workflow, operational efficiency",
 
     openGraph: {
-        title: "Workflow Automation",
+        title: "Workflow Automation Services with AI Integration",
         description:
-            "Streamline operations with workflow automation.",
+            "Simplify business processes with workflow automation services powered by AI, smart integrations, and intelligent task management.",
         url: "/service/workflow-automation",
         siteName: "Tech2Globe",
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "Workflow Automation",
+        title: "Workflow Automation Services with AI Integration",
         description:
-            "Streamline operations with workflow automation.",
+            "Simplify business processes with workflow automation services powered by AI, smart integrations, and intelligent task management.",
     },
 
     alternates: {
@@ -267,7 +267,7 @@ export default function WorkflowAutomation() {
                     <div className="col-md-12">
                         <h2>Why Businesses Rely on Workflow Automation</h2>
                         <p><strong> Enhance Productivity, Accuracy, and Operational Agility</strong><br />
-                             Workflow Automation helps organizations eliminate manual tasks, simplify complex processes, and implement intelligent systems that manage operations efficiently. By analyzing workflows, pinpointing bottlenecks, and monitoring performance in real time, businesses can accelerate operations, reduce errors, and free teams to focus on high-value activities.</p>
+                            Workflow Automation helps organizations eliminate manual tasks, simplify complex processes, and implement intelligent systems that manage operations efficiently. By analyzing workflows, pinpointing bottlenecks, and monitoring performance in real time, businesses can accelerate operations, reduce errors, and free teams to focus on high-value activities.</p>
                     </div>
                     <div className="row">
                         <div className="col-md-6 mb-3">

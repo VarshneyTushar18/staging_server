@@ -29,22 +29,22 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 import FutureSlider from "@/app/components/ai-pages/FutureSlider/FutureSlider";
 
 export const metadata = {
-  title: "Data & AI Automation | Tech2Globe",
+  title: "Data & AI Automation Services for Business Efficiency",
   description:
-    "Empower your business with Data & AI Automation solutions that streamline workflows, improve decision making, and unlock operational efficiency.",
+    "Streamline data processing and business workflows with AI automation services designed to improve operational efficiency and accuracy.",
   keywords: "Data AI Automation, AI automation solutions, predictive analytics, workflow automation, data integration",
   openGraph: {
-    title: "Data & AI Automation | Tech2Globe",
+    title: "Data & AI Automation Services for Business Efficiency",
     description:
-      "Revolutionize business operations with intelligent automation, data-driven workflows, and AI solutions built for efficiency.",
+      "Streamline data processing and business workflows with AI automation services designed to improve operational efficiency and accuracy.",
     url: "https://stagenew.tech2globe.tech/service/data-ai-automation",
     siteName: "Tech2Globe",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Data & AI Automation | Tech2Globe",
+    title: "Data & AI Automation Services for Business Efficiency",
     description:
-      "Transform operations with Data & AI Automation services designed to improve accuracy, speed, and business outcomes.",
+      "Streamline data processing and business workflows with AI automation services designed to improve operational efficiency and accuracy.",
   },
   alternates: {
     canonical: "https://stagenew.tech2globe.tech/service/data-ai-automation",

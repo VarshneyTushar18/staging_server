@@ -24,24 +24,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "AI Sales Forecasting",
+  title: "AI Sales Forecasting Solutions for Smarter Decisions",
   description:
-    "Drive Smarter Business Decisions with AI Sales Forecasting. Predict Demand, Optimize Revenue, and Improve Business Performance",
+    "Leverage AI sales forecasting tools to predict demand, optimize inventory, and improve business planning with data-driven insights.",
   keywords: "AI sales forecasting, demand prediction, revenue optimization, business intelligence",
 
   openGraph: {
-    title: "AI Sales Forecasting",
+    title: "AI Sales Forecasting Solutions for Smarter Decisions",
     description:
-      "Drive Smarter Business Decisions with AI Sales Forecasting.",
+      "Leverage AI sales forecasting tools to predict demand, optimize inventory, and improve business planning with data-driven insights.",
     url: "/service/ai-sales-forecasting",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Sales Forecasting",
+    title: "AI Sales Forecasting Solutions for Smarter Decisions",
     description:
-      "Drive Smarter Business Decisions with AI Sales Forecasting.",
+      "Leverage AI sales forecasting tools to predict demand, optimize inventory, and improve business planning with data-driven insights.",
   },
 
   alternates: {

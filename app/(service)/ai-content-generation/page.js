@@ -24,24 +24,24 @@ import FutureSlider from "@/app/components/ai-pages/FutureSlider/FutureSlider";
 
 
 export const metadata = {
-  title: "",
+  title: "AI Content Generation Services for Scalable Marketing",
   description:
-    "",
+    "Create high-quality blogs, ads, and marketing content faster with AI content generation services tailored for modern businesses.",
   keywords: "",
 
   openGraph: {
-    title: "",
+    title: "AI Content Generation Services for Scalable Marketing",
     description:
-      "",
+      "Create high-quality blogs, ads, and marketing content faster with AI content generation services tailored for modern businesses.",
     url: "",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "",
+    title: "AI Content Generation Services for Scalable Marketing",
     description:
-      "",
+      "Create high-quality blogs, ads, and marketing content faster with AI content generation services tailored for modern businesses.",
   },
 
   alternates: {
@@ -305,9 +305,9 @@ export default function AIContentGeneration() {
               <p>Analyze engagement metrics, audience behavior, and content performance to refine messaging and continuously improve results.</p>
             </div>
             <div className="mb-3">
-                <h6 >Real-Time Content Adaptation</h6>
-                <p>Update and personalize content dynamically based on user interactions, trends, and market changes to keep messaging relevant and impactful.</p>
-              </div>
+              <h6 >Real-Time Content Adaptation</h6>
+              <p>Update and personalize content dynamically based on user interactions, trends, and market changes to keep messaging relevant and impactful.</p>
+            </div>
           </div>
         </div>
 

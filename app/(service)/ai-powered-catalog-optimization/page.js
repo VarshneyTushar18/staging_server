@@ -24,24 +24,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "AI Powered Catalog Optimization",
+  title: "AI-Powered Catalog Optimization Services for eCommerce",
   description:
-    "Optimize your product catalog with AI-powered solutions for smarter, data-driven shopping experiences.",
+    "Optimize product catalogs with AI-driven automation to improve search visibility, product accuracy, and customer shopping experiences.",
   keywords: "AI catalog optimization, product catalog, AI shopping, data-driven catalog",
 
   openGraph: {
-    title: "AI Powered Catalog Optimization",
+    title: "AI-Powered Catalog Optimization Services for eCommerce",
     description:
-      "Optimize your product catalog with AI-powered solutions for smarter, data-driven shopping experiences.",
+      "Optimize product catalogs with AI-driven automation to improve search visibility, product accuracy, and customer shopping experiences.",
     url: "/service/ai-powered-catalog-optimization",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Powered Catalog Optimization",
+    title: "AI-Powered Catalog Optimization Services for eCommerce",
     description:
-      "Optimize your product catalog with AI-powered solutions for smarter, data-driven shopping experiences.",
+      "Optimize product catalogs with AI-driven automation to improve search visibility, product accuracy, and customer shopping experiences.",
   },
 
   alternates: {

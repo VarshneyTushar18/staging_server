@@ -24,24 +24,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "Marketing Automation with AI",
+  title: "Marketing Automation with AI for Smarter Campaigns",
   description:
-    "Transform your growth strategy with marketing automation powered by AI. Deliver intelligent, personalized, and scalable customer experiences.",
+    "Scale your marketing efforts with AI-powered automation solutions for lead nurturing, customer engagement, and campaign optimization.",
   keywords: "marketing automation, AI marketing, customer experiences, scalable marketing",
 
   openGraph: {
-    title: "Marketing Automation with AI",
+    title: "Marketing Automation with AI for Smarter Campaigns",
     description:
-      "Transform your growth strategy with marketing automation powered by AI.",
+      "Scale your marketing efforts with AI-powered automation solutions for lead nurturing, customer engagement, and campaign optimization.",
     url: "/service/marketing-automation-with-ai",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Marketing Automation with AI",
+    title: "Marketing Automation with AI for Smarter Campaigns",
     description:
-      "Transform your growth strategy with marketing automation powered by AI.",
+      "Scale your marketing efforts with AI-powered automation solutions for lead nurturing, customer engagement, and campaign optimization.",
   },
 
   alternates: {

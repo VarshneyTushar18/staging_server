@@ -23,24 +23,24 @@ import {
 import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/IndustryApplication";
 
 export const metadata = {
-    title: "Process Automation Consulting",
+    title: "Process Automation Consulting Services with AI Solutions",
     description:
-        "Optimize your operations with expert Process Automation Consulting. Streamline workflows, eliminate manual inefficiencies, and implement intelligent automation strategies tailored to your business goals.",
+        "Optimize business operations with process automation consulting services powered by AI, workflow automation, and intelligent systems.",
     keywords: "process automation consulting, workflow automation, business process optimization, RPA consulting",
 
     openGraph: {
-        title: "Process Automation Consulting",
+        title: "Process Automation Consulting Services with AI Solutions",
         description:
-            "Optimize your operations with expert Process Automation Consulting. Streamline workflows and boost productivity.",
+            "Optimize business operations with process automation consulting services powered by AI, workflow automation, and intelligent systems.",
         url: "/service/process-automation-consulting",
         siteName: "Tech2Globe",
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "Process Automation Consulting",
+        title: "Process Automation Consulting Services with AI Solutions",
         description:
-            "Optimize your operations with expert Process Automation Consulting.",
+            "Optimize business operations with process automation consulting services powered by AI, workflow automation, and intelligent systems.",
     },
 
     alternates: {
