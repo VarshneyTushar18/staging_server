@@ -6,7 +6,7 @@ import Image from "next/image";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaStar, FaMapMarkerAlt, FaQuoteLeft } from "react-icons/fa";
 
 export default function ClientSlider({ testimonials }) {
   const prevRef = useRef(null);
@@ -43,9 +43,9 @@ export default function ClientSlider({ testimonials }) {
             navigation={
               navReady
                 ? {
-                    prevEl: prevRef.current,
-                    nextEl: nextRef.current,
-                  }
+                  prevEl: prevRef.current,
+                  nextEl: nextRef.current,
+                }
                 : false
             }
             onSwiper={(swiper) => {
@@ -58,28 +58,70 @@ export default function ClientSlider({ testimonials }) {
             }}
             breakpoints={{
               0: { slidesPerView: 1, spaceBetween: 20 },
+              576: { slidesPerView: 1, spaceBetween: 20 },
               768: { slidesPerView: 1, spaceBetween: 25 },
-              992: { slidesPerView: 1, spaceBetween: 30 },
-              1400: { slidesPerView: 1, spaceBetween: 40 },
+              992: { slidesPerView: 2, spaceBetween: 28 },
+              1200: { slidesPerView: 2, spaceBetween: 32 },
+              1400: { slidesPerView: 2, spaceBetween: 36 },
             }}
             className="testimonial-swiper"
           >
             {testimonials.map((item) => (
               <SwiperSlide key={item.id}>
-                <div
-                  className={`${Style.TestimonialSlide} testimonial-slide text-center px-3`}
-                >
-                  <span className="quote-outer d-block mb-3">
-                    <Image
-                      src={item.quote}
-                      alt="quote icon"
-                      width={60}
-                      height={60}
-                      className="mx-auto"
-                    />
-                  </span>
-                  <p className="mb-3">{item.text}</p>
-                  <h3 className="text-dark fw-semibold">- {item.name}</h3>
+                <div className={`${Style.TestimonialCard} h-100`}>
+                  {/* Quote Icon */}
+                  <div className={Style.QuoteIcon}>
+                    <FaQuoteLeft size={28} />
+                  </div>
+
+                  {/* Star Rating */}
+                  <div className={Style.StarRow}>
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <FaStar
+                        key={star}
+                        size={20}
+                        className={
+                          star <= (item.rating || 5)
+                            ? Style.StarFilled
+                            : Style.StarEmpty
+                        }
+                      />
+                    ))}
+                  </div>
+
+                  {/* Testimonial Text */}
+                  <p className={Style.TestimonialText}>{item.text}</p>
+
+                  {/* Divider */}
+                  <div className={Style.CardDivider}></div>
+
+                  {/* Client Info */}
+                  <div className={Style.ClientInfo}>
+                    {/* Avatar / Quote Image */}
+                    {item.quote && (
+                      <div className={Style.AvatarWrap}>
+                        <Image
+                          src={item.quote}
+                          alt={item.name || "client"}
+                          width={52}
+                          height={52}
+                          className={Style.AvatarImg}
+                        />
+                      </div>
+                    )}
+
+                    <div className={Style.ClientMeta}>
+                      <h3 className={Style.ClientName}>{item.name}</h3>
+
+                      {/* Company Location */}
+                      {(item.location || item.company) && (
+                        <div className={Style.ClientLocation}>
+                          <FaMapMarkerAlt size={13} className={Style.LocationIcon} />
+                          <span>{item.location || item.company}</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
                 </div>
               </SwiperSlide>
             ))}

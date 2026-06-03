@@ -8,30 +8,32 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import FaqSection from "@/app/components/services/faqs/faqs";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
-  title: "Amazon FBA Consulting | Amazon Seller Services | Tech2Globe",
-  description:
-    "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
-  keywords:
-    "fulfillment by amazon-3, amazon fba consulting, amazon seller services, amazon fba services, Amazon FBA Agency, Amazon seller central consultants",
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-fba-consulting",
-  },
-  openGraph: {
     title: "Amazon FBA Consulting | Amazon Seller Services | Tech2Globe",
     description:
-      "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
-    siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/amazon-fba-consulting",
-    type: "website",
-  },
-  twitter: {
-    card: "Tech2Globe",
-    title: "Amazon FBA Consulting | Amazon Seller Services | Tech2Globe",
-    description:
-      "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
-  },
+        "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
+    keywords:
+        "fulfillment by amazon-3, amazon fba consulting, amazon seller services, amazon fba services, Amazon FBA Agency, Amazon seller central consultants",
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-fba-consulting",
+    },
+    openGraph: {
+        title: "Amazon FBA Consulting | Amazon Seller Services | Tech2Globe",
+        description:
+            "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
+        siteName: "Tech2Globe web Solutions LLP",
+        url: "https://stagenew.tech2globe.tech/amazon-fba-consulting",
+        type: "website",
+    },
+    twitter: {
+        card: "Tech2Globe",
+        title: "Amazon FBA Consulting | Amazon Seller Services | Tech2Globe",
+        description:
+            "Working with an experienced Amazon FBA consultancy service agency will help you navigate the various complexities of Amazon FBA. Explore our Amazon FBA services.",
+    },
 };
 const pageHeaderData = {
     title: "Amazon FBA Consulting",
@@ -326,6 +328,85 @@ const faqs = [
     },
 ];
 
+const portfolioClients = [
+    {
+        initials: "FN",
+        gradient: "#0b2e58",
+        client: "FitFuel Nutrition",
+        country: "Ireland",
+        project: "FBA Launch Strategy",
+        category: "FBA Consulting",
+        result: "15 SKUs Sold Out",
+        resultSub: "In 21 Days",
+    },
+    {
+        initials: "LK",
+        gradient: "#0b2e58",
+        client: "LuxeKids Co.",
+        country: "UK",
+        project: "FBA Fee Audit & Optimization",
+        category: "FBA Consulting",
+        result: "$12K Annual",
+        resultSub: "Savings",
+    },
+    {
+        initials: "VM",
+        gradient: "#0b2e58",
+        client: "VivaMart Global",
+        country: "Mexico",
+        project: "FBM to FBA Migration",
+        category: "FBA Consulting",
+        result: "+45% Conversion",
+        resultSub: "Rate",
+    },
+    {
+        initials: "GL",
+        gradient: "#0b2e58",
+        client: "GreenLeaf Goods",
+        country: "Canada",
+        project: "Multi-Warehouse Inventory Plan",
+        category: "FBA Consulting",
+        result: "IPI Score",
+        resultSub: "Improved to 780",
+    },
+    {
+        initials: "TG",
+        gradient: "#0b2e58",
+        client: "TechGadget Hub",
+        country: "Germany",
+        project: "FBA Product Prep Setup",
+        category: "FBA Consulting",
+        result: "Zero Rejected",
+        resultSub: "Shipments",
+    },
+
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe guided us through our entire FBA setup — from product prep to labeling to fee optimization. We launched 15 SKUs in our first FBA shipment and sold out in under 3 weeks!",
+        name: "Michael O'Brien | FitFuel Nutrition",
+        location: "Ireland",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Their FBA consulting saved us thousands in avoidable fees. They audited our shipment plans, corrected our prep requirements, and restructured our inventory strategy. Absolute pros.",
+        name: "Charlotte Davies | LuxeKids Co.",
+        location: "UK",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We expanded from FBM to FBA with Tech2Globe's complete support. They managed the entire transition and our delivery speed improved, boosting our conversion rate by 45%.",
+        name: "Carlos Reyes | VivaMart Global",
+        location: "Mexico",
+    },
+
+];
+
 export default function AmazonFbaConsulting() {
     return (
 
@@ -443,7 +524,7 @@ export default function AmazonFbaConsulting() {
                                 </div>
                             </div>
 
-                             <div className={Style.ContentDiv}>
+                            <div className={Style.ContentDiv}>
                                 <h3 className="pt-3 pb-2">Boost Your Sales with Expert Amazon Seller Central Consultants</h3>
                                 <p>Increasing sales and optimizing presence on the biggest online marketplace need partnering with <strong>Amazon Seller Central Consultants</strong>, such as those at Amazon.</p>
                                 <p>Our Amazon Consultants work to maximize product visibility by means of improved listings and focused advertising campaigns. Additionally, our staff knows a great deal about Amazon&apos;s algorithms and good SEO techniques, which can increase the product&apos;s visibility and generate significant sales. We have expertise in writing engaging product descriptions to carefully arrange pertinent keywords.</p>
@@ -527,6 +608,10 @@ export default function AmazonFbaConsulting() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />
         </>

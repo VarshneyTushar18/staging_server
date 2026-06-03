@@ -1,40 +1,121 @@
-.ClientSlider{
-  padding: 0px 30px;
-}
-
-.ClientSlider :global(.testimonial-slide){
-    height: max-content !important;
-}
-
-.ClientSlider :global(.swiper-button-prev) {
-    background-size: 60% !important;
-    background-color: #c8070b;
-    border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
-    color: #fff !important;
-    transform: rotate(180deg);
-    margin: auto;
-}
-
-.ClientSlider :global(.swiper-button-next) {
-    background-size: 60% !important;
-    background-color: #c8070b;
-    border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
-    color: #fff !important;
-    margin: auto;
-}
-
-.ClientSlider :global(.swiper-pagination){
-    display: none !important;
-}
-
+/* ── Wrapper ─────────────────────────────────────────── */
 .ClientSlider {
+  padding: 0px 50px;
   position: relative;
 }
 
+/* ── Hide default swiper UI ──────────────────────────── */
+.ClientSlider :global(.swiper-pagination) {
+  display: none !important;
+}
+
+/* ── Testimonial Card ────────────────────────────────── */
+.TestimonialCard {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 36px 36px 28px;
+  text-align: left;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.09);
+  border: 1px solid #f0f0f0;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+
+
+/* ── Quote Icon ──────────────────────────────────────── */
+.QuoteIcon {
+  color: #c8070b;
+  margin-bottom: 14px;
+  opacity: 0.85;
+}
+
+/* ── Star Rating Row ─────────────────────────────────── */
+.StarRow {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 18px;
+}
+
+.StarFilled {
+  color: #f5c518;
+}
+
+.StarEmpty {
+  color: #ddd;
+}
+
+/* ── Testimonial Text ────────────────────────────────── */
+.TestimonialText {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 22px;
+  font-style: italic;
+}
+
+/* ── Divider ─────────────────────────────────────────── */
+.CardDivider {
+  height: 1px;
+  background: linear-gradient(to right, #c8070b33, transparent);
+  margin-bottom: 20px;
+}
+
+/* ── Client Info Row ─────────────────────────────────── */
+.ClientInfo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* ── Avatar ──────────────────────────────────────────── */
+.AvatarWrap {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0px solid #c8070b;
+}
+
+.AvatarImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── Client Meta ─────────────────────────────────────── */
+.ClientMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ClientName {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+/* ── Location ────────────────────────────────────────── */
+.ClientLocation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: #777;
+  font-weight: 500;
+}
+
+.LocationIcon {
+  color: #c8070b;
+  flex-shrink: 0;
+}
+
+/* ── Navigation Buttons ──────────────────────────────── */
 .navBtn {
   position: absolute;
   top: 50%;
@@ -42,9 +123,9 @@
   z-index: 20;
   background: #c8070b;
   border: none;
-  width: 35px;
-  height: 35px;
-  border-radius: 3px;
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,8 +135,9 @@
 }
 
 .navBtn:hover {
-  background: rgb(165, 13, 29); /* red / bootstrap danger */
+  background: rgb(165, 13, 29);
   color: white;
+  transform: translateY(-50%) scale(1.08);
 }
 
 .prevBtn {
@@ -66,26 +148,38 @@
   right: 0px;
 }
 
+/* ── Responsive ──────────────────────────────────────── */
 @media (max-width: 768px) {
-
-  .navBtn{
-    width: 25px;
-    height: 25px;
+  .ClientSlider {
+    padding: 0 40px;
   }
 
-  .navBtn svg{
-    font-size: 14px;
+  .TestimonialCard {
+    padding: 24px 20px 20px;
+  }
+
+  .navBtn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .navBtn svg {
+    font-size: 13px;
   }
 
   .prevBtn {
-    left: 5px;
+    left: 4px;
   }
+
   .nextBtn {
-    right: 5px;
+    right: 4px;
   }
 
-  .TestimonialSlide h3{
-    font-size: 20px;
+  .TestimonialText {
+    font-size: 14px;
   }
 
+  .ClientName {
+    font-size: 15px;
+  }
 }

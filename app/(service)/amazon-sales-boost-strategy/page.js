@@ -9,28 +9,28 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 
 export const metadata = {
-  title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
-  description:
-    "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
-  keywords:
-    "Amazon consulting services, Amazon seller consultants, Amazon consulting experts",
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-sales-boost-strategy",
-  },
-  openGraph: {
     title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
     description:
-      "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
-    siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/amazon-sales-boost-strategy",
-    type: "website",
-  },
-  twitter: {
-    card: "Tech2Globe",
-    title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
-    description:
-      "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
-  },
+        "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
+    keywords:
+        "Amazon consulting services, Amazon seller consultants, Amazon consulting experts",
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-sales-boost-strategy",
+    },
+    openGraph: {
+        title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
+        description:
+            "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
+        siteName: "Tech2Globe web Solutions LLP",
+        url: "https://stagenew.tech2globe.tech/amazon-sales-boost-strategy",
+        type: "website",
+    },
+    twitter: {
+        card: "Tech2Globe",
+        title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
+        description:
+            "Tech2Globe offers the best Amazon Sales Boost Strategy to deliver an excellent experience for your consumers while improving your business revenue.",
+    },
 };
 
 const pageHeaderData = {
@@ -287,6 +287,29 @@ const caseStudies = [
     }
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe completely overhauled our sales strategy. They implemented promotional bundles, optimized our pricing seasonally, and launched targeted PPC campaigns. Our monthly revenue went from $40K to $110K in 4 months.",
+        name: "Jake Morrison | GoldThread Apparel",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We had good products but poor sales velocity. Tech2Globe's sales boost strategies — including Lightning Deals, coupons, and keyword targeting — gave us the momentum we needed. Sales tripled in 60 days.",
+        name: "Hannah Schmidt | BerlinBaby Organics",
+        location: "Germany",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's strategic approach to boosting Amazon sales is phenomenal. They analyzed our competitors, identified pricing gaps, and created a 90-day launch calendar. Best ROI decision we ever made.",
+        name: "Dylan Walsh | FrostPeak Supplements",
+        location: "Australia",
+    },
+];
 
 export default function AmazonSalesBoostStrategy() {
     return (

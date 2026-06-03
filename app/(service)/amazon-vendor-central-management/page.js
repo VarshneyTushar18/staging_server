@@ -7,6 +7,8 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Product Cataloging Services | Amazon Listing Optimization",
@@ -325,6 +327,87 @@ const caseStudies = [
 ]
 
 
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Managing a Vendor Central account is completely different from Seller Central. Tech2Globe handled our POs, chargebacks, catalog setup, and A+ content for our CPG brand. Revenue up 55% in Q4.",
+        name: "Robert Kingsley | KingsleyFoods Inc.",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe navigated the complexity of Amazon Vendor Central with precision. They managed our pricing negotiations, dispute resolution, and co-op fees. Outstanding vendor management expertise.",
+        name: "Mei Lin | AsiaGourmet Brands",
+        location: "Singapore",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our vendor account was suffering from high chargebacks and non-compliance fees. Tech2Globe audited our ASN processes and purchase order workflows. Chargebacks reduced by 90% in 60 days.",
+        name: "Pieter van der Berg | DutchCraft Furniture",
+        location: "Netherlands",
+    },
+];
+
+
+
+const portfolioClients = [
+    {
+        initials: "KF",
+        gradient: "#0b2e58",
+        client: "KingsleyFoods Inc.",
+        country: "USA",
+        project: "Vendor Central Full Management",
+        category: "Vendor Management",
+        result: "+55% Revenue",
+        resultSub: "In Q4",
+    },
+    {
+        initials: "DF",
+        gradient: "#0b2e58",
+        client: "DutchCraft Furniture",
+        country: "Netherlands",
+        project: "Chargeback Dispute Resolution",
+        category: "Vendor Management",
+        result: "90% Reduction",
+        resultSub: "Chargebacks",
+    },
+    {
+        initials: "AG",
+        gradient: "#0b2e58",
+        client: "AsiaGourmet Brands",
+        country: "Singapore",
+        project: "PO & ASN Compliance Setup",
+        category: "Vendor Management",
+        result: "Zero Penalties",
+        resultSub: "Compliance Achieved",
+    },
+    {
+        initials: "OR",
+        gradient: "#0b2e58",
+        client: "OrganicRoots UK",
+        country: "UK",
+        project: "Vendor Catalog Setup + A+",
+        category: "Vendor Management",
+        result: "Catalog Live",
+        resultSub: "In 2 Weeks",
+    },
+    {
+        initials: "BP",
+        gradient: "#0b2e58",
+        client: "BestHealth Pharma",
+        country: "Canada",
+        project: "Co-op Fee Negotiation",
+        category: "Vendor Management",
+        result: "$30K Savings",
+        resultSub: "Annual",
+    },
+];
+
+
 export default function AmazonVendorCentralManagement() {
     return (
         <>
@@ -519,9 +602,17 @@ export default function AmazonVendorCentralManagement() {
                     </div>
                 </div>
             </section>
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
+
+
+
+
             <CaseStudiesService caseStudies={caseStudies} />
 
         </>

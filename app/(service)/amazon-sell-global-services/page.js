@@ -9,6 +9,8 @@ import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownloa
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import "./custom.css";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Global Selling | International Selling Strategy | Tech2globe",
@@ -388,6 +390,83 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "PN",
+        gradient: "#0b2e58",
+        client: "PureNature UK",
+        country: "UK",
+        project: "EU + JP Marketplace Expansion",
+        category: "Global Selling",
+        result: "3× Global Revenue",
+        resultSub: "Growth",
+    },
+    {
+        initials: "KB",
+        gradient: "#0b2e58",
+        client: "KoreanBeauty Hub",
+        country: "South Korea",
+        project: "USA Market Entry Strategy",
+        category: "Global Selling",
+        result: "+200%",
+        resultSub: "First-Month Target",
+    },
+    {
+        initials: "GK",
+        gradient: "#0b2e58",
+        client: "GermanKraft Tools",
+        country: "Germany",
+        project: "Amazon.com Launch from DE",
+        category: "Global Selling",
+        result: "Full Catalog",
+        resultSub: "Localized",
+    },
+    {
+        initials: "DS",
+        gradient: "#0b2e58",
+        client: "DubaiStyle Fashion",
+        country: "UAE",
+        project: "Middle East Market Launch",
+        category: "Global Selling",
+        result: "500+ Products",
+        resultSub: "Listed",
+    },
+    {
+        initials: "PH",
+        gradient: "#0b2e58",
+        client: "PacificNest Home",
+        country: "Australia",
+        project: "Canada + Mexico Expansion",
+        category: "Global Selling",
+        result: "4 Marketplaces",
+        resultSub: "Active",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe helped us expand from Amazon UK to EU, US, and Japan within 6 months. Their global strategy, tax compliance support, and localized listings made the process seamless. Revenue tripled globally.",
+        name: "Emma Fitzgerald | PureNature UK",
+        location: "UK",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We wanted to enter the US Amazon market. Tech2Globe handled everything including account setup, localized copywriting, and compliance. Our first month exceeded our targets by 200%.",
+        name: "David Park | KoreanBeauty Hub",
+        location: "South Korea",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Expanding to Amazon.com from Amazon.de was daunting. Tech2Globe made it structured and easy. They localized our entire catalog, handled tax settings, and coached us through every step.",
+        name: "Anna Müller | GermanKraft Tools",
+        location: "Germany",
+    },
+
+];
 
 export default function AmazonSellGlobal() {
     return (
@@ -565,6 +644,10 @@ export default function AmazonSellGlobal() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
 
             <CaseStudiesService caseStudies={caseStudies} />
         </>

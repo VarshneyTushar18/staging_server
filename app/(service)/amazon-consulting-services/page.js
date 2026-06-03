@@ -6,6 +6,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import "./custom.css";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
@@ -72,54 +73,82 @@ const clients = [
 ];
 
 
-const caseStudies = [
+const portfolioClients = [
     {
-        "id": 1,
-        "title": "Customer Business and Delivered",
-        "image": "/images/services/service-inner/untitled-design-20.png",
-        "description": "How Well We Understand Customer Business and Delivered Fruitful Results...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20Ecommerce%20Consulting%20Services.pdf"
+        initials: "BP",
+        gradient: "#0b2e58",
+        client: "BluePeak Outdoors",
+        country: "USA",
+        project: "Full Account Audit & Growth Plan",
+        category: "Consulting",
+        result: "+78% Revenue",
+        resultSub: "in 90 days",
     },
     {
-        "id": 2,
-        "title": "Online Promotion Strategies",
-        "image": "/images/services/service-inner/online-promotion-strategies.jpg",
-        "description": "The client is USA based and he is a Neuroscientist by profession with over 15 years of basic and applied research experience in the same field...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20-%20showGlamour%20&%20LeMirch%20(1).pdf"
+        initials: "NH",
+        gradient: "#0b2e58",
+        client: "Nordic Home Essentials",
+        country: "UK",
+        project: "PPC + SEO Consulting Package",
+        category: "Consulting",
+        result: "ACOS −35%",
+        resultSub: "reduced spend",
     },
-]
+    {
+        initials: "IC",
+        gradient: "#0b2e58",
+        client: "ItalCraft Furniture",
+        country: "Italy",
+        project: "Amazon EU Expansion Strategy",
+        category: "Consulting",
+        result: "2× Revenue",
+        resultSub: "in 6 months",
+    },
+    {
+        initials: "CG",
+        gradient: "#0b2e58",
+        client: "CleanGear Pro",
+        country: "Canada",
+        project: "Competitive Analysis & Repricing",
+        category: "Consulting",
+        result: "+40% Buy Box",
+        resultSub: "win rate",
+    },
+    {
+        initials: "SW",
+        gradient: "#0b2e58",
+        client: "SunRise Wellness",
+        country: "Australia",
+        project: "Seller Account Health Recovery",
+        category: "Consulting",
+        result: "Reinstated",
+        resultSub: "in 7 days",
+    },
+];
 
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I am really impressed and satisfied with Tech2globe's customized amazon consulting services. It's amazing how they are so dedicated to their work.",
-        name: "Sarah Johnson, Marketing Manager",
+        text: "Tech2Globe transformed our Amazon strategy with data-driven insights. Our sales grew by 78% within 3 months of engaging their consulting team. Their AI-powered approach to account growth is unmatched.",
+        name: "James R. Whitfield | BluePeak Outdoors ",
+        location: "USA",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I had a very positive experience with Tech2globe's amazon service as they helped me to boost sales.",
-        name: "Michael Smith, E-commerce Specialist",
+        text: "Exceptional Amazon consulting! Tech2Globe audited our entire account, restructured our PPC, and optimized our listings. Our organic ranking improved drastically and ACOS dropped by 35%.",
+        name: "Sophie Brennan | Nordic Home Essentials ",
+        location: "UK",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "The staff at Tech2globe are fulfilling their duties really well. I am pleased that they understood my goals and considered my suggestions.",
-        name: "Emily Brown, Business Owner",
+        text: "We were struggling to scale on Amazon.it and Amazon.de.Tech2Globe's consultants provided a clear roadmap and implemented strategies that doubled our revenue in under 6 months.",
+        name: "Luca Martini | ItalCraft Furniture ",
+        location: "Italy",
     },
-    {
-        id: 4,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Having patience with your clients is a great quality, and I feel their team knows this very well. Highly recommended to others.",
-        name: "David Martinez, Sales Directors",
-    },
-    {
-        id: 5,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "I am grateful to partner with Tech2Globe's services that brought clarity to my business strategy and Kudos to their dedicated team!",
-        name: "Jennifer Wilson, CEO",
-    },
+
 ];
 
 const faqs = [
@@ -877,7 +906,10 @@ export default function AmazonConsulting() {
                 </div>
             </div>
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            {/* <CaseStudiesService caseStudies={caseStudies} /> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
             <div className="container">

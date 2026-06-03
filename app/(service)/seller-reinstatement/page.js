@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Amazon Seller Account Reinstatement | Tech2globe",
@@ -291,6 +293,83 @@ const caseStudies = [
     }
 ]
 
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our Amazon account was suspended for 3 weeks due to policy violations. We tried appealing on our own twice and failed. Tech2Globe drafted a professional POA and got our account reinstated in just 5 days. Incredible!",
+        name: "Brian Foster | NovaTech Gadgets",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe handled our seller reinstatement appeal with utmost professionalism. They identified the root cause immediately, prepared the Plan of Action, and communicated with Amazon until our account was restored.",
+        name: "Laura Dubois | MaisonDecor Paris",
+        location: "France",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "After Amazon suspended us for inauthentic item complaints, we were devastated. Tech2Globe submitted a compelling appeal and our account was reinstated within 10 days. They truly understand Amazon's system.",
+        name: "Amara Osei | AfroCraft Originals",
+        location: "Ghana",
+    },
+];
+
+const portfolioClients = [
+    {
+        initials: "NT",
+        gradient: "#0b2e58",
+        client: "NovaTech Gadgets",
+        country: "USA",
+        project: "Section 3 Suspension Appeal",
+        category: "Reinstatement",
+        result: "Reinstated in 5 Days",
+        resultSub: "Account Restored",
+    },
+    {
+        initials: "MD",
+        gradient: "#0b2e58",
+        client: "MaisonDecor Paris",
+        country: "France",
+        project: "Inauthentic Item POA",
+        category: "Reinstatement",
+        result: "Appeal Approved",
+        resultSub: "Round 1",
+    },
+    {
+        initials: "AO",
+        gradient: "#0b2e58",
+        client: "AfroCraft Originals",
+        country: "Ghana",
+        project: "Policy Violation Recovery",
+        category: "Reinstatement",
+        result: "Reinstated in 10 Days",
+        resultSub: "Account Live",
+    },
+    {
+        initials: "CH",
+        gradient: "#0b2e58",
+        client: "CleanHome Pro",
+        country: "UK",
+        project: "ASIN Reinstatement + IP Complaint",
+        category: "Reinstatement",
+        result: "ASIN Restored",
+        resultSub: "Appeal Won",
+    },
+    {
+        initials: "ZW",
+        gradient: "#0b2e58",
+        client: "ZenSpa Wellness",
+        country: "Canada",
+        project: "Account Health Emergency Recovery",
+        category: "Reinstatement",
+        result: "Account Back Live",
+        resultSub: "In 7 Days",
+    },
+];
 
 export default function SellerReinstatement() {
     return (
@@ -585,6 +664,10 @@ export default function SellerReinstatement() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
 
             <CaseStudiesService caseStudies={caseStudies} />
         </>
