@@ -12,24 +12,24 @@ import FurnitureModelingSlider from "@/app/components/services/modeling-renderin
 import BeforeAfterSlider from "@/app/components/services/BeforeAfterSlider/BeforeAfterSlider";
 
 export const metadata = {
-    title: "Outsource 3D Furniture Modeling Services",
+    title: "3D Furniture Modeling & Rendering Services | AI-Enhanced Photorealistic Visuals",
     description:
-        "Bring your furniture designs to life with Tech2Globe's outsource 3D furniture modeling services. Accurate, realistic, and high-quality 3D models delivered fast.",
+        "Bring your furniture products to life with Tech2Globe's AI-enhanced 3D modeling and rendering services. We create photorealistic, detail-perfect 3D visuals that help ecommerce brands increase buyer confidence and reduce product returns.",
     keywords:
         "3D furniture modeling services, furniture 3D rendering, outsource 3D furniture modeling, 3D product modeling, furniture visualization, 3D rendering company",
     openGraph: {
-        title: "Outsource 3D Furniture Modeling Services",
+        title: "3D Furniture Modeling & Rendering Services | AI-Enhanced Photorealistic Visuals",
         description:
-            "Bring your furniture designs to life with Tech2Globe's outsource 3D furniture modeling services. Accurate, realistic, and high-quality 3D models delivered fast.",
+            "Bring your furniture products to life with Tech2Globe's AI-enhanced 3D modeling and rendering services. We create photorealistic, detail-perfect 3D visuals that help ecommerce brands increase buyer confidence and reduce product returns.",
         url: "https://stagenew.tech2globe.tech/3d-furniture-modeling-rendering-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Outsource 3D Furniture Modeling Services",
+        title: "3D Furniture Modeling & Rendering Services | AI-Enhanced Photorealistic Visuals",
         description:
-            "Bring your furniture designs to life with Tech2Globe's outsource 3D furniture modeling services. Accurate, realistic, and high-quality 3D models delivered fast.",
+            "Bring your furniture products to life with Tech2Globe's AI-enhanced 3D modeling and rendering services. We create photorealistic, detail-perfect 3D visuals that help ecommerce brands increase buyer confidence and reduce product returns.",
     },
     alternates: {
         canonical:

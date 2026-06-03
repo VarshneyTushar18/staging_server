@@ -8,33 +8,33 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-  title: "eCommerce Marketplace Management | Amazon, Flipkart & eBay Experts",
-  description:
-    "eCommerce Marketplace Management services for Amazon, Flipkart, eBay & more. Tech2Globe helps sellers with cataloging, listing, SEO & global growth.",
-  keywords: [
-    "Bulk Upload Products",
-    "Bulk Upload Products to Amazon",
-    "Amazon Product Uploading Services",
-    "Amazon Product Uploading",
-    "Product Uploading Services",
-    "Product Uploading"
-  ],
-  openGraph: {
-    title: "eCommerce Marketplace Management | Amazon, Flipkart & eBay Experts",
-    siteName: "Tech2Globe Web Solutions LLP",
+    title: "eCommerce Marketplace Management | AI-Powered Amazon, Flipkart & eBay Growth",
     description:
-      "eCommerce Marketplace Management services for Amazon, Flipkart, eBay & more. Tech2Globe helps sellers with cataloging, listing, SEO & global growth.",
-    url: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "eCommerce Marketplace Management | Amazon, Flipkart & eBay Experts",
-    description:
-      "eCommerce Marketplace Management services for Amazon, Flipkart, eBay & more. Tech2Globe helps sellers with cataloging, listing, SEO & global growth."
-  },
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
-  }
+        "Manage and scale your presence across Amazon, Flipkart, and eBay with Tech2Globe's AI-powered marketplace management. From smart inventory control to automated listing optimization, we handle it all for measurable growth.",
+    keywords: [
+        "Bulk Upload Products",
+        "Bulk Upload Products to Amazon",
+        "Amazon Product Uploading Services",
+        "Amazon Product Uploading",
+        "Product Uploading Services",
+        "Product Uploading"
+    ],
+    openGraph: {
+        title: "eCommerce Marketplace Management | AI-Powered Amazon, Flipkart & eBay Growth",
+        siteName: "Tech2Globe Web Solutions LLP",
+        description:
+            "Manage and scale your presence across Amazon, Flipkart, and eBay with Tech2Globe's AI-powered marketplace management. From smart inventory control to automated listing optimization, we handle it all for measurable growth.",
+        url: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "eCommerce Marketplace Management | AI-Powered Amazon, Flipkart & eBay Growth",
+        description:
+            "Manage and scale your presence across Amazon, Flipkart, and eBay with Tech2Globe's AI-powered marketplace management. From smart inventory control to automated listing optimization, we handle it all for measurable growth."
+    },
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/ecommerce-marketplace-management"
+    }
 };
 
 const pageHeaderData = {

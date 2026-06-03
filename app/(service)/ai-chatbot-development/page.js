@@ -11,23 +11,23 @@ import { FaHandPointRight } from "react-icons/fa";
 
 
 export const metadata = {
-  title: "Chatbot Development Services | AI Chatbot Development  | Tech2globe",
+  title: "AI Chatbot Development Services for Customer Support",
   description:
-    "Tech2globe is an AI-Based Chatbot Development provides industry specifc chatbots to improve customer engagement and business efficiency. We can integrated across multiple platforms and reduce overall operational costs. Get a FREE consultation today!",
+    "Create intelligent AI chatbots for websites, apps, and businesses to automate support, increase engagement, and deliver faster customer responses.",
 
   openGraph: {
-    title: "Chatbot Development Services | AI Chatbot Development  | Tech2globe",
+    title: "AI Chatbot Development Services for Customer Support",
     description:
-      "Tech2globe is an AI-Based Chatbot Development provides industry specifc chatbots to improve customer engagement and business efficiency. We can integrated across multiple platforms and reduce overall operational costs. Get a FREE consultation today!",
+      "Create intelligent AI chatbots for websites, apps, and businesses to automate support, increase engagement, and deliver faster customer responses.",
     siteName: "Tech2Globe web Solutions LLP",
     url: "https://stagenew.tech2globe.tech/ai-chatbot-development",
   },
 
   twitter: {
     card: "Tech2Globe",
-    title: "Chatbot Development Services | AI Chatbot Development  | Tech2globe",
+    title: "AI Chatbot Development Services for Customer Support",
     description:
-      "Tech2globe is an AI-Based Chatbot Development provides industry specifc chatbots to improve customer engagement and business efficiency. We can integrated across multiple platforms and reduce overall operational costs. Get a FREE consultation today!",
+      "Create intelligent AI chatbots for websites, apps, and businesses to automate support, increase engagement, and deliver faster customer responses.",
   },
 
   alternates: {

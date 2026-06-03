@@ -23,24 +23,24 @@ import {
 import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/IndustryApplication";
 
 export const metadata = {
-  title: "AI Helpdesk Automation",
+  title: "AI Helpdesk Automation Services for Faster Support",
   description:
-    "Deliver fast, personal, and reliable helpdesk assistance with AI Helpdesk Automation. Build intelligent support systems that handle routine queries, organize tickets, and respond instantly.",
+    "Automate ticket management and customer support operations with AI helpdesk automation solutions designed for efficiency and scalability.",
   keywords: "AI helpdesk automation, customer support automation, helpdesk AI, support workflow automation",
 
   openGraph: {
-    title: "AI Helpdesk Automation",
+    title: "AI Helpdesk Automation Services for Faster Support",
     description:
-      "Deliver fast, personal, and reliable helpdesk assistance with AI Helpdesk Automation.",
+      "Automate ticket management and customer support operations with AI helpdesk automation solutions designed for efficiency and scalability.",
     url: "/service/ai-helpdesk-automation",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Helpdesk Automation",
+    title: "AI Helpdesk Automation Services for Faster Support",
     description:
-      "Deliver fast, personal, and reliable helpdesk assistance with AI Helpdesk Automation.",
+      "Automate ticket management and customer support operations with AI helpdesk automation solutions designed for efficiency and scalability.",
   },
 
   alternates: {
@@ -424,7 +424,7 @@ export default function AiHelpdeskAutomation() {
           </div>
         </div>
 
-         <div className="row g-4 mt-5 mb-5">
+        <div className="row g-4 mt-5 mb-5">
           <div className="col-md-12">
             <h2 className="mb-4">Effortless Deployment of AI Helpdesk Automation</h2>
             <p><strong>Secure, Scalable, and Reliable Support Integration</strong><br />

@@ -10,9 +10,9 @@ import { FaAngleRight, FaHandPointRight } from "react-icons/fa";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Web Application Development services | Web App development company",
+  title: "Web Application Development Services with AI Integration",
   description:
-    "Tech2Globe offers web application development services. Our development team build powerful web applications with scalable features & process to full-fill key challenge.",
+    "Build scalable web applications with AI integration, modern technologies, and user-focused solutions for business growth and automation.",
 
   keywords: [
     "Web Application Development",
@@ -28,9 +28,9 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Web Application Development services | Web App development company",
+      "Web Application Development Services with AI Integration",
     description:
-      "Tech2Globe offers web application development services. Our development team build powerful web applications with scalable features & process to full-fill key challenge",
+      "Build scalable web applications with AI integration, modern technologies, and user-focused solutions for business growth and automation.",
     url: "https://stagenew.tech2globe.tech/web-application-development",
     siteName: "Tech2Globe",
     type: "website",
@@ -39,9 +39,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Web Application Development services | Web App development company",
+      "Web Application Development Services with AI Integration",
     description:
-      "Tech2Globe offers web application development services. Our development team build powerful web applications with scalable features & process to full-fill key challenge",
+      "Build scalable web applications with AI integration, modern technologies, and user-focused solutions for business growth and automation.",
   },
 
   alternates: {
@@ -94,13 +94,13 @@ export default function WebApplicationDevelopment() {
 
               <div className={Style.ContentDiv}>
                 <h4>Our Technical Expertise</h4>
-                <hr/>
+                <hr />
                 <p>Tech2Globe specialists use up-to-date technologies and latest industry trends to deliver technically complex and yet easy-to-use solutions with the optimal cost/performance ratio. Our procedures development and deployment are state of the art, using proven methodologies and highly efficient techniques.</p>
               </div>
 
               <div className={Style.ContentDiv}>
                 <h4>LAMP (PHP/MySQL)</h4>
-                <hr/>
+                <hr />
                 <h5>PHP Development Services</h5>
                 <p className="mb-0"><strong>FRAMEWORKS:</strong> CakePHP, CodeIgniter (CI), Zend, Symfony, YII</p>
                 <p className="mb-0"><strong>OPEN SOURCE:</strong> Joomla, Magento, Drupal, WordPress</p>
@@ -109,7 +109,7 @@ export default function WebApplicationDevelopment() {
 
               <div className={Style.ContentDiv}>
                 <h4>Microsoft ASP.NET (C# & VB.NET)</h4>
-                <hr/>
+                <hr />
                 <h5>ASP.NET Development Services</h5>
                 <p className="mb-0"><strong>OPEN SOURCE:</strong> NHibernate, Log4Net, Spring.NET, Quartz.NET</p>
                 <p className="mb-0"><strong>DATABASES:</strong> SQL Server 2005/2008</p>

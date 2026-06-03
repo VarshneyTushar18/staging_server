@@ -24,24 +24,24 @@ import IndustryApplication from "@/app/components/ai-pages/IndustryApplication/I
 
 
 export const metadata = {
-  title: "AI Application Development",
+  title: "AI Application Development Services for Smart Businesses",
   description:
-    "Innovate Your Business Processes with Bespoke AI Operational Solutions. Build intelligent, scalable AI applications for sustainable growth and competitive advantage.",
+    "Develop intelligent AI applications with advanced automation, machine learning, and predictive analytics to streamline operations and drive business growth.",
   keywords: "AI application development, intelligent applications, business innovation, AI solutions",
 
   openGraph: {
-    title: "AI Application Development",
+    title: "AI Application Development Services for Smart Businesses",
     description:
-      "Innovate Your Business Processes with Bespoke AI Operational Solutions.",
+      "Develop intelligent AI applications with advanced automation, machine learning, and predictive analytics to streamline operations and drive business growth.",
     url: "/service/ai-application-development",
     siteName: "Tech2Globe",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "AI Application Development",
+    title: "AI Application Development Services for Smart Businesses",
     description:
-      "Innovate Your Business Processes with Bespoke AI Operational Solutions.",
+      "Develop intelligent AI applications with advanced automation, machine learning, and predictive analytics to streamline operations and drive business growth.",
   },
 
   alternates: {

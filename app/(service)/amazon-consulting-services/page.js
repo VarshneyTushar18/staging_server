@@ -8,9 +8,9 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import "./custom.css";
 
 export const metadata = {
-    title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
+    title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
     description:
-        "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+        "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
     keywords: [
         "amazon consulting services",
         "amazon consulting service",
@@ -21,10 +21,10 @@ export const metadata = {
         "best amazon consulting service providers",
     ],
     openGraph: {
-        title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
+        title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+            "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
         url: "https://stagenew.tech2globe.tech/amazon-consulting-services",
         images: [
             "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
@@ -32,9 +32,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Amazon Consulting Services | Amazon PPC, SEO & Account Growth",
+        title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
         description:
-            "Amazon Consulting Services. We help sellers optimize PPC, product listings, and accounts to increase sales and visibility on Amazon worldwide.",
+            "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
         images: [
             "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
         ],

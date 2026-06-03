@@ -10,20 +10,20 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import Link from "next/link";
 
 export const metadata = {
-    title: "Amazon PPC Services | Tech2Globe PPC Management & Ad Optimization",
+    title: "Amazon PPC Services | AI-Optimized Ad Management for Maximum ROAS",
     description:
-        "Amazon PPC Services to lower ACoS and increase sales. Tech2Globe offers PPC management, smart bidding, ad optimization, and reporting for Amazon sellers.",
+        "Tech2Globe's Amazon PPC services are powered by AI-driven bid optimization and real-time performance data. We reduce wasted ad spend and intelligently scale campaigns to deliver the highest possible return on ad spend.",
     openGraph: {
-        title: "Amazon PPC Services | Tech2Globe PPC Management & Ad Optimization",
+        title: "Amazon PPC Services | AI-Optimized Ad Management for Maximum ROAS",
         description:
-            "Amazon PPC Services to lower ACoS and increase sales. Tech2Globe offers PPC management, smart bidding, ad optimization, and reporting for Amazon sellers.",
+            "Tech2Globe's Amazon PPC services are powered by AI-driven bid optimization and real-time performance data. We reduce wasted ad spend and intelligently scale campaigns to deliver the highest possible return on ad spend.",
         url: "https://stagenew.tech2globe.tech/amazon-ppc-services",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Amazon PPC Services | Tech2Globe PPC Management & Ad Optimization",
+        title: "Amazon PPC Services | AI-Optimized Ad Management for Maximum ROAS",
         description:
-            "Amazon PPC Services to lower ACoS and increase sales. Tech2Globe offers PPC management, smart bidding, ad optimization, and reporting for Amazon sellers.",
+            "Tech2Globe's Amazon PPC services are powered by AI-driven bid optimization and real-time performance data. We reduce wasted ad spend and intelligently scale campaigns to deliver the highest possible return on ad spend.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/amazon-ppc-services",

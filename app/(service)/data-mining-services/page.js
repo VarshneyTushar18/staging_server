@@ -11,9 +11,9 @@ import { FaClock, FaCube, FaLightbulb, FaShieldAlt, FaUsers } from "react-icons/
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Outsource Data Mining Services Companies Providers",
+    title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
     description:
-        "Enhance business insights with Tech2Globe. Outsource data mining services companies providers outsourcing data mining services for accurate, timely results.",
+        "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge.",
     keywords: [
         "Outsourcing Data Mining Services",
         "Data Mining Companies",
@@ -21,17 +21,17 @@ export const metadata = {
         "Data Mining Service Providers"
     ],
     openGraph: {
-        title: "Outsource Data Mining Services Companies Providers",
+        title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Enhance business insights with Tech2Globe. Outsource data mining services companies providers outsourcing data mining services for accurate, timely results.",
+            "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge.",
         url: "https://stagenew.tech2globe.tech/data-mining-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Outsource Data Mining Services Companies Providers",
+        title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
         description:
-            "Enhance business insights with Tech2Globe. Outsource data mining services companies providers outsourcing data mining services for accurate, timely results."
+            "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/data-mining-services"

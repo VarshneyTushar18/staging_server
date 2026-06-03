@@ -10,33 +10,33 @@ import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Amazon Product Cataloging Services | Amazon Listing Optimization",
-  description:
-    "Get professional Amazon product cataloging services with Tech2Globe. Optimize listings, SKUs, images and descriptions to boost visibility, sales and ROI.",
-  keywords: [
-    "best Amazon listing optimization service",
-    "Amazon listing experts",
-    "Amazon product page optimization",
-    "Amazon catalog services",
-    "Amazon premium catalog service US",
-    "Amazon catalog management services"
-  ],
-  openGraph: {
-    title: "Amazon Product Cataloging Services | Amazon Listing Optimization",
-    siteName: "Tech2Globe web Solutions LLP",
+    title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
     description:
-      "Get professional Amazon product cataloging services with Tech2Globe. Optimize listings, SKUs, images and descriptions to boost visibility, sales and ROI.",
-    url: "https://stagenew.tech2globe.tech/amazon-product-catalog"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Amazon Product Cataloging Services | Amazon Listing Optimization",
-    description:
-      "Get professional Amazon product cataloging services with Tech2Globe. Optimize listings, SKUs, images and descriptions to boost visibility, sales and ROI."
-  },
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-product-catalog"
-  }
+        "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings.",
+    keywords: [
+        "best Amazon listing optimization service",
+        "Amazon listing experts",
+        "Amazon product page optimization",
+        "Amazon catalog services",
+        "Amazon premium catalog service US",
+        "Amazon catalog management services"
+    ],
+    openGraph: {
+        title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
+        siteName: "Tech2Globe web Solutions LLP",
+        description:
+            "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings.",
+        url: "https://stagenew.tech2globe.tech/amazon-product-catalog"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
+        description:
+            "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings."
+    },
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-product-catalog"
+    }
 };
 
 const pageHeaderData = {

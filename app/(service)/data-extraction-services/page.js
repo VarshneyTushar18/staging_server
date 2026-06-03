@@ -11,9 +11,9 @@ import { FaChartBar, FaDatabase, FaFolderOpen, FaImages, FaPoll, FaUserPlus } fr
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Best Outsource Web Data Extraction Services Company Online",
+    title: "Web Data Extraction Services | AI-Powered Scraping & Structured Data Solutions",
     description:
-        "Unlock accurate and timely insights with the best outsource web data extraction services company, delivering fast, reliable, and scalable data solutions.",
+        "Extract high-value data at scale with Tech2Globe's AI-powered web data extraction services. We use intelligent scraping technology to gather, clean, and structure web data — delivering actionable insights that fuel smarter business decisions.",
     keywords: [
         "Data Extraction Service",
         "Outsource Data Extraction Services",
@@ -22,17 +22,17 @@ export const metadata = {
         "Best Data Extraction Services"
     ],
     openGraph: {
-        title: "Best Outsource Web Data Extraction Services Company Online",
+        title: "Web Data Extraction Services | AI-Powered Scraping & Structured Data Solutions",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Unlock accurate and timely insights with the best outsource web data extraction services company, delivering fast, reliable, and scalable data solutions.",
+            "Extract high-value data at scale with Tech2Globe's AI-powered web data extraction services. We use intelligent scraping technology to gather, clean, and structure web data — delivering actionable insights that fuel smarter business decisions.",
         url: "https://stagenew.tech2globe.tech/data-extraction-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Best Outsource Web Data Extraction Services Company Online",
+        title: "Web Data Extraction Services | AI-Powered Scraping & Structured Data Solutions",
         description:
-            "Unlock accurate and timely insights with the best outsource web data extraction services company, delivering fast, reliable, and scalable data solutions."
+            "Extract high-value data at scale with Tech2Globe's AI-powered web data extraction services. We use intelligent scraping technology to gather, clean, and structure web data — delivering actionable insights that fuel smarter business decisions."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/data-extraction-services"

@@ -8,9 +8,9 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Data Entry Services | Accurate & Affordable Outsourcing Solutions",
+    title: "Data Entry Services | AI-Assisted Accurate & Affordable Outsourcing Solutions",
     description:
-        "Get accurate, secure, and cost-effective data entry services. Tech2Globe offers online, offline, and catalog data entry solutions to streamline your business.",
+        "Tech2Globe combines AI-assisted automation with human precision to deliver fast, accurate, and cost-effective data entry services. From online and offline entry to catalog management, we streamline your data workflows with intelligent quality checks.",
     keywords: [
         "Outsource Data Entry Services",
         "Data Entry Outsourcing Company",
@@ -20,17 +20,17 @@ export const metadata = {
         "Data Entry Outsourcing"
     ],
     openGraph: {
-        title: "Data Entry Services | Accurate & Affordable Outsourcing Solutions",
+        title: "Data Entry Services | AI-Assisted Accurate & Affordable Outsourcing Solutions",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Get accurate, secure, and cost-effective data entry services. Tech2Globe offers online, offline, and catalog data entry solutions to streamline your business.",
+            "Tech2Globe combines AI-assisted automation with human precision to deliver fast, accurate, and cost-effective data entry services. From online and offline entry to catalog management, we streamline your data workflows with intelligent quality checks.",
         url: "https://stagenew.tech2globe.tech/data-entry-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Data Entry Services | Accurate & Affordable Outsourcing Solutions",
+        title: "Data Entry Services | AI-Assisted Accurate & Affordable Outsourcing Solutions",
         description:
-            "Get accurate, secure, and cost-effective data entry services. Tech2Globe offers online, offline, and catalog data entry solutions to streamline your business."
+            "Tech2Globe combines AI-assisted automation with human precision to deliver fast, accurate, and cost-effective data entry services. From online and offline entry to catalog management, we streamline your data workflows with intelligent quality checks."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/data-entry-services"
@@ -48,34 +48,34 @@ const pageHeaderData = {
 
 
 const resources = [
-  { id: 1, name: "Case Studies", path: "/case-studies" },
-  { id: 2, name: "Clients", path: "/clients" },
-  { id: 3, name: "Testimonial", path: "/testimonial" },
-  { id: 4, name: "Financial Data Entry Services", path: "/financial-data-entry-services" },
-  { id: 5, name: "Catalog Management", path: "/catalog-management-services" },
-  { id: 6, name: "Data Processing Services", path: "/data-processing-services" },
-  { id: 7, name: "Data Product Entry", path: "/data-product-entry" },
-  { id: 8, name: "Financial Data Entry", path: "/financial-data-entry" },
-  { id: 9, name: "Image Data Entry", path: "/image-data-entry-services" },
-  { id: 10, name: "Insurance Claims Data Entry", path: "/insurance-claims-data-entry-services" },
-  { id: 11, name: "Offline Data Entry", path: "/offline-data-entry-services" },
-  { id: 12, name: "Online Data Entry", path: "/online-data-entry-services" },
-  { id: 13, name: "PDF Data Entry", path: "/pdf-data-entry-services" },
-  { id: 14, name: "Product Data Entry", path: "/product-data-entry-services" },
-  { id: 15, name: "Yellow & White Pages Data Entry", path: "/yellow-and-white-pages-data-entry-services" },
-  { id: 16, name: "Accounting Data Entry", path: "/accounting-data-entry-services" }
+    { id: 1, name: "Case Studies", path: "/case-studies" },
+    { id: 2, name: "Clients", path: "/clients" },
+    { id: 3, name: "Testimonial", path: "/testimonial" },
+    { id: 4, name: "Financial Data Entry Services", path: "/financial-data-entry-services" },
+    { id: 5, name: "Catalog Management", path: "/catalog-management-services" },
+    { id: 6, name: "Data Processing Services", path: "/data-processing-services" },
+    { id: 7, name: "Data Product Entry", path: "/data-product-entry" },
+    { id: 8, name: "Financial Data Entry", path: "/financial-data-entry" },
+    { id: 9, name: "Image Data Entry", path: "/image-data-entry-services" },
+    { id: 10, name: "Insurance Claims Data Entry", path: "/insurance-claims-data-entry-services" },
+    { id: 11, name: "Offline Data Entry", path: "/offline-data-entry-services" },
+    { id: 12, name: "Online Data Entry", path: "/online-data-entry-services" },
+    { id: 13, name: "PDF Data Entry", path: "/pdf-data-entry-services" },
+    { id: 14, name: "Product Data Entry", path: "/product-data-entry-services" },
+    { id: 15, name: "Yellow & White Pages Data Entry", path: "/yellow-and-white-pages-data-entry-services" },
+    { id: 16, name: "Accounting Data Entry", path: "/accounting-data-entry-services" }
 ];
 
 const usefulLinks = [
-  { id: 17, name: "Catalog Processing", path: "/catalog-processing-services" },
-  { id: 18, name: "Data Conversion", path: "/data-conversion-services" },
-  { id: 19, name: "Data Extraction", path: "/data-extraction-services" },
-  { id: 20, name: "Document Processing", path: "/document-processing-services" },
-  { id: 21, name: "Forms Processing", path: "/forms-processing-services" },
-  { id: 22, name: "Insurance Claims Processing", path: "/insurance-claims-processing-services" },
-  { id: 23, name: "Invoice Processing", path: "/invoice-processing-services" },
-  { id: 24, name: "Order Processing", path: "/order-processing-services" },
-  { id: 25, name: "Survey Forms Processing", path: "/survey-forms-processing" }
+    { id: 17, name: "Catalog Processing", path: "/catalog-processing-services" },
+    { id: 18, name: "Data Conversion", path: "/data-conversion-services" },
+    { id: 19, name: "Data Extraction", path: "/data-extraction-services" },
+    { id: 20, name: "Document Processing", path: "/document-processing-services" },
+    { id: 21, name: "Forms Processing", path: "/forms-processing-services" },
+    { id: 22, name: "Insurance Claims Processing", path: "/insurance-claims-processing-services" },
+    { id: 23, name: "Invoice Processing", path: "/invoice-processing-services" },
+    { id: 24, name: "Order Processing", path: "/order-processing-services" },
+    { id: 25, name: "Survey Forms Processing", path: "/survey-forms-processing" }
 ];
 
 

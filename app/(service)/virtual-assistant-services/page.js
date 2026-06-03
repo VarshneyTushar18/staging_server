@@ -8,20 +8,20 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Outsource Reliable Virtual Assistant Services for Business",
+    title: "Virtual Assistant Services | AI-Enabled Smart Support for Your Business",
     description:
-        "Tech2Globe offers professional outsourced virtual assistant services. Optimize business operations with skilled remote helpers for your administrative support.",
+        "Outsource smarter with Tech2Globe's AI-enabled virtual assistant services. Our trained VAs are equipped with AI tools to handle admin tasks, customer support, research, and scheduling — giving your team more time to focus on growth.",
     openGraph: {
-        title: "Outsource Reliable Virtual Assistant Services for Business",
+        title: "Virtual Assistant Services | AI-Enabled Smart Support for Your Business",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Tech2Globe offers professional outsourced virtual assistant services. Optimize business operations with skilled remote helpers for your administrative support.",
+            "Outsource smarter with Tech2Globe's AI-enabled virtual assistant services. Our trained VAs are equipped with AI tools to handle admin tasks, customer support, research, and scheduling — giving your team more time to focus on growth.",
         url: "https://stagenew.tech2globe.tech/virtual-assistant-services",
     },
     twitter: {
-        card: "Outsource Reliable Virtual Assistant Services for Business",
+        card: "Virtual Assistant Services | AI-Enabled Smart Support for Your Business",
         description:
-            "Tech2Globe offers professional outsourced virtual assistant services. Optimize business operations with skilled remote helpers for your administrative support.",
+            "Outsource smarter with Tech2Globe's AI-enabled virtual assistant services. Our trained VAs are equipped with AI tools to handle admin tasks, customer support, research, and scheduling — giving your team more time to focus on growth.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/virtual-assistant-services",

@@ -11,21 +11,22 @@ import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownlo
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Walmart Full Service Marketing Agency",
+
+    title: "Walmart Full Service Management | AI-Powered End-to-End Walmart Growth Agency",
     description:
-        "Tech2Globe is a Walmart full service marketing agency, delivering expert strategies to boost brand visibility, sales, and online performance efficiently.",
+        "Grow your Walmart presence end- to - end with Tech2Globe's AI-powered full service management. From intelligent listing optimization and automated ad campaigns to inventory management and performance analytics — we handle everything for scalable Walmart success.",
     openGraph: {
-        title: "Walmart Full Service Marketing Agency",
+        title: "Walmart Full Service Management | AI-Powered End-to-End Walmart Growth Agency",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Tech2Globe is a Walmart full service marketing agency, delivering expert strategies to boost brand visibility, sales, and online performance efficiently.",
+            "Grow your Walmart presence end- to - end with Tech2Globe's AI-powered full service management. From intelligent listing optimization and automated ad campaigns to inventory management and performance analytics — we handle everything for scalable Walmart success.",
         url: "https://stagenew.tech2globe.tech/walmart-full-service-management",
     },
     twitter: {
-        card: "Walmart Full Service Marketing Agency",
-        title: "Walmart Full Service Marketing Agency",
+        card: "Walmart Full Service Management | AI-Powered End-to-End Walmart Growth Agency",
+        title: "Walmart Full Service Management | AI-Powered End-to-End Walmart Growth Agency",
         description:
-            "Tech2Globe is a Walmart full service marketing agency, delivering expert strategies to boost brand visibility, sales, and online performance efficiently.",
+            "Grow your Walmart presence end- to - end with Tech2Globe's AI-powered full service management. From intelligent listing optimization and automated ad campaigns to inventory management and performance analytics — we handle everything for scalable Walmart success.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/walmart-full-service-management",

@@ -25,28 +25,28 @@ import FutureSlider from "@/app/components/ai-pages/FutureSlider/FutureSlider";
 
 
 export const metadata = {
-    title: "Conversational AI Solutions",
+    title: "Conversational AI Solutions for Smart Customer Interactions",
     description:
-        "Transform Customer Engagement with Intelligent, Real Time Communication Systems",
+        "Enhance customer communication with conversational AI solutions powered by NLP, automation, and real-time intelligent virtual assistants.",
     keywords: "conversational AI, AI chatbots, virtual assistants, customer support automation",
 
     openGraph: {
-        title: "Conversational AI Solutions",
+        title: "Conversational AI Solutions for Smart Customer Interactions",
         description:
-            "Transform Customer Engagement with Intelligent, Real Time Communication Systems",
-        url: "/service/conversational-ai-solutions",
+            "Enhance customer communication with conversational AI solutions powered by NLP, automation, and real-time intelligent virtual assistants.",
+        url: "https://stagenew.tech2globe.tech/conversational-ai-solutions",
         siteName: "Tech2Globe",
     },
 
     twitter: {
         card: "summary_large_image",
-        title: "Conversational AI Solutions",
+        title: "Conversational AI Solutions for Smart Customer Interactions",
         description:
-            "Transform Customer Engagement with Intelligent, Real Time Communication Systems",
+            "Enhance customer communication with conversational AI solutions powered by NLP, automation, and real-time intelligent virtual assistants.",
     },
 
     alternates: {
-        canonical: "/service/conversational-ai-solutions",
+        canonical: "https://stagenew.tech2globe.tech/conversational-ai-solutions",
     },
 };
 

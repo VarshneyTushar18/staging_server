@@ -11,9 +11,9 @@ import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbul
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Outsource Data Cleansing Services",
+    title: "Data Cleansing Services | AI-Powered Data Quality & Deduplication Solutions",
     description:
-        "Ensure clean and accurate data with Tech2Globe's outsource data cleansing services. Improve analysis, reporting, and decision-making for your business.",
+        "Eliminate errors, duplicates, and inconsistencies with Tech2Globe's AI-powered data cleansing services. Our intelligent data quality engine identifies and corrects bad data automatically — giving you a clean, reliable dataset ready for analysis.",
     keywords: [
         "Data Cleansing Services",
         "Outsource data cleansing services",
@@ -24,17 +24,17 @@ export const metadata = {
         "Database cleansing services"
     ],
     openGraph: {
-        title: "Outsource Data Cleansing Services",
+        title: "Data Cleansing Services | AI-Powered Data Quality & Deduplication Solutions",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Ensure clean and accurate data with Tech2Globe's outsource data cleansing services. Improve analysis, reporting, and decision-making for your business.",
+            "Eliminate errors, duplicates, and inconsistencies with Tech2Globe's AI-powered data cleansing services. Our intelligent data quality engine identifies and corrects bad data automatically — giving you a clean, reliable dataset ready for analysis.",
         url: "https://stagenew.tech2globe.tech/data-cleansing-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Outsource Data Cleansing Services",
+        title: "Data Cleansing Services | AI-Powered Data Quality & Deduplication Solutions",
         description:
-            "Ensure clean and accurate data with Tech2Globe's outsource data cleansing services. Improve analysis, reporting, and decision-making for your business."
+            "Eliminate errors, duplicates, and inconsistencies with Tech2Globe's AI-powered data cleansing services. Our intelligent data quality engine identifies and corrects bad data automatically — giving you a clean, reliable dataset ready for analysis."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/data-cleansing-services"
@@ -58,7 +58,7 @@ const resources = [
     { id: 5, name: "Data Product Entry", path: "/product-data-entry-services" },
 ];
 
-const usefulLinks = [ 
+const usefulLinks = [
     { id: 6, name: "Food Industries", path: "/food-industries-services" },
     { id: 7, name: "Non-profit Organization", path: "/non-profit-organizations-services" },
     { id: 8, name: "Medical And Health", path: "/medical-and-health-services" },

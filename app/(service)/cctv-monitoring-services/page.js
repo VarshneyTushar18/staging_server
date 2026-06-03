@@ -9,9 +9,9 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
-    title: "Best Outsource CCTV Monitoring Services for 24/7 Security",
+    title: "CCTV Monitoring Services | AI-Enhanced 24/7 Remote Surveillance & Security",
     description:
-        "Protect your property with Tech2Globe, one of the best outsource remote CCTV monitoring services companies, offering reliable 24/7 surveillance to monitor.",
+        "Protect your premises round the clock with Tech2Globe's AI-enhanced CCTV monitoring services. Our intelligent surveillance system combines real-time video analysis with expert human monitoring to detect threats before they escalate.",
     keywords: [
         "Best CCTV Monitoring Services",
         "CCTV Service Monitor",
@@ -20,17 +20,17 @@ export const metadata = {
         "Outsource CCTV Monitoring Services"
     ],
     openGraph: {
-        title: "Best Outsource CCTV Monitoring Services for 24/7 Security",
+        title: "CCTV Monitoring Services | AI-Enhanced 24/7 Remote Surveillance & Security",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Protect your property with Tech2Globe, one of the best outsource remote CCTV monitoring services companies, offering reliable 24/7 surveillance to monitor.",
+            "Protect your premises round the clock with Tech2Globe's AI-enhanced CCTV monitoring services. Our intelligent surveillance system combines real-time video analysis with expert human monitoring to detect threats before they escalate.",
         url: "https://stagenew.tech2globe.tech/cctv-monitoring-services"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Best Outsource CCTV Monitoring Services for 24/7 Security",
+        title: "CCTV Monitoring Services | AI-Enhanced 24/7 Remote Surveillance & Security",
         description:
-            "Protect your property with Tech2Globe, one of the best outsource remote CCTV monitoring services companies, offering reliable 24/7 surveillance to monitor."
+            "Protect your premises round the clock with Tech2Globe's AI-enhanced CCTV monitoring services. Our intelligent surveillance system combines real-time video analysis with expert human monitoring to detect threats before they escalate."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/cctv-monitoring-services"
@@ -54,7 +54,7 @@ const resources = [
     { id: 5, name: "Data Product Entry", path: "/product-data-entry-services" },
 ];
 
-const usefulLinks = [ 
+const usefulLinks = [
     { id: 6, name: "Food Industries", path: "/food-industries-services" },
     { id: 7, name: "Non-profit Organization", path: "/non-profit-organizations-services" },
     { id: 8, name: "Medical And Health", path: "/medical-and-health-services" },
