@@ -8,30 +8,32 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
-  title: "Amazon Advertising Services | Amazon Advertising Agency",
-  description:
-    "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
-  keywords:
-    "Amazon Advertising Services, Amazon Advertising Agency, Amazon Marketing Experts, amazon ppc management agency",
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-advertising-services",
-  },
-  openGraph: {
     title: "Amazon Advertising Services | Amazon Advertising Agency",
     description:
-      "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
-    siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/amazon-advertising-services",
-    type: "website",
-  },
-  twitter: {
-    card: "Tech2Globe",
-    title: "Amazon Advertising Services | Amazon Advertising Agency",
-    description:
-      "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
-  },
+        "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
+    keywords:
+        "Amazon Advertising Services, Amazon Advertising Agency, Amazon Marketing Experts, amazon ppc management agency",
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-advertising-services",
+    },
+    openGraph: {
+        title: "Amazon Advertising Services | Amazon Advertising Agency",
+        description:
+            "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
+        siteName: "Tech2Globe web Solutions LLP",
+        url: "https://stagenew.tech2globe.tech/amazon-advertising-services",
+        type: "website",
+    },
+    twitter: {
+        card: "Tech2Globe",
+        title: "Amazon Advertising Services | Amazon Advertising Agency",
+        description:
+            "Our Amazon advertising services help you to boost your Amazon sales. We are one spot solution for Amazon advertising agencies with various ads experts.",
+    },
 };
 
 const schemaData = {
@@ -382,6 +384,82 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "BU",
+        gradient: "#0b2e58",
+        client: "BoldFit USA",
+        country: "USA",
+        project: "Campaign Restructure & Optimization",
+        category: "Advertising",
+        result: "ACOS: 52% → 18%",
+        resultSub: "Cost Efficiency",
+    },
+    {
+        initials: "PA",
+        gradient: "#0b2e58",
+        client: "ParisChic Accessories",
+        country: "France",
+        project: "Full Ad Type Launch (SP+SB+SD)",
+        category: "Advertising",
+        result: "+300% ad ROI",
+        resultSub: "ROI Growth",
+    },
+    {
+        initials: "AC",
+        gradient: "#0b2e58",
+        client: "AfriLux Clothing",
+        country: "Nigeria",
+        project: "Multi-Marketplace Ad Management",
+        category: "Advertising",
+        result: "6x ROAS across 3 markets",
+        resultSub: "International Growth",
+    },
+    {
+        initials: "FH",
+        gradient: "#0b2e58",
+        client: "FreshNest Home",
+        country: "UK",
+        project: "Video Ad Campaign Launch",
+        category: "Advertising",
+        result: "+80% video CTR",
+        resultSub: "Engagement Growth",
+    },
+    {
+        initials: "SG",
+        gradient: "#0b2e58",
+        client: "SnowGlow Gifts",
+        country: "Canada",
+        project: "Holiday Season Ad Strategy",
+        category: "Advertising",
+        result: "Best-ever holiday ROAS: 8x",
+        resultSub: "Seasonal Success",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's advertising specialists reduced our ACOS from 52% to 18% while tripling our ad-attributed revenue. Their granular campaign structures and negative keyword strategies are truly best-in-class.",
+        name: "Marcus Allen | BoldFit USA",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were burning money on unoptimized Sponsored Product campaigns. Tech2Globe rebuilt our advertising architecture, added Sponsored Brand and Display campaigns, and our ROI improved dramatically within weeks.",
+        name: "Claire Dupont | ParisChic Accessories",
+        location: "France",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Amazon advertising team are true experts. They launched our international ad campaigns across US, UK, and DE simultaneously. Consistent ROAS of 6x across all marketplaces.",
+        name: "James Okafor | AfriLux Clothing",
+        location: "Nigeria",
+    },
+];
 
 export default function AmazonAdvertising() {
     return (
@@ -580,6 +658,9 @@ export default function AmazonAdvertising() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

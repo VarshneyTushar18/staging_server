@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Seller Pricing Strategies | Amazon Seller Pricing",
@@ -287,6 +289,83 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "IS",
+        gradient: "#0b2e58",
+        client: "IrishCraft Spirits",
+        country: "Ireland",
+        project: "Pricing Audit & Repricing Strategy",
+        category: "Pricing Strategy",
+        result: "Buy Box: 45% → 88%",
+        resultSub: "Buy Box Growth",
+    },
+    {
+        initials: "SH",
+        gradient: "#0b2e58",
+        client: "SwedenStyle Home",
+        country: "Sweden",
+        project: "Dynamic Pricing Automation",
+        category: "Pricing Strategy",
+        result: "Margins protected 24/7",
+        resultSub: "Margin Protection",
+    },
+    {
+        initials: "SE",
+        gradient: "#0b2e58",
+        client: "SpiceRoute Exports",
+        country: "India",
+        project: "Competitive Pricing Analysis",
+        category: "Pricing Strategy",
+        result: "+35% profit margin",
+        resultSub: "Profit Growth",
+    },
+    {
+        initials: "TP",
+        gradient: "#0b2e58",
+        client: "TechAccessories Pro",
+        country: "USA",
+        project: "Bundle Pricing Strategy",
+        category: "Pricing Strategy",
+        result: "+50% average order value",
+        resultSub: "AOV Growth",
+    },
+    {
+        initials: "WC",
+        gradient: "#0b2e58",
+        client: "WinterWear Canada",
+        country: "Canada",
+        project: "Seasonal Pricing Calendar",
+        category: "Pricing Strategy",
+        result: "+90% Q4 revenue",
+        resultSub: "Revenue Growth",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's competitive pricing analysis revealed we were overpriced on 30% of our catalog. After their repricing strategy, our Buy Box win rate jumped from 45% to 88% within a month.",
+        name: "Kevin O'Sullivan | IrishCraft Spirits",
+        location: "Ireland",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Dynamic pricing on Amazon was something we had no expertise in. Tech2Globe set up an automated repricing tool and strategy that keeps us competitive 24/7 without sacrificing margins.",
+        name: "Nina Larsson | SwedenStyle Home",
+        location: "Sweden",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's pricing audit and competitive strategy helped us find the sweet spot between being competitive and protecting our profit margins. Best pricing consultants we've worked with.",
+        name: "Amit Sharma | SpiceRoute Exports",
+        location: "India",
+    },
+];
+
 
 export default function AmazonProductPricingStrategy() {
     return (
@@ -378,7 +457,7 @@ export default function AmazonProductPricingStrategy() {
                                 </div>
                             </div>
 
-                             <div className={Style.ContentDiv}>
+                            <div className={Style.ContentDiv}>
                                 <h5 className="pt-3 pb-2"><img src="/images/services/service-inner/question.png" alt="" className={Style.InnerIcon} /> Why Do You Need Pricing Strategies?</h5>
                                 <p>Pricing isn&apos;t just a component in consumer purchases; it is also a factor in Amazon&apos;s ranking. If this is correct, you will win the &apos;Buy Box,&apos; but you will lose sales to the competitors if you do it wrong. In other words, if you make your pricing too high, people will be hesitant to click on your listings. It also implies that you are in danger of losing your Buy Box to competitors selling the same item. Setting a product&apos;s pricing too low brings its own set of issues.</p>
                                 <p>After all, a cheap product price may help you sell more, but if your margins are too narrow, it won&apos;t be profitable. In other words, establishing an <strong>Amazon Product & Pricing Strategy</strong> will aid in determining the profit margins connected with each product. It will also help you in determining whether that price is reasonable for selling on Amazon.</p>
@@ -407,6 +486,9 @@ export default function AmazonProductPricingStrategy() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

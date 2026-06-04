@@ -7,6 +7,8 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Amazon Sales Boost Strategy | Amazon Selling Tips - Tech2Globe",
@@ -287,6 +289,59 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "GA",
+        gradient: "#0b2e58",
+        client: "GoldThread Apparel",
+        country: "USA",
+        project: "90-Day Sales Acceleration Plan",
+        category: "Sales Strategy",
+        result: "$40K to $110K/month",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "BO",
+        gradient: "#0b2e58",
+        client: "BerlinBaby Organics",
+        country: "Germany",
+        project: "Deal & Coupon Campaign Strategy",
+        category: "Sales Strategy",
+        result: "3× sales in 60 days",
+        resultSub: "Sales Growth",
+    },
+    {
+        initials: "FS",
+        gradient: "#0b2e58",
+        client: "FrostPeak Supplements",
+        country: "Australia",
+        project: "Competitor Gap Analysis + Repricing",
+        category: "Sales Strategy",
+        result: "+120% units sold",
+        resultSub: "Unit Growth",
+    },
+    {
+        initials: "WG",
+        gradient: "#0b2e58",
+        client: "WinterWarm Gear",
+        country: "Canada",
+        project: "Seasonal Peak Sales Strategy",
+        category: "Sales Strategy",
+        result: "Best-ever Q4 performance",
+        resultSub: "Seasonal Success",
+    },
+    {
+        initials: "HD",
+        gradient: "#0b2e58",
+        client: "HomeNest Decor",
+        country: "UK",
+        project: "Bundle & Cross-sell Strategy",
+        category: "Sales Strategy",
+        result: "+70% average order value",
+        resultSub: "AOV Growth",
+    },
+];
+
 const testimonials = [
     {
         id: 1,
@@ -531,7 +586,13 @@ export default function AmazonSalesBoostStrategy() {
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
 
+
             <CaseStudiesService caseStudies={caseStudies} />
+
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon SEO Optimization & Listing Optimization Services",
@@ -290,6 +292,86 @@ const caseStudies = [
 ]
 
 
+
+const portfolioClients = [
+    {
+        initials: "CS",
+        gradient: "#0b2e58",
+        client: "CopperSmith USA",
+        country: "USA",
+        project: "Full SEO Listing Optimization",
+        category: "SEO & Optimization",
+        result: "+120% organic sales",
+        resultSub: "Organic Growth",
+    },
+    {
+        initials: "NN",
+        gradient: "#0b2e58",
+        client: "NordicNaturals Denmark",
+        country: "Denmark",
+        project: "Page 8 to Page 1 in 45 Days",
+        category: "SEO & Optimization",
+        result: "Page 1 for 20 keywords",
+        resultSub: "Ranking Growth",
+    },
+    {
+        initials: "SS",
+        gradient: "#0b2e58",
+        client: "SakuraSkin Japan",
+        country: "Japan",
+        project: "Japan Marketplace SEO",
+        category: "SEO & Optimization",
+        result: "Top 5 ranking for main KWs",
+        resultSub: "Search Visibility",
+    },
+    {
+        initials: "GH",
+        gradient: "#0b2e58",
+        client: "GoldLeaf Herbal UK",
+        country: "UK",
+        project: "Backend Search Term Optimization",
+        category: "SEO & Optimization",
+        result: "+60% indexed keywords",
+        resultSub: "Indexing Growth",
+    },
+    {
+        initials: "SB",
+        gradient: "#0b2e58",
+        client: "StartBright Kids",
+        country: "Australia",
+        project: "Launch + SEO Combined Strategy",
+        category: "SEO & Optimization",
+        result: "Page 1 in 30 days post-launch",
+        resultSub: "Launch Success",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe implemented ethical review management strategies that significantly improved our overall rating from 3.4 to 4.6 stars in just 90 days. Their approach is fully compliant with Amazon's policies. Outstanding results.",
+        name: "Emma Watson | BritBotanicals",
+        location: "UK",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We had a flood of negative reviews due to a logistics issue. Tech2Globe helped us manage the situation — responding professionally, resolving customer issues, and deploying compliant review recovery strategies. Rating fully restored.",
+        name: "Lucas Weber | GermanPure Health",
+        location: "Germany",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's review management program doubled our review count within 4 months using Amazon's Request a Review feature and post-purchase communication sequences. Completely policy-compliant and highly effective.",
+        name: "Michelle Tremblay | PureMaple Canada",
+        location: "Canada",
+    },
+];
+
+
+
 export default function AmazonSeoListingOptimization() {
     return (
 
@@ -557,10 +639,13 @@ export default function AmazonSeoListingOptimization() {
 
 
             <div className="StoreCreationTabs">
-                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'}/>
+                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

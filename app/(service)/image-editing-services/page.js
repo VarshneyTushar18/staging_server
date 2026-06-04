@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Image Editing services | Photo Editing Experts",
@@ -332,6 +334,84 @@ const faqs = [
     },
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "VF",
+        gradient: "#0b2e58",
+        client: "VivaFashion Miami",
+        country: "USA",
+        project: "500-Image Batch Editing",
+        category: "Image Editing",
+        result: "+35% CTR improvement",
+        resultSub: "CTR Growth",
+    },
+    {
+        initials: "DD",
+        gradient: "#0b2e58",
+        client: "DutchDesign Studio",
+        country: "Netherlands",
+        project: "White Background + Shadow",
+        category: "Image Editing",
+        result: "Amazon compliance 100%",
+        resultSub: "Compliance",
+    },
+    {
+        initials: "SL",
+        gradient: "#0b2e58",
+        client: "ShanghaiLux Fashion",
+        country: "China",
+        project: "Lifestyle Composite Creation",
+        category: "Image Editing",
+        result: "Studio quality, fast TAT",
+        resultSub: "Production Speed",
+    },
+    {
+        initials: "NB",
+        gradient: "#0b2e58",
+        client: "NutriBoost Canada",
+        country: "Canada",
+        project: "Infographic Image Creation",
+        category: "Image Editing",
+        result: "8-image set per ASIN",
+        resultSub: "Content Scaling",
+    },
+    {
+        initials: "AP",
+        gradient: "#0b2e58",
+        client: "AutoParts UK",
+        country: "UK",
+        project: "360-View Image Editing",
+        category: "Image Editing",
+        result: "360 spin shots for 200 SKUs",
+        resultSub: "Catalog Expansion",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe edited 500+ product images for our fashion line within 48 hours. Background removal, color correction, and lifestyle composite creation — all perfect. Our CTR on search results improved by 35%.",
+        name: "Samantha Torres | VivaFashion Miami",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Professional, fast, and flawless image editing. Tech2Globe handles all our product photography post-production — retouching, shadow creation, and Amazon-compliant white backgrounds. Consistent quality every time.",
+        name: "Hugo Vermeer | DutchDesign Studio",
+        location: "Netherlands",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We send raw product images and Tech2Globe returns stunning, marketplace-ready photos. The editing quality matches high-end photography studios at a fraction of the cost. Highly recommended.",
+        name: "Mei Chen | ShanghaiLux Fashion",
+        location: "China",
+    },
+];
+
 export default function ImageEditingServices() {
     return (
 
@@ -462,6 +542,9 @@ export default function ImageEditingServices() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />
         </>

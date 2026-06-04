@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Copywriting for Amazon | Amazon Copywriting Service",
@@ -289,6 +291,82 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "BB",
+        gradient: "#0b2e58",
+        client: "BlossomBath USA",
+        country: "USA",
+        project: "Full Catalog Copywriting (100 ASINs)",
+        category: "Copywriting",
+        result: "+32% conversion rate",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "PI",
+        gradient: "#0b2e58",
+        client: "ParisDesign Interiors",
+        country: "France",
+        project: "Premium Brand Copy in French",
+        category: "Copywriting",
+        result: "Authentic brand voice",
+        resultSub: "Brand Voice",
+    },
+    {
+        initials: "NF",
+        gradient: "#0b2e58",
+        client: "NatureFine Germany",
+        country: "Germany",
+        project: "German Amazon Copy Creation",
+        category: "Copywriting",
+        result: "+28% CTR improvement",
+        resultSub: "CTR Growth",
+    },
+    {
+        initials: "FS",
+        gradient: "#0b2e58",
+        client: "FreshStart UK",
+        country: "UK",
+        project: "Launch Copy for New Brand",
+        category: "Copywriting",
+        result: "Ranked Page 1 in 30 days",
+        resultSub: "Ranking Growth",
+    },
+    {
+        initials: "SW",
+        gradient: "#0b2e58",
+        client: "SpiceWorld Canada",
+        country: "Canada",
+        project: "Backend Search Term Optimization",
+        category: "Copywriting",
+        result: "+45% indexed keywords",
+        resultSub: "SEO Visibility",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe rewrote our entire product catalog's titles, bullets, and descriptions with SEO-optimized copy. Not only did our search rankings improve, but our conversion rate went up by 32% within the first month.",
+        name: "Sophia Collins | BlossomBath USA",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Beautifully crafted Amazon copy that balances keyword optimization with compelling storytelling. Tech2Globe understood our brand voice perfectly and delivered copy that genuinely converts. Highly recommended.",
+        name: "Antoine Bernard | ParisDesign Interiors",
+        location: "France",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's copywriting team created German-language Amazon content that resonates with local buyers. Their understanding of cultural nuances and Amazon's algorithm is impressive. Our CTR improved by 28%.",
+        name: "Julia Hoffmann | NatureFine Germany",
+        location: "Germany",
+    },
+];
 
 export default function AmazonCopywriting() {
     return (
@@ -434,6 +512,9 @@ export default function AmazonCopywriting() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

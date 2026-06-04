@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Account Management Services by Certified Experts",
@@ -289,6 +291,84 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "TN",
+        gradient: "#0b2e58",
+        client: "TechNest Devices",
+        country: "USA",
+        project: "Full Seller Central Management",
+        category: "Account Management",
+        result: "+65% revenue growth",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "AL",
+        gradient: "#0b2e58",
+        client: "AlpineLife Austria",
+        country: "Austria",
+        project: "18-Month Ongoing Management",
+        category: "Account Management",
+        result: "Zero policy violations",
+        resultSub: "Account Health",
+    },
+    {
+        initials: "GG",
+        gradient: "#0b2e58",
+        client: "GhanaGold Crafts",
+        country: "Ghana",
+        project: "Scale-Up Account Management",
+        category: "Account Management",
+        result: "$10K → $45K/month",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "PL",
+        gradient: "#0b2e58",
+        client: "PureLiving UK",
+        country: "UK",
+        project: "Multi-ASIN Account Operations",
+        category: "Account Management",
+        result: "200+ ASINs managed",
+        resultSub: "Operational Scale",
+    },
+    {
+        initials: "CG",
+        gradient: "#0b2e58",
+        client: "CoolGear Canada",
+        country: "Canada",
+        project: "Account Audit + Ongoing Mgmt",
+        category: "Account Management",
+        result: "Account health: 100%",
+        resultSub: "Account Stability",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe manages our entire Amazon Seller Central account end to end. From listings and PPC to account health and customer service — everything runs smoothly. Revenue has grown 65% since we started.",
+        name: "Tyler James | TechNest Devices",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We outsourced our Amazon account management to Tech2Globe 18 months ago and haven't looked back. They handle everything professionally and keep us informed with weekly performance reports.",
+        name: "Petra Hofer | AlpineLife Austria",
+        location: "Austria",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's account managers understand Amazon's evolving policies and proactively manage our account. We've scaled from $10K to $45K monthly revenue with their expert management.",
+        name: "Daniel Owusu | GhanaGold Crafts",
+        location: "Ghana",
+    },
+];
+
+
 
 export default function AmazonAccountManagement() {
     return (
@@ -441,6 +521,9 @@ export default function AmazonAccountManagement() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

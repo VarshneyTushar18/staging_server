@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaAngleRight, FaBroom, FaCrop, FaDesktop, FaLaptop, FaNewspaper, FaSmile } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -100,48 +101,82 @@ const pageHeaderData = {
     shortBanner: true
 };
 
+
+
+const portfolioClients = [
+    {
+        initials: "GP",
+        gradient: "#0b2e58",
+        client: "GrantLux Perfumes",
+        country: "UK",
+        project: "Brand Story + Premium A+ Modules",
+        category: "Premium Content",
+        result: "Elevated brand positioning",
+        resultSub: "Brand Positioning",
+    },
+    {
+        initials: "FI",
+        gradient: "#0b2e58",
+        client: "Ferrario Italian Wines",
+        country: "Italy",
+        project: "Heritage Brand Narrative Content",
+        category: "Premium Content",
+        result: "Full-width immersive content",
+        resultSub: "Brand Storytelling",
+    },
+    {
+        initials: "MC",
+        gradient: "#0b2e58",
+        client: "MaisonFrance Cosmetics",
+        country: "France",
+        project: "Luxury Cosmetics Premium A+",
+        category: "Premium Content",
+        result: "+30% conversion rate",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "TG",
+        gradient: "#0b2e58",
+        client: "TechCore Germany",
+        country: "Germany",
+        project: "Premium A+ for Electronics",
+        category: "Premium Content",
+        result: "Reduced competitor switching",
+        resultSub: "Retention Improvement",
+    },
+    {
+        initials: "NR",
+        gradient: "#0b2e58",
+        client: "NaturalRoots US",
+        country: "USA",
+        project: "Premium Brand Story Video + A+",
+        category: "Premium Content",
+        result: "+50% time on page",
+        resultSub: "Engagement Growth",
+    },
+];
+
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I m very much satisfied with Tech2Globe team they assigned me. All the team members are very knowledgeable about everything and their quality of work is very impressive.",
-
+        text: "Tech2Globe created Premium A+ content (Brand Story + Enhanced Modules) for our luxury fragrance line. The visual storytelling is breathtaking and has significantly elevated our brand positioning on Amazon.",
+        name: "Isabella Grant | GrantLux Perfumes",
+        location: "UK",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Very Understanding team to work with. I like their service and would recommend them to others.",
-
+        text: "We needed content that conveyed the heritage and craft of our winery. Tech2Globe's Premium Plus content team delivered immersive brand narratives with full-width imagery that instantly elevated our premium perception.",
+        name: "Matteo Ferrari | Ferrario Italian Wines",
+        location: "Italy",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Very co operative staff, managing my account very well.",
-
-    },
-    {
-        id: 4,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "I was very happy with the services and quality of work. Their team was open to feedback and flexible in meeting needs.",
-
-    },
-    {
-        id: 5,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "These guys are really professional and they know what they are doing. I loved their work and would hire them again. Wonderful experience overall!",
-
-    },
-    {
-        id: 6,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "The service pricing is moderate. there agents delivery time and support is excellent",
-
-    },
-    {
-        id: 7,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Thank you so much. Shivam is great to work with and I will continue to work with Tech2Globe",
-
+        text: "Premium A+ content from Tech2Globe transformed our Amazon presence from generic to genuinely luxury. Conversion rates improved by 30% and we noticed a significant reduction in price-related objections from customers.",
+        name: "Chloe Dupont | MaisonFrance Cosmetics",
+        location: "France",
     },
 ];
 
@@ -348,9 +383,10 @@ export default function PremiumPlusContent() {
 
 
             </div >
-            <div className="EmailMarketingTestimonials">
-                <ClientSlider testimonials={testimonials} />
-            </div>
+
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
 
         </>

@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Listing Translation | Amazon Listing Translation",
@@ -288,7 +290,85 @@ const caseStudies = [
         "description": "In 2.5 periods of month projects handling, we’ve generated more than 6,000 Facebook Page Followers on “Fashion & Cosmetic”…",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Promotion of 2 x Shopify Stores-converted.pdf"
     }
-]
+];
+
+const portfolioClients = [
+    {
+        initials: "VM",
+        gradient: "#0b2e58",
+        client: "VivaSport Mexico",
+        country: "Mexico",
+        project: "EN to Spanish Catalog Translation",
+        category: "Translation",
+        result: "Local buyer connection",
+        resultSub: "Localization",
+    },
+    {
+        initials: "JL",
+        gradient: "#0b2e58",
+        client: "JapanStyle Living",
+        country: "Japan",
+        project: "English to Japanese Amazon Copy",
+        category: "Translation",
+        result: "2x sales post-translation",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "BI",
+        gradient: "#0b2e58",
+        client: "BellaModa Italia",
+        country: "Italy",
+        project: "EU Multi-Language Translation",
+        category: "Translation",
+        result: "+80% EU sales",
+        resultSub: "Market Expansion",
+    },
+    {
+        initials: "GF",
+        gradient: "#0b2e58",
+        client: "GulfStyle Fashion",
+        country: "UAE",
+        project: "Arabic Amazon Listing Translation",
+        category: "Translation",
+        result: "ME marketplace launch",
+        resultSub: "New Market Entry",
+    },
+    {
+        initials: "SC",
+        gradient: "#0b2e58",
+        client: "SambaCraft Goods",
+        country: "Brazil",
+        project: "Portuguese Brazil Translation",
+        category: "Translation",
+        result: "Amazon.com.br launched",
+        resultSub: "Platform Expansion",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe translated our entire Amazon catalog from English to Spanish for Amazon.com.mx. The translations are culturally accurate, SEO-optimized, and genuinely convert. Local buyers immediately connected with our listings.",
+        name: "Carlos Mendez | VivaSport Mexico",
+        location: "Mexico",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Translating product listings to Japanese requires cultural understanding, not just language skills. Tech2Globe's translations for Amazon.co.jp resonated perfectly with Japanese shoppers. Sales doubled post-translation.",
+        name: "Yoko Nakamura | JapanStyle Living",
+        location: "Japan",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe translated our fashion catalog into German, French, and Spanish for European Amazon marketplaces. The quality is exceptional — natural, persuasive, and keyword-rich. Our EU sales grew by 80%.",
+        name: "Francesca Moretti | BellaModa Italia",
+        location: "Italy",
+    },
+];
+
 
 
 export default function AmazonProductTranslation() {
@@ -523,10 +603,13 @@ export default function AmazonProductTranslation() {
 
 
             <div className="StoreCreationTabs">
-                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'}/>
+                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

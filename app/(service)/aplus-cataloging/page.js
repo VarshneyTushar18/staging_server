@@ -8,32 +8,34 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import FaqSection from "@/app/components/services/faqs/faqs";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
-  title: "Amazon A+ Cataloging Services | Amazon Aplus Cataloging",
-  description:
-    "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
-  keywords:
-    "Amazon A+ cataloging services-6, Amazon enhanced brand content design-5, Amazon A+ catalog-4",
-
-  openGraph: {
     title: "Amazon A+ Cataloging Services | Amazon Aplus Cataloging",
     description:
-      "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
-    siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/aplus-cataloging",
-  },
+        "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
+    keywords:
+        "Amazon A+ cataloging services-6, Amazon enhanced brand content design-5, Amazon A+ catalog-4",
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Amazon A+ Cataloging Services | Amazon Aplus Cataloging",
-    description:
-      "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
-  },
+    openGraph: {
+        title: "Amazon A+ Cataloging Services | Amazon Aplus Cataloging",
+        description:
+            "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
+        siteName: "Tech2Globe web Solutions LLP",
+        url: "https://stagenew.tech2globe.tech/aplus-cataloging",
+    },
 
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/aplus-cataloging",
-  },
+    twitter: {
+        card: "summary_large_image",
+        title: "Amazon A+ Cataloging Services | Amazon Aplus Cataloging",
+        description:
+            "Amazon A+ Content is a unique feature in Seller Central that enables brand owners to generate visually appealing Amazon product descriptions for their listings.",
+    },
+
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/aplus-cataloging",
+    },
 };
 
 const pageHeaderData = {
@@ -343,6 +345,85 @@ const faqs = [
     },
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "BH",
+        gradient: "#0b2e58",
+        client: "BritishCraft Hardware",
+        country: "UK",
+        project: "150-ASIN A+ Cataloging",
+        category: "A+ Cataloging",
+        result: "Full catalog in 2 weeks",
+        resultSub: "Speed & Scale",
+    },
+    {
+        initials: "GG",
+        gradient: "#0b2e58",
+        client: "GardenGrow Germany",
+        country: "Germany",
+        project: "200-ASIN Catalog + A+",
+        category: "A+ Cataloging",
+        result: "100% accuracy, 3 weeks",
+        resultSub: "Data Accuracy",
+    },
+    {
+        initials: "HG",
+        gradient: "#0b2e58",
+        client: "HighlandGear Scotland",
+        country: "UK",
+        project: "Category Tree + Variation Setup",
+        category: "A+ Cataloging",
+        result: "Perfect parent-child structure",
+        resultSub: "Catalog Structure",
+    },
+    {
+        initials: "FF",
+        gradient: "#0b2e58",
+        client: "FashionFusion France",
+        country: "France",
+        project: "ASIN Bulk Upload + A+ Content",
+        category: "A+ Cataloging",
+        result: "300 ASINs uploaded",
+        resultSub: "Bulk Operations",
+    },
+    {
+        initials: "MC",
+        gradient: "#0b2e58",
+        client: "MexiCraft Goods",
+        country: "Mexico",
+        project: "Full Catalog Rebuild + A+",
+        category: "A+ Cataloging",
+        result: "Zero suppressed listings",
+        resultSub: "Catalog Health",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe cataloged and created A+ content for our 150-product hardware range simultaneously. Consistent formatting, accurate specifications, and excellent visuals across every ASIN. Flawless execution.",
+        name: "Oliver Bennett | BritishCraft Hardware",
+        location: "UK",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Managing a large catalog with A+ content requirements is daunting. Tech2Globe handled our entire cataloging project — 200 ASINs with A+ content — in just 3 weeks. Accuracy was 100%.",
+        name: "Patricia Müller | GardenGrow Germany",
+        location: "Germany",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's A+ cataloging service is outstanding. They structured our category tree, built detailed parent-child variations, and created rich A+ content for each product family. Our catalog is now world-class.",
+        name: "William Fraser | HighlandGear Scotland",
+        location: "UK",
+    },
+];
+
+
 export default function AmazonDSP() {
     return (
 
@@ -451,6 +532,9 @@ export default function AmazonDSP() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

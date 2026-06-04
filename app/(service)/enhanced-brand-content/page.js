@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon A+ Content | Enhanced Brand Content Services",
@@ -289,6 +291,84 @@ const caseStudies = [
 ]
 
 
+const portfolioClients = [
+    {
+        initials: "PG",
+        gradient: "#0b2e58",
+        client: "PetalGlow Skincare",
+        country: "USA",
+        project: "30-ASIN A+ Content Creation",
+        category: "EBC / A+ Content",
+        result: "+18% avg conversion rate",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "SL",
+        gradient: "#0b2e58",
+        client: "ScandinavianLiving",
+        country: "Denmark",
+        project: "EBC with Lifestyle Imagery",
+        category: "EBC / A+ Content",
+        result: "Returns down 22%",
+        resultSub: "Return Reduction",
+    },
+    {
+        initials: "RJ",
+        gradient: "#0b2e58",
+        client: "RussianCraft Jewelry",
+        country: "Russia",
+        project: "Premium A+ for Jewelry Brand",
+        category: "EBC / A+ Content",
+        result: "+25% conversions",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "TE",
+        gradient: "#0b2e58",
+        client: "TechFlow Electronics",
+        country: "Germany",
+        project: "A+ Comparison Chart Modules",
+        category: "EBC / A+ Content",
+        result: "Cross-sell rate +35%",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "WO",
+        gradient: "#0b2e58",
+        client: "WildRoots Organics",
+        country: "Canada",
+        project: "Premium A+ (Brand Story) Content",
+        category: "EBC / A+ Content",
+        result: "CTR improved 40%",
+        resultSub: "Engagement Growth",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe created A+ content for our 30 best-selling SKUs and the results were incredible. Conversion rates improved by an average of 18% across all updated listings. The design quality is exceptional.",
+        name: "Grace Williamson | PetalGlow Skincare",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our product pages had no brand story and minimal content. Tech2Globe built beautiful EBC modules with lifestyle imagery, feature icons, and comparison charts. Our return rate also dropped by 22%.",
+        name: "Lars Hansen | ScandinavianLiving",
+        location: "Denmark",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's A+ content creation for our handcrafted jewelry line elevated our entire brand perception on Amazon. The content is visually rich and tells our story beautifully. Conversions jumped 25%.",
+        name: "Nadia Petrov | RussianCraft Jewelry",
+        location: "Russia",
+    },
+];
+
+
 export default function AmazonDSP() {
     return (
 
@@ -325,7 +405,7 @@ export default function AmazonDSP() {
                                     <li>High-quality content for publication.</li>
                                 </ul>
                             </div>
-                            
+
                             <div className={Style.ContentDiv}>
                                 <h5 className="pt-3 pb-2"><img src="/images/services/service-inner/customer-acatalog.png" alt="" className={Style.InnerIcon} /> Services Included</h5>
 
@@ -458,6 +538,9 @@ export default function AmazonDSP() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

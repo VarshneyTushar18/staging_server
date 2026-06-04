@@ -8,6 +8,8 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
@@ -357,6 +359,84 @@ const faqs = [
     }
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "PD",
+        gradient: "#0b2e58",
+        client: "ProGear Direct USA",
+        country: "USA",
+        project: "1,000+ ASIN Catalog Management",
+        category: "Catalog Management",
+        result: "Ongoing monthly management",
+        resultSub: "Scalable Operations",
+    },
+    {
+        initials: "TH",
+        gradient: "#0b2e58",
+        client: "TokyoHome Goods",
+        country: "Japan",
+        project: "Full Catalog Error Fix",
+        category: "Catalog Management",
+        result: "Zero suppressed listings",
+        resultSub: "Catalog Health",
+    },
+    {
+        initials: "IL",
+        gradient: "#0b2e58",
+        client: "IrishLinen House",
+        country: "Ireland",
+        project: "Ongoing Catalog Maintenance",
+        category: "Catalog Management",
+        result: "100% catalog health",
+        resultSub: "System Stability",
+    },
+    {
+        initials: "NK",
+        gradient: "#0b2e58",
+        client: "NordicKids Denmark",
+        country: "Denmark",
+        project: "New Launch Catalog Setup",
+        category: "Catalog Management",
+        result: "50 new ASINs/month",
+        resultSub: "Launch Velocity",
+    },
+    {
+        initials: "SA",
+        gradient: "#0b2e58",
+        client: "StyleMax Australia",
+        country: "Australia",
+        project: "Variation Tree Consolidation",
+        category: "Catalog Management",
+        result: "Parent-child fixed for 300 SKUs",
+        resultSub: "Structure Optimization",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe manages our entire product catalog of 1,000+ ASINs. Listing creation, updates, variation setups, and catalog health maintenance — all handled with precision and speed. Truly a game-changer.",
+        name: "Ethan Walsh | ProGear Direct USA",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our catalog had hundreds of errors — wrong attributes, missing images, incorrect categories. Tech2Globe cleaned everything up and rebuilt our catalog properly. Zero suppressed listings since.",
+        name: "Hana Kobayashi | TokyoHome Goods",
+        location: "Japan",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Catalog management was our biggest bottleneck. Tech2Globe's team handles all new product launches, seasonal updates, and variation merges efficiently and accurately. Our catalog is always 100% healthy.",
+        name: "Sandra O'Brien | IrishLinen House",
+        location: "Ireland",
+    },
+];
+
 export default function AmazonProductCatalog() {
     return (
         <>
@@ -555,6 +635,10 @@ export default function AmazonProductCatalog() {
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div>
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
+
             <FaqSection faqs={faqs} />
         </>
     )

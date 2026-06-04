@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Amazon Store Creation Services | AI-Enhanced Storefront Design & Brand Setup",
@@ -305,38 +307,6 @@ const sidebarSections = [
 ];
 
 
-const testimonials = [
-    {
-        id: 1,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-        name: "Roxel- Account Management India",
-    },
-    {
-        id: 2,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Excellent Team, good results in sales",
-        name: "Andriana- Amazon Sponsored Ads USA",
-    },
-    {
-        id: 3,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Excellent service by Tech2globe, brilliant service and hardworking",
-        name: "Neo Global- Vendor Account Management UK",
-    },
-    {
-        id: 4,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Courteous, professional, quality work, best bang for your buck",
-        name: " Medi Hub- Amazon Store Creations USA",
-    },
-    {
-        id: 5,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-        name: "Teliamed- Amazon Enhance Brand Content USA",
-    },
-];
 
 const faqs = [
     {
@@ -375,6 +345,84 @@ const faqs = [
       `,
     },
 ];
+
+const portfolioClients = [
+    {
+        initials: "LB",
+        gradient: "#0b2e58",
+        client: "LuminaBrand UK",
+        country: "UK",
+        project: "Multi-Page Amazon Brand Store",
+        category: "Store Creation",
+        result: "3x store visits month 1",
+        resultSub: "Traffic Growth",
+    },
+    {
+        initials: "IE",
+        gradient: "#0b2e58",
+        client: "ItalianEssence Brand",
+        country: "Italy",
+        project: "Premium Lifestyle Storefront",
+        category: "Store Creation",
+        result: "2x sales from store visits",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "SS",
+        gradient: "#0b2e58",
+        client: "SeoulStyle Fashion",
+        country: "South Korea",
+        project: "K-Fashion Category Store",
+        category: "Store Creation",
+        result: "Bounce rate -40%",
+        resultSub: "UX Improvement",
+    },
+    {
+        initials: "NA",
+        gradient: "#0b2e58",
+        client: "NordPeak Athletics",
+        country: "Sweden",
+        project: "Sports Brand Storefront",
+        category: "Store Creation",
+        result: "+5K monthly store visitors",
+        resultSub: "Traffic Growth",
+    },
+    {
+        initials: "TT",
+        gradient: "#0b2e58",
+        client: "TinyTales UK",
+        country: "UK",
+        project: "Baby & Kids Brand Store",
+        category: "Store Creation",
+        result: "4-page store, full brand story",
+        resultSub: "Brand Building",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe designed our Amazon Store from scratch and it looks absolutely stunning. The modular layout, brand story integration, and product categorization are perfect. Store visits increased 3x in the first month.",
+        name: "Diana Faulkner | LuminaBrand UK",
+        location: "UK",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We needed an Amazon Store that reflected our premium brand identity. Tech2Globe delivered a world-class storefront with rich media, lifestyle imagery, and excellent navigation. Sales from store visits doubled.",
+        name: "Marco Bianchi | ItalianEssence Brand",
+        location: "Italy",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our Amazon Store built by Tech2Globe is our best brand asset on the platform. The custom page layout for each product category drives higher engagement and our bounce rate dropped dramatically.",
+        name: "Rachel Kim | SeoulStyle Fashion",
+        location: "South Korea",
+    },
+];
+
 
 export default function StoreCreation() {
     return (
@@ -509,6 +557,8 @@ export default function StoreCreation() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+            <ClientPortfolio clients={portfolioClients} />
+            <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>
     )

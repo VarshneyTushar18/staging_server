@@ -8,30 +8,32 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
-  title: "Amazon Delivery Service Partner | Amazon DSP Services",
-  description:
-    "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
-  keywords:
-    "amazon dsp agency, Amazon DSP services, Amazon DSP, Amazon DSP service in india, Amazon DSP service in USA",
-  alternates: {
-    canonical: "https://stagenew.tech2globe.tech/amazon-dsp",
-  },
-  openGraph: {
     title: "Amazon Delivery Service Partner | Amazon DSP Services",
     description:
-      "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
-    siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/amazon-dsp",
-    type: "website",
-  },
-  twitter: {
-    card: "Amazon Delivery Service Partner | Amazon DSP Services",
-    title: "amazon dsp agency | Amazon DSP services - Tech2Globe",
-    description:
-      "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
-  },
+        "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
+    keywords:
+        "amazon dsp agency, Amazon DSP services, Amazon DSP, Amazon DSP service in india, Amazon DSP service in USA",
+    alternates: {
+        canonical: "https://stagenew.tech2globe.tech/amazon-dsp",
+    },
+    openGraph: {
+        title: "Amazon Delivery Service Partner | Amazon DSP Services",
+        description:
+            "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
+        siteName: "Tech2Globe web Solutions LLP",
+        url: "https://stagenew.tech2globe.tech/amazon-dsp",
+        type: "website",
+    },
+    twitter: {
+        card: "Amazon Delivery Service Partner | Amazon DSP Services",
+        title: "amazon dsp agency | Amazon DSP services - Tech2Globe",
+        description:
+            "With our Amazon Delivery Service Partner agency, you can use a full-funnel approach to keep your brand messaging consistent. Tech2Globe.",
+    },
 };
 
 const pageHeaderData = {
@@ -288,6 +290,82 @@ const caseStudies = [
     }
 ]
 
+const portfolioClients = [
+    {
+        initials: "UC",
+        gradient: "#0b2e58",
+        client: "UrbanGlow Cosmetics",
+        country: "USA",
+        project: "Programmatic DSP Campaign Launch",
+        category: "Amazon DSP",
+        result: "+95% detail page views",
+        resultSub: "Engagement Growth",
+    },
+    {
+        initials: "AA",
+        gradient: "#1e3a8a",
+        client: "AlpineStyle Austria",
+        country: "Austria",
+        project: "Retargeting DSP Strategy",
+        category: "Amazon DSP",
+        result: "+40% purchase rate lift",
+        resultSub: "Conversion Growth",
+    },
+    {
+        initials: "VW",
+        gradient: "#2563eb",
+        client: "VedaLife Wellness",
+        country: "India",
+        project: "OTT + Display DSP Campaign",
+        category: "Amazon DSP",
+        result: "5x+ ROAS consistently",
+        resultSub: "ROAS Growth",
+    },
+    {
+        initials: "NB",
+        gradient: "#0f766e",
+        client: "NaturaCare Beauty",
+        country: "UK",
+        project: "Audience Segment Building",
+        category: "Amazon DSP",
+        result: "3 custom audiences created",
+        resultSub: "Audience Expansion",
+    },
+    {
+        initials: "SP",
+        gradient: "#7c3aed",
+        client: "SportMax Pro",
+        country: "Canada",
+        project: "DSP + Sponsored Ads Integration",
+        category: "Amazon DSP",
+        result: "+180% attributed sales",
+        resultSub: "Sales Growth",
+    },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's DSP campaigns reached our target audience beyond Amazon — on premium publisher sites, Fire TV, and Twitch. Our brand awareness skyrocketed and we saw a 95% lift in detail page views.",
+        name: "Sarah Connors | UrbanGlow Cosmetics",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We had never used Amazon DSP before. Tech2Globe built our entire programmatic strategy, created the audience segments, and managed the campaigns end to end. Retargeting alone drove a 40% purchase rate lift.",
+        name: "Felix Gruber | AlpineStyle Austria",
+        location: "Austria",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Amazon DSP expertise helped us re-engage lapsed buyers and reach new audiences across OTT and display. Our ROAS from DSP campaigns is consistently 5x or higher.",
+        name: "Priya Kapoor | VedaLife Wellness",
+        location: "India",
+    },
+];
 
 export default function AmazonDSP() {
     return (
@@ -310,7 +388,7 @@ export default function AmazonDSP() {
                                 <p><strong>Amazon DSP</strong> is a platform that helps marketers to plan campaigns, manage audience data, produce creatives, find and buy inventory, and optimize and monitor campaigns. Tech2Globe, as a leading Amazon DSP agency, has the resources to assist you in launching your items and growing your business on Amazon. We use audience targeting and dynamic advertisements to increase earnings and save time.</p>
                             </div>
 
-                             <div className={Style.ContentDiv}>
+                            <div className={Style.ContentDiv}>
                                 <h5 className="pt-3 pb-2"><img src="/images/services/service-inner/control.png" alt="" className={Style.InnerIcon} /> How Do I Use Amazon DSP?</h5>
                                 <p>Tech2Globe takes an all-encompassing approach to build your eCommerce marketing strategies with our complete Amazon consulting solution. We recognize that your items are distinctive to your business and should be handled as such. Our professional retail marketing team focuses on co-operation, competitive research, and marketing strategy to understand your unique client base and what motivates their purchase decisions. We will help you with <strong>Amazon DSP Certification</strong> and help your sales grow to the maximum value.</p>
                             </div>
@@ -518,6 +596,11 @@ export default function AmazonDSP() {
             </div>
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };
