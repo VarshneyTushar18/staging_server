@@ -20,6 +20,15 @@
     text-decoration: underline;
 }
 
+.trail {
+    flex-wrap: wrap;
+}
+
+.pageName {
+    max-width: 100%;
+    word-break: break-word;
+}
+
 
 @media (max-width:767px) {
     .BreadcrumbBg {

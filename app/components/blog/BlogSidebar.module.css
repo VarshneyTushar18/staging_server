@@ -1,0 +1,165 @@
+.sidebar {
+  position: static;
+  padding-bottom: var(--blog-widget-offset, 80px);
+}
+
+.widget {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.widgetTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #c7070c;
+  padding-bottom: 0.5rem;
+}
+
+.searchForm {
+  margin: 0;
+}
+
+.searchInput {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #c7070c;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.linkItem {
+  margin-bottom: 0.65rem;
+  line-height: 1.45;
+}
+
+.postLink {
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.postLink:hover {
+  text-decoration: underline;
+  color: #c7070c;
+}
+
+.viewCountInline {
+  color: #888;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.postDateLine {
+  display: block;
+  font-size: 0.78rem;
+  color: #999;
+  margin-top: 0.15rem;
+}
+
+.recentList .recentItem {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.recentList .recentItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.recentDate {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.emptyNote {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #888;
+}
+
+.categoryList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.archiveList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.categoryItem,
+.archiveItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.categoryItem:last-child,
+.archiveItem:last-child {
+  border-bottom: none;
+}
+
+.categoryLink,
+.archiveLink {
+  color: #0d6efd;
+  text-decoration: none;
+  font-size: 0.92rem;
+  flex: 1;
+}
+
+.categoryLink:hover,
+.archiveLink:hover,
+.categoryLink.active,
+.archiveLink.active {
+  color: #c7070c;
+  font-weight: 600;
+}
+
+.catCount {
+  color: #999;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.clearFilter {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #c7070c;
+  text-decoration: none;
+}
+
+.clearFilter:hover {
+  text-decoration: underline;
+}
+
+.recentList .sidebarPostItem {
+  padding: 0.75rem 0;
+}

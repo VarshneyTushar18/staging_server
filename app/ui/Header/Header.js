@@ -1695,7 +1695,7 @@ export default function Header() {
                            <li><Link href="testimonial">Testimonial</Link></li>
                            <li><Link href="case-studies">Case Studies</Link></li>
                            <li><Link href="/portfolio">Portfolio</Link></li>
-                           <li><Link href="https://blog.tech2globe.com/">Blogs</Link></li>
+                           <li><Link href="/blogs">Blogs</Link></li>
                         </ul>
                      </li>
                      <li><Link href="contact-us">Contact</Link></li>
@@ -1812,7 +1812,7 @@ export default function Header() {
                                           Studies</a>
                                        </li>
                                        <li><a href="/portfolio">Portfolio</a> </li>
-                                       <li><a href="https://blog.tech2globe.com/">Blogs</a></li>
+                                       <li><a href="/blogs">Blogs</a></li>
                                        <li><a href="/startup-consulting">Startup
                                           Consulting</a>
                                        </li>

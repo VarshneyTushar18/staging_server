@@ -1,16 +1,12 @@
 import BlogSlider from "./BlogSlider";
 import Style from "./OurBlogs.module.css";
+import { fetchBlogPosts } from "@/lib/blogApi";
 
 export default async function OurBlogs() {
     let posts = [];
     try {
-        const res = await fetch(
-            "https://blog.tech2globe.com/wp-json/wp/v2/posts?per_page=6",
-            { next: { revalidate: 60 } }
-        );
-
-        if (!res.ok) throw new Error("Failed to fetch posts");
-        posts = await res.json();
+        const result = await fetchBlogPosts({ perPage: 6 });
+        posts = result.posts;
     } catch (error) {
         console.error("Error fetching posts:", error);
     }

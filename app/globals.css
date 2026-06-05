@@ -65,6 +65,12 @@ header {
   top: 0;
   background: #fff;
   z-index: 99999;
+  overflow: visible;
+}
+
+header .container,
+header .row {
+  overflow: visible;
 }
 
 .sub-title {
