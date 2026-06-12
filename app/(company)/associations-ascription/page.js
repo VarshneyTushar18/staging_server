@@ -178,12 +178,12 @@ export default function AssociationsAscription() {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-5">
+                  {/* <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-5">
                     <div className={Style.AssociationsCard}>
                       <img src="images/associations-ascription/awards-7.jpg" alt="Certified INDIA 5000 BEST MSME AWARDS"/>
                       <h3>Certified INDIA 5000 BEST MSME AWARDS</h3>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-5">
                     <div className={Style.AssociationsCard}>
