@@ -24,22 +24,26 @@ export default function CaseStudiesService({ caseStudies }) {
             key={study.id}
             className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4"
           >
-            <div className={`${Style.CaseStudyCard} p-3 h-100 d-flex flex-column align-items-center text-center border rounded-4 shadow-sm bg-white`}>
+            <div className={Style.CaseStudyCard}>
               <Image
                 src={study.image}
                 alt={study.title}
                 width={400}
                 height={250}
-                className="img-fluid rounded casestudies-img mb-3"
+                className={Style.cardImage}
               />
-              <h4 className={Style.CaseStudyCardTitle}>{study.title}</h4>
-              <p className={Style.CaseStudyCardDesc}>{study.description}</p>
-              <Link
-                href={study.docLink}
-                className={Style.CaseStudyCardBtn}
-              >
-                Read More
-              </Link>
+              <div className={Style.cardContent}>
+                <span className={Style.caseStudyLabel}>CASE STUDY</span>
+                <h4 className={Style.CaseStudyCardTitle}>{study.title}</h4>
+                <p className={Style.CaseStudyCardDesc}>{study.description}</p>
+                <Link
+                  href={study.docLink}
+                  className={Style.CaseStudyCardBtn}
+                >
+                  Read More
+                  <span className={Style.btnArrow}>→</span>
+                </Link>
+              </div>
             </div>
           </div>
         ))}

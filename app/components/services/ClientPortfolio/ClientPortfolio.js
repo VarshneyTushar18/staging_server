@@ -6,7 +6,7 @@ const ClientPortfolio = ({ clients }) => {
             <div className="cp-bg">
                 <div className="container">
                     <div className="cp-header">
-                        <h2 className="cp-title">International Client Portfolio</h2>
+                        <h2 className="cp-title">Client Portfolio</h2>
                     </div>
 
                     <div className="cp-grid">
@@ -44,13 +44,17 @@ const ClientPortfolio = ({ clients }) => {
                                         {item.project}
                                     </p>
 
+                                    <p className="cp-project-desc">
+                                        {item.desc}
+                                    </p>
+
                                     <span className="cp-category-tag">
                                         {item.category}
                                     </span>
                                 </div>
 
                                 <div className="cp-result-box">
-                                    <span className="cp-result-icon">📈</span>
+                                    {/* <span className="cp-result-icon">📈</span> */}
 
                                     <div>
                                         <p className="cp-result-value">
