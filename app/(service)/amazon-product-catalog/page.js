@@ -359,7 +359,6 @@ const faqs = [
     }
 ];
 
-
 const portfolioClients = [
     {
         initials: "PD",
@@ -367,6 +366,7 @@ const portfolioClients = [
         client: "ProGear Direct USA",
         country: "USA",
         project: "1,000+ ASIN Catalog Management",
+        desc: "US sports gear brand with 1,000+ ASINs that relies on Tech2Globe for listing creation, variation setups, updates, and complete catalog health maintenance.",
         category: "Catalog Management",
         result: "Ongoing monthly management",
         resultSub: "Scalable Operations",
@@ -377,6 +377,7 @@ const portfolioClients = [
         client: "TokyoHome Goods",
         country: "Japan",
         project: "Full Catalog Error Fix",
+        desc: "Japanese home goods seller that eliminated all suppressed listings after Tech2Globe cleaned errors, fixed attributes, and fully rebuilt the product catalog.",
         category: "Catalog Management",
         result: "Zero suppressed listings",
         resultSub: "Catalog Health",
@@ -387,6 +388,7 @@ const portfolioClients = [
         client: "IrishLinen House",
         country: "Ireland",
         project: "Ongoing Catalog Maintenance",
+        desc: "Irish linen brand that maintains a 100% healthy Amazon catalog with efficient handling of launches, seasonal updates, and variation merges.",
         category: "Catalog Management",
         result: "100% catalog health",
         resultSub: "System Stability",

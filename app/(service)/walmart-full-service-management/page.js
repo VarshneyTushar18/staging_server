@@ -9,6 +9,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
 
@@ -66,25 +67,85 @@ const sidebarSections = [
     { heading: "Useful Links", links: usefulLinks },
 ];
 
+const portfolioClients = [
+    {
+        initials: "HB",
+        gradient: "#0b2e58",
+        client: "HomeBase Essentials",
+        country: "USA",
+        project: "End-to-End Store Growth Plan",
+        desc: "US home essentials brand that achieved 84% revenue growth in 90 days through complete Walmart store management and AI-powered listing optimization.",
+        category: "Full Service Mgmt",
+        result: "+84% Revenue in 90 days",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "NP",
+        gradient: "#0b2e58",
+        client: "NorthPeak Outdoors",
+        country: "Canada",
+        project: "Walmart AI Listing + PPC Overhaul",
+        desc: "Canadian outdoor brand that doubled its Walmart revenue in 5 months by outsourcing full account management including PPC and inventory oversight.",
+        category: "Full Service Mgmt",
+        result: "Revenue doubled in 5 months",
+        resultSub: "Sales Growth",
+    },
+    {
+        initials: "OB",
+        gradient: "#0b2e58",
+        client: "OutbackBrand Co.",
+        country: "Australia",
+        project: "Full Account Takeover & Scaling",
+        desc: "Australian brand that turned its Walmart store consistently profitable and fast-scaling through Tech2Globe's AI-powered full service management approach.",
+        category: "Full Service Mgmt",
+        result: "3x monthly orders",
+        resultSub: "Order Growth",
+    },
+    {
+        initials: "CH",
+        gradient: "#0b2e58",
+        client: "CleanHome Direct",
+        country: "UK",
+        project: "Store Health & Performance Recovery",
+        category: "Full Service Mgmt",
+        result: "Account health score 100%",
+        resultSub: "Account Recovery",
+    },
+    {
+        initials: "GG",
+        gradient: "#0b2e58",
+        client: "GlobalGoods Hub",
+        country: "Germany",
+        project: "Inventory + Fulfillment Management",
+        category: "Full Service Mgmt",
+        result: "Zero stockout incidents",
+        resultSub: "Inventory Success",
+    },
+];
+
+
 
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe has been instrumental in managing our Walmart account. From listing to inventory and advertising, their full-service approach allowed us to focus on scaling while they handled the backend.",
-        name: "Anita Desai",
+        text: "Tech2Globe took complete ownership of our Walmart store and the results were beyond our expectations. Within 90 days, our sales grew by 84% and our listings ranked on the first page for our core keywords. Truly a world-class team.",
+        name: "David R. Thornton | HomeBase Essentials",
+        location: "UK",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Their Walmart full-service management is top-notch. We saw immediate improvements in order flow, product ranking, and seller metrics. The team is responsive and always ahead of deadlines.",
-        name: "Robert Kim",
+        text: "We handed our entire Walmart account to Tech2Globe and never looked back. From listing optimization and PPC to inventory management and performance analytics — everything is handled professionally. Our revenue doubled in 5 months.",
+        name: "Sarah Mitchell | NorthPeak Outdoors ",
+        location: "Canada",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We outsourced our Walmart store to Tech2Globe and never looked back. Their end-to-end management gave us a competitive edge in listings, pricing, reviews, and fulfillment. Total game-changer!",
-        name: "Melissa Grant",
+        text: "Tech2Globe's full service management is the best investment we made for our Walmart business. Their AI-powered approach to growth is unlike anything we had experienced before. Our store is now consistently profitable and scaling fast.",
+        name: "James O'Sullivan | OutbackBrand Co.",
+        location: "Australia",
     },
 ];
 
@@ -308,7 +369,7 @@ export default function WalmartManagement() {
                     </div>
                 </div>
             </section>
-
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

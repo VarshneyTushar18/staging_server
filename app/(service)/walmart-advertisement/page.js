@@ -9,6 +9,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Walmart Advertising Agency | AI-Optimized PPC Campaigns for Maximum Sales",
@@ -67,27 +68,87 @@ const sidebarSections = [
     { heading: "Useful Links", links: usefulLinks },
 ];
 
+const portfolioClients = [
+    {
+        initials: "TZ",
+        gradient: "#0b2e58",
+        client: "TechZone USA",
+        country: "USA",
+        project: "PPC Campaign Rebuild & Optimization",
+        desc: "US electronics retailer that boosted Walmart ROAS from 2.1x to 7.4x in 8 weeks through AI-driven bid management and full PPC account restructuring.",
+        category: "Walmart Advertising",
+        result: "ROAS improved from 2.1x to 7.4x",
+        resultSub: "ROAS Growth",
+    },
+    {
+        initials: "BL",
+        gradient: "#0b2e58",
+        client: "BrightLeaf Home",
+        country: "UK",
+        project: "Sponsored Products Launch Strategy",
+        desc: "UK home brand that tripled ad-driven sales and cut CPC by 42% after Tech2Globe rebuilt its entire Walmart advertising strategy from scratch.",
+        category: "Walmart Advertising",
+        result: "3x ad-driven sales in 60 days",
+        resultSub: "Sales Growth",
+    },
+    {
+        initials: "MC",
+        gradient: "#0b2e58",
+        client: "MapleCart Retail",
+        country: "Canada",
+        project: "Full Funnel Ad Campaign Management",
+        desc: "Canadian retail brand that achieved peak Walmart brand visibility through expertly managed Sponsored Products, Sponsored Brands, and display campaigns.",
+        category: "Walmart Advertising",
+        result: "CPC reduced by 42%",
+        resultSub: "Cost Reduction",
+    },
+    {
+        initials: "WW",
+        gradient: "#0b2e58",
+        client: "WinterWear Direct",
+        country: "USA",
+        project: "Seasonal Peak Ad Campaign",
+        category: "Walmart Advertising",
+        result: "Best Q4 ROAS ever recorded",
+        resultSub: "Seasonal Success",
+    },
+    {
+        initials: "NC",
+        gradient: "#0b2e58",
+        client: "NatureCare Labs",
+        country: "Australia",
+        project: "Brand Visibility & Display Ads",
+        category: "Walmart Advertising",
+        result: "+180% branded search impressions",
+        resultSub: "Brand Awareness",
+    },
+];
+
 
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe has truly elevated our Walmart store performance. Their advertising strategies helped us gain better visibility and a significant boost in conversions within the first month.",
-        name: "Steve Richardson",
+        text: "Tech2Globe's Walmart advertising team is phenomenal. They restructured our entire PPC account, eliminated wasted ad spend, and boosted our ROAS from 2.1x to 7.4x in just 8 weeks. Their AI-driven bid management is something truly special.",
+        name: "Michael T. Barnes | TechZone USA",
+        location: "USA",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Working with Tech2Globe for Walmart Sponsored Ads was seamless. They handled everything from keyword research to campaign optimization, and the results have been fantastic.",
-        name: "Jamie Thompson",
+        text: "We were burning money on Walmart ads with no clear strategy. Tech2Globe audited our campaigns, rebuilt them from scratch, and implemented a data-driven approach. Our CPC dropped by 42% and sales from ads tripled within 2 months.",
+        name: "Emma Harrington | BrightLeaf Home ",
+        location: "UK",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I highly recommend Tech2Globe for Walmart Ad services. Their team's expertise and dedication helped us scale our brand's reach efficiently while maintaining a strong ROI.",
-        name: "Parveen Kumar",
+        text: "Exceptional advertising management! Tech2Globe handles our Walmart Sponsored Products, Sponsored Brands, and display campaigns with precision. Our brand visibility on Walmart has never been higher, and our ad spend ROI keeps improving every month.",
+        name: "Lucas Beaumont | MapleCart Retail ",
+        location: "Canada",
     },
 ];
+
 
 const faqs = [
     {
@@ -393,7 +454,7 @@ export default function WalmartAdvertising() {
                     </div>
                 </div>
             </section>
-
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

@@ -384,6 +384,7 @@ const caseStudies = [
     }
 ]
 
+
 const portfolioClients = [
     {
         initials: "BU",
@@ -391,6 +392,7 @@ const portfolioClients = [
         client: "BoldFit USA",
         country: "USA",
         project: "Campaign Restructure & Optimization",
+        desc: "US fitness brand that reduced ACOS from 52% to 18% while tripling ad-attributed revenue through granular campaign restructuring and keyword strategies.",
         category: "Advertising",
         result: "ACOS: 52% → 18%",
         resultSub: "Cost Efficiency",
@@ -401,6 +403,7 @@ const portfolioClients = [
         client: "ParisChic Accessories",
         country: "France",
         project: "Full Ad Type Launch (SP+SB+SD)",
+        desc: "French accessories brand that transformed wasted ad spend into profitable results by rebuilding campaigns with Sponsored Brand and Display ads.",
         category: "Advertising",
         result: "+300% ad ROI",
         resultSub: "ROI Growth",
@@ -411,6 +414,7 @@ const portfolioClients = [
         client: "AfriLux Clothing",
         country: "Nigeria",
         project: "Multi-Marketplace Ad Management",
+        desc: "Nigerian fashion brand that achieved a consistent 6x ROAS across simultaneous ad campaigns on US, UK, and German Amazon marketplaces.",
         category: "Advertising",
         result: "6x ROAS across 3 markets",
         resultSub: "International Growth",

@@ -262,6 +262,7 @@ const portfolio = [
     }
 ]
 
+
 const portfolioClients = [
     {
         initials: "BB",
@@ -269,6 +270,7 @@ const portfolioClients = [
         client: "BritBotanicals",
         country: "UK",
         project: "Review Recovery Strategy",
+        desc: "UK botanicals brand that improved overall product rating from 3.4 to 4.6 stars in 90 days through compliant ethical review management strategies.",
         category: "Review & Rating",
         result: "3.4 → 4.6 stars in 90 days",
         resultSub: "Rating Improvement",
@@ -279,6 +281,7 @@ const portfolioClients = [
         client: "GermanPure Health",
         country: "Germany",
         project: "Negative Review Crisis Response",
+        desc: "German health brand that fully recovered its rating after Tech2Globe professionally managed a surge of negative reviews caused by a logistics issue.",
         category: "Review & Rating",
         result: "Rating fully restored",
         resultSub: "Crisis Recovery",
@@ -289,6 +292,7 @@ const portfolioClients = [
         client: "PureMaple Canada",
         country: "Canada",
         project: "Review Generation Program",
+        desc: "Canadian maple brand that doubled its review count in four months using Amazon's Request a Review feature and compliant post-purchase communication sequences.",
         category: "Review & Rating",
         result: "2x review count in 4 months",
         resultSub: "Review Growth",

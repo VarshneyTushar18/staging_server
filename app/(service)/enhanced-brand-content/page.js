@@ -290,7 +290,6 @@ const caseStudies = [
     }
 ]
 
-
 const portfolioClients = [
     {
         initials: "PG",
@@ -298,6 +297,7 @@ const portfolioClients = [
         client: "PetalGlow Skincare",
         country: "USA",
         project: "30-ASIN A+ Content Creation",
+        desc: "US skincare brand that improved conversion rates by an average of 18% across 30 best-selling SKUs after professionally designed A+ content.",
         category: "EBC / A+ Content",
         result: "+18% avg conversion rate",
         resultSub: "Conversion Growth",
@@ -308,6 +308,7 @@ const portfolioClients = [
         client: "ScandinavianLiving",
         country: "Denmark",
         project: "EBC with Lifestyle Imagery",
+        desc: "Danish home brand that reduced return rates by 22% and strengthened brand storytelling through EBC modules with lifestyle imagery and comparison charts.",
         category: "EBC / A+ Content",
         result: "Returns down 22%",
         resultSub: "Return Reduction",
@@ -318,6 +319,7 @@ const portfolioClients = [
         client: "RussianCraft Jewelry",
         country: "Russia",
         project: "Premium A+ for Jewelry Brand",
+        desc: "Russian handcrafted jewelry brand that elevated Amazon brand perception and boosted conversions by 25% through visually rich A+ content.",
         category: "EBC / A+ Content",
         result: "+25% conversions",
         resultSub: "Conversion Growth",

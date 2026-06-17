@@ -289,6 +289,7 @@ const caseStudies = [
     }
 ]
 
+
 const portfolioClients = [
     {
         initials: "IS",
@@ -296,6 +297,7 @@ const portfolioClients = [
         client: "IrishCraft Spirits",
         country: "Ireland",
         project: "Pricing Audit & Repricing Strategy",
+        desc: "Irish spirits brand that improved Buy Box win rate from 45% to 88% after repricing strategy corrected overpricing across 30% of its catalog.",
         category: "Pricing Strategy",
         result: "Buy Box: 45% → 88%",
         resultSub: "Buy Box Growth",
@@ -306,6 +308,7 @@ const portfolioClients = [
         client: "SwedenStyle Home",
         country: "Sweden",
         project: "Dynamic Pricing Automation",
+        desc: "Swedish home brand that adopted automated 24/7 dynamic repricing, remaining competitive on Amazon without sacrificing profit margins.",
         category: "Pricing Strategy",
         result: "Margins protected 24/7",
         resultSub: "Margin Protection",
@@ -316,6 +319,7 @@ const portfolioClients = [
         client: "SpiceRoute Exports",
         country: "India",
         project: "Competitive Pricing Analysis",
+        desc: "India-based export brand that found the ideal balance between market competitiveness and profitability through a structured pricing audit strategy.",
         category: "Pricing Strategy",
         result: "+35% profit margin",
         resultSub: "Profit Growth",

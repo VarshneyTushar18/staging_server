@@ -334,7 +334,6 @@ const faqs = [
     },
 ];
 
-
 const portfolioClients = [
     {
         initials: "VF",
@@ -342,6 +341,7 @@ const portfolioClients = [
         client: "VivaFashion Miami",
         country: "USA",
         project: "500-Image Batch Editing",
+        desc: "US fashion brand that improved search CTR by 35% after professional editing of 500+ product images, including lifestyle composites and background removal.",
         category: "Image Editing",
         result: "+35% CTR improvement",
         resultSub: "CTR Growth",
@@ -352,6 +352,7 @@ const portfolioClients = [
         client: "DutchDesign Studio",
         country: "Netherlands",
         project: "White Background + Shadow",
+        desc: "Netherlands design studio that relies on Tech2Globe for all Amazon post-production — retouching, shadow creation, and compliant white-background images.",
         category: "Image Editing",
         result: "Amazon compliance 100%",
         resultSub: "Compliance",
@@ -362,6 +363,7 @@ const portfolioClients = [
         client: "ShanghaiLux Fashion",
         country: "China",
         project: "Lifestyle Composite Creation",
+        desc: "Chinese fashion brand that receives studio-quality, marketplace-ready product images at a fraction of professional photography studio costs.",
         category: "Image Editing",
         result: "Studio quality, fast TAT",
         resultSub: "Production Speed",

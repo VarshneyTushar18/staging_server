@@ -102,7 +102,6 @@ const pageHeaderData = {
 };
 
 
-
 const portfolioClients = [
     {
         initials: "GP",
@@ -110,6 +109,7 @@ const portfolioClients = [
         client: "GrantLux Perfumes",
         country: "UK",
         project: "Brand Story + Premium A+ Modules",
+        desc: "UK luxury fragrance brand that elevated Amazon positioning significantly through Premium A+ content featuring brand story and full-width visual modules.",
         category: "Premium Content",
         result: "Elevated brand positioning",
         resultSub: "Brand Positioning",
@@ -120,6 +120,7 @@ const portfolioClients = [
         client: "Ferrario Italian Wines",
         country: "Italy",
         project: "Heritage Brand Narrative Content",
+        desc: "Italian winery that conveyed heritage and craftsmanship through immersive full-width brand narratives, instantly elevating premium buyer perception.",
         category: "Premium Content",
         result: "Full-width immersive content",
         resultSub: "Brand Storytelling",
@@ -130,6 +131,7 @@ const portfolioClients = [
         client: "MaisonFrance Cosmetics",
         country: "France",
         project: "Luxury Cosmetics Premium A+",
+        desc: "French luxury cosmetics brand that improved conversions by 30% and reduced price objections after Premium A+ content transformed its Amazon presence.",
         category: "Premium Content",
         result: "+30% conversion rate",
         resultSub: "Conversion Growth",

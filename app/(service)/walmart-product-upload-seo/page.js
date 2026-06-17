@@ -10,6 +10,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import "./custom.css";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Best Walmart Advertising Agency | Walmart PPC Service",
@@ -69,24 +70,83 @@ const sidebarSections = [
 ];
 
 
+const portfolioClients = [
+    {
+        initials: "PG",
+        gradient: "#0b2e58",
+        client: "ProGear Sports",
+        country: "USA",
+        project: "1,200 SKU Upload & SEO Optimization",
+        desc: "US sports gear brand that saw 165% organic Walmart traffic growth in 30 days after 1,200+ products were uploaded with expert keyword-optimized SEO.",
+        category: "Product Upload & SEO",
+        result: "+165% organic traffic in 30 days",
+        resultSub: "Organic Growth",
+    },
+    {
+        initials: "TW",
+        gradient: "#0b2e58",
+        client: "TechWerk Electronics",
+        country: "Germany",
+        project: "Bulk Upload + Category Mapping",
+        desc: "German electronics brand that achieved page-one Walmart rankings for competitive keywords through properly categorized, keyword-rich, richly structured listings.",
+        category: "Product Upload & SEO",
+        result: "Page 1 rankings for 50+ keywords",
+        resultSub: "SEO Success",
+    },
+    {
+        initials: "BH",
+        gradient: "#0b2e58",
+        client: "BrazilHome Decor",
+        country: "Brazil",
+        project: "800 SKU Error-Free Bulk Upload",
+        desc: "Brazilian home décor brand that had 800+ SKUs bulk-uploaded with zero errors, full SEO optimization, and precise title and description formatting.",
+        category: "Product Upload & SEO",
+        result: "100% listing accuracy",
+        resultSub: "Catalog Accuracy",
+    },
+    {
+        initials: "FF",
+        gradient: "#0b2e58",
+        client: "FreshFarm Foods",
+        country: "Canada",
+        project: "Walmart Catalog SEO Overhaul",
+        category: "Product Upload & SEO",
+        result: "+90% impressions increase",
+        resultSub: "Visibility Growth",
+    },
+    {
+        initials: "SK",
+        gradient: "#0b2e58",
+        client: "StyleKing Fashion",
+        country: "UK",
+        project: "New Product Launch with SEO",
+        category: "Product Upload & SEO",
+        result: "First-page rank in 14 days",
+        resultSub: "Launch Success",
+    },
+];
+
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe did a phenomenal job uploading and optimizing our Walmart product listings. Their SEO practices helped our items appear in top search results and increased daily traffic significantly.",
-        name: "Sofia Mendes",
+        text: "Tech2Globe uploaded and SEO-optimized over 1,200 of our products on Walmart in record time. Every listing was perfectly structured with the right keywords, attributes, and content. Our organic traffic from Walmart search increased by 165% in 30 days.",
+        name: "Kevin D. Marshall | ProGear Sports",
+        location: "USA",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We struggled with Walmart product uploads until we hired Tech2Globe. Their team ensured accurate product data, keyword-rich titles, and image standards were met. The results were outstanding.",
-        name: "Ravi Mehta",
+        text: "We needed a partner who truly understands Walmart SEO, not just basic uploads. Tech2Globe delivered exactly that — keyword-optimized listings with proper categorization and rich content. Our products now rank on page one for competitive keywords.",
+        name: "Klaus Werner | TechWerk Electronics ",
+        location: "Germany",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "From bulk product uploads to SEO optimization, Tech2Globe handled everything smoothly. Their attention to detail and use of strategic keywords helped our catalog gain more traction on Walmart.",
-        name: "Claire Donovan",
+        text: "Tech2Globe handled our bulk product upload of 800+ SKUs with zero errors and full SEO optimization. Their attention to detail in title structure, key features, and product descriptions is outstanding. Highly recommend their services!",
+        name: "Fernanda Costa | BrazilHome Decor ",
+        location: "Brazil",
     },
 ];
 
@@ -286,7 +346,7 @@ export default function WalmartProductUploadSeo() {
                     </div>
                 </div>
             </section>
-
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
 
         </>

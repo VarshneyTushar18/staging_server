@@ -291,8 +291,6 @@ const caseStudies = [
     }
 ]
 
-
-
 const portfolioClients = [
     {
         initials: "CS",
@@ -300,6 +298,7 @@ const portfolioClients = [
         client: "CopperSmith USA",
         country: "USA",
         project: "Full SEO Listing Optimization",
+        desc: "US copper goods brand that ranked 25 of 30 target keywords on Page 1 within 6 weeks, driving a 120% increase in organic sales without extra ad spend.",
         category: "SEO & Optimization",
         result: "+120% organic sales",
         resultSub: "Organic Growth",
@@ -310,6 +309,7 @@ const portfolioClients = [
         client: "NordicNaturals Denmark",
         country: "Denmark",
         project: "Page 8 to Page 1 in 45 Days",
+        desc: "Danish natural products brand that jumped from Page 8 to Page 1 in 45 days through deep keyword research and comprehensive listing optimization.",
         category: "SEO & Optimization",
         result: "Page 1 for 20 keywords",
         resultSub: "Ranking Growth",
@@ -320,6 +320,7 @@ const portfolioClients = [
         client: "SakuraSkin Japan",
         country: "Japan",
         project: "Japan Marketplace SEO",
+        desc: "Japanese skincare brand that consistently ranks in the top 5 for main keywords after expert local SEO optimization tailored to Japanese search behavior.",
         category: "SEO & Optimization",
         result: "Top 5 ranking for main KWs",
         resultSub: "Search Visibility",

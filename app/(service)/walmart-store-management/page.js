@@ -10,6 +10,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import "./custom.css";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Best Walmart Advertising Agency | Walmart PPC Service",
@@ -69,24 +70,84 @@ const sidebarSections = [
 ];
 
 
+const portfolioClients = [
+    {
+        initials: "CN",
+        gradient: "#0b2e58",
+        client: "CozyNest Home",
+        country: "USA",
+        project: "Dedicated Store Management (12 months)",
+        desc: "US home brand that grew Walmart store revenue by 95% through daily performance monitoring, promotions management, and seamless ongoing store operations.",
+        category: "Store Management",
+        result: "+95% store revenue YoY",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "AP",
+        gradient: "#0b2e58",
+        client: "AsiaPure Wellness",
+        country: "Singapore",
+        project: "Remote Walmart Store Management",
+        desc: "Singapore wellness brand that overcame cross-border management challenges with Tech2Globe handling all listings, inventory, and customer service operations.",
+        category: "Store Management",
+        result: "100% operational uptime",
+        resultSub: "Operational Excellence",
+    },
+    {
+        initials: "DT",
+        gradient: "#0b2e58",
+        client: "DubaiTech Gadgets",
+        country: "UAE",
+        project: "Store Management + Growth Strategy",
+        desc: "UAE tech gadgets brand that made Walmart its number-one sales channel through proactive store management, issue flagging, and consistent metric optimization.",
+        category: "Store Management",
+        result: "Walmart became #1 sales channel",
+        resultSub: "Channel Growth",
+    },
+    {
+        initials: "WW",
+        gradient: "#0b2e58",
+        client: "WinterWear Plus",
+        country: "Canada",
+        project: "Seasonal Promotions & Store Calendar",
+        category: "Store Management",
+        result: "Best seasonal sales on record",
+        resultSub: "Seasonal Success",
+    },
+    {
+        initials: "BH",
+        gradient: "#0b2e58",
+        client: "BestHealth Pharma",
+        country: "Australia",
+        project: "Performance Monitoring & Recovery",
+        category: "Store Management",
+        result: "Seller score maintained at 99",
+        resultSub: "Account Health",
+    },
+];
+
+
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe took complete ownership of our Walmart store management. From handling returns and shipping issues to ensuring our listings stayed compliant, they’ve been a reliable partner in growing our brand.",
-        name: "Nikhil Arora",
+        text: "Tech2Globe manages our Walmart store like a true extension of our team. They monitor our store performance daily, respond to customer queries, manage promotions, and keep everything running seamlessly. Our store revenue is up 95% since we partnered with them.",
+        name: "Patricia L. Evans | CozyNest Home",
+        location: "USA",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We saw a massive improvement in our operational efficiency after Tech2Globe took over our Walmart store management. Their regular reporting and proactive updates keep us informed and in control.",
-        name: "Emily Schroeder",
+        text: "Managing a Walmart store from overseas was a major challenge until we found Tech2Globe. Their dedicated store management team handles everything — from listings and inventory to promotions and customer service. We have complete peace of mind now.",
+        name: "Wei Lin Tan | AsiaPure Wellness ",
+        location: "Singapore",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Managing a Walmart store involves a lot of moving parts—Tech2Globe streamlined it all for us. Their account managers are responsive and truly understand Walmart’s platform inside out.",
-        name: "Omar",
+        text: "Tech2Globe's Walmart store management team is outstanding. They proactively identify growth opportunities, flag issues before they escalate, and keep our store metrics in the green at all times. Our Walmart store has become our #1 sales channel.",
+        name: "Omar Al-Rasheed | DubaiTech Gadgets ",
+        location: "UAE",
     },
 ];
 
@@ -396,7 +457,7 @@ export default function WalmartStoreManagement() {
                     </div>
                 </div>
             </section>
-
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

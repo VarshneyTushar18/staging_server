@@ -9,6 +9,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaArrowRight, FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Best Walmart Advertising Agency | Walmart PPC Service",
@@ -68,26 +69,86 @@ const sidebarSections = [
 ];
 
 
+const portfolioClients = [
+    {
+        initials: "SN",
+        gradient: "#0b2e58",
+        client: "SunShine Nutrition",
+        country: "USA",
+        project: "Marketplace Full Account Management",
+        desc: "US nutrition brand with perfect seller metrics and consistent month-over-month growth through end-to-end Walmart marketplace management by Tech2Globe.",
+        category: "Marketplace Mgmt",
+        result: "Consistent 30% MoM growth",
+        resultSub: "Revenue Growth",
+    },
+    {
+        initials: "VC",
+        gradient: "#0b2e58",
+        client: "VivaCasa Home",
+        country: "Mexico",
+        project: "New Seller Onboarding & Setup",
+        desc: "Mexican home brand that launched 500+ active Walmart SKUs in under 6 weeks with full onboarding, catalog setup, and ongoing marketplace management.",
+        category: "Marketplace Mgmt",
+        result: "500+ SKUs live in 6 weeks",
+        resultSub: "Marketplace Launch",
+    },
+    {
+        initials: "IS",
+        gradient: "#0b2e58",
+        client: "IndoStyle Fashion",
+        country: "India",
+        project: "Catalog Revamp & Sales Growth",
+        desc: "India-based fashion brand that grew Walmart sales by 120% in one quarter after a complete catalog revamp and systematic seller score improvement strategy.",
+        category: "Marketplace Mgmt",
+        result: "+120% sales in Q1",
+        resultSub: "Sales Growth",
+    },
+    {
+        initials: "QS",
+        gradient: "#0b2e58",
+        client: "QuickShip Goods",
+        country: "Canada",
+        project: "Order Management & CS Support",
+        category: "Marketplace Mgmt",
+        result: "98.5% on-time fulfillment",
+        resultSub: "Operational Excellence",
+    },
+    {
+        initials: "EP",
+        gradient: "#0b2e58",
+        client: "ElitePet Supplies",
+        country: "UK",
+        project: "Seller Performance Recovery Plan",
+        category: "Marketplace Mgmt",
+        result: "Seller score from 72 to 98",
+        resultSub: "Performance Recovery",
+    },
+];
+
 const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe's marketplace management team helped us optimize our Walmart product listings and streamline order management. Their expertise in compliance and platform policies saved us a lot of time and errors.",
-        name: "Daniel Foster",
+        text: "Tech2Globe manages our Walmart marketplace presence from end to end. Their team handles listing updates, order management, customer service, and performance monitoring. Our seller metrics are perfect and sales have grown consistently month over month.",
+        name: "Robert J. Callahan | SunShine Nutrition",
+        location: "USA",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We partnered with Tech2Globe for Walmart Marketplace Management and saw instant improvements in our catalog accuracy, shipping performance, and seller rating. Their support is proactive and dependable.",
-        name: "Fatima Noor",
+        text: "Entering the Walmart marketplace was intimidating. Tech2Globe handled our entire onboarding, catalog setup, and ongoing management. We went from zero to 500+ active SKUs in under 6 weeks, and our store is already profitable.",
+        name: "Ana Gutierrez | VivaCasa Home ",
+        location: "Mexico",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Managing Walmart Marketplace was overwhelming until Tech2Globe stepped in. Their full coverage—inventory sync, dispute handling, and backend operations—helped us focus on scaling our brand.",
-        name: "Christopher Allen",
+        text: "Our Walmart marketplace was stagnant for months. Tech2Globe completely revamped our approach — optimizing our catalog, improving our seller score, and implementing a systematic review strategy. Sales jumped by 120% in the first quarter.",
+        name: "Priya Kapoor | IndoStyle Fashion ",
+        location: "India",
     },
 ];
+
 
 const faqs = [
     {
@@ -286,7 +347,7 @@ export default function WalmartMarketplaceManagement() {
                     </div>
                 </div>
             </section>
-
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>
