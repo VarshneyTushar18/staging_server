@@ -664,9 +664,9 @@ export default function SellerReinstatement() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
 
             <ClientPortfolio clients={portfolioClients} />
 

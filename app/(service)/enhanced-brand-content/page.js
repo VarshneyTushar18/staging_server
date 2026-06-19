@@ -535,9 +535,9 @@ export default function AmazonDSP() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
 
             <CaseStudiesService caseStudies={caseStudies} />
 

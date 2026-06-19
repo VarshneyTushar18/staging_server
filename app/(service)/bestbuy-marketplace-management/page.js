@@ -8,6 +8,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "",
@@ -345,7 +346,30 @@ const portfolio = [
     },
 ]
 
-
+ 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Getting onboarded to Best Buy Marketplace required meeting strict content and packaging compliance standards. Tech2Globe managed the entire application and listing setup process for us, and we were live and selling within weeks instead of the months we expected.",
+        name: "Steven Clarke | ProTech Audio",
+        location: "United States",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Best Buy's customers expect detailed tech specs and fast shipping confirmation. Tech2Globe's team built out our catalog with accurate specifications and helped us tighten our fulfillment SLAs, which has kept our seller performance metrics solidly in good standing.",
+        name: "Megan Hughes | PixelWave Electronics",
+        location: "United States",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were nervous about competing against bigger electronics brands on Best Buy, but Tech2Globe positioned our listings well within our niche accessory category. Sales have grown steadily quarter over quarter since launch.",
+        name: "Ryan Coleman | NovaCharge Accessories",
+        location: "Canada",
+    },
+];
 
 export default function BestbuyMarketplaceManagement() {
     return (
@@ -507,6 +531,8 @@ export default function BestbuyMarketplaceManagement() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

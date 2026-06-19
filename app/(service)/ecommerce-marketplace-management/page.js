@@ -6,6 +6,7 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "eCommerce Marketplace Management | AI-Powered Amazon, Flipkart & eBay Growth",
@@ -120,6 +121,31 @@ const faqs = [
       across multiple online platforms.
     `,
     },
+];
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe took over cataloging and listing management across three marketplaces for us and the difference was night and day. Within four months our combined marketplace revenue was up 38%, and we finally had one team accountable for consistency across every channel.",
+        name: "Sarah Mitchell | Coastal Home Goods",
+        location: "United States",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were stretched thin trying to manage listings on our own across multiple platforms. Tech2Globe's marketplace team streamlined our cataloging, fixed our underperforming listings, and gave us a single dashboard view of performance. Our operations are far less chaotic now.",
+        name: "James O'Connor | Emerald Outdoor Co.",
+        location: "Ireland",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "What stood out was how quickly Tech2Globe understood our multi-channel strategy. They didn't just upload products, they actively optimized titles, images, and pricing logic across every marketplace we sell on, which translated directly into a steadier order flow.",
+        name: "Marcus Lindgren | Nordic Living Supply",
+        location: "Sweden",
+    },
+
 ];
 
 
@@ -257,6 +283,8 @@ export default function EcommerceMarketplaceManagement() {
                     </div>
                 </div>
             </section>
+
+            <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>
     )

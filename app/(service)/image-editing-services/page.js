@@ -539,9 +539,9 @@ export default function ImageEditingServices() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
 
             <CaseStudiesService caseStudies={caseStudies} />
 

@@ -1,4 +1,5 @@
 .CaseStudyCard {
+    position: relative;
     background: white;
     border-radius: 8px;
     overflow: hidden;
@@ -12,11 +13,50 @@
     transform: translateY(-4px);
 }
 
+.cardArrowLink {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #c7010c;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.cardArrowLink:hover {
+    background: #c7010c;
+    color: #ffffff;
+    transform: translate(2px, -2px);
+}
+
+.cardArrowIcon {
+    font-size: 14px;
+}
+
+.CaseStudyCard:hover .cardArrowIcon {
+    transform: translateX(1px);
+}
+
+.imageWrapper {
+    width: 100%;
+    padding: 12px 0 16px;
+    overflow: hidden;
+}
+
 .cardImage {
     width: 100%;
-    height: 240px;
+    height: 200px;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
+    border-radius: 8px;
 }
 
 .cardContent {
@@ -42,15 +82,15 @@
     color: #1a1a1a;
     font-size: 20px;
     font-weight: 700;
-    margin: 0 0 4px 0;
-    padding: 0;
+    margin: 0;
+    padding: 0 44px 12px 0;
     line-height: 1.3;
+    min-height: calc(2 * 1.3em + 12px);
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     position: relative;
-    padding-bottom: 12px;
 }
 
 .CaseStudyCardTitle::after {
@@ -67,7 +107,7 @@
     color: #666;
     font-size: 14px;
     line-height: 1.6;
-    margin: 12px 0;
+    margin: 0;
     flex-grow: 1;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -75,42 +115,13 @@
     overflow: hidden;
 }
 
-.CaseStudyCardBtn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: transparent;
-    color: #c7010c;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 8px 0;
-    margin-top: auto;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: fit-content;
-}
-
-.CaseStudyCardBtn:hover {
-    color: #a50109;
-}
-
-.btnArrow {
-    display: inline-block;
-    transition: transform 0.3s ease;
-    font-size: 16px;
-}
-
-.CaseStudyCardBtn:hover .btnArrow {
-    transform: translateX(4px);
-}
-
 @media (max-width: 767px) {
+    .imageWrapper {
+        padding: 10px 0 14px;
+    }
+
     .cardImage {
-        height: 200px;
+        height: 180px;
     }
 
     .cardContent {
@@ -125,14 +136,25 @@
         font-size: 13px;
     }
 
-    .CaseStudyCardBtn {
+    .cardArrowLink {
+        top: 14px;
+        right: 14px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .cardArrowIcon {
         font-size: 12px;
     }
 }
 
 @media (max-width: 480px) {
+    .imageWrapper {
+        padding: 8px 0 12px;
+    }
+
     .cardImage {
-        height: 180px;
+        height: 160px;
     }
 
     .cardContent {

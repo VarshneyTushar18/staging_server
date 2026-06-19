@@ -8,6 +8,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "",
@@ -345,7 +346,29 @@ const portfolio = [
     },
 ]
 
-
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Overstock's buyer base skews heavily toward home and furniture, which fits our catalog perfectly, but our listings weren't optimized for it. Tech2Globe rebuilt our product descriptions and imagery for that audience, and our average order value on the platform increased noticeably.",
+        name: "Patricia Long | CozyNest Furniture",
+        location: "United States",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We had years of outdated listings sitting on Overstock that nobody had touched. Tech2Globe audited the entire catalog, removed discontinued items, and refreshed pricing to match current cost structures. It felt like starting the channel over, but properly this time.",
+        name: "Brian Foster | Hearthstone Decor",
+        location: "United States",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's team manages our Overstock order processing and customer service responses in addition to listings. Response times to buyer questions improved immediately, which has helped our seller rating recover.",
+        name: "Nicole Adams | Willow & Oak Home",
+        location: "Canada",
+    },
+];
 
 export default function OverstockMarketplaceManagement() {
     return (
@@ -477,6 +500,8 @@ export default function OverstockMarketplaceManagement() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

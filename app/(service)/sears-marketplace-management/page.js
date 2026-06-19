@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "",
@@ -345,6 +346,30 @@ const portfolio = [
 ]
 
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Sears Marketplace isn't as widely discussed as the bigger platforms, but Tech2Globe still treated our account with the same level of attention. They handled our listing setup, pricing sync, and order processing, and it's added a steady secondary revenue stream for us.",
+        name: "Thomas Brennan | Brennan Tools & Hardware",
+        location: "United States",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were hesitant to invest much effort into Sears given the smaller buyer base, but Tech2Globe set realistic expectations and still optimized our listings properly. The incremental orders have been a welcome addition without requiring much of our own team's time.",
+        name: "Karen Mitchell | HomeStead Appliances",
+        location: "United States",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's team handled our Sears catalog feed issues that we had struggled with internally for months. Once the feed was fixed, our listings finally started showing accurate stock and pricing, and order errors dropped to nearly zero.",
+        name: "Gregory Hale | Hale Outdoor Equipment",
+        location: "United States",
+    },
+];
+
 export default function SearsMarketplaceManagement() {
     return (
         <>
@@ -433,6 +458,8 @@ export default function SearsMarketplaceManagement() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

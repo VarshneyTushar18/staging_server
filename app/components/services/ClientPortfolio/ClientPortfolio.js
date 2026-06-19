@@ -1,5 +1,69 @@
 import "./custom.css";
 
+const COUNTRY_CODES = {
+    USA: "US",
+    US: "US",
+    UK: "GB",
+    GB: "GB",
+    Canada: "CA",
+    CA: "CA",
+    Germany: "DE",
+    DE: "DE",
+    Italy: "IT",
+    IT: "IT",
+    Ireland: "IE",
+    IE: "IE",
+    Japan: "JP",
+    JP: "JP",
+    Australia: "AU",
+    AU: "AU",
+    Netherlands: "NL",
+    NL: "NL",
+    Singapore: "SG",
+    SG: "SG",
+    France: "FR",
+    FR: "FR",
+    Denmark: "DK",
+    DK: "DK",
+    Russia: "RU",
+    RU: "RU",
+    Vietnam: "VN",
+    VN: "VN",
+    "South Korea": "KR",
+    KR: "KR",
+    Sweden: "SE",
+    SE: "SE",
+    Mexico: "MX",
+    MX: "MX",
+    UAE: "AE",
+    AE: "AE",
+    Austria: "AT",
+    AT: "AT",
+    Ghana: "GH",
+    GH: "GH",
+    Nigeria: "NG",
+    NG: "NG",
+    China: "CN",
+    CN: "CN",
+    Brazil: "BR",
+    BR: "BR",
+    India: "IN",
+    IN: "IN",
+};
+
+const getCountryCode = (country) => {
+    if (!country) return null;
+
+    const mapped = COUNTRY_CODES[country];
+    if (mapped) return mapped;
+
+    if (/^[A-Za-z]{2}$/.test(country)) {
+        return country.toUpperCase();
+    }
+
+    return null;
+};
+
 const ClientPortfolio = ({ clients }) => {
     return (
         <section className="ClientPortfolio">
@@ -10,7 +74,10 @@ const ClientPortfolio = ({ clients }) => {
                     </div>
 
                     <div className="cp-grid">
-                        {clients.map((item, idx) => (
+                        {clients.map((item, idx) => {
+                            const countryCode = getCountryCode(item.country);
+
+                            return (
                             <div className="cp-card" key={idx}>
                                 <div className="cp-card-top">
                                     <div
@@ -27,18 +94,35 @@ const ClientPortfolio = ({ clients }) => {
                                             {item.client}
                                         </h3>
 
-                                        <span className="cp-country-badge">
-                                            {item.country}
-                                        </span>
+                                        {countryCode ? (
+                                            <span
+                                                className="cp-country-badge"
+                                                title={item.country}
+                                                aria-label={item.country}
+                                            >
+                                                <img
+                                                    src={`https://flagcdn.com/w40/${countryCode.toLowerCase()}.png`}
+                                                    alt={`${item.country} flag`}
+                                                    width={24}
+                                                    height={16}
+                                                    className="cp-country-flag"
+                                                    loading="lazy"
+                                                />
+                                            </span>
+                                        ) : (
+                                            <span className="cp-country-badge">
+                                                {item.country}
+                                            </span>
+                                        )}
                                     </div>
                                 </div>
 
                                 <div className="cp-divider"></div>
 
                                 <div className="cp-card-body">
-                                    <p className="cp-project-label">
+                                    {/* <p className="cp-project-label">
                                         Project
-                                    </p>
+                                    </p> */}
 
                                     <p className="cp-project-name">
                                         {item.project}
@@ -67,7 +151,8 @@ const ClientPortfolio = ({ clients }) => {
                                     </div>
                                 </div>
                             </div>
-                        ))}
+                            );
+                        })}
                     </div>
                 </div>
             </div>

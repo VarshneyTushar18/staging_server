@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "",
@@ -397,6 +398,29 @@ const faqs = [
     },
 ];
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our eBay store had been neglected for years with outdated listings and inconsistent shipping policies. Tech2Globe rebuilt our store template, refreshed every listing, and tightened our return policy language. Our seller rating climbed back to Top Rated within three months.",
+        name: "Robert Hayes | Vintage Motor Parts Co.",
+        location: "United States",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We sell collectible items that need very specific descriptions and condition grading. Tech2Globe's team took the time to understand our niche and wrote listings that actually reflect how serious collectors search and buy. Our case closure rate dropped significantly as a result.",
+        name: "Emma Walsh | Collectible Crafts Ltd.",
+        location: "United Kingdom",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe manages our eBay promotions, item specifics, and customer messaging queue daily. It's the first time our eBay channel has felt properly managed rather than an afterthought next to our main website.",
+        name: "Liam O'Brien | Dublin Trading Post",
+        location: "Ireland",
+    },
+];
 
 export default function EbayMarketplaceManagement() {
     return (
@@ -509,6 +533,8 @@ export default function EbayMarketplaceManagement() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

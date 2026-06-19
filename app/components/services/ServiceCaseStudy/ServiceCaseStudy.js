@@ -1,6 +1,7 @@
 // app/components/CaseStudiesSection.jsx
 import Image from "next/image";
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 import Style from "./ServiceCaseStudy.module.css";
 
 export default function CaseStudiesService({ caseStudies }) {
@@ -25,24 +26,25 @@ export default function CaseStudiesService({ caseStudies }) {
             className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4"
           >
             <div className={Style.CaseStudyCard}>
-              <Image
-                src={study.image}
-                alt={study.title}
-                width={400}
-                height={250}
-                className={Style.cardImage}
-              />
+              <Link
+                href={study.docLink}
+                className={Style.cardArrowLink}
+                aria-label={`Read case study: ${study.title}`}
+              >
+                <FaArrowRight className={Style.cardArrowIcon} />
+              </Link>
               <div className={Style.cardContent}>
-                <span className={Style.caseStudyLabel}>CASE STUDY</span>
                 <h4 className={Style.CaseStudyCardTitle}>{study.title}</h4>
+                <div className={Style.imageWrapper}>
+                  <Image
+                    src={study.image}
+                    alt={study.title}
+                    width={400}
+                    height={250}
+                    className={Style.cardImage}
+                  />
+                </div>
                 <p className={Style.CaseStudyCardDesc}>{study.description}</p>
-                <Link
-                  href={study.docLink}
-                  className={Style.CaseStudyCardBtn}
-                >
-                  Read More
-                  <span className={Style.btnArrow}>→</span>
-                </Link>
               </div>
             </div>
           </div>

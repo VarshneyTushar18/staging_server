@@ -5,6 +5,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
 import "./custom.css";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "",
@@ -377,6 +378,31 @@ const portfolio = [
         ],
     },
 ]
+ 
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our Seller Central account had multiple suppressed listings and a sliding account health score before we brought Tech2Globe in. They cleaned up our catalog, resolved policy flags, and rebuilt our PPC structure. Our account health is now consistently green and ad spend efficiency improved by 27%.",
+        name: "Michael Reyes | Bright Living Essentials",
+        location: "USA",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Seller Central team handles everything from inventory planning to A+ content updates. Having a dedicated account manager who actually understands Amazon's algorithm changes has saved us from several near misses with suppressed listings.",
+        name: "Charlotte Bennett | Northfield Outdoors",
+        location: "UK",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We launched on Amazon.com from Germany and had no idea how to navigate Seller Central compliance requirements. Tech2Globe guided us through account setup, listing localization, and ongoing optimization. Our conversion rate has nearly doubled since launch.",
+        name: "Daniel Werner | Alpine Gear Co.",
+        location: "Germany",
+    },
+];
 
 export default function AmazonSellerCentralManagement() {
     return (
@@ -811,6 +837,8 @@ export default function AmazonSellerCentralManagement() {
                 <PortfolioTabs data={portfolio} title={'Our Portfolio'} description={''} />
             </div>
 
+            <ClientSlider testimonials={testimonials} />
+            
 
         </>
     )
