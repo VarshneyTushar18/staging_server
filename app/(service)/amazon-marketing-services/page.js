@@ -1049,9 +1049,10 @@ export default function AmazonMarketing() {
                 </div>
             </div>
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
 
             <ClientPortfolio clients={portfolioClients} />
+            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

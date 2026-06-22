@@ -534,9 +534,10 @@ export default function AmazonDSP() {
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
             </div> */}
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
 
             <ClientPortfolio clients={portfolioClients} />
+            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
         </>
     )

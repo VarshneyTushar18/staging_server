@@ -8,6 +8,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,6 +346,63 @@ const portfolio = [
     },
 ]
 
+const portfolioClients = [
+    {
+        initials: "CC",
+        gradient: "#0b2e58",
+        client: "Circuitline Components",
+        country: "United States",
+        project: "Account Setup & Catalog Upload",
+        desc: "Set up seller account and uploaded a full electronics components catalog.",
+        category: "Account Setup & Catalog Upload",
+        result: "Catalog Live Early",
+        resultSub: "Ahead of Schedule",
+    },
+    {
+        initials: "VT",
+        gradient: "#0b2e58",
+        client: "Vector Tech Supply",
+        country: "United States",
+        project: "Listing SEO & Advertising",
+        desc: "Optimized product listings and managed promotional ad campaigns.",
+        category: "Listing SEO & Advertising",
+        result: "Increased Ad Traffic",
+        resultSub: "Higher Listing Visibility",
+    },
+    {
+        initials: "PE",
+        gradient: "#0b2e58",
+        client: "Pulsegrid Electronics",
+        country: "Canada",
+        project: "Inventory & Pricing Management",
+        desc: "Aligned pricing and stock data across the seller's active catalog.",
+        category: "Inventory & Pricing Management",
+        result: "Fewer Pricing Errors",
+        resultSub: "Improved Catalog Accuracy",
+    },
+    {
+        initials: "NC",
+        gradient: "#0b2e58",
+        client: "Northbeam Computing",
+        country: "United States",
+        project: "Order Fulfillment Support",
+        desc: "Coordinated order processing and shipment tracking for a PC parts seller.",
+        category: "Order Fulfillment Support",
+        result: "Higher On-Time Shipping",
+        resultSub: "Fulfillment Performance Growth",
+    },
+    {
+        initials: "QR",
+        gradient: "#0b2e58",
+        client: "Quanta Robotics Co.",
+        country: "United Kingdom",
+        project: "Marketplace Expansion",
+        desc: "Managed account expansion and localized listings for a new market.",
+        category: "Marketplace Expansion",
+        result: "Successful Regional Launch",
+        resultSub: "Expanded Market Presence",
+    },
+];
 
 const testimonials = [
     {
@@ -477,9 +535,11 @@ export default function NeweggMarketplaceManagement() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

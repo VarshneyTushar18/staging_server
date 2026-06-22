@@ -650,9 +650,11 @@ export default function AmazonSellGlobal() {
 
             <ClientPortfolio clients={portfolioClients} />
 
+            <CaseStudiesService caseStudies={caseStudies} />
+
             <ClientSlider testimonials={testimonials} />
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
         </>
     )
 };

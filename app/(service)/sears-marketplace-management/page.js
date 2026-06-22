@@ -8,6 +8,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -370,6 +371,65 @@ const testimonials = [
     },
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "CA",
+        gradient: "#0b2e58",
+        client: "Carrow Appliance Outlet",
+        country: "United States",
+        project: "Marketplace Account Management",
+        desc: "Re-established active listings and account operations on Sears Marketplace.",
+        category: "Marketplace Account Management",
+        result: "Stable Order Volume",
+        resultSub: "Successful Marketplace Relaunch",
+    },
+    {
+        initials: "HH",
+        gradient: "#0b2e58",
+        client: "Holloway Hardware Co.",
+        country: "United States",
+        project: "Catalog Listing & Pricing",
+        desc: "Adjusted catalog pricing strategy and refreshed product listings.",
+        category: "Catalog Listing & Pricing",
+        result: "Improved Price Competitiveness",
+        resultSub: "Optimized SKU Performance",
+    },
+    {
+        initials: "BL",
+        gradient: "#0b2e58",
+        client: "Bellmont Lawn & Garden",
+        country: "United States",
+        project: "Product Upload & Categorization",
+        desc: "Bulk uploaded and properly categorized a seasonal garden product line.",
+        category: "Product Upload & Categorization",
+        result: "Faster Product Discovery",
+        resultSub: "Enhanced Buyer Visibility",
+    },
+    {
+        initials: "TE",
+        gradient: "#0b2e58",
+        client: "Thackeray Electronics",
+        country: "United States",
+        project: "Order Processing Support",
+        desc: "Supported daily order management and fulfillment coordination.",
+        category: "Order Processing Support",
+        result: "Reduced Processing Time",
+        resultSub: "Improved Fulfillment Efficiency",
+    },
+    {
+        initials: "GA",
+        gradient: "#0b2e58",
+        client: "Granford Auto Supply",
+        country: "Canada",
+        project: "Listing Optimization",
+        desc: "Rewrote listing titles and descriptions for improved search visibility.",
+        category: "Listing Optimization",
+        result: "Higher Click-Through Rate",
+        resultSub: "Improved Search Visibility",
+    },
+];
+
 export default function SearsMarketplaceManagement() {
     return (
         <>
@@ -455,9 +515,11 @@ export default function SearsMarketplaceManagement() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

@@ -590,10 +590,12 @@ export default function AmazonSalesBoostStrategy() {
             </div> */}
 
 
-            <CaseStudiesService caseStudies={caseStudies} />
+           
 
 
             <ClientPortfolio clients={portfolioClients} />
+
+            <CaseStudiesService caseStudies={caseStudies} />
 
             <ClientSlider testimonials={testimonials} />
         </>

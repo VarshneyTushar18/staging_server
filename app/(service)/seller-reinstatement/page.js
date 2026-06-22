@@ -670,9 +670,11 @@ export default function SellerReinstatement() {
 
             <ClientPortfolio clients={portfolioClients} />
 
+            <CaseStudiesService caseStudies={caseStudies} />
+
             <ClientSlider testimonials={testimonials} />
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
         </>
     )
 };

@@ -539,9 +539,10 @@ export default function AmazonDSP() {
                 <PortfolioTabs data={portfolio} />
             </div> */}
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
 
             <ClientPortfolio clients={portfolioClients} />
+            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
         </>
     )

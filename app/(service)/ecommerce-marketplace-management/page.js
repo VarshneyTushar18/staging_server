@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "eCommerce Marketplace Management | AI-Powered Amazon, Flipkart & eBay Growth",
@@ -120,6 +121,65 @@ const faqs = [
       cataloging, listings, SEO, and advertising, helping businesses increase visibility and sales 
       across multiple online platforms.
     `,
+    },
+];
+
+
+const portfolioClients = [
+    {
+        initials: "CH",
+        gradient: "#0b2e58",
+        client: "Coastal Home Goods",
+        country: "United States",
+        project: "Multi-Marketplace Cataloging & Listing",
+        desc: "Unified cataloging and listing management across three marketplaces for a home goods brand.",
+        category: "Multi-Marketplace Cataloging & Listing",
+        result: "Revenue: +38%",
+        resultSub: "Growth in 4 Months",
+    },
+    {
+        initials: "EO",
+        gradient: "#0b2e58",
+        client: "Emerald Outdoor Co.",
+        country: "Ireland",
+        project: "Listing Optimization & Account Setup",
+        desc: "Streamlined multi-platform cataloging and fixed underperforming product listings.",
+        category: "Listing Optimization & Account Setup",
+        result: "Fewer Listing Errors",
+        resultSub: "Steadier Order Flow",
+    },
+    {
+        initials: "NL",
+        gradient: "#0b2e58",
+        client: "Nordic Living Supply",
+        country: "Sweden",
+        project: "Multi-Channel Marketplace Strategy",
+        desc: "Optimized titles, images, and pricing logic across every active sales channel.",
+        category: "Multi-Channel Marketplace Strategy",
+        result: "Improved Order Consistency",
+        resultSub: "Across All Channels",
+    },
+    {
+        initials: "MC",
+        gradient: "#0b2e58",
+        client: "Maple & Co. Living",
+        country: "Canada",
+        project: "Account Setup & Product Cataloging",
+        desc: "End-to-end account setup and bulk cataloging for a furniture and decor retailer.",
+        category: "Account Setup & Product Cataloging",
+        result: "4 New Marketplaces",
+        resultSub: "Faster Onboarding",
+    },
+    {
+        initials: "AW",
+        gradient: "#0b2e58",
+        client: "Aurora Wellness Group",
+        country: "Australia",
+        project: "Catalog & Advertising Management",
+        desc: "Combined catalog cleanup with targeted advertising for a wellness products brand.",
+        category: "Catalog & Advertising Management",
+        result: "Improved Visibility",
+        resultSub: "Regional Storefront Growth",
     },
 ];
 
@@ -284,6 +344,7 @@ export default function EcommerceMarketplaceManagement() {
                 </div>
             </section>
 
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

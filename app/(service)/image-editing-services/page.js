@@ -543,9 +543,10 @@ export default function ImageEditingServices() {
                 <PortfolioTabs data={portfolio} />
             </div> */}
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            
 
             <ClientPortfolio clients={portfolioClients} />
+            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />

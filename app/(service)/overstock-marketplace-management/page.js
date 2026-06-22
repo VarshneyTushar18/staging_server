@@ -9,6 +9,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie } from "react-icons/fa";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -370,6 +371,64 @@ const testimonials = [
     },
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "RF",
+        gradient: "#1e40af",
+        client: "Ridgeline Furniture Co.",
+        country: "United States",
+        project: "Catalog Upload & Account Setup",
+        desc: "Set up seller account and uploaded a large furniture product catalog.",
+        category: "Catalog Upload & Account Setup",
+        result: "Catalog Live On Time",
+        resultSub: "Successful Marketplace Onboarding",
+    },
+    {
+        initials: "BR",
+        gradient: "#7c3aed",
+        client: "Brookhaven Rugs & Decor",
+        country: "United States",
+        project: "Listing Optimization & SEO",
+        desc: "Rewrote listing content and tags to boost on-site search ranking.",
+        category: "Listing Optimization & SEO",
+        result: "Improved Search Placement",
+        resultSub: "Higher Organic Visibility",
+    },
+    {
+        initials: "SO",
+        gradient: "#059669",
+        client: "Saltmarsh Outdoor Living",
+        country: "Canada",
+        project: "Inventory & Order Management",
+        desc: "Synced inventory and streamlined order handling for outdoor furniture lines.",
+        category: "Inventory & Order Management",
+        result: "Fewer Fulfillment Delays",
+        resultSub: "Improved Order Efficiency",
+    },
+    {
+        initials: "WL",
+        gradient: "#dc2626",
+        client: "Wickfield Lighting Co.",
+        country: "United States",
+        project: "Account Management & Promotions",
+        desc: "Managed account health and promotional listing placement.",
+        category: "Account Management & Promotions",
+        result: "Increased Event Sales",
+        resultSub: "Promotional Campaign Success",
+    },
+    {
+        initials: "AB",
+        gradient: "#0f766e",
+        client: "Almara Bedding Co.",
+        country: "United States",
+        project: "Catalog Expansion",
+        desc: "Added new bedding product lines with SEO-optimized listings.",
+        category: "Catalog Expansion",
+        result: "Expanded Product Catalog",
+        resultSub: "Optimized SKU Growth",
+    },
+];
 export default function OverstockMarketplaceManagement() {
     return (
         <>
@@ -497,9 +556,11 @@ export default function OverstockMarketplaceManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

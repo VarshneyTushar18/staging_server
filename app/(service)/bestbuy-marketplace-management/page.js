@@ -9,6 +9,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie } from "react-icons/fa";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -346,6 +347,52 @@ const portfolio = [
     },
 ]
 
+const portfolioClients = [
+    {
+        initials: "VE",
+        gradient: "#1e40af",
+        client: "Voltridge Electronics",
+        country: "United States",
+        project: "Marketplace Onboarding & Catalog",
+        desc: "Managed seller onboarding and initial electronics catalog upload.",
+        category: "Marketplace Onboarding & Catalog",
+        result: "Approved & Live Early",
+        resultSub: "Ahead of Target Launch",
+    },
+    {
+        initials: "CA",
+        gradient: "#7c3aed",
+        client: "Crestwave Audio Co.",
+        country: "United States",
+        project: "Listing SEO & Advertising",
+        desc: "Optimized listings and ran advertising campaigns for an audio brand.",
+        category: "Listing SEO & Advertising",
+        result: "Higher Click-Through Rate",
+        resultSub: "Sponsored Listing Growth",
+    },
+    {
+        initials: "MA",
+        gradient: "#059669",
+        client: "Mainstreet Appliance Group",
+        country: "Canada",
+        project: "Account Management & Compliance",
+        desc: "Ongoing compliance monitoring and account health management.",
+        category: "Account Management & Compliance",
+        result: "Strong Account Performance",
+        resultSub: "Maintained Compliance Rating",
+    },
+    {
+        initials: "PG",
+        gradient: "#dc2626",
+        client: "Parallax Gaming Gear",
+        country: "United States",
+        project: "Catalog & Inventory Sync",
+        desc: "Synced inventory feeds and corrected catalog data for gaming products.",
+        category: "Catalog & Inventory Sync",
+        result: "Reduced Stock Discrepancies",
+        resultSub: "Improved Inventory Accuracy",
+    },
+];
  
 const testimonials = [
     {
@@ -528,9 +575,11 @@ export default function BestbuyMarketplaceManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

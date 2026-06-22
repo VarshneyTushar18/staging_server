@@ -9,6 +9,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie } from "react-icons/fa";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -370,6 +371,63 @@ const testimonials = [
     },
 ];
 
+const portfolioClients = [
+    {
+        initials: "SH",
+        gradient: "#1e40af",
+        client: "Sakura Home Imports",
+        country: "United States",
+        project: "Marketplace Account Management",
+        desc: "Managed full Rakuten account operations for a home imports brand.",
+        category: "Marketplace Account Management",
+        result: "Consistent Order Growth",
+        resultSub: "Quarter-over-Quarter Improvement",
+    },
+    {
+        initials: "MB",
+        gradient: "#7c3aed",
+        client: "Meridian Beauty Co.",
+        country: "United Kingdom",
+        project: "Listing Localization & SEO",
+        desc: "Localized product content and optimized listings for regional buyers.",
+        category: "Listing Localization & SEO",
+        result: "Improved Search Visibility",
+        resultSub: "Localized Market Growth",
+    },
+    {
+        initials: "LA",
+        gradient: "#059669",
+        client: "Lakeside Apparel Group",
+        country: "Canada",
+        project: "Catalog Upload & Pricing",
+        desc: "Uploaded full apparel catalog with region-appropriate pricing structure.",
+        category: "Catalog Upload & Pricing",
+        result: "Error-Free Catalog Launch",
+        resultSub: "Accurate Regional Pricing",
+    },
+    {
+        initials: "FL",
+        gradient: "#dc2626",
+        client: "Forsythe Lifestyle Brands",
+        country: "Australia",
+        project: "Account Setup & Compliance",
+        desc: "Handled documentation and setup for a new Rakuten seller account.",
+        category: "Account Setup & Compliance",
+        result: "Approved Without Delays",
+        resultSub: "Smooth Seller Onboarding",
+    },
+    {
+        initials: "OS",
+        gradient: "#0f766e",
+        client: "Origami Stationery Co.",
+        country: "United States",
+        project: "Listing Optimization",
+        desc: "Refined product descriptions and images to improve page conversion.",
+        category: "Listing Optimization",
+        result: "Higher Conversion Rate",
+        resultSub: "Optimized Product Pages",
+    },
+];
 
 export default function RakutenMarketplaceManagement() {
     return (
@@ -641,9 +699,11 @@ export default function RakutenMarketplaceManagement() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

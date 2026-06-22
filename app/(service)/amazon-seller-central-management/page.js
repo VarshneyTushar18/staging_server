@@ -6,6 +6,7 @@ import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
 import "./custom.css";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -379,6 +380,66 @@ const portfolio = [
     },
 ]
  
+
+const portfolioClients = [
+    {
+        initials: "BK",
+        gradient: "#0b2e58",
+        client: "Brightline Kitchenware",
+        country: "United States",
+        project: "Seller Central Account Management",
+        desc: "Daily seller central monitoring, order management, and listing compliance support.",
+        category: "Seller Central Account Management",
+        result: "Account Health: Excellent",
+        resultSub: "Improved Performance",
+    },
+    {
+        initials: "HF",
+        gradient: "#0b2e58",
+        client: "Hartley & Finch",
+        country: "United Kingdom",
+        project: "Listing Optimization & PPC",
+        desc: "Optimized titles and keywords while managing sponsored product campaigns.",
+        category: "Listing Optimization & PPC",
+        result: "Higher CTR",
+        resultSub: "Across Top SKUs",
+    },
+    {
+        initials: "SP",
+        gradient: "#0b2e58",
+        client: "Solstice Pet Supplies",
+        country: "Germany",
+        project: "Inventory & Order Management",
+        desc: "Streamlined inventory tracking and order processing on Amazon Seller Central.",
+        category: "Inventory & Order Management",
+        result: "Reduced Stranded Inventory",
+        resultSub: "Better Inventory Control",
+    },
+    {
+        initials: "BT",
+        gradient: "#0b2e58",
+        client: "Birchwood Toys",
+        country: "Canada",
+        project: "Account Health & Compliance",
+        desc: "Ongoing compliance monitoring and proactive account health management.",
+        category: "Account Health & Compliance",
+        result: "Policy Issues Resolved",
+        resultSub: "Improved Compliance",
+    },
+    {
+        initials: "KT",
+        gradient: "#0b2e58",
+        client: "Kiwi Trail Gear",
+        country: "New Zealand",
+        project: "Catalog Expansion & Listings",
+        desc: "Bulk product uploads and SEO-driven listing creation for new SKUs.",
+        category: "Catalog Expansion & Listings",
+        result: "Expanded Catalog",
+        resultSub: "Optimized New Listings",
+    },
+];
+
+
 
 const testimonials = [
     {
@@ -833,9 +894,11 @@ export default function AmazonSellerCentralManagement() {
                     </div>
                 </div>
             </section>
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} title={'Our Portfolio'} description={''} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
             

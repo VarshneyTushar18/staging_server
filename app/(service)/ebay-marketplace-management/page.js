@@ -8,6 +8,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -422,6 +423,65 @@ const testimonials = [
     },
 ];
 
+
+const portfolioClients = [
+    {
+        initials: "RA",
+        gradient: "#0b2e58",
+        client: "Royston Auto Parts",
+        country: "United States",
+        project: "Listing Management & Store Design",
+        desc: "Rebuilt eBay storefront and optimized listings for an auto parts seller.",
+        category: "Listing Management & Store Design",
+        result: "Increased Store Traffic",
+        resultSub: "Post-Redesign Growth",
+    },
+    {
+        initials: "CV",
+        gradient: "#0b2e58",
+        client: "Camden Vintage Goods",
+        country: "United Kingdom",
+        project: "Catalog Management & SEO",
+        desc: "Improved listing titles and item specifics to boost organic visibility.",
+        category: "Catalog Management & SEO",
+        result: "Higher Search Rankings",
+        resultSub: "Core Category Visibility",
+    },
+    {
+        initials: "OT",
+        gradient: "#0b2e58",
+        client: "Outback Trading Post",
+        country: "Australia",
+        project: "Account Management & Order Fulfillment",
+        desc: "Streamlined order processing and buyer communication for an eBay seller.",
+        category: "Account Management & Order Fulfillment",
+        result: "Faster Order Turnaround",
+        resultSub: "Reduced Buyer Disputes",
+    },
+    {
+        initials: "AS",
+        gradient: "#0b2e58",
+        client: "Alpine Sports Exchange",
+        country: "Switzerland",
+        project: "Listing Optimization & Pricing",
+        desc: "Refined pricing strategy and listing quality for sporting goods inventory.",
+        category: "Listing Optimization & Pricing",
+        result: "Improved Sell-Through Rate",
+        resultSub: "Key Item Performance",
+    },
+    {
+        initials: "DM",
+        gradient: "#0b2e58",
+        client: "Driftwood Marine Supply",
+        country: "Canada",
+        project: "Multi-Category Catalog Expansion",
+        desc: "Added optimized listings across additional eBay product categories.",
+        category: "Multi-Category Catalog Expansion",
+        result: "Expanded Catalog Reach",
+        resultSub: "New Category Growth",
+    },
+];
+
 export default function EbayMarketplaceManagement() {
     return (
         <>
@@ -530,9 +590,11 @@ export default function EbayMarketplaceManagement() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>
