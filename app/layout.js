@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
       {/* ✅ ADD THIS BLOCK */}
       <head>
         <base href="/" />
+        <meta name="robots" content="noindex, nofollow"></meta>
       </head>
 
       <body>
