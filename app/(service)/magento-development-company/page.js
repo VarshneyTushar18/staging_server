@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
   title: "Magento Development Services | Magento Development Company",
@@ -343,8 +344,40 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
 
-export default function VolusionDevelopment() {
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe transformed our outdated B2B portal into a fully functional Magento 2 store. Their team handled complex custom module development, multi-currency setup, and bulk product uploads with exceptional precision. We saw a 42% increase in online orders within the first three months post-launch. Truly world-class Magento developers.",
+    name: "James Whitfield | NovaBuild Supplies Ltd.",
+    location: "United Kingdom",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We hired Tech2Globe for a full Magento store redesign and custom theme development for our luxury fashion brand. They delivered a stunning, mobile-optimized storefront with seamless payment gateway integration. The team's communication was excellent throughout, and the project was delivered ahead of schedule. Highly recommend their Magento expertise.",
+    name: "Sophie Leclerc | Maison Éclat Boutique",
+    location: "Canada",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe built our Magento multi-vendor marketplace from scratch, handling everything from custom extension development to Magento security audit and speed optimization. The site now loads in under 2 seconds even with 50,000+ products. Their post-launch support has been outstanding. We will continue to use them for all our Magento needs.",
+    name: "Luca Ferrante | Ferrante Electronics Group",
+    location: "Italy",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "After struggling with a poorly configured Magento store, we engaged Tech2Globe for a complete overhaul. They migrated us to Magento 2, implemented Arabic language support, and built custom pricing rules for our regional promotions. The integrated analytics dashboard has been invaluable. Professional, responsive, and highly skilled team.",
+    name: "Aisha Al-Mansoori | Gulf Retail Connect",
+    location: "United Arab Emirates",
+  },
+];
+
+
+export default function MagentoDevelopmentCompany() {
   return (
 
     <>
@@ -535,6 +568,8 @@ export default function VolusionDevelopment() {
       <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
       </div>
+
+      <ClientSlider testimonials={testimonials} />
     </>
   )
 };

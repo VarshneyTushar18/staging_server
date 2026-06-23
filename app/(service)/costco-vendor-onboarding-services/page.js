@@ -11,6 +11,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "",
@@ -75,39 +76,38 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "This was confusing and risky to interpret the Costco Vendor Guidelines by ourselves. Tech2Globe then changed those instructions into practical guidelines that our team should follow. They were very detailed and proactive in our communication, which assisted us in becoming a vendor at Costco without any unnecessary delays and compliance problems. We were indeed made to feel assisted in the process.",
-    name: "Emily L. Operations Director Home and Lifestyle Brand",
-  },
-  {
+    text: "Costco's vendor onboarding process is among the most stringent in global retail, and Tech2Globe navigated it on our behalf with remarkable expertise. From initial portal registration and item setup documentation to compliance with Costco's packaging and labelling standards, every step was handled with precision. We were approved as a Costco vendor in North America within 14 weeks — a timeline we've been told is exceptionally fast. Tech2Globe's understanding of Costco's buyer expectations was the decisive factor.",
+    name: "Robert Kellner | Alpine Specialty Foods",
+    location: "Switzerland",
+},
+{
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "The onboarding process of our Costco supplier was a complicated one, as necessitated by logistics and compliance. Tech2Globe did all the paperwork up to operational preparation. They were also very experienced, and therefore, we were fully prepared by the time of submission. This saved us a lot of time and resources. Without them, we would not have been able to do it efficiently.",
-    name: "Mark M. Supply Chain Manager Food and Beverage Company",
-  },
-  {
+    text: "Tech2Globe's Costco vendor onboarding service was transformational for our UK premium beverage brand's North American ambitions. They guided us through the entire compliance process — food safety certifications, packaging specifications, pricing tiers, and the vendor portal setup — seamlessly. Their preparation for the buyer presentation was outstanding; our pitch was compelling and data-rich. Securing Costco shelf space has elevated our brand credibility globally. We owe much of this success to Tech2Globe.",
+    name: "Fiona MacLeod | Scottish Highland Beverages",
+    location: "United Kingdom",
+},
+{
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "We went to Tech2Globe as we discussed opportunities in Costco's private label. Their tactical direction in terms of price, quality expectation, and documentation was priceless. They not only assist us in applying but also place our products in appropriate locations in the private label of Costco. Such understanding was a difference.",
-    name: " Anne D., Product Development Leader- Private Label Manufacturer",
-  },
-  {
+    text: "As a Japanese electronics manufacturer seeking Costco vendor status in the US market, the compliance requirements were extensive. Tech2Globe's team walked us through every requirement methodically — from EDI integration and GTIN setup to Costco's sustainability and ethical sourcing documentation. Their buyer communication support was invaluable, ensuring our proposals were aligned with Costco's merchandise strategy. We became an approved Costco vendor and launched in 85 warehouse locations in our first year.",
+    name: "Hiroshi Yamamoto | Yamamoto Electronics Corp.",
+    location: "Japan",
+},
+{
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Being a diverse-owned company, we sought to submit an application to the Costco diverse supplier program, but we were not aware of eligibility and certifications. Tech2Globe was patient and explained all the requirements to us. They helped us with their support, and we managed to stay on track without making any mistakes that would have postponed approval.",
-    name: "Stefan P., Co-Owner -Certified Diverse-Owned Business",
-  },
-  {
+    text: "Breaking into Costco as a Brazilian organic food brand felt like climbing Everest — until we engaged Tech2Globe. Their Costco vendor onboarding expertise simplified a process that had defeated us twice before with other agencies. They aligned our packaging, pricing, and compliance documentation precisely to Costco's standards, and coached us through the buyer interview process. We launched in Costco's Southwest US region and are already in discussions for national expansion.",
+    name: "Maria Santos | Santos Organic Brasil",
+    location: "Brazil",
+},
+{
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe is not just a Costco retail onboarding firm, but a partner. They still provided compliance updates and growth guidance even after we were onboarded. Their profound knowledge of the retail ecosphere of Costco has played a big role in our growth plan.",
-    name: "Natalie W. CEO -Emerging Retail Brand",
-  },
-  {
-    id: 6,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "We did not have a clear idea of the requirements of Costco vendors before we started working with Tech2Globe and we did not know where to start. They took their time to learn our product, business model and objectives. They also handled all the registration of Costco vendors and were in touch with us throughout. What seemed so overwhelming was put into order and became possible.",
-    name: "Rishi R., Consumer Packaged Goods Brand Founder",
-  },
+    text: "Costco represents the pinnacle of North American retail access, and Tech2Globe helped us achieve it. Their systematic approach to vendor onboarding — managing every compliance requirement, preparing our item cost sheets, and coordinating our buyer meetings — was flawless. Their knowledge of Costco's category review timelines and merchandise philosophy helped us pitch our premium French home goods at exactly the right moment. We launched in 120 Costco locations across Canada and the US within our first season.",
+    name: "Claire Beaumont | Beaumont Maison Goods",
+    location: "France",
+},
 ];
 
 const faqs = [
@@ -169,6 +169,63 @@ const faqs = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "AF",
+    gradient: "#1f3a5f",
+    client: "Alpine Foods International",
+    country: "Switzerland",
+    project: "Quick Commerce Market Entry",
+    desc: "Swiss health food brand entering India's quick commerce ecosystem across multiple delivery platforms simultaneously.",
+    category: "Quick Commerce",
+    result: "Live in 3 Weeks",
+    resultSub: "Across 3 Platforms",
+},
+{
+    initials: "DO",
+    gradient: "#2a4b7c",
+    client: "Dublin Organics",
+    country: "Ireland",
+    project: "Multi-Platform Q-Commerce Launch",
+    desc: "Irish organic food brand rapidly expanding across India's leading quick commerce platforms.",
+    category: "Marketplace Expansion",
+    result: "3,000+ Weekly Orders",
+    resultSub: "Across Platforms",
+},
+{
+    initials: "SF",
+    gradient: "#163a63",
+    client: "Sakura FMCG",
+    country: "Japan",
+    project: "Q-Commerce Scale-Up Strategy",
+    desc: "Japanese FMCG brand scaling its presence across India's growing quick commerce ecosystem.",
+    category: "Business Growth",
+    result: "Expanded to 12 Platforms",
+    resultSub: "From Initial 3",
+},
+{
+    initials: "AH",
+    gradient: "#3b2f5c",
+    client: "AfriCare Health Products",
+    country: "Ghana",
+    project: "Health & Wellness Expansion",
+    desc: "Ghanaian wellness brand launching products across India's quick commerce platforms.",
+    category: "Market Entry",
+    result: "Exceeded Projections",
+    resultSub: "In First Month",
+},
+{
+    initials: "BF",
+    gradient: "#2f5a4a",
+    client: "Berlin Food Tech GmbH",
+    country: "Germany",
+    project: "Quick Commerce Growth Engine",
+    desc: "German food technology company leveraging India's quick commerce market for global expansion.",
+    category: "Digital Commerce",
+    result: "Live Within 30 Days",
+    resultSub: "End-to-End Onboarding",
+},
+];
 
 export default function CostcoVendor() {
 
@@ -463,7 +520,7 @@ export default function CostcoVendor() {
         </div>
       </section >
 
-
+      <ClientPortfolio clients={portfolioClients} />
 
       <div className="EmailMarketingTestimonials">
         <ClientSlider testimonials={testimonials} />

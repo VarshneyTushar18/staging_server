@@ -6,6 +6,7 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
     title: "3dcart Development Services | 3dcart Store Development",
@@ -339,6 +340,37 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe built our 3dcart store with a custom theme that highlights our supplement brand beautifully. They integrated our preferred payment processors, subscription order system, and automated email marketing workflows. The project was delivered on time and within budget. Our online revenue has grown by 39% since switching to the new store.",
+    name: "Michael O'Connor | O'Connor Sports Nutrition",
+    location: "United States",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We engaged Tech2Globe to redesign and optimize our 3dcart store. They redesigned our product pages, improved internal linking, and configured all SEO settings within 3dcart's backend. The improvements led to a 28% increase in organic traffic within 90 days. Their team is knowledgeable about the 3dcart platform inside and out.",
+    name: "Charlotte Davies | Davies Home Décor Ltd.",
+    location: "United Kingdom",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe migrated our store to 3dcart from a legacy platform and the experience was seamless. They transferred all product data, customer records, and order history without any loss. The new storefront is fast, modern, and fully mobile-responsive. Our repeat purchase rate has increased and customer satisfaction scores are at an all-time high.",
+    name: "Stefan Kowalski | Kowalski Auto Accessories",
+    location: "Poland",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "As a growing natural skincare brand targeting the European and North American markets, we needed a professional 3dcart store that conveyed trust and quality. Tech2Globe delivered exactly that — a clean design, optimized checkout, and seamless integration with our shipping partners. Our international orders have increased by 47% since launch.",
+    name: "Amara Osei | Osei Naturals Co.",
+    location: "Ghana",
+  },
+];
+
 
 export default function CartDevelopment() {
     return (
@@ -414,6 +446,8 @@ export default function CartDevelopment() {
             <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
             </div>
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

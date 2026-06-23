@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaClipboardCheck, FaEye, FaLightbulb, FaListOl, FaListUl, FaSearch, FaUserCog } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,6 +347,102 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Launching our UK fashion brand on Myntra seemed daunting — understanding Indian consumer preferences, navigating the platform's strict style guide, and competing against established domestic brands was a real challenge. Tech2Globe made every step manageable. Their catalogue management team ensured every product met Myntra's exacting standards, and their Myntra Ads expertise delivered a 5x return on ad spend. We established a strong brand presence in one of the world's most exciting fashion markets within seven months.",
+        name: "Charlotte Evans | Bristol Apparel Group",
+        location: "United Kingdom",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "The Indian fashion market represents a massive opportunity, and Myntra is its gateway. Tech2Globe's end-to-end Myntra account management allowed us to focus entirely on design while they handled the operational complexity. Their product photography guidelines, SEO-driven descriptions, and smart inventory planning helped us consistently rank in the top positions for our categories. Returns management was handled impeccably, keeping our seller health score excellent throughout.",
+        name: "Jean-Paul Moreau | Paris Chic Accessories",
+        location: "France",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "As a Middle Eastern fashion brand entering the Indian market through Myntra, we needed a partner who understood both markets. Tech2Globe bridged that gap perfectly. Their market research insights helped us adapt our collection for Indian consumers, and their listing strategy drove strong organic traffic. During Myntra's flagship End of Reason Sale, their campaign management helped us achieve our highest single-day sales. An extraordinary partner for international market expansion.",
+        name: "Nadia Al-Khatib | Mena Fashion House",
+        location: "Jordan",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Myntra was a completely new platform for us, and Tech2Globe's expertise gave us the confidence to invest aggressively in it. Their onboarding was meticulous, their catalogue was styled beautifully, and their advertising campaigns were data-driven and efficient. Within 10 months, our Scandinavian-designed homewear collection became one of the top-rated international brands on Myntra. We attribute this entirely to Tech2Globe's strategic account management.",
+        name: "Lena Johansson | Skandia Textiles AB",
+        location: "Sweden",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our Malaysian sportswear brand entered the Indian market through Myntra with Tech2Globe's guidance, and the results have been beyond our expectations. Their understanding of Myntra's ranking algorithm, combined with smart promotional planning and responsive customer service support, helped us build a loyal Indian customer base rapidly. Order processing and return handling were managed smoothly, maintaining our seller rating above 4.8. Tech2Globe is truly an invaluable partner.",
+        name: "Andrew Lim | Tropic Sportswear",
+        location: "Malaysia",
+    },
+]
+
+
+const portfolioClients = [
+    {
+        initials: "BA",
+        gradient: "#0b2e58",
+        client: "Bristol Apparel Group",
+        country: "United Kingdom",
+        project: "Myntra Fashion Expansion",
+        desc: "UK fashion brand entering India's largest fashion marketplace to build a strong local presence.",
+        category: "Fashion Marketplace",
+        result: "5x ROAS",
+        resultSub: "Myntra Ads",
+    },
+    {
+        initials: "PC",
+        gradient: "#0b2e58",
+        client: "Paris Chic Accessories",
+        country: "France",
+        project: "Luxury Accessories Growth",
+        desc: "French luxury accessories brand seeking to expand sales and visibility through Myntra.",
+        category: "Marketplace Management",
+        result: "Top-Ranked Listings",
+        resultSub: "Accessories Category",
+    },
+    {
+        initials: "MF",
+        gradient: "#0b2e58",
+        client: "Mena Fashion House",
+        country: "Jordan",
+        project: "Indian Market Adaptation",
+        desc: "Jordanian fashion brand adapting its collections for Indian consumers through Myntra.",
+        category: "Market Expansion",
+        result: "Top Rated Seller",
+        resultSub: "Within 9 Months",
+    },
+    {
+        initials: "ST",
+        gradient: "#0b2e58",
+        client: "Skandia Textiles AB",
+        country: "Sweden",
+        project: "Homewear Category Growth",
+        desc: "Swedish homewear brand expanding into India's online fashion and lifestyle market.",
+        category: "Brand Growth",
+        result: "310% Revenue Growth",
+        resultSub: "Year-on-Year",
+    },
+    {
+        initials: "TS",
+        gradient: "#0b2e58",
+        client: "Tropic Sportswear",
+        country: "Malaysia",
+        project: "Sportswear Marketplace Expansion",
+        desc: "Malaysian sportswear brand building a sustainable customer base through Myntra.",
+        category: "Customer Acquisition",
+        result: "3x Active Buyers",
+        resultSub: "In 8 Months",
+    },
+];  
 
 export default function MyntraAccountManagement() {
     return (
@@ -447,9 +545,13 @@ export default function MyntraAccountManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

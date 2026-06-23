@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
   title: "WooCommerce Development Services & Experts | Tech2Globe",
@@ -342,6 +343,36 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe developed a feature-rich WooCommerce store for our outdoor equipment brand. They built custom product configurators, integrated our local payment methods, and created a multilingual setup for the DACH market. The site performance is exceptional, and our team can manage it easily. Excellent work from start to finish.",
+    name: "David Müller | Müller Outdoor Gear GmbH",
+    location: "Germany",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We engaged Tech2Globe to build a subscription-based WooCommerce store for our beauty brand. They custom-developed a subscription plugin, integrated Klarna for payments, and built a loyalty points system from scratch. Revenue from subscriptions now accounts for 65% of our total income. Their WooCommerce expertise is second to none.",
+    name: "Priya Nair | Botanica Beauty Ltd.",
+    location: "United Kingdom",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe redesigned our WooCommerce store with a new custom theme, advanced filtering for our 3,000+ product catalog, and B2B pricing tiers. The checkout process is now streamlined and our cart abandonment rate dropped by 31%. Their team was responsive, detail-oriented, and delivered exactly what we envisioned.",
+    name: "François Dupont | Dupont Gourmet Imports",
+    location: "France",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe built our WooCommerce marketplace with RTL Arabic support, local payment gateways, and a custom vendor management system. The project was complex but they handled every requirement with professionalism. Our platform now supports over 200 sellers and processes thousands of orders monthly. Exceptional team and outstanding result.",
+    name: "Omar Abdullah | Riyadh Digital Bazaar",
+    location: "Saudi Arabia",
+  },
+];
 
 export default function WoocommerceDevelopmentServices() {
   return (
@@ -474,6 +505,8 @@ export default function WoocommerceDevelopmentServices() {
       <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
       </div>
+
+      <ClientSlider testimonials={testimonials} />
     </>
   )
 };

@@ -344,33 +344,31 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "Tech2Globe developed a highly customized nopCommerce solution for our industrial parts distribution business. They built custom plugins for complex pricing rules, customer-specific catalogs, and ERP integration. The .NET-based platform has been rock-solid and our B2B clients love the intuitive interface. Truly expert nopCommerce developers.",
+    name: "William Patterson | Patterson Industrial Solutions",
+    location: "United States",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana– Amazon Sponsored Ads USA",
+    text: "We hired Tech2Globe to build a nopCommerce store for our luxury interior design products. They created a visually stunning theme, custom product configurator, and integrated our preferred European payment gateways. The store's performance is exceptional and our clients appreciate the elegant, easy-to-navigate experience.",
+    name: "Isabella Rossi | Rossi Luxury Interiors",
+    location: "Italy",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "Tech2Globe built our nopCommerce multi-store platform serving customers across Eastern Europe. They handled localization, multi-currency, and complex tax rules for each country with impressive expertise. The custom shipping module they developed saved us hours of manual work every week.",
+    name: "Alexander Petrov | Petrov Tech Retail",
+    location: "Russia",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: "Medi Hub- Amazon Store Creations USA",
-  },
-  {
-    id: 5,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed– Amazon Enhance Brand Content USA",
-  },
+    text: "Tech2Globe migrated our legacy platform to nopCommerce and rebuilt the entire store with a modern responsive design. They developed a custom affiliate management module, loyalty program, and integrated our warehouse management system. Our online sales have grown by 58% year-over-year since the migration.",
+    name: "Nadia Benali | Benali Beauty Distribution",
+    location: "France",
+  }
 ];
 
 

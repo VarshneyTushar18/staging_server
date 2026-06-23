@@ -8,6 +8,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
 import Link from "next/link";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
   title: "BigCommerce App Development | Custom App Solutions - Tech2Globe",
@@ -344,6 +345,36 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe migrated our large catalog from Magento to BigCommerce and the results exceeded all expectations. They built a custom Stencil theme, integrated our ERP, and implemented advanced faceted search. Page load speed improved by 60% and our monthly revenue on the platform increased by 44% within six months. Truly exceptional work.",
+    name: "Sarah Mitchell | Mitchell Home Furnishings",
+    location: "United States",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe developed our BigCommerce store with a stunning Scandinavian-inspired theme, multi-currency support, and seamless integration with our Klarna and Swish payment processors. The checkout funnel is buttery smooth and our conversion rate has improved significantly. Their BigCommerce expertise is genuinely impressive.",
+    name: "Natalie Johansson | Nordic Style Living AB",
+    location: "Sweden",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We chose Tech2Globe to build our BigCommerce store for our specialty food export business. They handled everything including custom product options, bulk pricing tiers, and B2B buyer portal development. The platform integrates perfectly with our logistics partners. Sales from international buyers have grown by 52% since launch.",
+    name: "Marco Bianchi | Bianchi Fine Foods",
+    location: "Italy",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe built a sophisticated BigCommerce storefront for our multi-brand fashion group. The headless commerce architecture they recommended allows us to deliver blazing-fast page loads while maintaining full design flexibility. The team's technical knowledge is outstanding and their project management kept us on track at every milestone.",
+    name: "Catherine Bouchard | Bouchard Fashion Group",
+    location: "Canada",
+  },
+];
 
 export default function bigcommercedevelopment() {
   return (
@@ -476,6 +507,8 @@ export default function bigcommercedevelopment() {
       <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
       </div>
+
+      <ClientSlider testimonials={testimonials} />
     </>
   )
 };

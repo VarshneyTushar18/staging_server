@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaClipboardCheck, FaEye, FaLightbulb, FaListOl, FaListUl, FaSearch, FaUserCog } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,6 +347,102 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Flipkart is the gateway to hundreds of millions of Indian consumers, and Tech2Globe gave us the keys. Their seller account setup, product listing optimisation, and Flipkart Ads management were all executed with expert precision. Within six months, three of our skincare products reached Flipkart Assured status — a massive trust signal for Indian buyers. Our Flipkart store now rivals our domestic French sales, something we never imagined possible when we started this journey.",
+        name: "Jacqueline Fontaine | Belle Vie Cosmétiques",
+        location: "France",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Managing a Flipkart seller account from Ireland without local expertise would have been impossible. Tech2Globe's team handled everything professionally — from navigating GST compliance requirements to running compelling Big Billion Days campaigns. Their inventory management ensured we never faced stockouts during peak promotional periods, and their account health monitoring kept our performance metrics consistently excellent. Our India business has grown 4x since we engaged Tech2Globe.",
+        name: "Jason Fitzgerald | Dublin Home Solutions",
+        location: "Ireland",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Flipkart management services helped our technology accessories brand establish a credible presence in India's competitive e-commerce market. Their keyword research and listing optimisation dramatically improved our organic search rankings, and their strategic promotion planning drove impressive conversion rates. The team's transparency and regular performance reviews gave us complete confidence in our investment. India has become our fastest-growing market, thanks to Tech2Globe.",
+        name: "Kwame Asante | Accra Digital Exports",
+        location: "Ghana",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Entering India's fashion market via Flipkart required cultural intelligence as much as technical expertise. Tech2Globe provided both. Their team adapted our catalogue beautifully to Indian consumer preferences, created listings that highlighted our European design heritage, and managed our advertising campaigns with impressive efficiency. The Flipkart Big Billion Days sale exceeded all our targets, generating our entire quarterly revenue in just five days. A truly outstanding team.",
+        name: "Aleksandra Nowak | Warsaw Fashion Collective",
+        location: "Poland",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's expertise in Flipkart seller account management is unrivalled. They guided our brand through every aspect of the platform — from the initial seller registration to advanced promotional strategies. Their data analytics capabilities identified our top opportunity categories and helped us invest our advertising budget where it mattered most. In less than a year, our Flipkart store has become a significant revenue driver for our group, and we continue to expand our partnership with Tech2Globe.",
+        name: "Tariq Al-Mansouri | Gulf Brands International",
+        location: "UAE",
+    },
+]
+
+
+const portfolioClients = [
+    {
+        initials: "BV",
+        gradient: "#0b2e58",
+        client: "Belle Vie Cosmétiques",
+        country: "France",
+        project: "Flipkart Beauty Expansion",
+        desc: "French skincare brand establishing and scaling its presence across India's competitive beauty marketplace through Flipkart.",
+        category: "Beauty Marketplace",
+        result: "3 SKUs Assured",
+        resultSub: "Flipkart Status",
+    },
+    {
+        initials: "DH",
+        gradient: "#0b2e58",
+        client: "Dublin Home Solutions",
+        country: "Ireland",
+        project: "Flipkart Growth Strategy",
+        desc: "Irish home improvement brand managing and expanding its India business through Flipkart.",
+        category: "Marketplace Growth",
+        result: "4x Business Growth",
+        resultSub: "Since Launch",
+    },
+    {
+        initials: "AD",
+        gradient: "#0b2e58",
+        client: "Accra Digital Exports",
+        country: "Ghana",
+        project: "Electronics Market Expansion",
+        desc: "Ghanaian technology accessories brand building a strong presence in India's electronics market via Flipkart.",
+        category: "Market Expansion",
+        result: "Fastest-Growing Market",
+        resultSub: "India Region",
+    },
+    {
+        initials: "WF",
+        gradient: "#0b2e58",
+        client: "Warsaw Fashion Collective",
+        country: "Poland",
+        project: "Fashion Market Entry",
+        desc: "Polish fashion brand entering India's growing online fashion sector through Flipkart.",
+        category: "Fashion Growth",
+        result: "Quarterly Target Achieved",
+        resultSub: "In 5 Days",
+    },
+    {
+        initials: "GB",
+        gradient: "#0b2e58",
+        client: "Gulf Brands International",
+        country: "UAE",
+        project: "Flipkart Revenue Expansion",
+        desc: "Diversified consumer goods group leveraging Flipkart to accelerate growth in the Indian market.",
+        category: "Revenue Growth",
+        result: "Major Revenue Driver",
+        resultSub: "Within 1 Year",
+    },
+];
 
 export default function FlipkartSellerAccountManagement() {
     return (
@@ -504,9 +602,13 @@ export default function FlipkartSellerAccountManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie, FaHandPointRight } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -347,6 +349,103 @@ const portfolio = [
 
 
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Meesho's reach into India's Tier 2 and Tier 3 markets is unparalleled, and Tech2Globe helped us unlock that potential for our traditional handicraft products. Their product listing strategy highlighted the authentic value of our goods effectively, and their pricing guidance helped us position competitively in Meesho's value-conscious marketplace. Within four months, our products were being resold through thousands of Meesho resellers across India. The growth has been phenomenal.",
+        name: "Pradeep Kumar | Eastern Handicrafts Exports",
+        location: "Bangladesh",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Selling authentic African textiles to Indian consumers through Meesho was an unconventional strategy, but Tech2Globe helped us execute it brilliantly. Their catalogue management made our products compelling and accessible, and their understanding of Meesho's reseller dynamics helped our items gain organic traction quickly. Order management and return handling were handled efficiently, and our seller rating has consistently stayed above 4.9. Tech2Globe genuinely understands this platform.",
+        name: "Rose Mwangi | Nairobi Textile Collective",
+        location: "Kenya",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Meesho's social commerce model was unlike anything we'd encountered in European e-commerce. Tech2Globe demystified it completely. Their team optimised our product catalogues for Meesho's unique discovery algorithm, managed our pricing strategy competitively, and helped us build a strong reseller network. The volume of orders we now receive through Meesho exceeds what we generate on many larger platforms. Tech2Globe's expertise in this space is extraordinary.",
+        name: "Marcus Schmidt | Rhine Valley Hosiery",
+        location: "Germany",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Meesho account management services gave our African fashion brand its first real foothold in the Indian market. Their team was patient, thorough, and deeply knowledgeable about Meesho's evolving platform policies. They ensured our catalogue met all quality guidelines, managed our promotional offers strategically, and handled customer return disputes professionally. Month-on-month, our sales on Meesho have grown consistently. We're truly grateful for their partnership.",
+        name: "Aisha Kamara | Lagos Lifestyle Brands",
+        location: "Nigeria",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We supply everyday consumer goods and saw a massive opportunity in Meesho's fast-growing user base. Tech2Globe's management of our seller account was exceptional — from product upload and optimisation to return management and performance analytics. Their pricing strategy helped us remain the most competitive option in our categories, and their regular data-driven reviews kept our strategy sharp. Meesho now generates over 40% of our total India e-commerce revenue.",
+        name: "Mei-Ling Zhao | Hangzhou Lifestyle Products",
+        location: "China",
+    },
+]
+
+
+const portfolioClients = [
+    {
+        initials: "EH",
+        gradient: "#0b2e58",
+        client: "Eastern Handicrafts Exports",
+        country: "Bangladesh",
+        project: "Meesho Social Commerce Expansion",
+        desc: "Bangladeshi handicrafts brand leveraging Meesho to reach India's Tier 2 and Tier 3 consumers through reseller networks.",
+        category: "Social Commerce",
+        result: "Thousands of Resellers",
+        resultSub: "Across India",
+    },
+    {
+        initials: "NT",
+        gradient: "#0b2e58",
+        client: "Nairobi Textile Collective",
+        country: "Kenya",
+        project: "Cross-Border Fashion Growth",
+        desc: "Kenyan textile brand introducing authentic African fabrics to Indian consumers through Meesho.",
+        category: "Market Expansion",
+        result: "4.9-Star Rating",
+        resultSub: "Consistently Maintained",
+    },
+    {
+        initials: "RV",
+        gradient: "#0b2e58",
+        client: "Rhine Valley Hosiery",
+        country: "Germany",
+        project: "Meesho Marketplace Growth",
+        desc: "German hosiery manufacturer entering the Indian market through Meesho's reseller ecosystem.",
+        category: "Marketplace Management",
+        result: "Higher Order Volume",
+        resultSub: "Than Major Platforms",
+    },
+    {
+        initials: "LL",
+        gradient: "#0b2e58",
+        client: "Lagos Lifestyle Brands",
+        country: "Nigeria",
+        project: "Indian Market Entry",
+        desc: "Nigerian fashion and lifestyle brand establishing its first presence in India via Meesho.",
+        category: "Market Entry",
+        result: "Consistent Sales Growth",
+        resultSub: "Month-on-Month",
+    },
+    {
+        initials: "HL",
+        gradient: "#0b2e58",
+        client: "Hangzhou Lifestyle Products",
+        country: "China",
+        project: "Consumer Goods Expansion",
+        desc: "Chinese consumer goods manufacturer growing market share through Meesho's value-focused platform.",
+        category: "Revenue Growth",
+        result: "40%+ Revenue Share",
+        resultSub: "From Meesho",
+    },
+];
+
 export default function MeeshoAccountManagement() {
     return (
         <>
@@ -422,9 +521,13 @@ export default function MeeshoAccountManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

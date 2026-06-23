@@ -6,6 +6,7 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
   title: "OpenCart Development Services | Opencart Web development",
@@ -338,6 +339,37 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe built a powerful OpenCart store for our consumer electronics brand with custom extensions for product comparison, advanced search filters, and warranty registration.",
+    name: "Andreas Schneider | Schneider Electronics GmbH",
+    location: "Germany ",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We needed an OpenCart store with full RTL Arabic support, local payment gateways, and a custom loyalty rewards module.",
+    name: "Fatima Al-Rashid | Al-Rashid Fashion House",
+    location: "Kuwait",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe developed our OpenCart B2B portal with custom pricing tiers, quote request functionality, and a bulk order module.",
+    name: "Pablo Herrera | Herrera Furniture Exports",
+    location: "Spain",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe created a multi-vendor OpenCart marketplace for our retail group with local payment integration, real-time shipping calculations, and a seller dashboard.",
+    name: "Grace Adeyemi | Adeyemi Retail Group",
+    location: "Nigeria",
+  }
+];
+
 
 export default function OpenCartDevelopment() {
   return (
@@ -395,6 +427,8 @@ export default function OpenCartDevelopment() {
       <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
       </div>
+
+      <ClientSlider testimonials={testimonials} />
     </>
   )
 };

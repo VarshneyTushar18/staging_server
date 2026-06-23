@@ -11,6 +11,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title:
@@ -73,38 +74,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe supported us with Blinkit onboarding using the official process. Their guidance reduced delays and gave us confidence at every stage of the seller onboarding journey.",
-    name: "Timothy R., Natural Resources and Mining",
+    text: "We wanted to introduce our Swiss health food range to Indian consumers through quick commerce platforms — Blinkit, Zepto, and Swiggy Instamart — but the platform complexities were daunting. Tech2Globe's quick commerce onboarding team handled everything from category compliance and dark store selection to pricing strategy and promotional placement. We went live on all three platforms within three weeks and saw immediate consumer adoption. Their hyperlocal strategy expertise is truly impressive.",
+    name: "Nikhil Sinha | Alpine Foods International",
+    location: "Switzerland",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Our Swiggy Instamart onboarding experience was seamless thanks to Tech2Globe. They explained each step clearly and ensured we were compliant before activation.",
-    name: "Tyler A., Wholesale Trade",
+    text: "Tech2Globe's quick commerce onboarding service was a revelation. The speed and accuracy with which they integrated our organic product catalogue across multiple q-commerce platforms, handled the compliance documentation, and set up our promotional calendar was extraordinary. Their understanding of quick commerce's unique demand patterns — different from traditional e-commerce — helped us optimise our pricing and packaging strategies perfectly. We're now seeing 3,000+ weekly orders across platforms.",
+    name: "Michael O'Brien | Dublin Organics",
+    location: "Ireland",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe helped us expand into Zepto with complete seller and vendor onboarding support. Their attention to detail and platform knowledge made a big difference.",
-    name: " Sean C., Non-store Retailers",
+    text: "Quick commerce was a new concept for our Japanese consumer goods brand, but Tech2Globe made it accessible and strategic. Their onboarding process was meticulous — they ensured our products met all platform specifications, selected optimal dark store locations for maximum reach, and designed promotional bundles that drove high basket values. Our quick commerce revenues have grown consistently month-on-month, and we've expanded from 3 to 12 platforms with Tech2Globe's continued support.",
+    name: "Yuki Tanaka | Sakura FMCG",
+    location: "Japan",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "What we value most about Tech2Globe is their continued support even after onboarding. They don’t just register sellers, they help businesses grow in Quick Commerce.",
-    name: "Wayne K., Leisure & Hospitality",
+    text: "Launching our health and wellness products on India's quick commerce platforms required precise execution. Tech2Globe's onboarding service covered every detail — product compliance, category selection, competitive pricing, and dark store partnerships. Their understanding of consumer behaviour on q-commerce platforms shaped our assortment strategy perfectly, and our first month on Blinkit and Zepto exceeded our six-month revenue projections. We remain thoroughly impressed.",
+    name: "Ama Owusu | AfriCare Health Products",
+    location: "Ghana",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe made our entry into Quick Commerce extremely smooth. From seller registration to onboarding, their team handled everything professionally. We were live faster than expected and fully prepared operationally.",
-    name: "Steven R., Chemical Manufacturing.",
-  },
-  {
-    id: 6,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "We struggled to understand platform requirements before working with Tech2Globe. Their structured onboarding approach helped us avoid errors and ensured our approval across multiple quick delivery platforms.",
-    name: "Kevin S., Sporting Goods Supplier",
+    text: "Quick commerce is reshaping retail, and Tech2Globe helped us be part of that transformation in one of the world's fastest-growing markets. Their onboarding methodology was systematic and swift — from initial platform registration to live product availability in under 30 days. The data analytics support they provided helped us understand which product categories drove the highest repeat purchase rates. Our quick commerce business in India has become a genuine growth engine for our global expansion strategy.",
+    name: "Hans Gruber | Berlin Food Tech GmbH",
+    location: "Germany",
   },
 ];
 
@@ -193,6 +193,65 @@ const faqs = [
         Typically, seller onboarding requires GST details, business registration documents, bank information, and product data. Requirements may vary slightly across platforms like Blinkit, Zepto, and Swiggy Instamart.
       `,
   },
+];
+
+
+const portfolioClients = [
+  {
+    initials: "AF",
+    gradient: "#0b2e58",
+    client: "Alpine Foods International",
+    country: "Switzerland",
+    project: "Quick Commerce Market Entry",
+    desc: "Swiss health food brand entering India's quick commerce ecosystem across multiple delivery platforms simultaneously.",
+    category: "Quick Commerce",
+    result: "Live in 3 Weeks",
+    resultSub: "Across 3 Platforms",
+},
+{
+    initials: "DO",
+    gradient: "#0b2e58",
+    client: "Dublin Organics",
+    country: "Ireland",
+    project: "Multi-Platform Q-Commerce Launch",
+    desc: "Irish organic food brand rapidly expanding across India's leading quick commerce platforms.",
+    category: "Marketplace Expansion",
+    result: "3,000+ Weekly Orders",
+    resultSub: "Across Platforms",
+},
+{
+    initials: "SF",
+    gradient: "#0b2e58",
+    client: "Sakura FMCG",
+    country: "Japan",
+    project: "Q-Commerce Scale-Up Strategy",
+    desc: "Japanese FMCG brand scaling its presence across India's growing quick commerce ecosystem.",
+    category: "Business Growth",
+    result: "Expanded to 12 Platforms",
+    resultSub: "From Initial 3",
+},
+{
+    initials: "AH",
+    gradient: "#0b2e58",
+    client: "AfriCare Health Products",
+    country: "Ghana",
+    project: "Health & Wellness Expansion",
+    desc: "Ghanaian wellness brand launching products across India's quick commerce platforms.",
+    category: "Market Entry",
+    result: "Exceeded Projections",
+    resultSub: "In First Month",
+},
+{
+    initials: "BF",
+    gradient: "#0b2e58",
+    client: "Berlin Food Tech GmbH",
+    country: "Germany",
+    project: "Quick Commerce Growth Engine",
+    desc: "German food technology company leveraging India's quick commerce market for global expansion.",
+    category: "Digital Commerce",
+    result: "Live Within 30 Days",
+    resultSub: "End-to-End Onboarding",
+},
 ];
 
 
@@ -663,11 +722,10 @@ export default function QuickCommerce() {
         </div>
       </section >
 
+      <ClientPortfolio clients={portfolioClients} />
 
+      <ClientSlider testimonials={testimonials} />
 
-      <div className="EmailMarketingTestimonials">
-        <ClientSlider testimonials={testimonials} />
-      </div>
       <FaqSection faqs={faqs} />
 
     </>

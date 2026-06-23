@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie, FaHandPointRight } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,7 +347,103 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We had been struggling to break into the CDiscount marketplace for over a year before partnering with Tech2Globe. Their team handled everything — from catalogue export to automated stock synchronisation — with incredible precision. Within 90 days, our product visibility improved dramatically and our monthly revenue on CDiscount grew by 68%. Their multilingual support made communication seamless, and the WatchDog 360 dashboard gave us real-time control we never had before. Truly a game-changing partnership.",
+        name: "Julien Marchand | MaisonElite Paris",
+        location: "France",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Expanding onto CDiscount as a UK-based seller felt overwhelming — different regulations, French language requirements, and complex logistics. Tech2Globe simplified all of it. Their bulk product upload service saved us hundreds of man-hours, and their pricing strategy expertise helped us compete against established French sellers from day one. Our return rate dropped by 22% thanks to their optimised product descriptions. I'd highly recommend them to any brand looking to crack the French market.",
+        name: "Amelia Thompson | BrightGoods UK",
+        location: "United Kingdom",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "As a small Nordic electronics brand, we didn't know where to begin with CDiscount. Tech2Globe's consulting approach was incredibly thorough — they analysed our competition, restructured our listings, and launched targeted promotions that tripled our conversion rate within two months. Their 24/7 customer support team handled all buyer inquiries professionally, which freed our internal team to focus on product development. The ROI has been exceptional.",
+        name: "Lars Henriksen | NordicTech Supplies",
+        location: "Denmark",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We specialise in artisan Italian home goods and wanted to tap into the French consumer market via CDiscount. Tech2Globe's data analytics team identified the highest-performing categories for our products, and their listing optimisation strategy put us on the first page for over 40 keywords. Sales went from near zero to a consistent five-figure monthly revenue in just four months. Their platform integration with our existing inventory system was flawless.",
+        name: "Sofia Esposito | Artigiano Italiano",
+        location: "Italy",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's CDiscount management service exceeded every expectation. They onboarded our 2,000+ product catalogue in record time, set up automated order routing, and even managed customer returns professionally. Their performance monitoring reports gave us actionable insights every week. The team's deep knowledge of CDiscount's algorithm helped our listings rank consistently higher than competitors. We've since expanded our engagement with Tech2Globe to three additional platforms.",
+        name: "Carlos Mendoza | StyleHub Spain",
+        location: "Spain",
+    },
+]
 
+const portfolioClients = [
+
+
+    {
+        initials: "ME",
+        gradient: "#0b2e58",
+        client: "MaisonElite Paris",
+        country: "France",
+        project: "CDiscount Marketplace Growth",
+        desc: "Premium French home décor brand that struggled to scale on CDiscount despite having a strong product range.",
+        category: "Marketplace Growth",
+        result: "68% Revenue Growth",
+        resultSub: "In 90 Days",
+    },
+    {
+        initials: "BG",
+        gradient: "#0b2e58",
+        client: "BrightGoods UK",
+        country: "United Kingdom",
+        project: "Cross-Border CDiscount Expansion",
+        desc: "Mid-market UK household goods brand aiming to enter the French e-commerce market without local operational support.",
+        category: "Cross-Border Expansion",
+        result: "22% Return Rate Reduction",
+        resultSub: "Improved Product Quality",
+    },
+    {
+        initials: "NS",
+        gradient: "#0b2e58",
+        client: "NordicTech Supplies",
+        country: "Denmark",
+        project: "Electronics Marketplace Optimization",
+        desc: "Danish electronics accessories brand looking to establish a strong presence on CDiscount with improved visibility.",
+        category: "SEO & Conversion",
+        result: "3x Conversion Increase",
+        resultSub: "In 60 Days",
+    },
+    {
+        initials: "AI",
+        gradient: "#0b2e58",
+        client: "Artigiano Italiano",
+        country: "Italy",
+        project: "French Market Entry Strategy",
+        desc: "Italian artisan home goods brand aiming to introduce handcrafted products to French consumers via CDiscount.",
+        category: "Market Entry",
+        result: "Five-Figure Monthly Revenue",
+        resultSub: "In 4 Months",
+    },
+    {
+        initials: "SS",
+        gradient: "#0b2e58",
+        client: "StyleHub Spain",
+        country: "Spain",
+        project: "Large SKU Catalogue Automation",
+        desc: "Fashion accessories brand managing a large 2,000+ SKU catalogue requiring automation and performance stability.",
+        category: "Automation",
+        result: "95% Fulfilment Error Reduction",
+        resultSub: "System Optimised",
+    },
+]
 
 export default function CdiscountMarketplaceManagement() {
     return (
@@ -575,9 +673,13 @@ export default function CdiscountMarketplaceManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

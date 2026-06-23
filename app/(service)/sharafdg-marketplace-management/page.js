@@ -13,6 +13,8 @@ import {
     FaMoneyBillWave,
     FaShieldAlt
 } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -351,9 +353,104 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "SharafDG is one of the most competitive electronics platforms in the GCC, and Tech2Globe helped us navigate it brilliantly. Their team understood the platform's vendor requirements, managed our catalogue of 800+ SKUs flawlessly, and implemented a pricing strategy that kept us competitive against major brands. Within three months, our product visibility on SharafDG improved significantly and monthly revenue grew by 52%. Their understanding of the regional market dynamics is outstanding.",
+        name: "Ahmed Al-Rashidi | TechVision FZCO",
+        location: "UAE",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Expanding into the UAE electronics market via SharafDG was a strategic priority for us. Tech2Globe made the vendor onboarding process smooth and helped us create compelling, regulation-compliant product listings. Their team monitored our performance metrics constantly and provided weekly optimisation recommendations. We achieved preferred vendor status on SharafDG within six months — a milestone we attribute entirely to Tech2Globe's expert management.",
+        name: "Thomas Bergmann | ProTech Solutions GmbH",
+        location: "Germany",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "As an Omani electronics distributor entering the UAE market via SharafDG, we needed a partner who understood both the platform and regional compliance requirements. Tech2Globe was exceptional. Their product cataloguing accuracy was impressive, their order management was seamless, and their customer service support kept our seller ratings consistently high. They are now our trusted partner for all our Gulf marketplace operations.",
+        name: "Fatima Al-Zahrawi | Qamar Electronics Trading",
+        location: "Oman",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe helped us launch our consumer electronics brand on SharafDG as part of our Middle East expansion strategy. The team's knowledge of Arabic content requirements, regional pricing norms, and SharafDG's vendor portal was genuinely impressive. Product listing approval timelines that typically take weeks were completed in days. Our market entry was flawless, and we've been growing at 20% month-on-month since launch.",
+        name: "Sarah Whitfield | BritTech Consumer Electronics",
+        location: "United Kingdom",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "SharafDG was our entry point into the UAE's rapidly growing smart home technology market. Tech2Globe's management of our vendor account, promotional campaigns, and customer feedback systems allowed us to establish brand credibility quickly. Their data analytics reporting helped us identify our top-performing product categories and double down on them. Within a year, we became one of the top-ranked smart home brands on SharafDG. Tech2Globe's expertise made that possible.",
+        name: "Yusuf Tanaka | Nippon Smart Devices",
+        location: "Japan",
+    },
+]
+
+const portfolioClients = [
+    {
+        initials: "TV",
+        gradient: "#0b2e58",
+        client: "TechVision FZCO",
+        country: "UAE",
+        project: "SharafDG Electronics Growth",
+        desc: "UAE-based consumer electronics distributor seeking to strengthen performance and visibility on SharafDG.",
+        category: "Marketplace Growth",
+        result: "52% Revenue Growth",
+        resultSub: "In 3 Months",
+    },
+    {
+        initials: "PS",
+        gradient: "#0b2e58",
+        client: "ProTech Solutions GmbH",
+        country: "Germany",
+        project: "UAE Market Entry",
+        desc: "German technology hardware brand expanding into the UAE market through SharafDG.",
+        category: "Vendor Onboarding",
+        result: "Preferred Vendor Status",
+        resultSub: "Within 6 Months",
+    },
+    {
+        initials: "QE",
+        gradient: "#0b2e58",
+        client: "Qamar Electronics Trading",
+        country: "Oman",
+        project: "Cross-Border Marketplace Expansion",
+        desc: "Omani electronics distributor expanding operations into the UAE through SharafDG.",
+        category: "Marketplace Management",
+        result: "4.9-Star Seller Rating",
+        resultSub: "Maintained Consistently",
+    },
+    {
+        initials: "BC",
+        gradient: "#0b2e58",
+        client: "BritTech Consumer Electronics",
+        country: "United Kingdom",
+        project: "Middle East Market Launch",
+        desc: "UK smart home technology brand using SharafDG to accelerate Middle East market entry.",
+        category: "Market Entry",
+        result: "20% Monthly Growth",
+        resultSub: "Post Launch",
+    },
+    {
+        initials: "NS",
+        gradient: "#0b2e58",
+        client: "Nippon Smart Devices",
+        country: "Japan",
+        project: "Smart Home Category Expansion",
+        desc: "Japanese smart home technology brand building a UAE market presence through SharafDG.",
+        category: "Brand Growth",
+        result: "Top-Ranked Brand",
+        resultSub: "Within 12 Months",
+    },
+];
 
 
-export default function MeeshoAccountManagement() {
+export default function SharafdgMarketplaceManagement() {
     return (
         <>
             <PageHeader pageHeaderData={pageHeaderData} />
@@ -553,9 +650,13 @@ export default function MeeshoAccountManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

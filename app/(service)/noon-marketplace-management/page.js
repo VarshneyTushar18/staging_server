@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaClipboardCheck, FaEye, FaLightbulb, FaListOl, FaListUl, FaSearch, FaUserCog } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,6 +347,101 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Noon marketplace management transformed our beauty brand's regional presence. They handled everything from seller account setup and product listing in both English and Arabic, to running targeted Noon Ads campaigns that delivered remarkable results. Our brand awareness in the UAE, Saudi Arabia, and Egypt grew simultaneously, and we achieved Noon Express fulfilment status within four months. Revenue grew by 3x in our first year on the platform. Their team is responsive, knowledgeable, and genuinely invested in our success.",
+        name: "Omar Al-Farsi | Desert Rose Cosmetics",
+        location: "UAE",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Selling on Noon as an Indian brand was a complex undertaking — cross-border logistics, Arabic content requirements, and Middle Eastern consumer preferences all needed to be navigated carefully. Tech2Globe handled every aspect with professionalism. Their listing optimisation strategy significantly boosted our search rankings, and their account health monitoring ensured we maintained excellent seller metrics throughout. We now generate consistent six-figure monthly revenue from Noon.",
+        name: "Ravi Nair | Indico Trading Co.",
+        location: "India",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Entering the Middle Eastern market via Noon required a partner with genuine regional expertise. Tech2Globe was that partner. Their bilingual content creation, cultural product positioning, and expert Noon advertising management drove exceptional brand recall and conversion rates. Their regular performance reviews kept our strategy agile and responsive to market changes. We couldn't have achieved our current Noon success without them.",
+        name: "Claire Dubois | Maison Naturelle",
+        location: "France",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "As an African electronics brand entering the Middle East market for the first time, we had significant concerns about compliance, logistics, and consumer trust-building. Tech2Globe addressed all of these systematically. Their onboarding support was thorough, their product content was outstanding, and their Noon Express fulfilment strategy dramatically improved our delivery ratings. We went from zero to a well-established Noon presence in under six months.",
+        name: "Mark Osei | Afrique Electronics",
+        location: "Ghana",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Noon management service delivered results beyond our projections. Their deep understanding of consumer behaviour in the GCC market shaped a product positioning strategy that resonated immediately with buyers. Their promotional campaign management during Noon's major sales events generated our highest single-week revenue on record. The team's proactive communication and transparent reporting make them an ideal long-term partner.",
+        name: "Elena Vasquez | Iberia Home Goods",
+        location: "Spain",
+    },
+];
+
+const portfolioClients = [
+    {
+        initials: "DR",
+        gradient: "#0b2e58",
+        client: "Desert Rose Cosmetics",
+        country: "UAE",
+        project: "Noon Marketplace Expansion",
+        desc: "UAE beauty brand seeking comprehensive Noon marketplace growth across multiple GCC markets.",
+        category: "Marketplace Growth",
+        result: "3x Revenue Growth",
+        resultSub: "Year 1",
+    },
+    {
+        initials: "IT",
+        gradient: "#0b2e58",
+        client: "Indico Trading Co.",
+        country: "India",
+        project: "Cross-Border Noon Selling",
+        desc: "Indian consumer goods brand expanding sales across the Middle East through Noon.",
+        category: "Cross-Border Commerce",
+        result: "Six-Figure Revenue",
+        resultSub: "Monthly Sales",
+    },
+    {
+        initials: "MN",
+        gradient: "#0b2e58",
+        client: "Maison Naturelle",
+        country: "France",
+        project: "Middle East Market Entry",
+        desc: "French natural lifestyle products brand entering the GCC market through Noon.",
+        category: "Market Expansion",
+        result: "95% Revenue Growth",
+        resultSub: "In 5 Months",
+    },
+    {
+        initials: "AE",
+        gradient: "#0b2e58",
+        client: "Afrique Electronics",
+        country: "Ghana",
+        project: "Noon Market Launch",
+        desc: "Ghanaian electronics brand building its presence in the GCC market via Noon.",
+        category: "Marketplace Launch",
+        result: "Market Presence Established",
+        resultSub: "Under 6 Months",
+    },
+    {
+        initials: "IH",
+        gradient: "#0b2e58",
+        client: "Iberia Home Goods",
+        country: "Spain",
+        project: "GCC Marketplace Growth",
+        desc: "Spanish home furnishings brand seeking expansion and revenue growth across Noon marketplaces.",
+        category: "Marketplace Management",
+        result: "4.2x ROAS",
+        resultSub: "Campaign Performance",
+    },
+];
 
 export default function NoonMarketplaceManagement() {
     return (
@@ -458,9 +555,13 @@ export default function NoonMarketplaceManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

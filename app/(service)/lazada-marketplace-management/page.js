@@ -8,6 +8,8 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHeadset, FaBullseye, FaUserTie, FaHandPointRight } from "react-icons/fa";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "",
@@ -345,6 +347,102 @@ const portfolio = [
     },
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe transformed our Lazada presence across five Southeast Asian markets simultaneously. Their multilingual support team handled listings in English, Mandarin, Thai, and Bahasa — something we could never have managed internally. Their Lazada SEO optimisation doubled our organic search impressions, and their flash sale management helped us achieve record single-day sales. The comprehensive reporting dashboard they set up gives us complete visibility into performance across all our stores.",
+        name: "Wei Chen | SilkRoute Consumer Goods",
+        location: "Singapore",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Entering the Southeast Asian beauty market through Lazada required deep platform expertise we simply didn't have. Tech2Globe's team guided us through every step — from seller registration and product compliance to sponsored ad campaigns and review management. Our LazMall store launched flawlessly, and within five months we ranked in the top 3 for our primary beauty categories in both Singapore and Malaysia. Their cultural market knowledge was invaluable.",
+        name: "Isabella Rossi | Bella Cosmetica",
+        location: "Italy",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Lazada was completely new territory for us as an African electronics brand looking to tap into Southeast Asia. Tech2Globe's account creation assistance, product listing support, and ongoing optimisation services made the entire process manageable. Their inventory management system prevented stockouts during our peak campaign periods, and their customer service team handled all buyer communications professionally. We've now established a sustainable 6-figure monthly revenue stream through Lazada.",
+        name: "James Okafor | AfriTech Electronics",
+        location: "Nigeria",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "As a Korean fashion brand expanding to Southeast Asia, we needed a partner who understood both the products and the regional market dynamics. Tech2Globe exceeded expectations. Their Lazada marketing campaigns — combining sponsored ads, email promotions, and flash sales — drove our brand awareness across Thailand, Vietnam, and the Philippines. Their payment and financial management support also simplified our revenue reconciliation across multiple Lazada country stores.",
+        name: "Hannah Park | Seoul Style Co.",
+        location: "South Korea",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's Lazada management service helped us establish a strong foothold in the Southeast Asian outdoor equipment market. Their product optimisation strategy ensured our listings stood out in a crowded category, and their sponsored product ad management delivered a 4x ROAS. The time and cost savings from outsourcing to Tech2Globe allowed us to redirect resources into product development. A truly professional and results-driven team.",
+        name: "David Morrison | Summit Outdoor Gear",
+        location: "New Zealand",
+    },
+];
+
+
+const portfolioClients = [
+    {
+        initials: "SC",
+        gradient: "#0b2e58",
+        client: "SilkRoute Consumer Goods",
+        country: "Singapore",
+        project: "Multi-Market Lazada Expansion",
+        desc: "Consumer products brand seeking to manage and scale its Lazada presence across five Southeast Asian markets simultaneously.",
+        category: "Marketplace Expansion",
+        result: "2x Search Impressions",
+        resultSub: "In 60 Days",
+    },
+    {
+        initials: "BC",
+        gradient: "#0b2e58",
+        client: "Bella Cosmetica",
+        country: "Italy",
+        project: "LazMall Growth Strategy",
+        desc: "Italian beauty brand looking to establish a premium LazMall presence across Southeast Asia.",
+        category: "Beauty Marketplace",
+        result: "Top 3 Category Ranking",
+        resultSub: "Singapore & Malaysia",
+    },
+    {
+        initials: "AE",
+        gradient: "#0b2e58",
+        client: "AfriTech Electronics",
+        country: "Nigeria",
+        project: "Lazada Market Entry",
+        desc: "Nigerian consumer electronics brand pursuing expansion into Southeast Asia through Lazada.",
+        category: "Market Entry",
+        result: "Six-Figure Revenue",
+        resultSub: "Within 6 Months",
+    },
+    {
+        initials: "SS",
+        gradient: "#0b2e58",
+        client: "Seoul Style Co.",
+        country: "South Korea",
+        project: "Cross-Market Fashion Growth",
+        desc: "South Korean fashion brand aiming to increase visibility and sales across multiple Southeast Asian Lazada stores.",
+        category: "Fashion Growth",
+        result: "180% Revenue Growth",
+        resultSub: "In 7 Months",
+    },
+    {
+        initials: "SO",
+        gradient: "#0b2e58",
+        client: "Summit Outdoor Gear",
+        country: "New Zealand",
+        project: "Outdoor Category Expansion",
+        desc: "Outdoor equipment brand seeking end-to-end management and growth on Lazada across Southeast Asia.",
+        category: "Marketplace Management",
+        result: "4x ROAS",
+        resultSub: "Sponsored Ads",
+    },
+];   
 
 
 export default function LazadaMarketplaceManagement() {
@@ -499,9 +597,13 @@ export default function LazadaMarketplaceManagement() {
             </section >
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

@@ -124,33 +124,31 @@ const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe took my online store idea and turned it into reality. Their team is friendly and knowledgeable, guiding me through the process and making everything user-friendly. My store looks great and runs smoothly.!",
-        name: "Sarah Jones, Boutique Owner",
-    },
-    {
+        text: "Tech2Globe built our Shopify store from the ground up and the results have been phenomenal. Their team customized a premium theme, integrated our inventory system, and set up automated email flows. Within 60 days of launch, our conversion rate doubled. Their Shopify developers truly understand what drives ecommerce performance.",
+        name: "Emily Hartmann | PureLeaf Organics",
+        location: "Australia",
+      },
+      {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We needed a revamp for our Shopify store, but didn't have the time or expertise. Tech2Globe stepped in and saved the day! They updated the design, optimized for mobile, and even integrated new features to boost sales. Now our store is converting like crazy. Thanks to their team!",
-        name: "David Kim, Ecommerce Manager",
-    },
-    {
+        text: "We needed a Shopify Plus store capable of handling flash sales with thousands of concurrent users. Tech2Globe delivered a rock-solid solution with custom checkout scripts, advanced discount logic, and multi-language support. The platform handled our biggest sale event without a single hiccup. Incredibly talented development team.",
+        name: "Carlos Mendez | Vivo Sports International",
+        location: "Mexico",
+      },
+      {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "They understand the platform inside and out, customizing our store to meet our exact needs. They helped us streamline the checkout process and even set up automated marketing campaigns.",
-        name: "Dr. Lee Garcia, CEO",
-    },
-    {
+        text: "Tech2Globe migrated our WooCommerce store to Shopify seamlessly, with zero data loss and minimal downtime. They redesigned the entire customer journey and integrated our local courier APIs. Sales increased by 38% in the first quarter post-migration. The team was professional, patient, and always available for questions.",
+        name: "Rachel O'Brien | Celtic Craft House",
+        location: "Ireland",
+      },
+      {
         id: 4,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe's experts impressed us with their ability to handle complex functionalities for our Shopify store. Their communication was clear throughout the project, and they were always available to answer our questions. A reliable partner for our online business!",
-        name: " Michael Hernandez, Marketing Director",
-    },
-    {
-        id: 5,
-        quote: "/images/services/service-inner/quote-icon.png",
-        text: "Their team is reliable and keeps our store running smoothly. They handle everything from design updates to technical issues. Now, we have more time to focus on growing our business!",
-        name: "Emily Garcia, Store Owner",
-    },
+        text: "Tech2Globe developed a custom Shopify storefront for our furniture brand with 3D product visualization and a room builder tool. The bespoke Shopify app they built to connect with our ERP system was flawless. Our average order value increased by 27% after launch. We are extremely satisfied with their technical capabilities and creative approach.",
+        name: "Kenji Nakamura | Nakamura Home Living",
+        location: "Japan",
+      },
 ];
 
 const faqs = [

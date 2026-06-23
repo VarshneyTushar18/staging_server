@@ -11,6 +11,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "",
@@ -71,38 +72,46 @@ const sidebarSections = [
   { heading: "Resources", links: resources }
 ];
 
+
+
+
 const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "I was overwhelmed by the application form and seller verification process, but Tech2Globe handled it all. Their onboarding support saved me time and stress, allowing me to focus on growing my business.",
-    name: "Ananya M., Home & Living Seller",
-  },
-  {
+    text: "OnBuy has emerged as one of the most exciting UK marketplaces for international sellers, and Tech2Globe helped us capitalise on that opportunity brilliantly. Their product listing expertise ensured our catalogue was fully optimised from day one, and their competitive pricing strategy helped us win buyers who were comparing us against established UK retailers. Our OnBuy store became profitable within the first 60 days — a record for any new marketplace we've entered.",
+    name: "Pierre Laurent | Bordeaux Lifestyle Products",
+    location: "France",
+},
+{
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe’s OnBuy retail onboarding service is excellent. From catalog setup to compliance checks, their guidance made launching my store seamless. Their team really knows the marketplace inside out.",
-    name: "Zack K., Fashion Retailer",
-  },
-  {
+    text: "Tech2Globe's OnBuy marketplace management service is the best we've experienced on any UK platform. Their team understood OnBuy's unique positioning as a seller-friendly, customer-centric marketplace and built our strategy around it effectively. Catalogue management, pricing optimisation, and performance monitoring were all handled with impressive thoroughness. We've grown from zero to a Top 100 OnBuy seller in our category within eight months.",
+    name: "Björn Larsson | Stockholm Design House",
+    location: "Sweden",
+},
+{
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They didn’t just help with OnBuy onboarding, they ensured I met all vendor requirements for other marketplaces, including Costco. Tech2Globe is a complete onboarding partner for serious sellers.",
-    name: " Emma T., Global Vendor",
-  },
-  {
+    text: "Breaking into the UK market was a major goal for our African artisanal products business. Tech2Globe's OnBuy management expertise made it a reality. They created beautifully crafted product listings that told our brand's story compellingly, managed our customer service communications with genuine care, and kept our performance metrics at the top of OnBuy's standards. The UK consumer response to our products has been overwhelming, and Tech2Globe deserves tremendous credit for that.",
+    name: "Fatou Diallo | West African Crafts Ltd",
+    location: "Senegal",
+},
+{
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2Globe made my OnBuy seller registration effortless. Their team guided me through every step, from account signup to verification. I launched my store without any delays and felt supported throughout the process.",
-    name: "Twain L., UK Retailer",
-  },
-  {
+    text: "Tech2Globe helped us establish our premium Italian kitchenware brand on OnBuy with a strategy that perfectly reflected our quality positioning. Their catalogue work was outstanding — product descriptions were both accurate and evocative, and images were optimised to OnBuy's specifications precisely. Their regular account health monitoring flagged and resolved issues before they could impact performance. OnBuy has become our most consistent UK marketplace for revenue growth.",
+    name: "Giovanni Ferrari | Ferrari Casa e Cucina",
+    location: "Italy",
+},
+{
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "The OnBuy vendor onboarding support from Tech2Globe was outstanding. They helped me understand all requirements and ensured my product listings were compliant. I highly recommend their services for any new seller.",
-    name: "Rehman S., Electronics Vendor",
-  },
-];
+    text: "As an Australian brand entering the UK market, OnBuy's straightforward seller model was appealing, but the execution complexity was real. Tech2Globe simplified everything. Their onboarding was fast, their product listings were thorough, and their pricing recommendations kept us competitive without compromising margins. Within five months, our OnBuy ratings were averaging 4.9 stars, and revenue was growing steadily every week. Tech2Globe's professionalism is exceptional.",
+    name: "Samantha Reid | Reid Home Essentials",
+    location: "Australia",
+},
+]
 
 const faqs = [
   {
@@ -163,6 +172,64 @@ const faqs = [
   },
 ];
 
+
+const portfolioClients = [
+  {
+    initials: "BL",
+    gradient: "#1f3a5f",
+    client: "Bordeaux Lifestyle Products",
+    country: "France",
+    project: "OnBuy Marketplace Launch",
+    desc: "French wellness brand expanding into the UK market through OnBuy's seller-friendly marketplace ecosystem.",
+    category: "Marketplace Expansion",
+    result: "Profitable in 60 Days",
+    resultSub: "Post Launch",
+},
+{
+    initials: "SD",
+    gradient: "#2a4b7c",
+    client: "Stockholm Design House",
+    country: "Sweden",
+    project: "UK Marketplace Growth",
+    desc: "Scandinavian home design brand building a strong UK presence through OnBuy.",
+    category: "Brand Growth",
+    result: "Top 100 Seller",
+    resultSub: "Within 8 Months",
+},
+{
+    initials: "WC",
+    gradient: "#163a63",
+    client: "West African Crafts Ltd",
+    country: "Senegal",
+    project: "Cross-Border Market Entry",
+    desc: "Senegalese artisan crafts brand introducing handcrafted products to UK consumers via OnBuy.",
+    category: "Market Expansion",
+    result: "Exceeded Projections",
+    resultSub: "Consumer Response",
+},
+{
+    initials: "FC",
+    gradient: "#3b2f5c",
+    client: "Ferrari Casa e Cucina",
+    country: "Italy",
+    project: "Premium Homeware Growth",
+    desc: "Italian kitchenware and home products brand establishing a premium presence on OnBuy.",
+    category: "Marketplace Management",
+    result: "Zero Performance Issues",
+    resultSub: "Since Launch",
+},
+{
+    initials: "RH",
+    gradient: "#2f5a4a",
+    client: "Reid Home Essentials",
+    country: "Australia",
+    project: "UK Market Entry",
+    desc: "Australian home essentials brand expanding into the UK market through OnBuy.",
+    category: "Customer Growth",
+    result: "4.9-Star Rating",
+    resultSub: "Within 5 Months",
+},
+];
 
 export default function OnBuyMarketPlace() {
 
@@ -510,6 +577,7 @@ export default function OnBuyMarketPlace() {
         </div>
       </section >
 
+      <ClientPortfolio clients={portfolioClients} />
 
 
       <div className="EmailMarketingTestimonials">

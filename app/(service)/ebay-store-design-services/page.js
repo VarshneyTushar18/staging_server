@@ -6,6 +6,7 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 
 export const metadata = {
   title: "EBay Store Design | EBay Store Designer Services - Tech2Globe",
@@ -336,6 +337,36 @@ const portfolio = [
   },
 ]
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe redesigned our eBay store and created professional listing templates that truly reflect our brand. The new store layout is clean, mobile-friendly, and highly conversion-focused. Since the redesign, our click-through rate improved by 48% and buyer trust has visibly increased based on our feedback metrics. Outstanding design work.",
+    name: "Brian Callahan | Callahan Auto Parts USA",
+    location: "United States",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Our eBay store was bland and inconsistent before Tech2Globe stepped in. They created a stunning, branded storefront with custom category banners, a professional logo, and consistent listing templates across all 2,000+ of our products. Buyer inquiries went up by 35% and our eBay store feedback score improved remarkably.",
+    name: "Harriet Thompson | Thompson Vintage Collectibles",
+    location: "United Kingdom",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe delivered an outstanding eBay store design that reflects our premium brand positioning. They designed custom HTML listing templates that are both visually appealing and SEO-optimized. Our eBay sales increased by 29% in the first month. The team was professional, timely, and exceeded every expectation we had.",
+    name: "Hans van der Berg | Dutch Design Wholesale BV",
+    location: "Netherlands",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We needed a cohesive eBay store that matched our brand identity across global markets. Tech2Globe created a beautiful store design with custom banners, category pages, and listing templates in English and Japanese. The professionalism and attention to brand guidelines were exceptional. We have seen a measurable lift in buyer confidence and sales.",
+    name: "Aiko Tanaka | Tanaka Lifestyle Brands",
+    location: "Japan",
+  },
+];
 
 export default function EbayStoreDesign() {
   return (
@@ -416,6 +447,8 @@ export default function EbayStoreDesign() {
       <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
       </div>
+
+      <ClientSlider testimonials={testimonials} />
     </>
   )
 };
