@@ -410,7 +410,6 @@ const portfolioClients = [
         result: "Zero PO Delays",
         resultSub: "Smooth Vendor Onboarding",
     },
-    Ge
 ];
 
 
