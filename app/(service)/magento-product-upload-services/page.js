@@ -5,6 +5,8 @@ import BrandSection from "@/app/components/home/BrandSection/BrandSection";
 import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner";
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Magento product upload Services | Magento Data Entry Services",
@@ -67,7 +69,102 @@ const sidebarSections = [
     { heading: "Useful Links", links: usefulLinks },
 ];
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Magento is a powerful but complex platform, and Tech2Globe proved they know it exceptionally well. They uploaded our 5,000+ products including configurable and grouped product types with perfect attribute mapping. Our catalog is now structured better than ever before.",
+        name: "Neil Robertson | BuildPro Australia",
+        location: "Australia",
+      },
+      {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were dealing with frequent errors from our previous data entry vendor on our Magento store. Switching to Tech2Globe was transformative. Their Magento specialists ensured all products were uploaded with correct custom attributes, tier pricing, and category assignments.",
+        name: "Fatima Al-Rashid | ElectroSouq Saudi Arabia",
+        location: "Saudi Arabia",
+      },
+      {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe handled a bulk upload of over 20,000 SKUs onto our Magento 2 store. The process was smooth, their team asked the right questions upfront, and the final result was a perfectly organized product catalog with zero duplicate or missing data.",
+        name: "David Klaassen | FashionFirst Netherlands",
+        location: "Netherlands",
+      },
+      {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our Magento store required multi-store product setups across three regions. Tech2Globe managed the complexity brilliantly — different pricing, different descriptions, and different category hierarchies for each region. Their expertise saved us months of internal effort.",
+        name: "Pooja Nair | GlobalGoods India",
+        location: "India",
+      },
+      {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "I've worked with several outsourcing vendors for Magento product uploads, but Tech2Globe stands out. Their quality checks are thorough, they follow our style guide religiously, and the SEO optimization on each listing has clearly helped our organic traffic grow.",
+        name: "Marc Dubois | MaisonPlus France",
+        location: "France",
+      },
+];
 
+
+const portfolioClients = [
+    {
+        initials: "ER",
+        gradient: "#0b2e58",
+        client: "Enterprise Retail Corporation",
+        country: "Mexico",
+        project: "Large-Scale Magento Implementation",
+        desc: "Managed enterprise-level Magento installation with advanced product configurations. Set up hierarchical category structures, managed 200+ product attributes, and implemented custom product types. Optimized database performance and configured multi-language product presentations.",
+        category: "Magento Development",
+        result: "35,000+ products configured",
+        resultSub: "Performance Optimization",
+      },
+      {
+        initials: "IE",
+        gradient: "#0b2e58",
+        client: "Industrial Equipment Supplier",
+        country: "Brazil",
+        project: "B2B Magento Commerce",
+        desc: "Configured B2B Magento store with complex pricing structures and customer-specific catalogs. Implemented custom product attributes for technical specifications and bulk order management. Integrated ERP system for real-time inventory and order processing.",
+        category: "Magento Development",
+        result: "12,000+ industrial products catalogued",
+        resultSub: "B2B Automation",
+      },
+      {
+        initials: "HP",
+        gradient: "#0b2e58",
+        client: "Healthcare Products Distributor",
+        country: "ZA",
+        project: "Regulated Product Management",
+        desc: "Managed healthcare product catalog with strict compliance and certification requirements. Implemented batch/lot tracking, expiration date management, and regulatory documentation. Configured country-specific pricing and shipping restrictions for HIPAA compliance.",
+        category: "Magento Development",
+        result: "8,500+ healthcare products uploaded",
+        resultSub: "Compliance Management",
+      },
+      {
+        initials: "CE",
+        gradient: "#0b2e58",
+        client: "Consumer Electronics Marketplace",
+        country: "UAE",
+        project: "Magento Multi-Store Platform",
+        desc: "Set up multi-store Magento architecture serving Middle East and North Africa regions. Configured region-specific currencies, languages, and payment methods. Implemented dynamic pricing based on regional demand and managed inventory across warehouse locations.",
+        category: "Magento Development",
+        result: "22,000+ electronics SKUs",
+        resultSub: "Multi-Store Architecture",
+      },
+      {
+        initials: "PD",
+        gradient: "#0b2e58",
+        client: "Pharmaceutical Distribution Network",
+        country: "India",
+        project: "Complex B2B Product Management",
+        desc: "Developed sophisticated Magento setup for pharmaceutical distributor with serialization and traceability requirements. Implemented custom order management, wholesale pricing tiers, and compliance documentation workflows. Integrated with supply chain management system.",
+        category: "Magento Development",
+        result: "15,000+ pharmaceutical products",
+        resultSub: "Supply Chain Optimization",
+      },
+];
 
 export default function MagentoProductUploadServices() {
     return (
@@ -134,6 +231,10 @@ export default function MagentoProductUploadServices() {
 
                 </div>
             </section>
+
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

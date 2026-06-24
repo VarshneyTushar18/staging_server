@@ -10,6 +10,7 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
@@ -334,33 +335,38 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They took care of uploading all our product information onto our website, saving us tons of time. Their team is accurate and detail-oriented, ensuring our listings are complete and optimized.",
-    name: "Sarah Jones, Marketing Manager",
-  },
-  {
+    text: "We had a backlog of over 15,000 products waiting to be listed on our website and marketplace channels. Tech2Globe's product data entry team cleared the entire backlog in three weeks with near-perfect accuracy. Every product had complete specifications, proper images, and well-written descriptions. The quality checks they run internally are thorough. We were so impressed we made them our long-term data entry partner.",
+    name: "Sarah Connolly | ShopRight Online Ltd.",
+    location: "Ireland",
+},
+{
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "We recently launched a new product line and needed help getting everything online fast. Tech2Globe’s product data entry services were perfect. They handled all the product details, descriptions, and images, and got us up and running quickly. A big thanks to their team",
-    name: "David Kim, CEO",
-  },
-  {
+    text: "Accurate and fast product data entry is critical in our sports equipment business. Tech2Globe delivered on both. They handled complex product variants — sizes, colors, and compatibility specs — with precision. Our online store went live months ahead of schedule thanks to their efficiency. The team was responsive to feedback and made corrections immediately whenever needed. Highly professional.",
+    name: "Sven Eriksson | ScandiSport A/S",
+    location: "Denmark",
+},
+{
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Their team understands the importance of accurate product information and optimizes our listings for search engines. This has led to a significant increase in website traffic and sales. They have become a valuable partner for our e-commerce business!",
-    name: "Dr. Lee Garcia, Head of E-commerce",
-  },
-  {
+    text: "Our product catalog contains thousands of electronics items with highly technical specifications. Tech2Globe's data entry team demonstrated excellent understanding of technical attributes and entered data accurately across our e-commerce platform. They maintained a 99.5% accuracy rate throughout the project. Communication was professional and the workflow was well-structured. We will continue working with them.",
+    name: "Yuki Tanaka | TechMart Japan Co., Ltd.",
+    location: "Japan",
+},
+{
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "We are impressed by their ability to handle our large product catalog. They can handle different product formats and ensure consistency across all platforms. Their team is responsive and always available to answer questions.",
-    name: "Michael Hernandez, Product Manager",
-  },
-  {
+    text: "Entering product data for our handcrafted home décor items required attention to detail and a good aesthetic sensibility. Tech2Globe surprised us with the quality of their descriptions and the care they took with attribute mapping. Products went live looking polished and complete. Conversion rates on newly listed products were 18% higher than our previous listings. We are very pleased.",
+    name: "Nadia Schneider | AlpineHome Décor AG",
+    location: "Switzerland",
+},
+{
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Their service is flexible and can handle any size product inventory. They ensure our product listings are accurate and up-to-date, which keeps our customers happy. We're glad we found them!",
-    name: " Emily Garcia, Marketing & Sales Associate",
-  },
+    text: "We were launching a new e-commerce platform and needed thousands of products entered quickly and correctly. Tech2Globe's team worked efficiently, delivering high-quality data entry with accurate categories, pricing, and descriptions. They even flagged inconsistencies in our source data and helped us resolve them before going live. Their proactive approach saved us significant rework time. Excellent service.",
+    name: "Adebayo Okonkwo | Lagos Superstore Online",
+    location: "Nigeria",
+},
 ];
 
 const faqs = [
@@ -401,7 +407,64 @@ const faqs = [
   },
 ];
 
-export default function BulkProductUpload() {
+const portfolioClients = [
+  {
+    initials: "USA",
+    gradient: "#0b2e58",
+    client: "US Retailer",
+    country: "USA",
+    project: "Bulk E-commerce Product Upload Initiative",
+    desc: "Executed large-scale product data entry for US retailer launching on Shopify and Amazon, uploading 50,000+ products across both platforms.",
+    category: "Shopify & Amazon Data Entry",
+    result: "50,000+ SKUs entered • 99.6% accuracy",
+},
+
+{
+    initials: "ES",
+    gradient: "#0b2e58",
+    client: "Spanish Retailer",
+    country: "ES",
+    project: "Multi-Language Product Catalog Entry",
+    desc: "Managed multilingual product data entry for Spanish retailer expanding across six European markets with localized content and compliance.",
+    category: "Multilingual Product Data Management",
+    result: "30,000+ products • 98.9% accuracy",
+},
+
+{
+    initials: "CA",
+    gradient: "#0b2e58",
+    client: "Canadian Healthcare Provider",
+    country: "Canada",
+    project: "Healthcare Product Catalog Database Population",
+    desc: "Populated medical product database for Canadian healthcare provider ensuring regulatory compliance, accurate terminology, and zero-error processing.",
+    category: "Specialized Medical Product Entry",
+    result: "12,000+ medical products • 100% compliance",
+},
+
+{
+    initials: "AU",
+    gradient: "#0b2e58",
+    client: "Australian Real Estate Platform",
+    country: "Australia",
+    project: "Real Estate Property Database Entry",
+    desc: "Entered and optimized property listings for Australian real estate platform including details, images, and SEO-friendly descriptions at scale.",
+    category: "Real Estate Listing Data Management",
+    result: "25,000+ properties listed • 97.8% accuracy",
+},
+
+{
+    initials: "BR",
+    gradient: "#0b2e58",
+    client: "Brazilian Fashion Retailer",
+    country: "Brazil",
+    project: "Fashion Retail Inventory System Population",
+    desc: "Managed fashion inventory data entry for Brazilian retailer including product hierarchies, size/color variants, and structured catalog organization.",
+    category: "Fashion E-commerce Data Entry",
+    result: "45,000+ items • 180,000+ SKU variants",
+},
+];
+
+export default function ProductDataEntryServices() {
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -449,6 +512,7 @@ export default function BulkProductUpload() {
       }
     ]
   };
+  
 
   return (
     <>
@@ -667,9 +731,9 @@ export default function BulkProductUpload() {
           </div>
         </div>
       </section>
-
+      <ClientPortfolio clients={portfolioClients} />
       <CaseStudiesService caseStudies={caseStudies} />
-      <PortfolioTabs data={portfolio} />
+      {/* <PortfolioTabs data={portfolio} /> */}
       <ClientSlider testimonials={testimonials} />
       <FaqSection faqs={faqs} />
     </>

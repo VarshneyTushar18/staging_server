@@ -8,6 +8,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "CDiscount Product Upload Services | marketplace management",
@@ -347,36 +348,99 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "Selling on Cdiscount requires navigating a very specific product feed format and content requirements. Tech2Globe's team handled all of it expertly — from product sheet creation to EAN verification and category mapping. Our French marketplace presence is now much stronger.",
+    name: "Julien Moreau | TechZone France",
+    location: "France",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana- Amazon Sponsored Ads USA",
+    text: "We were new to the Cdiscount platform and needed expert help to get our catalog live quickly. Tech2Globe understood the platform's specific requirements and uploaded 1,500 products cleanly and without any rejection. Their knowledge of the French marketplace is impressive.",
+    name: "Clara Dupont | MaisonChic France",
+    location: "France",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "Tech2Globe helped us manage ongoing product uploads and updates on Cdiscount. Their team understands the platform's attribute requirements and always ensures our listings are compliant with the latest Cdiscount guidelines. Very reliable and professional.",
+    name: "Simon Laurent | FranceMart Paris",
+    location: "France",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: " Medi Hub- Amazon Store Creations USA",
+    text: "Getting product feed errors on Cdiscount was costing us a lot of potential sales. Tech2Globe audited our entire catalog, corrected all attribute and format issues, and resubmitted everything cleanly. The improvement in our acceptance rate was immediate.",
+    name: "Pierre Fontaine | EuroShop France",
+    location: "France",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed- Amazon Enhance Brand Content USA",
+    text: "Our seasonal product launches on Cdiscount used to take weeks to go live due to errors and rejections. Since partnering with Tech2Globe for product uploads, we consistently launch on schedule. Their proactive approach to Cdiscount compliance has been a game changer.",
+    name: "Amélie Bernard | StyleMaison Lyon",
+    location: "France",
   },
 ];
 
-export default function OnlineBusinessManagementRakuten() {
+const portfolioClients = [
+  {
+    initials: "FF",
+    gradient: "#0b2e58",
+    client: "French Fashion Distributor",
+    country: "France",
+    project: "Cdiscount Fashion & Beauty",
+    desc: "Managed comprehensive fashion catalog on Cdiscount with French market optimization. Implemented seasonal fashion updates and trend-based merchandising. Created detailed size guides and fit information for French customer preferences.",
+    category: "Cdiscount Marketplace",
+    result: "45% increase in Cdiscount channel revenue",
+    resultSub: "Revenue Growth",
+  },
+  {
+    initials: "ET",
+    gradient: "#0b2e58",
+    client: "Electronics & Technology",
+    country: "France",
+    project: "Cdiscount Electronics",
+    desc: "Processed technology product catalog for Cdiscount marketplace with detailed technical specifications. Implemented extended warranty options and tech support information. Managed product bundling for technology categories.",
+    category: "Cdiscount Marketplace",
+    result: "99.3% order accuracy",
+    resultSub: "Order Precision",
+  },
+  {
+    initials: "HF",
+    gradient: "#0b2e58",
+    client: "Home & Furniture Specialist",
+    country: "France",
+    project: "Cdiscount Home Solutions",
+    desc: "Managed home and furniture inventory on Cdiscount with complex delivery logistics. Implemented 3D product viewing and room visualization tools. Coordinated with delivery partners and managed large item fulfillment.",
+    category: "Cdiscount Marketplace",
+    result: "3D product visualization",
+    resultSub: "Customer Experience",
+  },
+  {
+    initials: "SO",
+    gradient: "#0b2e58",
+    client: "Sports & Outdoor Equipment",
+    country: "France",
+    project: "Cdiscount Sports Category",
+    desc: "Processed sports equipment catalog with seasonal sports trend optimization. Implemented equipment rental and subscription services. Created detailed product specifications for sports enthusiasts and professionals.",
+    category: "Cdiscount Marketplace",
+    result: "Equipment rental options",
+    resultSub: "Service Innovation",
+  },
+  {
+    initials: "GM",
+    gradient: "#0b2e58",
+    client: "General Merchandise Wholesaler",
+    country: "France",
+    project: "Cdiscount Multi-Category Seller",
+    desc: "Managed multi-category wholesale inventory on Cdiscount with automated pricing strategies. Implemented bulk update capabilities and inventory management system integration. Coordinated fulfillment across multiple product categories.",
+    category: "Cdiscount Marketplace",
+    result: "55,000+ SKUs across all categories",
+    resultSub: "Catalog Scale",
+  },
+];
+
+export default function CdiscountProductUploadServices() {
   return (
 
     <>
@@ -425,9 +489,11 @@ export default function OnlineBusinessManagementRakuten() {
         </div>
       </section>
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

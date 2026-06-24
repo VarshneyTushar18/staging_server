@@ -10,9 +10,10 @@ import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
-    title: "Google Shopping Ads Agency | Shopping Ads Services | Tech2globe",
+  title: "Google Shopping Ads Agency | Shopping Ads Services | Tech2globe",
 
   description:
     "Make sure you get your products seen with Google Shopping. Get more information about Tech2globe Google Ads management.",
@@ -71,140 +72,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service Quality by Ritu & Chavy.. Quick to revert on any queries or issues. Delivery time to be bettered or improved a bit though .",
-    name: "SHAFIN - Head of Partner Manager",
+    text: "Tech2Globe's shopping ads team transformed our Google Shopping performance. They restructured our product feed, fixed attribute errors, and implemented smart bidding strategies that reduced our cost-per-click by 42% while increasing our conversion rate. Our ROAS improved from 2.1x to 5.4x within 90 days. An exceptional team.",
+    name: "Oliver Kent | Director, PetWorld UK",
+    location: "United Kingdom",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "It's a best agency we find for handling our e commerce marketplaces, all staff are friendly and expert in their work, we recommend TECH 2 GLOBE to achieve your business goals timely and efficiently.",
-    name: "NITIN MEHTA - Head of Partner Manager",
+    text: "We had been running Shopping Ads in-house with poor results. Tech2Globe took over and immediately identified critical feed optimization opportunities we had missed. Their Performance Max campaign setup and daily bid adjustments generated a 67% increase in shopping revenue in the first month. I wish we had partnered with them sooner.",
+    name: "Lucas Bernard | Head of Acquisition, MotoShop",
+    location: "France",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very co operative staff, managing my account very well.",
-    name: "GENKI - Head of Partner Manager",
+    text: "Tech2Globe helped us launch and scale Google Shopping Ads for our beauty ecommerce store. Their product title and description optimization significantly improved our impression share, and their segmented campaign structure allowed precise budget control. We went from near-zero Shopping visibility to becoming a top advertiser in our niche within 4 months.",
+    name: "Priya Kapoor | Founder, GlowCart",
+    location: "Singapore",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Hardworking team with the main target of growing your business. We have just started working and the team is warm and instantly available for all confusions and help in establishing your Amazon business.",
-    name: "SHUBHESH GOEL - Director of Partner Management",
+    text: "The Tech2Globe shopping ads team is thorough, data-driven, and results-oriented. They audited our entire campaign account, rebuilt the structure, and implemented custom labels to prioritize our best-margin products. Our overall shopping campaign ROAS went from 3x to 7x, and we significantly reduced wasted spend on low-converting SKUs.",
+    name: "Thomas Huber | Digital Commerce Lead, HomeCraft",
+    location: "Switzerland",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "I was very happy with the services and quality of work. Their team was open to feedback and flexible in meeting needs.",
-    name: "DAVID - Director of Partner Management",
-  },
-  {
-    id: 6,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I have received the photos back from many jobs and they are always great! The editing service was cost-effective, and Tech2Globe Web Solutions was friendly to work with.",
-    name: "ASHLEY MEYER - Owner",
-  },
-  {
-    id: 7,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I got to know them as an extension of our team, without the normal complications involved with large BPO firms.",
-    name: "LAURA HACKETT - Customer Service Manager (Berlin, Germany)",
-  },
-  {
-    id: 8,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and great service provider. Happy with the ecommerce services.",
-    name: "SARAH S. - Ecommerce Business Owner",
-  },
-  {
-    id: 9,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "The team is so good in their work, they maintain professionalism while working and they guide you whenever you got stuck in your ecom business.",
-    name: "AKSHAY - Marketing Manager",
-  },
-  {
-    id: 10,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very much enjoyed working with Tech2Globe. The responsiveness was amazing and they were helpful as they developed Enhanced Brand Content for my product listing. I would definitely work with them again in the future.",
-    name: "REVIAN - United Kingdom",
-  },
-  {
-    id: 11,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2globe is a great company that provides high-quality services. They work very closely with our management and are on continuous communication and collaboration with our team. They have helped us increase our sales and optimize our processes. The overall experience has been amazing so far.",
-    name: "ALEX - London",
-  },
-  {
-    id: 12,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I m very much satisfied with the Tech2Globe team they assigned me. All the team members are very knowledgeable about everything and their quality of work is very impressive.",
-    name: "MEGHA SARPAL - Sales & Marketing",
-  },
-  {
-    id: 13,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "This is my very first time I availed of service from Tech2Globe and amazed by the quality of service they have provided. I have been running my Amazon business for over a year now and have worked with many service providers before. For the very first time, I realized that I have invested with a proper vendor with 100% worth of my money. I am definitely a returning customer for all my Amazon service needs and I highly recommend Tech2Globe.",
-    name: "BIBHUDATTA MISHRA - Sales & Marketing",
-  },
-  {
-    id: 14,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I was extremely satisfied with the infographics created for my company! They were very timely and communications were excellent! We even spoke by phone on occasion. I would highly recommend this company and I plan to use them again for future projects e.g. listing creation, optimization, etc. Thank you, Anurag!",
-    name: "WILLIAM NEWSOME - Project Manager",
-  },
-  {
-    id: 15,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "The team is very professional and genuine. Our direct interaction is with Sahil and he is very proactive in his deliverables. He always suggests great ideas and strategies.",
-    name: "KRISHAN KUMAR DIXIT - Sales & Marketing",
-  },
-  {
-    id: 16,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Thank you so much for the amazing services. Now I can proudly say that I am the owner of an eCommerce website.",
-    name: "SRI RANGATHAM - CEO",
-  },
-  {
-    id: 17,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Quality work from a team that know what they are doing. We wrestled with Google Products for weeks before Tech2globe got involved. They solved in the issues in just a few hours. Looking forward to working together again.",
-    name: "RICHARD FOSTER TEST - Sales & Marketing",
-  },
-  {
-    id: 18,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "We commend your quick actions to our requests and appreciate your eagerness to learn our processes and standards. It is almost more than 6 Months we are engaged with Tech2Globe and from first week we have been receiving numerous compliments on our website. Our company is really happy to hire Full Time Equivalent (FTE) professionals at Tech2globe",
-    name: "BOBBY - USA",
-  },
-  {
-    id: 19,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I have been outsourcing IT work for a couple of years to offshore locations and have worked with many solutions companies, but by far I have found Tech2Globe to be the best. Their product development strategies were incredible and far exceeded my expectations.",
-    name: "MICHAEL BURNS OFFSHORE - IT Consultant (USA)",
-  },
-  {
-    id: 20,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2globe possesses strong knowledge of how to outsource and offshore business process and IT services and make the initiative successful.",
-    name: "BRADLEY SMITH - Delivery Manager",
-  },
-  {
-    id: 21,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "These guys deliver on what they promise, although a little later than expected by both parties.",
-    name: "ALISA - Thailand",
-  },
-  {
-    id: 22,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "When we decided to relocate our data entry service outside of Germany, we wanted to find the best partner in term of ongoing communication and ethic.",
-    name: "MOWGLI MONTIER - Germany",
-  },
-  {
-    id: 23,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I used to work with Tech2Globe as a part of the takeaway company. The team in India was very devoted and focused on the mutual success.",
-    name: "EWELINA ŻELAZKO - Germany",
+    text: "We were intimidated by the complexity of Shopping Ads but Tech2Globe made the whole process seamless. Their feed setup, merchant center troubleshooting, and campaign optimization were all handled expertly. Within 60 days our Shopping Ads were our highest-performing paid channel, delivering a consistent 4.9x return. Couldn't be happier.",
+    name: "Sarah McLean | Ecommerce Director, FreshFarm",
+    location: "New Zealand",
   },
 ];
 
@@ -336,7 +234,61 @@ const caseStudies = [
   }
 ]
 
-export default function Remarketing() {
+const portfolioClients = [
+  {
+    initials: "MS",
+    gradient: "#0b2e58",
+    client: "MotoShop France",
+    country: "France",
+    project: "Shopping Ads — Automotive Parts & Accessories",
+    desc: "Audited Merchant Center, fixed feed errors, rebuilt campaign structure, and optimized bidding, transforming Shopping Ads into highest-performing paid channel.",
+    category: "Shopping Ads",
+    result: "ROAS increased to 6.8x in 60 days",
+  },
+  {
+    initials: "GC",
+    gradient: "#0b2e58",
+    client: "GlowCart Beauty",
+    country: "Singapore",
+    project: "Shopping Ads — Beauty & Personal Care",
+    desc: "Built Shopping Ads from scratch with optimized feed, structured campaigns, and bidding strategy, achieving strong ROAS and rapid paid channel growth.",
+    category: "Shopping Ads",
+    result: "5.1x ROAS in first 30 days",
+  },
+  {
+    initials: "HC",
+    gradient: "#0b2e58",
+    client: "HomeCraft Switzerland",
+    country: "CH",
+    project: "Shopping Ads — Home Improvement & Tools",
+    desc: "Rebuilt campaign structure, improved feed quality, expanded negatives, and optimized bidding to significantly boost ROAS and reduce wasted ad spend.",
+    category: "Shopping Ads",
+    result: "ROAS improved to 7.4x",
+  },
+  {
+    initials: "FF",
+    gradient: "#0b2e58",
+    client: "FreshFarm Organics",
+    country: "NZ",
+    project: "Shopping Ads — Organic Food & Groceries",
+    desc: "Launched optimized Shopping Ads with clean product feed, structured campaigns, and seasonal bidding strategies driving strong ROAS and new customers.",
+    category: "Shopping Ads",
+    result: "4.9x ROAS in 45 days",
+  },
+  {
+    initials: "PW",
+    gradient: "#0b2e58",
+    client: "PetWorld UK",
+    country: "UK",
+    project: "Shopping Ads — Pet Supplies",
+    desc: "Restructured Shopping campaigns, optimized product feed, and implemented smart bidding, significantly improving ROAS and scaling revenue efficiently.",
+    category: "Shopping Ads",
+    result: "ROAS improved to 5.2x",
+  },
+
+];
+
+export default function ShoppingAdsServices() {
 
   return (
     <>
@@ -356,15 +308,15 @@ export default function Remarketing() {
 
                 <p>Unlike text advertising, shopping ads offer a product image, title, specifications, and price, among other things. It's no surprise that this advertising converts at a greater rate.</p>
 
-                              
+
               </div>
 
 
               <div className={Style.ContentDiv}>
                 <h4 className="text-danger mb-3">Why Should You Use Google Shopping?</h4>
                 <p>Why should your company market its items on Google Shopping? Below are a few of the most important advantages.</p>
-               
-               
+
+
                 <div className={`${Style.PageAccordion} accordion`} id="accordionSection1">
 
                   {/* Accordion 1 */}
@@ -406,8 +358,8 @@ export default function Remarketing() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                         A More Widespread Presence
-                                
+                        A More Widespread Presence
+
                       </button>
                     </h2>
                     <div
@@ -418,7 +370,7 @@ export default function Remarketing() {
                     >
                       <div className={`${Style.AccordionBody} accordion-body`}>
                         <p className="para-text">
-                         SERP may have many Shopping ads from a single shop. Shopping advertising, text advertisements, and organic search results from your website can all appear on the same SERP. Shopping ads provide you an additional opportunity to reach Google users and can help you get more visitors from a single search phrase.
+                          SERP may have many Shopping ads from a single shop. Shopping advertising, text advertisements, and organic search results from your website can all appear on the same SERP. Shopping ads provide you an additional opportunity to reach Google users and can help you get more visitors from a single search phrase.
                         </p>
                       </div>
                     </div>
@@ -436,7 +388,7 @@ export default function Remarketing() {
                         aria-controls="collapseThree"
                       >
                         Qualified Leads
-                                
+
 
                       </button>
                     </h2>
@@ -452,9 +404,9 @@ export default function Remarketing() {
                         </p>
                       </div>
                     </div>
-                  </div>  
+                  </div>
 
-                   {/* Accordion 4 */}
+                  {/* Accordion 4 */}
                   <div className={`${Style.AccordionItem} accordion-item`}>
                     <h2 className="accordion-header" id="headingFour">
                       <button
@@ -480,152 +432,152 @@ export default function Remarketing() {
                         </p>
                       </div>
                     </div>
-                  </div>               
+                  </div>
 
                 </div>
 
                 <div className={Style.ContentDiv}>
-                <h4 className="text-danger mb-3">What Are The Benefits Of Using Our Google Shopping Management Services?</h4>
-               
-               
-                <div className={`${Style.PageAccordion} accordion`} id="accordionSection1">
+                  <h4 className="text-danger mb-3">What Are The Benefits Of Using Our Google Shopping Management Services?</h4>
 
-                  {/* Accordion 5 */}
-                  <div className={`${Style.AccordionItem} accordion-item`}>
-                    <h2 className="accordion-header" id="headingFive">
-                      <button
-                        className={`${Style.AccordionButton} accordion-button collapsed`}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive"
-                        aria-expanded="false"
-                        aria-controls="collapseFive"
+
+                  <div className={`${Style.PageAccordion} accordion`} id="accordionSection1">
+
+                    {/* Accordion 5 */}
+                    <div className={`${Style.AccordionItem} accordion-item`}>
+                      <h2 className="accordion-header" id="headingFive">
+                        <button
+                          className={`${Style.AccordionButton} accordion-button collapsed`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          Development of Google Shopping Ads
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFive"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample"
                       >
-                        Development of Google Shopping Ads
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFive"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className={`${Style.AccordionBody} accordion-body`}>
-                        <p className="para-text">
-                          First, we make sure you are ready to launch <strong>Smart Shopping campaigns</strong>. We'll do all the necessary set ups and link your Google Merchant Center and Google AdWords accounts if you don't already have them so we can start with your shopping campaign.
-                        </p>
+                        <div className={`${Style.AccordionBody} accordion-body`}>
+                          <p className="para-text">
+                            First, we make sure you are ready to launch <strong>Smart Shopping campaigns</strong>. We'll do all the necessary set ups and link your Google Merchant Center and Google AdWords accounts if you don't already have them so we can start with your shopping campaign.
+                          </p>
+                        </div>
                       </div>
                     </div>
+
+                    {/* Accordion 6 */}
+                    <div className={`${Style.AccordionItem} accordion-item`}>
+                      <h2 className="accordion-header" id="headingSix">
+                        <button
+                          className={`${Style.AccordionButton} accordion-button collapsed`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                          Budget For Google Shopping Ads
+
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseSix"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className={`${Style.AccordionBody} accordion-body`}>
+                          <p className="para-text">
+                            We create a marketing budget to help you reach your goals in the most efficient way possible. To do so, we'll assist you in determining how much money you need to pay for every click and how much money you need to spend per day.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Accordion 7 */}
+                    <div className={`${Style.AccordionItem} accordion-item`}>
+                      <h2 className="accordion-header" id="headingSeven">
+                        <button
+                          className={`${Style.AccordionButton} accordion-button collapsed`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="collapseSeven"
+                        >
+                          Placement of Google Shopping Ads
+
+
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseSeven"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className={`${Style.AccordionBody} accordion-body`}>
+                          <p className="para-text">
+                            It is the stage where we decide where your adverts will appear. Google shopping advertisements are linked to a product-related keyword, but the location in which they appear is equally essential for conversion effectiveness. We will focus Google searches within a fixed mile radius of your location if you're a local business.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Accordion 8 */}
+                    <div className={`${Style.AccordionItem} accordion-item`}>
+                      <h2 className="accordion-header" id="headingEight">
+                        <button
+                          className={`${Style.AccordionButton} accordion-button collapsed`}
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEight"
+                          aria-expanded="false"
+                          aria-controls="collapseEight"
+                        >
+                          Reporting on Google Shopping Ads
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseEight"
+                        className="accordion-collapse collapse"
+                        aria-labelledby="headingEight"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div className={`${Style.AccordionBody} accordion-body`}>
+                          <p className="para-text">
+                            Google will present you with a large quantity of data and results once your Google shopping advertisements have time to run and be seen by individuals browsing for your items, which might be overwhelming. You don't need to be concerned; our <strong>Google Shopping Ads Agency</strong> specialists have everything under control. These data can tell us all we need to know about a product, down to its color and brand name.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+
                   </div>
-
-                  {/* Accordion 6 */}
-                  <div className={`${Style.AccordionItem} accordion-item`}>
-                    <h2 className="accordion-header" id="headingSix">
-                      <button
-                        className={`${Style.AccordionButton} accordion-button collapsed`}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix"
-                        aria-expanded="false"
-                        aria-controls="collapseSix"
-                      >
-                         Budget For Google Shopping Ads
-                                
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseSix"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingSix"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className={`${Style.AccordionBody} accordion-body`}>
-                        <p className="para-text">
-                         We create a marketing budget to help you reach your goals in the most efficient way possible. To do so, we'll assist you in determining how much money you need to pay for every click and how much money you need to spend per day.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Accordion 7 */}
-                  <div className={`${Style.AccordionItem} accordion-item`}>
-                    <h2 className="accordion-header" id="headingSeven">
-                      <button
-                        className={`${Style.AccordionButton} accordion-button collapsed`}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseSeven"
-                        aria-expanded="false"
-                        aria-controls="collapseSeven"
-                      >
-                        Placement of Google Shopping Ads
-                                
-
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseSeven"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingSeven"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className={`${Style.AccordionBody} accordion-body`}>
-                        <p className="para-text">
-                          It is the stage where we decide where your adverts will appear. Google shopping advertisements are linked to a product-related keyword, but the location in which they appear is equally essential for conversion effectiveness. We will focus Google searches within a fixed mile radius of your location if you're a local business.
-                        </p>
-                      </div>
-                    </div>
-                  </div>  
-
-                   {/* Accordion 8 */}
-                  <div className={`${Style.AccordionItem} accordion-item`}>
-                    <h2 className="accordion-header" id="headingEight">
-                      <button
-                        className={`${Style.AccordionButton} accordion-button collapsed`}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseEight"
-                        aria-expanded="false"
-                        aria-controls="collapseEight"
-                      >
-                        Reporting on Google Shopping Ads
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseEight"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingEight"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className={`${Style.AccordionBody} accordion-body`}>
-                        <p className="para-text">
-                          Google will present you with a large quantity of data and results once your Google shopping advertisements have time to run and be seen by individuals browsing for your items, which might be overwhelming. You don't need to be concerned; our <strong>Google Shopping Ads Agency</strong> specialists have everything under control. These data can tell us all we need to know about a product, down to its color and brand name.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-  
-
                 </div>
+
+
+                <div className={Style.ContentDiv}>
+                  <h4 className="text-danger mt-3">Why Should You Choose Our Google Shopping Services?</h4>
+                  <p>Do you want to boost the performance of your Google Shopping campaigns?</p>
+
+                  <p>Here are some of the reasons why Tech2Globe is the best Google Shopping Ads Agency.</p>
+
+                  <p><FaAngleRight /> We have years of digital marketing experience. Our digital marketing professionals have the knowledge and expertise to help you get the most out of your Google Shopping feed campaigns.</p>
+
+                  <p><FaAngleRight />Tech2Globe is a Google Premier Partner, which means our team has proved Google Ads abilities and knowledge, exceeded ad spend criteria and increased our agency's customer base and income.</p>
+
+                  <p>When you work with Tech2Globe, we'll learn about your company and your objectives. We will then create a personalized approach tailored to your company's specific requirements. You will also be assigned a dedicated account representative who will work with you during your campaigns, offer frequent updates, and answer your questions. We also give frequent, honest reports on the progress of your efforts. You may view campaign statistics, and your account representative will keep you up to speed with frequent reports and consultations.</p>
+
+                  <p>We understand how multiple channels operate together and can give you a comprehensive Internet marketing plan since we provide a full array of online marketing services. We put a premium on delivering tangible outcomes for our clients.</p>
+
+                  <p>Are you ready to raise your internet presence, website traffic, and sales? Tech2Globe's <strong>Google Shopping Management Services</strong> can assist you!</p>
                 </div>
-
-              
-              <div className={Style.ContentDiv}>
-                <h4 className="text-danger mt-3">Why Should You Choose Our Google Shopping Services?</h4>
-                <p>Do you want to boost the performance of your Google Shopping campaigns?</p>
-
-                <p>Here are some of the reasons why Tech2Globe is the best Google Shopping Ads Agency.</p>
-
-                 <p><FaAngleRight/> We have years of digital marketing experience. Our digital marketing professionals have the knowledge and expertise to help you get the most out of your Google Shopping feed campaigns.</p> 
-
-                 <p><FaAngleRight/>Tech2Globe is a Google Premier Partner, which means our team has proved Google Ads abilities and knowledge, exceeded ad spend criteria and increased our agency's customer base and income.</p>        
-
-                 <p>When you work with Tech2Globe, we'll learn about your company and your objectives. We will then create a personalized approach tailored to your company's specific requirements. You will also be assigned a dedicated account representative who will work with you during your campaigns, offer frequent updates, and answer your questions. We also give frequent, honest reports on the progress of your efforts. You may view campaign statistics, and your account representative will keep you up to speed with frequent reports and consultations.</p>
-
-                 <p>We understand how multiple channels operate together and can give you a comprehensive Internet marketing plan since we provide a full array of online marketing services. We put a premium on delivering tangible outcomes for our clients.</p>
-
-                 <p>Are you ready to raise your internet presence, website traffic, and sales? Tech2Globe's <strong>Google Shopping Management Services</strong> can assist you!</p>
-              </div>
 
               </div>
 
@@ -639,18 +591,22 @@ export default function Remarketing() {
           </div>
         </div>
       </section >
-
+      {/* 
       <div className="tbhideforportfolio">
         <PortfolioTabs data={portfolio} title={'Our Portfolio'} description={'For its lifetime Tech2Globe has delivered hundreds of cost effective and high-quality software solutions for a wide range of industries and domains including consumer and business software development, e-commerce, retail, manufacturing, real estate, community services and many others.'} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <div className="PhotoEditCaseStudies">
         <CaseStudiesService caseStudies={caseStudies} />
       </div>
 
-      <div className="EmailMarketingTestimonials">
-        <ClientSlider testimonials={testimonials} />
-      </div>
+
+
+
+      <ClientSlider testimonials={testimonials} />
+
 
     </>
   )

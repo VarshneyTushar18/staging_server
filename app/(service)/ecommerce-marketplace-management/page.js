@@ -130,7 +130,7 @@ const portfolioClients = [
         initials: "CH",
         gradient: "#0b2e58",
         client: "Coastal Home Goods",
-        country: "United States",
+        country: "USA",
         project: "Multi-Marketplace Cataloging & Listing",
         desc: "Unified cataloging and listing management across three marketplaces for a home goods brand.",
         category: "Multi-Marketplace Cataloging & Listing",

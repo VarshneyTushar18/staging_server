@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -350,32 +351,95 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "We recently migrated to BigCommerce and needed help uploading our entire catalog quickly. Tech2Globe's team handled all product uploads including variants, custom fields, and pricing rules. The catalog was ready for launch well ahead of schedule.",
+    name: "Linda Foster | HomeLiving USA",
+    location: "United States",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana– Amazon Sponsored Ads USA",
+    text: "Tech2Globe understands BigCommerce's nuances very well. They mapped our product data perfectly to BigCommerce's custom fields, set up bulk pricing correctly, and ensured all product images met the platform's specifications. Very professional team.",
+    name: "Arnav Kapoor | GadgetBay India",
+    location: "India",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "We had a tight deadline to get 4,000 products uploaded before our campaign launch. Tech2Globe met that deadline without compromising on accuracy. Their BigCommerce product upload process was structured, transparent, and completely reliable.",
+    name: "Samantha Rhodes | NaturaCo Canada",
+    location: "Canada",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: "Medi Hub- Amazon Store Creations USA",
+    text: "The Tech2Globe team helped us with an ongoing product upload project on BigCommerce. Their work is consistent week over week — clean data, proper categorization, and SEO-optimized titles and descriptions every single time.",
+    name: "Jan Kowalski | TechGiant Poland",
+    location: "Poland",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed– Amazon Enhance Brand Content USA",
+    text: "We've outsourced all our BigCommerce product data management to Tech2Globe. They handle everything from initial uploads to regular updates and seasonal changes. The time and cost savings have been significant, and the accuracy is better than what we achieved in-house.",
+    name: "Elena Vasquez | ModaPlus Spain",
+    location: "Spain",
+  },
+];
+
+const portfolioClients = [
+  {
+    initials: "UL",
+    gradient: "#0b2e58",
+    client: "Urban Lifestyle Brand",
+    country: "Canada",
+    project: "Shopify Store Migration & Setup",
+    desc: "Managed complete product migration from legacy platform to Shopify. Configured product variants, collections, and filtering options. Implemented SEO optimization for all product pages and set up automated inventory sync. Trained client team on Shopify admin operations.",
+    category: "Shopify Development",
+    result: "8,000+ products successfully migrated",
+    resultSub: "Migration Completed",
+  },
+  {
+    initials: "LG",
+    gradient: "#0b2e58",
+    client: "Luxury Goods Retailer",
+    country: "Australia",
+    project: "Premium Product Presentation",
+    desc: "Curated high-end product listings with premium photography, detailed specifications, and luxury brand positioning. Configured multi-variant products with advanced options. Implemented smart collections and created seasonal merchandising strategies within Shopify.",
+    category: "Shopify Development",
+    result: "3,500 luxury items uploaded with custom formatting",
+    resultSub: "Premium Catalog",
+  },
+  {
+    initials: "SE",
+    gradient: "#0b2e58",
+    client: "Sports Equipment Specialist",
+    country: "NZ",
+    project: "Shopify Catalog Development",
+    desc: "Handled extensive sports product catalog with multiple sizes, colors, and performance variants. Created detailed product descriptions, technical specifications, and usage guides. Set up bundle products and implemented volume-based pricing strategies in Shopify.",
+    category: "Shopify Development",
+    result: "5,200+ sports products uploaded",
+    resultSub: "Catalog Delivered",
+  },
+  {
+    initials: "SF",
+    gradient: "#0b2e58",
+    client: "Sustainable Fashion Company",
+    country: "Netherlands",
+    project: "Eco-Commerce Product Management",
+    desc: "Processed sustainable fashion inventory with detailed material sourcing and environmental impact data. Implemented custom product metadata for sustainability certifications. Optimized product images and descriptions for eco-conscious consumer engagement on Shopify.",
+    category: "Shopify Development",
+    result: "6,500+ sustainable products listed",
+    resultSub: "Optimization Completed",
+  },
+  {
+    initials: "MB",
+    gradient: "#0b2e58",
+    client: "Multi-Brand Distribution Platform",
+    country: "BE",
+    project: "Multi-Vendor Shopify Integration",
+    desc: "Managed multi-vendor product uploads with individual commission structures and brand-specific formatting. Implemented vendor portals and automated inventory updates. Created vendor-specific product approval workflows and brand compliance systems.",
+    category: "Shopify Development",
+    result: "18,000+ products from 50+ vendors",
+    resultSub: "Platform Built",
   },
 ];
 
@@ -460,9 +524,10 @@ export default function BigcommerceProductUpload() {
       </section >
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

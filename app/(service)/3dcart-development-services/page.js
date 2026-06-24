@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "3dcart Development Services | 3dcart Store Development",
@@ -371,6 +372,63 @@ const testimonials = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "OS",
+    gradient: "#0b2e58",
+    client: "O'Connor Sports Nutrition",
+    country: "USA",
+    project: "3dcart Custom Store with Subscription & Email Automation",
+    desc: "Custom 3dcart store with subscription ordering, automated email workflows, and conversion-focused product pages to drive recurring revenue growth.",
+    category: "3dcart Development",
+    result: "39% Growth",
+    resultSub: "Online Revenue",
+  },
+  {
+    initials: "DH",
+    gradient: "#0b2e58",
+    client: "Davies Home Décor Ltd.",
+    country: "UK",
+    project: "3dcart Store Redesign & On-Page SEO Optimization",
+    desc: "Redesigned 3dcart storefront with SEO optimization, improved site structure, and enhanced product pages to increase visibility and conversions.",
+    category: "3dcart Development",
+    result: "28% Increase",
+    resultSub: "Organic Traffic",
+  },
+  {
+    initials: "KA",
+    gradient: "#0b2e58",
+    client: "Kowalski Auto Accessories",
+    country: "PL",
+    project: "Legacy Platform to 3dcart Migration & Store Launch",
+    desc: "Migrated legacy ecommerce platform to 3dcart with multilingual support, multi-currency functionality, and a fully responsive storefront.",
+    category: "3dcart Development",
+    result: "27% Increase",
+    resultSub: "Repeat Purchases",
+  },
+  {
+    initials: "ON",
+    gradient: "#0b2e58",
+    client: "Osei Naturals Co.",
+    country: "Ghana",
+    project: "3dcart Store Launch for International D2C Beauty Brand",
+    desc: "Built an international 3dcart storefront with shipping integrations, SEO-focused content, and trust-building features for global customers.",
+    category: "3dcart Development",
+    result: "47% Increase",
+    resultSub: "International Orders",
+  },
+  {
+    initials: "BK",
+    gradient: "#0b2e58",
+    client: "Beaumont Kitchenware",
+    country: "France",
+    project: "3dcart Custom Theme & B2B Wholesale Channel",
+    desc: "Custom 3dcart theme with B2B wholesale portal, automated pricing rules, and streamlined order management for professional buyers.",
+    category: "3dcart Development",
+    result: "60 Clients",
+    resultSub: "Onboarded in 60 Days",
+  },
+];
 
 export default function CartDevelopment() {
     return (
@@ -443,9 +501,11 @@ export default function CartDevelopment() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <ClientSlider testimonials={testimonials} />
         </>

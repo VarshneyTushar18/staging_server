@@ -200,7 +200,7 @@ const portfolioClients = [
     initials: "WC",
     gradient: "#163a63",
     client: "West African Crafts Ltd",
-    country: "Senegal",
+    country: "SN",
     project: "Cross-Border Market Entry",
     desc: "Senegalese artisan crafts brand introducing handcrafted products to UK consumers via OnBuy.",
     category: "Market Expansion",

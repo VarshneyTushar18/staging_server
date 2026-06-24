@@ -7,6 +7,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import Image from "next/image";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -80,7 +81,100 @@ const sidebarSections = [
     { heading: "Useful Links", links: usefulLinks },
 ];
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We launched live chat on our website and needed a team to manage it around the clock. Tech2Globe's chat support agents were professional, knowledgeable, and consistently friendly. Our cart abandonment rate dropped by 28% within the first month as agents engaged visitors proactively. The quality monitoring and monthly performance reports they provide are genuinely useful. We couldn't be happier.",
+        name: "Fiona Campbell | HighlandCraft Marketplace",
+        location: "Scotland, UK",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Having Tech2Globe manage our live chat has been a fantastic decision. Their agents respond within seconds, handle multiple chats simultaneously, and convert a high percentage of inquiries into sales. We also benefit from their CRM integration, which means chat transcripts are automatically logged. Customer satisfaction from chat interactions is consistently rated 4.8 out of 5 by our buyers. Highly impressive.",
+        name: "Lucas Fernandez | IberiaStore Online S.L.",
+        location: "Spain",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our customers expect fast, accurate responses at all hours. Tech2Globe's 24/7 chat support team has met that expectation every single day. Agents are well-trained on our product catalog and policies, so they resolve queries on first contact the vast majority of the time. We've seen our return customer rate improve since implementing their chat service. A true value-add for our business.",
+        name: "Aiko Nakamura | SakuraBuy E-Commerce",
+        location: "Japan",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's chat support service gave us the ability to offer real-time assistance without building an expensive in-house team. Their agents were trained on our products quickly and adapted to our brand communication style seamlessly. Response accuracy is high, escalation handling is smooth, and the monthly chat analytics they share help us improve our FAQ and product pages continuously.",
+        name: "Elena Popescu | SmartBuy Digital S.R.L.",
+        location: "Romania",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Before Tech2Globe, we had no live chat support and were losing potential customers daily. Their team set up everything, including the chat widget configuration and scripted responses, and was live within a week. The improvement in lead conversion was immediate and measurable. Our support team now focuses on complex issues while Tech2Globe handles all standard chat inquiries. A brilliant service.",
+        name: "Kwame Asante | AkwaShop Online Retail",
+        location: "Ghana",
+    },
+];
 
+const portfolioClients = [
+    {
+        initials: "USA",
+        gradient: "#0b2e58",
+        client: "US SaaS Platform",
+        country: "USA",
+        project: "Real-Time Chat Support Platform Deployment",
+        desc: "Implemented live chat support for US SaaS company serving 100,000+ users with real-time inquiries, troubleshooting, and feature upselling.",
+        category: "Live Chat Customer Service",
+        result: "1,200+ daily chats • 91% first-contact resolution",
+    },
+    
+    {
+        initials: "CA",
+        gradient: "#0b2e58",
+        client: "Canadian Multi-Brand Group",
+        country: "Canada",
+        project: "Multi-Brand Chat Support Consolidation",
+        desc: "Consolidated chat support for Canadian holding company managing 3 e-commerce brands with unified infrastructure and consistent service delivery.",
+        category: "Multi-Channel Unified Chat Support",
+        result: "800+ daily chats • 40% cost savings",
+    },
+    
+    {
+        initials: "UK",
+        gradient: "#0b2e58",
+        client: "UK Online Retailer",
+        country: "UK",
+        project: "AI-Assisted Chat Support Implementation",
+        desc: "Implemented hybrid AI and human chat support for UK retailer automating routine inquiries while improving response speed and customer experience.",
+        category: "Chatbot & Human Hybrid Support",
+        result: "60% automation • 88% CSAT",
+    },
+    
+    {
+        initials: "NL",
+        gradient: "#0b2e58",
+        client: "Global Digital Platform",
+        country: "Netherlands",
+        project: "Multilingual Global Chat Support Network",
+        desc: "Established multilingual chat support for Dutch global platform serving 40+ countries with 12 languages and consistent 24/7 availability.",
+        category: "International Multilingual Chat Support",
+        result: "12 languages • 92% customer satisfaction",
+    },
+    
+    {
+        initials: "SG",
+        gradient: "#0b2e58",
+        client: "Fintech Platform",
+        country: "Singapore",
+        project: "Chat Support for Financial Services Platform",
+        desc: "Deployed secure chat support for Singapore fintech platform handling sensitive financial data with compliance, security, and fast resolution standards.",
+        category: "Financial Services Chat Support",
+        result: "3,000+ daily chats • 98% compliance rate",
+    },
+];
 
 export default function ChatSupport() {
     return (
@@ -279,6 +373,10 @@ export default function ChatSupport() {
                             </div>
                         </div>
                     </div>
+
+                    <ClientPortfolio clients={portfolioClients} />
+
+                    <ClientSlider testimonials={testimonials} />
                 </div>
             </section>
 

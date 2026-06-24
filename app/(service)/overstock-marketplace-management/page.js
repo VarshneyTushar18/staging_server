@@ -375,9 +375,9 @@ const testimonials = [
 const portfolioClients = [
     {
         initials: "RF",
-        gradient: "#1e40af",
+        gradient: "#0b2e58",
         client: "Ridgeline Furniture Co.",
-        country: "United States",
+        country: "USA",
         project: "Catalog Upload & Account Setup",
         desc: "Set up seller account and uploaded a large furniture product catalog.",
         category: "Catalog Upload & Account Setup",
@@ -386,9 +386,9 @@ const portfolioClients = [
     },
     {
         initials: "BR",
-        gradient: "#7c3aed",
+        gradient: "#0b2e58",
         client: "Brookhaven Rugs & Decor",
-        country: "United States",
+        country: "USA",
         project: "Listing Optimization & SEO",
         desc: "Rewrote listing content and tags to boost on-site search ranking.",
         category: "Listing Optimization & SEO",
@@ -397,7 +397,7 @@ const portfolioClients = [
     },
     {
         initials: "SO",
-        gradient: "#059669",
+        gradient: "#0b2e58",
         client: "Saltmarsh Outdoor Living",
         country: "Canada",
         project: "Inventory & Order Management",
@@ -408,9 +408,9 @@ const portfolioClients = [
     },
     {
         initials: "WL",
-        gradient: "#dc2626",
+        gradient: "#0b2e58",
         client: "Wickfield Lighting Co.",
-        country: "United States",
+        country: "USA",
         project: "Account Management & Promotions",
         desc: "Managed account health and promotional listing placement.",
         category: "Account Management & Promotions",
@@ -419,9 +419,9 @@ const portfolioClients = [
     },
     {
         initials: "AB",
-        gradient: "#0f766e",
+        gradient: "#0b2e58",
         client: "Almara Bedding Co.",
-        country: "United States",
+        country: "USA",
         project: "Catalog Expansion",
         desc: "Added new bedding product lines with SEO-optimized listings.",
         category: "Catalog Expansion",

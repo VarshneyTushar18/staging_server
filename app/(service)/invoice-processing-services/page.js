@@ -11,6 +11,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title:
@@ -121,36 +122,97 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed– Amazon Enhance Brand Content USA",
-  },
-  {
+    text: "Our AP department was overwhelmed with invoice volumes and facing regular payment delays. Tech2Globe's invoice processing team automated and streamlined the entire workflow. Invoices are now captured, coded, matched, and queued for approval within 24 hours. Payment errors have been virtually eliminated and our vendor relationships have improved as a result. Highly professional and extremely reliable.",
+    name: "Martin Hoffmann | Hoffmann Group Industries GmbH",
+    location: "Germany",
+},
+{
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
-  },
-  {
+    text: "We were processing invoices manually across multiple locations, which led to duplicates, mismatches, and delays. Tech2Globe centralized and digitized our invoice processing and the difference was immediate. Their accuracy rate is above 99%, and the turnaround from invoice receipt to processing completion is now under 48 hours. Our finance team can now focus on analysis rather than data entry.",
+    name: "Claire Dupont | Dupont Retail Group S.A.S.",
+    location: "France",
+},
+{
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana– Amazon Sponsored Ads USA",
-  },
-  {
+    text: "Tech2Globe handles our entire vendor invoice lifecycle — from receipt and data extraction to matching, exception management, and archiving. Their team integrated smoothly with our ERP and delivered a structured, auditable process. Invoice processing time dropped from 7 days to under 2 days. The compliance and audit readiness of our AP records has improved tremendously. An outstanding outsourcing partner.",
+    name: "Rajesh Pillai | IndoTech Manufacturing Pvt. Ltd.",
+    location: "India",
+},
+{
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
-  },
-  {
+    text: "We provide financial services and require absolute accuracy in all invoicing processes. Tech2Globe exceeded every benchmark we set during our evaluation. Their team processes high volumes of invoices daily with minimal errors, provides regular exception reports, and escalates issues proactively. Our month-end close process has become significantly smoother since engaging their service. We plan to expand the engagement.",
+    name: "Sofia Andersen | NordFinance Solutions AS",
+    location: "Norway",
+},
+{
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: "Medi Hub- Amazon Store Creations USA",
-  },
+    text: "Managing invoices from over 200 suppliers across multiple African markets was a constant challenge. Tech2Globe brought order and efficiency to our AP operations. Their invoice processing team works around the clock, ensuring no invoice sits unprocessed. Vendor disputes due to payment errors have fallen by over 80%. The structured reporting they provide keeps our finance leadership fully informed at all times.",
+    name: "Felix Osei-Bonsu | PanAfrica Trade Corp.",
+    location: "Ghana",
+},
   
 ];
 
+const portfolioClients = [
+  {
+    initials: "USA",
+    gradient: "#0b2e58",
+    client: "Large Manufacturing Client",
+    country: "USA",
+    project: "Large-Scale Invoice Processing Automation",
+    desc: "Established comprehensive invoice processing for a US manufacturing company managing 50,000+ monthly invoices from 2,000+ suppliers efficiently.",
+    category: "AP Automation & Invoice Management",
+    result: "50,000+ invoices monthly • 99.2% accuracy",
+},
+
+{
+    initials: "UK",
+    gradient: "#0b2e58",
+    client: "Multinational Import Company",
+    country: "UK",
+    project: "Multi-Currency International Invoice Processing",
+    desc: "Managed invoice processing for UK multinational importing goods from 45 countries handling multi-currency compliance, VAT, and tax regulations.",
+    category: "Global Invoice Management",
+    result: "15,000+ invoices/month • 99.5% accuracy",
+},
+
+{
+    initials: "AU",
+    gradient: "#0b2e58",
+    client: "SaaS Subscription Company",
+    country: "Australia",
+    project: "SaaS Subscription Invoice Generation & Tracking",
+    desc: "Established invoice processing for Australian SaaS company managing 80,000+ subscribers, billing, disputes, tracking, and collections efficiently.",
+    category: "Recurring Revenue Invoice Management",
+    result: "80,000+ invoices/month • 100% billing accuracy",
+},
+
+{
+    initials: "CA",
+    gradient: "#0b2e58",
+    client: "Healthcare Provider",
+    country: "Canada",
+    project: "Healthcare Provider Invoice Management System",
+    desc: "Processed invoices for Canadian healthcare provider managing billing, insurance claims, coding accuracy, and HIPAA-compliant revenue recovery processes.",
+    category: "Medical Invoice Processing",
+    result: "200,000+ annual invoices • 98.8% claim acceptance",
+},
+
+{
+    initials: "DE",
+    gradient: "#0b2e58",
+    client: "German E-commerce Company",
+    country: "Germany",
+    project: "E-commerce Vendor Invoice Reconciliation",
+    desc: "Managed invoice processing for German e-commerce company handling vendor invoices, discrepancies, purchase order matching, and payment reconciliation.",
+    category: "Vendor Management Invoice Processing",
+    result: "8,000+ invoices/month • 96% discrepancy resolution",
+},
+]
 
 export default function InvoiceProcessing() {
 
@@ -350,12 +412,17 @@ export default function InvoiceProcessing() {
         </div>
       </section >
 
+      <ClientPortfolio clients={portfolioClients} />
+
+
+      <ClientSlider testimonials={testimonials} />
+
 
       <FaqSection faqs={faqs} />
 
-      <div className="EmailMarketingTestimonials">
-        <ClientSlider testimonials={testimonials} />
-      </div>
+      
+        
+      
 
 
     </>

@@ -9,6 +9,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -175,6 +176,101 @@ const clients = [
     { src: "/images/clients/Uniforms_Scrubs.png", alt: "Uniforms-Scrubs", title: "Uniforms-Scrubs" },
     { src: "/images/clients/Wellist_Logo.png", alt: "Wellist-Logo", title: "Wellist-Logo" },
     { src: "/images/clients/zebit-logo.png", alt: "zebit-logo", title: "zebit-logo" },    
+];
+
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Order accuracy and speed were the two things we needed most. Tech2Globe delivered both. Since outsourcing our order processing, we've seen a 98.7% order accuracy rate and a 35% reduction in fulfillment time. Their team manages everything from order entry and verification to tracking updates — all without us having to micromanage. Truly a game-changer for our e-commerce operations.",
+    name: "Henrik Johansson | NordicGadgets AB",
+    location: "Sweden",
+},
+{
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "During peak sale seasons, our order volumes would overwhelm our internal team. Tech2Globe's order processing support scaled effortlessly with our demand surges. They handled thousands of orders daily with zero errors and always kept our customers informed with timely updates. Their process transparency and daily reporting made management effortless. We couldn't ask for a better partner.",
+    name: "Priya Nair | OzStyle Fashion Pty Ltd.",
+    location: "Australia",
+},
+{
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We were dealing with order backlogs and shipment delays that were damaging our reputation. Tech2Globe came in, analyzed our workflow, and within two weeks had a streamlined process in place. Orders are now processed within hours of receipt. Their structured approach and attention to every detail — from payment verification to dispatch confirmation — has brought us peace of mind.",
+    name: "Jin-Ho Park | K-Mart Online Commerce",
+    location: "South Korea",
+},
+{
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Our business deals with high-value luxury goods and we need absolute precision in every order. Tech2Globe's order processing team met every requirement with professionalism. They integrated seamlessly with our ERP system, managed exception handling efficiently, and provided end-of-day reconciliation reports. The error rate is virtually zero. We trust them completely with our critical operations.",
+    name: "Fatima Al-Rashid | Gulf Luxe Trading LLC",
+    location: "UAE",
+},
+{
+    id: 5,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe helped us scale our order processing capabilities without the overhead of hiring and training new staff. Their team adapted quickly to our order management platform, and the turnaround time on every order improved dramatically. Returns and cancellations are now handled smoothly too. We've been able to focus on growth while they take care of operations. Outstanding service!",
+    name: "Maria Gonzalez | ColShop Digital S.A.S.",
+    location: "Colombia",
+},
+];
+
+const portfolioClients = [
+  {
+    initials: "USA",
+    gradient: "#0b2e58",
+    client: "US Multi-Channel Retailer",
+    country: "USA",
+    project: "Multi-Channel Retail Order Processing Hub",
+    desc: "Built order processing hub for US retailer managing 15 platforms, handling end-to-end fulfillment and ensuring accurate multi-channel order execution.",
+    category: "E-commerce Order Management",
+    result: "500+ orders daily • 99.8% accuracy",
+},
+
+{
+    initials: "NL",
+    gradient: "#0b2e58",
+    client: "European Logistics Company",
+    country: "Netherlands",
+    project: "Global Logistics Order Fulfillment System",
+    desc: "Implemented order processing for European logistics company coordinating warehouses, inventory sync, customs, and international shipping compliance.",
+    category: "Supply Chain Order Management",
+    result: "2,000+ daily orders • 98% on-time delivery",
+},
+
+{
+    initials: "IT",
+    gradient: "#0b2e58",
+    client: "Italian Fashion Brand",
+    country: "Italy",
+    project: "Fashion E-commerce Order Processing Platform",
+    desc: "Streamlined fashion order processing for Italian brand serving 75+ countries with returns, exchanges, and multi-currency transaction handling.",
+    category: "Fashion Retail Order Processing",
+    result: "8,000+ daily orders • 99.5% accuracy",
+},
+
+{
+    initials: "JP",
+    gradient: "#0b2e58",
+    client: "Japanese B2B Wholesaler",
+    country: "Japan",
+    project: "B2B Wholesale Order Management",
+    desc: "Managed wholesale order processing for Japanese supplier serving 500+ retailers with bulk orders, scheduling, and delivery coordination.",
+    category: "Wholesale Order Processing",
+    result: "3,000+ monthly orders • 28% volume growth",
+},
+
+{
+    initials: "FR",
+    gradient: "#0b2e58",
+    client: "European Subscription Company",
+    country: "France",
+    project: "Subscription Box Monthly Order Processing",
+    desc: "Handled subscription order processing for European company managing recurring deliveries, customization requests, cancellations, and retention operations.",
+    category: "Subscription Order Management",
+    result: "50,000+ subscriptions • 22% churn reduction",
+},
 ];
 
 export default function OrderProcessingServicesPage() {
@@ -373,8 +469,13 @@ export default function OrderProcessingServicesPage() {
         </div>
 
       </section >
-      <FaqSection faqs={faqs} />
+
+      <ClientPortfolio clients={portfolioClients} />
       <CaseStudiesService caseStudies={caseStudies} />
+      <ClientSlider testimonials={testimonials} />
+      <FaqSection faqs={faqs} />
+
+      
 
       <div className="pt-3 pb-3">
         <div className="container">

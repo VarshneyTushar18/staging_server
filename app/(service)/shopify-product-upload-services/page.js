@@ -8,6 +8,8 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
 import Link from "next/link";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "Shopify Product Upload Services | Shopify Product Listing",
@@ -57,6 +59,101 @@ const sidebarSections = [
   { heading: "Resources", links: resources },
 ];
 
+const testimonials = [
+  {
+    id: 1,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We launched our Shopify store with over 3,000 products and needed everything uploaded quickly and correctly. Tech2Globe handled the entire upload — product images, descriptions, variants, metafields, and SEO tags — without a single error. Our store went live on time and looked exactly the way we envisioned.",
+    name: "Sophie Clarke | LuxeWear UK",
+    location: "United Kingdom",
+  },
+  {
+    id: 2,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Their Shopify product upload team knows the platform inside out. They structured our collections perfectly, set up the correct tags and filters, and ensured mobile-friendly image sizing throughout. It saved our internal team an enormous amount of time and effort.",
+    name: "Rajan Mehta | DailyBasket India",
+    location: "India",
+  },
+  {
+    id: 3,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "Tech2Globe migrated our entire catalog of 6,500+ products from our old website to Shopify. The transition was seamless — all product data, images, and variants transferred without data loss. Their attention to Shopify-specific formatting was impressive.",
+    name: "Thomas Gruber | SportGear Austria",
+    location: "Austria",
+  },
+  {
+    id: 4,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "We hired Tech2Globe on a recurring basis to handle new product uploads every week. They've become an integral part of our workflow. The listing quality is consistently high, turnaround is fast, and communication is always clear and professional.",
+    name: "Aisha Patel | Glow & Grace UAE",
+    location: "United Arab Emirates",
+  },
+  {
+    id: 5,
+    quote: "/images/services/service-inner/quote-icon.png",
+    text: "As a Shopify store owner with over 10,000 products, keeping the catalog updated is a constant challenge. Tech2Globe takes that burden completely off my plate. Their team understands Shopify's back-end deeply and always delivers clean, optimized uploads.",
+    name: "Carlos Mendez | TechParts Direct Mexico",
+    location: "Mexico",
+  },
+];
+
+const portfolioClients = [
+  {
+    initials: "UL",
+    gradient: "#0b2e58",
+    client: "Urban Lifestyle Brand",
+    country: "Canada",
+    project: "Shopify Store Migration & Setup",
+    desc: "Managed complete product migration from legacy platform to Shopify. Configured product variants, collections, and filtering options. Implemented SEO optimization for all product pages and set up automated inventory sync. Trained client team on Shopify admin operations.",
+    category: "Shopify Development",
+    result: "8,000+ products successfully migrated",
+    resultSub: "Migration Completed",
+  },
+  {
+    initials: "LG",
+    gradient: "#0b2e58",
+    client: "Luxury Goods Retailer",
+    country: "Australia",
+    project: "Premium Product Presentation",
+    desc: "Curated high-end product listings with premium photography, detailed specifications, and luxury brand positioning. Configured multi-variant products with advanced options. Implemented smart collections and created seasonal merchandising strategies within Shopify.",
+    category: "Shopify Development",
+    result: "60% increase in product page views",
+    resultSub: "Premium Catalog",
+  },
+  {
+    initials: "SE",
+    gradient: "#0b2e58",
+    client: "Sports Equipment Specialist",
+    country: "NZ",
+    project: "Shopify Catalog Development",
+    desc: "Handled extensive sports product catalog with multiple sizes, colors, and performance variants. Created detailed product descriptions, technical specifications, and usage guides. Set up bundle products and implemented volume-based pricing strategies in Shopify.",
+    category: "Shopify Development",
+    result: "5,200+ sports products uploaded",
+    resultSub: "Catalog Delivered",
+  },
+  {
+    initials: "SF",
+    gradient: "#0b2e58",
+    client: "Sustainable Fashion Company",
+    country: "Netherlands",
+    project: "Eco-Commerce Product Management",
+    desc: "Processed sustainable fashion inventory with detailed material sourcing and environmental impact data. Implemented custom product metadata for sustainability certifications. Optimized product images and descriptions for eco-conscious consumer engagement on Shopify.",
+    category: "Shopify Development",
+    result: "40% improved page load speed",
+    resultSub: "Optimization Completed",
+  },
+  {
+    initials: "MB",
+    gradient: "#0b2e58",
+    client: "Multi-Brand Distribution Platform",
+    country: "BE",
+    project: "Multi-Vendor Shopify Integration",
+    desc: "Managed multi-vendor product uploads with individual commission structures and brand-specific formatting. Implemented vendor portals and automated inventory updates. Created vendor-specific product approval workflows and brand compliance systems.",
+    category: "Shopify Development",
+    result: "18,000+ products from 50+ vendors",
+    resultSub: "Platform Built",
+  },
+];
 
 export default function ShopifyProductUploadServices() {
   return (
@@ -119,6 +216,10 @@ export default function ShopifyProductUploadServices() {
 
         </div>
       </section>
+
+      <ClientPortfolio clients={portfolioClients} />
+
+      <ClientSlider testimonials={testimonials} />
 
     </>
   )

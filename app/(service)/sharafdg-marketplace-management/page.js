@@ -418,7 +418,7 @@ const portfolioClients = [
         initials: "QE",
         gradient: "#0b2e58",
         client: "Qamar Electronics Trading",
-        country: "Oman",
+        country: "OM",
         project: "Cross-Border Marketplace Expansion",
         desc: "Omani electronics distributor expanding operations into the UAE through SharafDG.",
         category: "Marketplace Management",

@@ -6,6 +6,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "Prestashop Product Upload Services | Prestashop Data Entry",
@@ -62,32 +63,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "We launched our PrestaShop store with 4,000+ products in just three weeks, thanks to Tech2Globe. Their team handled everything — product attributes, combinations, pricing rules, and category trees. The store was perfectly organized and ready for traffic from day one.",
+    name: "Antonio Ricci | ItaliaMart",
+    location: "Italy",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana- Amazon Sponsored Ads USA",
+    text: "Tech2Globe's PrestaShop specialists are outstanding. They migrated our product catalog from another platform to PrestaShop with zero data loss, maintained all our SEO slugs, and set up proper product associations. The transition was completely seamless.",
+    name: "Sandra Müller | EuroHome",
+    location: "Germany",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "We had struggled with inconsistent product data on our PrestaShop store for years. Tech2Globe did a thorough cleanup, standardized all attributes and combinations, and restructured our category hierarchy. The result is a catalog that both our customers and Google love.",
+    name: "Raj Pillai | GlobalStyle",
+    location: "India",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: " Medi Hub- Amazon Store Creations USA",
+    text: "Their team uploads products to our PrestaShop store on a weekly basis and has never missed a deadline. They follow our exact formatting guidelines, add SEO-optimized descriptions, and make sure every product variant is correctly configured. Excellent service.",
+    name: "Laura Gomez | TiendaOnline",
+    location: "Spain",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed- Amazon Enhance Brand Content USA",
+    text: "Tech2Globe helped us set up a multi-language PrestaShop store with product content in English, French, and Spanish. Their multilingual data entry capabilities are exceptional, and the quality of translations and localization across all three languages was impressive.",
+    name: "François Renard | EuroCommerce",
+    location: "Belgium",
   },
 ];
 
@@ -375,6 +381,63 @@ const portfolio = [
   },
 ]
 
+const portfolioClients = [
+  {
+    initials: "FA",
+    gradient: "#0b2e58",
+    client: "Fashion & Apparel E-store",
+    country: "BE",
+    project: "PrestaShop Fashion Storefront",
+    desc: "Built comprehensive fashion store on PrestaShop with extensive size and style variants. Implemented visual swatch system and advanced product filtering. Created fashion collection hierarchies and seasonal merchandising workflows.",
+    category: "PrestaShop Development",
+    result: "40% faster catalog updates",
+    resultSub: "Operational Speed",
+  },
+  {
+    initials: "DH",
+    gradient: "#0b2e58",
+    client: "DIY & Hardware Store",
+    country: "PL",
+    project: "PrestaShop Tools & Hardware",
+    desc: "Managed large hardware catalog on PrestaShop with real-time inventory integration. Implemented bulk import systems and automated price updates. Created detailed product specifications for professional contractor audience.",
+    category: "PrestaShop Development",
+    result: "22,000+ hardware products",
+    resultSub: "Catalog Scale",
+  },
+  {
+    initials: "OB",
+    gradient: "#0b2e58",
+    client: "Organic Beauty & Wellness",
+    country: "CZ",
+    project: "PrestaShop Beauty & Health",
+    desc: "Processed organic and natural beauty products on PrestaShop with certification verification. Implemented ingredient transparency and sourcing documentation. Created detailed usage guides and customer review management.",
+    category: "PrestaShop Development",
+    result: "Customer reviews system active",
+    resultSub: "Engagement",
+  },
+  {
+    initials: "GP",
+    gradient: "#0b2e58",
+    client: "Gift & Party Supplies",
+    country: "HU",
+    project: "PrestaShop Seasonal Commerce",
+    desc: "Managed seasonal gift catalog on PrestaShop with holiday-specific merchandising. Implemented customization options for personalized gifts. Created holiday-themed collections and promotional bundle management.",
+    category: "PrestaShop Development",
+    result: "Seasonal upload cycles",
+    resultSub: "Seasonal Operations",
+  },
+  {
+    initials: "MD",
+    gradient: "#0b2e58",
+    client: "Multi-Brand Distribution",
+    country: "RO",
+    project: "PrestaShop Multi-Vendor Platform",
+    desc: "Set up multi-vendor PrestaShop platform with individual brand storefronts. Implemented vendor commission structures and inventory management. Created brand-specific customization and approval workflows.",
+    category: "PrestaShop Development",
+    result: "98% order fulfillment rate",
+    resultSub: "Fulfillment Efficiency",
+  },
+];
 
 export default function PrestashopProductUploadServices() {
   return (
@@ -442,9 +505,11 @@ export default function PrestashopProductUploadServices() {
         </div>
       </section >
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

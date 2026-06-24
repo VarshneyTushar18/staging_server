@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaAngleRight, FaBroom, FaCrop, FaDesktop, FaLaptop, FaNewspaper, FaSmile } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -113,38 +114,96 @@ const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2globe’s logistics services helped us save both time and money. Communication was excellent, keeping us informed throughout the process.",
-        name: "Sarah Peterson, Operations Director",
-
+        text: "Tech2Globe's logistics support services brought much-needed efficiency to our freight coordination workflows. Their team manages shipment tracking, carrier communication, documentation processing, and exception handling for our entire European distribution network. The reduction in manual errors has been remarkable and our clients regularly comment on improved delivery communication. A reliable and skilled logistics partner.",
+        name: "Pieter van den Berg | EuroFreight Logistics B.V.",
+        location: "Netherlands",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "We switched to Tech2globe for our domestic logistics, and it's been a great decision. They're reliable, efficient, and get our products where they need to be on time and within budget.",
-        name:"David Kim, CEO",
-
+        text: "We engaged Tech2Globe to support our back-office logistics operations and the results have been outstanding. Their team handles all our shipping documentation, customs data entry, and third-party carrier coordination. Turnaround times on documentation dropped by 60% and costly errors due to incorrect data became virtually non-existent. We highly recommend their logistics services to businesses of any size.",
+        name: "Hannah Oduya | AfriShip Cargo Solutions",
+        location: "South Africa",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I would like to appreciate their tracking system, allowing us to monitor shipments easily. We trust them with our deliveries!",
-        name: "Dr. Lee Garcia, Supply Chain Manager",
-
+        text: "Our cross-border shipping operations required meticulous documentation and coordination. Tech2Globe's logistics support team handled the complexity with ease — managing BOLs, customs invoices, and carrier updates efficiently. They also provided daily shipment status summaries that kept our internal team and clients informed at all times. Their work has raised the overall quality of our logistics operations.",
+        name: "Marco Vitali | Italitrans Cargo S.r.l.",
+        location: "Italy",
     },
     {
         id: 4,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "They impressed us with their ability to handle our tight deadlines. They offer flexible solutions and prioritize getting our products to customers quickly. Their proactive communication keeps us informed of any potential issues.",
-        name: "Michael Hernandez, Logistics Coordinator",
-
+        text: "Managing high volumes of export documentation was creating bottlenecks in our operations. Tech2Globe's dedicated logistics team stepped in and took complete ownership of our documentation workflow. They are accurate, fast, and extremely well-organized. Shipping delays due to documentation errors have fallen to nearly zero. The team also adapts well to regulatory changes, which is crucial in our industry.",
+        name: "Mei Lin | AsiaPacific Freight Ltd.",
+        location: "Taiwan",
     },
     {
         id: 5,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Their network is extensive, and they offer competitive rates. Our shipments always arrive safely and on time. We're happy to have them as our logistics provider!",
-        name: "Emily Jones, Logistics Coordinator",
+        text: "Tech2Globe supports our logistics operations across the GCC and has done a phenomenal job. Their back-office team handles carrier booking confirmations, shipment exceptions, and customs documentation with professionalism and accuracy. We've been able to expand our logistics capacity without proportionally increasing headcount. The cost savings and operational improvements have exceeded all expectations.",
+        name: "Omar Al-Farsi | Gulf Route Trading LLC",
+        location: "Oman",
     },
     
+];
+
+const portfolioClients = [
+    {
+        initials: "UK",
+        gradient: "#0b2e58",
+        client: "UK E-commerce Brand",
+        country: "UK",
+        project: "Global E-commerce Logistics Optimization",
+        desc: "Optimized logistics for UK e-commerce brand managing 250,000+ monthly shipments across 5 warehouses, improving delivery speed and cost efficiency.",
+        category: "Multi-Warehouse Fulfillment Management",
+        result: "250,000 monthly shipments • 96% on-time delivery",
+    },
+    
+    {
+        initials: "HK",
+        gradient: "#0b2e58",
+        client: "Hong Kong Trading Company",
+        country: "HK",
+        project: "International Trade Logistics Support",
+        desc: "Provided logistics support for Hong Kong trader serving 30+ countries managing customs, shipping coordination, and regulatory compliance efficiently.",
+        category: "Cross-Border Trade Logistics",
+        result: "30+ countries served • 99.2% customs success",
+    },
+    
+    {
+        initials: "IN",
+        gradient: "#0b2e58",
+        client: "Indian E-commerce Platform",
+        country: "India",
+        project: "Last-Mile Delivery Coordination Network",
+        desc: "Established last-mile delivery network for Indian e-commerce platform across 60 cities coordinating couriers, tracking shipments, and optimizing routes.",
+        category: "Urban Delivery Logistics",
+        result: "500,000+ monthly deliveries • 94% delivery success",
+    },
+    
+    {
+        initials: "DE",
+        gradient: "#0b2e58",
+        client: "German Manufacturing Company",
+        country: "Germany",
+        project: "Supply Chain Visibility Platform Management",
+        desc: "Managed supply chain visibility for German manufacturer tracking shipments, coordinating suppliers, and resolving logistics exceptions in real time.",
+        category: "Supply Chain Operations",
+        result: "100,000+ tracked shipments • 99.5% tracking accuracy",
+    },
+    
+    {
+        initials: "AU",
+        gradient: "#0b2e58",
+        client: "Australian Retailer",
+        country: "Australia",
+        project: "E-commerce Reverse Logistics Program",
+        desc: "Established reverse logistics program for Australian retailer handling returns, inspections, refurbishment, and restocking with value recovery optimization.",
+        category: "Returns & Reverse Logistics",
+        result: "80,000+ annual returns • 95% recovery rate",
+    },
 ];
 
 
@@ -497,9 +556,11 @@ export default function Logistics() {
                 </div>
 
             </div >
-            <div className="EmailMarketingTestimonials">
+
+            <ClientPortfolio clients={portfolioClients} />
+           
                 <ClientSlider testimonials={testimonials} />
-            </div>
+            
             <FaqSection faqs={faqs} />
 
         </>

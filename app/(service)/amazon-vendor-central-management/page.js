@@ -357,9 +357,9 @@ const testimonials = [
 const portfolioClients = [
     {
         initials: "WA",
-        gradient: "#1e40af",
+        gradient: "#0b2e58",
         client: "Westfield Appliances",
-        country: "United States",
+        country: "USA",
         project: "Vendor Central Account Operations",
         desc: "Managed purchase orders, chargebacks, and vendor scorecard performance.",
         category: "Vendor Central Account Operations",
@@ -368,9 +368,9 @@ const portfolioClients = [
     },
     {
         initials: "LO",
-        gradient: "#92400e",
+        gradient: "#0b2e58",
         client: "Linden & Oak Furniture",
-        country: "United Kingdom",
+        country: "UK",
         project: "PO Management & Content Optimization",
         desc: "Coordinated purchase order fulfillment alongside enhanced product content.",
         category: "PO Management & Content Optimization",
@@ -379,7 +379,7 @@ const portfolioClients = [
     },
     {
         initials: "TO",
-        gradient: "#065f46",
+        gradient: "#0b2e58",
         client: "Tundra Outfitters",
         country: "Canada",
         project: "Vendor Scorecard Improvement",
@@ -390,9 +390,9 @@ const portfolioClients = [
     },
     {
         initials: "MH",
-        gradient: "#7c2d12",
+        gradient: "#0b2e58",
         client: "Marbella Home Co.",
-        country: "Spain",
+        country: "ES",
         project: "Catalog & A+ Content Management",
         desc: "Upgraded product content and A+ pages for key vendor catalog items.",
         category: "Catalog & A+ Content Management",
@@ -401,7 +401,7 @@ const portfolioClients = [
     },
     {
         initials: "HG",
-        gradient: "#6d28d9",
+        gradient: "#0b2e58",
         client: "Highland Gourmet Foods",
         country: "Ireland",
         project: "Vendor Onboarding & Operations",

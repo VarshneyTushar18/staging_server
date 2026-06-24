@@ -10,6 +10,7 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaPaintBrush, FaPalette, FaPalfed, FaScrewdriver, FaSearch, FaShieldAlt, FaStore, FaUsers, FaUsersCog, FaVial } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ShopifySlider from "@/app/components/services/shopifypageslider/shopifypageslider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Shopify Development Company | AI-Ready Stores Built for Performance & Scale",
@@ -187,6 +188,64 @@ const faqs = [
         Yes, a Development Company for Shopify helps you customize the look and feel of your online store. Our <strong>shopify development company in USA</strong> offers a comprehensive set of solutions, which help you in shopify development services including shopify store design, store optimization and SEO implementation.
       `,
     },
+];
+
+const portfolioClients = [
+    {
+        initials: "PO",
+        gradient: "#0b2e58",
+        client: "PureLeaf Organics",
+        country: "Australia",
+        project: "Custom Shopify Store Development & Conversion Optimization",
+        desc: "Custom Shopify storefront with Klaviyo automation and Shopify Markets setup for international sales.",
+        category: "Shopify Development",
+        result: "2X Conversion Rate",
+        resultSub: "Within 60 Days",
+      },
+      {
+        initials: "VS",
+        gradient: "#0b2e58",
+        client: "Vivo Sports International",
+        country: "Mexico",
+        project: "Shopify Plus Flash Sale Infrastructure & Custom Checkout",
+        desc: "Shopify Plus implementation with custom checkout scripts and multilingual storefront deployment.",
+        category: "Shopify Development",
+        result: "$480K Revenue",
+        resultSub: "In 6 Hours",
+      },
+      {
+        initials: "CC",
+        gradient: "#0b2e58",
+        client: "Celtic Craft House",
+        country: "Ireland",
+        project: "WooCommerce to Shopify Migration & UX Redesign",
+        desc: "Complete migration to Shopify with storefront redesign and courier API integrations.",
+        category: "Shopify Development",
+        result: "38% Increase",
+        resultSub: "Sales Growth",
+      },
+      {
+        initials: "NH",
+        gradient: "#0b2e58",
+        client: "Nakamura Home Living",
+        country: "Japan",
+        project: "Custom Shopify App Development & 3D Product Visualization",
+        desc: "Built a 3D product viewer and custom ERP sync app for seamless inventory and order management.",
+        category: "Shopify Development",
+        result: "27% Increase",
+        resultSub: "Average Order Value",
+      },
+      {
+        initials: "BP",
+        gradient: "#0b2e58",
+        client: "Bloom & Petal Co.",
+        country: "USA",
+        project: "Shopify Subscription Commerce & Retention Automation",
+        desc: "Subscription commerce setup with Recharge Payments and automated retention workflows.",
+        category: "Shopify Development",
+        result: "3.2X Growth",
+        resultSub: "Customer LTV",
+      },
 ];
 
 export default function ShopifyDevelopment() {
@@ -372,6 +431,8 @@ export default function ShopifyDevelopment() {
                     </div>
                 </div>
             </section>
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />

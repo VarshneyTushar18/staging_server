@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "EBay Store Design | EBay Store Designer Services - Tech2Globe",
@@ -368,6 +369,64 @@ const testimonials = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "CA",
+    gradient: "#0b2e58",
+    client: "Callahan Auto Parts USA",
+    country: "USA",
+    project: "eBay Store Redesign & Branded Listing Template Creation",
+    desc: "Branded eBay storefront redesign with custom listing templates, category banners, and mobile-optimized layouts to improve buyer trust and engagement.",
+    category: "eBay Store Design",
+    result: "48% Increase",
+    resultSub: "Click-Through Rate",
+  },
+  {
+    initials: "TV",
+    gradient: "#0b2e58",
+    client: "Thompson Vintage Collectibles",
+    country: "UK",
+    project: "eBay Branded Store & SEO-Optimized Listing Templates",
+    desc: "Custom eBay store design with branded visuals, SEO-optimized listing templates, and enhanced category structure for improved visibility.",
+    category: "eBay Store Design",
+    result: "63% Increase",
+    resultSub: "Store Page Views",
+  },
+  {
+    initials: "DD",
+    gradient: "#0b2e58",
+    client: "Dutch Design Wholesale BV",
+    country: "Netherlands",
+    project: "eBay Store Design for International Wholesale Brand",
+    desc: "Premium eBay storefront with mobile-friendly templates, category pages, and trust-building elements for international wholesale buyers.",
+    category: "eBay Store Design",
+    result: "29% Increase",
+    resultSub: "eBay Sales",
+  },
+  {
+    initials: "TL",
+    gradient: "#0b2e58",
+    client: "Tanaka Lifestyle Brands",
+    country: "Japan",
+    project: "eBay Bilingual Store Design (English & Japanese)",
+    desc: "Bilingual eBay store design featuring dual-language templates, optimized content, and localized branding for global and domestic audiences.",
+    category: "eBay Store Design",
+    result: "71% Increase",
+    resultSub: "Store Impressions",
+  },
+  {
+    initials: "KK",
+    gradient: "#0b2e58",
+    client: "Kiwi Kids Emporium",
+    country: "NZ",
+    project: "eBay Store Launch & Complete Listing Template System",
+    desc: "Complete eBay store setup with branded templates, SEO-focused product listings, and consistent visual identity across all products.",
+    category: "eBay Store Design",
+    result: "Top Rated Seller",
+    resultSub: "Within 90 Days",
+  },
+];
+
 export default function EbayStoreDesign() {
   return (
 
@@ -444,9 +503,11 @@ export default function EbayStoreDesign() {
       </section>
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
     </>

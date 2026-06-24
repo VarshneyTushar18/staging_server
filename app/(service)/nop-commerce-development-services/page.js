@@ -8,6 +8,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -371,9 +372,65 @@ const testimonials = [
   }
 ];
 
+const portfolioClients = [
+  {
+    initials: "PI",
+    gradient: "#0b2e58",
+    client: "Patterson Industrial Solutions",
+    country: "USA",
+    project: "Custom nopCommerce B2B Platform with ERP Integration",
+    desc: "Built a custom nopCommerce B2B platform with ERP integration, customer-specific catalogs, advanced pricing rules, and streamlined bulk ordering.",
+    category: "nopCommerce Development",
+    result: "67% Increase",
+    resultSub: "B2B Order Volume",
+  },
+  {
+    initials: "RL",
+    gradient: "#0b2e58",
+    client: "Rossi Luxury Interiors",
+    country: "Italy",
+    project: "nopCommerce Custom Theme & Product Configurator for Luxury Brand",
+    desc: "Designed a premium nopCommerce store with a custom product configurator, luxury-focused user experience, and integrated European payment gateways.",
+    category: "nopCommerce Development",
+    result: "34% Increase",
+    resultSub: "Average Order Value",
+  },
+  {
+    initials: "PT",
+    gradient: "#0b2e58",
+    client: "Petrov Tech Retail",
+    country: "Russia",
+    project: "nopCommerce Multi-Country Platform with Tax & Localization",
+    desc: "Developed a multi-country nopCommerce platform with automated VAT handling, localization features, and custom shipping automation.",
+    category: "nopCommerce Development",
+    result: "44% Growth",
+    resultSub: "Regional Revenue",
+  },
+  {
+    initials: "BB",
+    gradient: "#0b2e58",
+    client: "Benali Beauty Distribution",
+    country: "France",
+    project: "nopCommerce Platform Migration, Affiliate Module & WMS Integration",
+    desc: "Migrated to nopCommerce with custom affiliate management, WMS integration, loyalty features, and automated fulfillment workflows.",
+    category: "nopCommerce Development",
+    result: "58% Growth",
+    resultSub: "Online Sales",
+  },
+  {
+    initials: "TZ",
+    gradient: "#0b2e58",
+    client: "TechZone Electronics ME",
+    country: "UAE",
+    project: "nopCommerce Arabic Store with Multi-Currency & Vendor Portal",
+    desc: "Built a bilingual nopCommerce marketplace with Arabic RTL support, multi-currency checkout, and vendor management capabilities.",
+    category: "nopCommerce Development",
+    result: "AED 1.2M",
+    resultSub: "Revenue in 6 Months",
+  },
+];
 
-
-export default function JetProductUploadServices() {
+export default function NopCommerceDevelopmentServices() {
   return (
 
     <>
@@ -689,9 +746,11 @@ export default function JetProductUploadServices() {
         </div>
       </section >
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

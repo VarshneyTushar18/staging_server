@@ -424,7 +424,7 @@ const portfolioClients = [
         initials: "WF",
         gradient: "#0b2e58",
         client: "Warsaw Fashion Collective",
-        country: "Poland",
+        country: "PL",
         project: "Fashion Market Entry",
         desc: "Polish fashion brand entering India's growing online fashion sector through Flipkart.",
         category: "Fashion Growth",

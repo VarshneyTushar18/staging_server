@@ -6,6 +6,7 @@ import PageHeader from "../components/services/PageHeader/PageHeader";
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import Image from "next/image";
 import Style from "./style.module.css";
+import ClientPortfolio from "../components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Customer Support Services 27*7 - Tech2Globe",
@@ -57,20 +58,37 @@ const testimonials = [
     {
         id: 1,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe's customer support services have been a lifesaver for my business. Their team is highly skilled and always available to help me with any issues I have. They have also been very proactive in identifying potential problems before they occur and have helped me save a lot of time and money. I highly recommend Tech2Globe to any business looking for a reliable and efficient customer support outsourcing provider.",
-        name: "Samantha Lee, Small Business Owner",
+        text: "Tech2Globe's customer support team has been nothing short of exceptional. We were struggling with high ticket volumes and poor response times, and their 24/7 support solution transformed our operations completely. Our customer satisfaction scores jumped from 61% to 94% within just three months. The agents are professional, empathetic, and fully aligned with our brand voice. Highly recommend their services to any growing retailer.",
+        name: "Emma Richardson | BrightHome Retail Ltd.",
+        location: "United Kingdom",
     },
     {
         id: 2,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "I have been working with Tech2Globe for several months now, and I am extremely impressed with their customer support services. The team is knowledgeable, responsive, and always willing to go the extra mile to help me with any issues I have. I highly recommend Tech2Globe to any business looking to improve their customer support operations.",
-        name: "Alex Thompson, Amazon Seller",
+        text: "We outsourced our entire customer support function to Tech2Globe and it was one of the best decisions we've made. Their multilingual agents handled our Spanish and English customer queries with remarkable efficiency. First-contact resolution improved by 40%, and customer complaints dropped significantly. Their team feels like an extension of our own — always proactive and detail-oriented.",
+        name: "Carlos Mendez | TechNova Solutions S.A.",
+        location: "Mexico",
     },
     {
         id: 3,
         quote: "/images/services/service-inner/quote-icon.png",
-        text: "Tech2Globe's customer support services have been a lifesaver for my business. Their team is highly skilled and always available to help me with any issues I have. They have also been very proactive in identifying potential problems before they occur and have helped me save a lot of time and money. I highly recommend Tech2Globe to any business looking for a reliable and efficient customer support outsourcing provider.",
-        name: "Rahul Sharma, E-commerce Entrepreneur.",
+        text: "As a fast-growing organic product brand, we needed a support partner who could scale with us quickly. Tech2Globe delivered beyond our expectations. Their onboarding was seamless, the agents understood our products thoroughly, and the average response time dropped to under 2 hours. Our customer retention rate has improved significantly since we started working with them.",
+        name: "Sophie Lefebvre | MaisonBio E-Commerce",
+        location: "France",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe manages all our inbound support queries across email and chat. The quality of their responses is consistently high, and the reporting dashboards they provide give us real-time visibility into ticket trends. What truly impressed us was their ability to train agents on our SaaS product within days. A professional, reliable team we continue to count on every day.",
+        name: "Liam O'Sullivan | GreenPeak Technologies",
+        location: "Ireland",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Customer support was always our weakest point — long wait times and inconsistent responses were hurting our brand. Tech2Globe stepped in and restructured our entire support workflow. Within 60 days, average resolution time dropped by 55% and our Net Promoter Score climbed to 78. Their team is dedicated, responsive, and genuinely cares about outcomes. We are extremely satisfied.",
+        name: "Amara Osei | AfriCart Marketplace",
+        location: "Ghana",
     },
 ];
 
@@ -103,6 +121,63 @@ const faqs = [
         We take customer data protection very seriously and have several measures in place to ensure the security of customer data. This includes using secure servers and encryption for data storage, implementing strict access controls, and regularly monitoring and auditing our systems for vulnerabilities. We also have strict data privacy policies in place that all of our agents must adhere to.
       `,
     }
+];
+
+const portfolioClients = [
+    {
+        initials: "UK",
+        gradient: "#0b2e58",
+        client: "UK E-commerce Platform",
+        country: "UK",
+        project: "E-commerce Platform Customer Assistance Initiative",
+        desc: "Implemented multilingual customer support for UK e-commerce platform handling inquiries, billing issues, technical support, and product guidance across channels.",
+        category: "24/7 Multi-Channel Support",
+        result: "35% faster response time • 92% CSAT",
+    },
+    
+    {
+        initials: "AU",
+        gradient: "#0b2e58",
+        client: "Australian SaaS Platform",
+        country: "Australia",
+        project: "SaaS Platform Global Support Infrastructure",
+        desc: "Provided 24/7 technical support for Australian SaaS platform serving enterprise clients with troubleshooting, account management, and product assistance.",
+        category: "Technical Support & Account Management",
+        result: "88% first-contact resolution • 4.8/5 rating",
+    },
+    
+    {
+        initials: "CA",
+        gradient: "#0b2e58",
+        client: "Canadian Fashion Retailer",
+        country: "Canada",
+        project: "Fashion Retail Customer Experience Enhancement",
+        desc: "Delivered omnichannel customer support for Canadian fashion retailer handling inquiries, returns, shipping updates, and account management.",
+        category: "Omnichannel Support Services",
+        result: "45% faster response time • 94% CSAT",
+    },
+    
+    {
+        initials: "DE",
+        gradient: "#0b2e58",
+        client: "German Healthcare Platform",
+        country: "Germany",
+        project: "Healthcare Portal Patient Support Services",
+        desc: "Provided multilingual healthcare support for German patient platform managing appointments, inquiries, technical issues, and account assistance.",
+        category: "Specialized Healthcare Support",
+        result: "60,000+ monthly interactions • 2-min response time",
+    },
+    
+    {
+        initials: "SG",
+        gradient: "#0b2e58",
+        client: "Singapore Financial Services Firm",
+        country: "Singapore",
+        project: "Financial Services Customer Support Expansion",
+        desc: "Delivered financial customer support for Singapore firm handling account inquiries, transactions, loan guidance, and fraud prevention services.",
+        category: "Banking & Finance Support",
+        result: "96% SLA compliance • 15% fraud prevention improvement",
+    },
 ];
 
 export default function CustomerSupport() {
@@ -489,6 +564,7 @@ export default function CustomerSupport() {
                 </div>
             </section>
 
+            <ClientPortfolio clients={portfolioClients} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

@@ -8,6 +8,7 @@ import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "ECommerce Catalog Management Services | Content Management Company",
@@ -75,33 +76,95 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
-  },
-  {
+    text: "Managing over 50,000 SKUs was an absolute nightmare before we engaged Tech2Globe. Their catalog management team brought structure, consistency, and accuracy to our entire product database. Every product now has complete attributes, optimized descriptions, and correctly mapped categories. Our site search results improved and conversions went up by 22%. A remarkable turnaround in just two months.",
+    name: "James Whitfield | HomeDécor Direct Inc.",
+    location: "United States",
+},
+{
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana- Amazon Sponsored Ads USA",
-  },
-  {
+    text: "Our multi-channel catalog was a mess — different formats, missing attributes, and inconsistent naming conventions across platforms. Tech2Globe cleaned up everything and put a robust taxonomy in place. Now our product data is uniform across our Shopify store, Amazon, and wholesale portals. The team worked efficiently and communicated well throughout. We are thoroughly impressed.",
+    name: "Chiara Romano | BellaVita Fashion Group",
+    location: "Italy",
+},
+{
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
-  },
-  {
+    text: "We distribute electronic products across Southeast Asia and maintaining an accurate catalog is essential. Tech2Globe managed our catalog with exceptional precision — product specifications, compatibility data, and regulatory information were all handled correctly. They also set up a content update workflow so our catalog stays current with new product launches. A professional, efficient team.",
+    name: "Ravi Shankar | AsiaElect Distributors Pte. Ltd.",
+    location: "Singapore",
+},
+{
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: " Medi Hub- Amazon Store Creations USA",
-  },
-  {
+    text: "Tech2Globe's catalog management service helped us clean up years of inconsistent product data. They worked through our entire catalog methodically — removing duplicates, standardizing attribute sets, and filling in missing data. The result was a 30% improvement in organic search rankings and a noticeable boost in add-to-cart rates. Their attention to quality is commendable.",
+    name: "Olena Kovalenko | EuroMart Online Store",
+    location: "Ukraine",
+},
+{
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed- Amazon Enhance Brand Content USA",
-  },
+    text: "As a pet supply retailer with over 20,000 products, we struggled to keep catalog data accurate and up to date. Tech2Globe took over our catalog operations and delivered consistent, well-structured product listings across all categories. Filtering options on our website became far more effective, leading to better customer experiences. We are delighted with their work and ongoing support.",
+    name: "André Dubois | MaplePet Supplies Corp.",
+    location: "Canada",
+},
+];
+
+const portfolioClients = [
+  {
+    initials: "IN",
+    gradient: "#0b2e58",
+    client: "Indian E-commerce Brand",
+    country: "India",
+    project: "Multi-Channel Catalog Synchronization",
+    desc: "Managed product catalog for Indian e-commerce brand across multiple marketplaces ensuring consistent pricing, inventory, and real-time multi-platform synchronization.",
+    category: "Product Catalog Management",
+    result: "25,000+ SKUs managed • 99.3% accuracy",
+},
+
+{
+    initials: "AE",
+    gradient: "#0b2e58",
+    client: "UAE B2B Marketplace",
+    country: "UAE",
+    project: "Global B2B Marketplace Catalog Management",
+    desc: "Handled catalog operations for UAE B2B marketplace managing supplier listings, search optimization, pricing compliance, and structured product hierarchy.",
+    category: "B2B Catalog Operations",
+    result: "40,000+ listings • 97% listing quality",
+},
+
+{
+    initials: "BR",
+    gradient: "#0b2e58",
+    client: "Brazilian Marketplace",
+    country: "Brazil",
+    project: "Marketplace Content Enrichment Initiative",
+    desc: "Enhanced product content for Brazilian marketplace improving descriptions, keywords, multilingual attributes, SEO performance, and conversion rates.",
+    category: "Product Content Management",
+    result: "35,000+ products enriched • 55% conversion increase",
+},
+
+{
+    initials: "ZA",
+    gradient: "#0b2e58",
+    client: "South African Retailer",
+    country: "ZA",
+    project: "Specialty Retail Catalog Overhaul",
+    desc: "Optimized catalog for South African retailer standardizing SKUs, pricing, attributes, and improving search relevance and customer experience.",
+    category: "Retail Catalog Optimization",
+    result: "18,000+ SKUs organized • 100% price consistency",
+},
+
+{
+    initials: "MX",
+    gradient: "#0b2e58",
+    client: "Mexican Subscription Platform",
+    country: "Mexico",
+    project: "Subscription Platform Catalog Management",
+    desc: "Managed dynamic catalog for Mexican subscription platform updating weekly inventory, pricing, availability, and multi-warehouse coordination.",
+    category: "Dynamic Catalog Management",
+    result: "12,000+ items • 31% sales growth",
+},
 ];
 
 export default function CatalogManagementServices() {
@@ -144,6 +207,8 @@ export default function CatalogManagementServices() {
 
         </div>
       </section>
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

@@ -7,6 +7,8 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "TikTok Shop Management Agency | AI-Driven Listings, Ads & Sales Growth",
@@ -93,7 +95,103 @@ const faqs = [
     }
 ];
 
-export default function DataAnalytics() {
+
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe helped us launch and scale our TikTok Shop from zero to six figures in revenue within three months. They handled everything — store setup, content strategy, creator outreach, and ad management. Their team understood TikTok's algorithm deeply and knew exactly how to create native content that converts. An absolute game-changer for our brand.",
+        name: "Chloe Park | Founder, GlowLab",
+        location: "United States",
+      },
+      {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We were hesitant about TikTok commerce but Tech2Globe gave us the confidence to dive in. They built our shop, matched us with relevant creators, and ran targeted TikTok ads that delivered 5x ROAS from the very first campaign. Their weekly performance reports kept us informed and their creative team kept our content fresh and trending.",
+        name: "Ryan Walsh | Brand Manager, VibeWear",
+        location: "United Kingdom",
+      },
+      {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's TikTok Shop management services exceeded every expectation. They understood the nuances of the TikTok audience, created culturally relevant content, and set up live selling sessions that drove massive same-day sales spikes. Our TikTok Shop is now our fastest-growing sales channel globally. The team's energy and expertise are unmatched.",
+        name: "Aiko Tanaka | Head of Digital Commerce, KawaiiBox",
+        location: "Japan",
+      },
+      {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Managing TikTok Shop in-house was overwhelming until we brought in Tech2Globe. They took care of the entire ecosystem — from product feed optimization and creator briefing to ad funnel management and analytics. Within 6 weeks we saw a 4x increase in TikTok-attributed revenue. Their strategic approach to short-form content is truly impressive.",
+        name: "Zoe Adams | Digital Director, TrendNest",
+        location: "Australia",
+      },
+      {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe is the best investment we made for our TikTok commerce expansion. They handled every detail — shop setup, listing SEO, influencer management, live streaming strategy, and performance ads. Their team was proactive in testing new formats and consistently delivered strong ROAS. Our TikTok Shop went from a side experiment to our primary growth driver.",
+        name: "Marco Ferretti | CEO, LifeStyle Goods",
+        location: "Italy",
+      },
+];
+
+
+const portfolioClients = [
+    {
+        initials: "GL",
+        gradient: "#0b2e58",
+        client: "GlowLab Skincare",
+        country: "USA",
+        project: "TikTok Shop Management — Skincare & Beauty",
+        desc: "Launched TikTok Shop, managed creators, ads, and live sessions, driving $180K revenue, strong ROAS, and rapid growth in 90 days.",
+        category: "TikTok Shop Management",
+        result: "$180K revenue in 90 days",
+      },
+      {
+        initials: "VW",
+        gradient: "#0b2e58",
+        client: "VibeWear Streetwear",
+        country: "UK",
+        project: "TikTok Shop Management — Fashion & Apparel",
+        desc: "Built TikTok Shop, influencer network, and Spark Ads strategy, scaling revenue 340% in 3 months with strong organic reach.",
+        category: "TikTok Shop Management",
+        result: "340% revenue growth in 3 months",
+      },
+      {
+        initials: "KB",
+        gradient: "#0b2e58",
+        client: "KawaiiBox Japan",
+        country: "Japan",
+        project: "TikTok Shop Management — Lifestyle & Gifting",
+        desc: "Managed dual-market TikTok Shop launch, creator campaigns, and live selling, driving record sales and strong subscription conversions.",
+        category: "TikTok Shop Management",
+        result: "Record live selling revenue day",
+      },
+      {
+        initials: "TN",
+        gradient: "#0b2e58",
+        client: "TrendNest Lifestyle",
+        country: "Australia",
+        project: "TikTok Shop Management — Home & Lifestyle",
+        desc: "Optimized listings, ads, and live commerce strategy, boosting CTR, conversions, and achieving industry-leading ROAS performance.",
+        category: "TikTok Shop Management",
+        result: "9.1% ad conversion rate",
+      },
+      {
+        initials: "LG",
+        gradient: "#0b2e58",
+        client: "LifeStyle Goods Italia",
+        country: "Italy",
+        project: "TikTok Shop Management — Wellness & Lifestyle",
+        desc: "Built full-funnel TikTok strategy with creators, ads, and live events, expanding to Europe and generating strong multi-market revenue.",
+        category: "TikTok Shop Management",
+        result: "€120K+ revenue in 5 months",
+      },
+    
+];
+
+
+
+export default function TiktokShopManagementServices() {
     return (
         <>
             <PageHeader pageHeaderData={pageHeaderData} />
@@ -330,6 +428,11 @@ export default function DataAnalytics() {
                     </div>
                 </div>
             </section>
+
+            <ClientPortfolio clients={portfolioClients} />
+
+
+            <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />
         </>

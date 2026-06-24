@@ -8,6 +8,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -346,32 +347,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "Tech2Globe helped us launch our WooCommerce store with over 2,500 products fully uploaded and categorized. They understood our WordPress theme requirements, handled variable products expertly, and made sure all product images were properly formatted. Fantastic service.",
+    name: "Oliver Bennett | GreenLeaf",
+    location: "United Kingdom",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana– Amazon Sponsored Ads USA",
+    text: "Our WooCommerce store had messy, inconsistent product data from years of manual entry. Tech2Globe cleaned everything up, restructured our categories, and re-uploaded products with proper SEO titles, descriptions, and tags. The improvement in our search rankings was immediate.",
+    name: "Deepa Krishnan | OrganicMart",
+    location: "India",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "I was skeptical about outsourcing WooCommerce product uploads, but Tech2Globe put all my concerns to rest. They worked directly in our WordPress admin with great care, added proper schema markup, and set up product attributes that made filtering much easier for our customers.",
+    name: "Hans Zimmermann | FreshFoods",
+    location: "Germany",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: "Medi Hub- Amazon Store Creations USA",
+    text: "We had over 7,000 products to upload as part of our WooCommerce rebuild. Tech2Globe delivered the entire project on time and with zero errors. Their team clearly understood WooCommerce inside out and needed minimal hand-holding throughout the process.",
+    name: "Grace Thompson | PetPals",
+    location: "Australia",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed– Amazon Enhance Brand Content USA",
+    text: "Tech2Globe manages all product updates on our WooCommerce store on a monthly retainer basis. Their team is always responsive, the quality of work is consistently high, and they proactively flag any issues they spot in our catalog. I couldn't ask for a better partner.",
+    name: "Youssef El Amine | HomeStyle",
+    location: "Morocco",
   },
 ];
 
@@ -414,8 +420,65 @@ const faqs = [
     },
 ];
 
+const portfolioClients = [
+  {
+    initials: "AC",
+    gradient: "#0b2e58",
+    client: "Artisan Craft Cooperative",
+    country: "PT",
+    project: "WooCommerce Handmade Marketplace",
+    desc: "Managed marketplace for artisan products on WooCommerce with individual creator profiles. Implemented vendor rating systems and commission tracking. Created custom product fields for artisan stories and product origin documentation.",
+    category: "WooCommerce Development",
+    result: "5,200+ artisan products catalogued",
+    resultSub: "Marketplace Growth",
+  },
+  {
+    initials: "ON",
+    gradient: "#0b2e58",
+    client: "Organic & Natural Products",
+    country: "GR",
+    project: "WooCommerce Niche E-Commerce",
+    desc: "Processed organic and natural product catalog with certification validation and supply chain tracking. Implemented organic certification badges and source documentation. Created detailed product sourcing information and sustainability metrics display.",
+    category: "WooCommerce Development",
+    result: "8,900+ organic products uploaded",
+    resultSub: "Certification Compliance",
+  },
+  {
+    initials: "LF",
+    gradient: "#0b2e58",
+    client: "Local Farm Products Network",
+    country: "Ireland",
+    project: "WooCommerce Community Commerce",
+    desc: "Managed farm products catalog for local agricultural network on WooCommerce. Implemented seasonal product availability and dynamic inventory. Created farmer profiles and origin story integration with product pages.",
+    category: "WooCommerce Development",
+    result: "12,000+ farm products managed",
+    resultSub: "Community Commerce",
+  },
+  {
+    initials: "SF",
+    gradient: "#0b2e58",
+    client: "Sports & Fitness Equipment",
+    country: "Denmark",
+    project: "WooCommerce Product Variants",
+    desc: "Configured WooCommerce for fitness equipment retailer with extensive size, weight, and color variants. Implemented subscription-based product offerings for supplements and accessories. Created workout guide integration and equipment comparison tools.",
+    category: "WooCommerce Development",
+    result: "6,800+ fitness products",
+    resultSub: "Variant System Setup",
+  },
+  {
+    initials: "VC",
+    gradient: "#0b2e58",
+    client: "Vintage & Collectibles",
+    country: "Sweden",
+    project: "WooCommerce Unique Item Management",
+    desc: "Managed unique vintage inventory on WooCommerce with individual item descriptions and provenance documentation. Implemented auction capabilities for rare collectibles. Created detailed authentication documentation and condition reporting systems.",
+    category: "WooCommerce Development",
+    result: "14,500+ vintage items catalogued",
+    resultSub: "Inventory Structuring",
+  },
+];
 
-export default function JetProductUploadServices() {
+export default function WooCommerceProductUploadServices() {
   return (
 
     <>
@@ -497,9 +560,11 @@ export default function JetProductUploadServices() {
 
       <FaqSection faqs={faqs} />
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

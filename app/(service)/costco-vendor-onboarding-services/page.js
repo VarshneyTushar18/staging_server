@@ -174,7 +174,7 @@ const portfolioClients = [
     initials: "AF",
     gradient: "#1f3a5f",
     client: "Alpine Foods International",
-    country: "Switzerland",
+    country: "CH",
     project: "Quick Commerce Market Entry",
     desc: "Swiss health food brand entering India's quick commerce ecosystem across multiple delivery platforms simultaneously.",
     category: "Quick Commerce",

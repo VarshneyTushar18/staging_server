@@ -6,6 +6,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "Walmart Product Upload Services | Walmart Product Data Entry",
@@ -64,32 +65,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "Getting products live on Walmart Marketplace can be extremely tricky due to their strict content guidelines. Tech2Globe's team navigated all the requirements flawlessly — item setup forms, spec sheets, image compliance, and category approvals. Our products went live faster than expected.",
+    name: "Kevin Carter | BestDealz USA",
+    location: "United States",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana- Amazon Sponsored Ads USA",
+    text: "We had hundreds of item setup rejections on Walmart before engaging Tech2Globe. Their specialists understood exactly what Walmart's system requires and resolved all errors systematically. Since then, our rejection rate has dropped to near zero.",
+    name: "Amina Joshi | GlobalKart India",
+    location: "India",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "Tech2Globe helped us upload and optimize 3,000+ products on Walmart Marketplace, including proper attribute mapping, rich media content, and Walmart SEO best practices. Our product visibility has improved significantly and sales have followed.",
+    name: "Brandon Walsh | HomeComfort USA",
+    location: "United States",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: " Medi Hub- Amazon Store Creations USA",
+    text: "The Tech2Globe team is extremely well-versed in Walmart's Seller Center. They managed our entire product upload process including variant listing, pricing setup, and fulfillment option configuration. Their expertise saved us significant time and resources.",
+    name: "Mei Lin | AsiaGoods USA",
+    location: "United States",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed- Amazon Enhance Brand Content USA",
+    text: "We engaged Tech2Globe when we were expanding to Walmart Marketplace for the first time. They guided us through the onboarding, handled all product data submissions, and ensured our listings met Walmart's content score requirements. A truly professional team.",
+    name: "Patricia Olson | NaturalWell USA",
+    location: "United States",
   },
 ];
 
@@ -377,6 +383,64 @@ const portfolio = [
   },
 ]
 
+const portfolioClients = [
+  {
+    initials: "GS",
+    gradient: "#0b2e58",
+    client: "General Merchandise Supplier",
+    country: "Canada",
+    project: "Walmart Marketplace Integration",
+    desc: "Managed large-scale product uploads to Walmart Marketplace with compliance to Walmart product data standards. Configured seller account, implemented inventory management, and set up fulfillment partnerships. Managed product price optimization and promotional catalog updates.",
+    category: "Walmart Marketplace",
+    result: "$2.5M annual GMV",
+    resultSub: "Revenue Growth",
+  },
+  {
+    initials: "HG",
+    gradient: "#0b2e58",
+    client: "Home & Garden Distributor",
+    country: "USA",
+    project: "Walmart Omnichannel Retail",
+    desc: "Integrated home and garden products across Walmart omnichannel platform including in-store inventory. Managed product content updates for both marketplace and Walmart.com. Implemented seasonal product promotions and coordinated with warehouse fulfillment.",
+    category: "Walmart Marketplace",
+    result: "35% growth in Walmart channel",
+    resultSub: "Channel Expansion",
+  },
+  {
+    initials: "PC",
+    gradient: "#0b2e58",
+    client: "Personal Care Products Manufacturer",
+    country: "Mexico",
+    project: "Walmart International Expansion",
+    desc: "Managed product uploads for Walmart Mexico operations with bilingual compliance. Handled import/export documentation and cross-border fulfillment logistics. Configured regional pricing strategies and managed product assortment variations.",
+    category: "Walmart Marketplace",
+    result: "18,000+ SKUs across Mexico Walmart",
+    resultSub: "Catalog Scale",
+  },
+  {
+    initials: "ED",
+    gradient: "#0b2e58",
+    client: "Electronics Distributor Network",
+    country: "Brazil",
+    project: "Walmart Electronics Category Management",
+    desc: "Managed electronics category on Walmart Brazil with technical specifications and warranty administration. Implemented product certification tracking and compliance documentation. Coordinated with multiple warehouse facilities for inventory management.",
+    category: "Walmart Marketplace",
+    result: "98.2% on-time delivery",
+    resultSub: "Operational Reliability",
+  },
+  {
+    initials: "FB",
+    gradient: "#0b2e58",
+    client: "Food & Beverage Supplier",
+    country: "UK",
+    project: "Walmart Grocery Operations",
+    desc: "Processed grocery and food products for Walmart UK with strict temperature and shelf-life management. Implemented GTIN synchronization and nutritional information compliance. Managed promotional pricing and bundle offerings for grocery category.",
+    category: "Walmart Marketplace",
+    result: "35,000+ grocery items",
+    resultSub: "Catalog Volume",
+  },
+];
+
 
 export default function WalmartProductUploadServices() {
   return (
@@ -440,9 +504,11 @@ export default function WalmartProductUploadServices() {
         </div>
       </section >
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

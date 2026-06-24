@@ -350,9 +350,9 @@ const portfolio = [
 const portfolioClients = [
     {
         initials: "VE",
-        gradient: "#1e40af",
+        gradient: "#0b2e58",
         client: "Voltridge Electronics",
-        country: "United States",
+        country: "USA",
         project: "Marketplace Onboarding & Catalog",
         desc: "Managed seller onboarding and initial electronics catalog upload.",
         category: "Marketplace Onboarding & Catalog",
@@ -361,9 +361,9 @@ const portfolioClients = [
     },
     {
         initials: "CA",
-        gradient: "#7c3aed",
+        gradient: "#0b2e58",
         client: "Crestwave Audio Co.",
-        country: "United States",
+        country: "USA",
         project: "Listing SEO & Advertising",
         desc: "Optimized listings and ran advertising campaigns for an audio brand.",
         category: "Listing SEO & Advertising",
@@ -372,7 +372,7 @@ const portfolioClients = [
     },
     {
         initials: "MA",
-        gradient: "#059669",
+        gradient: "#0b2e58",
         client: "Mainstreet Appliance Group",
         country: "Canada",
         project: "Account Management & Compliance",
@@ -383,9 +383,9 @@ const portfolioClients = [
     },
     {
         initials: "PG",
-        gradient: "#dc2626",
+        gradient: "#0b2e58",
         client: "Parallax Gaming Gear",
-        country: "United States",
+        country: "USA",
         project: "Catalog & Inventory Sync",
         desc: "Synced inventory feeds and corrected catalog data for gaming products.",
         category: "Catalog & Inventory Sync",

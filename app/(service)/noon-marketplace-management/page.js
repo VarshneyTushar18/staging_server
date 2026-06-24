@@ -434,7 +434,7 @@ const portfolioClients = [
         initials: "IH",
         gradient: "#0b2e58",
         client: "Iberia Home Goods",
-        country: "Spain",
+        country: "ES",
         project: "GCC Marketplace Growth",
         desc: "Spanish home furnishings brand seeking expansion and revenue growth across Noon marketplaces.",
         category: "Marketplace Management",

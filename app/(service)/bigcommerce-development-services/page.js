@@ -9,6 +9,7 @@ import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
 import Link from "next/link";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "BigCommerce App Development | Custom App Solutions - Tech2Globe",
@@ -376,6 +377,64 @@ const testimonials = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "MH",
+    gradient: "#0b2e58",
+    client: "Mitchell Home Furnishings",
+    country: "USA",
+    project: "Magento to BigCommerce Migration & Custom Stencil Theme",
+    desc: "Migrated 18,000 products to BigCommerce with a custom Stencil theme, advanced search functionality, and seamless ERP integration.",
+    category: "BigCommerce Development",
+    result: "44% Increase",
+    resultSub: "Monthly Revenue",
+  },
+  {
+    initials: "NS",
+    gradient: "#0b2e58",
+    client: "Nordic Style Living AB",
+    country: "Sweden",
+    project: "BigCommerce Custom Store with Scandinavian Design & Payment Integration",
+    desc: "Custom BigCommerce storefront featuring Scandinavian-inspired design, multi-currency support, and localized payment integrations for European customers.",
+    category: "BigCommerce Development",
+    result: "37% Improvement",
+    resultSub: "Conversion Rate",
+  },
+  {
+    initials: "BF",
+    gradient: "#0b2e58",
+    client: "Bianchi Fine Foods",
+    country: "Italy",
+    project: "BigCommerce B2B Portal for Specialty Food Exports",
+    desc: "Built a BigCommerce B2B portal with bulk pricing, buyer-specific access controls, freight integrations, and multi-currency checkout capabilities.",
+    category: "BigCommerce Development",
+    result: "52% Growth",
+    resultSub: "B2B Orders",
+  },
+  {
+    initials: "BG",
+    gradient: "#0b2e58",
+    client: "Bouchard Fashion Group",
+    country: "Canada",
+    project: "Headless BigCommerce Architecture for Multi-Brand Fashion",
+    desc: "Delivered a headless BigCommerce solution with Next.js storefronts, shared inventory management, and centralized content administration.",
+    category: "BigCommerce Development",
+    result: "48% Increase",
+    resultSub: "Organic Traffic",
+  },
+  {
+    initials: "AF",
+    gradient: "#0b2e58",
+    client: "Atlas Fitness Equipment",
+    country: "UK",
+    project: "BigCommerce Store Launch & Wholesale Channel Setup",
+    desc: "Launched a dual-channel BigCommerce store with wholesale portals, POS integration, and synchronized inventory across retail locations.",
+    category: "BigCommerce Development",
+    result: "18 Days",
+    resultSub: "Store Launch",
+  },
+];
+
 export default function bigcommercedevelopment() {
   return (
 
@@ -504,9 +563,11 @@ export default function bigcommercedevelopment() {
       </section>
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
     </>

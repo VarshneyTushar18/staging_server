@@ -374,9 +374,9 @@ const testimonials = [
 const portfolioClients = [
     {
         initials: "SH",
-        gradient: "#1e40af",
+        gradient: "#0b2e58",
         client: "Sakura Home Imports",
-        country: "United States",
+        country: "USA",
         project: "Marketplace Account Management",
         desc: "Managed full Rakuten account operations for a home imports brand.",
         category: "Marketplace Account Management",
@@ -385,9 +385,9 @@ const portfolioClients = [
     },
     {
         initials: "MB",
-        gradient: "#7c3aed",
+        gradient: "#0b2e58",
         client: "Meridian Beauty Co.",
-        country: "United Kingdom",
+        country: "UK",
         project: "Listing Localization & SEO",
         desc: "Localized product content and optimized listings for regional buyers.",
         category: "Listing Localization & SEO",
@@ -396,7 +396,7 @@ const portfolioClients = [
     },
     {
         initials: "LA",
-        gradient: "#059669",
+        gradient: "#0b2e58",
         client: "Lakeside Apparel Group",
         country: "Canada",
         project: "Catalog Upload & Pricing",
@@ -407,7 +407,7 @@ const portfolioClients = [
     },
     {
         initials: "FL",
-        gradient: "#dc2626",
+        gradient: "#0b2e58",
         client: "Forsythe Lifestyle Brands",
         country: "Australia",
         project: "Account Setup & Compliance",
@@ -418,9 +418,9 @@ const portfolioClients = [
     },
     {
         initials: "OS",
-        gradient: "#0f766e",
+        gradient: "#0b2e58",
         client: "Origami Stationery Co.",
-        country: "United States",
+        country: "USA",
         project: "Listing Optimization",
         desc: "Refined product descriptions and images to improve page conversion.",
         category: "Listing Optimization",

@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 
 export const metadata = {
@@ -345,35 +346,97 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "They have excellent service and management, this is honest review after a month of experience with them, team is hardworking, knowledgeable and do every task on time. I hope they continue to deliver me same output.",
-    name: "Roxel- Account Management India",
+    text: "Jet.com's product listing requirements are quite strict, and Tech2Globe handled them with ease. They formatted all our product data to Jet's specifications, optimized titles for their smart pricing algorithm, and got our entire catalog live with minimal delays.",
+    name: "Robert Tanner | ValueShop",
+    location: "United States",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent Team, good results in sales",
-    name: "Andriana– Amazon Sponsored Ads USA",
+    text: "Tech2Globe helped us expand to Jet.com at a time when we had limited bandwidth internally. Their team took complete ownership of the product upload process — from data formatting to final submission. It was a smooth and hassle-free experience throughout.",
+    name: "Michelle Grant | BudgetBuy",
+    location: "United States",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service by Tech2globe, brilliant service and hardworking",
-    name: "Neo Global- Vendor Account Management UK",
+    text: "We had complex product bundles that needed to be structured correctly on Jet.com. Tech2Globe's team understood the platform's bundling and variant requirements and set everything up perfectly. Our bundle listings performed better than our single-item listings immediately.",
+    name: "Steven Park | SmartDeals",
+    location: "United States",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Courteous, professional, quality work, best bang for your buck",
-    name: "Medi Hub- Amazon Store Creations USA",
+    text: "Tech2Globe uploaded over 2,000 products to Jet.com for our seasonal expansion. Their understanding of Jet's content requirements — especially around product identifiers, condition notes, and return policies — ensured all our listings went live without any rejections.",
+    name: "Cynthia Moore | HomeSmart",
+    location: "United States",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and creative team. They patiently worked on changes I asked for and delivered on time. Thank you.",
-    name: "Teliamed– Amazon Enhance Brand Content USA",
+    text: "Working with Tech2Globe on our Jet.com product uploads has been a great experience. They're organized, communicative, and genuinely understand the ecommerce marketplace landscape. Our Jet store is one of our fastest-growing channels, and their work on our catalog played a big role in that.",
+    name: "Aaron Phillips | TechBargains",
+    location: "United States",
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "GM",
+    gradient: "#0b2e58",
+    client: "General Merchandise Supplier",
+    country: "USA",
+    project: "Jet Marketplace Expansion",
+    desc: "Managed comprehensive product catalog on Jet.com marketplace. Implemented Jet pricing algorithms and volume-based discounts. Coordinated with Jet fulfillment network and managed promotional pricing strategies.",
+    category: "Jet Marketplace",
+    result: "$1.8M annual channel sales",
+    resultSub: "Revenue Growth",
+  },
+  {
+    initials: "HG",
+    gradient: "#0b2e58",
+    client: "Home Goods & Décor",
+    country: "USA",
+    project: "Jet Home & Garden",
+    desc: "Processed home goods inventory for Jet.com with detailed room-specific merchandising. Implemented furniture sizing guides and delivery coordination. Created interior design collection integration.",
+    category: "Jet Marketplace",
+    result: "24,000+ home items",
+    resultSub: "Catalog Scale",
+  },
+  {
+    initials: "CE",
+    gradient: "#0b2e58",
+    client: "Consumer Electronics",
+    country: "USA",
+    project: "Jet Electronics & Appliances",
+    desc: "Managed consumer electronics on Jet with technical specification optimization. Implemented extended warranty integration and protection plans. Coordinated appliance delivery and installation services.",
+    category: "Jet Marketplace",
+    result: "99.1% on-time delivery",
+    resultSub: "Operational Reliability",
+  },
+  {
+    initials: "SR",
+    gradient: "#0b2e58",
+    client: "Sports & Outdoor Retailer",
+    country: "USA",
+    project: "Jet Sports & Recreation",
+    desc: "Processed sports equipment catalog on Jet with seasonal sport optimization. Implemented equipment rental and subscription services. Created sports category expertise and product recommendations.",
+    category: "Jet Marketplace",
+    result: "Seasonal inventory rotation",
+    resultSub: "Demand Management",
+  },
+  {
+    initials: "BW",
+    gradient: "#0b2e58",
+    client: "Bulk & Wholesale Distributor",
+    country: "USA",
+    project: "Jet B2B Operations",
+    desc: "Managed B2B wholesale inventory on Jet with bulk ordering capabilities. Implemented tiered wholesale pricing and volume discounts. Created buyer account management and business fulfillment coordination.",
+    category: "Jet Marketplace",
+    result: "42,000+ B2B products",
+    resultSub: "Wholesale Scale",
+  },
+];
 
 export default function JetProductUploadServices() {
   return (
@@ -436,9 +499,11 @@ export default function JetProductUploadServices() {
       </section >
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
 

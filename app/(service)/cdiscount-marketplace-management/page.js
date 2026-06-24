@@ -391,7 +391,7 @@ const portfolioClients = [
     {
         initials: "ME",
         gradient: "#0b2e58",
-        client: "MaisonElite Paris",
+        client: "MaisonElite",
         country: "France",
         project: "CDiscount Marketplace Growth",
         desc: "Premium French home décor brand that struggled to scale on CDiscount despite having a strong product range.",
@@ -402,8 +402,8 @@ const portfolioClients = [
     {
         initials: "BG",
         gradient: "#0b2e58",
-        client: "BrightGoods UK",
-        country: "United Kingdom",
+        client: "BrightGoods",
+        country: "UK",
         project: "Cross-Border CDiscount Expansion",
         desc: "Mid-market UK household goods brand aiming to enter the French e-commerce market without local operational support.",
         category: "Cross-Border Expansion",
@@ -435,8 +435,8 @@ const portfolioClients = [
     {
         initials: "SS",
         gradient: "#0b2e58",
-        client: "StyleHub Spain",
-        country: "Spain",
+        client: "StyleHub",
+        country: "ES",
         project: "Large SKU Catalogue Automation",
         desc: "Fashion accessories brand managing a large 2,000+ SKU catalogue requiring automation and performance stability.",
         category: "Automation",

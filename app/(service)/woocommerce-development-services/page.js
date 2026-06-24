@@ -8,6 +8,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "WooCommerce Development Services & Experts | Tech2Globe",
@@ -374,6 +375,64 @@ const testimonials = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "MO",
+    gradient: "#0b2e58",
+    client: "Müller Outdoor Gear GmbH",
+    country: "Germany",
+    project: "Custom WooCommerce Store with Product Configurator",
+    desc: "WooCommerce store developed with multilingual DACH support, custom product configurator, and localized payment integrations to improve buying accuracy and reduce returns.",
+    category: "WooCommerce Development",
+    result: "36% Reduction",
+    resultSub: "Return Rate",
+  },
+  {
+    initials: "BB",
+    gradient: "#0b2e58",
+    client: "Botanica Beauty Ltd.",
+    country: "UK",
+    project: "WooCommerce Subscription Plugin & Loyalty System Development",
+    desc: "Custom WooCommerce subscription platform with flexible billing, loyalty rewards, and subscriber management features, helping drive recurring revenue growth.",
+    category: "WooCommerce Development",
+    result: "65% Revenue",
+    resultSub: "From Subscriptions",
+  },
+  {
+    initials: "DG",
+    gradient: "#0b2e58",
+    client: "Dupont Gourmet Imports",
+    country: "France",
+    project: "WooCommerce Catalog Redesign & B2B Pricing Tiers",
+    desc: "WooCommerce redesign featuring advanced catalog filtering, custom B2B pricing tiers, and streamlined checkout experience for wholesale and retail buyers.",
+    category: "WooCommerce Development",
+    result: "31% Reduction",
+    resultSub: "Cart Abandonment",
+  },
+  {
+    initials: "RB",
+    gradient: "#0b2e58",
+    client: "Riyadh Digital Bazaar",
+    country: "SA",
+    project: "WooCommerce Multi-Vendor Marketplace with Arabic RTL",
+    desc: "Multi-vendor WooCommerce marketplace with Arabic RTL support, bilingual storefront, seller dashboards, and local payment gateway integrations.",
+    category: "WooCommerce Development",
+    result: "200+ Sellers",
+    resultSub: "Onboarded",
+  },
+  {
+    initials: "SR",
+    gradient: "#0b2e58",
+    client: "SolarEdge Retail Group",
+    country: "Netherlands",
+    project: "WooCommerce B2B Portal with ERP & Logistics Integration",
+    desc: "Custom WooCommerce B2B portal with ERP integration, warehouse inventory synchronization, bulk ordering functionality, and automated order processing workflows.",
+    category: "WooCommerce Development",
+    result: "100% Automated",
+    resultSub: "Order Processing",
+  },
+];
+
 export default function WoocommerceDevelopmentServices() {
   return (
 
@@ -502,9 +561,11 @@ export default function WoocommerceDevelopmentServices() {
       </section>
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
     </>

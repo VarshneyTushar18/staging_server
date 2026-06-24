@@ -7,6 +7,7 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "OpenCart Development Services | Opencart Web development",
@@ -370,6 +371,63 @@ const testimonials = [
   }
 ];
 
+const portfolioClients = [
+  {
+    initials: "SE",
+    gradient: "#0b2e58",
+    client: "Schneider Electronics GmbH",
+    country: "Germany",
+    project: "OpenCart Multi-Store Setup with Custom Extensions",
+    desc: "Developed an OpenCart multi-store solution with localized storefronts, advanced search capabilities, and custom extensions for DACH markets.",
+    category: "OpenCart Development",
+    result: "99.98% Uptime",
+    resultSub: "Over 12 Months",
+  },
+  {
+    initials: "AR",
+    gradient: "#0b2e58",
+    client: "Al-Rashid Fashion House",
+    country: "KW",
+    project: "OpenCart Arabic RTL Store with Custom Loyalty Module",
+    desc: "Built a bilingual OpenCart store with Arabic RTL support, loyalty rewards functionality, and localized payment gateway integrations.",
+    category: "OpenCart Development",
+    result: "54% Increase",
+    resultSub: "Mobile Conversion Rate",
+  },
+  {
+    initials: "HF",
+    gradient: "#0b2e58",
+    client: "Herrera Furniture Exports",
+    country: "ES",
+    project: "OpenCart B2B Portal with ERP Integration & Bulk Ordering",
+    desc: "Created an OpenCart B2B portal featuring ERP integration, bulk ordering tools, quote requests, and buyer-specific catalogs.",
+    category: "OpenCart Development",
+    result: "3X Growth",
+    resultSub: "B2B Online Orders",
+  },
+  {
+    initials: "AG",
+    gradient: "#0b2e58",
+    client: "Adeyemi Retail Group",
+    country: "Nigeria",
+    project: "OpenCart Multi-Vendor Marketplace with Seller Dashboard",
+    desc: "Developed a multi-vendor OpenCart marketplace with seller analytics, inventory management tools, and integrated local payment solutions.",
+    category: "OpenCart Development",
+    result: "150+ Sellers",
+    resultSub: "Onboarded First Month",
+  },
+  {
+    initials: "BP",
+    gradient: "#0b2e58",
+    client: "Beaumont Pharmacy Group",
+    country: "Ireland",
+    project: "OpenCart Healthcare eCommerce with Compliance & Prescription Module",
+    desc: "Built a compliant OpenCart healthcare store with prescription verification, GDPR-ready workflows, and category-based product organization.",
+    category: "OpenCart Development",
+    result: "30% Increase",
+    resultSub: "OTC Product Sales",
+  },
+];
 
 export default function OpenCartDevelopment() {
   return (
@@ -424,9 +482,11 @@ export default function OpenCartDevelopment() {
       </section>
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
     </>

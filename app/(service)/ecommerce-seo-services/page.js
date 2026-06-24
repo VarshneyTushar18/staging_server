@@ -11,6 +11,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaAngleRight } from "react-icons/fa";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
      title: "Ecommerce SEO Services | Ecommerce SEO Company in USA ",
@@ -117,140 +118,37 @@ const testimonials = [
   {
     id: 1,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Excellent service Quality by Ritu & Chavy.. Quick to revert on any queries or issues. Delivery time to be bettered or improved a bit though .",
-    name: "SHAFIN - Head of Partner Manager",
+    text: "Tech2Globe completely transformed our ecommerce SEO game. Within 5 months, our organic traffic jumped by over 180% and we started ranking on page 1 for more than 40 competitive keywords. Their keyword strategy was data-driven and their technical SEO fixes resolved crawlability issues we didn't even know existed. Highly recommend them to any serious online retailer.",
+    name: "James Holloway | Head of Digital, NovaBuy UK",
+    location: "United Kingdom",
   },
   {
     id: 2,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "It's a best agency we find for handling our e commerce marketplaces, all staff are friendly and expert in their work, we recommend TECH 2 GLOBE to achieve your business goals timely and efficiently.",
-    name: "NITIN MEHTA - Head of Partner Manager",
+    text: "We were struggling to gain visibility in a saturated home décor market. Tech2Globe's ecommerce SEO team built a comprehensive content and link-building plan that delivered real results. Our product pages now rank on the first page of Google France and our monthly revenue from organic search has doubled. The ROI has been outstanding.",
+    name: "Sophie Renard | Founder, MaisonStyle",
+    location: "France",
   },
   {
     id: 3,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very co operative staff, managing my account very well.",
-    name: "GENKI - Head of Partner Manager",
+    text: "Tech2Globe brought exactly what we needed — a structured, white-hat SEO strategy tailored to our product catalog of 2,000+ SKUs. They handled everything from schema markup to category page optimization. Our bounce rate dropped significantly and we saw a 220% increase in organic sessions within 6 months. Communication was always clear and timely.",
+    name: "Arjun Mehta | COO, ZestCart",
+    location: "Canada",
   },
   {
     id: 4,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "Hardworking team with the main target of growing your business. We have just started working and the team is warm and instantly available for all confusions and help in establishing your Amazon business.",
-    name: "SHUBHESH GOEL - Director of Partner Management",
+    text: "I've worked with several SEO agencies before, but Tech2Globe stands out for their ecommerce-specific expertise. They understood our product taxonomy, performed deep competitor analysis, and implemented structured data that got our listings into rich snippets. Our click-through rate from search has improved by 64% — incredible results.",
+    name: "Lena Fischer | Digital Marketing Manager, SportVibe",
+    location: "Germany",
   },
   {
     id: 5,
     quote: "/images/services/service-inner/quote-icon.png",
-    text: "I was very happy with the services and quality of work. Their team was open to feedback and flexible in meeting needs.",
-    name: "DAVID - Director of Partner Management",
-  },
-  {
-    id: 6,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I have received the photos back from many jobs and they are always great! The editing service was cost-effective, and Tech2Globe Web Solutions was friendly to work with.",
-    name: "ASHLEY MEYER - Owner",
-  },
-  {
-    id: 7,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I got to know them as an extension of our team, without the normal complications involved with large BPO firms.",
-    name: "LAURA HACKETT - Customer Service Manager (Berlin, Germany)",
-  },
-  {
-    id: 8,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very professional and great service provider. Happy with the ecommerce services.",
-    name: "SARAH S. - Ecommerce Business Owner",
-  },
-  {
-    id: 9,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "The team is so good in their work, they maintain professionalism while working and they guide you whenever you got stuck in your ecom business.",
-    name: "AKSHAY - Marketing Manager",
-  },
-  {
-    id: 10,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Very much enjoyed working with Tech2Globe. The responsiveness was amazing and they were helpful as they developed Enhanced Brand Content for my product listing. I would definitely work with them again in the future.",
-    name: "REVIAN - United Kingdom",
-  },
-  {
-    id: 11,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2globe is a great company that provides high-quality services. They work very closely with our management and are on continuous communication and collaboration with our team. They have helped us increase our sales and optimize our processes. The overall experience has been amazing so far.",
-    name: "ALEX - London",
-  },
-  {
-    id: 12,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I m very much satisfied with the Tech2Globe team they assigned me. All the team members are very knowledgeable about everything and their quality of work is very impressive.",
-    name: "MEGHA SARPAL - Sales & Marketing",
-  },
-  {
-    id: 13,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "This is my very first time I availed of service from Tech2Globe and amazed by the quality of service they have provided. I have been running my Amazon business for over a year now and have worked with many service providers before. For the very first time, I realized that I have invested with a proper vendor with 100% worth of my money. I am definitely a returning customer for all my Amazon service needs and I highly recommend Tech2Globe.",
-    name: "BIBHUDATTA MISHRA - Sales & Marketing",
-  },
-  {
-    id: 14,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I was extremely satisfied with the infographics created for my company! They were very timely and communications were excellent! We even spoke by phone on occasion. I would highly recommend this company and I plan to use them again for future projects e.g. listing creation, optimization, etc. Thank you, Anurag!",
-    name: "WILLIAM NEWSOME - Project Manager",
-  },
-  {
-    id: 15,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "The team is very professional and genuine. Our direct interaction is with Sahil and he is very proactive in his deliverables. He always suggests great ideas and strategies.",
-    name: "KRISHAN KUMAR DIXIT - Sales & Marketing",
-  },
-  {
-    id: 16,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Thank you so much for the amazing services. Now I can proudly say that I am the owner of an eCommerce website.",
-    name: "SRI RANGATHAM - CEO",
-  },
-  {
-    id: 17,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Quality work from a team that know what they are doing. We wrestled with Google Products for weeks before Tech2globe got involved. They solved in the issues in just a few hours. Looking forward to working together again.",
-    name: "RICHARD FOSTER TEST - Sales & Marketing",
-  },
-  {
-    id: 18,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "We commend your quick actions to our requests and appreciate your eagerness to learn our processes and standards. It is almost more than 6 Months we are engaged with Tech2Globe and from first week we have been receiving numerous compliments on our website. Our company is really happy to hire Full Time Equivalent (FTE) professionals at Tech2globe",
-    name: "BOBBY - USA",
-  },
-  {
-    id: 19,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I have been outsourcing IT work for a couple of years to offshore locations and have worked with many solutions companies, but by far I have found Tech2Globe to be the best. Their product development strategies were incredible and far exceeded my expectations.",
-    name: "MICHAEL BURNS OFFSHORE - IT Consultant (USA)",
-  },
-  {
-    id: 20,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "Tech2globe possesses strong knowledge of how to outsource and offshore business process and IT services and make the initiative successful.",
-    name: "BRADLEY SMITH - Delivery Manager",
-  },
-  {
-    id: 21,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "These guys deliver on what they promise, although a little later than expected by both parties.",
-    name: "ALISA - Thailand",
-  },
-  {
-    id: 22,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "When we decided to relocate our data entry service outside of Germany, we wanted to find the best partner in term of ongoing communication and ethic.",
-    name: "MOWGLI MONTIER - Germany",
-  },
-  {
-    id: 23,
-    quote: "/images/services/service-inner/quote-icon.png",
-    text: "I used to work with Tech2Globe as a part of the takeaway company. The team in India was very devoted and focused on the mutual success.",
-    name: "EWELINA ŻELAZKO - Germany",
+    text: "Tech2Globe helped us rank for high-intent buyer keywords that were previously out of reach. Their local SEO work also helped us dominate searches in our key Australian cities. We were particularly impressed by how they handled both technical on-site fixes and quality off-page link-building simultaneously. Truly a full-service ecommerce SEO partner.",
+    name: "Nathan Brooks | VP Marketing, GridGear",
+    location: "Australia",
   },
 ];
 
@@ -336,6 +234,59 @@ const portfolio = [
     ],
   }
 ]
+
+const portfolioClients = [
+  {
+    initials: "BO",
+    gradient: "#0b2e58",
+    client: "BlueSky Outdoors",
+    country: "Canada",
+    project: "Ecommerce SEO — Outdoor & Sporting Goods",
+    desc: "Improved technical SEO, fixed crawl errors, optimized content strategy, and built backlinks, driving strong organic growth and reduced ad dependency.",
+    category: "Ecommerce SEO",
+    result: "312% increase in organic traffic",
+  },
+  {
+    initials: "MH",
+    gradient: "#0b2e58",
+    client: "MaisonLux Home",
+    country: "France",
+    project: "Ecommerce SEO — Home Décor & Furniture",
+    desc: "Optimized site architecture, implemented schema, improved Core Web Vitals, and ran multilingual SEO, boosting rankings and organic sales significantly.",
+    category: "Ecommerce SEO",
+    result: "228% increase in organic sessions",
+  },
+  {
+    initials: "UA",
+    gradient: "#0b2e58",
+    client: "UrbanThread Apparel",
+    country: "UK",
+    project: "Ecommerce SEO — Fashion & Apparel",
+    desc: "Built keyword clusters, internal linking, and content strategy, supported by link building, making organic search the top revenue channel.",
+    category: "Ecommerce SEO",
+    result: "Organic became #1 revenue source",
+  },
+  {
+    initials: "NT",
+    gradient: "#0b2e58",
+    client: "NovaTech Gadgets",
+    country: "Australia",
+    project: "Ecommerce SEO — Consumer Electronics",
+    desc: "Fixed technical SEO issues, optimized product pages, and executed keyword gap strategy, leading to major ranking and revenue improvements.",
+    category: "Ecommerce SEO",
+    result: "410% increase in organic impressions",
+  },
+  {
+    initials: "GN",
+    gradient: "#0b2e58",
+    client: "GreenLeaf Nutrition",
+    country: "Germany",
+    project: "Ecommerce SEO — Health & Wellness",
+    desc: "Created localized SEO strategy, optimized content, and built authority backlinks, significantly boosting traffic, rankings, and conversion rates.",
+    category: "Ecommerce SEO",
+    result: "175% organic traffic growth",
+  },
+];
 
 const caseStudies = [
   {
@@ -467,17 +418,19 @@ export default function EcommerceSeo() {
         </div>
       </section >
 
-      <div className="tbhideforportfolio">
+      {/* <div className="tbhideforportfolio">
         <PortfolioTabs data={portfolio} title={'Our Portfolio'} description={'For its lifetime Tech2Globe has delivered hundreds of cost effective and high-quality software solutions for a wide range of industries and domains including consumer and business software development, e-commerce, retail, manufacturing, real estate, community services and many others.'} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <div className="PhotoEditCaseStudies">
         <CaseStudiesService caseStudies={caseStudies} />
       </div>
 
-      <div className="EmailMarketingTestimonials">
+      
         <ClientSlider testimonials={testimonials} />
-      </div>
+      
       
       <FaqSection faqs={faqs} />
       

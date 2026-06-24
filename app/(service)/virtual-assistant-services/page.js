@@ -6,6 +6,8 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
     title: "Virtual Assistant Services | AI-Enabled Smart Support for Your Business",
@@ -104,6 +106,100 @@ const faqs = [
     },
 ];
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "I was drowning in administrative tasks and needed reliable support without the cost of a full-time hire. Tech2Globe assigned me a virtual assistant who has been absolutely brilliant. She manages my calendar, handles email correspondence, prepares reports, and even coordinates with my clients. The quality of work is consistently high and she's always proactive. I now have 15+ hours per week freed up for strategic work.",
+        name: "Natasha Patel | StratEdge Consulting Ltd.",
+        location: "United Kingdom",
+    },
+    {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Our startup couldn't afford a large admin team but we desperately needed support. Tech2Globe's virtual assistant service was the perfect solution. The VA they assigned us is organized, communicates professionally in English and German, and takes initiative without needing constant direction. From travel booking and vendor coordination to preparing presentations, she handles everything flawlessly.",
+        name: "Thomas Mueller | MuellerTech GmbH",
+        location: "Germany",
+    },
+    {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We engaged Tech2Globe for virtual assistant services to support our expanding operations. The VA assigned to us handled research, data compilation, supplier follow-ups, and document management with impressive efficiency. Communication was always clear and timely. The cost savings compared to hiring locally were substantial, and the quality exceeded our expectations. We have since expanded to two VAs.",
+        name: "Ling Wei | SinoTrade International Ltd.",
+        location: "China",
+    },
+    {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "I run an e-commerce business with limited staff and I was spending too much time on repetitive tasks. Tech2Globe's virtual assistant took over product research, supplier communication, social media scheduling, and customer query routing. Within a month, I could see the impact clearly — more organized operations, faster turnaround, and more time for me to focus on sales strategy. Exceptional value.",
+        name: "Isabella Martins | BrasilCommerce Ltda.",
+        location: "Brazil",
+    },
+    {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Outsourcing virtual assistant services to Tech2Globe was a smart move for our growing agency. Our VA manages client onboarding documentation, social media content scheduling, and project coordination across multiple accounts. She is detail-oriented, meets every deadline, and consistently delivers professional-quality work. Our agency's productivity has increased by over 30% since we started.",
+        name: "David Kimani | Savannah Digital Agency",
+        location: "Kenya",
+    },
+];
+
+const portfolioClients = [
+    {
+        initials: "UK",
+        gradient: "#0b2e58",
+        client: "UK Technology Firm",
+        country: "UK",
+        project: "Executive Virtual Assistant Program",
+        desc: "Provided virtual assistant support for UK tech firm executives managing scheduling, meetings, research, travel, and administrative coordination across time zones.",
+        category: "Executive & Administrative Support",
+        result: "3 executives supported 24/7 • 98% task completion",
+    },
+    
+    {
+        initials: "CA",
+        gradient: "#0b2e58",
+        client: "Canadian Customer Success Team",
+        country: "Canada",
+        project: "Customer Success Virtual Assistance",
+        desc: "Supported Canadian customer success team managing enterprise accounts with scheduling, follow-ups, documentation, and basic troubleshooting tasks.",
+        category: "Customer Support Administration",
+        result: "50+ accounts managed • 94% client satisfaction",
+    },
+    
+    {
+        initials: "AU",
+        gradient: "#0b2e58",
+        client: "Australian E-commerce Business",
+        country: "Australia",
+        project: "E-commerce Back-Office Administration",
+        desc: "Provided virtual administrative support for Australian e-commerce business handling refunds, inventory updates, reporting, and supplier coordination tasks.",
+        category: "E-commerce Operations Support",
+        result: "3,000+ monthly tasks • 99.7% accuracy",
+    },
+    
+    {
+        initials: "DE",
+        gradient: "#0b2e58",
+        client: "German Software Company",
+        country: "Germany",
+        project: "Sales Support Virtual Assistance Program",
+        desc: "Deployed virtual assistants supporting German software sales team managing CRM, proposals, demos, prospect research, and pipeline operations.",
+        category: "Sales Operations Support",
+        result: "15 sales reps supported • 12% win rate increase",
+    },
+    
+    {
+        initials: "SG",
+        gradient: "#0b2e58",
+        client: "Startup Portfolio",
+        country: "Singapore",
+        project: "Startup Operations Virtual Assistant Network",
+        desc: "Provided virtual assistant network for Singapore startup portfolio handling HR coordination, vendor management, research, and administrative support.",
+        category: "Startup Operations Support",
+        result: "8 startups supported • 50% capacity increase",
+    },
+];
 
 export default function VirtualAssistantServices() {
 
@@ -501,6 +597,9 @@ export default function VirtualAssistantServices() {
                 </div>{/* row */}
             </div>
 
+            <ClientPortfolio clients={portfolioClients} />
+
+            <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />
         </>

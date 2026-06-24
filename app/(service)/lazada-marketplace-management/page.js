@@ -435,7 +435,7 @@ const portfolioClients = [
         initials: "SO",
         gradient: "#0b2e58",
         client: "Summit Outdoor Gear",
-        country: "New Zealand",
+        country: "NZ",
         project: "Outdoor Category Expansion",
         desc: "Outdoor equipment brand seeking end-to-end management and growth on Lazada across Southeast Asia.",
         category: "Marketplace Management",

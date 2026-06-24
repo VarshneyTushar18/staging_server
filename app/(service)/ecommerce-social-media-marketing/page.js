@@ -8,6 +8,8 @@ import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/Servi
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
+import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
  title:
@@ -301,6 +303,97 @@ const caseStudies = [
     }
 ]
 
+const testimonials = [
+    {
+        id: 1,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe's social media marketing team completely revamped our Instagram and Facebook presence. They developed scroll-stopping creative content, ran highly targeted ad campaigns, and grew our following by 15,000 in just three months. More importantly, our social-driven revenue went up by 140%. They really understand ecommerce brand storytelling.",
+        name: "Mia Thompson | Brand Director, LuxeCloset",
+        location: "United States",
+      },
+      {
+        id: 2,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "From strategy to execution, Tech2Globe handled our entire social media marketing operation. Their creative team produced native-feel content that resonated with our audience, and their ad targeting was laser-precise. We saw a 3.8x return on ad spend from our social campaigns within the first quarter. Absolutely worth every penny.",
+        name: "Carlos Rivera | Founder, UrbanThreads",
+        location: "Mexico",
+      },
+      {
+        id: 3,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe helped us build a consistent brand voice across all our social channels and also coordinated an influencer campaign that generated massive visibility for our new product launch. The engagement rates on our posts improved significantly and our conversion from social media ads doubled compared to our previous agency. Very professional team.",
+        name: "Emma Johansson | E-commerce Manager, NordicNest",
+        location: "Sweden",
+      },
+      {
+        id: 4,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "We needed a team that could manage our social media marketing while we focused on operations — Tech2Globe delivered beyond our expectations. Their community management kept our audience engaged, their video content saw strong organic reach, and their paid campaigns produced measurable sales lifts. Highly responsive and results-focused.",
+        name: "Daniel Okafor | CMO, AfriShop",
+        location: "South Africa",
+      },
+      {
+        id: 5,
+        quote: "/images/services/service-inner/quote-icon.png",
+        text: "Tech2Globe managed our ecommerce social media marketing with a level of strategic thinking I hadn't seen from agencies before. They ran A/B tests on creatives, segmented our retargeting audiences smartly, and built a content calendar that kept our engagement metrics consistently high. Our cost-per-purchase dropped by 38% within two months.",
+        name: "Isabella Rossi | Marketing Lead, Bellezza Store",
+        location: "Italy",
+      },
+];
+
+
+const portfolioClients = [
+    {
+        initials: "LC",
+        gradient: "#0b2e58",
+        client: "LuxeCloset Fashion",
+        country: "USA",
+        project: "Social Media Marketing — Luxury Fashion",
+        desc: "Built unified social strategy across platforms with content calendars, influencer campaigns, and paid ads, driving strong engagement and revenue growth.",
+        category: "Social Media Marketing",
+        result: "Instagram grew to 62K followers",
+      },
+      {
+        initials: "AS",
+        gradient: "#0b2e58",
+        client: "AfriShop Marketplace",
+        country: "ZA",
+        project: "Social Media Marketing — Ecommerce Marketplace",
+        desc: "Developed multi-platform social strategy with creators and localized campaigns, boosting engagement, lowering lead costs, and increasing social-driven sales.",
+        category: "Social Media Marketing",
+        result: "175% increase in social orders",
+      },
+      {
+        initials: "NI",
+        gradient: "#0b2e58",
+        client: "NordicNest Interiors",
+        country: "Sweden",
+        project: "Social Media Marketing — Home & Interior Design",
+        desc: "Created visual-first social engine with Reels, Pinterest boards, and ads, driving strong traffic, pre-orders, and improved paid ROAS.",
+        category: "Social Media Marketing",
+        result: "430% increase in Pinterest traffic",
+      },
+      {
+        initials: "PW",
+        gradient: "#0b2e58",
+        client: "PetWorld Australia",
+        country: "Australia",
+        project: "Social Media Marketing — Pet Care & Supplies",
+        desc: "Launched UGC-driven community strategy with campaigns and paid ads, significantly increasing engagement, conversions, and reducing acquisition costs.",
+        category: "Social Media Marketing",
+        result: "Social revenue tripled in 6 months",
+      },
+      {
+        initials: "BC",
+        gradient: "#0b2e58",
+        client: "Bellezza Cosmetica",
+        country: "Italy",
+        project: "Social Media Marketing — Beauty & Cosmetics",
+        desc: "Executed cross-border social strategy with influencers, TikTok content, and paid ads, boosting reach, engagement, and international expansion.",
+        category: "Social Media Marketing",
+        result: "5x Instagram reach growth",
+      },
+];
 
 export default function EcommerceSocialMediaMarketing() {
     return (
@@ -418,11 +511,15 @@ export default function EcommerceSocialMediaMarketing() {
             </section>
 
 
-            <div className="StoreCreationTabs">
+            {/* <div className="StoreCreationTabs">
                 <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
-            </div>
+            </div> */}
+
+            <ClientPortfolio clients={portfolioClients} />
 
             <CaseStudiesService caseStudies={caseStudies} />
+
+            <ClientSlider testimonials={testimonials} />
         </>
     )
 };

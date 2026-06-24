@@ -8,6 +8,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import { FaHandPointRight } from "react-icons/fa";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
   title: "Magento Development Services | Magento Development Company",
@@ -376,6 +377,63 @@ const testimonials = [
   },
 ];
 
+const portfolioClients = [
+  {
+    initials: "NB",
+    gradient: "#0b2e58",
+    client: "NovaBuild Supplies Ltd.",
+    country: "UK",
+    project: "Magento 2 B2B Store Development & Custom Module Integration",
+    desc: "Magento 1 to Magento 2 migration with custom B2B modules, SAP ERP integration, and multi-warehouse inventory synchronization.",
+    category: "Magento Development",
+    result: "42% Increase",
+    resultSub: "Online Orders",
+  },
+  {
+    initials: "ME",
+    gradient: "#0b2e58",
+    client: "Maison Éclat Boutique",
+    country: "Canada",
+    project: "Magento Custom Theme Design & Payment Gateway Integration",
+    desc: "Custom Magento theme development with advanced product filtering, Instagram Shopping sync, and four payment gateway integrations.",
+    category: "Magento Development",
+    result: "38% Uplift",
+    resultSub: "Mobile Conversion Rate",
+  },
+  {
+    initials: "FE",
+    gradient: "#0b2e58",
+    client: "Ferrante Electronics Group",
+    country: "Italy",
+    project: "Magento Multi-Vendor Marketplace Development",
+    desc: "Built a scalable Magento marketplace with vendor dashboards, commission management, and Elasticsearch-powered search.",
+    category: "Magento Development",
+    result: "52% Revenue Growth",
+    resultSub: "First 6 Months",
+  },
+  {
+    initials: "GR",
+    gradient: "#0b2e58",
+    client: "Gulf Retail Connect",
+    country: "UAE",
+    project: "Magento 2 Migration, Arabic Localization & SEO",
+    desc: "Magento 2 migration with Arabic RTL support, localized pricing, and bilingual storefront for GCC markets.",
+    category: "Magento Development",
+    result: "61% Increase",
+    resultSub: "Organic Traffic",
+  },
+  {
+    initials: "TH",
+    gradient: "#0b2e58",
+    client: "TerraNova Home Goods",
+    country: "Australia",
+    project: "Magento Performance Optimization & Extension Development",
+    desc: "Performance optimization, checkout improvements, and custom loyalty extension development for Magento.",
+    category: "Magento Development",
+    result: "87 Score",
+    resultSub: "Core Web Vitals",
+  },
+];
 
 export default function MagentoDevelopmentCompany() {
   return (
@@ -565,9 +623,11 @@ export default function MagentoDevelopmentCompany() {
       </section >
 
 
-      <div className="StoreCreationTabs">
+      {/* <div className="StoreCreationTabs">
         <PortfolioTabs data={portfolio} />
-      </div>
+      </div> */}
+
+      <ClientPortfolio clients={portfolioClients} />
 
       <ClientSlider testimonials={testimonials} />
     </>

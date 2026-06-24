@@ -72,9 +72,9 @@ const sidebarSections = [
 const portfolioClients = [
     {
         initials: "CH",
-        gradient: "#1e40af",
+        gradient: "#0b2e58",
         client: "Cobalt Home Essentials",
-        country: "United States",
+        country: "USA",
         project: "Marketplace Onboarding & Listings",
         desc: "Managed Walmart seller onboarding and initial bulk catalog upload.",
         category: "Marketplace Onboarding & Listings",
@@ -83,9 +83,9 @@ const portfolioClients = [
     },
     {
         initials: "FB",
-        gradient: "#7c3aed",
+        gradient: "#0b2e58",
         client: "Ferncroft Baby Co.",
-        country: "United States",
+        country: "USA",
         project: "Listing SEO & Advertising",
         desc: "Optimized listings and managed sponsored ad placements for a baby brand.",
         category: "Listing SEO & Advertising",
@@ -94,7 +94,7 @@ const portfolioClients = [
     },
     {
         initials: "PF",
-        gradient: "#059669",
+        gradient: "#0b2e58",
         client: "Pinegrove Furnishings",
         country: "Canada",
         project: "Catalog & Inventory Sync",
@@ -105,9 +105,9 @@ const portfolioClients = [
     },
     {
         initials: "ST",
-        gradient: "#dc2626",
+        gradient: "#0b2e58",
         client: "Stonebridge Tools",
-        country: "United States",
+        country: "USA",
         project: "Account Management & Compliance",
         desc: "Ongoing account monitoring and policy compliance for a tools retailer.",
         category: "Account Management & Compliance",
@@ -116,9 +116,9 @@ const portfolioClients = [
     },
     {
         initials: "WO",
-        gradient: "#0f766e",
+        gradient: "#0b2e58",
         client: "Wrenfield Outdoor Living",
-        country: "United States",
+        country: "USA",
         project: "Store Management & Promotions",
         desc: "Managed seasonal promotions and storefront merchandising on Walmart.",
         category: "Store Management & Promotions",
