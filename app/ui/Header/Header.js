@@ -50,7 +50,7 @@ export default function Header() {
                            <li><Link href="csr-initiatives">CSR Initiatives</Link></li>
                            <li><Link href="5years-milemakers">5 Years Milemakers</Link></li>
                            <li><Link href="our-team">Our Team</Link></li>
-                           {/* <li><Link href="life-at-tech2globe">Life at Tech2globe</Link></li> */}
+                           <li><Link href="life-at-tech2globe">Life at Tech2globe</Link></li>
                            <li><Link href="career">Career</Link></li>
                         </ul>
                      </li>
@@ -258,6 +258,16 @@ export default function Header() {
                                              <li><a className="menu-link" href="/quick-commerce-onboarding-services">Quick Commerce Onboarding</a></li>
                                              <li><a className="menu-link" href="/costco-vendor-onboarding-services">Costco Vendor Onboarding</a></li>
                                           </ul>
+
+
+
+                                          <div className="menu-container">
+                                             <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
+                                             <h5 className="menu-header">
+                                                <a href="/ecommerce-accounting-bookkeeping-services" className="text-decoration-none">Ecommerce Accounting &amp; Bookkeeping Services
+                                                </a></h5>
+
+                                          </div>
                                        </div>
 
                                        <div className="col-md-2 pb-2 bg-light-blue">
@@ -314,19 +324,20 @@ export default function Header() {
                                           <div className="menu-container">
                                              <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
                                              <h5 className="menu-header">
-                                                <a href="#!" className="text-decoration-none">Ecommerce Back Office Support
+                                                <a href="/#" className="text-decoration-none">Ecommerce Back Office Support
                                                 </a>
                                              </h5>
                                           </div>
                                           <ul className="list-unstyled ps-2 menu-items">
-                                             <li><a className="menu-link" href="/customer-support">Customer Support</a></li>
-                                             <li><a className="menu-link" href="/order-processing-services">Order Processing</a></li>
-                                             <li><a className="menu-link" href="/catalog-management-services">Catalog Management Services</a></li>
-                                             <li><a className="menu-link" href="/virtual-assistant-services">Hire Virtual Assistant </a></li>
-                                             <li><a className="menu-link" href="/product-data-entry-services">Product Data Entry</a></li>
-                                             <li><a className="menu-link" href="/logistics-services">Logistic Services</a></li>
-                                             <li><a className="menu-link" href="/chat-support-services">Chat Support</a></li>
-                                             <li><a className="menu-link" href="/invoice-processing-services">Invoice Processing</a></li>
+
+                                             <li><a className="menu-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
+                                             <li><a className="menu-link" href="/accounting-services">Accounts Reconciliation</a></li>
+                                             <li><a className="menu-link" href="/accounts-payable-services">Accounts Payable Services</a></li>
+                                             <li><a className="menu-link" href="/accounts-receivable-services">Accounts Receivable Services</a></li>
+                                             <li><a className="menu-link" href="/financial-analysis-services">Financial Reporting Services</a></li>
+                                             <li><a className="menu-link" href="/invoice-processing-services">Invoice Processing Services</a></li>
+                                             <li><a className="menu-link" href="/accounting-services">Accounting Services</a></li>
+                                             <li><a className="menu-link" href="/payroll-processing-services">Payroll Processing Services</a></li>
                                           </ul>
                                        </div>
                                     </div>
@@ -747,6 +758,10 @@ export default function Header() {
                                              </li>
                                              <li><a className="menu-link" href="/accounting-software">Accounting
                                                 Software</a>
+                                             </li>
+                                             <li>
+                                                <a href="/ecommerce-accounting-bookkeeping-services" className="text-decoration-none">Ecommerce Accounting &amp; Bookkeeping Services
+                                                </a>
                                              </li>
                                           </ul>
                                        </div>
@@ -1395,6 +1410,8 @@ export default function Header() {
                                     </h5>
                                  </div>
                                  <ul className="list-unstyled ps-2 menu-items">
+                                 <li><a className="menu-link" href="seo-aeo-geo-services">SEO, AEO
+                                 &amp; GEO Services</a></li>
                                     <li><a href="local-seo" className="menu-link">Local SEO</a></li>
                                     <li><a href="technical-seo" className="menu-link">Technical
                                        SEO</a></li>
@@ -1408,6 +1425,7 @@ export default function Header() {
                                        Building Services</a></li>
                                     <li><a className="menu-link" href="mobile-seo-services">Mobile
                                        SEO Services</a></li>
+                                    
                                  </ul>
                                  <div className="menu-container">
                                     <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
@@ -1570,7 +1588,7 @@ export default function Header() {
                         </div>
 
                      </li>
-                     <li className="HasMegaChild">
+                     <li className="HasMegaChild ai-menu-item">
                         <a href="#!">Lets Talk AI</a>
                         <div className="container-fluid megamenu">
                            <div className="h-100">
@@ -1639,7 +1657,7 @@ export default function Header() {
                                     <div className="menu-container">
                                        <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
                                        <h5 className="menu-header">
-                                          <a href="/ai-powered-catalog-optimization" className="text-decoration-none">AI-Powered Digital Marketing</a>
+                                          <a href="/ai-powered-digital-marketing" className="text-decoration-none">AI-Powered Digital Marketing</a>
                                        </h5>
                                     </div>
                                     <ul className="list-unstyled ps-2 menu-items">
@@ -1741,7 +1759,7 @@ export default function Header() {
                         <button className="nav-link text-secondary" id="nav-technologies-tab" data-bs-toggle="tab"
                            data-bs-target="#nav-technologies" type="button" role="tab" aria-controls="nav-technologies"
                            aria-selected="false">Technologies</button>
-                        <button className="nav-link text-secondary" id="nav-aiservice-tab" data-bs-toggle="tab"
+                        <button className="nav-link text-secondary aiservicetab" id="nav-aiservice-tab" data-bs-toggle="tab"
                            data-bs-target="#nav-aiservice" type="button" role="tab" aria-controls="nav-aiservice"
                            aria-selected="false">Let's Talk AI</button>
                      </div>
@@ -1782,9 +1800,9 @@ export default function Header() {
                                           Milemakers </a>
                                        </li>
                                        <li><a href="/our-team">Our Team </a></li>
-                                       {/* <li><a href="/life-at-tech2globe">Life at
+                                       <li><a href="/life-at-tech2globe">Life at
                                           Tech2Globe </a>
-                                       </li> */}
+                                       </li>
                                        <li><a href="/career">Career </a></li>
                                     </ul>
                                  </div>
@@ -2093,6 +2111,21 @@ export default function Header() {
                                                 className="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#amazonConsultingOne2-3" aria-expanded="false"
+                                                aria-controls="amazonConsultingOne2-3">Ecommerce Accounting & Bookkeeping Services</a>
+                                             <div id="amazonConsultingOne2-3" className="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <ul>
+                                                   <li><a href="/ecommerce-accounting-bookkeeping-services">Ecommerce Accounting & Bookkeeping Services</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </li>
+                                       <li>
+                                          <div className="accordion__item__megamenu">
+                                             <a href="#"
+                                                className="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#amazonConsultingOne2-3" aria-expanded="false"
                                                 aria-controls="amazonConsultingOne2-3">Ecommerce Development</a>
                                              <div id="amazonConsultingOne2-3" className="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
@@ -2130,22 +2163,22 @@ export default function Header() {
                                        </li>
                                        <li>
                                           <div className="accordion__item__megamenu">
-                                             <a href="#!" className="accordion-button collapsed"
+                                             <a href="/ecommerce-accounting-bookkeeping-services" className="accordion-button collapsed"
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#amazonConsultingOne2-5" aria-expanded="false"
-                                                aria-controls="amazonConsultingOne2-5">Ecommerce Back Office Support
+                                                aria-controls="amazonConsultingOne2-5">Ecommerce Accounting &amp; Bookkeeping Services
                                              </a>
                                              <div id="amazonConsultingOne2-5" className="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <ul>
-                                                   <li><a href="/customer-support">Customer Support</a></li>
-                                                   <li><a href="/order-processing-services">Order Processing</a></li>
-                                                   <li><a href="/catalog-management-services">Catalog Management Services</a></li>
-                                                   <li><a href="/virtual-assistant-services">Hire Virtual Assistant </a></li>
-                                                   <li><a href="/product-data-entry-services">Product Data Entry</a></li>
-                                                   <li><a href="/logistics-services">Logistic Services</a></li>
-                                                   <li><a href="/chat-support-services">Chat Support</a></li>
-                                                   <li><a href="/invoice-processing-services">Invoice Processing</a></li>
+                                                   <li><a href="/bookkeeping-services">Bookkeeping Services</a></li>
+                                                   <li><a href="/accounting-services">Accounts Reconciliation</a></li>
+                                                   <li><a href="/accounts-payable-services">Accounts Payable Services</a></li>
+                                                   <li><a href="/accounts-receivable-services">Accounts Receivable Services</a></li>
+                                                   <li><a href="/financial-analysis-services">Financial Reporting Services</a></li>
+                                                   <li><a href="/invoice-processing-services">Invoice Processing Services</a></li>
+                                                   <li><a href="/accounting-services">Accounting Services</a></li>
+                                                   <li><a href="/payroll-processing-services">Payroll Processing Services</a></li>
                                                 </ul>
                                              </div>
                                           </div>
@@ -2539,6 +2572,10 @@ export default function Header() {
                                                    <li><a href="/seo-services">Search
                                                       Engine Optimization</a>
                                                    </li>
+                                                   <li><a
+                                                      href="/seo-aeo-geo-services">SEO, AEO
+                                                      &amp; GEO Services</a>
+                                                   </li>
                                                    <li><a href="/local-seo">Local
                                                       SEO </a>
                                                    </li>
@@ -2564,6 +2601,7 @@ export default function Header() {
                                                       href="/mobile-seo-services">Mobile
                                                       SEO Services</a>
                                                    </li>
+                                                   
                                                 </ul>
                                              </div>
                                           </div>
@@ -2958,6 +2996,10 @@ export default function Header() {
                                                    <li><a
                                                       href="/accounting-software">Accounting
                                                       Software</a>
+                                                   </li>
+                                                   <li>
+                                                      <a href="/ecommerce-accounting-bookkeeping-services" className="text-decoration-none">Ecommerce Accounting &amp; Bookkeeping Services
+                                                      </a>
                                                    </li>
                                                 </ul>
                                              </div>

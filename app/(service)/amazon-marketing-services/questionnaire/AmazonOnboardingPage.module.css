@@ -1,0 +1,136 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f4f6f9;
+}
+
+.pageHeader {
+  flex-shrink: 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e9ef;
+  box-shadow: 0 2px 12px rgba(13, 27, 56, 0.06);
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 15px;
+}
+
+.headerBrand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
+
+.logo {
+  width: auto;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.headerText {
+  min-width: 0;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ff9900;
+}
+
+.headerText h1 {
+  margin: 0;
+  font-size: clamp(1.15rem, 2.2vw, 1.65rem);
+  font-weight: 700;
+  color: #232f3e;
+  line-height: 1.25;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #5c6578;
+  line-height: 1.45;
+}
+
+.backBtn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 18px;
+  border: 1px solid #d8dee8;
+  border-radius: 999px;
+  background: #fff;
+  color: #232f3e;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.backBtn:hover {
+  background: #232f3e;
+  border-color: #232f3e;
+  color: #fff;
+}
+
+.backLabel {
+  line-height: 1;
+}
+
+.pageBody {
+  flex: 1;
+  padding: 28px 0 48px;
+}
+
+.formContainer {
+  max-width: 1040px;
+}
+
+@media (max-width: 991px) {
+  .headerBrand {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .headerInner {
+    padding: 14px 12px;
+  }
+
+  .backLabel {
+    display: none;
+  }
+
+  .backBtn {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .pageBody {
+    padding: 16px 0 32px;
+  }
+}

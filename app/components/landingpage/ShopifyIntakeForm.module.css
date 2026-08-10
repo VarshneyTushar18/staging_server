@@ -1,0 +1,104 @@
+.wrapper {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.optionGroup {
+  margin-top: 12px;
+}
+
+.optionGroup label {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.error {
+  margin-bottom: 16px;
+}
+
+.submitBtn {
+  background: #000;
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.submitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.embedded {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.modal {
+  box-shadow: 0 8px 32px rgba(13, 27, 56, 0.08);
+  border: 1px solid #e8ecf2;
+  border-radius: 16px;
+  padding: 32px 36px 40px;
+  background: #fff;
+}
+
+.modal .section h3 {
+  color: #0d1b38;
+  font-weight: 700;
+}
+
+.modal .submitBtn {
+  background: #c01f29;
+  min-width: 220px;
+  padding: 14px 28px;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
+.modal .submitBtn:hover:not(:disabled) {
+  background: #a01822;
+}
+
+@media (max-width: 767px) {
+  .modal {
+    padding: 22px 18px 30px;
+    border-radius: 12px;
+  }
+}

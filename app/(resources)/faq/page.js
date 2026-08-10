@@ -12,7 +12,7 @@ export const metadata = {
         title: "Digital Marketing FAQ: Your Ultimate Guide to Success - Tech2Globe",
         description:
             "Discover the ultimate guide to digital marketing success with Tech2Globe’s comprehensive FAQ. Get answers to your burning questions now!",
-        url: "https://stagenew.tech2globe.tech/faq",
+        url: "https://www.tech2globe.com/faq",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },
@@ -21,10 +21,10 @@ export const metadata = {
         title: "Digital Marketing FAQ: Your Ultimate Guide to Success - Tech2Globe",
         description:
             "Discover the ultimate guide to digital marketing success with Tech2Globe’s comprehensive FAQ. Get answers to your burning questions now!",
-        images: ["https://stagenew.tech2globe.tech/images/tech2globe.jpg"],
+        images: ["https://tech2globe.com/images/tech2globe.jpg"],
     },
     alternates: {
-        canonical: "https://stagenew.tech2globe.tech/faq",
+        canonical: "https://www.tech2globe.com/faq",
     },
 };
 

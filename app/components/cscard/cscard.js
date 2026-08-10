@@ -1,11 +1,42 @@
 import Style from "./cscard.module.css";
 import Link from "next/link";
 
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
+/** Resolve DB / Cloudinary / relative upload paths to a usable URL. */
+function getFeaturedImage(item) {
+  const image = item?.featured_image || "";
+  if (!image) return "";
+
+  if (image.startsWith("http://") || image.startsWith("https://")) {
+    return image;
+  }
+
+  if (image.startsWith("/uploads")) {
+    return `${API}${image}`;
+  }
+
+  if (image.startsWith("/")) {
+    return image;
+  }
+
+  return `${API}/${image.replace(/^\.\//, "")}`;
+}
+
 export default function CaseStudiesCard({ item, category }) {
   const categoryClass =
     typeof category === "string" && category.trim() !== ""
       ? category.toLowerCase().replace(/\s+/g, "-")
       : null;
+
+  const featuredImage = getFeaturedImage(item);
+  const topStyle = featuredImage
+    ? {
+        backgroundImage: `url(${featuredImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }
+    : undefined;
 
   return (
     <div
@@ -13,8 +44,8 @@ export default function CaseStudiesCard({ item, category }) {
         categoryClass ? categoryClass : ""
       }`}
     >
-      {/* TITLE */}
-      <div className={`${Style.CardTop} CardTop`}>
+      {/* TITLE — featured_image from DB when present; else CSS category banner */}
+      <div className={`${Style.CardTop} CardTop`} style={topStyle}>
         <h4>{item.title}</h4>
       </div>
 

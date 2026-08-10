@@ -12,7 +12,7 @@ export const metadata = {
     title: "Our Portfolio of Clients at Tech2Globe",
     description:
       "Over the past decade and a half, Tech2globe has catered to the needs of over 7,800 clients from different domains worldwide. Have a look at our clients!",
-    url: "https://stagenew.tech2globe.tech/clients",
+    url: "https://www.tech2globe.com/clients",
     siteName: "Tech2Globe web Solutions LLP",
     type: "website",
   },
@@ -23,7 +23,7 @@ export const metadata = {
       "Over the past decade and a half, Tech2globe has catered to the needs of over 7,800 clients from different domains worldwide. Have a look at our clients!",
   },
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/clients",
+    canonical: "https://www.tech2globe.com/clients",
   },
 };
 
@@ -161,4 +161,3 @@ export default function Clients() {
     </>
   );
 }
-

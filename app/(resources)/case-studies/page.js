@@ -15,7 +15,7 @@ export const metadata = {
     title: "Case Studies: Tech2globe, the top multi-processing IT Company",
     description:
       "Browse our portfolio of case studies below to learn the difference we made to our clients through our integrated services and solutions, and how we can help you.",
-    url: "https://stagenew.tech2globe.tech/case-studies",
+    url: "https://www.tech2globe.com/case-studies",
     siteName: "Tech2Globe",
     type: "website",
   },
@@ -28,7 +28,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/case-studies",
+    canonical: "https://www.tech2globe.com/case-studies",
   },
 };
 
@@ -125,4 +125,3 @@ export default function CaseStudies() {
     </>
   );
 }
-

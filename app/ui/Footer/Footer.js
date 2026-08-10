@@ -8,6 +8,7 @@ import Image from "next/image";
 import GlobalPresence from "@/app/components/home/GlobalPresence/GlobalPresence";
 import { usePathname } from "next/navigation";
 import SocialSidebar from "@/app/components/SocialSidebar/SocialSidebar";
+import ElevenLabsTranscriptNotify from "@/app/components/ElevenLabsTranscriptNotify";
 
 export default function Footer() {
 
@@ -165,6 +166,7 @@ export default function Footer() {
 
             <elevenlabs-convai agent-id="agent_0901k7egwwhhejatq2wv0gf0k1ax"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
+            <ElevenLabsTranscriptNotify />
             <SocialSidebar />
         </>
     )

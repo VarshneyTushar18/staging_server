@@ -7,14 +7,16 @@ import Header from "./ui/Header/Header";
 import Footer from "./ui/Footer/Footer";
 import NextTopLoader from "nextjs-toploader";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import HideOnStandaloneRoute from "./components/HideOnStandaloneRoute";
 import { fixRelativeLinks } from "@/app/utilities/fixRelativeLinks";
 import FixLinksWrapper from "@/app/utilities/FixLinksWrapper";
 import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-poppins",
+  display: "swap",
 });
 
 export const metadata = {
@@ -25,13 +27,73 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
-      {/* ✅ ADD THIS BLOCK */}
       <head>
         <base href="/" />
-        <meta name="robots" content="noindex, nofollow"></meta>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NNKV63RF');`,
+          }}
+        />
+
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-972611168"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-53V1YCWQ0C');
+            gtag('config', 'AW-972611168');
+            gtag('config', 'AW-972611168/l3PiCL6LgZwZEOC8488D', {
+              phone_conversion_number: '9899675039'
+            });
+          `}
+        </Script>
+        
+
+        <Script
+          id="microsoft-clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "lf01016blp");
+            `,
+          }}
+        />
+
+         <Script id="google-ads-phone-conversion" strategy="afterInteractive">
+          {`
+            gtag('config', 'AW-972611168/l3PiCL6LgZwZEOC8488D', {
+              phone_conversion_number: '9899675039'
+            });
+          `}
+        </Script>
+
+
+
       </head>
 
       <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NNKV63RF"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+
+        
+
         <div className="main-wrapper">
           <Script
             src="https://challenges.cloudflare.com/turnstile/v0/api.js"
@@ -47,11 +109,15 @@ export default function RootLayout({ children }) {
             showSpinner={false}
             speed={200}
           />
-          <Header />
+          <HideOnStandaloneRoute>
+            <Header />
+          </HideOnStandaloneRoute>
           {children}
           <LightboxInitializer />
           <BootstrapClient />
-          <Footer />
+          <HideOnStandaloneRoute>
+            <Footer />
+          </HideOnStandaloneRoute>
         </div>
       </body>
     </html>

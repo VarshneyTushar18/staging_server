@@ -8,11 +8,14 @@ export default function CaseStudiesClient() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(process.env.NEXT_PUBLIC_CASE_STUDIES_API_URL)
+    const apiUrl =
+      process.env.NEXT_PUBLIC_CASE_STUDIES_API_URL ||
+      `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000"}/api/case-studies`;
+
+    fetch(apiUrl)
       .then((res) => res.json())
       .then((res) => {
         setData(res.data || []);
-        console.log("Fetched case studies:", res.data);
       })
       .catch((err) => console.error("API error:", err))
       .finally(() => setLoading(false));

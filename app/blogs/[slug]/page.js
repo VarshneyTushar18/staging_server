@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import BlogSidebar from "@/app/components/blog/BlogSidebar";
+import BlogPostImage from "@/app/components/blog/BlogPostImage";
 import {
   fetchBlogPostBySlug,
   fetchBlogSidebarData,
@@ -10,9 +10,9 @@ import {
   stripHtml,
   formatBlogListDate,
 } from "@/lib/blogApi";
+import { rewriteBlogContentImages } from "@/lib/blogUtils";
 import Style from "../blogs.module.css";
 
-export const dynamic = "force-dynamic";
 export const revalidate = 60;
 
 export async function generateMetadata({ params }) {
@@ -89,11 +89,12 @@ export default async function BlogPostPage({ params }) {
 
   const title = post.title?.rendered || "";
   const titlePlain = stripHtml(title);
-  const content = stripDuplicateTitleFromContent(
-    post.content?.rendered || "",
-    titlePlain,
+  const content = rewriteBlogContentImages(
+    stripDuplicateTitleFromContent(
+      post.content?.rendered || "",
+      titlePlain,
+    ),
   );
-  const featured = post.featured_image || "";
   const date = formatBlogListDate(post.date);
   const author = post.author || "Tech2globe";
   const categoryNames = post.category_names || [];
@@ -118,22 +119,17 @@ export default async function BlogPostPage({ params }) {
           <div className={`row g-4 ${Style.postLayoutRow}`}>
             <div className="col-lg-8">
               <article className={Style.articleWrap}>
-                {featured ? (
-                  <div
-                    className="position-relative mb-4"
-                    style={{ minHeight: 240 }}
-                  >
-                    <Image
-                      src={featured}
-                      alt={titlePlain}
-                      width={1200}
-                      height={630}
-                      className={Style.featuredHero}
-                      priority
-                      unoptimized
-                    />
-                  </div>
-                ) : null}
+                <div
+                  className="position-relative mb-4"
+                  style={{ minHeight: 240 }}
+                >
+                  <BlogPostImage
+                    post={post}
+                    variant="hero"
+                    priority
+                    className={Style.featuredHero}
+                  />
+                </div>
 
                 <header className={Style.articleHeader}>
                   <h1

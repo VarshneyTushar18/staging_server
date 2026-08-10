@@ -118,8 +118,13 @@ const countryOptions = [
   { value: "+880", label: "Bangladesh (+880)" },
 ];
 
-export default function ContactForm() {
+export default function ContactForm({
+  variant,
+  source,
+  successRedirect = "/thank-you",
+}) {
   const router = useRouter();
+  const formOnly = variant === "faq";
   const [formData, setFormData] = useState({
     name: "",
     mailid: "",
@@ -311,7 +316,7 @@ export default function ContactForm() {
           country: formData.countrycode,
           phone: formData.phone,
           message: formData.comment,
-          form_type: "contact_page",
+          form_type: source || "contact_page",
           source_page: window.location.href,
           captchaToken,
         }),
@@ -335,7 +340,7 @@ export default function ContactForm() {
           window.turnstile.reset(widgetIdRef.current);
         }
 
-        router.push("/thank-you");
+        router.push(successRedirect);
       } else {
         alert("Submission failed");
       }
@@ -344,6 +349,129 @@ export default function ContactForm() {
       alert("Server error");
     }
   };
+
+  const formFields = (
+    <form
+      id="contactForm"
+      onSubmit={handleSubmit}
+      className={formOnly ? Style.FormboxOnly : Style.Formbox}
+    >
+      {!formOnly && <h2 className="fw-normal">Get in touch</h2>}
+
+      <div className="mb-3">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Your Name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+
+        {errors.name && (
+          <div className="text-danger mt-1">{errors.name}</div>
+        )}
+      </div>
+
+      <div className="mb-3">
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Your Email ID"
+          name="mailid"
+          value={formData.mailid}
+          onChange={handleChange}
+          required
+        />
+
+        {errors.mailid && (
+          <div className="text-danger mt-1">{errors.mailid}</div>
+        )}
+      </div>
+
+      <div className="mb-3">
+        <Select
+          options={countryOptions}
+          placeholder="Select Country"
+          classNamePrefix={formOnly ? "sp-rs" : undefined}
+          value={countryOptions.find(
+            (opt) => opt.label === formData.countrycode,
+          )}
+          onChange={(selectedOption) => {
+            setFormData({
+              ...formData,
+              countrycode: selectedOption?.label || "",
+            });
+
+            if (errors.countrycode) {
+              setErrors({
+                ...errors,
+                countrycode: "",
+              });
+            }
+          }}
+          isSearchable
+        />
+
+        {errors.countrycode && (
+          <div className="text-danger mt-1">{errors.countrycode}</div>
+        )}
+      </div>
+
+      <div className="mb-3">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Your Phone Number"
+          name="phone"
+          value={formData.phone}
+          onChange={handlePhoneChange}
+          inputMode="numeric"
+          minLength={7}
+          maxLength={15}
+          required
+        />
+
+        {errors.phone && (
+          <div className="text-danger mt-1">{errors.phone}</div>
+        )}
+      </div>
+
+      <div className="mb-3">
+        <textarea
+          className="form-control"
+          placeholder="Enter Your Text"
+          name="comment"
+          value={formData.comment}
+          onChange={handleChange}
+          required
+        ></textarea>
+
+        {errors.comment && (
+          <div className="text-danger mt-1">{errors.comment}</div>
+        )}
+      </div>
+
+      {/* Honeypot */}
+      <input type="text" name="website" className="d-none" />
+
+      {/* Cloudflare Turnstile */}
+      <div ref={turnstileRef} className="mb-3"></div>
+
+      <button
+        type="submit"
+        className="btn btn-danger mt-3"
+        id="contactFormSubmitBtn"
+      >
+        Submit
+      </button>
+    </form>
+  );
+
+  if (formOnly) {
+    return <div className={Style.FormOnlyWrap}>{formFields}</div>;
+  }
 
   return (
     <div className={Style.ContactFormSection}>
@@ -417,121 +545,7 @@ export default function ContactForm() {
 
           {/* Right Form Section */}
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <form
-              id="contactForm"
-              onSubmit={handleSubmit}
-              className={Style.Formbox}
-            >
-              <h2 className="fw-normal">Get in touch</h2>
-
-              <div className="mb-3">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Your Name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-
-                {errors.name && (
-                  <div className="text-danger mt-1">{errors.name}</div>
-                )}
-              </div>
-
-              <div className="mb-3">
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Your Email ID"
-                  name="mailid"
-                  value={formData.mailid}
-                  onChange={handleChange}
-                  required
-                />
-
-                {errors.mailid && (
-                  <div className="text-danger mt-1">{errors.mailid}</div>
-                )}
-              </div>
-
-              <div className="mb-3">
-                <Select
-                  options={countryOptions}
-                  placeholder="Select Country"
-                  value={countryOptions.find(
-                    (opt) => opt.label === formData.countrycode,
-                  )}
-                  onChange={(selectedOption) => {
-                    setFormData({
-                      ...formData,
-                      countrycode: selectedOption?.label || "",
-                    });
-
-                    if (errors.countrycode) {
-                      setErrors({
-                        ...errors,
-                        countrycode: "",
-                      });
-                    }
-                  }}
-                  isSearchable
-                />
-
-                {errors.countrycode && (
-                  <div className="text-danger mt-1">{errors.countrycode}</div>
-                )}
-              </div>
-
-              <div className="mb-3">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Your Phone Number"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handlePhoneChange}
-                  inputMode="numeric"
-                  minLength={7}
-                  maxLength={15}
-                  required
-                />
-
-                {errors.phone && (
-                  <div className="text-danger mt-1">{errors.phone}</div>
-                )}
-              </div>
-
-              <div className="mb-3">
-                <textarea
-                  className="form-control"
-                  placeholder="Enter Your Text"
-                  name="comment"
-                  value={formData.comment}
-                  onChange={handleChange}
-                  required
-                ></textarea>
-
-                {errors.comment && (
-                  <div className="text-danger mt-1">{errors.comment}</div>
-                )}
-              </div>
-
-              {/* Honeypot */}
-              <input type="text" name="website" className="d-none" />
-
-              {/* Cloudflare Turnstile */}
-              <div ref={turnstileRef} className="mb-3"></div>
-
-              <button
-                type="submit"
-                className="btn btn-danger mt-3"
-                id="contactFormSubmitBtn"
-              >
-                Submit
-              </button>
-            </form>
+            {formFields}
           </div>
         </div>
       </div>

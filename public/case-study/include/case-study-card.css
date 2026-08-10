@@ -1,0 +1,109 @@
+.case-study-card {
+    max-width: 385px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study-image.ecommerce {
+    background-image: url('../img/banners/ecommerce-banner.png');
+}
+
+.case-study-image.digital-marketing {
+    background-image: url('../img/banners/digital-marketing-banner.png');
+}
+
+.case-study-image.software-development {
+    background-image: url('../img/banners/software-development-banner.png');
+}
+
+.case-study-image.data-management {
+    background-image: url('../img/banners/data-management-banner.png');
+}
+
+.case-study-image.data-analysis {
+    background-image: url('../img/banners/data-analysis-banner.png');
+}
+
+.case-study-image.graphic-designing {
+    background-image: url('../img/banners/graphic-designing-banner.png');
+}
+
+.case-study-image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.case-study-title {
+    bottom: 10px;
+    left: 10px;
+    color: #000000;
+    font-weight: 500 !important;
+    font-size: 1.2rem;
+    padding-inline: 10px;
+    margin-bottom:0 ;
+    text-align: center;
+}
+
+.case-study-content {
+    padding: 15px;
+}
+
+.case-study-excerpt {
+    color: #404040;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Footer Section */
+.case-study-card-footer {
+    padding-block: 8px;
+    padding-inline: 15px;
+    background: #F4F5F8;
+    margin-top: auto;
+    text-align: center !important;
+}
+
+/* Read More Link */
+.case-study-card-footer .read-more {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+/* Read More Underline */
+.case-study-card-footer .read-more::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1.5px;
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+    transform: scaleX(1); 
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.case-study-card-footer .read-more:hover {
+    color: #000;
+}
+
+.case-study-card-footer .read-more:hover::after {
+    transform: scaleX(1); 
+}
+
+.case-study-card:hover .case-study-title {
+    font-size: 1.3rem; 
+    transition: font-size 0.2s ease-in;
+}

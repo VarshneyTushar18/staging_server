@@ -10,28 +10,28 @@ import styles from "./CaseStudies.module.css";
 
 const caseStudies = [
     {
-        href: "/case-study/ellie-bianca",
+        href: "/case-studies/ellie-bianca",
         image: "/images/case-studies/software-case-study-bg.png",
         alt: "Ellie Bianca website redesign and rebuilding case study",
         title: "Rebuilt & Redesign - Ellie Bianca",
         category: "Software Development",
     },
     {
-        href: "/case-study/consult-for-ppp",
+        href: "/case-studies/consult-for-ppp",
         image: "/images/case-studies/guest-posting-blog-writing-case-study.png",
         alt: "PPP consulting and digital marketing strategies case study",
         title: "Consult for PPP",
         category: "Digital Marketing",
     },
     {
-        href: "/case-study/online-business-growth",
+        href: "/case-studies/online-business-growth",
         image: "/images/case-studies/ecommerce-case-study-bg.png",
         alt: "Online business growth strategies case study",
         title: "Online Business Growth",
         category: "Ecommerce",
     },
     {
-        href: "/case-study/restaurant-menu-data-entry-for-delivery-hero",
+        href: "/case-studies/restaurant-menu-data-entry-for-delivery-hero",
         image: "/images/case-studies/restaurant-menu-data-entry-case-study.png",
         alt: "Restaurant menu data entry for Delivery Hero case study",
         title: "Restaurant Menu Data Entry for Delivery Hero",

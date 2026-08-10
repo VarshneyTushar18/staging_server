@@ -12,7 +12,7 @@ export const metadata = {
     description:
       "Explore Tech2Globe’s global awards, industry certifications, and strategic partnerships. Recognized for excellence, innovation, and trusted collaborations worldwide.",
     siteName: "Tech2Globe web Solutions LLP",
-    url: "https://stagenew.tech2globe.tech/our-partnerships",
+    url: "https://www.tech2globe.com/our-partnerships",
     type: "website",
   },
 
@@ -24,7 +24,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/our-partnerships",
+    canonical: "https://www.tech2globe.com/our-partnerships",
   },
 };
 
@@ -135,18 +135,18 @@ const cards = [
     experts together to agree on the best way of doing things – for anything
     from making a product to managing a process.`,
   },
-  {
-    badgeLabel: "Certification",
-    badgeType: "type2",
-    image: "images/our-partnerships/best-msme-partnership.png",
-    alt: "INDIA 5000 BEST MSME AWARDS",
-    category: "Software",
-    title: "INDIA 5000 BEST MSME AWARDS",
-    desc: `Tech2Globe is honored to receive the India 5000 Best MSME Award, celebrating
-    excellence and innovation. This prestigious recognition reflects our
-    commitment to quality, customer satisfaction, and global service delivery,
-    empowering businesses with reliable IT and digital solutions.`,
-  },
+  // {
+  //   badgeLabel: "Certification",
+  //   badgeType: "type2",
+  //   image: "images/our-partnerships/best-msme-partnership.png",
+  //   alt: "INDIA 5000 BEST MSME AWARDS",
+  //   category: "Software",
+  //   title: "INDIA 5000 BEST MSME AWARDS",
+  //   desc: `Tech2Globe is honored to receive the India 5000 Best MSME Award, celebrating
+  //   excellence and innovation. This prestigious recognition reflects our
+  //   commitment to quality, customer satisfaction, and global service delivery,
+  //   empowering businesses with reliable IT and digital solutions.`,
+  // },
   {
     badgeLabel: "Certification",
     badgeType: "type2",
@@ -413,5 +413,4 @@ export default function Partnerships() {
     </>
   );
 }
-
 

@@ -1,0 +1,405 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.PageContent {
+    padding: 40px 0 60px;
+}
+
+.ContentDiv {
+    margin-bottom: 48px;
+    padding-bottom: 8px;
+}
+
+.ContentDiv:last-child {
+    margin-bottom: 0;
+}
+
+.ContentDiv h2 {
+    margin-bottom: 16px;
+    line-height: 1.35;
+}
+
+.ContentDiv > p {
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+.CardGrid {
+    margin-top: 8px;
+}
+
+.CardBox {
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.18);
+    padding: 24px 22px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    border-top: 4px solid #bc0101;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.CardBox:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(149, 157, 165, 0.28);
+}
+
+.CardBox h3 {
+    color: #202020 !important;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.CardBox h5 {
+    color: #1a1a1a;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.CardBox p {
+    color: #555;
+    font-size: 14.5px;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.StatCard {
+    text-align: center;
+    padding: 28px 20px;
+}
+
+.StatValue {
+    font-size: 36px;
+    font-weight: 700;
+    color: #bc0101;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.FeatureCard {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 22px 20px;
+    height: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    margin-bottom: 0;
+}
+
+.FeatureCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+    border-color: #f0c2c2;
+}
+
+.FeatureCard h5 {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.FeatureCard p {
+    color: #555;
+    font-size: 14.5px;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.FeatureIcon {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: #fdecec;
+    color: #bc0101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.SimpleList {
+    margin-top: 8px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.SimpleItem {
+    display: grid;
+    grid-template-columns: minmax(180px, 240px) 1fr;
+    gap: 16px;
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    align-items: start;
+}
+
+.SimpleItem:last-child {
+    border-bottom: none;
+}
+
+.SimpleItem:nth-child(even) {
+    background: #fafafa;
+}
+
+.SimpleItem strong {
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.SimpleItem span {
+    color: #555;
+    font-size: 14.5px;
+    line-height: 1.65;
+}
+
+@media (max-width: 767.98px) {
+    .SimpleItem {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        padding: 14px 16px;
+    }
+}
+
+.ProcessCard {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 24px 20px 22px;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #bc0101;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ProcessCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.ProcessStep {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 34px;
+    height: 34px;
+    padding: 0 8px;
+    border-radius: 50%;
+    background: #bc0101;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.ProcessCard h5 {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.ProcessCard p {
+    color: #555;
+    font-size: 14.5px;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.PillarCard {
+    background: linear-gradient(180deg, #fff 0%, #fafafa 100%);
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 24px 18px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.PillarCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.PillarLabel {
+    display: inline-block;
+    background: #bc0101;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.PillarCard h5 {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.PillarCard p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.IndustryCard {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 18px 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.IndustryCard:hover {
+    transform: translateY(-2px);
+    border-color: #f0c2c2;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.IndustryDot {
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bc0101;
+}
+
+.IndustryCard span {
+    color: #222;
+    font-size: 14.5px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.DifferentiatorCard {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    padding: 22px 20px;
+    height: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #bc0101;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.DifferentiatorCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.DifferentiatorCard h5 {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.DifferentiatorCard p {
+    color: #555;
+    font-size: 14.5px;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.TableWrap {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.CompareTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.CompareTable th,
+.CompareTable td {
+    border: 1px solid #eee;
+    padding: 14px 16px;
+    vertical-align: top;
+}
+
+.CompareTable thead th {
+    background-color: #bc0101;
+    color: #fff;
+    font-weight: 600;
+}
+
+.CompareTable tbody th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+    width: 140px;
+    color: #222;
+}
+
+.CompareTable tbody tr:nth-child(even) td {
+    background-color: #fafafa;
+}
+
+.SectionNote {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 767.98px) {
+    .PageContent {
+        padding: 24px 0 40px;
+    }
+
+    .ContentDiv {
+        margin-bottom: 36px;
+    }
+
+    .StatValue {
+        font-size: 30px;
+    }
+
+    .CardBox,
+    .FeatureCard,
+    .ProcessCard,
+    .DifferentiatorCard {
+        padding: 20px 16px;
+    }
+}

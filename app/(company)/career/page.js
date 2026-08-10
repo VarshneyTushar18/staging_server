@@ -14,7 +14,7 @@ export const metadata = {
   description:
     "Explore rewarding careers in online marketing and IT consulting with Tech2Globe.",
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/career",
+    canonical: "https://www.tech2globe.com/career",
   },
 };
 

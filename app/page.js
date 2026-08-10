@@ -29,11 +29,11 @@ export const metadata = {
     title: "Tech2Globe: AI-Powered Ecommerce, IT Consulting & Digital Marketing Services",
     description:
       "Tech2Globe delivers AI-powered solutions for ecommerce growth, IT consulting, BPO/KPO, data analytics, and digital marketing. Partner with us to automate, scale, and future-proof your business with intelligent technology.",
-    url: "https://stagenew.tech2globe.tech/",
+    url: "https://www.tech2globe.com/",
     siteName: "Tech2Globe web Solutions LLP",
     images: [
       {
-        url: "https://stagenew.tech2globe.tech/images/tech2globe.jpg",
+        url: "https://tech2globe.com/images/tech2globe.jpg",
         width: 1200,
         height: 630,
       },
@@ -46,11 +46,11 @@ export const metadata = {
     title: "Tech2Globe: AI-Powered Ecommerce, IT Consulting & Digital Marketing Services",
     description:
       "Tech2Globe delivers AI-powered solutions for ecommerce growth, IT consulting, BPO/KPO, data analytics, and digital marketing. Partner with us to automate, scale, and future-proof your business with intelligent technology.",
-    images: ["https://stagenew.tech2globe.tech/images/tech2globe.jpg"],
+    images: ["https://tech2globe.com/images/tech2globe.jpg"],
   },
 
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech",
+    canonical: "https://www.tech2globe.com",
   },
 };
 
@@ -75,5 +75,3 @@ export default function Home() {
     </div>
   );
 }
-
-

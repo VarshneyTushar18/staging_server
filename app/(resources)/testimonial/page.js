@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Client Testimonials : Our Tech2globe Client Responses",
     description: "We are extremely proud of the response we have received from our clients for the quality and timely delivery of our work and our commitment to their success.",
-    url: "https://stagenew.tech2globe.tech/testimonial",
+    url: "https://www.tech2globe.com/testimonial",
     siteName: "Tech2Globe Web Solutions LLP",
     type: "website",
   },
@@ -20,7 +20,7 @@ export const metadata = {
     description: "We are extremely proud of the response we have received from our clients for the quality and timely delivery of our work and our commitment to their success.",
   },
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/testimonial",
+    canonical: "https://www.tech2globe.com/testimonial",
   },
 };
 

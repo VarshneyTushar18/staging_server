@@ -11,7 +11,7 @@ export const metadata = {
         title: "Privacy Policy - Tech2Globe",
         description:
             "Discover Tech2Globe’s privacy policy outlining our commitment to protecting your data and ensuring transparency in our practices.",
-        url: "https://stagenew.tech2globe.tech/Privacy-Policy",
+        url: "https://www.tech2globe.com/Privacy-Policy",
         type: "website",
         siteName: "Tech2Globe",
     },
@@ -24,7 +24,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "https://stagenew.tech2globe.tech/Privacy-Policy",
+        canonical: "https://www.tech2globe.com/Privacy-Policy",
     },
 };
 

@@ -42,7 +42,7 @@ const sidebarSections = [{ heading: "Resources", links: resources }];
         : "Case Study | Tech2Globe",
       description: data?.short_description || "Browse our case studies.",
       alternates: {
-        canonical: `https://stagenew.tech2globe.tech/case-studies/${slug}`,
+        canonical: `https://www.tech2globe.com/case-studies/${slug}`,
       },
     };
   } catch {
@@ -166,7 +166,15 @@ export default async function CaseStudySingle({ params }) {
               {data.featured_image && (
                 <div className="mt-4">
                   <img
-                    src={data.featured_image}
+                    src={
+                      data.featured_image.startsWith("http")
+                        ? data.featured_image
+                        : data.featured_image.startsWith("/uploads")
+                          ? `${API}${data.featured_image}`
+                          : data.featured_image.startsWith("/")
+                            ? data.featured_image
+                            : `${API}/${data.featured_image}`
+                    }
                     alt={data.title}
                     className="img-fluid"
                   />

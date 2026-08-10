@@ -1,9 +1,16 @@
 import Link from "next/link";
+import Script from "next/script";
 
 export default function ThankYouPage() {
   return (
     <>
-    
+      <Script id="google-ads-conversion" strategy="afterInteractive">
+        {`
+          gtag('event', 'conversion', {
+            'send_to': 'AW-972611168/GnpVCOviqJsZEOC8488D'
+          });
+        `}
+      </Script>
 
       <section className="container inner-page-content">
         <div className="row text-center">
@@ -31,10 +38,10 @@ export default function ThankYouPage() {
             </div>
 
             <h1 className="text-danger">Thank You For Contacting Us</h1>
-            <p className="text-center pb-0 mb-1">
+            <p className="text-center text-black fw-bold pb-0 mb-1">
               Our team will get back to you within 1 business day.
             </p>
-            <p className="text-center">
+            <p className="text-center text-black fw-bold">
               Please check your junk e-mail folder and your voicemail box to
               ensure our communication is not blocked.
             </p>

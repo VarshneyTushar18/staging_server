@@ -11,13 +11,13 @@ export const metadata = {
   description:
     "Explore rewarding careers in online marketing and IT consulting with Tech2Globe. Join our dynamic team and shape the future of digital innovation.",
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/career",
+    canonical: "https://www.tech2globe.com/career",
   },
   openGraph: {
     title: "Career - Online Marketing & IT Consulting Career - Tech2Globe",
     description:
       "Explore rewarding careers in online marketing and IT consulting with Tech2Globe.",
-    url: "https://stagenew.tech2globe.tech/career",
+    url: "https://www.tech2globe.com/career",
     type: "website",
   },
   twitter: {
@@ -51,4 +51,3 @@ export default function CareerForm() {
     </>
   );
 }
-

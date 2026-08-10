@@ -6,6 +6,7 @@ import {
   fetchBlogPosts,
   fetchBlogCategories,
 } from "@/lib/blogApi";
+import { MAIN_BLOG_FILTER_CATEGORIES } from "@/lib/blogUtils";
 import Style from "./blogs.module.css";
 
 export const metadata = {
@@ -13,7 +14,7 @@ export const metadata = {
   description:
     "Latest insights, guides, and updates from Tech2Globe on technology, e-commerce, and digital marketing.",
   alternates: {
-    canonical: "https://stagenew.tech2globe.tech/blogs",
+    canonical: "https://www.tech2globe.com/blogs",
   },
 };
 
@@ -42,7 +43,7 @@ export default async function BlogsPage({ searchParams }) {
 
   try {
     const [listResult, cats] = await Promise.all([
-      fetchBlogPosts({ perPage: 12, page, search, category, month }),
+      fetchBlogPosts({ perPage: 24, page, search, category, month }),
       fetchBlogCategories().catch(async () => {
         const fallback = await fetchBlogPosts({ perPage: 50 });
         const map = new Map();
@@ -68,10 +69,13 @@ export default async function BlogsPage({ searchParams }) {
   }
 
   const hasFilter = search || category || month;
+  const activeCategoryLabel =
+    MAIN_BLOG_FILTER_CATEGORIES.find((item) => item.slug === category)?.name ||
+    category.replace(/-/g, " ");
 
   return (
     <>
-      <Breadcrumb parentName="Home" pageName="Blog" />
+      <Breadcrumb pageName="Blog" />
       <section className={`${Style.section} py-5`}>
         <div className="container">
           <div className="title-section text-center mb-4">
@@ -84,7 +88,7 @@ export default async function BlogsPage({ searchParams }) {
             ) : null}
             {category ? (
               <p className="text-muted">
-                Category: <strong>{category.replace(/-/g, " ")}</strong>
+                Category: <strong>{activeCategoryLabel}</strong>
               </p>
             ) : null}
             {month ? (
@@ -112,9 +116,9 @@ export default async function BlogsPage({ searchParams }) {
             <div
               className={`row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ${Style.cardGrid}`}
             >
-              {posts.map((post) => (
+              {posts.map((post, index) => (
                 <div key={post.id} className="col d-flex">
-                  <BlogCard post={post} />
+                  <BlogCard post={post} priority={index < 3} />
                 </div>
               ))}
             </div>

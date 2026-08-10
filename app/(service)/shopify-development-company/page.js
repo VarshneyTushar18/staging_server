@@ -10,6 +10,9 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaPaintBrush, FaPalette, FaPalfed, FaScrewdriver, FaSearch, FaShieldAlt, FaStore, FaUsers, FaUsersCog, FaVial } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ShopifySlider from "@/app/components/services/shopifypageslider/shopifypageslider";
+
+import ShopifyQuoteFab from "@/app/components/landingpage/ShopifyQuoteFab";
+import ShopifyIntakeHashRedirect from "@/app/components/landingpage/ShopifyIntakeHashRedirect";
 import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
 export const metadata = {
@@ -49,8 +52,8 @@ const pageHeaderData = {
     title: "Best Shopify Development Company In USA",
     description:
         "Tech2Globe is a trusted Shopify Development Services Company in the market with a successful track record of providing services to international customers. ",
-    buttonText: "Contact us",
-    buttonLink: "#",
+    buttonText: "Get a quote",
+    buttonLink: "/shopify-development-company/questionnaire",
     backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
 };
 
@@ -422,6 +425,7 @@ export default function ShopifyDevelopment() {
                                 <p className="mb-0"><strong>Leveraging SEO to improve the popularity of search engines</strong></p>
                                 <p>We have developed a range of scalable and elegant Shopify portals and applications designed to suit our clientele&apos;s unique requirements.</p>
                             </div>
+
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
                             <div className={Style.StickyTop}>
@@ -437,6 +441,8 @@ export default function ShopifyDevelopment() {
             <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
+            <ShopifyIntakeHashRedirect />
+            <ShopifyQuoteFab />
         </>
     )
 };

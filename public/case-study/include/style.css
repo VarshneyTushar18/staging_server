@@ -1,0 +1,264 @@
+.case-study-inner-page ul {
+  padding-left: 2rem !important;
+}
+
+.case-study-inner-page ul li {
+  list-style: disc;
+}
+
+.case-study-inner-page h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #141E46 !important;
+}
+
+.custom-portfolio-testi-container .card:hover .text-container {
+  transform: translateX(10px);
+  transition: all 0.3s linear;
+}
+
+.about-get-your-footprints-section .play-icon {
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+  background: linear-gradient(45deg, #BF1B1E, #DE2A26);
+  border-radius: 100px;
+  margin-top: -50px;
+  margin-left: -25px;
+  cursor: pointer;
+  animation: shadow-pulse 1s infinite;
+}
+
+.about-get-your-footprints-section .play-icon::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 30px solid #ffffff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  left: 50%;
+  top: 50%;
+  margin-top: -15px;
+  margin-left: -10px;
+}
+
+.cartFeature.inner-page-content figure img {
+  min-height: 258px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.10);
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.custom-portfolio-testi-container .icon-container {
+  background: #ffffff;
+  width: 20%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  color: #141e46;
+  font-size: 30px;
+  position: relative;
+}
+
+.custom-portfolio-testi-container .icon-container:after {
+  content: '';
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 21px solid #ffffff;
+  right: -21px;
+}
+
+.custom-portfolio-testi-container .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 60px;
+  background:
+    linear-gradient(90deg, rgba(20, 30, 70, 1) 0%, rgb(7 15 47 / 77%) 100%),
+    url('images/Variant3-testi-portfolio.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s linear;
+  margin-bottom: 30px;
+  color: #fff;
+
+}
+
+.custom-portfolio-testi-container .card p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.more-case-study-section .card-img img {
+  width: 100%;
+}
+
+ul.ocadvatage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+ul.ocadvatage-container li {
+  border: 1px solid #fff !important;
+  width: 18%;
+}
+
+ul.ocadvatage-container .icon {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+ul.ocadvatage-container span {
+  font-weight: 600;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul.ocadvatage-container .card:hover {
+  border: 1px solid #2d365a !important;
+}
+
+.case-study-inner-page .content-container h3 {
+  font-size: 19px;
+  margin: 30px 0 15px;
+  font-weight: 600;
+  color: #141E46 !important;
+}
+
+@media(max-width:1199px) {
+  ul.ocadvatage-container li {
+    width: 22%;
+  }
+}
+
+@media(max-width:991px) {
+  ul.ocadvatage-container li {
+    width: 46%;
+  }
+}
+
+@media(max-width:768px) {
+  .case-study-inner-page h1 {
+    font-size: 20px;
+  }
+
+  ul.ocadvatage-container li {
+    width: 77%;
+  }
+
+}
+
+.feedback-section {
+  padding-block: 40px;
+  display: flex;
+}
+
+
+.feedback-title {
+  font-size: 24px;
+  color: #141E46 !important;
+  margin-bottom: 8px;
+}
+
+.feedback-subtitle {
+  font-size: 20px;
+  margin-block: 10px !important;
+}
+
+.feedback-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.feedback-quote {
+  font-style: italic;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #C7010C;
+  background-color: #f9f9f9;
+  display: inline-block;
+  width: 100%;
+}
+
+.feedback-author {
+  font-weight: bold;
+  font-size: 16px;
+  color: #C7010C;
+}
+
+.main-banner-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.main-banner-container.ecommerce {
+  background: url('../img/banners/ecommerce-banner-lg.png') no-repeat center center/cover;
+}
+
+.main-banner-container.software-development {
+  background: url('../img/banners/software-development-banner-lg.png') no-repeat center center/cover;
+}
+
+.main-banner-container.graphic-designing {
+  background: url('../img/banners/graphic-designing-banner-lg.png') no-repeat center center/cover;
+}
+
+.main-banner-container.data-analysis {
+  background: url('../img/banners/data-analysis-banner-lg.png') no-repeat center center/cover;
+}
+
+.main-banner-container.data-management {
+  background: url('../img/banners/data-management-banner-lg.png') no-repeat center center/cover;
+}
+
+.main-banner-container.digital-marketing {
+  background: url('../img/banners/digital-marketing-banner-lg.png') no-repeat center center/cover;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-banner-container h1 {
+  font-size: 2.5rem;
+  font-weight: 500 !important;
+  margin: 0;
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
+  opacity: 0;
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+@media (max-width:1024px) {
+  .main-banner-container h1 {
+    font-size: 1.5rem;
+  }
+}

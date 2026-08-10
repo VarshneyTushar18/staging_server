@@ -419,7 +419,7 @@
 
 .timeline-content span {
     color: #515151;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins), sans-serif;
     font-size: 16px;
     line-height: 23px;
     text-align: justify;

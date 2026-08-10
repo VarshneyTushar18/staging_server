@@ -13,7 +13,7 @@ export const metadata = {
         description:
             "For more information on any of our services or solutions, please contact us today, either via email or by phone or by filling out our Quotation Form.",
         siteName: "Tech2Globe web Solutions LLP",
-        url: "https://stagenew.tech2globe.tech/contact-us",
+        url: "https://www.tech2globe.com/contact-us",
         type: "website"
     },
 
@@ -25,7 +25,7 @@ export const metadata = {
     },
 
     alternates: {
-        canonical: "https://stagenew.tech2globe.tech/contact-us"
+        canonical: "https://www.tech2globe.com/contact-us"
     }
 };
 

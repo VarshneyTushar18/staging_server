@@ -1,3 +1,179 @@
+.Banner {
+    width: 100%;
+}
+
+.PageContainer {
+    width: min(100% - 30px, 1320px);
+    margin-inline: auto;
+}
+
+.PageRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -12px;
+}
+
+.FullColumn,
+.FullColumnPadded,
+.HalfColumnPadded,
+.ThirdColumn {
+    width: 100%;
+    padding-inline: 12px;
+}
+
+.FullColumnPadded,
+.HalfColumnPadded {
+    padding-top: 1rem;
+}
+
+.FluidImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.PaddedImage {
+    composes: FluidImage;
+    padding-bottom: 1rem;
+}
+
+.IconImage {
+    composes: FluidImage;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+.AccentHeading,
+.CenteredSectionHeading,
+.SectionHeading,
+.SectionHeadingLarge,
+.MainHeading {
+    text-align: center;
+}
+
+.AccentHeading,
+.SectionHeading,
+.SectionHeadingLarge,
+.MainHeading {
+    color: #c6010b;
+}
+
+.AccentHeading,
+.CenteredSectionHeading {
+    padding-bottom: 1rem;
+}
+
+.CenteredSectionHeading {
+    padding-top: 1rem;
+}
+
+.SectionHeading {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.SectionHeadingLarge {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.MainHeading {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.SectionSpacing {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.SectionSpacingLarge {
+    padding-block: 3rem;
+}
+
+.BannerSection {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.IcoCardTwo,
+.ClientGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: -12px;
+}
+
+.ImageShadow {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.CategoryImage,
+.CategoryTitle {
+    margin-inline: auto;
+}
+
+.CategoryImage img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.TableResponsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.MyTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.MyTable th,
+.MyTable td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+.TableBody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.TableLink {
+    color: #c6010b;
+    overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+    .HalfColumnPadded {
+        width: 50%;
+    }
+
+    .ThirdColumn {
+        width: 33.333333%;
+    }
+}
+
+@media (max-width: 767px) {
+    .SectionSpacing,
+    .SectionSpacingLarge,
+    .SectionHeadingLarge {
+        padding-top: 1.5rem;
+    }
+
+    .SectionSpacingLarge,
+    .BannerSection {
+        padding-bottom: 1.5rem;
+    }
+}
+
 .StickyTop {
     top: 0;
     position: sticky;
