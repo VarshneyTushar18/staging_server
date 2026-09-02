@@ -6,6 +6,7 @@ import {
   fetchBlogPosts,
   fetchBlogCategories,
 } from "@/lib/blogApi";
+import { MAIN_BLOG_FILTER_CATEGORIES } from "@/lib/blogUtils";
 import Style from "./blogs.module.css";
 
 export const metadata = {
@@ -69,7 +70,7 @@ export default async function BlogsPage({ searchParams }) {
 
   const hasFilter = search || category || month;
   const activeCategoryLabel =
-    categories.find((item) => item.slug === category)?.name ||
+    MAIN_BLOG_FILTER_CATEGORIES.find((item) => item.slug === category)?.name ||
     category.replace(/-/g, " ");
 
   return (

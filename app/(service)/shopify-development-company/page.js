@@ -10,7 +10,6 @@ import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaPaintBrush, FaPalette, FaPalfed, FaScrewdriver, FaSearch, FaShieldAlt, FaStore, FaUsers, FaUsersCog, FaVial } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import ShopifySlider from "@/app/components/services/shopifypageslider/shopifypageslider";
-
 import ShopifyQuoteFab from "@/app/components/landingpage/ShopifyQuoteFab";
 import ShopifyIntakeHashRedirect from "@/app/components/landingpage/ShopifyIntakeHashRedirect";
 import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";

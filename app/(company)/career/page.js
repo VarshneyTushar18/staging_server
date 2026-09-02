@@ -157,7 +157,7 @@ export default async function Career() {
 
                                 <tr>
                                   <th className="bg-light">Work Experience</th>
-                                  <td>{job.experience}</td>
+                                  <td style={{ whiteSpace: "pre-wrap" }}>{job.experience}</td>
                                 </tr>
 
                                 <tr>
@@ -167,12 +167,12 @@ export default async function Career() {
 
                                 <tr>
                                   <th className="bg-light">Required Skills/Experience</th>
-                                  <td>{job.skills}</td>
+                                  <td style={{ whiteSpace: "pre-wrap" }}>{job.skills || "—"}</td>
                                 </tr>
 
                                 <tr>
                                   <th className="bg-light">Job Responsibilities</th>
-                                  <td>{job.responsibilities}</td>
+                                  <td style={{ whiteSpace: "pre-wrap" }}>{job.responsibilities || "—"}</td>
                                 </tr>
 
                                 <tr>

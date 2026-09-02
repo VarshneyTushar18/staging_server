@@ -3,31 +3,73 @@
 import { FaCheckCircle } from "react-icons/fa";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useState, useEffect, useMemo, Suspense } from "react";
+import { useState, useEffect, Suspense } from "react";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
 
- function MultiStepSignupInner() {
-  const [formData, setFormData] = useState({
-    jobId: "",
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    portfolioLink: "",
-    currentCTC: "",
-    expectedCTC: "",
-    joinDate: "",
-    lastCompany: "",
-    noticePeriod: "",
-    comments: "",
-    resume: null,
-  });
+const ALLOWED_RESUME_TYPES = [
+  "application/pdf",
+  "application/msword",
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+];
+const ALLOWED_RESUME_EXTENSIONS = [".pdf", ".doc", ".docx"];
+const MAX_RESUME_BYTES = 2 * 1024 * 1024; // matches backend multer limit
 
+const isAllowedResume = (file) => {
+  if (!file) return false;
+  const name = (file.name || "").toLowerCase();
+  const hasValidExt = ALLOWED_RESUME_EXTENSIONS.some((ext) => name.endsWith(ext));
+  const hasValidMime =
+    !file.type || ALLOWED_RESUME_TYPES.includes(file.type);
+  return hasValidExt && hasValidMime;
+};
+
+const INITIAL_FORM = {
+  jobId: "",
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  portfolioLink: "",
+  currentLakhs: "",
+  currentThousands: "",
+  currentCTC: null,
+  expectedLakhs: "",
+  expectedThousands: "",
+  expectedCTC: null,
+  joinDate: "",
+  lastCompany: "",
+  noticePeriod: "",
+  comments: "",
+  resume: null,
+};
+
+const SUBMIT_KEYS = [
+  "jobId",
+  "firstName",
+  "lastName",
+  "email",
+  "phone",
+  "portfolioLink",
+  "currentCTC",
+  "expectedCTC",
+  "joinDate",
+  "lastCompany",
+  "noticePeriod",
+  "comments",
+  "resume",
+];
+
+function FieldError({ message }) {
+  if (!message) return null;
+  return <span className="field-error">{message}</span>;
+}
+
+function MultiStepSignupInner() {
+  const [formData, setFormData] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState({});
   const [jobs, setJobs] = useState([]);
   const [step, setStep] = useState(1);
-
   const [loadingJobs, setLoadingJobs] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [apiError, setApiError] = useState("");
@@ -35,13 +77,11 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
   const params = useSearchParams();
   const [jobId, setJobId] = useState(null);
 
-  // Handle query param safely
   useEffect(() => {
     const id = params.get("jid");
     if (id) setJobId(id);
   }, [params]);
 
-  // Fetch jobs
   useEffect(() => {
     async function loadJobs() {
       setLoadingJobs(true);
@@ -51,7 +91,7 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
         setJobs(data?.data || []);
       } catch (err) {
         console.error(err);
-        setApiError("Unable to load job listings.");
+        setApiError("Unable to load job listings. Please refresh and try again.");
       } finally {
         setLoadingJobs(false);
       }
@@ -60,18 +100,31 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
     loadJobs();
   }, []);
 
-  // Apply jobId from URL
   useEffect(() => {
     if (jobId) {
       setFormData((prev) => ({ ...prev, jobId }));
     }
   }, [jobId]);
 
-  // Validators
+  const updateField = (updates) => {
+    setFormData((prev) => ({ ...prev, ...updates }));
+    setErrors((prev) => {
+      const next = { ...prev };
+      Object.keys(updates).forEach((key) => {
+        if (key === "currentLakhs" || key === "currentThousands") {
+          delete next.currentCTC;
+        } else if (key === "expectedLakhs" || key === "expectedThousands") {
+          delete next.expectedCTC;
+        } else {
+          delete next[key];
+        }
+      });
+      return next;
+    });
+  };
+
   const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-
   const validatePhone = (phone) => /^\+?[\d\s\-()]{10,}$/.test(phone);
-
   const validateURL = (url) => {
     if (!url) return true;
     try {
@@ -82,38 +135,74 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
     }
   };
 
+  const isCtcSelected = (lakhs, thousands) =>
+    lakhs !== "" && lakhs !== null && thousands !== "" && thousands !== null;
+
   const validateStep = (currentStep) => {
     const newErrors = {};
 
     if (currentStep === 1) {
-      if (!formData.firstName.trim())
-        newErrors.firstName = "First name is required";
-      if (!formData.lastName.trim())
-        newErrors.lastName = "Last name is required";
-      if (!formData.email.trim()) newErrors.email = "Email is required";
-      else if (!validateEmail(formData.email))
-        newErrors.email = "Invalid email format";
-      if (!validateURL(formData.portfolioLink))
-        newErrors.portfolioLink = "Invalid URL format";
+      if (!formData.firstName.trim()) {
+        newErrors.firstName = "Please enter your first name.";
+      }
+      if (!formData.lastName.trim()) {
+        newErrors.lastName = "Please enter your last name.";
+      }
+      if (!formData.email.trim()) {
+        newErrors.email = "Please enter your email address.";
+      } else if (!validateEmail(formData.email)) {
+        newErrors.email = "Please enter a valid email address (example: name@company.com).";
+      }
+      if (formData.portfolioLink && !validateURL(formData.portfolioLink)) {
+        newErrors.portfolioLink =
+          "Please enter a valid portfolio URL starting with http:// or https://.";
+      }
     }
 
     if (currentStep === 2) {
-      if (!formData.jobId) newErrors.jobId = "Please select a position";
-      if (!formData.currentCTC)
-        newErrors.currentCTC = "Current CTC is required";
-      if (!formData.expectedCTC)
-        newErrors.expectedCTC = "Expected CTC is required";
-      if (!formData.joinDate) newErrors.joinDate = "Join date is required";
+      if (!formData.jobId) {
+        newErrors.jobId = "Please select the vacancy you are applying for.";
+      }
+
+      if (!isCtcSelected(formData.currentLakhs, formData.currentThousands)) {
+        newErrors.currentCTC =
+          "Please select Current CTC in both Lakhs and Thousands. Freshers can select 0.";
+      }
+
+      if (!isCtcSelected(formData.expectedLakhs, formData.expectedThousands)) {
+        newErrors.expectedCTC =
+          "Please select Expected CTC in both Lakhs and Thousands. You can select 0 if needed.";
+      }
+
+      if (!formData.joinDate) {
+        newErrors.joinDate = "Please select the date when you can join.";
+      } else {
+        const selected = new Date(formData.joinDate);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        if (selected < today) {
+          newErrors.joinDate = "Join date cannot be in the past. Please choose today or a future date.";
+        }
+      }
     }
 
     if (currentStep === 3) {
-      if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
-      else if (!validatePhone(formData.phone))
-        newErrors.phone = "Invalid phone format";
+      if (!formData.phone.trim()) {
+        newErrors.phone = "Please enter your phone number.";
+      } else if (!validatePhone(formData.phone)) {
+        newErrors.phone =
+          "Please enter a valid phone number with at least 10 digits.";
+      }
 
-      if (!formData.resume) newErrors.resume = "Resume is required";
-      else if (formData.resume.size > 3 * 1024 * 1024)
-        newErrors.resume = "File size must be less than 3MB";
+      if (!formData.resume) {
+        newErrors.resume = "Please upload your resume to continue.";
+      } else if (!isAllowedResume(formData.resume)) {
+        newErrors.resume =
+          "Only PDF, DOC, and DOCX resume files are allowed. Images are not accepted.";
+      } else if (formData.resume.size > MAX_RESUME_BYTES) {
+        newErrors.resume =
+          "Resume file is too large. Please upload a file smaller than 2MB.";
+      }
     }
 
     setErrors(newErrors);
@@ -122,36 +211,35 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
 
   const nextStep = () => {
     if (validateStep(step)) {
+      setErrors({});
       setStep((s) => s + 1);
     }
   };
 
   const prevStep = () => {
-    setStep((s) => s - 1);
+    setErrors({});
+    setApiError("");
+    setStep((s) => Math.max(1, s - 1));
   };
 
   const handleSubmit = async () => {
     if (submitting) return;
 
-    let valid = true;
     for (let i = 1; i <= 4; i++) {
       if (!validateStep(i)) {
-        valid = false;
         setStep(i);
-        break;
+        return;
       }
     }
-
-    if (!valid) return;
 
     setSubmitting(true);
     setApiError("");
 
     const data = new FormData();
-    Object.keys(formData).forEach((key) => {
-      if (formData[key]) {
-        data.append(key, formData[key]);
-      }
+    SUBMIT_KEYS.forEach((key) => {
+      const value = formData[key];
+      if (value === null || value === undefined || value === "") return;
+      data.append(key, value);
     });
 
     try {
@@ -160,16 +248,43 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
         body: data,
       });
 
-      const result = await res.json();
+      const raw = await res.text();
+      let result = null;
+      try {
+        result = raw ? JSON.parse(raw) : null;
+      } catch {
+        result = null;
+      }
 
       if (res.ok) {
         setStep(5);
-      } else {
-        setApiError(result?.error || "Submission failed.");
+        return;
+      }
+
+      const serverMessage =
+        result?.error ||
+        result?.message ||
+        (res.status === 413
+          ? "Resume file is too large. Please upload a file smaller than 2MB."
+          : null);
+
+      setApiError(
+        serverMessage ||
+          `Submission failed (error ${res.status}). Please upload a PDF/DOC/DOCX resume under 2MB and try again.`
+      );
+
+      if (
+        serverMessage &&
+        /pdf|doc|docx|resume|file|upload|size/i.test(serverMessage)
+      ) {
+        setStep(3);
+        setErrors((prev) => ({ ...prev, resume: serverMessage }));
       }
     } catch (err) {
       console.error(err);
-      setApiError("Network error. Please try again.");
+      setApiError(
+        "Could not submit your application. Please check your connection and try again."
+      );
     } finally {
       setSubmitting(false);
     }
@@ -200,6 +315,12 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
 
               <br />
 
+              {apiError && (
+                <div className="form-api-error" role="alert">
+                  {apiError}
+                </div>
+              )}
+
               {/* STEP 1 */}
               {step === 1 && (
                 <fieldset>
@@ -221,48 +342,29 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                       name="firstName"
                       placeholder="First Name"
                       value={formData.firstName}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, firstName: e.target.value })
-                      }
+                      onChange={(e) => updateField({ firstName: e.target.value })}
                     />
-                    {errors.firstName && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.firstName}
-                      </span>
-                    )}
+                    <FieldError message={errors.firstName} />
+
                     <label className="fieldlabels">Last name *</label>
                     <input
                       type="text"
                       name="lastName"
                       placeholder="Last Name"
                       value={formData.lastName}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, lastName: e.target.value })
-                      }
+                      onChange={(e) => updateField({ lastName: e.target.value })}
                     />
-                    {errors.lastName && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.lastName}
-                      </span>
-                    )}
+                    <FieldError message={errors.lastName} />
+
                     <label className="fieldlabels">Email *</label>
                     <input
                       type="email"
                       name="email"
                       placeholder="Enter Email"
                       value={formData.email}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, email: e.target.value })
-                      }
+                      onChange={(e) => updateField({ email: e.target.value })}
                     />
-                    {errors.email && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.email}
-                      </span>
-                    )}
+                    <FieldError message={errors.email} />
 
                     <label className="fieldlabels">Portfolio Link</label>
                     <input
@@ -271,17 +373,10 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                       placeholder="https://portfolio.com"
                       value={formData.portfolioLink}
                       onChange={(e) =>
-                        setFormData({
-                          ...formData,
-                          portfolioLink: e.target.value,
-                        })
+                        updateField({ portfolioLink: e.target.value })
                       }
                     />
-                    {errors.portfolioLink && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.portfolioLink}
-                      </span>
-                    )}
+                    <FieldError message={errors.portfolioLink} />
                   </div>
 
                   <input
@@ -314,55 +409,45 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                     <select
                       name="jobId"
                       value={formData.jobId}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, jobId: e.target.value })
-                      }
+                      onChange={(e) => updateField({ jobId: e.target.value })}
+                      disabled={loadingJobs}
                     >
                       <option value="" disabled>
-                        Select Position
+                        {loadingJobs ? "Loading positions..." : "Select Position"}
                       </option>
-
                       {jobs.map((job) => (
                         <option key={job.id} value={job.id}>
                           {job.title}
                         </option>
                       ))}
                     </select>
-                    {errors.jobId && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.jobId}
-                      </span>
-                    )}
+                    <FieldError message={errors.jobId} />
 
                     <label className="fieldlabels">Current CTC (PA.) *</label>
-                    {errors.currentCTC && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.currentCTC}
-                      </span>
-                    )}
-
+                    <p className="field-hint">
+                      Freshers can select 0 in both Lakhs and Thousands.
+                    </p>
                     <div className="row">
                       <div className="col-md-6">
                         <select
                           className="form-control"
-                          defaultValue=""
+                          value={formData.currentLakhs}
                           onChange={(e) => {
-                            const lakhs = parseInt(e.target.value || 0);
-
-                            setFormData((prev) => ({
-                              ...prev,
+                            const lakhs = e.target.value;
+                            const thousands = formData.currentThousands;
+                            updateField({
                               currentLakhs: lakhs,
                               currentCTC:
-                                lakhs * 100000 +
-                                parseInt(prev.currentThousands || 0) * 1000,
-                            }));
+                                lakhs === "" || thousands === ""
+                                  ? null
+                                  : parseInt(lakhs, 10) * 100000 +
+                                    parseInt(thousands, 10) * 1000,
+                            });
                           }}
                         >
                           <option disabled value="">
                             In Lakhs
                           </option>
-
                           {[...Array(21)].map((_, i) => (
                             <option key={i} value={i}>
                               {i}
@@ -370,27 +455,26 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                           ))}
                         </select>
                       </div>
-
                       <div className="col-md-6">
                         <select
                           className="form-control"
-                          defaultValue=""
+                          value={formData.currentThousands}
                           onChange={(e) => {
-                            const thousands = parseInt(e.target.value || 0);
-
-                            setFormData((prev) => ({
-                              ...prev,
+                            const thousands = e.target.value;
+                            const lakhs = formData.currentLakhs;
+                            updateField({
                               currentThousands: thousands,
                               currentCTC:
-                                parseInt(prev.currentLakhs || 0) * 100000 +
-                                thousands * 1000,
-                            }));
+                                lakhs === "" || thousands === ""
+                                  ? null
+                                  : parseInt(lakhs, 10) * 100000 +
+                                    parseInt(thousands, 10) * 1000,
+                            });
                           }}
                         >
                           <option disabled value="">
                             In Thousands
                           </option>
-
                           {[...Array(100)].map((_, i) => (
                             <option key={i} value={i}>
                               {i}
@@ -399,34 +483,30 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                         </select>
                       </div>
                     </div>
+                    <FieldError message={errors.currentCTC} />
 
                     <label className="fieldlabels">Expected CTC (PA.) *</label>
-                    {errors.expectedCTC && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.expectedCTC}
-                      </span>
-                    )}
                     <div className="row">
                       <div className="col-md-6">
                         <select
                           className="form-control"
-                          defaultValue=""
+                          value={formData.expectedLakhs}
                           onChange={(e) => {
-                            const lakhs = parseInt(e.target.value || 0);
-
-                            setFormData((prev) => ({
-                              ...prev,
+                            const lakhs = e.target.value;
+                            const thousands = formData.expectedThousands;
+                            updateField({
                               expectedLakhs: lakhs,
                               expectedCTC:
-                                lakhs * 100000 +
-                                parseInt(prev.expectedThousands || 0) * 1000,
-                            }));
+                                lakhs === "" || thousands === ""
+                                  ? null
+                                  : parseInt(lakhs, 10) * 100000 +
+                                    parseInt(thousands, 10) * 1000,
+                            });
                           }}
                         >
                           <option disabled value="">
                             In Lakhs
                           </option>
-
                           {[...Array(21)].map((_, i) => (
                             <option key={i} value={i}>
                               {i}
@@ -434,27 +514,26 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                           ))}
                         </select>
                       </div>
-
                       <div className="col-md-6">
                         <select
                           className="form-control"
-                          defaultValue=""
+                          value={formData.expectedThousands}
                           onChange={(e) => {
-                            const thousands = parseInt(e.target.value || 0);
-
-                            setFormData((prev) => ({
-                              ...prev,
+                            const thousands = e.target.value;
+                            const lakhs = formData.expectedLakhs;
+                            updateField({
                               expectedThousands: thousands,
                               expectedCTC:
-                                parseInt(prev.expectedLakhs || 0) * 100000 +
-                                thousands * 1000,
-                            }));
+                                lakhs === "" || thousands === ""
+                                  ? null
+                                  : parseInt(lakhs, 10) * 100000 +
+                                    parseInt(thousands, 10) * 1000,
+                            });
                           }}
                         >
                           <option disabled value="">
                             In Thousands
                           </option>
-
                           {[...Array(100)].map((_, i) => (
                             <option key={i} value={i}>
                               {i}
@@ -463,22 +542,16 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                         </select>
                       </div>
                     </div>
+                    <FieldError message={errors.expectedCTC} />
 
                     <label className="fieldlabels">When can you join? *</label>
                     <input
                       type="date"
                       name="joinDate"
                       value={formData.joinDate}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, joinDate: e.target.value })
-                      }
+                      onChange={(e) => updateField({ joinDate: e.target.value })}
                     />
-                    {errors.joinDate && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.joinDate}
-                      </span>
-                    )}
+                    <FieldError message={errors.joinDate} />
                   </div>
 
                   <input
@@ -487,7 +560,6 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                     value="Next"
                     onClick={nextStep}
                   />
-
                   <input
                     type="button"
                     className="previous action-button-previous"
@@ -518,36 +590,49 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                       name="phone"
                       placeholder="Enter Number"
                       value={formData.phone}
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, phone: e.target.value })
-                      }
+                      onChange={(e) => updateField({ phone: e.target.value })}
                     />
-                    {errors.phone && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.phone}
-                      </span>
-                    )}
+                    <FieldError message={errors.phone} />
 
                     <label className="fieldlabels">Upload Your Resume *</label>
                     <input
                       type="file"
                       name="resume"
-                      required
-                      onChange={(e) =>
-                        setFormData({ ...formData, resume: e.target.files[0] })
-                      }
-                      accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                      onChange={(e) => {
+                        const file = e.target.files?.[0] || null;
+                        if (file && !isAllowedResume(file)) {
+                          e.target.value = "";
+                          updateField({ resume: null });
+                          setErrors((prev) => ({
+                            ...prev,
+                            resume:
+                              "Only PDF, DOC, and DOCX resume files are allowed. Images are not accepted.",
+                          }));
+                          return;
+                        }
+                        if (file && file.size > MAX_RESUME_BYTES) {
+                          e.target.value = "";
+                          updateField({ resume: null });
+                          setErrors((prev) => ({
+                            ...prev,
+                            resume:
+                              "Resume file is too large. Please upload a file smaller than 2MB.",
+                          }));
+                          return;
+                        }
+                        updateField({ resume: file });
+                      }}
+                      accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
                     />
-                    {errors.resume && (
-                      <span style={{ color: "red", fontSize: "12px" }}>
-                        {errors.resume}
-                      </span>
+                    {formData.resume && (
+                      <p className="field-hint selected-file">
+                        Selected file: {formData.resume.name}
+                      </p>
                     )}
-
-                    <span className="text-muted">
-                      Allowed file types: PDF, JPG, PNG, Word, DOC (Max size:
-                      less than 3MB)
+                    <FieldError message={errors.resume} />
+                    <span className="text-muted file-hint">
+                      Allowed file types: PDF, DOC, DOCX only (Max size: less
+                      than 2MB)
                     </span>
 
                     <div className="row pt-3">
@@ -559,33 +644,24 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                           type="text"
                           name="lastCompany"
                           placeholder="Last Company"
+                          value={formData.lastCompany}
                           onChange={(e) =>
-                            setFormData({
-                              ...formData,
-                              lastCompany: e.target.value,
-                            })
+                            updateField({ lastCompany: e.target.value })
                           }
                         />
                       </div>
 
                       <div className="col-md-6">
                         <label className="fieldlabels">Notice Period</label>
-
                         <select
                           className="form-control"
                           name="noticePeriod"
-                          defaultValue=""
+                          value={formData.noticePeriod}
                           onChange={(e) =>
-                            setFormData({
-                              ...formData,
-                              noticePeriod: e.target.value,
-                            })
+                            updateField({ noticePeriod: e.target.value })
                           }
                         >
-                          <option disabled value="">
-                            In Days
-                          </option>
-
+                          <option value="">In Days</option>
                           {[...Array(85)].map((_, i) => (
                             <option key={i} value={i + 6}>
                               {i + 6} days
@@ -602,7 +678,6 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                     value="Next"
                     onClick={nextStep}
                   />
-
                   <input
                     type="button"
                     className="previous action-button-previous"
@@ -630,21 +705,27 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                     <label className="fieldlabels">
                       Reference / Comments / Questions
                     </label>
-
                     <textarea
                       name="comments"
                       maxLength="200"
-                      onChange={(e) =>
-                        setFormData({ ...formData, comments: e.target.value })
-                      }
+                      value={formData.comments}
+                      onChange={(e) => updateField({ comments: e.target.value })}
                     />
                   </div>
 
                   <input
                     type="button"
                     className="next action-button"
-                    value="Submit"
+                    value={submitting ? "Submitting..." : "Submit"}
                     onClick={handleSubmit}
+                    disabled={submitting}
+                  />
+                  <input
+                    type="button"
+                    className="previous action-button-previous"
+                    value="Previous"
+                    onClick={prevStep}
+                    disabled={submitting}
                   />
                 </fieldset>
               )}
@@ -654,15 +735,12 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                 <fieldset>
                   <div className="form-card text-center">
                     <h2 className="text-black fw-bold mb-5">SUCCESS !</h2>
-
                     <div className="mb-4">
                       <FaCheckCircle size={60} className="text-success" />
                     </div>
-
                     <h5 className="text-danger">
                       Your job request has been received
                     </h5>
-
                     <Link href="/" className="btn btn-danger mt-4">
                       Back To Home
                     </Link>
@@ -670,14 +748,12 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
                 </fieldset>
               )}
             </form>
-
           </div>
         </div>
       </div>
     </div>
   );
 }
-
 
 export default function MultiStepSignup() {
   return (
