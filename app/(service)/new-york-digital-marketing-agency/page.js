@@ -49,7 +49,7 @@ const pageHeaderData = {
     description:
         "Tech2Globe's New York Digital Marketing Agency focuses on enhancing visibility, driving impact, and providing innovative solutions to modern marketing challenges..",
     buttonText: "Contact us",
-    buttonLink: "#",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/skyscraper.jpg", // your banner image
 };
 
@@ -167,9 +167,162 @@ const faqs = [
     },
 ];
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#webpage",
+            "url": "https://www.tech2globe.com/new-york-digital-marketing-agency",
+            "name": "Digital Marketing Agency New York",
+            "description": "Tech2Globe's New York Digital Marketing Agency focuses on enhancing visibility, driving impact, and providing innovative solutions to modern marketing challenges.",
+            "isPartOf": {
+                "@id": "https://www.tech2globe.com/#website"
+            },
+            "about": {
+                "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#service"
+            },
+            "publisher": {
+                "@id": "https://www.tech2globe.com/#organization"
+            },
+            "breadcrumb": {
+                "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#breadcrumb"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Service",
+            "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#service",
+            "name": "Digital Marketing Services in New York",
+            "serviceType": "Digital Marketing",
+            "description": "Digital marketing services in New York including SEO, content marketing, PPC advertising, email marketing, social media marketing, marketing strategy, and web design and development.",
+            "provider": {
+                "@id": "https://www.tech2globe.com/#organization"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "New York",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "New York"
+                }
+            },
+            "url": "https://www.tech2globe.com/new-york-digital-marketing-agency"
+        },
+        {
+            "@type": "LocalBusiness",
+            "@id": "https://www.tech2globe.com/#new-york-location",
+            "name": "Tech2Globe",
+            "url": "https://www.tech2globe.com/",
+            "image": "https://www.tech2globe.com/_next/image?url=%2Fimages%2Ftech2globe-logo.png&w=1920&q=75",
+            "telephone": "+1-516-858-5840",
+            "email": "info@tech2globe.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1538 Old Country Road",
+                "addressLocality": "Plainview",
+                "addressRegion": "NY",
+                "postalCode": "11803",
+                "addressCountry": "US"
+            },
+            "parentOrganization": {
+                "@id": "https://www.tech2globe.com/#organization"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "New York"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.tech2globe.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Digital Marketing Agency New York",
+                    "item": "https://www.tech2globe.com/new-york-digital-marketing-agency"
+                }
+            ]
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://www.tech2globe.com/new-york-digital-marketing-agency#faq",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What services do digital marketing agencies in New York offer?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our New York digital marketing agency provides services including Search Engine Optimization (SEO), Content Marketing, Pay-Per-Click (PPC) advertising, Email Marketing, Market Research, Video Production, Public Relations (PR), Social Media Marketing (SMM), Marketing Strategy, and Web Design & Development."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I choose the right digital marketing agency in New York for my business?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To select the right digital marketing agency in New York, recognize and identify your needs, seek an organization that understands your needs, conduct comprehensive research, request an audit report and strategy, and get to know the team."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What industries do New York digital marketing agencies specialize in?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Our New York Digital Marketing Agency specializes in user experience design, targeted advertising based on customer demographics, social media audience research and engagement strategies, and search engine optimization to increase traffic and brand visibility."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much do digital marketing services in New York cost?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The cost of digital marketing services in New York depends on several business-specific factors, including marketing goals and budget."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long does it take to see results from digital marketing efforts in New York?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Results typically take three to six months on average, and up to a year or more in highly competitive industries. PPC campaigns may deliver results within days or weeks, but optimizing them for maximum ROI can take several months."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do I need to sign a contract with a digital marketing agency in New York?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A digital agency contract allows the agency to act on your behalf and binds both parties to agreed terms. It establishes a legally enforceable relationship and protects the rights of both the business and the agency when promoting products or services online."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do digital marketing agencies in New York measure success?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Success is measured through campaign performance metrics such as clicks, conversions, and ROI. Agencies also track growth in social media audiences, email subscriptions, website traffic, brand visibility, and overall customer engagement."
+                    }
+                }
+            ]
+        }
+    ]
+};
+
 export default function NewYorkDigitalMarketingAgency() {
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <PageHeader pageHeaderData={pageHeaderData} />
             <Breadcrumb pageName="New York Digital Marketing Agency" />
             <BrandSection />

@@ -6,7 +6,6 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
-import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import Link from "next/link";
 import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 
@@ -36,8 +35,8 @@ const pageHeaderData = {
     description:
         "Advertise smarter on Amazon with Tech2Globe’s full-cycle PPC management. Our Amazon PPC experts help you lower your Advertising Cost of Sale (ACoS), improve product visibility, and increase conversions with tailored ad campaigns.",
     buttonText: "Contact us",
-    buttonLink: "#",
-    backgroundImage: "/images/services/amazon-ppc-services-banner.jpg",
+    buttonLink: "/contact-us",
+    backgroundImage: "/images/services/amazon-ppc-services-banner.webp",
 };
 
 
@@ -46,71 +45,38 @@ const pageHeaderData = {
 const faqs = [
     {
         id: "One",
-        question: "What are Amazon PPC services?",
-        answer: `
-      Amazon's advertising platform offers <strong>Amazon PPC services</strong> to help businesses promote their items on the Amazon marketplace. 
-      PPC (pay-per-click) allows vendors to pay only when a potential consumer clicks on their ad.
-    `,
+        question: "What is Amazon PPC Service and how can it help increase sales?",
+        answer: "Amazon PPC Service involves managing paid advertising campaigns to help your products appear in front of relevant shoppers on Amazon. Our approach includes campaign setup, keyword research, bid optimization, search-term analysis, negative keyword management, and ongoing performance monitoring to improve visibility and generate more qualified sales.",
     },
     {
         id: "Two",
-        question: "How much does Amazon PPC cost?",
-        answer: `
-      The typical cost of <strong>Amazon PPC Services USA</strong> ranges between USD 0.10 and USD 6.00 per click. 
-      This depends on your product category, competition, and campaign goals. 
-      Understanding these expenses helps you optimize your ad spend and achieve better results on the Amazon platform.
-    `,
+        question: "How do you optimize Amazon PPC campaigns to reduce wasted ad spend?",
+        answer: "We regularly review search terms, keywords, bids, placements, and campaign performance to identify where budget is being spent without generating useful results. We then add negative keywords, adjust bids, refine targeting, and move budget toward campaigns and keywords that show stronger sales potential.",
     },
     {
         id: "Three",
-        question: "How do I choose the right Amazon PPC Service Company?",
-        answer: `
-      To choose the right Amazon PPC Service Company, consider factors such as their experience, track record, and client testimonials. 
-      Look for a firm that understands your business goals, provides transparent reporting, 
-      and has a solid approach to keyword research, ad optimization, and campaign management.
-    `,
+        question: "What Amazon PPC campaigns should I run for my products?",
+        answer: "The right campaign mix depends on your products, category, competition, sales history, and advertising goals. We can build and manage Sponsored Products, Sponsored Brands, and Sponsored Display campaigns, using different targeting strategies to capture high-intent searches, discover new keywords, and support brand visibility.",
     },
     {
         id: "Four",
-        question: "Is Amazon PPC good?",
-        answer: `
-      Yes. PPC advertising offers numerous advantages and is essential for any firm selling on Amazon. 
-      It provides valuable performance metrics, allows flexible budgeting, and helps you gauge how effective your advertising truly is.
-    `,
+        question: "How do you decide which keywords to target for Amazon PPC?",
+        answer: "We combine keyword research with your product information, Amazon search behavior, competitor research, and actual campaign search-term data. This helps us identify relevant high-intent keywords and continuously refine the keyword list as the campaigns generate more data.",
     },
     {
         id: "Five",
-        question: "How long does it take to run Amazon PPC?",
-        answer: `
-      Generally, it takes a few days to several weeks for an Amazon PPC campaign to show results. 
-      However, with well-managed and optimized efforts, you can begin seeing measurable outcomes within days.
-    `,
+        question: "How long does it take to see results from Amazon PPC?",
+        answer: "Results vary based on factors such as product demand, competition, pricing, reviews, listing quality, budget, and historical campaign data. We normally use the initial campaign period to collect performance data and identify winning keywords, targeting, and bids before making further optimization decisions.",
     },
     {
         id: "Six",
-        question: "Who can use Amazon PPC?",
-        answer: `
-      Amazon PPC is available for all third-party vendors on the Amazon platform. 
-      It enables sellers to set up campaigns for their product ads, paying only when a potential buyer clicks on the advertisement.
-    `,
-    },
-];
-const caseStudies = [
-    {
-        id: 1,
-        title: "Amazon PPC",
-        image: "/images/services/service-inner/amazon-ppc.png",
-        description:
-            "Clients came to us with a range of Amazon PPC management difficulties. Among them were poor search term management, bids, insufficient...",
-        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon%20PPC-converted.pdf",
+        question: "What metrics do you monitor in Amazon PPC campaigns?",
+        answer: "We monitor metrics such as impressions, clicks, CTR, CPC, spend, orders, sales, conversion rate, ACoS, and ROAS. We use these metrics together rather than focusing on one number, because reducing ACoS alone may not always be the best strategy if the goal is to increase profitable sales and overall revenue.",
     },
     {
-        id: 2,
-        title: "Amazon PPC Campaigns",
-        image: "/images/services/service-inner/amazon-sale-boost.jpg",
-        description:
-            "Clients often approach us with challenges in managing their Amazon PPC campaigns effectively....",
-        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-ppc-case-study.pdf",
+        id: "Seven",
+        question: "Can you manage Amazon PPC campaigns for multiple products or SKUs?",
+        answer: "Yes. We can manage PPC campaigns across multiple products and SKUs by organizing campaigns according to product, keyword, targeting, and performance goals. This makes it easier to control budgets, identify strong and weak performers, and scale campaigns based on actual results.",
     },
 ];
 
@@ -173,21 +139,21 @@ const portfolioClients = [
 const testimonials = [
     {
         id: 1,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Tech2Globe's PPC team is phenomenal. They rebuilt our entire campaign architecture with laser-focused keyword targeting. ACOS dropped from 45% to 14% and our sales doubled within 8 weeks.",
         name: "Liam O'Connor | GreenShield Supplements",
         location: "Ireland",
     },
     {
         id: 2,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Our Amazon.co.jp PPC was completely inefficient with Japanese keyword targeting. Tech2Globe's specialists rebuilt our campaigns with culturally relevant keywords. ROAS improved from 1.8x to 6.2x.",
         name: "Akira Watanabe | JapanCraft Premium",
         location: "Japan",
     },
     {
         id: 3,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Tech2Globe manages all our PPC across AU, US, and UK marketplaces. Their cross-marketplace PPC expertise is outstanding. Combined TACOS maintained at 9% while revenue grew 80% year-over-year.",
         name: "Amelia Roberts | CoralBay Beauty",
         location: "Australia",
@@ -199,52 +165,121 @@ export default function AmazonPPCServices() {
 
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "What is Amazon PPC management?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Amazon PPC management refers to the process of managing and optimizing pay-per-click campaigns on Amazon. It includes keyword research, choosing ad types, setting bids, and tracking performance to increase traffic and sales."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/amazon-ppc-services#webpage",
+                "url": "https://www.tech2globe.com/amazon-ppc-services",
+                "name": "Amazon PPC Services",
+                "description": "Tech2Globe provides Amazon PPC Services including campaign setup, keyword research, bid optimization, search-term analysis, negative keyword management, and ongoing campaign performance optimization.",
+                "isPartOf": {
+                    "@id": "https://www.tech2globe.com/#website"
+                },
+                "about": {
+                    "@id": "https://www.tech2globe.com/amazon-ppc-services#service"
+                },
+                "publisher": {
+                    "@id": "https://www.tech2globe.com/#organization"
+                },
+                "breadcrumb": {
+                    "@id": "https://www.tech2globe.com/amazon-ppc-services#breadcrumb"
+                },
+                "inLanguage": "en-US"
             },
             {
-                "@type": "Question",
-                "name": "Why should I hire your company for Amazon PPC management?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We are an experienced Amazon advertising agency with PPC experts who create and optimize campaigns that boost traffic, improve sales, and maximize ROI. We stay updated on Amazon's PPC trends and best practices."
-                }
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/amazon-ppc-services#service",
+                "name": "Amazon PPC Services",
+                "serviceType": "Amazon PPC Advertising",
+                "description": "Amazon PPC Services including campaign setup and management, keyword research, bid optimization, search-term analysis, negative keyword management, Sponsored Products, Sponsored Brands, Sponsored Display, and ongoing performance monitoring.",
+                "provider": {
+                    "@id": "https://www.tech2globe.com/#organization"
+                },
+                "areaServed": {
+                    "@type": "Place",
+                    "name": "Worldwide"
+                },
+                "url": "https://www.tech2globe.com/amazon-ppc-services"
             },
             {
-                "@type": "Question",
-                "name": "How do you determine the right keywords for my campaigns?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We perform detailed keyword research using Amazon search data, competitor analysis, and industry tools to find the most relevant and high-performing keywords for your products."
-                }
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/amazon-ppc-services#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.tech2globe.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Amazon PPC Services",
+                        "item": "https://www.tech2globe.com/amazon-ppc-services"
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Can you manage my entire Amazon account, or just PPC?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We offer complete Amazon account management including PPC, Sponsored Products, inventory management, product listing optimization, and more. We handle as much or as little as you need."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How often do you provide campaign performance reports?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We provide regular, detailed performance reports and schedule check-ins to review metrics and make needed adjustments for better campaign results."
-                }
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/amazon-ppc-services#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Amazon PPC Service and how can it help increase sales?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Amazon PPC Service involves managing paid advertising campaigns to help your products appear in front of relevant shoppers on Amazon. Our approach includes campaign setup, keyword research, bid optimization, search-term analysis, negative keyword management, and ongoing performance monitoring to improve visibility and generate more qualified sales."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do you optimize Amazon PPC campaigns to reduce wasted ad spend?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We regularly review search terms, keywords, bids, placements, and campaign performance to identify where budget is being spent without generating useful results. We then add negative keywords, adjust bids, refine targeting, and move budget toward campaigns and keywords that show stronger sales potential."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What Amazon PPC campaigns should I run for my products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The right campaign mix depends on your products, category, competition, sales history, and advertising goals. We can build and manage Sponsored Products, Sponsored Brands, and Sponsored Display campaigns, using different targeting strategies to capture high-intent searches, discover new keywords, and support brand visibility."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do you decide which keywords to target for Amazon PPC?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We combine keyword research with your product information, Amazon search behavior, competitor research, and actual campaign search-term data. This helps us identify relevant high-intent keywords and continuously refine the keyword list as the campaigns generate more data."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does it take to see results from Amazon PPC?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Results vary based on factors such as product demand, competition, pricing, reviews, listing quality, budget, and historical campaign data. We normally use the initial campaign period to collect performance data and identify winning keywords, targeting, and bids before making further optimization decisions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What metrics do you monitor in Amazon PPC campaigns?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We monitor metrics such as impressions, clicks, CTR, CPC, spend, orders, sales, conversion rate, ACoS, and ROAS. We use these metrics together rather than focusing on one number, because reducing ACoS alone may not always be the best strategy if the goal is to increase profitable sales and overall revenue."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can you manage Amazon PPC campaigns for multiple products or SKUs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We can manage PPC campaigns across multiple products and SKUs by organizing campaigns according to product, keyword, targeting, and performance goals. This makes it easier to control budgets, identify strong and weak performers, and scale campaigns based on actual results."
+                        }
+                    }
+                ]
             }
         ]
     };
@@ -264,14 +299,13 @@ export default function AmazonPPCServices() {
                         <div className="row d-flex justify-content-center align-items-center">
                             <div className="col-md-12 col-md-offset-1  d-none d-sm-block">
                                 <ul className={Style.partners}>
-                                    <li><img src="/images/clients/hp.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/nike.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/amazon-usa.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/mahmayi.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/abrams.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/creative-arcades.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/legend-logo_140x.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
-                                    <li><img src="/images/clients/ss-mediacl.png" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/hp.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/nike.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/mahmayi.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/abrams.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/creative-arcades.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/legend-logo_140x.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
+                                    <li><img src="/images/clients/ss-mediacl.webp" alt="tool-logo" width="300px" className={Style.partner} /></li>
                                 </ul>
                             </div>
                         </div>
@@ -298,7 +332,7 @@ export default function AmazonPPCServices() {
                                     </h3>
                                     <p className="text-left">Shine on with customized PPC for Amazon campaigns from Tech2Globe. Our Amazon experts use advanced digital marketing methods to attract the right consumers by highlighting the uniqueness of your brand. Our motive is not just to make you visible but also to make you stand out!
                                     </p>
-                                    <img src="/images/services/amazon-sponsored-products.png" className="img-responsive" alt />
+                                    <img src="/images/services/amazon-sponsored-products.webp" className="img-responsive" alt />
                                 </div>
                             </div>
                             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 text-left mb-4">
@@ -307,7 +341,7 @@ export default function AmazonPPCServices() {
                                     </h3>
                                     <p className="text-left">Build your brand&apos;s recognition on Amazon with our innovative PPC for <Link href="/amazon-account-management" className="text-decoration-underline fw-normal">Amazon management services</Link>. We&apos;ll raise your brand&apos;s awareness by creating targeted campaigns, which will highlight your company&apos;s unique selling features.
                                     </p>
-                                    <img src="/images/services/amazon-sponsored-brands.png" className="img-responsive" alt />
+                                    <img src="/images/services/amazon-sponsored-brands.webp" className="img-responsive" alt />
                                 </div>
                             </div>
                             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 text-left mb-4">
@@ -316,7 +350,7 @@ export default function AmazonPPCServices() {
                                     </h3>
                                     <p className="text-left">Take your product listings to new heights with Tech2Globe&apos;s customized Amazon advertising campaigns. As an Amazon PPC service company, our team of experts implements innovative <a href="/digital-marketing-services" className="text-decoration-underline">digital marketing</a> strategies to optimize your product listings and create eye-catching ads, driving more sales on the platform as a result.
                                     </p>
-                                    <img src="/images/services/amazon-sponsored-display-ads.png" className="img-responsive" alt />
+                                    <img src="/images/services/amazon-sponsored-display-ads.webp" className="img-responsive" alt />
                                 </div>
                             </div>
                             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 text-left mb-4">
@@ -325,7 +359,7 @@ export default function AmazonPPCServices() {
                                     </h3>
                                     <p className="text-left">If you are tired of blending into the background, then our creative ad campaigns are here to assist you. We will be your guide to tell your story in a way that grabs attention, sets you apart from the competition, and positions you as a leader in your industry. Partner with our <strong>Amazon PPC Management</strong> service experts and drive sales through compelling advertising strategies.
                                     </p>
-                                    <img src="/images/services/Strengthen-Brand-Recognition.png" className="img-responsive" alt />
+                                    <img src="/images/services/Strengthen-Brand-Recognition.webp" className="img-responsive" alt />
                                 </div>
                             </div>
                         </div>
@@ -411,7 +445,7 @@ export default function AmazonPPCServices() {
                         <div className={Style.inner}>
                             <div className={`${Style.commonInner} inner1`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/health-care.png" alt />
+                                    <img src="/images/services/health-care.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Healthcare
@@ -419,7 +453,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner2`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/skin-care-1-1.png" alt />
+                                    <img src="/images/services/skin-care-1-1.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Beauty
@@ -427,7 +461,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner3`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/food.png" alt />
+                                    <img src="/images/services/food.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Food
@@ -435,7 +469,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner4`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/home-1-1.png" alt />
+                                    <img src="/images/services/home-1-1.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Home &amp; Kitchen
@@ -443,7 +477,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner9`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/sports-1.png" alt />
+                                    <img src="/images/services/sports-1.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Sports
@@ -453,7 +487,7 @@ export default function AmazonPPCServices() {
                         <div className={Style.inner}>
                             <div className={`${Style.commonInner} inner5`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/fashion.png" alt />
+                                    <img src="/images/services/fashion.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Fashion
@@ -461,7 +495,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner6`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/open-book-1.png" alt />
+                                    <img src="/images/services/open-book-1.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Kindle &amp; Books
@@ -469,7 +503,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner7`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/elec.png" alt />
+                                    <img src="/images/services/elec.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Electronics
@@ -477,7 +511,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner8`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/software.png" alt />
+                                    <img src="/images/services/software.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     Software
@@ -485,7 +519,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className={`${Style.commonInner} inner10`}>
                                 <div className={`${Style.img} mx-auto`}>
-                                    <img src="/images/services/all-1.png" alt />
+                                    <img src="/images/services/all-1.webp" alt />
                                 </div>
                                 <div className={`${Style.title} mx-auto`}>
                                     All
@@ -572,13 +606,13 @@ export default function AmazonPPCServices() {
                             <div className={`${Style.tzGallery}`}>
                                 <div className="row">
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
-                                        <a className="lightbox" href="images/services/amazon-map-pricing-surveillance.png">
-                                            <img src="images/services/amazon-map-pricing-surveillance.png" alt="Bridge" className="img-fluid" />
+                                        <a className="lightbox" href="images/services/amazon-map-pricing-surveillance.webp">
+                                            <img src="images/services/amazon-map-pricing-surveillance.webp" alt="Bridge" className="img-fluid" />
                                         </a>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
-                                        <a className="lightbox" href="images/services/amazon-map-pricing-surveillance-1.png">
-                                            <img src="images/services/amazon-map-pricing-surveillance-1.png" alt="Park" className="img-fluid" />
+                                        <a className="lightbox" href="images/services/amazon-map-pricing-surveillance-1.webp">
+                                            <img src="images/services/amazon-map-pricing-surveillance-1.webp" alt="Park" className="img-fluid" />
                                         </a>
                                     </div>
                                 </div>
@@ -592,7 +626,6 @@ export default function AmazonPPCServices() {
             
 
             <ClientPortfolio clients={portfolioClients} />
-            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>

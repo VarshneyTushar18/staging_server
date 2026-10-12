@@ -84,6 +84,22 @@ function SubTabGroup({ subTabs, parentIndex }) {
   );
 }
 
+function isAmazonLink(url) {
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "").toLowerCase();
+    return (
+      host === "amazon.com" ||
+      host.endsWith(".amazon.com") ||
+      /^amazon\.[a-z.]+$/i.test(host) ||
+      host === "amzn.to" ||
+      host === "a.co"
+    );
+  } catch {
+    return /amazon\./i.test(url) || /amzn\.to/i.test(url) || /a\.co\//i.test(url);
+  }
+}
+
 function PortfolioGrid({ items }) {
   // ✅ Normalize LINK
   const getLink = (item) => {
@@ -121,7 +137,9 @@ function PortfolioGrid({ items }) {
   return (
     <div className="row">
       {items?.map((item, k) => {
-        const link = getLink(item);
+        const rawLink = getLink(item);
+        // Amazon official links: show as unavailable (no click)
+        const link = rawLink && !isAmazonLink(rawLink) ? rawLink : "";
         const image = getImage(item);
 
         return (

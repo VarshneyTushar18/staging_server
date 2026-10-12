@@ -5,36 +5,44 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
-import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
-import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import Link from "next/link";
 import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
+import {
+    FaClipboardList,
+    FaExchangeAlt,
+    FaTags,
+    FaSitemap,
+    FaClock,
+    FaSyncAlt,
+    FaExclamationTriangle,
+} from "react-icons/fa";
 
 export const metadata = {
-    title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
+    title: "Amazon Catalog Management Services | Tech2Globe",
     description:
-        "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings.",
+        "Keep your Amazon product catalog accurate and organized with Tech2Globe. Get expert catalog management, SKU updates, product data, and error resolution.",
     keywords: [
-        "best Amazon listing optimization service",
-        "Amazon listing experts",
-        "Amazon product page optimization",
-        "Amazon catalog services",
-        "Amazon premium catalog service US",
-        "Amazon catalog management services"
+        "Amazon catalog management services",
+        "Amazon product catalog management",
+        "Amazon SKU management",
+        "Amazon catalog updates",
+        "Amazon product data management",
+        "Amazon catalog error resolution",
+        "Amazon variation management"
     ],
     openGraph: {
-        title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
+        title: "Amazon Catalog Management Services | Tech2Globe",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings.",
+            "Keep your Amazon product catalog accurate and organized with Tech2Globe. Get expert catalog management, SKU updates, product data, and error resolution.",
         url: "https://stagenew.tech2globe.tech/amazon-product-catalog"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Amazon Product Cataloging Services | AI-Assisted Listing Optimization & SEO",
+        title: "Amazon Catalog Management Services | Tech2Globe",
         description:
-            "Tech2Globe's AI-assisted Amazon cataloging services ensure every product listing is SEO-optimized, keyword-rich, and conversion-ready. We use intelligent content structuring to improve discoverability and boost organic rankings."
+            "Keep your Amazon product catalog accurate and organized with Tech2Globe. Get expert catalog management, SKU updates, product data, and error resolution."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/amazon-product-catalog"
@@ -42,11 +50,11 @@ export const metadata = {
 };
 
 const pageHeaderData = {
-    title: "Amazon Product Cataloging Services",
+    title: "Amazon Catalog Management Services",
     description:
-        "Managing thousands of SKUs across Amazon can be overwhelming. Sellers need accurate, SEO-friendly catalogs that not only meet Amazon’s requirements but also convert shoppers into buyers. At Tech2Globe, we provide complete Amazon product cataloging and listing optimization services—from product research and keyword-rich descriptions to high-quality images and A+ content. Our experts ensure your catalog is well-organized, accurate, and optimized for visibility and sales.",
+        "Keep your Amazon product catalog accurate and organized with Tech2Globe. Get expert catalog management, SKU updates, product data, and error resolution.",
     buttonText: "Contact us",
-    buttonLink: "#",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/services/skyscraper.jpg",
     overlay: true
 };
@@ -109,253 +117,47 @@ const sidebarSections = [
     { heading: "Resources", links: resources },
     { heading: "Useful Links", links: usefulLinks },
 ];
-const portfolio = [
-    {
-        title: "CATALOGUING",
-        items: [
-            {
-                title: "Alvish",
-                link: "https://www.amazon.com/dp/B07M8VYY4L",
-                img: "/images/services/portfolio-img/alvish.jpg",
-            },
-            {
-                title: "Teliaoils",
-                link: "https://www.amazon.co.uk/dp/B00IVNC114/",
-                img: "/images/services/portfolio-img/teliaoils.jpg",
-            },
-            {
-                title: "Joe Kitchen",
-                link: "https://www.amazon.de/dp/B07G8MT1C9",
-                img: "/images/services/portfolio-img/joejis-kitchen.jpg",
-            },
-            {
-                title: "Elegent",
-                link: "https://www.amazon.in/dp/B078HWPJSJ",
-                img: "/images/services/portfolio-img/elegant.jpg",
-            },
-            {
-                title: "Jabra",
-                link: "https://www.amazon.co.uk/dp/B00548P1DE",
-                img: "/images/services/portfolio-img/jabra.jpg",
-            },
-            {
-                title: "Logitech",
-                link: "https://www.amazon.co.uk/dp/B01BGBJ8Y0",
-                img: "/images/services/portfolio-img/logitech.jpg",
-            },
-        ],
-    },
-    {
-        title: "EBC/A+",
-        items: [
-            {
-                title: "Hopwater",
-                link: "https://www.amazon.com/dp/B07FM6DPMG",
-                img: "/images/services/portfolio-img/hopwater.jpg",
-            },
-            {
-                title: "Djmate",
-                link: "https://www.amazon.in/dp/B07KKM37T4",
-                img: "/images/services/portfolio-img/djmate.jpg",
-            },
-            {
-                title: "Glomania",
-                link: "https://www.amazon.com/dp/B00E1P4BRS",
-                img: "/images/services/portfolio-img/glomania.jpg",
-            },
-            {
-                title: "Greenyi",
-                link: "https://www.amazon.com/dp/B07C7Q2R6D",
-                img: "/images/services/portfolio-img/greenyi.jpg",
-            },
-            {
-                title: "Lesenz",
-                link: "https://www.amazon.co.uk/dp/B019VE5S98",
-                img: "/images/services/portfolio-img/lesenz.jpg",
-            },
-            {
-                title: "K-Linda",
-                link: "https://www.amazon.com/dp/B071FTW381",
-                img: "/images/services/portfolio-img/k-linda.jpg",
-            },
-            {
-                title: "CHZ",
-                link: "https://www.amazon.com/dp/B07QTCFLFC",
-                img: "/images/services/portfolio-img/chz.jpg",
-            },
-        ],
-    },
-    {
-        title: "STORES",
-        items: [
-            {
-                title: "Tulimed",
-                link: "https://www.amazon.com/tulimed",
-                img: "/images/services/portfolio-img/tulimed-store.jpg",
-            },
-            {
-                title: "Weavely",
-                link: "https://www.amazon.com/stores/page/A6347872-5FA2-4541-90CB-E2386113006F",
-                img: "/images/services/portfolio-img/weavely-store.jpg",
-            },
-            {
-                title: "Le Mirch",
-                link: "https://www.amazon.com/lemirch",
-                img: "/images/services/portfolio-img/le-mirch-store.jpg",
-            },
-        ],
-    },
-    {
-        title: "INFOGRAPHIC",
-        items: [
-            {
-                title: "Demarkt",
-                link: "https://www.amazon.co.uk/dp/B01N5227U7",
-                img: "/images/services/portfolio-img/demarkt.jpg",
-            },
-            {
-                title: "Maxboost",
-                link: "https://www.amazon.com/dp/B073DLZWX7",
-                img: "/images/services/portfolio-img/maxboost.jpg",
-            },
-            {
-                title: "Mpow",
-                link: "https://www.e-panneur.ca/",
-                img: "/images/services/portfolio-img/mpow.jpg",
-            },
-            {
-                title: "720° Dgree",
-                link: "https://www.amazon.fr/dp/B072FJXFBW",
-                img: "/images/services/portfolio-img/720-dgree.jpg",
-            },
-        ]
-    },
-    {
-        title: "RATING & REVIEWS",
-        items: [
-            {
-                title: "Elegent",
-                link: "https://www.amazon.in/dp/B078HWPJSJ",
-                img: "/images/services/portfolio-img/elegant.jpg",
-            },
-            {
-                title: "Logitech",
-                link: "https://www.amazon.co.uk/dp/B01BGBJ8Y0",
-                img: "/images/services/portfolio-img/logitech.jpg",
-            },
-            {
-                title: "Belkin",
-                link: "https://www.amazon.co.uk/dp/B00AYNRLFA",
-                img: "/images/services/portfolio-img/belkin.jpg",
-            },
-        ],
-    }
-]
-const caseStudies = [
-    {
-        "id": 1,
-        "title": "Product Visibility & Drive Sales 0.1",
-        "image": "/images/services/service-inner/untitled-design-20.png",
-        "description": "The client has been in the lighting business since 2011, specializing...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 2 - Sales Increase in different categories-converted.pdf"
-    },
-    {
-        "id": 2,
-        "title": "EBC and Storefront",
-        "image": "/images/services/service-inner/ebca.png",
-        "description": "Client deals in Health & Household items and Pet Supplies products on Amazon and wants...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 3 - EBC and Storefront-converted.pdf"
-    },
-    {
-        "id": 3,
-        "title": "Amazon PPC",
-        "image": "/images/services/service-inner/amazon-ppc.png",
-        "description": "Clients came to us with a range of Amazon PPC management difficulties....",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon PPC-converted.pdf"
-    },
-    {
-        "id": 4,
-        "title": "Product Visibility & Drive Sales",
-        "image": "/images/services/service-inner/untitled-design-18.png",
-        "description": "Client has been in the business of selling fine grooming products for over 15 years......",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 1 - Sales Increase in different categories-converted.pdf"
-    },
-    {
-        "id": 5,
-        "title": "e-Commerce Store for Luxury Goods",
-        "image": "/images/services/service-inner/e-commerce-store-for-luxury-goods.png",
-        "description": "It is the ultimate luxury fashion destination for the distribution and retail of Italian, French…",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce Store for Luxury Goods-converted.pdf"
-    },
-    {
-        "id": 6,
-        "title": "Amazon Sale Boost",
-        "image": "/images/services/service-inner/amazon-sale-boost.jpg",
-        "description": "Find out the most important areas where our team required utmost attention to showcase the work from day one …",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf"
-    },
-    {
-        "id": 7,
-        "title": "About Drop shipping",
-        "image": "/images/services/service-inner/about-drop-shipping.jpg",
-        "description": "Drop shipping is an e-retail term where someone facilitates the selling and delivery of an online product without …",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case-Study-Drop-Shipping.pdf"
-    },
-    {
-        "id": 8,
-        "title": "Migration from Sooq to Amazon.ae",
-        "image": "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
-        "description": "Forgiving the best solution to our client and comprehensive support is our specialty which we successfully …",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Migration-from-Sooq-to-AmazonAE.pdf"
-    },
-    {
-        "id": 9,
-        "title": "e-Commerce Multivendor Store 1.0",
-        "image": "/images/services/service-inner/e-commerce-multivendor-store-1-0.jpg",
-        "description": "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce version upgrade (1).pdf"
-    },
-    {
-        "id": 10,
-        "title": "e-Commerce Store Version Upgrade",
-        "image": "/images/services/service-inner/e-commerce-store-version-upgrade.jpg",
-        "description": "The previous version had issues with accepting payments via credit cards, so one of the improvement areas was to set …",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs/E-commerce version upgrade.pdf"
-    },
-    {
-        "id": 11,
-        "title": "Promotion of 2 x Shopify Stores",
-        "image": "/images/services/service-inner/promotion-of-2-x-shopify-stores.png",
-        "description": "In 2.5 periods of month projects handling, we’ve generated more than 6,000 Facebook Page Followers on “Fashion & Cosmetic”…",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Promotion of 2 x Shopify Stores-converted.pdf"
-    }
-]
 
 const faqs = [
     {
         "id": "One",
-        "question": "What is Amazon product cataloging?",
-        "answer": "Amazon product cataloging is the process of creating and managing product listings with accurate data, titles, descriptions, images, and keywords. A well-optimized catalog improves visibility and sales on Amazon."
+        "question": "What is Amazon catalog management?",
+        "answer": "Amazon catalog management involves creating, organizing, updating, reviewing, and maintaining product information within an Amazon catalog."
     },
     {
         "id": "Two",
         "question": "Why is Amazon catalog management important?",
-        "answer": "Amazon catalog management ensures that product information is accurate, SEO-friendly, and up-to-date. This improves discoverability, avoids listing errors, and boosts customer trust, leading to higher conversions."
+        "answer": "Accurate catalog information helps businesses maintain consistent product data, organize SKUs, reduce errors, and provide shoppers with clearer product information."
     },
     {
         "id": "Three",
-        "question": "How can Amazon product cataloging services increase sales?",
-        "answer": "Professional cataloging services optimize product titles, descriptions, and images with the right keywords. This improves ranking in Amazon search results, drives more traffic, and increases conversions."
+        "question": "Can you manage large Amazon catalogs?",
+        "answer": "Yes. Catalog management processes can be structured around large product ranges, including businesses with hundreds or thousands of SKUs."
     },
     {
         "id": "Four",
-        "question": "What’s the difference between basic and detailed cataloging?",
-        "answer": "Basic cataloging includes essential details like product name, SKU, and price. Detailed cataloging adds SEO-rich descriptions, bullet points, attributes, images, and A+ content for better customer engagement."
+        "question": "Can you update existing Amazon product information?",
+        "answer": "Yes. Product information can be reviewed and updated when details such as descriptions, specifications, attributes, images, or other listing information change."
     },
     {
         "id": "Five",
-        "question": "Do I need experts for Amazon product cataloging?",
-        "answer": "Yes. Amazon has strict guidelines, and errors can lead to suppressed listings. Expert cataloging services ensure compliance, keyword optimization, and high-quality content that attracts buyers."
+        "question": "Do you manage product variations?",
+        "answer": "Yes. Variation-related information can be reviewed and managed to help maintain accurate relationships between products and their available options."
+    },
+    {
+        "id": "Six",
+        "question": "Can you help resolve catalog errors?",
+        "answer": "Yes. We can review catalog information to identify issues such as missing data, inconsistent attributes, categorization problems, and other product information errors, then work through the required corrections."
+    },
+    {
+        "id": "Seven",
+        "question": "How often should an Amazon catalog be updated?",
+        "answer": "There is no single schedule that works for every business. Catalogs should be reviewed whenever products, specifications, pricing-related information, packaging, images, or other relevant details change. Businesses with large or frequently changing catalogs may benefit from ongoing maintenance."
+    },
+    {
+        "id": "Eight",
+        "question": "Can catalog management be outsourced?",
+        "answer": "Yes. Outsourcing catalog operations can give businesses access to dedicated resources for repetitive and detail-oriented product data tasks while internal teams focus on strategy and growth."
     }
 ];
 
@@ -443,36 +245,81 @@ export default function AmazonProductCatalog() {
     return (
         <>
             <PageHeader pageHeaderData={pageHeaderData} />
-            <Breadcrumb parentName="Services" pageName="Amazon Product Catalog" />
+            <Breadcrumb parentName="Services" pageName="Amazon Catalog Management" />
             <BrandSection />
             <section className={Style.PageContent}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                            <ServiceBanner pageName="Amazon Product Catalog" imageSrc={"/images/services/service-inner/amazon-virtual-assistant-top-banner2.jpg"} />
+                            <ServiceBanner pageName="Amazon Catalog Management" imageSrc={"/images/services/service-inner/amazon-virtual-assistant-top-banner2.jpg"} />
                             <div className={Style.ContentDiv}>
-                                <p className="para-text">As sellers must usually manage a huge number of SKUs, handling a multichannel inventory like on Amazon with many products can be challenging. However, Amazon’s cataloging requirements pose some obstacles to managing product data as they are stringent and require accuracy. Furthermore, the problem may worsen given the constant requirement of your catalog always being appealing and current. An informative, appealing catalog is quite a challenge for vendors since they have to be experts in their subjects, understand technology, and the e-commerce sector.</p>
-
-                                <p className="para-text">Insufficient resources, skill sets, and technology usually limits sellers&apos; ability to create and maintain a diverse product catalog. Partner with Tech2Globe, an industry leader that offers a suite of Amazon vendor cataloging and <Link href="/content-management-system" className="text-decoration-underline fw-bold">content management services</Link>  to make selling on Amazon simpler. Our Amazon catalog processing services maintain an organized, up-to-date, and informative product catalog, creating SEO-friendly, informative, and engaging content. We offer shopping experience with a well-managed checkout procedure, providing the <Link href="/amazon-seo-listing-optimization" className="text-decoration-underline fw-bold">best Amazon listing optimization service</Link>, and much more.</p>
-
                                 <h2 className={`${Style.headingText} pb-3`}>
-                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/customer-acatalog.png" alt="A+ Cataloging" />
-                                    A+ CatalogingOur Complete Amazon Seller Account Management Services
+                                    Amazon Catalog Management Services for Accurate Product Data
                                 </h2>
                                 <p className="para-text">
-                                    At Tech2Globe, we understand that catalog management is critical for increasing traffic, boosting conversion, and retaining consumers on Amazon, but it can be time-consuming and demands dedication. As a result, our Amazon list management services provide list generation, enrichment and management. We work to create listings that are SEO-friendly, engaging, and informative, leaving you less time to focus on other important business tasks.
+                                    Managing an Amazon catalog becomes increasingly difficult as your product range grows. New SKUs need to be added, product information changes, variations need to stay organized, and errors can appear across listings. Even a small mistake in product data can create confusion for shoppers or make it harder to manage your catalog efficiently.
                                 </p>
                                 <p className="para-text">
-                                    Our inventory services are provided by experienced copywriters, ecommerce specialists, Amazon listing specialists, and inventory managers with years of experience. We provide a positive shopping experience for your customers by making it possible to have consistent and innovative listings that increase sales and exposure. Use our Amazon product page optimization and content management services to develop accurate, engaging, and detailed product catalogs and provide the best shopping experience.
+                                    Tech2Globe provides <strong>Amazon catalog management services</strong> to help brands keep their product information accurate, organized, consistent, and up to date.
+                                </p>
+                                <p className="para-text">
+                                    From product data and SKU organization to catalog updates, categorization, content maintenance, and error resolution, our team helps businesses manage the operational side of their Amazon catalog while they focus on growing their marketplace presence.
                                 </p>
 
                                 <h2 className={`${Style.headingText} pt-4 pb-3`}>
-                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="images/services/amazon-icon.png" alt="A+ Cataloging" />
-                                    A+ CatalogingCataloging Services Offered by Tech2Globe
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/customer-acatalog.png" alt="What Is Amazon Catalog Management" />
+                                    What Is Amazon Catalog Management?
                                 </h2>
-                                <div className={`${Style.PageAccordion} accordion`} id="accordionSection1">
+                                <p className="para-text">
+                                    Amazon catalog management is the process of creating, organizing, maintaining, and updating the product information associated with a brand&apos;s Amazon listings.
+                                </p>
+                                <p className="para-text">
+                                    A product catalog can include information such as product titles, descriptions, images, specifications, variations, categories, attributes, identifiers, and other listing data.
+                                </p>
+                                <p className="para-text">
+                                    For a business with a handful of products, managing this information may be relatively simple. But when a catalog contains hundreds or thousands of SKUs, keeping everything accurate becomes a continuous operational task.
+                                </p>
+                                <p className="para-text">
+                                    A structured approach helps ensure that product information remains consistent and that changes are handled correctly across the catalog.
+                                </p>
 
-                                    {/* Accordion 1 */}
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/detail.png" alt="Why Accurate Amazon Catalog Data Matters" />
+                                    Why Accurate Amazon Catalog Data Matters
+                                </h2>
+                                <p className="para-text">
+                                    Think about a customer searching for a product and finding incomplete specifications, the wrong variation, outdated information, or inconsistent images.
+                                </p>
+                                <p className="para-text">
+                                    Even when the product itself is good, poor catalog information can create doubt.
+                                </p>
+                                <p className="para-text">
+                                    Accurate product data helps shoppers understand what they are considering before they make a purchase. It also makes the catalog easier for businesses to manage as products, variations, and information change.
+                                </p>
+                                <p className="para-text">Effective catalog management can help businesses:</p>
+                                <ul>
+                                    <li>Keep product information current</li>
+                                    <li>Maintain consistent listing content</li>
+                                    <li>Organize products and variations properly</li>
+                                    <li>Reduce catalog errors</li>
+                                    <li>Improve product discoverability</li>
+                                    <li>Make large catalogs easier to manage</li>
+                                    <li>Maintain a consistent brand presentation</li>
+                                    <li>Support smoother day-to-day Amazon operations</li>
+                                </ul>
+                                <p className="para-text">
+                                    Catalog quality is therefore not just an administrative concern. It is part of the overall customer experience.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/clicker.png" alt="Our Amazon Catalog Management Services" />
+                                    Our Amazon Catalog Management Services
+                                </h2>
+                                <p className="para-text">
+                                    Every catalog has its own structure and challenges. Our approach is designed around the size, complexity, and requirements of your product range.
+                                </p>
+
+                                <div className={`${Style.PageAccordion} accordion`} id="accordionSection1">
                                     <div className={`${Style.AccordionItem} accordion-item`}>
                                         <h2 className="accordion-header" id="headingOne">
                                             <button
@@ -483,32 +330,29 @@ export default function AmazonProductCatalog() {
                                                 aria-expanded="true"
                                                 aria-controls="collapseOne"
                                             >
-                                                Product Research on Amazon
+                                                Product Data Management
                                             </button>
                                         </h2>
                                         <div
                                             id="collapseOne"
                                             className="accordion-collapse collapse show"
                                             aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample"
+                                            data-bs-parent="#accordionSection1"
                                         >
                                             <div className={`${Style.AccordionBody} accordion-body`}>
                                                 <p className="para-text">
-                                                    Amazon&apos;s success crucially depends upon a suitable product having high demand.
-                                                    Researching and identifying products that sell well and have minimal competition is an
-                                                    intense effort that takes time, talent and experience. The Amazon product optimization
-                                                    service from Tech2Globe can help you find the proper selection of items that sell well and
-                                                    have strong margins, even if you have a restricted budget. We use analytical tools, market
-                                                    research expertise, and best practices to conduct detailed analysis of other markets,
-                                                    competitors, pricing strategies, customer demand behavior, and past sales data. We can
-                                                    help you identify requirements and narrow down potential suppliers. Our staff recommends
-                                                    competitive pricing strategies and calculates FBA fees and net profit accurately.
+                                                    Product information needs to be accurate and consistent across the catalog.
+                                                </p>
+                                                <p className="para-text">
+                                                    We can manage and update key product details, including titles, descriptions, specifications, attributes, identifiers, and other relevant information.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    Our team works with the available product data to help maintain a clean and organized catalog.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    {/* Accordion 2 */}
                                     <div className={`${Style.AccordionItem} accordion-item`}>
                                         <h2 className="accordion-header" id="headingTwo">
                                             <button
@@ -519,31 +363,29 @@ export default function AmazonProductCatalog() {
                                                 aria-expanded="false"
                                                 aria-controls="collapseTwo"
                                             >
-                                                Product Listing on Amazon
+                                                SKU and Catalog Organization
                                             </button>
                                         </h2>
                                         <div
                                             id="collapseTwo"
                                             className="accordion-collapse collapse"
                                             aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample"
+                                            data-bs-parent="#accordionSection1"
                                         >
                                             <div className={`${Style.AccordionBody} accordion-body`}>
                                                 <p className="para-text">
-                                                    It&apos;s critical to list your items precisely and systematically while ensuring that your
-                                                    catalog complies with all of Amazon&apos;s requirements and standards. Our{" "}
-                                                    <strong>Amazon listing specialist</strong> will assist you in managing your{" "}
-                                                    <strong>Amazon product list</strong> from start to finish. Comprehensive data management,
-                                                    classification, bulk product upload, and feed development are among our offered services.
-                                                    We also make changes to product titles, price, description photos, SKUs, and availability,
-                                                    among other things. To comply with Amazon&apos;s criteria and increase conversion, we maintain
-                                                    and optimize inventory and alter photos.
+                                                    Large catalogs can quickly become difficult to control when products and variations are not organized properly.
+                                                </p>
+                                                <p className="para-text">
+                                                    We help structure product information and manage SKU-level details so that products, variations, and related information are easier to maintain.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    This is particularly useful for businesses managing extensive product ranges or frequent catalog changes.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    {/* Accordion 3 */}
                                     <div className={`${Style.AccordionItem} accordion-item`}>
                                         <h2 className="accordion-header" id="headingThree">
                                             <button
@@ -554,30 +396,29 @@ export default function AmazonProductCatalog() {
                                                 aria-expanded="false"
                                                 aria-controls="collapseThree"
                                             >
-                                                Basic Cataloging
+                                                Product Categorization
                                             </button>
                                         </h2>
                                         <div
                                             id="collapseThree"
                                             className="accordion-collapse collapse"
                                             aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample"
+                                            data-bs-parent="#accordionSection1"
                                         >
                                             <div className={`${Style.AccordionBody} accordion-body`}>
                                                 <p className="para-text">
-                                                    Your product catalog should be up-to-date, accurate, and full down to the last detail to
-                                                    increase traffic and convert visitors. That is why our <strong>Amazon SEO expert</strong>{" "}
-                                                    will provide all necessary assistance to guarantee that all basic categorization tasks are
-                                                    completed quickly. Classifying goods, establishing proper names, generating product
-                                                    information, developing SEO-rich product descriptions, optimizing content, and gathering
-                                                    relevant photographs and videos are all part of our basic cataloging service. To enable
-                                                    browsing, search, and commerce, we standardize product information and metadata.
+                                                    Correct categorization helps keep products organized and can make catalog management more efficient.
+                                                </p>
+                                                <p className="para-text">
+                                                    We review product information and assign relevant categories and attributes based on the applicable Amazon requirements and available catalog structure.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    The objective is to make sure products are represented as accurately as possible within the marketplace.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    {/* Accordion 4 */}
                                     <div className={`${Style.AccordionItem} accordion-item`}>
                                         <h2 className="accordion-header" id="headingFour">
                                             <button
@@ -588,40 +429,296 @@ export default function AmazonProductCatalog() {
                                                 aria-expanded="false"
                                                 aria-controls="collapseFour"
                                             >
-                                                Detailed Cataloging
+                                                Listing Content Updates
                                             </button>
                                         </h2>
                                         <div
                                             id="collapseFour"
                                             className="accordion-collapse collapse"
                                             aria-labelledby="headingFour"
-                                            data-bs-parent="#accordionExample"
+                                            data-bs-parent="#accordionSection1"
                                         >
                                             <div className={`${Style.AccordionBody} accordion-body`}>
                                                 <p className="para-text">
-                                                    Product content management is crucial to an Amazon store&apos;s long-term success. Tech2Globe
-                                                    provides thorough cataloging services to assist sellers in creating rich catalogs with
-                                                    search-optimized keywords and optional features to improve product exposure, ranking, and
-                                                    searchability. We improve and expand your product catalog by using high search volume
-                                                    keywords based on detailed keyword research. It allows your consumers to find, connect
-                                                    with, and buy things easily, giving you a competitive advantage.
+                                                    Product information changes over time.
+                                                </p>
+                                                <p className="para-text">
+                                                    A product may receive a new specification, packaging update, feature, image, or description. Seasonal information may also need to be updated.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    We can help manage these changes so that your Amazon catalog remains aligned with your latest product information.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <div className={`${Style.AccordionItem} accordion-item`}>
+                                        <h2 className="accordion-header" id="headingFive">
+                                            <button
+                                                className={`${Style.AccordionButton} accordion-button collapsed`}
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive"
+                                            >
+                                                Variation Management
+                                            </button>
+                                        </h2>
+                                        <div
+                                            id="collapseFive"
+                                            className="accordion-collapse collapse"
+                                            aria-labelledby="headingFive"
+                                            data-bs-parent="#accordionSection1"
+                                        >
+                                            <div className={`${Style.AccordionBody} accordion-body`}>
+                                                <p className="para-text">
+                                                    Products with different sizes, colors, styles, pack quantities, or other options require careful organization.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    We help manage variation-related information and review product relationships to support a clearer shopping experience and cleaner catalog structure.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${Style.AccordionItem} accordion-item`}>
+                                        <h2 className="accordion-header" id="headingSix">
+                                            <button
+                                                className={`${Style.AccordionButton} accordion-button collapsed`}
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix"
+                                                aria-expanded="false"
+                                                aria-controls="collapseSix"
+                                            >
+                                                Catalog Audits and Error Resolution
+                                            </button>
+                                        </h2>
+                                        <div
+                                            id="collapseSix"
+                                            className="accordion-collapse collapse"
+                                            aria-labelledby="headingSix"
+                                            data-bs-parent="#accordionSection1"
+                                        >
+                                            <div className={`${Style.AccordionBody} accordion-body`}>
+                                                <p className="para-text">
+                                                    Catalog problems can be difficult to identify when you&apos;re managing hundreds of products.
+                                                </p>
+                                                <p className="para-text">
+                                                    We can review product information to identify inconsistencies, missing data, incorrect attributes, categorization issues, and other catalog-related problems.
+                                                </p>
+                                                <p className="para-text mb-0">
+                                                    Where appropriate, we then work through the required updates or corrections.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
-
                                 <h2 className={`${Style.headingText} pt-4 pb-3`}>
-                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/clicker.png" alt="A+ Cataloging" />
-                                    Why Should You Work with Us?
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/customer-acatalog.png" alt="How Our Amazon Catalog Management Process Works" />
+                                    How Our Amazon Catalog Management Process Works
                                 </h2>
                                 <p className="para-text">
-                                    When you work with Tech2Globe for Amazon product content management services, we can help you create an optimized <strong>Amazon product list</strong> with details like: SKUs, product names, brand names, manufacturer part numbers, description, pictures, pricing, and more, so you can improve your search engine rankings and sales.
+                                    Managing a catalog efficiently requires a repeatable process rather than occasional updates.
+                                </p>
+
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                        <div className={Style.WaCardTwo}>
+                                            <img
+                                                src="/images/services/service-inner/examine.png"
+                                                alt="Catalog Assessment"
+                                                width="100%"
+                                            />
+                                            <div className={Style.WaCardBody}>
+                                                <h5>1. Catalog Assessment</h5>
+                                                <p>We begin by reviewing the existing catalog and understanding its size, structure, product types, variations, and current requirements. This helps identify areas that need attention.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                        <div className={Style.WaCardTwo}>
+                                            <img
+                                                src="/images/services/service-inner/medical-research.png"
+                                                alt="Data Collection and Validation"
+                                                width="100%"
+                                            />
+                                            <div className={Style.WaCardBody}>
+                                                <h5>2. Data Collection and Validation</h5>
+                                                <p>We gather the relevant product information and review it for completeness and consistency. Where information is missing or unclear, we identify it for clarification before making updates.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                        <div className={Style.WaCardTwo}>
+                                            <img
+                                                src="/images/services/service-inner/action-plan.png"
+                                                alt="Catalog Updates"
+                                                width="100%"
+                                            />
+                                            <div className={Style.WaCardBody}>
+                                                <h5>3. Catalog Updates</h5>
+                                                <p>Once the information is validated, the required product data, categorization, attributes, content, and other details are updated according to the project requirements.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                        <div className={Style.WaCardTwo}>
+                                            <img
+                                                src="/images/services/service-inner/anti-virus.png"
+                                                alt="Quality Checks"
+                                                width="100%"
+                                            />
+                                            <div className={Style.WaCardBody}>
+                                                <h5>4. Quality Checks</h5>
+                                                <p>Changes are reviewed to catch inconsistencies, formatting issues, missing information, or other errors before the catalog is considered complete.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                        <div className={Style.WaCardTwo}>
+                                            <img
+                                                src="/images/services/service-inner/strategy.png"
+                                                alt="Ongoing Maintenance"
+                                                width="100%"
+                                            />
+                                            <div className={Style.WaCardBody}>
+                                                <h5>5. Ongoing Maintenance</h5>
+                                                <p>Amazon catalogs are not static. New products are added, existing products change, and marketplace requirements can evolve. Ongoing support helps keep the catalog accurate as your business grows.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/list.png" alt="Common Amazon Catalog Problems" />
+                                    Common Amazon Catalog Problems We Help With
+                                </h2>
+                                <p className="para-text">
+                                    Managing product information at scale can lead to a variety of issues. Some common challenges include:
+                                </p>
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaClipboardList />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Incomplete product information</h5>
+                                            <p className="text-muted medium mb-0">Important attributes or specifications may be missing from listings.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaExchangeAlt />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Inconsistent product data</h5>
+                                            <p className="text-muted medium mb-0">Different products may use inconsistent formats, terminology, or descriptions.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaTags />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Incorrect categorization</h5>
+                                            <p className="text-muted medium mb-0">Products may be assigned to categories or attributes that don&apos;t accurately represent them.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaSitemap />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Variation issues</h5>
+                                            <p className="text-muted medium mb-0">Products with multiple options may not be organized clearly.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaClock />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Outdated content</h5>
+                                            <p className="text-muted medium mb-0">Product information may no longer match the current product.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaSyncAlt />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Large-scale updates</h5>
+                                            <p className="text-muted medium mb-0">Updating hundreds or thousands of products manually can consume significant time and resources.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaExclamationTriangle />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Catalog errors</h5>
+                                            <p className="text-muted medium mb-0">Existing errors can be difficult to identify without a systematic review.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p className="para-text">
+                                    A dedicated catalog management process can make these challenges easier to identify and resolve.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/goal.png" alt="Benefits of Professional Amazon Catalog Management" />
+                                    Benefits of Professional Amazon Catalog Management
+                                </h2>
+                                <p className="para-text">
+                                    Managing your catalog internally can become increasingly demanding as your product range expands.
+                                </p>
+                                <p className="para-text">Professional support can help your business maintain:</p>
+                                <ul>
+                                    <li>More consistent product information</li>
+                                    <li>Better-organized SKUs</li>
+                                    <li>Cleaner catalog structures</li>
+                                    <li>More accurate product attributes</li>
+                                    <li>Faster handling of catalog updates</li>
+                                    <li>Better visibility into catalog issues</li>
+                                    <li>A more consistent customer experience</li>
+                                </ul>
+                                <p className="para-text">
+                                    It can also free your internal team from repetitive catalog tasks and allow them to focus on broader marketplace and business priorities.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/clicker.png" alt="Why Choose Tech2Globe" />
+                                    Why Choose Tech2Globe?
+                                </h2>
+                                <p className="para-text">
+                                    Tech2Globe combines ecommerce experience, Amazon marketplace knowledge, catalog operations, content management, and quality control to support businesses with complex product catalogs.
                                 </p>
                                 <p className="para-text">
-                                    Our <strong>Amazon catalog services</strong> team generates exact and unique product descriptions that entice visitors to complete the transaction. We can assist you with any <strong>Amazon premium catalog service US</strong> requirements you may have, whether you want to list and launch new items or improve your existing library on Amazon.
+                                    We understand that catalog management is not simply about changing product information. It requires attention to detail, consistency, process management, and an understanding of how individual product records fit into the wider catalog.
+                                </p>
+                                <p className="para-text">
+                                    Whether you are launching a new product range, managing a growing catalog, correcting existing data issues, or looking for ongoing operational support, our team can adapt the workflow to your requirements.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <img className={`${Style.innerIcons} lazyload pr-20 content-imag`} src="/images/services/service-inner/flag.png" alt="Keep Your Amazon Catalog Accurate and Organized" />
+                                    Keep Your Amazon Catalog Accurate and Organized
+                                </h2>
+                                <p className="para-text">
+                                    A well-managed catalog gives your Amazon business a stronger operational foundation.
+                                </p>
+                                <p className="para-text">
+                                    When product information is accurate, variations are organized, and updates are handled consistently, your team can spend less time dealing with repetitive catalog problems and more time focusing on growth.
+                                </p>
+                                <p className="para-text">
+                                    Need help managing a growing Amazon catalog?{" "}
+                                    <Link href="/contact-us" className="text-decoration-underline fw-bold">
+                                        Contact Tech2Globe
+                                    </Link>{" "}
+                                    to discuss your product range and catalog management requirements.
                                 </p>
                             </div>
                         </div>
@@ -633,13 +730,8 @@ export default function AmazonProductCatalog() {
                     </div>
                 </div>
             </section>
-            {/* <div className="StoreCreationTabs">
-                <PortfolioTabs data={portfolio} title={'Our Amazon Portfolio'} description={'With over 500+ clients across the world, Tech2globe has delivered hundreds of cost effective and high-quality solutions for a wide range of industries and domains including consumer and business development, e-Commerce, retail, manufacturing & many others.'} />
-            </div> */}
-            
 
             <ClientPortfolio clients={portfolioClients} />
-            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
 
             <FaqSection faqs={faqs} />

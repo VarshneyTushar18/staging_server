@@ -4,7 +4,6 @@ import PageHeader from "@/app/components/services/PageHeader/PageHeader";
 import BrandSection from "@/app/components/home/BrandSection/BrandSection";
 import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner";
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
-import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import { FaChartBar, FaChartLine, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaHandshake, FaLightbulb, FaSearch, FaShieldAlt, FaTag, FaTimesCircle, FaUsers, FaUsersCog } from "react-icons/fa";
@@ -19,7 +18,7 @@ import AmazonOnboardingHashRedirect from "@/app/components/landingpage/AmazonOnb
 export const metadata = {
     title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
     description:
-        "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
+        "Grow your brand with expert Amazon Marketing Services, including PPC, SEO, listing optimization, and Storefront support to improve visibility and sales.",
     keywords: [
         "Amazon marketing services",
         "Amazon marketing",
@@ -35,14 +34,14 @@ export const metadata = {
         title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
+            "Grow your brand with expert Amazon Marketing Services, including PPC, SEO, listing optimization, and Storefront support to improve visibility and sales.",
         url: "https://stagenew.tech2globe.tech/amazon-marketing-services",
     },
     twitter: {
         card: "summary_large_image",
         title: "Amazon Marketing Services | AI-Driven PPC, SEO & Storefront Growth",
         description:
-            "Supercharge your Amazon sales with Tech2Globe's AI-driven marketing services. From smart ad targeting and listing SEO to branded storefront design, we use machine learning insights to maximize your Amazon ROI.",
+            "Grow your brand with expert Amazon Marketing Services, including PPC, SEO, listing optimization, and Storefront support to improve visibility and sales.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/amazon-marketing-services",
@@ -55,90 +54,58 @@ const schemaData = {
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "How does AMS work?",
+            "name": "What are Amazon Marketing Services and how can they help my business?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text":
-                    "AMS allows sellers to create and run sponsored product ads, sponsored brand ads, and product display ads on Amazon. Sellers can target their ads to keywords, products, or categories and pay only when someone clicks."
+                "text": "Amazon Marketing Services help brands improve their visibility and sales on Amazon through PPC advertising, Amazon SEO, product listing optimization, keyword research, and other growth strategies. The right approach depends on your products, competition, budget, and sales goals."
             }
         },
         {
             "@type": "Question",
-            "name": "Can I set a budget for my AMS ads?",
+            "name": "How can I increase sales on Amazon?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text":
-                    "Yes. Sellers can set a daily or lifetime budget to control ad spend."
+                "text": "To increase Amazon sales, you need to work on both visibility and conversion. Amazon Marketing Services can help through PPC campaigns, keyword targeting, listing optimization, competitive research, and ongoing performance analysis."
             }
         },
         {
             "@type": "Question",
-            "name": "How do I track the performance of my AMS ads?",
+            "name": "Does Amazon PPC help improve product visibility?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text":
-                    "The AMS dashboard shows impressions, clicks, conversions, and lets sellers optimize campaigns."
+                "text": "Yes. Amazon PPC can place products in relevant search results and on product detail pages, helping brands reach shoppers who are actively looking for similar products. As part of Amazon Marketing Services, PPC can be optimized through keyword selection, bids, budgets, and search-term analysis."
             }
         },
         {
             "@type": "Question",
-            "name": "Can I target my AMS ads to specific regions or countries?",
+            "name": "How do I optimize my Amazon product listing for better rankings?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. AMS ads can be targeted to specific regions or countries."
+                "text": "Start with relevant keyword research and use those terms naturally across important parts of the listing, including the title, product description, and other relevant fields. Amazon Marketing Services can also include listing optimization to improve product discoverability while keeping the content useful and compliant with Amazon's guidelines."
             }
         },
         {
             "@type": "Question",
-            "name": "Is AMS only available to professional sellers?",
+            "name": "How does Amazon SEO work?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. AMS is available to both individual and professional sellers."
+                "text": "Amazon SEO focuses on helping your products appear for relevant customer searches. Amazon Marketing Services may use keyword research, optimized product content, accurate product information, and performance data to improve organic visibility. Amazon also recommends using relevant search terms and avoiding keyword stuffing."
             }
         },
         {
             "@type": "Question",
-            "name": "What is the difference between AMS and Amazon Advertising?",
+            "name": "How much should I spend on Amazon PPC advertising?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text":
-                    "Amazon Advertising is the umbrella for all Amazon ad services, including AMS, Amazon DSP, and more."
+                "text": "There is no fixed Amazon PPC budget that works for every business. Your budget should consider your product margins, competition, sales targets, and advertising performance. With Amazon Marketing Services, campaigns can be monitored and budgets adjusted based on metrics such as clicks, conversions, advertising spend, and ROAS."
             }
         },
         {
             "@type": "Question",
-            "name": "How do I get started with AMS?",
+            "name": "How do I know if my Amazon marketing strategy is working?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text":
-                    "You need an active seller account and a product detail page. Then you can build ads using the AMS ad builder."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What pricing model is used for AMS?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text":
-                    "AMS uses a pay-per-click model. You pay only when a shopper clicks your ad."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can I cancel my contract at any time?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text":
-                    "Cancellation terms depend on the agreement you sign. Always review your contract carefully."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can you manage campaigns for all Amazon categories?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text":
-                    "Yes. Even categories with special rules can be managed by our team."
+                "text": "Look beyond sales alone. Amazon Marketing Services can be evaluated using metrics such as impressions, clicks, conversions, advertising cost of sales (ACOS), ROAS, organic visibility, and overall sales growth. Reviewing these metrics regularly helps identify what is working and where campaigns or listings need improvement."
             }
         }
     ]
@@ -150,7 +117,7 @@ const pageHeaderData = {
         "Our Amazon marketing services agency specializes in driving sales, building brands, and engaging customers on the platform. Cost-per-click and cost-per-mile ad solutions can help you achieve your business goals.",
     buttonText: "Get a quote",
     buttonLink: "/amazon-marketing-services/questionnaire",
-    backgroundImage: "/images/services/amazon-marketing-services-desktop-banner.png", // your banner image
+    backgroundImage: "/images/services/amazon-marketing-services-desktop-banner.webp", // your banner image
 };
 
 const resources = [
@@ -179,55 +146,55 @@ const sidebarSections = [
 ];
 
 const certifications = [
-    { src: "/images/certifications/amazon-spn.png", alt: "Amazon SPN" },
-    { src: "/images/certifications/ebay.png", alt: "Ebay" },
-    { src: "/images/certifications/flipkart.png", alt: "Flipkart" },
-    { src: "/images/certifications/AWS-Partner-Network.png", alt: "AWS Partner Network" },
-    { src: "/images/certifications/amazon-advertising-logo.png", alt: "Amazon Advertising" },
-    { src: "/images/certifications/tool-106.png", alt: "Amazon Global Selling" },
-    { src: "/images/certifications/cer-1.png", alt: "Dmca-protected" },
-    { src: "/images/certifications/cer-2.png", alt: "Hubspot certified partner" },
-    { src: "/images/certifications/cer-3.png", alt: "clutch-certified" },
-    { src: "/images/certifications/cer-7.png", alt: "ISO-certified" },
-    { src: "/images/certifications/cer-5.png", alt: "Red-Herring-Global-Winner" },
-    { src: "/images/certifications/cer-6.png", alt: "Top-rated-organic-seo-agency" }
+    // { src: "/images/certifications/amazon-spn.webp", alt: "Amazon SPN" },
+    { src: "/images/certifications/ebay.webp", alt: "Ebay" },
+    { src: "/images/certifications/flipkart.webp", alt: "Flipkart" },
+    // { src: "/images/certifications/AWS-Partner-Network.webp", alt: "AWS Partner Network" },
+    // { src: "/images/certifications/amazon-advertising-logo.webp", alt: "Amazon Advertising" },
+    { src: "/images/certifications/tool-106.webp", alt: "Amazon Global Selling" },
+    { src: "/images/certifications/cer-1.webp", alt: "Dmca-protected" },
+    { src: "/images/certifications/cer-2.webp", alt: "Hubspot certified partner" },
+    { src: "/images/certifications/cer-3.webp", alt: "clutch-certified" },
+    { src: "/images/certifications/cer-7.webp", alt: "ISO-certified" },
+    { src: "/images/certifications/cer-5.webp", alt: "Red-Herring-Global-Winner" },
+    { src: "/images/certifications/cer-6.webp", alt: "Top-rated-organic-seo-agency" }
 ];
 
 const Tools = [
-    "/images/clients/tool-1.png",
-    "/images/clients/tool-2.png",
-    "/images/clients/tool-3.png",
-    "/images/clients/tool-4.png",
-    "/images/clients/tool-5.png",
-    "/images/clients/tool-6.png",
-    "/images/clients/tool-7.png",
-    "/images/clients/tool-9.png",
-    "/images/clients/tool-10.png",
-    "/images/clients/tool-11.png",
-    "/images/clients/tool-100.png",
-    "/images/clients/tool-101.png",
-    "/images/clients/tool-102.png",
-    "/images/clients/tool-103.png",
-    "/images/clients/tool-104.png"
+    "/images/clients/tool-1.webp",
+    "/images/clients/tool-2.webp",
+    "/images/clients/tool-3.webp",
+    "/images/clients/tool-4.webp",
+    "/images/clients/tool-5.webp",
+    "/images/clients/tool-6.webp",
+    "/images/clients/tool-7.webp",
+    "/images/clients/tool-9.webp",
+    "/images/clients/tool-10.webp",
+    "/images/clients/tool-11.webp",
+    "/images/clients/tool-100.webp",
+    "/images/clients/tool-101.webp",
+    "/images/clients/tool-102.webp",
+    "/images/clients/tool-103.webp",
+    "/images/clients/tool-104.webp"
 ];
 
 
 const clients = [
-    { src: "/images/clients/aqua-tech-water-proofing-logo.png", alt: "Waterproofing", title: "Waterproofing" },
-    { src: "/images/clients/ba-logo.png", alt: "BA_logo", title: "BA_logo" },
-    { src: "/images/clients/bluebird-solar.png", alt: "bluebird-solar", title: "bluebird-solar" },
-    { src: "/images/clients/docib-logo.png", alt: "docib-logo", title: "docib-logo" },
-    { src: "/images/clients/du-vert-paris.png", alt: "DuVert-Paris", title: "DuVert-Paris" },
-    { src: "/images/clients/epos.png", alt: "Epos", title: "Epos" },
-    { src: "/images/clients/focus.png", alt: "Focus", title: "Focus" },
-    { src: "/images/clients/frontier.png", alt: "Frontier", title: "Frontier" },
-    { src: "/images/clients/getkart.png", alt: "getkart1920X700", title: "getkart1920X700" },
-    { src: "/images/clients/intas-logo.png", alt: "Intas_Logo", title: "Intas_Logo" },
-    { src: "/images/clients/kodak-logo-logotype-wordmark.png", alt: "wordmark", title: "wordmark" },
-    { src: "/images/clients/patanjali_logo.png", alt: "Patanjali_Logo", title: "Patanjali_Logo" },
-    { src: "/images/clients/pickzon.png", alt: "Pickzon", title: "Pickzon" },
-    { src: "/images/clients/tp-link.png", alt: "Tp-link", title: "Tp-link" },
-    { src: "/images/clients/wooden-street-logo.png", alt: "street", title: "street" }
+    { src: "/images/clients/aqua-tech-water-proofing-logo.webp", alt: "Waterproofing", title: "Waterproofing" },
+    { src: "/images/clients/ba-logo.webp", alt: "BA_logo", title: "BA_logo" },
+    { src: "/images/clients/bluebird-solar.webp", alt: "bluebird-solar", title: "bluebird-solar" },
+    { src: "/images/clients/docib-logo.webp", alt: "docib-logo", title: "docib-logo" },
+    { src: "/images/clients/du-vert-paris.webp", alt: "DuVert-Paris", title: "DuVert-Paris" },
+    { src: "/images/clients/epos.webp", alt: "Epos", title: "Epos" },
+    { src: "/images/clients/focus.webp", alt: "Focus", title: "Focus" },
+    { src: "/images/clients/frontier.webp", alt: "Frontier", title: "Frontier" },
+    { src: "/images/clients/getkart.webp", alt: "getkart1920X700", title: "getkart1920X700" },
+    { src: "/images/clients/intas-logo.webp", alt: "Intas_Logo", title: "Intas_Logo" },
+    { src: "/images/clients/kodak-logo-logotype-wordmark.webp", alt: "wordmark", title: "wordmark" },
+    { src: "/images/clients/patanjali_logo.webp", alt: "Patanjali_Logo", title: "Patanjali_Logo" },
+    { src: "/images/clients/pickzon.webp", alt: "Pickzon", title: "Pickzon" },
+    { src: "/images/clients/tp-link.webp", alt: "Tp-link", title: "Tp-link" },
+    { src: "/images/clients/wooden-street-logo.webp", alt: "street", title: "street" }
 ];
 
 
@@ -243,7 +210,7 @@ const portfolio = [
             {
                 title: "Teliaoils",
                 link: "https://www.amazon.co.uk/dp/B00IVNC114/",
-                img: "/images/services/portfolio-img/teliaoils.jpg",
+                img: "/images/services/portfolio-img/teliaoils.webp",
             },
             {
                 title: "Joe Kitchen",
@@ -258,12 +225,12 @@ const portfolio = [
             {
                 title: "Jabra",
                 link: "https://www.amazon.co.uk/dp/B00548P1DE",
-                img: "/images/services/portfolio-img/jabra.jpg",
+                img: "/images/services/portfolio-img/jabra.webp",
             },
             {
                 title: "Logitech",
                 link: "https://www.amazon.co.uk/dp/B01BGBJ8Y0",
-                img: "/images/services/portfolio-img/logitech.jpg",
+                img: "/images/services/portfolio-img/logitech.webp",
             },
         ],
     },
@@ -273,12 +240,12 @@ const portfolio = [
             {
                 title: "Hopwater",
                 link: "https://www.amazon.com/dp/B07FM6DPMG",
-                img: "/images/services/portfolio-img/hopwater.jpg",
+                img: "/images/services/portfolio-img/hopwater.webp",
             },
             {
                 title: "Djmate",
                 link: "https://www.amazon.in/dp/B07KKM37T4",
-                img: "/images/services/portfolio-img/djmate.jpg",
+                img: "/images/services/portfolio-img/djmate.webp",
             },
             {
                 title: "Glomania",
@@ -288,22 +255,22 @@ const portfolio = [
             {
                 title: "Greenyi",
                 link: "https://www.amazon.com/dp/B07C7Q2R6D",
-                img: "/images/services/portfolio-img/greenyi.jpg",
+                img: "/images/services/portfolio-img/greenyi.webp",
             },
             {
                 title: "Lesenz",
                 link: "https://www.amazon.co.uk/dp/B019VE5S98",
-                img: "/images/services/portfolio-img/lesenz.jpg",
+                img: "/images/services/portfolio-img/lesenz.webp",
             },
             {
                 title: "K-Linda",
                 link: "https://www.amazon.com/dp/B071FTW381",
-                img: "/images/services/portfolio-img/k-linda.jpg",
+                img: "/images/services/portfolio-img/k-linda.webp",
             },
             {
                 title: "CHZ",
                 link: "https://www.amazon.com/dp/B07QTCFLFC",
-                img: "/images/services/portfolio-img/chz.jpg",
+                img: "/images/services/portfolio-img/chz.webp",
             },
         ],
     },
@@ -363,46 +330,15 @@ const portfolio = [
             {
                 title: "Logitech",
                 link: "https://www.amazon.co.uk/dp/B01BGBJ8Y0",
-                img: "/images/services/portfolio-img/logitech.jpg",
+                img: "/images/services/portfolio-img/logitech.webp",
             },
             {
                 title: "Belkin",
                 link: "https://www.amazon.co.uk/dp/B00AYNRLFA",
-                img: "/images/services/portfolio-img/belkin.jpg",
+                img: "/images/services/portfolio-img/belkin.webp",
             },
         ],
     }
-]
-
-const caseStudies = [
-    {
-        "id": 1,
-        "title": "Providing Favourable Results",
-        "image": "/images/services/service-inner/untitled-design-20.png",
-        "description": "Understand previous and existing marketing strategies adapted by client before Tech2Globe...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf"
-    },
-    {
-        "id": 2,
-        "title": "Store Creation",
-        "image": "/images/services/service-inner/store-creation1.jpg",
-        "description": "Client wanted to drive awareness and engagement about their newly launched products and its benefits....",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%20%20-(Store%20Creation)%20(1).pdf"
-    },
-    {
-        "id": 3,
-        "title": "Amazon Store Creation",
-        "image": "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
-        "description": "A store which should contain his all good ranking ASINs of the Wise brand and for different product types e.g. Product for Skin Care, Hair Care etc....",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case%20Study%201%20(Store%20Creation)%20(1).pdf"
-    },
-    {
-        "id": 4,
-        "title": "Professional Amazon Store Front",
-        "image": "/images/services/service-inner/New-Ecommerce-Store.jpg",
-        "description": "Our core focus to create client&apos;s Amazon Store more effective by using trending layouts, visual appealing imagery and multimedia content...",
-        "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/case-study-professional-amazon-store-front.pdf"
-    },
 ]
 
 const portfolioClients = [
@@ -464,21 +400,21 @@ const portfolioClients = [
 const testimonials = [
     {
         id: 1,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Tech2Globe built our entire Amazon marketing engine from scratch — Sponsored Ads, Stores, Posts, A+ content, and email follow-ups. We saw a 90% increase in our overall conversion rate in 3 months.",
         name: "Connor Walsh | WildCraft Brewing",
         location: "USA",
     },
     {
         id: 2,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "A truly full-service Amazon marketing team. Tech2Globe managed our Sponsored Brands video ads, brand storytelling, and seasonal promotions with exceptional results. Revenue doubled year-over-year.",
         name: "Zara Kadir | ZaraHome UK",
         location: "UK",
     },
     {
         id: 3,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Tech2Globe's Amazon marketing strategy for our outdoor gear brand was comprehensive and effective. Their understanding of the Japanese marketplace gave us a significant competitive edge.",
         name: "Yuki Yamamoto | TokyoTrails Japan",
         location: "Japan",
@@ -488,38 +424,38 @@ const testimonials = [
 const faqs = [
     {
         id: "One",
-        question: "What are Amazon marketing services?",
-        answer: `
-        <strong>Amazon Marketing Services</strong> offers ads to reach and engage your target audience. Depending on your goals, budget and campaign preferences, you can choose from a variety of ads. Tech2Globe's <strong>Amazon store marketing services</strong> align with this role, ensuring that your brand is well-known and engaged on the platform.
-      `,
+        question: "What are Amazon Marketing Services and how can they help my business?",
+        answer: "Amazon Marketing Services help brands improve their visibility and sales on Amazon through PPC advertising, Amazon SEO, product listing optimization, keyword research, and other growth strategies. The right approach depends on your products, competition, budget, and sales goals.",
     },
     {
         id: "Two",
-        question: "How does Amazon Marketing Services work?",
-        answer: `
-        Amazon Marketing Services (AMS) has different ads to help you reach and engage your prospective customers. A basket of ad types can be chosen according to your goals and budget. Customization is our foundation, so we adjust our solutions to fit your unique situation and boost performance in your ads.
-      `,
+        question: "How can I increase sales on Amazon?",
+        answer: "To increase Amazon sales, you need to work on both visibility and conversion. Amazon Marketing Services can help through PPC campaigns, keyword targeting, listing optimization, competitive research, and ongoing performance analysis.",
     },
     {
         id: "Three",
-        question: "What targeting options are available in Amazon Marketing Services?",
-        answer: `
-        Our Amazon Marketing Services encompass the following types of targeting- Sponsored Products, Sponsored Brands, Sponsored Displays, and Stores. The operational approach for these tools is either PPC or Impressions, which allows us to reorient the advertisement process according to the desires and expectations of the audience.
-      `,
+        question: "Does Amazon PPC help improve product visibility?",
+        answer: "Yes. Amazon PPC can place products in relevant search results and on product detail pages, helping brands reach shoppers who are actively looking for similar products. As part of Amazon Marketing Services, PPC can be optimized through keyword selection, bids, budgets, and search-term analysis.",
     },
     {
         id: "Four",
-        question: "How much does it cost to advertise with Amazon Marketing Services?",
-        answer: `
-        The cost of advertising with Amazon Marketing Services varies based on different factors. With flexible engagement models like dedicated team, fixed price, and hourly price, we align advertising costs with your budget and goals.
-      `,
+        question: "How do I optimize my Amazon product listing for better rankings?",
+        answer: "Start with relevant keyword research and use those terms naturally across important parts of the listing, including the title, product description, and other relevant fields. Amazon Marketing Services can also include listing optimization to improve product discoverability while keeping the content useful and compliant with Amazon's guidelines.",
     },
     {
         id: "Five",
-        question: "What does the Amazon marketing department do?",
-        answer: `
-        The multifunctional marketing department of Amazon dedicates itself to offering client-focused services and embedding experiences into its businesses. Having more than 15 years of experience, we operate on the basis of knowledge of the best practices. We accelerate seller account onboarding, optimize product listings, and employ strategic advertising tactics.
-      `,
+        question: "How does Amazon SEO work?",
+        answer: "Amazon SEO focuses on helping your products appear for relevant customer searches. Amazon Marketing Services may use keyword research, optimized product content, accurate product information, and performance data to improve organic visibility. Amazon also recommends using relevant search terms and avoiding keyword stuffing.",
+    },
+    {
+        id: "Six",
+        question: "How much should I spend on Amazon PPC advertising?",
+        answer: "There is no fixed Amazon PPC budget that works for every business. Your budget should consider your product margins, competition, sales targets, and advertising performance. With Amazon Marketing Services, campaigns can be monitored and budgets adjusted based on metrics such as clicks, conversions, advertising spend, and ROAS.",
+    },
+    {
+        id: "Seven",
+        question: "How do I know if my Amazon marketing strategy is working?",
+        answer: "Look beyond sales alone. Amazon Marketing Services can be evaluated using metrics such as impressions, clicks, conversions, advertising cost of sales (ACOS), ROAS, organic visibility, and overall sales growth. Reviewing these metrics regularly helps identify what is working and where campaigns or listings need improvement.",
     },
 ];
 
@@ -538,12 +474,12 @@ export default function AmazonMarketing() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                            <ServiceBanner pageName="Amazon Marketing Services" imageSrc="/images/services/service-inner/amazon-virtual-assistant-top-banner2.jpg" />
+                            <ServiceBanner pageName="Amazon Marketing Services" imageSrc="/images/services/service-inner/amazon-virtual-assistant-top-banner2.webp" />
                             <div className={Style.ContentDiv}>
                                 <p><strong>Amazon Marketing Services</strong> help you grow faster on the world&apos;s largest marketplace. With targeted <strong>PPC ads, sponsored products, sponsored brands, and display ads</strong>, you can reach millions of active shoppers. Our Amazon marketing experts improve <strong>product visibility, brand awareness, and conversions</strong> with strategies tailored to your business. Take your sales to the next level with data-driven Amazon SEO, optimized product listings, and powerful advertising campaigns that deliver real results.</p>
                             </div>
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.png" alt="" className={Style.InnerIcon} /> Optimize your Amazon listing with our Amazon Marketing Services Agency</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.webp" alt="" className={Style.InnerIcon} /> Optimize your Amazon listing with our Amazon Marketing Services Agency</h5>
                                 <p>As a well-established <strong>Amazon marketing services agency</strong>, we improve the descriptions and images of your Amazon products. We handle everything from start to finish and know how to promote Amazon products, organic rankings, and sales. Several <strong>Amazon product listings</strong> are not optimized properly, resulting in a significant loss of revenue. Our Amazon professionals ensure that you get the most out of your investment from the start. Our Amazon marketing agency will help you to:</p>
                                 <ul>
                                     <li>Enhance the quality of your images and material.</li>
@@ -557,7 +493,7 @@ export default function AmazonMarketing() {
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/place.png" alt="" className={Style.InnerIcon} /> Unlocking Success with <strong>Amazon Marketing Services</strong> with Tech2Globe</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/place.webp" alt="" className={Style.InnerIcon} /> Unlocking Success with <strong>Amazon Marketing Services</strong> with Tech2Globe</h5>
                                 <p>Our Amazon marketing agency is committed to accelerating your e-Commerce business by delivering customized strategies to boost visibility, grow sales, and ensure brand consistency. We make the process seamless and create tangible results through expert strategies and committed support. Here is how we work:</p>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
@@ -597,17 +533,17 @@ export default function AmazonMarketing() {
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
-                                        <img src="/images/services/service-inner/amazon-map-pricing-surveillance.png" alt width={"100%"} />
+                                        <img src="/images/services/service-inner/amazon-map-pricing-surveillance.webp" alt width={"100%"} />
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
-                                        <img src="/images/services/service-inner/amazon-map-pricing-surveillance-1.png" alt width={"100%"} />
+                                        <img src="/images/services/service-inner/amazon-map-pricing-surveillance-1.webp" alt width={"100%"} />
                                     </div>
                                 </div>
                                 <p>With our expertise in <strong>Amazon marketing services</strong>, we&apos;re here to help you address any violations of MAP price agreements.</p>
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.png" alt="" className={Style.InnerIcon} /> Why You Need Amazon Marketing Services Consultant</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.webp" alt="" className={Style.InnerIcon} /> Why You Need Amazon Marketing Services Consultant</h5>
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
                                         <div className={`${Style.ConsCard} h-100 p-4 border rounded bg-white text-center`}>
@@ -640,17 +576,17 @@ export default function AmazonMarketing() {
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.png" alt="" className={Style.InnerIcon} /> Best Amazon Digital Marketing Services for your business</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.webp" alt="" className={Style.InnerIcon} /> Best Amazon Digital Marketing Services for your business</h5>
                                 <p>Amazon is not a well-kept secret. Instead, it is a seller&apos;s market that is overcrowded. As a result, you will frequently have to pay to play. Top sellers leverage <strong>Amazon PPC agency services</strong>, including sponsored items management, sponsored brand management, Amazon display ads, video ads, Amazon Vendor Central management, and Amazon AI advertising management, to succeed.</p>
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.png" alt="" className={Style.InnerIcon} /> Branding and Amazon Storefront</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.webp" alt="" className={Style.InnerIcon} /> Branding and Amazon Storefront</h5>
                                 <p><strong>Amazon digital marketing services</strong> empower small and medium-sized enterprises through Amazon Storefronts, a particular area dedicated to small enterprises. Our professionals know how to set up and create a visually appealing Amazon Storefront and place your items for optimum exposure using Amazon-enhanced marketing content. We include A+ material to your product description page to improve sales, including high-quality photographs and EBC design and development.</p>
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.png" alt="" className={Style.InnerIcon} /> How Does Amazon Marketing Services Work?</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/list.webp" alt="" className={Style.InnerIcon} /> How Does Amazon Marketing Services Work?</h5>
                                 <p>As an expert <strong>Amazon advertising services agency</strong>, our Amazon Marketing Services to increase product visibility for their clients through Pay-Per-Click products. These self-service options, now branded as Get Started, give sellers a chance to change shoppers&apos; minds when they are about to buy a competitor&apos;s product, which is a powerful tool for sellers to increase their reach on Amazon. With our expert guidance and strategies, sellers can maximize their return on investment and achieve their sales goals on Amazon.</p>
                                 <ul>
                                     <li>Sponsored Products</li>
@@ -700,28 +636,28 @@ export default function AmazonMarketing() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <h5 className="pb-3">Amazon Search Engine Optimization (SEO)</h5>
                                         <p>We get your e-Commerce business operating on Amazon rapidly as a full-service Amazon SEO team. Our Amazon marketing consultant will walk you through every step of the process, from Amazon seller setup to improving your rating and conversions. We take care of every step along the route, including an Amazon account audit, competition analysis, keyword research, and optimized, clear, and brief descriptions.</p>
-                                        <img src="/images/services/service-inner/Amazon_SEO.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/new/Amazon_SEO.webp" alt className="img-fluid" />
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <h5 className="pb-3">Amazon Analytics and Reporting</h5>
                                         <p>With detailed data analytics, we keep every customer informed about their business and engagement. Monthly Amazon advertising reports with expenditure, return on ad spend (ROAS), advertising cost of sales (ACoS), and detailed pay-per-click (PPC) data are provided to clients. Monthly Amazon business reports, including goods per sale, sales over time, reviews, customer happiness, and Amazon listing optimization, are also provided to clients. We strive to give customers an in-depth analysis of Fulfillment by <Link href="/amazon-fba-consulting" className="text-decoration-underline fw-normal">Amazon (FBA)</Link> expenses as part of our Amazon marketing services, flushing out any hidden charges.</p>
-                                        <img src="/images/services/service-inner/amazon-analytics-and-reporting.jpg" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/amazon-analytics-and-reporting.webp" alt className="img-fluid" />
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <h5 className="pb-3">Amazon Advertising/PPC</h5>
                                         <p>Amazon is not a well-kept secret. Instead, it is a seller&apos;s market that is overcrowded. As a result, you will frequently have to pay to play. To set themselves apart, top sellers use PPC campaigns and tactics. With sponsored items management, sponsored brand management, <strong>Amazon display ads</strong>, video ads, Amazon Vendor Central management, and Amazon AI advertising management, our Amazon advertising professionals put you in the game.</p>
-                                        <img src="/images/services/service-inner/pay-per-clicks.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/new/pay-per-clicks.webp" alt className="img-fluid" />
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <h5 className="pb-3">Branding and Amazon Storefront</h5>
                                         <p>Amazon Storefronts focuses on keeping small and medium-sized enterprises relevant, and Amazon has a particular area dedicated to small enterprises. Our professionals know how to set up and create a visually appealing Amazon Storefront and place your items for optimum exposure using <strong>Amazon enhanced marketing content</strong>. We include A+ material to your product description page to improve sales, including high-quality photographs and EBC design and development.</p>
-                                        <img src="/images/services/service-inner/amazon-store.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/new/amazon-store.webp" alt className="img-fluid" />
                                     </div>
                                 </div>
                             </div>
 
                             <div className={Style.ContentDiv}>
-                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/badge.png" alt="" className={Style.InnerIcon} /> How Does Amazon Marketing Services Work?</h5>
+                                <h5 className="pt-3 pb-3"><img src="/images/services/service-inner/badge.webp" alt="" className={Style.InnerIcon} /> How Does Amazon Marketing Services Work?</h5>
                                 <p>Tech2Globe leverages the power of Amazon Marketing Services to increase product visibility for their clients through Pay-Per-Click products. These self-service options now branded as Get Started give sellers a chance to change shoppers&apos; minds when they are about to buy a competitor&apos;s product which is a powerful tool for sellers to increase their reach on Amazon. With our expert guidance and strategies, sellers can maximize their return on investment and achieve their sales goals on Amazon.</p>
                                 <ul className={Style.ThreeList}>
                                     <li>Sponsored Products</li>
@@ -733,13 +669,13 @@ export default function AmazonMarketing() {
                                 </ul>
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/amazon-sponsored-products.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/amazon-sponsored-products.webp" alt className="img-fluid" />
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/amazon-sponsored-brands.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/amazon-sponsored-brands.webp" alt className="img-fluid" />
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/amazon-sponsored-display-ads.png" alt className="img-fluid" />
+                                        <img src="/images/services/service-inner/amazon-sponsored-display-ads.webp" alt className="img-fluid" />
                                     </div>
                                 </div>
                             </div>
@@ -841,17 +777,17 @@ export default function AmazonMarketing() {
                                 <h2 className="pt-5 pb-4 text-danger text-center">Why Tech2globe for Amazon Marketing Services</h2>
                                 <div className={`${Style.IcoCardTwo} row`}>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/user-headset.png" alt className="img-fluid mb-3" />
+                                        <img src="/images/services/service-inner/user-headset.webp" alt className="img-fluid mb-3" />
                                         <h5>24 X 7 SUPPORT</h5>
                                         <p>Our clients receive comprehensive support on all topics regarding Amazon. We&apos;re in constant communication with our clients via email, phone, and web conferencing. Tech2globe Amazon Consulting integrates services seamlessly into our clients&apos; businesses by working hand in hand with their internal employees.</p>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/rocket.png" alt className="img-fluid mb-3" />
+                                        <img src="/images/services/service-inner/rocket.webp" alt className="img-fluid mb-3" />
                                         <h5>SPEED - 40% Average Increase In Total Product Sales</h5>
                                         <p>Whether you&apos;re entering the marketplace or a veteran seller on Amazon, Tech2globe Consulting gets your seller account up to speed fast. Clients are fully on-boarded, listed appropriately, and <Link href="/amazon-advertising-services" className="text-decoration-underline fw-normal">advertised on Amazon</Link>.</p>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                        <img src="/images/services/service-inner/light-bulb-6.png" alt className="img-fluid mb-3" />
+                                        <img src="/images/services/service-inner/light-bulb-6.webp" alt className="img-fluid mb-3" />
                                         <h5>15+ YEARS OF EXPERTISE</h5>
                                         <p>We have worked with a wide breadth of businesses and sales models, including 1P and 3P sellers. We understand the pros and cons of these business models thoroughly. We help our clients accelerate their current business model, pivot into a new one, or operate hybrid models.</p>
                                     </div>
@@ -870,7 +806,7 @@ export default function AmazonMarketing() {
                             <div className={Style.inner}>
                                 <div className={`${Style.commonInner} inner1`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/health-care.png" alt />
+                                        <img src="/images/services/health-care.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Healthcare
@@ -878,7 +814,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner2`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/skin-care-1-1.png" alt />
+                                        <img src="/images/services/skin-care-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Beauty
@@ -886,7 +822,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner3`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/food.png" alt />
+                                        <img src="/images/services/food.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Food
@@ -894,7 +830,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner4`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/home-1-1.png" alt />
+                                        <img src="/images/services/home-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Home &amp; Kitchen
@@ -902,7 +838,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner9`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/sports-1.png" alt />
+                                        <img src="/images/services/sports-1.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Sports
@@ -912,7 +848,7 @@ export default function AmazonMarketing() {
                             <div className={Style.inner2}>
                                 <div className={`${Style.commonInner} inner5`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/fashion.png" alt />
+                                        <img src="/images/services/fashion.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Fashion
@@ -920,7 +856,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner6`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/open-book-1.png" alt />
+                                        <img src="/images/services/open-book-1.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Kindle &amp; Books
@@ -928,7 +864,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner7`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/elec.png" alt />
+                                        <img src="/images/services/elec.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Electronics
@@ -936,7 +872,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner8`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/software.png" alt />
+                                        <img src="/images/services/software.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         Software
@@ -944,7 +880,7 @@ export default function AmazonMarketing() {
                                 </div>
                                 <div className={`${Style.commonInner} inner10`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/all-1.png" alt />
+                                        <img src="/images/services/all-1.webp" alt />
                                     </div>
                                     <div className={`${Style.title} mx-auto`}>
                                         All
@@ -1054,7 +990,6 @@ export default function AmazonMarketing() {
             
 
             <ClientPortfolio clients={portfolioClients} />
-            <CaseStudiesService caseStudies={caseStudies} />
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
             <AmazonOnboardingHashRedirect />

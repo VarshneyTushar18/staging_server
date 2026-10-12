@@ -4,59 +4,125 @@
     z-index: 99;
 }
 
-.virtualAssistantWhyChooseUs {
+.headingText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.HeadingIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #c01f29;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 14px;
+}
+
+.PageAccordion .AccordionItem {
+    margin-bottom: 16px;
+    border: 1px solid #dee2e6;
+}
+
+.PageAccordion .AccordionBody {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
     background-color: #f2f2f2;
-    padding: 50px;
-    margin-top: 50px;
-    margin-inline: 15px;
 }
 
-.virtualAssistantWhyChooseUs ol {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.virtualAssistantWhyChooseUs ol li {
-    background-color: #ffffff;
-    padding: 20px;
-    width: 48%;
-    border-radius: 15px;
-    margin-block: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    position: relative;
-    overflow: hidden;
-}
-
-.virtualAssistantWhyChooseUs ol li::before {
-    position: absolute;
-    content: '';
+.PageAccordion .AccordionButton {
+    border: none;
     width: 100%;
-    height: 4px;
-    border-bottom: 4px double rgba(0, 0, 0, .1);
-    left: 0;
-    bottom: 2px;
+    background-color: #b0c4de66;
+    color: #234268;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-@media (max-width:767px) {
+.PageAccordion .AccordionButton:global(.collapsed) {
+    border: none;
+    width: 100%;
+    background-color: #efefef;
+    color: #313131;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
 
-    .virtualAssistantWhyChooseUs {
-        padding: 20px;
-    }
+.PageAccordion .AccordionButton {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
-    .virtualAssistantWhyChooseUs ol li {
-        width: 100%;
-    }
+.WaCardTwo {
+    border-radius: 12px;
+    background: #edededc2;
+    border: 1px solid #b8b8b899;
+    text-align: center;
+    height: 100%;
+}
 
-    .AsServices :global(.d-flex){
-        flex-direction: column !important;
-        align-items: start !important;
-    }
+.CardIcon {
+    width: 50px;
+    height: 50px;
+    margin: 16px auto 0;
+    background-color: #c9010c;
+    box-shadow: 0 2px 3px #606060;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+}
 
-    .coloredRound{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+.WaCardBody {
+    padding: 20px;
+}
+
+.WaCardBody p {
+    margin-bottom: 0;
+}
+
+.ServiceCard .Icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f0fe;
+    display: flex;
+    color: #234268;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 12px auto;
+    font-size: 32px;
+}
+
+.ServiceCard:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.CtaButton {
+    display: inline-block;
+    background-color: #c01f29;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.CtaButton:hover {
+    background-color: #a01a22;
+    color: #fff;
 }
