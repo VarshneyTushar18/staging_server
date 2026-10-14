@@ -338,7 +338,8 @@ export default function VirtualAssistantServices() {
                                 </p>
                                 <p className="para-text">
                                     <Link href="/contact-us" className={Style.CtaButton}>
-                                        Get a Free Consultation
+                                        <FaComments aria-hidden="true" />
+                                        &nbsp; Get a Free Consultation
                                     </Link>
                                 </p>
 
@@ -436,7 +437,7 @@ export default function VirtualAssistantServices() {
                                 <p className="para-text">
                                     Businesses can use virtual assistant support for different operational requirements.
                                 </p>
-                                <div className="row">
+                                <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
                                         <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
                                             <div className={Style.Icon}><FaClipboardList /></div>
@@ -552,7 +553,7 @@ export default function VirtualAssistantServices() {
                                 <p className="para-text">
                                     Hiring a virtual assistant can provide businesses with additional operational support without requiring every recurring task to be managed internally.
                                 </p>
-                                <div className="row">
+                                <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
                                         <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
                                             <div className={Style.Icon}><FaClock /></div>
@@ -637,7 +638,8 @@ export default function VirtualAssistantServices() {
                                 </p>
                                 <p className="para-text">
                                     <Link href="/contact-us" className={Style.CtaButton}>
-                                        Request a Virtual Assistant Quote
+                                        <FaClipboardList aria-hidden="true" />
+                                        &nbsp; Request a Virtual Assistant Quote
                                     </Link>
                                 </p>
 
@@ -681,7 +683,8 @@ export default function VirtualAssistantServices() {
                                 </p>
                                 <p className="para-text">
                                     <Link href="/contact-us" className={Style.CtaButton}>
-                                        Talk to Our Virtual Assistant Experts
+                                        <FaHeadset aria-hidden="true" />
+                                        &nbsp; Talk to Our Virtual Assistant Experts
                                     </Link>
                                 </p>
                             </div>

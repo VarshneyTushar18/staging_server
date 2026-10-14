@@ -295,6 +295,20 @@ export default function AmazonPPCServices() {
             <BrandSection />
             <section className={Style.PageContent}>
                 <div className="container">
+                    
+                    <h2 className="text-center">Achieve Success with Our Amazon PPC Management Services
+
+                    </h2>
+                    <hr />
+                    <p className="text-center">Boost Your Amazon Sales With Tech2Globe&apos;s Custom Amazon PPC Campaigns.
+
+                    </p>
+                    <p className="text-center">Creating a profitable PPC campaign and increasing your Amazon sales takes time, so sellers new to PPC advertising on Amazon should be patient. Finding the optimal approach to managing your <strong>Amazon PPC Management</strong> campaigns is more like a long run than a quick fix because it requires implementation of different strategies.
+                    </p>
+                    <p className="text-center">Lots of things go into making a PPC campaign work, like making sure your product listings are optimized so that people who click on your ad are more likely to buy. Moreover, picking the right keywords so that your ads are seen by Amazon customers who are most likely to buy your product. Because of this, more and more sellers on the Amazon marketplace are opting to work with an Amazon PPC management company instead of doing it themselves. On the other hand, an Amazon wholesale seller can do everything for you on Amazon, such as shipping, marketing, and advertising your products.
+                    </p>
+                    <p className="text-center">Optimization of <Link href="/amazon-seo-listing-optimization" className="text-decoration-underline fw-normal">Amazon listings</Link> and Amazon PPC campaigns are the forte of <strong>Amazon PPC Management Services</strong>. Our expertise and experience save you the trouble of learning by doing the trial and error that usually goes into making a good PPC campaign. Plus, you can save a lot of time because you won&apos;t have to manage and optimize the campaigns by yourself.
+                    </p>
                     <div className={Style.partnersArea}>
                         <div className="row d-flex justify-content-center align-items-center">
                             <div className="col-md-12 col-md-offset-1  d-none d-sm-block">
@@ -310,20 +324,7 @@ export default function AmazonPPCServices() {
                             </div>
                         </div>
                     </div>
-                    <h2 className="text-center">Achieve Success with Our Amazon PPC Management Services
-
-                    </h2>
-                    <hr />
-                    <p className="text-center">Boost Your Amazon Sales With Tech2Globe&apos;s Custom Amazon PPC Campaigns.
-
-                    </p>
-                    <p className="text-center">Creating a profitable PPC campaign and increasing your Amazon sales takes time, so sellers new to PPC advertising on Amazon should be patient. Finding the optimal approach to managing your <strong>Amazon PPC Management</strong> campaigns is more like a long run than a quick fix because it requires implementation of different strategies.
-                    </p>
-                    <p className="text-center">Lots of things go into making a PPC campaign work, like making sure your product listings are optimized so that people who click on your ad are more likely to buy. Moreover, picking the right keywords so that your ads are seen by Amazon customers who are most likely to buy your product. Because of this, more and more sellers on the Amazon marketplace are opting to work with an Amazon PPC management company instead of doing it themselves. On the other hand, an Amazon wholesale seller can do everything for you on Amazon, such as shipping, marketing, and advertising your products.
-                    </p>
-                    <p className="text-center">Optimization of <Link href="/amazon-seo-listing-optimization" className="text-decoration-underline fw-normal">Amazon listings</Link> and Amazon PPC campaigns are the forte of <strong>Amazon PPC Management Services</strong>. Our expertise and experience save you the trouble of learning by doing the trial and error that usually goes into making a good PPC campaign. Plus, you can save a lot of time because you won&apos;t have to manage and optimize the campaigns by yourself.
-                    </p>
-                    <div className="d-flex justify-content-center pb-5"><a href="/contact-us" className="btn btn-danger rounded-pill">Start Now</a></div>
+                    <div className="d-flex justify-content-center pb-5"><a href="/contact-us" className="btn btn-danger">Start Now</a></div>
                     <div className="row col-sm-12 mb-5 d-flex justify-content-center pb-5">
                         <div className="row justify-content-center">
                             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12 text-left mb-4">
@@ -403,7 +404,7 @@ export default function AmazonPPCServices() {
                         <div className="row d-flex justify-content-center">
                             <div className="col-md-6 stepstyle mb-4">
                                 <div className="card p-3 shadow-sm h-100">
-                                    <h5 className="fs-1" style={{ color: '#c9000b' }}>1.</h5>
+                                    <h5 className="fs-1" style={{ color: '#c9000b' }}>01.</h5>
                                     <strong>Boost Sales and Increase Profits
                                     </strong>
                                     <p>Our Amazon PPC agency is focused on maximizing your profitability. Through <strong>Amazon PPC Management</strong> creative strategies we work smartly to increase conversions and ensure that you earn more for each advertising cycle.
@@ -412,7 +413,7 @@ export default function AmazonPPCServices() {
                             </div>
                             <div className="col-md-6 stepstyle mb-4">
                                 <div className="card p-3 shadow-sm h-100">
-                                    <h5 className="fs-1" style={{ color: '#c9000b' }}>2.</h5>
+                                    <h5 className="fs-1" style={{ color: '#c9000b' }}>02.</h5>
                                     <strong>Increase Visibility of your Amazon Business
                                     </strong>
                                     <p>As a team of <Link href="/amazon-marketing-services" className="text-decoration-underline fw-normal">Amazon advertising</Link> experts, our focus is to constantly search for the latest tools and strategies and give your amazon advertising campaign the edge. We work to bring your product among interested buyers and increase its reach.

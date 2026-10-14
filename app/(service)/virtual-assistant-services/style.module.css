@@ -42,7 +42,7 @@
     padding: 1.5%;
     text-align: left;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .PageAccordion .AccordionButton:global(.collapsed) {
@@ -53,7 +53,7 @@
     padding: 1.5%;
     text-align: left;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .PageAccordion .AccordionButton {
@@ -112,7 +112,9 @@
 }
 
 .CtaButton {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background-color: #c01f29;
     color: #fff;
     padding: 10px 22px;

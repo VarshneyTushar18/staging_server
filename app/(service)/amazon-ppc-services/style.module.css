@@ -19,6 +19,13 @@
      max-width: 80%;
  }
 
+ .partnersArea ul.partners li{
+    border: 1px solid #e4e4e4;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
  .headingText {
      color: #000;
      text-decoration: none;

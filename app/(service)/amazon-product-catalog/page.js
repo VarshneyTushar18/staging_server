@@ -524,7 +524,7 @@ export default function AmazonProductCatalog() {
                                     Managing a catalog efficiently requires a repeatable process rather than occasional updates.
                                 </p>
 
-                                <div className="row">
+                                <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                                         <div className={Style.WaCardTwo}>
                                             <img
@@ -533,7 +533,7 @@ export default function AmazonProductCatalog() {
                                                 width="100%"
                                             />
                                             <div className={Style.WaCardBody}>
-                                                <h5>1. Catalog Assessment</h5>
+                                                <h5>Catalog Assessment</h5>
                                                 <p>We begin by reviewing the existing catalog and understanding its size, structure, product types, variations, and current requirements. This helps identify areas that need attention.</p>
                                             </div>
                                         </div>
@@ -546,7 +546,7 @@ export default function AmazonProductCatalog() {
                                                 width="100%"
                                             />
                                             <div className={Style.WaCardBody}>
-                                                <h5>2. Data Collection and Validation</h5>
+                                                <h5>Data Collection and Validation</h5>
                                                 <p>We gather the relevant product information and review it for completeness and consistency. Where information is missing or unclear, we identify it for clarification before making updates.</p>
                                             </div>
                                         </div>
@@ -559,7 +559,7 @@ export default function AmazonProductCatalog() {
                                                 width="100%"
                                             />
                                             <div className={Style.WaCardBody}>
-                                                <h5>3. Catalog Updates</h5>
+                                                <h5>Catalog Updates</h5>
                                                 <p>Once the information is validated, the required product data, categorization, attributes, content, and other details are updated according to the project requirements.</p>
                                             </div>
                                         </div>
@@ -572,7 +572,7 @@ export default function AmazonProductCatalog() {
                                                 width="100%"
                                             />
                                             <div className={Style.WaCardBody}>
-                                                <h5>4. Quality Checks</h5>
+                                                <h5>Quality Checks</h5>
                                                 <p>Changes are reviewed to catch inconsistencies, formatting issues, missing information, or other errors before the catalog is considered complete.</p>
                                             </div>
                                         </div>
@@ -585,7 +585,7 @@ export default function AmazonProductCatalog() {
                                                 width="100%"
                                             />
                                             <div className={Style.WaCardBody}>
-                                                <h5>5. Ongoing Maintenance</h5>
+                                                <h5>Ongoing Maintenance</h5>
                                                 <p>Amazon catalogs are not static. New products are added, existing products change, and marketplace requirements can evolve. Ongoing support helps keep the catalog accurate as your business grows.</p>
                                             </div>
                                         </div>
@@ -599,7 +599,7 @@ export default function AmazonProductCatalog() {
                                 <p className="para-text">
                                     Managing product information at scale can lead to a variety of issues. Some common challenges include:
                                 </p>
-                                <div className="row">
+                                <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
                                         <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
                                             <div className={Style.Icon}>
@@ -694,7 +694,7 @@ export default function AmazonProductCatalog() {
                                     Why Choose Tech2Globe?
                                 </h2>
                                 <p className="para-text">
-                                    Tech2Globe combines ecommerce experience, Amazon marketplace knowledge, catalog operations, content management, and quality control to support businesses with complex product catalogs.
+                                    Tech2Globe combines <a href="/e-commerce-development" className="text-decoration-underline fw-normal">ecommerce</a> experience, Amazon marketplace knowledge, catalog operations, content management, and quality control to support businesses with complex product catalogs.
                                 </p>
                                 <p className="para-text">
                                     We understand that catalog management is not simply about changing product information. It requires attention to detail, consistency, process management, and an understanding of how individual product records fit into the wider catalog.

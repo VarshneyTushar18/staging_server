@@ -468,7 +468,7 @@ export default function StoreCreation() {
                                                     New products are launched. Collections change. Seasonal campaigns come and go. Your Store should be able to keep up.
                                                 </p>
                                                 <p className="para-text mb-0">
-                                                    We can help refresh Store content and organization as your catalog and marketing priorities develop.
+                                                    We can help refresh Store content and organization as your catalog and <a href="/amazon-marketing-services" className="text-decoration-underline fw-normal">marketing</a> priorities develop.
                                                 </p>
                                             </div>
                                         </div>
@@ -492,7 +492,7 @@ export default function StoreCreation() {
                                                 <FaSearch />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>1. Understand Your Brand</h5>
+                                                <h5>Understand Your Brand</h5>
                                                 <p>We review your brand, products, catalog, audience, competitors, and objectives.</p>
                                             </div>
                                         </div>
@@ -503,7 +503,7 @@ export default function StoreCreation() {
                                                 <FaSitemap />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>2. Plan the Experience</h5>
+                                                <h5>Plan the Experience</h5>
                                                 <p>We determine how the Store should be organized, including categories, navigation, pages, and product groupings.</p>
                                             </div>
                                         </div>
@@ -514,7 +514,7 @@ export default function StoreCreation() {
                                                 <FaPaintBrush />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>3. Create the Design</h5>
+                                                <h5>Create the Design</h5>
                                                 <p>Our creative team develops the visual direction and content structure based on your brand identity and customer journey.</p>
                                             </div>
                                         </div>
@@ -525,7 +525,7 @@ export default function StoreCreation() {
                                                 <FaStore />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>4. Build the Store</h5>
+                                                <h5>Build the Store</h5>
                                                 <p>The approved layouts and content are implemented within Amazon&apos;s Store environment.</p>
                                             </div>
                                         </div>
@@ -536,7 +536,7 @@ export default function StoreCreation() {
                                                 <FaClipboardCheck />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>5. Review and Test</h5>
+                                                <h5>Review and Test</h5>
                                                 <p>We check product links, navigation, content accuracy, visual consistency, page layouts, and the overall shopping experience.</p>
                                             </div>
                                         </div>
@@ -547,7 +547,7 @@ export default function StoreCreation() {
                                                 <FaRocket />
                                             </div>
                                             <div className={Style.WaCardBody}>
-                                                <h5>6. Launch and Improve</h5>
+                                                <h5>Launch and Improve</h5>
                                                 <p>After publishing, the Store can be reviewed using available performance data to identify opportunities for future improvements.</p>
                                             </div>
                                         </div>
