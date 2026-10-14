@@ -151,7 +151,7 @@ const certifications = [
     { src: "/images/certifications/flipkart.webp", alt: "Flipkart" },
     // { src: "/images/certifications/AWS-Partner-Network.webp", alt: "AWS Partner Network" },
     // { src: "/images/certifications/amazon-advertising-logo.webp", alt: "Amazon Advertising" },
-    { src: "/images/certifications/tool-106.webp", alt: "Amazon Global Selling" },
+    // { src: "/images/certifications/tool-106.webp", alt: "Amazon Global Selling" },
     { src: "/images/certifications/cer-1.webp", alt: "Dmca-protected" },
     { src: "/images/certifications/cer-2.webp", alt: "Hubspot certified partner" },
     { src: "/images/certifications/cer-3.webp", alt: "clutch-certified" },
