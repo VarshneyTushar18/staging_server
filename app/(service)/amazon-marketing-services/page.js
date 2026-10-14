@@ -115,7 +115,7 @@ const pageHeaderData = {
     title: "Accelerate Your Brand Growth With The #1 Amazon Marketing Services",
     description:
         "Our Amazon marketing services agency specializes in driving sales, building brands, and engaging customers on the platform. Cost-per-click and cost-per-mile ad solutions can help you achieve your business goals.",
-    buttonText: "Get a quote",
+    buttonText: "Book Your Consultation",
     buttonLink: "/amazon-marketing-services/questionnaire",
     backgroundImage: "/images/services/amazon-marketing-services-desktop-banner.webp", // your banner image
 };

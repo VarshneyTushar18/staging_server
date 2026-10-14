@@ -58,7 +58,7 @@ const pageHeaderData = {
     title: "Amazon Store Setup Service",
     description:
         "Get a professional Amazon Store setup service from Tech2Globe. Build a branded Amazon Store with strategic design, product organization, and a better shopping experience.",
-    buttonText: "Contact us",
+    buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg",
 };

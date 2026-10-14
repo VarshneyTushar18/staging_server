@@ -34,7 +34,7 @@ const pageHeaderData = {
     title: "Amazon PPC Service",
     description:
         "Advertise smarter on Amazon with Tech2Globe’s full-cycle PPC management. Our Amazon PPC experts help you lower your Advertising Cost of Sale (ACoS), improve product visibility, and increase conversions with tailored ad campaigns.",
-    buttonText: "Contact us",
+    buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/amazon-ppc-services-banner.webp",
 };

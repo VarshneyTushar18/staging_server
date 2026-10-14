@@ -1,6 +1,9 @@
 import Style from "./PageHeader.module.css";
+import { FaCalendarCheck } from "react-icons/fa";
 
 export default function PageHeader({ pageHeaderData }) {
+    const showConsultationIcon =
+        pageHeaderData.buttonText === "Book Your Consultation";
 
     return (
 
@@ -45,9 +48,14 @@ export default function PageHeader({ pageHeaderData }) {
                                 <div className="ws-btnblock">
                                     <a
                                         href={pageHeaderData.buttonLink}
-                                        className="button-red mt-2 mx-0"
+                                        className={`button-red mt-2 mx-0${showConsultationIcon ? ` ${Style.ButtonWithIcon}` : ""}`}
                                     >
-                                        {pageHeaderData.buttonText}
+                                        <span>
+                                            {showConsultationIcon && (
+                                                <FaCalendarCheck aria-hidden="true" />
+                                            )}
+                                            {pageHeaderData.buttonText}
+                                        </span>
                                     </a>
                                 </div>
                             </div>

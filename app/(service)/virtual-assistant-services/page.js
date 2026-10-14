@@ -67,7 +67,7 @@ const pageHeaderData = {
     title: "Virtual Assistant Services for Growing Businesses",
     description:
         "Get reliable virtual assistant services for administrative, ecommerce, customer support, research and business tasks. Scale your team with Tech2Globe.",
-    buttonText: "Get a Free Consultation",
+    buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/blue-linear-bg.png",
 };

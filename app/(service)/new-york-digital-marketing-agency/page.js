@@ -48,7 +48,7 @@ const pageHeaderData = {
     title: "Digital Marketing Agency New York",
     description:
         "Tech2Globe's New York Digital Marketing Agency focuses on enhancing visibility, driving impact, and providing innovative solutions to modern marketing challenges..",
-    buttonText: "Contact us",
+    buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/skyscraper.jpg", // your banner image
 };

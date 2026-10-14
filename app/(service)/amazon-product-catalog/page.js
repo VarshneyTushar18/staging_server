@@ -53,7 +53,7 @@ const pageHeaderData = {
     title: "Amazon Catalog Management Services",
     description:
         "Keep your Amazon product catalog accurate and organized with Tech2Globe. Get expert catalog management, SKU updates, product data, and error resolution.",
-    buttonText: "Contact us",
+    buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/skyscraper.jpg",
     overlay: true
