@@ -251,6 +251,7 @@
 .UsecaseCard .UsecaseIcon svg {
     width: 28px;
     height: 28px;
+    color: #234268;
 }
 
 .TechStacks img {
@@ -293,6 +294,12 @@
     color: #234268;
     margin-bottom: 0.75rem;
     line-height: 1.2;
+}
+
+.WhiteDashedBox h3 svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
 }
 
 .WhiteDashedBox p {

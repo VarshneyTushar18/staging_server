@@ -36,7 +36,8 @@ export default function BeforeAfterSlider() {
 
     return (
         <div className={Style.ContentDiv}>
-            <h2 className="pt-3">Why Invest in 3D Furniture Modeling and Rendering Services?</h2>
+            <h2 className="pt-3">Why Choose 3D Furniture Modeling for Your Products?</h2>
+            <p>A professionally created 3D furniture model can become a reusable digital asset for different stages of your sales and marketing process.</p>
 
             <div className={Style.SliderCompare} aria-label="Before and after image slider">
                 <div className={Style.ImgWrapper}>

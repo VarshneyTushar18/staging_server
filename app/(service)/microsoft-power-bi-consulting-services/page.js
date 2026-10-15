@@ -6,24 +6,24 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 import BiConsultingSlider from "@/app/components/services/BiConsultingSlider/BiConsultingSlider";
 
 export const metadata = {
-    title: "Microsoft Power BI Consulting Services | AI-Integrated Dashboards & BI Solutions",
+    title: "Power BI Consulting Services | Expert Microsoft Power BI",
     description:
-        "Unlock the full power of your data with Tech2Globe's AI-integrated Power BI consulting services. We design intelligent dashboards, automated reports, and predictive visual analytics that empower leadership teams to make faster, smarter decisions.",
+        "Get expert Power BI consulting services for dashboards, data visualization, integration, migration, and BI strategy. Talk to our Power BI experts today.",
     keywords:
         "Microsoft Power BI Consulting Services, Microsoft Power BI consultants, Microsoft Power BI Solution, Power BI consulting services, Power BI consultants & Expert, Microsoft power BI partner",
     openGraph: {
-        title: "Microsoft Power BI Consulting Services | AI-Integrated Dashboards & BI Solutions",
+        title: "Power BI Consulting Services | Expert Microsoft Power BI",
         description:
-            "Unlock the full power of your data with Tech2Globe's AI-integrated Power BI consulting services. We design intelligent dashboards, automated reports, and predictive visual analytics that empower leadership teams to make faster, smarter decisions.",
+            "Get expert Power BI consulting services for dashboards, data visualization, integration, migration, and BI strategy. Talk to our Power BI experts today.",
         url: "https://stagenew.tech2globe.tech/microsoft-power-bi-consulting-services",
         siteName: "Tech2Globe Web Solutions LLP",
         type: "website",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Microsoft Power BI Consulting Services | AI-Integrated Dashboards & BI Solutions",
+        title: "Power BI Consulting Services | Expert Microsoft Power BI",
         description:
-            "Unlock the full power of your data with Tech2Globe's AI-integrated Power BI consulting services. We design intelligent dashboards, automated reports, and predictive visual analytics that empower leadership teams to make faster, smarter decisions."
+            "Get expert Power BI consulting services for dashboards, data visualization, integration, migration, and BI strategy. Talk to our Power BI experts today.",
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/microsoft-power-bi-consulting-services",
@@ -33,8 +33,99 @@ export const metadata = {
 
 export default function BiConsulting() {
 
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
+                email: "info@tech2globe.com",
+                telephone: ["+1-516-858-5840", "+91-9899675039"],
+                contactPoint: [
+                    {
+                        "@type": "ContactPoint",
+                        contactType: "sales",
+                        email: "info@tech2globe.com",
+                        telephone: "+1-516-858-5840",
+                        availableLanguage: ["English"],
+                    },
+                ],
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                inLanguage: "en",
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#webpage",
+                url: "https://www.tech2globe.com/microsoft-power-bi-consulting-services",
+                name: "Power BI Consulting Services | Expert Microsoft Power BI",
+                description:
+                    "Get expert Power BI consulting services for dashboards, data visualization, integration, migration, and BI strategy. Talk to our Power BI experts today.",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#service",
+                },
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#breadcrumb",
+                },
+                inLanguage: "en",
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "Microsoft Power BI Consulting Services",
+                        item: "https://www.tech2globe.com/microsoft-power-bi-consulting-services",
+                    },
+                ],
+            },
+            {
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#service",
+                name: "Microsoft Power BI Consulting Services",
+                serviceType: "Microsoft Power BI Consulting Services",
+                url: "https://www.tech2globe.com/microsoft-power-bi-consulting-services",
+                description:
+                    "Tech2Globe provides Microsoft Power BI consulting, including BI strategy, data modeling, dashboard development, optimization, implementation, and training.",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/microsoft-power-bi-consulting-services#webpage",
+                },
+            },
+        ],
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
 
             <div className={`${Style.ContentDiv}`}>
                 <div className={Style.BiBanner}>
@@ -44,7 +135,7 @@ export default function BiConsulting() {
                                 <div className="ws-content-block">
                                     <img src="images/services/service-inner/microsoft-power-bi-light.png" alt="Microsoft Power BI"
                                         className="img-fluid bi-logo" />
-                                    <h1>Unlock Actionable Business Insights with Expert Microsoft Power BI Consulting</h1>
+                                    <h1>Expert Power BI Consulting Services</h1>
                                     <div className={Style.BannerBtn}>
                                         <a href="/contact-us" className="button-red mt-2 mx-0">Get A Consultation</a>
                                     </div>

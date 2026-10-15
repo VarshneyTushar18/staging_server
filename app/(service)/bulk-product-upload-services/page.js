@@ -6,7 +6,7 @@ import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner
 import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSidebar";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
-import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
+import { FaChartBar, FaClock, FaCogs, FaComments, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 
 export const metadata = {
@@ -38,8 +38,8 @@ const pageHeaderData = {
     title: "Bulk Product Upload Services for eCommerce Growth",
     description:
         "Uploading thousands of products manually is tedious, error-prone, and slows business growth. At Tech2Globe, we specialize in bulk product upload services across all major platforms like Amazon, Shopify, Magento, BigCommerce, WooCommerce, and custom carts. Our experts manage everything — product details, descriptions, pricing, images, categories, and SEO optimization — so your catalog stays accurate, updated, and sales-ready.",
-    buttonText: "Contact us",
-    buttonLink: "#",
+    buttonText: "Book Your Consultation",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
 };
 
@@ -134,59 +134,129 @@ const faqs = [
         Bulk product uploading is more prone to errors if not handled properly. Therefore, business owner's lookout for expert's assistance to get the bulk product uploading done without any errors.
       `,
     },
+    {
+        id: "Six",
+        question: "Can you upload products with variations and multiple attributes?",
+        answer:
+            "Yes. We can upload products with variations such as size, color, material, and other attributes, along with the relevant product information, images, SKUs, pricing, and inventory details based on the platform requirements.",
+    },
+    {
+        id: "Seven",
+        question: "Can you handle bulk product uploads for multiple ecommerce platforms?",
+        answer:
+            "Yes. We support bulk product uploads across multiple ecommerce platforms and marketplaces. Our team can format and prepare product data according to each platform's specific requirements and verify the listings after upload.",
+    },
+    {
+        id: "Eight",
+        question: "How do you ensure product data is accurate during bulk uploads?",
+        answer:
+            "We validate product information, categories, attributes, images, SKUs, pricing, and other required fields before and after uploading. This quality checking process helps identify missing or incorrect information and keeps product catalogs consistent.",
+    },
 ];
 
 export default function BulkProductUpload() {
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Why do companies prefer to outsource bulk product upload services?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Bulk product upload is a repetitive and time-consuming task that requires accuracy. Companies outsource it to save time and ensure high-quality output."
-                }
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
+                email: "info@tech2globe.com",
+                telephone: ["+1-516-858-5840", "+91-9899675039"],
+                contactPoint: [
+                    {
+                        "@type": "ContactPoint",
+                        contactType: "sales",
+                        email: "info@tech2globe.com",
+                        telephone: "+1-516-858-5840",
+                        availableLanguage: ["English"],
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                "name": "Why is expert assistance preferred for bulk product uploading?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Bulk product uploading can lead to errors if not handled correctly. Experts help ensure clean, accurate, and error-free uploads."
-                }
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                "name": "What kind of technology do you use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We use the latest tools and technologies to complete tasks efficiently and save time."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/bulk-product-upload-services#webpage",
+                url: "https://www.tech2globe.com/bulk-product-upload-services",
+                name: "Bulk Product Upload Services | Tech2Globe",
+                description:
+                    "Tech2Globe provides bulk product upload services for eCommerce platforms and marketplaces, managing product details, descriptions, pricing, images, categories, and catalog data.",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/bulk-product-upload-services#service",
+                },
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/bulk-product-upload-services#breadcrumb",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                "name": "What about the categorization of the products?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Our team understands product structures well and can handle correct categorization and sub-categorization."
-                }
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/bulk-product-upload-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "Bulk Product Upload Services",
+                        item: "https://www.tech2globe.com/bulk-product-upload-services",
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                "name": "How much time does it take to complete the work?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Time depends on the workload and your expected turnaround. We assign the right number of resources to meet deadlines, including urgent short-turnaround tasks."
-                }
-            }
-        ]
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/bulk-product-upload-services#service",
+                name: "Bulk Product Upload Services",
+                serviceType: "Bulk Product Upload Services",
+                url: "https://www.tech2globe.com/bulk-product-upload-services",
+                description:
+                    "Tech2Globe provides bulk product upload services for eCommerce platforms and marketplaces, managing product details, descriptions, pricing, images, categories, and catalog data.",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/bulk-product-upload-services#webpage",
+                },
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/bulk-product-upload-services#faq",
+                url: "https://www.tech2globe.com/bulk-product-upload-services",
+                name: "Bulk Product Upload Services FAQs",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/bulk-product-upload-services#webpage",
+                },
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer.trim(),
+                    },
+                })),
+            },
+        ],
     };
     return (
         <>
@@ -346,6 +416,14 @@ export default function BulkProductUpload() {
                                 <h2 className="pb-3">Why Choose Tech2Globe as Your Partner for Bulk Product Upload Services?</h2>
                                 <p>Tech2Globe boasts a highly skilled and well-trained team specializing in bulk <strong>product upload services</strong>, adept at handling diverse bulk product data entry tasks. We understand the requirements of our clients and work with them closely to deliver the expected results, which is why we have gained the trust of numerous brands. Additionally, our bulk product upload specialists are familiar with every central eCommerce platform and marketplace like Amazon.</p>
                                 <p className="pb-3">Our professionals will ensure that all product data is appropriately collected and recorded. They will also guarantee that the product data entered complies with the rules and specifications established by the online store. Furthermore, they have received excellent training in handling your bulk product listing, which includes managing product details like price, weight, specs, availability, and photos. Based on what is necessary for a certain e-commerce platform.</p>
+                            </div>
+                            <div className={Style.ContentDiv}>
+                                <h2 className="pt-3">Ready to Simplify Your Product Catalog?</h2>
+                                <p>Let our ecommerce experts handle your bulk product uploads, data formatting, and catalog management across your preferred platforms.</p>
+                                <a href="/contact-us" className="btn btn-danger px-4 py-2">
+                                    <FaComments className="me-2" aria-hidden="true" />
+                                    Talk to Our Ecommerce Experts
+                                </a>
                             </div>
                         </div>
                     </div>

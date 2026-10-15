@@ -1,5 +1,4 @@
 import Style from "./style.module.css";
-import Image from "next/image";
 import PageHeader from "@/app/components/services/PageHeader/PageHeader";
 import BrandSection from "@/app/components/home/BrandSection/BrandSection";
 import ServiceBanner from "@/app/components/services/ServiceBanner/ServiceBanner";
@@ -7,46 +6,74 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
-import { FaClock, FaCube, FaLightbulb, FaShieldAlt, FaUsers } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
+import {
+    FaSearch,
+    FaBuilding,
+    FaUsers,
+    FaChartLine,
+    FaDatabase,
+    FaCogs,
+    FaLightbulb,
+    FaHandshake,
+    FaTrophy,
+    FaClipboardList,
+    FaCheckCircle,
+    FaLayerGroup,
+    FaRocket,
+    FaExpandArrowsAlt,
+    FaClock,
+    FaUserCheck,
+    FaSyncAlt,
+    FaTasks,
+    FaShoppingCart,
+    FaHome,
+    FaHeartbeat,
+    FaUniversity,
+    FaBullhorn,
+    FaIndustry,
+    FaTruck,
+    FaPlane,
+    FaLaptopCode,
+    FaBriefcase,
+} from "react-icons/fa";
 
 export const metadata = {
-    title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
+    title: "Data Mining Services | Data Mining Company | Tech2Globe",
     description:
-        "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge.",
+        "Get reliable data mining services from Tech2Globe. Outsource data mining for business, customer, market research, web, and lead data needs.",
     keywords: [
         "Outsourcing Data Mining Services",
         "Data Mining Companies",
         "Outsource Data Mining Services",
-        "Data Mining Service Providers"
+        "Data Mining Service Providers",
     ],
     openGraph: {
-        title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
+        title: "Data Mining Services | Data Mining Company | Tech2Globe",
         siteName: "Tech2Globe Web Solutions LLP",
         description:
-            "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge.",
-        url: "https://stagenew.tech2globe.tech/data-mining-services"
+            "Get reliable data mining services from Tech2Globe. Outsource data mining for business, customer, market research, web, and lead data needs.",
+        url: "https://stagenew.tech2globe.tech/data-mining-services",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Data Mining Services | AI-Powered Pattern Discovery & Competitive Intelligence",
+        title: "Data Mining Services | Data Mining Company | Tech2Globe",
         description:
-            "Uncover hidden business opportunities with Tech2Globe's AI-powered data mining services. We use advanced algorithms and intelligent pattern recognition to extract meaningful insights from large datasets — giving you a strategic edge."
+            "Get reliable data mining services from Tech2Globe. Outsource data mining for business, customer, market research, web, and lead data needs.",
     },
     alternates: {
-        canonical: "https://stagenew.tech2globe.tech/data-mining-services"
-    }
+        canonical: "https://stagenew.tech2globe.tech/data-mining-services",
+    },
 };
 
 const pageHeaderData = {
     title: "Data Mining Services",
     description:
-        "Trust Tech2Globe for a top-quality data mining firm that provides professional guidance for navigating huge data repositories and delivering accurate and timely information. Our services for data mining allow the efficient search and aggregation of important information from multiple sources.",
-    buttonText: "Contact us",
-    buttonLink: "#",
-    backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
+        "Turn complex data into meaningful business insights with professional data mining services from Tech2Globe. We help businesses collect, organize, process, and analyze data from multiple sources.",
+    buttonText: "Book Your Consultation",
+    buttonLink: "/contact-us",
+    backgroundImage: "/images/services/data-mining-services-banner.jpg",
 };
-
 
 const caseStudies = [
     {
@@ -55,7 +82,8 @@ const caseStudies = [
         image: "/images/services/service-inner/data-mining-on-crm-for-health-Industry.png",
         description:
             "The client has worked in a system where they have a team dedicated to improving the lives of patients and their families...",
-        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/Data%20Mining%20on%20CRM%20for%20Health%20Industry%20-%20Case%20Study%20(1).pdf",
+        docLink:
+            "https://stagenew.tech2globe.tech/casestudies-docs1/Data%20Mining%20on%20CRM%20for%20Health%20Industry%20-%20Case%20Study%20(1).pdf",
     },
     {
         id: 2,
@@ -63,7 +91,8 @@ const caseStudies = [
         image: "/images/services/service-inner/data-mining-bn-2.jpg",
         description:
             "Most businesses wish they could take better advantage of their data to make better, more informed decisions — but that is much easier said than done....",
-        docLink: "https://stagenew.tech2globe.tech/casestudies-docs1/CASE%20STUDY-%20Data%20Mining%20Service-main.pdf",
+        docLink:
+            "https://stagenew.tech2globe.tech/casestudies-docs1/CASE%20STUDY-%20Data%20Mining%20Service-main.pdf",
     },
 ];
 
@@ -85,12 +114,10 @@ const usefulLinks = [
     { id: 12, name: "Survey Forms Processing", path: "/survey-forms-processing" },
 ];
 
-
 const sidebarSections = [
     { heading: "Resources", links: resources },
     { heading: "Useful Links", links: usefulLinks },
 ];
-
 
 const testimonials = [
     {
@@ -129,113 +156,356 @@ const faqs = [
     {
         id: "One",
         question: "What are data mining services?",
-        answer: `
-        <strong>Data mining services</strong> aid organizations in accurately interpreting data, enabling informed business decisions, process improvement, improved quality standards, and customer satisfaction. These services require trained resources and technical expertise to extract valuable information from large amounts of raw data. Our experienced analysts can manage and extract relevant information from any size, industry, and timeframe.
-      `,
+        answer: "Data mining services involve collecting, processing, organizing, and analyzing data to identify useful patterns, trends, relationships, and insights. Businesses can use these insights for research, marketing, sales, operations, business development, and decision making.",
     },
     {
         id: "Two",
-        question: "What kinds of data are suitable for data mining?",
-        answer: `
-        Data mining can be carried out on various data kinds, including unstructured data (such as text documents and social media posts) and structured data (such as databases, spreadsheets). We use a variety of data sources to offer thorough insights.
-      `,
+        question: "What does a data mining company do?",
+        answer: "A data mining company helps businesses collect and process relevant information from different sources. The services can include data collection, web data mining, lead data mining, customer data mining, market research, data cleaning, organization, validation, and delivery.",
     },
     {
         id: "Three",
-        question: "How can data mining help my company?",
-        answer: `
-        Data mining can be beneficial to your company in various ways, including decision-making, market trend identification, cost savings, improved customer experience, and acquiring a competitive edge. It allows you to successfully and strategically use data to your advantage.
-      `,
+        question: "What is a data mining service provider?",
+        answer: "A data mining service provider is a company that helps businesses collect, organize, process, and prepare data according to their requirements. Tech2Globe provides customized data mining services for different business and research needs.",
     },
     {
         id: "Four",
-        question: "What industries can benefit from data mining services?",
-        answer: `
-        Data mining techniques include mobile service providers, retail, gaming, social media analysis, crime prevention, customer satisfaction, research and engineering, and many more.
-      `,
+        question: "What is data mining outsourcing?",
+        answer: "Data mining outsourcing involves hiring an external service provider to manage some or all data collection, processing, organization, or research activities. It can help businesses reduce internal workload and access specialized resources.",
     },
     {
         id: "Five",
-        question: "How long does a typical data mining project take?",
-        answer: `
-        The duration depends on the kind of project and on different <strong>web data mining companies.</strong> Usually, a data mining project's duration relies on several variables, including the data's complexity, the project's scope, and the particular requirements. We engage with our clients to set realistic deadlines and ensure prompt project delivery.
-      `,
+        question: "Why should I outsource data mining services?",
+        answer: "Businesses may choose to outsource data mining services when they need to process large amounts of information, reduce manual work, access specialized resources, or establish an ongoing data collection workflow.",
     },
     {
         id: "Six",
-        question: "Can you assist with analyzing the data mining findings?",
-        answer: `
-        Our professionals help with both the data mining and the interpretation of the findings. Based on the findings of our investigation, we offer comprehensive insights and practical suggestions.
-      `,
+        question: "What types of data can you mine?",
+        answer: "We can work with different types of structured and unstructured information, including website data, business information, customer data, product information, marketplace data, social media information, text data, images, spreadsheets, and other datasets based on project requirements.",
     },
     {
         id: "Seven",
-        question: "What are the benefits of data mining services?",
-        answer: `
-        Data mining benefits include helping companies by offering reliable, efficient, and cost-effective solutions for gathering information, enabling profitable production and operational adjustments.
-      `,
+        question: "What is business data mining?",
+        answer: "Business data mining involves collecting and analyzing business related information to identify useful patterns and insights. It can include company information, market information, competitor data, product information, pricing, and other relevant business datasets.",
     },
     {
         id: "Eight",
-        question: "How does machine learning relate to data mining?",
-        answer: `
-        Machine learning relates to data mining as its techniques can be applied to data mining. Machine learning algorithms may assist detect patterns, forecast outcomes, and extract useful insights from vast datasets, all of which are necessary elements in the data mining process.
-      `,
+        question: "What is customer data mining?",
+        answer: "Customer data mining involves analyzing relevant customer datasets to identify patterns related to customer behavior, preferences, purchasing activity, feedback, and segmentation.",
+    },
+    {
+        id: "Nine",
+        question: "What is market research data mining?",
+        answer: "Market research data mining involves collecting and organizing information about markets, products, competitors, pricing, customer preferences, and industry trends to support research and business planning.",
+    },
+    {
+        id: "Ten",
+        question: "What is text data mining?",
+        answer: "Text data mining involves collecting and analyzing information from large volumes of text based content such as websites, documents, reviews, surveys, and other relevant sources.",
+    },
+    {
+        id: "Eleven",
+        question: "What is big data mining?",
+        answer: "Big data mining involves working with large and complex datasets to identify useful patterns, relationships, and insights. The approach depends on the size, structure, sources, and purpose of the dataset.",
+    },
+    {
+        id: "Twelve",
+        question: "Can you provide customized data mining solutions?",
+        answer: "Yes. Our data mining solutions can be customized according to your target data, sources, industry, geography, required fields, project volume, output format, and business objectives.",
+    },
+    {
+        id: "Thirteen",
+        question: "Do you provide data mining consulting?",
+        answer: "Yes. Our data mining consulting services can help businesses define their data requirements, identify relevant sources, determine required fields, and develop an appropriate data collection and processing workflow.",
+    },
+    {
+        id: "Fourteen",
+        question: "How do you ensure data quality?",
+        answer: "We use defined processes for data collection, cleaning, organization, and validation. The exact validation process depends on the type of data and requirements of each project.",
+    },
+    {
+        id: "Fifteen",
+        question: "Can you handle ongoing data mining projects?",
+        answer: "Yes. We can support both one time projects and ongoing data collection requirements depending on the scope, frequency, and workflow required by the business.",
+    },
+    {
+        id: "Sixteen",
+        question: "How long does a data mining project take?",
+        answer: "The timeline depends on the volume and complexity of the data, number of sources, required fields, validation requirements, and overall project scope. The expected timeline can be determined after reviewing your requirements.",
+    },
+    {
+        id: "Seventeen",
+        question: "How can I get started with Tech2Globe?",
+        answer: "Share your data requirements, target sources, required fields, preferred output format, and project objectives with our team. We can review your requirements and suggest a suitable data mining approach.",
     },
 ];
 
-export default function DataEntry() {
+const serviceAccordionItems = [
+    {
+        id: "One",
+        title: "Web Data Mining Services",
+        paragraphs: [
+            "Our web data mining services help businesses collect relevant information from websites, online directories, marketplaces, product catalogs, review platforms, and other publicly available online sources.",
+            "Depending on your requirements, we can collect information such as company details, product information, pricing, reviews, locations, business categories, and other relevant data.",
+            "The collected information can be cleaned, organized, validated, and delivered in a structured format for research, analysis, marketing, sales, or business development.",
+        ],
+    },
+    {
+        id: "Two",
+        title: "Lead Data Mining",
+        paragraphs: [
+            "Build targeted prospect databases with our lead data mining services. We collect and organize relevant business and contact information from appropriate online sources according to your target market and requirements.",
+            "Our team can organize information based on industry, location, company type, business size, and other criteria to help you develop focused prospect lists.",
+        ],
+    },
+    {
+        id: "Three",
+        title: "Business Data Mining",
+        paragraphs: [
+            "Our business data mining services help organizations collect and analyze information related to companies, industries, products, markets, competitors, pricing, and other business factors.",
+            "Business data mining can help organizations identify market opportunities, understand competitive activity, support business research, and improve strategic planning.",
+            "Whether you need information for a specific research project or require ongoing data collection, we can develop a workflow based on your business requirements.",
+        ],
+    },
+    {
+        id: "Four",
+        title: "Customer Data Mining",
+        paragraphs: [
+            "Understanding customer behavior can help businesses improve products, services, marketing, and customer experiences.",
+            "Our customer data mining services help businesses identify useful patterns from relevant customer datasets. Depending on the project, we can work with information related to purchasing behavior, product preferences, customer segments, feedback, and other relevant data.",
+            "These insights can help businesses understand customer needs, identify customer segments, improve marketing activities, and support more informed business decisions.",
+        ],
+    },
+    {
+        id: "Five",
+        title: "Market Research Data Mining",
+        paragraphs: [
+            "Make your market research more data driven with our market research data mining services.",
+            "We collect and organize relevant information about markets, products, competitors, pricing, customer preferences, and industry activity to support research and business planning.",
+        ],
+        listIntro: "Our market research data mining services can support:",
+        listItems: [
+            "Market opportunity research",
+            "Competitor research",
+            "Product research",
+            "Pricing research",
+            "Customer preference research",
+            "Industry research",
+            "Market trend research",
+        ],
+        closing:
+            "The collected information can be structured according to your research objectives and delivered in a format that makes further analysis easier.",
+    },
+    {
+        id: "Six",
+        title: "Social Media Data Mining",
+        paragraphs: [
+            "Social media contains large volumes of information that can provide useful insights into customers, brands, products, and market conversations.",
+            "Our social media data mining services help businesses collect relevant publicly available information and organize it for research and analysis.",
+            "Depending on the project, we can work with information related to brand mentions, product discussions, customer feedback, public content, and other relevant social media data.",
+        ],
+    },
+    {
+        id: "Seven",
+        title: "Image Data Mining",
+        paragraphs: [
+            "Our image data mining services help businesses work with information contained within image based datasets.",
+            "We can support projects involving product images, real estate images, maps, visual datasets, and other image based information where structured collection, classification, or analysis is required.",
+            "The workflow can be customized according to the type of images, information required, and intended use of the data.",
+        ],
+    },
+    {
+        id: "Eight",
+        title: "Text Data Mining",
+        paragraphs: [
+            "Large amounts of business information are available in text based formats such as websites, reviews, documents, surveys, and publicly available online content.",
+            "Our text data mining services help businesses collect, organize, categorize, and analyze relevant text based information to identify topics, trends, customer feedback, product discussions, and other useful patterns.",
+            "Text data mining can be particularly useful when businesses need to process large volumes of written information and convert it into structured datasets.",
+        ],
+    },
+    {
+        id: "Nine",
+        title: "Big Data Mining",
+        paragraphs: [
+            "Organizations working with large datasets need efficient processes for collecting, organizing, and analyzing information.",
+            "Our big data mining services support projects involving large volumes of structured and unstructured data from multiple sources. We can help organize large datasets and identify relevant patterns and information according to the requirements of the project.",
+            "The data workflow can be customized according to the size, complexity, sources, and intended use of the data.",
+        ],
+    },
+    {
+        id: "Ten",
+        title: "Excel Data Mining",
+        paragraphs: [
+            "We help businesses organize and process information stored in Excel spreadsheets and other related data formats.",
+            "Our team can work with large spreadsheets, identify inconsistencies, organize information, remove duplicate records where applicable, and structure data according to your requirements.",
+            "This can support reporting, research, operational analysis, financial planning, and other business activities.",
+        ],
+    },
+    {
+        id: "Eleven",
+        title: "Online Marketplace Data Mining",
+        paragraphs: [
+            "Online marketplaces contain valuable information about products, sellers, prices, categories, reviews, and market activity.",
+            "Our online marketplace data mining services help businesses collect relevant marketplace information and organize it into structured datasets.",
+            "This information can support product research, competitor analysis, pricing research, assortment analysis, and ecommerce decision making.",
+        ],
+    },
+];
 
+const industries = [
+    { name: "Ecommerce and Retail", icon: <FaShoppingCart /> },
+    { name: "Real Estate", icon: <FaHome /> },
+    { name: "Healthcare", icon: <FaHeartbeat /> },
+    { name: "Finance and Banking", icon: <FaUniversity /> },
+    { name: "Marketing and Advertising", icon: <FaBullhorn /> },
+    { name: "Manufacturing", icon: <FaIndustry /> },
+    { name: "Logistics", icon: <FaTruck /> },
+    { name: "Travel and Hospitality", icon: <FaPlane /> },
+    { name: "Technology", icon: <FaLaptopCode /> },
+    { name: "Research and Consulting", icon: <FaBriefcase /> },
+];
+
+const processSteps = [
+    {
+        icon: <FaSearch />,
+        title: "Requirement Analysis",
+        text: "We understand your business objectives, target data, required fields, data sources, geography, industry, volume, and preferred output format.",
+    },
+    {
+        icon: <FaClipboardList />,
+        title: "Data Source Identification",
+        text: "We identify relevant data sources according to your requirements and determine the appropriate approach for collecting the required information.",
+    },
+    {
+        icon: <FaDatabase />,
+        title: "Data Collection",
+        text: "Our team collects the required information using suitable data collection and research methods.",
+    },
+    {
+        icon: <FaSyncAlt />,
+        title: "Data Cleaning",
+        text: "The collected information is reviewed and cleaned to help remove duplicate, incomplete, irrelevant, or inconsistent records where applicable.",
+    },
+    {
+        icon: <FaTasks />,
+        title: "Data Organization",
+        text: "The information is structured according to your requirements and can be delivered in formats such as Excel, CSV, database files, or other agreed formats.",
+    },
+    {
+        icon: <FaCheckCircle />,
+        title: "Data Validation",
+        text: "We review the collected information against the defined project requirements to improve consistency and usability.",
+    },
+    {
+        icon: <FaRocket />,
+        title: "Data Delivery",
+        text: "The completed dataset is delivered in the agreed format so your team can use it for research, analysis, reporting, marketing, sales, or other business activities.",
+    },
+];
+
+export default function DataMiningServices() {
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                name: "How long does a typical data mining project take?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "A data mining project’s duration depends on several factors, including data complexity, project scope, and specific client requirements. We collaborate with our clients to set realistic timelines and ensure on-time delivery."
-                }
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
+                email: "info@tech2globe.com",
+                telephone: ["+1-516-858-5840", "+91-9899675039"],
+                contactPoint: [
+                    {
+                        "@type": "ContactPoint",
+                        contactType: "sales",
+                        email: "info@tech2globe.com",
+                        telephone: "+1-516-858-5840",
+                        availableLanguage: ["English"],
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                name: "What kinds of data are suitable for data mining?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "Data mining can be performed on both structured data (like databases and spreadsheets) and unstructured data (such as text documents and social media posts). Our team utilizes diverse data sources to deliver comprehensive insights."
-                }
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                name: "Is my data safe and secure with Tech2Globe Web Solutions?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "Absolutely! The security and confidentiality of your data are top priorities. We follow strict data protection standards and implement advanced measures to keep your data safe. We also offer related services like data management and data entry for added value."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/data-mining-services#webpage",
+                url: "https://www.tech2globe.com/data-mining-services",
+                name: "Data Mining Services | Data Mining Company | Tech2Globe",
+                description:
+                    "Get reliable data mining services from Tech2Globe. Outsource data mining for business, customer, market research, web, and lead data needs.",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/data-mining-services#service",
+                },
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/data-mining-services#breadcrumb",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                name: "Can you assist with analysing the data mining findings?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "Yes, our experts not only perform data mining but also help interpret the results. We provide detailed insights and actionable recommendations based on our analysis to support better business decisions."
-                }
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/data-mining-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "Data Mining Services",
+                        item: "https://www.tech2globe.com/data-mining-services",
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                name: "How can data mining help my company?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "Data mining enhances business operations by uncovering patterns, predicting trends, optimizing costs, improving customer experience, and giving you a competitive edge. It helps you leverage data for smarter, strategic decisions."
-                }
-            }
-        ]
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/data-mining-services#service",
+                name: "Data Mining Services",
+                serviceType: "Data Mining Services",
+                url: "https://www.tech2globe.com/data-mining-services",
+                description:
+                    "Turn complex data into meaningful business insights with professional data mining services from Tech2Globe. We help businesses collect, organize, process, and analyze data from multiple sources to identify patterns, trends, customer behavior, market opportunities, and competitive insights.",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/data-mining-services#webpage",
+                },
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/data-mining-services#faq",
+                url: "https://www.tech2globe.com/data-mining-services",
+                name: "Data Mining Services FAQs",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/data-mining-services#webpage",
+                },
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer,
+                    },
+                })),
+            },
+        ],
     };
 
     return (
@@ -245,300 +515,389 @@ export default function DataEntry() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <PageHeader pageHeaderData={pageHeaderData} />
-            <Breadcrumb pageName="Data Mining Services" />
+            <Breadcrumb parentName="Services" pageName="Data Mining Services" />
             <BrandSection />
             <section className={Style.PageContent}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                            <ServiceBanner pageName="data mining services" />
+                            <ServiceBanner pageName="Data Mining Services" />
                             <div className={Style.ContentDiv}>
-                                <h2 className="pb-3">Enhancing Business Performance Through Strategic Data Mining Services</h2>
-                                <p>The process of identifying patterns, connections, patterns, and other insights from vast databases is known by the term data mining. A vast amount of unstructured and structured data is required to be analyzed and collected to detect trends, forecast outcomes, and make business decisions. With our data mining solutions, we aid you in making use of the power of your data to uncover useful insights that can spur the development of your business and encourage innovation.</p>
-                                <p>Our data mining firm specializes in supplying businesses with outstanding data mining services needed to uncover valuable insights in their vast data storage. Our experienced professionals make use of cutting-edge methodologies and technology to analyze, extract and interpret data efficiently. This allows you to make informed choices and get an edge in the current data-driven environment.</p>
-                            </div>
-                            <div className={Style.ContentDiv}>
-                                <h2 className="pt-3 pb-3">Our Comprehensive Solutions in data mining services</h2>
-                                <p>Being one of the most reputable companies for data mining, we employ the latest techniques and tools to forecast patterns, detect trends and collect market data. When you outsource data mining services with us, you will be assured of quality results that are aligned with your company&apos;s objectives. Here are the solutions we offer:</p>
+                                <h1 className={`${Style.headingText} pb-3`}>Data Mining Services</h1>
+                                <p className="para-text">
+                                    Turn complex data into meaningful business insights with professional <strong>data mining services</strong> from Tech2Globe. We help businesses collect, organize, process, and analyze data from multiple sources to identify patterns, trends, customer behavior, market opportunities, and competitive insights.
+                                </p>
+                                <p className="para-text">
+                                    As an experienced data mining company, we provide customized data mining solutions for businesses that need accurate and well structured information for research, marketing, sales, operations, and strategic decision making. From web and lead data mining to customer, business, marketplace, and market research data, our team can build data workflows around your specific requirements.
+                                </p>
 
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/Web-Data-Mining-Services.jpg"
-                                                alt="Web Data Mining Services"
-                                                width={100}
-                                                height={100}
-                                            />
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaLightbulb />
+                                    </span>
+                                    Data Mining Solutions for Smarter Business Decisions
+                                </h2>
+                                <p className="para-text">
+                                    Businesses generate large amounts of data every day, but raw information is valuable only when it can be organized and converted into useful insights.
+                                </p>
+                                <p className="para-text">
+                                    Our data mining solutions help businesses discover patterns, relationships, trends, and opportunities within large datasets. We collect relevant information, clean and organize the data, and prepare it in a structured format that can support further analysis and decision making.
+                                </p>
+                                <p className="para-text">
+                                    Our services can support business intelligence, competitive intelligence, customer research, market research, product research, lead generation, and other data driven business activities.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaLayerGroup />
+                                    </span>
+                                    Our Data Mining Services
+                                </h2>
+                                <div className={`${Style.PageAccordion} accordion`} id="accordionDataMiningServices">
+                                    {serviceAccordionItems.map((item, index) => {
+                                        const collapseId = `collapse${item.id}`;
+                                        const headingId = `heading${item.id}`;
+                                        const isFirst = index === 0;
+                                        return (
+                                            <div className={`${Style.AccordionItem} accordion-item`} key={item.id}>
+                                                <h2 className="accordion-header" id={headingId}>
+                                                    <button
+                                                        className={`${Style.AccordionButton} accordion-button${isFirst ? "" : " collapsed"}`}
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target={`#${collapseId}`}
+                                                        aria-expanded={isFirst ? "true" : "false"}
+                                                        aria-controls={collapseId}
+                                                    >
+                                                        {item.title}
+                                                    </button>
+                                                </h2>
+                                                <div
+                                                    id={collapseId}
+                                                    className={`accordion-collapse collapse${isFirst ? " show" : ""}`}
+                                                    aria-labelledby={headingId}
+                                                    data-bs-parent="#accordionDataMiningServices"
+                                                >
+                                                    <div className={`${Style.AccordionBody} accordion-body`}>
+                                                        {item.paragraphs.map((paragraph, pIndex) => (
+                                                            <p
+                                                                key={pIndex}
+                                                                className={`para-text${
+                                                                    !item.listItems &&
+                                                                    pIndex === item.paragraphs.length - 1 &&
+                                                                    !item.closing
+                                                                        ? " mb-0"
+                                                                        : ""
+                                                                }`}
+                                                            >
+                                                                {paragraph}
+                                                            </p>
+                                                        ))}
+                                                        {item.listIntro && (
+                                                            <p className="para-text">{item.listIntro}</p>
+                                                        )}
+                                                        {item.listItems && (
+                                                            <ul>
+                                                                {item.listItems.map((listItem) => (
+                                                                    <li key={listItem}>{listItem}</li>
+                                                                ))}
+                                                            </ul>
+                                                        )}
+                                                        {item.closing && (
+                                                            <p className="para-text mb-0">{item.closing}</p>
+                                                        )}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaCogs />
+                                    </span>
+                                    Data Mining Process
+                                </h2>
+                                <p className="para-text">
+                                    We follow a structured data mining process designed around the objectives and requirements of each project.
+                                </p>
+                                <div className="row">
+                                    {processSteps.map((step) => (
+                                        <div
+                                            className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3"
+                                            key={step.title}
+                                        >
+                                            <div className={Style.WaCardTwo}>
+                                                <div className={Style.CardIcon} aria-hidden="true">
+                                                    {step.icon}
+                                                </div>
+                                                <div className={Style.WaCardBody}>
+                                                    <h5>{step.title}</h5>
+                                                    <p>{step.text}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaDatabase />
+                                    </span>
+                                    Data Mining Techniques and Tools
+                                </h2>
+                                <p className="para-text">
+                                    Different projects require different approaches to collecting and analyzing information. Our data mining workflows can include techniques for data collection, classification, organization, pattern identification, trend analysis, and data validation depending on the project requirements.
+                                </p>
+                                <p className="para-text">
+                                    Our approach can be customized based on the type of data, volume of information, data sources, required output, and intended business use.
+                                </p>
+                                <p className="para-text">
+                                    The objective is not simply to collect large amounts of information, but to organize relevant data so that it can provide meaningful business value.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaHandshake />
+                                    </span>
+                                    Data Mining Outsourcing Services
+                                </h2>
+                                <p className="para-text">
+                                    Managing large scale data projects internally can require considerable time, resources, technology, and specialized expertise. Data mining outsourcing allows businesses to work with an external team while their internal resources focus on core business activities.
+                                </p>
+                                <p className="para-text">
+                                    Tech2Globe provides flexible data mining outsourcing services for businesses with different data collection and processing requirements.
+                                </p>
+                                <p className="para-text">
+                                    Whether you want to outsource data mining, require outsource data mining services for a specific project, or need ongoing support, we can develop a workflow around your requirements.
+                                </p>
+                                <p className="para-text">Our outsourcing data mining services can include:</p>
+                                <ul>
+                                    <li>Web data mining</li>
+                                    <li>Business data mining</li>
+                                    <li>Lead data mining</li>
+                                    <li>Customer data mining</li>
+                                    <li>Market research data mining</li>
+                                    <li>Competitor data research</li>
+                                    <li>Marketplace data mining</li>
+                                    <li>Data cleaning and organization</li>
+                                    <li>Ongoing data collection</li>
+                                </ul>
+                                <p className="para-text">
+                                    Our data mining outsourcing services can be scaled according to project volume, data requirements, frequency, and business objectives.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaUserCheck />
+                                    </span>
+                                    Data Mining Consulting and Solutions
+                                </h2>
+                                <p className="para-text">
+                                    Businesses often need more than data collection. They may also need help defining what information should be collected, which sources are relevant, how the data should be structured, and how it can support their business objectives.
+                                </p>
+                                <p className="para-text">
+                                    Our data mining consulting services help businesses define their data requirements and develop practical approaches for data collection, organization, and analysis.
+                                </p>
+                                <p className="para-text">We can help you identify:</p>
+                                <ul>
+                                    <li>What data your business needs</li>
+                                    <li>Relevant data sources</li>
+                                    <li>Required data fields</li>
+                                    <li>Suitable collection methods</li>
+                                    <li>Data organization requirements</li>
+                                    <li>Data validation requirements</li>
+                                    <li>Appropriate delivery formats</li>
+                                    <li>Potential business applications of the collected data</li>
+                                </ul>
+                                <p className="para-text">
+                                    This consulting approach can be combined with our broader data mining solutions to create a workflow aligned with your business objectives.
+                                </p>
+
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaTrophy />
+                                    </span>
+                                    Why Choose Tech2Globe as Your Data Mining Service Provider?
+                                </h2>
+                                <p className="para-text">
+                                    Choosing the right data mining service provider is important when the quality, structure, and relevance of collected information can directly affect business decisions.
+                                </p>
+                                <p className="para-text">
+                                    Tech2Globe combines data collection, web research, data processing, and business research capabilities to provide customized data mining services.
+                                </p>
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaCogs />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Customized Data Mining Solutions</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Every business has different data requirements. We customize our workflows according to your sources, required fields, industry, geography, volume, output format, and project objectives.
+                                            </p>
                                         </div>
                                     </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>1.Web Data Mining Services:</h5>
-                                        <p>To collect relevant data about your business from sources such as public and private businesses catalogs of business online review sites, and competitors&apos; websites, we use both manual and automated web scraping techniques for data.</p>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaUsers />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Experienced Data Mining Team</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Our team works with different data collection, research, processing, organization, and analysis requirements across multiple business use cases.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaExpandArrowsAlt />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Scalable Data Processing</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Whether you need a small research dataset or a large volume of business information, the workflow can be structured according to your project requirements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaCheckCircle />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Data Quality and Validation</h5>
+                                            <p className="text-muted medium mb-0">
+                                                We follow defined processes for data cleaning, organization, and validation to improve the quality and usability of the delivered information.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaClock />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Flexible Engagement</h5>
+                                            <p className="text-muted medium mb-0">
+                                                You can work with Tech2Globe for a one time data mining project or establish an ongoing data collection and processing workflow.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaChartLine />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Business Focused Approach</h5>
+                                            <p className="text-muted medium mb-0">
+                                                We focus on understanding why the data is required and how it will be used. This allows us to structure the collection and delivery process around your actual business objectives.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/lead-data-ming-Comprehensive-Solutions.jpg"
-                                                alt="Lead Data Mining"
-                                                width={100}
-                                                height={100}
-                                            />
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaRocket />
+                                    </span>
+                                    Benefits of Data Mining Services
+                                </h2>
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaLightbulb />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Better Business Insights</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Organized data can help businesses identify patterns, trends, relationships, and opportunities that may not be visible in raw datasets.
+                                            </p>
                                         </div>
                                     </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>2.Lead Data Mining:</h5>
-                                        <p>We aid businesses in getting optimal lists of prospective clients by collecting their contact details from different sources of all sizes and shapes and putting them in an effective database for customer outreach.</p>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaCheckCircle />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Improved Decision Making</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Reliable and structured information can support better decisions across marketing, sales, operations, research, and business development.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaUsers />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Better Customer Understanding</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Customer data mining can help businesses understand customer behavior, preferences, purchasing patterns, and relevant customer segments.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaSearch />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Market and Competitive Intelligence</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Market research and competitor data can help businesses understand market activity and monitor relevant changes within their industry.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaClock />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Reduced Manual Work</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Outsourcing data mining can reduce the time internal teams spend manually collecting, organizing, and processing large volumes of information.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3">
+                                        <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                                            <div className={Style.Icon}>
+                                                <FaExpandArrowsAlt />
+                                            </div>
+                                            <h5 className="fw-bold mb-2">Scalable Data Operations</h5>
+                                            <p className="text-muted medium mb-0">
+                                                Professional data mining workflows can be expanded according to changing business requirements and project volumes.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/Social-Media-Data-Analysis.jpg"
-                                                alt="Social Media Data Analysis"
-                                                width={100}
-                                                height={100}
-                                            />
+                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                    <span className={Style.HeadingIcon} aria-hidden="true">
+                                        <FaBuilding />
+                                    </span>
+                                    Industries We Serve
+                                </h2>
+                                <p className="para-text">
+                                    Our data mining services can be customized for businesses across different industries and use cases, including:
+                                </p>
+                                <div className={Style.IndustryGrid}>
+                                    {industries.map((industry) => (
+                                        <div className={Style.IndustryItem} key={industry.name}>
+                                            <span className={Style.IndustryIcon} aria-hidden="true">
+                                                {industry.icon}
+                                            </span>
+                                            <span>{industry.name}</span>
                                         </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>3. Social Media Data Analysis:</h5>
-                                        <p>With Tech2Globe&apos;s data mining tools, you can search through millions of interactions, post users&apos; profiles and brands&apos; mentions, and even locate the information you require.</p>
-                                    </div>
+                                    ))}
                                 </div>
-
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/image-data-mining-comprehensive-solutions.jpg"
-                                                alt="Image Data Mining"
-                                                width={100}
-                                                height={100}
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>4.Image Data Mining:</h5>
-                                        <p>Clients are able to retrieve and analyze images from different databases with the Image Data Mining service. We&apos;ve assisted customers with real estate-related services as well as weather forecasting, maps analysis, investigations into criminals, medical image inspection and many other services.</p>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/Excel-img-2.jpg"
-                                                alt="Excel Data Mining"
-                                                width={100}
-                                                height={100}
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>5. Excel Data Mining:</h5>
-                                        <p>Being one of the top suppliers of data mining solutions, We have access to an expert team who can either create a new or modify the existing Excel database and employ various formulas and models. Businesses should make use of this data for financial and business planning.</p>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.ImageBox}>
-                                            <Image
-                                                src="/images/services/service-inner/Mining-Data-From-Online-Marketplaces.jpg"
-                                                alt="Mining Data From Online Marketplaces"
-                                                width={100}
-                                                height={100}
-                                            />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <h5>6. Mining Data From Online Marketplaces:</h5>
-                                        <p>We are among the most experienced companies in web data mining. We are able to extract massive amounts of information from online marketplaces and websites by using automated techniques that are already in use or by creating new techniques.</p>
-                                    </div>
-                                </div>
-
+                                <p className="para-text">
+                                    The data sources, collection methods, and workflow depend on the requirements of each project.
+                                </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div className={Style.StickyTop}>
                                 <ServiceSidebar sections={sidebarSections} />
-                            </div>
-                        </div>
-
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-3">
-                            <div className={Style.ContentDiv}>
-                                <h2 className="pt-3 pb-3">Advantages Of Our Data Mining Services</h2>
-                                <p>The job of a company that is data mining is to provide customers with the best possible service. The ability to understand your data could increase flexibility, quality of process and customer loyalty, as well as cost savings and, eventually, an increase in revenue for your organization. However, internal data mining is costly and time-consuming to execute. So outsourcing the data mining process is a great choice to let you concentrate on the business aspects.</p>
-                                <p>If your data mining is outsourced to a third party, you reap numerous benefits such as:</p>
-                                <div className="row pt-5 pb-5">
-                                    <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
-                                        <div className={`${Style.CardBox} h-100`}>
-                                            <div className="content-box d-flex justify-content-start align-items-center gap-3">
-                                                <Image
-                                                    src="/images/services/service-inner/practical-Insights1.jpg"
-                                                    alt="Practical Insights"
-                                                    width={50}
-                                                    height={50}
-                                                />
-                                                <h3>Practical Insights</h3>
-                                            </div>
-                                            <p>Our mining experts are skilled in identifying important patterns and trends in huge data sets. We help you make intelligent decisions that boost the productivity and growth of your business by acquiring actionable data.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
-                                        <div className={`${Style.CardBox} h-100`}>
-                                            <div className="content-box d-flex justify-content-start align-items-center gap-3">
-                                                <Image
-                                                    src="/images/services/service-inner/better-%20Decision-Making1.png"
-                                                    alt="Better Decision-Making"
-                                                    width={50}
-                                                    height={50}
-                                                />
-                                                <h3>Better Decision-Making</h3>
-                                            </div>
-                                            <p>You are able to make educated choices based on the facts instead of speculation by analyzing precise and reliable information. With our data mining services, you can create strategies that give you an edge over your other competitors.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
-                                        <div className={`${Style.CardBox} h-100`}>
-                                            <div className="content-box d-flex justify-content-start align-items-center gap-3">
-                                                <Image
-                                                    src="/images/services/service-inner/cost-Savings1.png"
-                                                    alt="Cost Savings"
-                                                    width={50}
-                                                    height={50}
-                                                />
-                                                <h3>Cost Savings</h3>
-                                            </div>
-                                            <p>Through identifying inefficiencies, streamlining processes and reducing costs, data mining could help you save money. We help you improve your overall efficiency by reviewing your data. This can save you money in the long run.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
-                                        <div className={`${Style.CardBox} h-100`}>
-                                            <div className="content-box d-flex justify-content-start align-items-center gap-3">
-                                                <Image
-                                                    src="/images/services/service-inner/improved-Customer-Experience1.png"
-                                                    alt="Improved Customer Experience"
-                                                    width={50}
-                                                    height={50}
-                                                />
-                                                <h3>Improved Customer Experience</h3>
-                                            </div>
-                                            <p>Your success is contingent on understanding your client&apos;s desires and requirements. With our data mining solutions, you can learn more about customer behavior, purchasing habits, and levels of satisfaction. This information can be used to improve customer service, personalize your marketing campaigns and enhance the overall shopping experience.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-3">
-                                        <div className={`${Style.CardBox} h-100`}>
-                                            <div className="content-box d-flex justify-content-start align-items-center gap-3">
-                                                <Image
-                                                    src="/images/services/service-inner/competitive-Advantage1.png"
-                                                    alt="Competitive Advantage"
-                                                    width={50}
-                                                    height={50}
-                                                />
-                                                <h3>Competitive Advantage</h3>
-                                            </div>
-                                            <p>Knowledge of your customers and the market is crucial to stay ahead in today&apos;s highly competitive business world, by utilizing these data and data mining to gain an edge over your competitors and position your business to be successful over the long term.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className={Style.ContentDiv}>
-                                <h2 className="pt-3 pb-3">Benefits of Data Mining Companies</h2>
-                                <p>Data mining companies provide a variety of advantages through their extensive services in data mining. They help various industries comprehend their target audience to identify patterns and adjust to changes. Data that is consistent can aid your business in determining when the inventory needs to be replaced or if it is necessary to increase staff to handle a large volume of customer requests. This will ensure that business operations are uninterrupted and the proper expenditure on needs.</p>
-                                <p>It&apos;s your responsibility to select the top web-based companies for data mining that can assist you with the necessary services. Selecting reputable companies for data mining will ensure that you will have an edge in today&apos;s highly data-driven business world.</p>
-                                <p>Outsourcing Data Mining Services To Tech2Globe Web Solutions</p>
-                                <p>Are you looking to outsource your services to a reputable data mining firm? Do not look any further. We&apos;re ready to provide the highest quality data mining services that provide exact results.</p>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.IconBox}>
-                                            <FaLightbulb />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <div className={Style.IconContext}>
-                                            <h3>Knowledge And Experience:</h3>
-                                            <p>Our team is made up of individuals who are highly skilled in data mining. We have successfully carried out projects in data mining for clients across a variety of industries and have produced outstanding results.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.IconBox}>
-                                            <FaCube />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <div className={Style.IconContext}>
-                                            <h3>Cutting-Edge Technologies:</h3>
-                                            <p>We stay up to date with the latest advancements in technology and tools for data mining. We guarantee accurate and efficient data analysis and provide the most effective results to our clients through the use of the most advanced algorithms and technologies.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.IconBox}>
-                                            <FaUsers />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <div className={Style.IconContext}>
-                                            <h3>Customized Solutions:</h3>
-                                            <p>We recognize that each organization has specific needs. Our data mining services are personalized to meet your unique requirements, guaranteeing that you get specialized solutions that support your corporate objectives.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.IconBox}>
-                                            <FaShieldAlt />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <div className={Style.IconContext}>
-                                            <h3>Security And Confidentiality:</h3>
-                                            <p>We place a high priority on maintaining the security and confidentiality of your data. Thanks to our stringent data security procedures, including secure data transfer methods and limited access controls, your information is kept secure and private.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="row pt-3 pb-3">
-                                    <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4">
-                                        <div className={Style.IconBox}>
-                                            <FaClock />
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                                        <div className={Style.IconContext}>
-                                            <h3>Timely Delivery:</h3>
-                                            <p>We respect your time and work to complete our tasks by the specified timeframe. We can meet deadlines and surpass client expectations thanks to our effective project management procedures and devoted employees.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p>Thinking about how to outsource data mining services to Tech2Globe? Contact us, and we will be there to explain everything about our data mining services from A to Z.</p>
-
                             </div>
                         </div>
                     </div>
@@ -549,5 +908,5 @@ export default function DataEntry() {
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />
         </>
-    )
-};
+    );
+}

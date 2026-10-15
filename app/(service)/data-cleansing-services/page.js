@@ -45,8 +45,8 @@ const pageHeaderData = {
     title: "Data Cleansing Services",
     description:
         "The adequacy of your business choices to a great extent relies on the quality of data you are analyzing. Regardless of how big is your database, it won't increase the value of your business except if it is modern and free from any repetitive data. ",
-    buttonText: "Contact us",
-    buttonLink: "#",
+    buttonText: "Talk to Our Experts",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
 };
 
@@ -108,45 +108,51 @@ const testimonials = [
 const faqs = [
     {
         id: "One",
-        question: "What makes Tech2Globe unique?",
-        answer: `
-        Our years of experience in outsourcing, combined with our low operating cost, flexibility, expertise, reliability, and integrity make us the best in the offshore market.
-      `,
+        question: "What is data cleansing?",
+        answer:
+            "Data cleansing is the process of identifying and correcting inaccurate, incomplete, outdated, inconsistent, or duplicate information in a database. It helps businesses maintain cleaner and more reliable data for daily operations, reporting, customer management, and decision-making.",
     },
     {
         id: "Two",
-        question: "Are your services cost-effective?",
-        answer: `
-        Yes. When you outsource to Tech2Globe you be assured of saving more than 40-50% of your operating costs. Although we provide our customers with cost-competitive services, we do not compromise on quality. Outsource now and get access to quality solutions while cutting down costs.
-      `,
+        question: "What does a data cleansing service include?",
+        answer:
+            "A data cleansing service can include removing duplicate records, correcting spelling and formatting errors, completing missing information, standardizing data fields, validating records, updating outdated information, and organizing databases according to defined requirements.",
     },
     {
         id: "Three",
-        question: "What is your TAT?",
-        answer: `
-        If you want your services to be delivered within a fast turnaround time, then you have come to the right place. One of the benefits that we offer our customers is our quick TAT. Outsource to Tech2Globe and get the advantage of your services being delivered ahead of schedule.
-      `,
+        question: "How does data cleansing improve data quality?",
+        answer:
+            "Data cleansing improves data quality by identifying errors and inconsistencies before they affect business processes. Clean and standardized data can help businesses improve reporting, customer communication, database management, and the overall reliability of their information.",
     },
     {
         id: "Four",
-        question: "How can I be assured of high quality in my project?",
-        answer: `
-        We have a specially designed workflow along with highly qualified QA professionals whose aim is to deliver only premium quality services. You can test and verify the quality of our work throughout the course of the project.
-      `,
+        question: "Can you remove duplicate records from a database?",
+        answer:
+            "Yes. Our data cleansing process includes identifying and removing duplicate records based on the rules and matching criteria defined for your project. We can also retain the most complete or relevant record when multiple duplicate entries are identified.",
     },
     {
         id: "Five",
-        question: "Does Tech2Globe possess long-term viability?",
-        answer: `
-        Yes, we consider our long-term viability to be excellent. You need not have any reservations about teaming up with us, as we are completely debt-free. To ensure our viability, we always make it a point to sign outsourcing contracts or agreements.
-      `,
+        question: "Can you clean and standardize large databases?",
+        answer:
+            "Yes. We can work with databases of different sizes and structures. Large datasets can be cleaned, standardized, validated, and organized according to your required formats, data fields, and quality guidelines.",
     },
     {
         id: "Six",
-        question: "What modes of payment do you accept?",
-        answer: `
-        Once the project is completed and you are satisfied with the results, you can pay us either by wire transfer or by check. In case you wish to pay us through any other method, you can let our customer support team know, and they will guide you appropriately.
-      `,
+        question: "Can you correct missing and inaccurate data?",
+        answer:
+            "Yes. We can identify missing, incomplete, or inconsistent information and correct it when the required reference data or reliable sources are available. The approach depends on the type of information and the requirements of the project.",
+    },
+    {
+        id: "Seven",
+        question: "What types of data can you cleanse?",
+        answer:
+            "We can work with customer databases, contact lists, mailing lists, product data, business records, financial information, healthcare data, CRM records, and other structured datasets. The exact cleansing process is customized according to the type and condition of your data.",
+    },
+    {
+        id: "Eight",
+        question: "How long does a data cleansing project take?",
+        answer:
+            "The turnaround time depends on the volume of records, complexity of the database, number of fields, level of cleansing required, and validation requirements. After reviewing your data and project scope, we can provide an estimated timeline.",
     },
 ];
 
@@ -154,63 +160,106 @@ export default function DataCleansing() {
 
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "What makes Tech2Globe unique?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Our years of outsourcing experience, low operating cost, flexibility, expertise, reliability, and integrity make us a strong competitor in the offshore market."
-                }
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
+                email: "info@tech2globe.com",
+                telephone: ["+1-516-858-5840", "+91-9899675039"],
+                contactPoint: [
+                    {
+                        "@type": "ContactPoint",
+                        contactType: "sales",
+                        email: "info@tech2globe.com",
+                        telephone: "+1-516-858-5840",
+                        availableLanguage: ["English"],
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                "name": "Are your services cost-effective?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Yes. Outsourcing to Tech2Globe can help you save 40–50% of your operating costs. We offer competitive pricing without compromising quality."
-                }
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                "name": "What is your TAT?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We offer fast turnaround times. One key benefit of working with us is that your projects are often delivered ahead of schedule."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/data-cleansing-services#webpage",
+                url: "https://www.tech2globe.com/data-cleansing-services",
+                name: "Data Cleansing Services | Tech2Globe",
+                description:
+                    "Tech2Globe provides data cleansing services including data cleaning, deduplication, normalization, standardization, validation, and correction of missing or inaccurate records.",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/data-cleansing-services#service",
+                },
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/data-cleansing-services#breadcrumb",
+                },
+                inLanguage: "en",
             },
             {
-                "@type": "Question",
-                "name": "How can I be assured of high quality in my project?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Our workflow is designed for quality. Skilled QA specialists verify the accuracy and consistency of your data throughout the project."
-                }
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/data-cleansing-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "Data Cleansing Services",
+                        item: "https://www.tech2globe.com/data-cleansing-services",
+                    },
+                ],
             },
             {
-                "@type": "Question",
-                "name": "Does Tech2Globe possess long-term viability?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Yes, we are fully debt-free and financially stable. We strengthen long-term viability by signing outsourcing contracts and agreements."
-                }
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/data-cleansing-services#service",
+                name: "Data Cleansing Services",
+                serviceType: "Data Cleansing Services",
+                url: "https://www.tech2globe.com/data-cleansing-services",
+                description:
+                    "Tech2Globe provides data cleansing services including data cleaning, deduplication, normalization, standardization, validation, and correction of missing or inaccurate records.",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/data-cleansing-services#webpage",
+                },
             },
             {
-                "@type": "Question",
-                "name": "What modes of payment do you accept?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Payments can be made by wire transfer or check once the project is completed. If you prefer another method, our support team can guide you."
-                }
-            }
-        ]
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/data-cleansing-services#faq",
+                url: "https://www.tech2globe.com/data-cleansing-services",
+                name: "Data Cleansing Services FAQs",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/data-cleansing-services#webpage",
+                },
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer,
+                    },
+                })),
+            },
+        ],
     };
 
     return (
