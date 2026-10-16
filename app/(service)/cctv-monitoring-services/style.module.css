@@ -82,3 +82,34 @@
     margin-bottom: 50px;
     width: 100%;
 }
+
+.CtaBlock {
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CtaBlock h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.CtaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #c01f29;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.CtaButton:hover {
+    background-color: #a01a22;
+    color: #fff;
+}

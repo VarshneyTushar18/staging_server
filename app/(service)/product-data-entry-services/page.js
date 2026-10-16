@@ -7,15 +7,29 @@ import ServiceSidebar from "@/app/components/services/ServiceSidebar/ServiceSide
 import ClientSlider from "@/app/components/services/ClientSlider/ClientSlider";
 import FaqSection from "@/app/components/services/faqs/faqs";
 import CaseStudiesService from "@/app/components/services/ServiceCaseStudy/ServiceCaseStudy";
-import { FaChartBar, FaClock, FaCogs, FaCube, FaDatabase, FaDownload, FaLightbulb, FaSearch, FaShieldAlt, FaUsers, FaUsersCog } from "react-icons/fa";
 import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
-import PortfolioTabs from "@/app/components/services/portfolio/portfolio";
 import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPortfolio";
+import {
+  FaAmazon,
+  FaCheckCircle,
+  FaClipboardList,
+  FaCogs,
+  FaDatabase,
+  FaLayerGroup,
+  FaLightbulb,
+  FaSearch,
+  FaShoppingBag,
+  FaShoppingCart,
+  FaStore,
+  FaSyncAlt,
+  FaUpload,
+  FaUsers,
+} from "react-icons/fa";
 
 export const metadata = {
-  title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
+  title: "Ecommerce Product Data Entry Services | Tech2Globe",
   description:
-    "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms.",
+    "Outsource ecommerce product data entry services for product uploads, catalog conversion, categorization, data sourcing, updates, and bulk product management.",
   keywords: [
     "Product Data Entry Process",
     "Product Data Entry Solutions",
@@ -26,17 +40,17 @@ export const metadata = {
     "Data Entry Services"
   ],
   openGraph: {
-    title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
+    title: "Ecommerce Product Data Entry Services | Tech2Globe",
     siteName: "Tech2Globe web Solutions LLP",
     description:
-      "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms.",
+      "Outsource ecommerce product data entry services for product uploads, catalog conversion, categorization, data sourcing, updates, and bulk product management.",
     url: "https://stagenew.tech2globe.tech/product-data-entry-services"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Product Data Entry Services | AI-Assisted Ecommerce Catalogue Data Solutions",
+    title: "Ecommerce Product Data Entry Services | Tech2Globe",
     description:
-      "Scale your ecommerce catalogue with Tech2Globe's AI-assisted product data entry services. We combine intelligent automation with trained data specialists to deliver fast, accurate, and SEO-ready product information across all platforms."
+      "Outsource ecommerce product data entry services for product uploads, catalog conversion, categorization, data sourcing, updates, and bulk product management."
   },
   alternates: {
     canonical: "https://stagenew.tech2globe.tech/product-data-entry-services"
@@ -44,12 +58,12 @@ export const metadata = {
 };
 
 const pageHeaderData = {
-  title: "E-Commerce Product Data Entry Services",
+  title: "Ecommerce Product Data Entry Services",
   description:
-    "Every one of the products listed on the online business site should be categorized precisely and the right data must be entered for customers to see them. Accurate data entry is of most extreme significance to get all the product details set up.",
-  buttonText: "Contact us",
-  buttonLink: "#",
-  backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
+    "Tech2Globe provides ecommerce product data entry services for product catalog creation, product uploads, data sourcing, categorization, catalog conversion, and product information updates across websites, marketplaces, and ecommerce platforms.",
+  buttonText: "Book Your Consultation",
+  buttonLink: "/contact-us",
+  backgroundImage: "/images/services/data-mining-services-banner.jpg",
 };
 
 const resources = [
@@ -372,38 +386,45 @@ const testimonials = [
 const faqs = [
   {
     id: "One",
-    question: "Are your services cost-effective?",
-    answer: `
-        Yes, our services are cost-effective. When you outsource to Tech2Globe then it will decrease you 50-70% of your operational cost. Although we provide our customers with cost-competitive services, we do not compromise on quality.
-      `,
+    question: "What are ecommerce product data entry services?",
+    answer:
+      "Ecommerce product data entry services involve entering, organizing, updating, categorizing, and maintaining product information for online stores and marketplaces.",
   },
   {
     id: "Two",
-    question: " What is your TAT?",
-    answer: `
-        Turn-around Time depends upon the size of the project. Although we offer our customers is our quick TAT. So outsource to Tech2Globe for the fast turn-around time or quick delivery of the project.
-      `,
+    question: "What information is included in product data entry?",
+    answer:
+      "Product data can include titles, descriptions, prices, SKUs, specifications, categories, attributes, images, variations, inventory information, and other product details.",
   },
   {
     id: "Three",
-    question: "Do you sign non-disclosure agreements?",
-    answer: `
-        Yes, we sign non-disclosure agreements for every customer who outsources to Tech2Globe. Outsource to Tech2Globe and experience worry-free outsourcing.
-      `,
+    question: "Can you handle bulk product data entry?",
+    answer:
+      'Yes. Product data entry workflows can be structured for large catalogs and bulk product projects. Tech2Globe\'s current portfolio includes projects involving tens of thousands of products and SKUs. <a href="/product-data-entry-services">Tech2Globe web Solutions LLP</a>',
   },
   {
     id: "Four",
-    question: "How can I outsource to Tech2Globe? What I need to do?",
-    answer: `
-        Just fill the form below our executive will get back to you or you can mail your details on info@tech2globe.com
-      `,
+    question: "Do you provide Amazon product data entry services?",
+    answer:
+      "Yes. Tech2Globe can support Amazon product catalog and data entry requirements, including product information, attributes, categories, and catalog updates.",
   },
   {
     id: "Five",
-    question: "Do you have the adequate infrastructure and technology to support my business processes?",
-    answer: `
-        Yes. Tech2Globe use the very best and the latest in software, technology and infrastructure. By outsourcing you can save on investing on expensive software and technology as we use the very best in both. All our office have best-of-breed infrastructure.
-      `,
+    question: "Do you provide Magento product data entry services?",
+    answer:
+      "Yes. Magento product data entry can include product information, attributes, categories, images, pricing, configurable products, and catalog updates.",
+  },
+  {
+    id: "Six",
+    question: "Can you update existing product catalogs?",
+    answer:
+      "Yes. Ongoing product data updates can include changes to prices, descriptions, specifications, images, categories, availability, and other catalog fields.",
+  },
+  {
+    id: "Seven",
+    question: "Can you work with multilingual product catalogs?",
+    answer:
+      'Yes. Tech2Globe provides multilingual product data support according to project requirements, including Spanish, German, French, and other languages. <a href="/product-data-entry-services">Tech2Globe web Solutions LLP</a>',
   },
 ];
 
@@ -464,53 +485,291 @@ const portfolioClients = [
 },
 ];
 
+const productDataFields = [
+  "Product names and SKUs",
+  "Product descriptions",
+  "Product specifications",
+  "Prices and discounts",
+  "Product categories",
+  "Product attributes",
+  "Size and color variations",
+  "Images and image URLs",
+  "Inventory information",
+  "Manufacturer details",
+  "Shipping information",
+  "Product metadata",
+];
+
+const serviceAccordionItems = [
+  {
+    id: "One",
+    title: "Ecommerce Product Data Entry",
+    paragraphs: [
+      "We enter product information into ecommerce websites, online stores, and marketplace systems based on your specifications.",
+      "Our team can work with product spreadsheets, supplier catalogs, PDFs, websites, images, databases, and other source formats to prepare and enter product information.",
+    ],
+  },
+  {
+    id: "Two",
+    title: "Product Data Sourcing",
+    paragraphs: [
+      "When product information is available across different sources, our team can collect and organize the required details before entering them into your ecommerce system.",
+      "This can include product descriptions, specifications, pricing information, images, attributes, and other catalog data.",
+    ],
+  },
+  {
+    id: "Three",
+    title: "Product Categorization",
+    paragraphs: [
+      "Correct categorization helps customers find products more easily and keeps an ecommerce catalog organized.",
+      "We can categorize products according to your existing taxonomy, marketplace requirements, product hierarchy, or predefined guidelines.",
+    ],
+  },
+  {
+    id: "Four",
+    title: "Product Catalog Conversion",
+    paragraphs: [
+      "Businesses moving from one ecommerce platform or catalog format to another may need their product data converted into a new structure.",
+      "Our team can help organize and convert product information while maintaining important fields, attributes, variations, and relationships.",
+    ],
+  },
+  {
+    id: "Five",
+    title: "Product Catalog Indexing",
+    paragraphs: [
+      "Large catalogs can become difficult to manage when products are not organized consistently.",
+      "We can support catalog indexing and structured product organization to help businesses maintain cleaner product databases.",
+    ],
+  },
+  {
+    id: "Six",
+    title: "Product Data Updates",
+    paragraphs: [
+      "Product information changes regularly. Prices, specifications, descriptions, images, availability, and other details may need to be updated across an ecommerce catalog.",
+      "Our team can provide ongoing product data updates according to your schedule and requirements.",
+    ],
+  },
+  {
+    id: "Seven",
+    title: "Product Attribute and Variation Entry",
+    paragraphs: [
+      "Products with multiple sizes, colors, materials, models, or other variations require careful data entry.",
+      "We can organize product attributes and variations according to your catalog structure to maintain consistency across product listings.",
+    ],
+  },
+  {
+    id: "Eight",
+    title: "Amazon Product Data Entry Services",
+    paragraphs: [
+      "Managing product information on Amazon requires attention to product attributes, categories, variations, specifications, images, and other listing information.",
+      "Our Amazon product data entry services can support sellers and retailers with product catalog preparation, product information entry, updates, categorization, and bulk catalog work.",
+      "For large catalogs, structured data entry can also help reduce the manual workload involved in maintaining product information across marketplace listings.",
+    ],
+  },
+  {
+    id: "Nine",
+    title: "Magento Product Data Entry Services",
+    paragraphs: [
+      "Magento stores can contain large product catalogs with multiple attributes, categories, configurable products, and variations.",
+      "Our Magento product data entry services can support product creation, attribute entry, category assignment, pricing information, descriptions, images, and catalog updates.",
+      "We can work according to your existing Magento catalog structure and product requirements.",
+    ],
+  },
+];
+
+const platforms = [
+  { name: "Shopify", icon: <FaStore /> },
+  { name: "Magento", icon: <FaShoppingCart /> },
+  { name: "WooCommerce", icon: <FaShoppingBag /> },
+  { name: "BigCommerce", icon: <FaStore /> },
+  { name: "Amazon", icon: <FaAmazon /> },
+  { name: "Walmart", icon: <FaShoppingCart /> },
+  { name: "eBay", icon: <FaShoppingBag /> },
+  { name: "PrestaShop", icon: <FaStore /> },
+  { name: "cDiscount", icon: <FaShoppingCart /> },
+  { name: "Other ecommerce platforms and marketplaces", icon: <FaLayerGroup /> },
+];
+
+const processSteps = [
+  {
+    icon: <FaSearch />,
+    title: "1. Understand Your Product Data Requirements",
+    text: "We first review your product fields, catalog structure, source files, platform requirements, product categories, variations, and formatting guidelines.",
+  },
+  {
+    icon: <FaClipboardList />,
+    title: "2. Collect and Organize Product Information",
+    text: "Product information is gathered from the sources you provide or from approved data sources. The information is then organized according to the required product template.",
+  },
+  {
+    icon: <FaUpload />,
+    title: "3. Enter and Format Product Data",
+    text: "Our team enters product information into the required spreadsheet, ecommerce platform, marketplace, or database. Fields are formatted according to your instructions and platform requirements.",
+  },
+  {
+    icon: <FaDatabase />,
+    title: "4. Categorize and Validate Products",
+    text: "Products are assigned to the appropriate categories and reviewed for missing or inconsistent information.",
+  },
+  {
+    icon: <FaCheckCircle />,
+    title: "5. Quality Check",
+    text: "Completed product data is reviewed for errors, formatting problems, missing fields, duplicate information, and other issues identified in the project guidelines.",
+  },
+  {
+    icon: <FaSyncAlt />,
+    title: "6. Upload and Maintain the Catalog",
+    text: "After approval, the product data can be uploaded to the required ecommerce platform or marketplace. We can also provide ongoing updates and catalog maintenance.",
+  },
+];
+
+const whyAccurateMatters = [
+  {
+    title: "Create Better Product Experiences",
+    text: "Complete product information gives customers the details they need to compare products and make purchasing decisions.",
+  },
+  {
+    title: "Maintain Consistent Catalogs",
+    text: "Standardized product information helps keep large ecommerce catalogs organized across categories and platforms.",
+  },
+  {
+    title: "Reduce Manual Work",
+    text: "Outsourcing repetitive product data entry can reduce the workload for internal ecommerce teams.",
+  },
+  {
+    title: "Support Large Catalog Operations",
+    text: "Businesses with thousands of products can use dedicated product data entry support to manage catalog work more efficiently.",
+  },
+  {
+    title: "Keep Product Information Updated",
+    text: "Regular catalog updates help businesses maintain current prices, specifications, availability, and other product information.",
+  },
+];
+
+const industryImages = [
+  { name: "Retail", src: "/images/services/service-inner/retail.png", alt: "Retail" },
+  { name: "Fashion", src: "/images/services/service-inner/textiles.png", alt: "Fashion" },
+  { name: "Electronics", src: "/images/services/service-inner/media-&-entertainment.png", alt: "Electronics" },
+  { name: "Healthcare", src: "/images/services/service-inner/health.png", alt: "Healthcare" },
+  { name: "Automotive", src: "/images/services/service-inner/automotive.png", alt: "Automotive" },
+  { name: "Real estate", src: "/images/services/service-inner/real-eastate.png", alt: "Real Estate" },
+  { name: "Logistics", src: "/images/services/service-inner/delivery.png", alt: "Logistics" },
+  { name: "Textiles", src: "/images/services/service-inner/textiles.png", alt: "Textiles" },
+  { name: "Media and entertainment", src: "/images/services/service-inner/media-&-entertainment.png", alt: "Media and Entertainment" },
+  { name: "Consumer products", src: "/images/services/service-inner/retail.png", alt: "Consumer Products" },
+];
+
+const whyChooseFocus = [
+  "Accurate product information",
+  "Structured catalog management",
+  "Quality checks",
+  "Large volume product processing",
+  "Multilingual support",
+  "Flexible project requirements",
+  "Ecommerce platform support",
+  "Ongoing catalog updates",
+];
+
 export default function ProductDataEntryServices() {
 
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
+    "@graph": [
       {
-        "@type": "Question",
-        name: "Are your services cost-effective?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, our services are cost-effective. When you outsource to Tech2Globe then it will decrease you 50-70% of your operational cost. Although we provide our customers with cost-competitive services, we do not compromise on quality."
-        }
+        "@type": "Organization",
+        "@id": "https://www.tech2globe.com/#organization",
+        name: "Tech2Globe",
+        url: "https://www.tech2globe.com/",
       },
       {
-        "@type": "Question",
-        name: "What is your TAT?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Turn-around Time depends upon the size of the project. Although we offer our customers is our quick TAT. So outsource to Tech2Globe for the fast turn-around time or quick delivery of the project."
-        }
+        "@type": "WebSite",
+        "@id": "https://www.tech2globe.com/#website",
+        url: "https://www.tech2globe.com/",
+        name: "Tech2Globe",
+        publisher: {
+          "@id": "https://www.tech2globe.com/#organization",
+        },
       },
       {
-        "@type": "Question",
-        name: "Do you sign non-disclosure agreements?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, we sign non-disclosure agreements for every customer who outsources to Tech2Globe. Outsource to Tech2Globe and experience worry-free outsourcing."
-        }
+        "@type": "WebPage",
+        "@id": "https://tech2globe.com/product-data-entry-services#webpage",
+        url: "https://tech2globe.com/product-data-entry-services",
+        name: "Ecommerce Product Data Entry Services | Tech2Globe",
+        description:
+          "Outsource ecommerce product data entry services for product uploads, catalog conversion, categorization, data sourcing, updates, and bulk product management.",
+        isPartOf: {
+          "@id": "https://www.tech2globe.com/#website",
+        },
+        about: {
+          "@id": "https://tech2globe.com/product-data-entry-services#service",
+        },
+        breadcrumb: {
+          "@id": "https://tech2globe.com/product-data-entry-services#breadcrumb",
+        },
+        mainEntity: {
+          "@id": "https://tech2globe.com/product-data-entry-services#service",
+        },
       },
       {
-        "@type": "Question",
-        name: "How can I outsource to Tech2Globe? What I need to do?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Just fill the form below our executive will get back to you or you can mail your details on info@tech2globe.com"
-        }
+        "@type": "BreadcrumbList",
+        "@id": "https://tech2globe.com/product-data-entry-services#breadcrumb",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.tech2globe.com/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Ecommerce Product Data Entry Services",
+            item: "https://tech2globe.com/product-data-entry-services",
+          },
+        ],
       },
       {
-        "@type": "Question",
-        name: "Do you have the adequate infrastructure and technology to support my business processes?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Tech2Globe use the very best and the latest in software, technology and infrastructure. By outsourcing you can save on investing on expensive software and technology as we use the very best in both. All our office have best-of-breed infrastructure."
-        }
-      }
-    ]
+        "@type": "Service",
+        "@id": "https://tech2globe.com/product-data-entry-services#service",
+        name: "Ecommerce Product Data Entry Services",
+        serviceType: [
+          "Ecommerce product data entry",
+          "Product data sourcing",
+          "Product categorization",
+          "Product catalog conversion",
+          "Product catalog indexing",
+          "Product data updates",
+          "Product attribute and variation entry",
+          "Amazon product data entry",
+          "Magento product data entry",
+        ],
+        description:
+          "Tech2Globe provides ecommerce product data entry services for product catalog creation, product uploads, data sourcing, categorization, catalog conversion, product information updates, and bulk product management across ecommerce websites, marketplaces, and platforms.",
+        url: "https://tech2globe.com/product-data-entry-services",
+        provider: {
+          "@id": "https://www.tech2globe.com/#organization",
+        },
+        mainEntityOfPage: {
+          "@id": "https://tech2globe.com/product-data-entry-services#webpage",
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://tech2globe.com/product-data-entry-services#faq",
+        url: "https://tech2globe.com/product-data-entry-services",
+        isPartOf: {
+          "@id": "https://tech2globe.com/product-data-entry-services#webpage",
+        },
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer.replace(/<[^>]*>/g, ""),
+          },
+        })),
+      },
+    ],
   };
   
 
@@ -529,203 +788,276 @@ export default function ProductDataEntryServices() {
             <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
               <ServiceBanner pageName="product data entry services" />
               <div className={Style.ContentDiv}>
-                <p>Every one of the products listed on the online business site should be categorized precisely and the right data must be entered for customers to see them. Accurate data entry is of most extreme significance to get all the product details set up. Tech2Globe is one of the main online catalog creation and e-commerce data entry specialist organizations who can offer the heartiest help for your e-commerce platform. The experts at Tech2Globe are knowledgeable in offering exact and precise <strong>e-commerce product data entry services</strong> to the various retailers.</p>
-              </div>
+                <h1 className={`${Style.headingText} pb-3`}>
+                  Ecommerce Product Data Entry Services
+                </h1>
+                <p className="para-text">
+                  Accurate product information is essential for running a successful ecommerce store. From product titles and descriptions to prices, specifications, images, categories, and variations, every detail needs to be entered correctly and maintained regularly.
+                </p>
+                <p className="para-text">
+                  Tech2Globe provides <strong>ecommerce product data entry services</strong> for businesses that need reliable support with product catalog creation, product uploads, data sourcing, categorization, catalog conversion, and product information updates. Our team helps ecommerce businesses manage large product catalogs across websites, marketplaces, and ecommerce platforms.
+                </p>
+                <p className="para-text">
+                  Whether you are launching a new store, migrating an existing catalog, or managing thousands of product listings, our product data entry team can handle the work according to your catalog structure and requirements.
+                </p>
 
-              <div className={Style.ContentDiv}>
-                <h2 className="pt-3 pb-3">What we offer on Product Data Entry?</h2>
-                <p>Having an in-house product data entry team for your e-commerce wants is a costly affair, in this way employing a third-party specialist organization like Tech2Globe bodes well. Tech2Globe has been in the information the board business for very nearly two decades now. Some of the key e-commerce product data upload services we offer incorporate -</p>
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaLightbulb />
+                  </span>
+                  What Are Ecommerce Product Data Entry Services?
+                </h2>
+                <p className="para-text">
+                  Ecommerce product data entry involves collecting, organizing, entering, updating, and maintaining the information required to publish products on an online store or marketplace.
+                </p>
+                <p className="para-text">Depending on the project, product data can include:</p>
                 <ul className={Style.ListColTwo}>
-                  <li>E-Commerce Product Data Entry</li>
-                  <li>E-Commerce Product Data Sourcing</li>
-                  <li>E-Commerce Catalog Conversion</li>
-                  <li>E-Commerce Catalog Indexing and Developing</li>
-                  <li>Updating Product Data</li>
-                  <li>Product Categorization</li>
-                  <li>Product Data Sourcing</li>
+                  {productDataFields.map((field) => (
+                    <li key={field}>{field}</li>
+                  ))}
                 </ul>
-                <p>We have years of experience to deal with the huge volume of product data entry services at the most minimal cost with experienced product data entry specialists who give you bother free and precise, product data entry services. So, outsource product data entry services to Tech2Globe as we promise you better outcomes and yield inside the guaranteed time limit.</p>
-              </div>
+                <p className="para-text">
+                  Accurate product data helps customers understand what they are buying and gives ecommerce businesses a more organized catalog.
+                </p>
 
-              <div className={Style.ContentDiv}>
-                <h4 className="pt-3">Our Process for Product Data Entry</h4>
-                <p>If you have an eCommerce business, it is of most extreme significance to update the product information showed on the site.</p>
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaLayerGroup />
+                  </span>
+                  Our Product Data Entry Services
+                </h2>
+                <p className="para-text">
+                  Tech2Globe provides a range of product data entry services that can be customized according to your catalog size, platform, industry, and workflow.
+                </p>
+                <div className={`${Style.PageAccordion} accordion`} id="accordionProductDataEntry">
+                  {serviceAccordionItems.map((item, index) => {
+                    const collapseId = `collapse${item.id}`;
+                    const headingId = `heading${item.id}`;
+                    const isFirst = index === 0;
+                    return (
+                      <div className={`${Style.AccordionItem} accordion-item`} key={item.id}>
+                        <h2 className="accordion-header" id={headingId}>
+                          <button
+                            className={`${Style.AccordionButton} accordion-button${isFirst ? "" : " collapsed"}`}
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#${collapseId}`}
+                            aria-expanded={isFirst ? "true" : "false"}
+                            aria-controls={collapseId}
+                          >
+                            {item.title}
+                          </button>
+                        </h2>
+                        <div
+                          id={collapseId}
+                          className={`accordion-collapse collapse${isFirst ? " show" : ""}`}
+                          aria-labelledby={headingId}
+                          data-bs-parent="#accordionProductDataEntry"
+                        >
+                          <div className={`${Style.AccordionBody} accordion-body`}>
+                            {item.paragraphs.map((paragraph, pIndex) => (
+                              <p
+                                key={pIndex}
+                                className={`para-text${
+                                  pIndex === item.paragraphs.length - 1 ? " mb-0" : ""
+                                }`}
+                              >
+                                {paragraph}
+                              </p>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaShoppingCart />
+                  </span>
+                  Ecommerce Platforms We Support
+                </h2>
+                <p className="para-text">
+                  Our product data entry workflows can be adapted for different ecommerce platforms and marketplaces.
+                </p>
+                <p className="para-text">Depending on your requirements, support can include:</p>
+                <ul className={Style.PlatformList}>
+                  {platforms.map((platform) => (
+                    <li className={Style.PlatformItem} key={platform.name}>
+                      <span aria-hidden="true">{platform.icon}</span>
+                      <span>{platform.name}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="para-text">
+                  For platforms where Tech2Globe already provides dedicated product upload or marketplace services, we can connect the appropriate workflow instead of duplicating platform specific processes.
+                </p>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaCogs />
+                  </span>
+                  Our Product Data Entry Process
+                </h2>
+                <p className="para-text">
+                  A structured process helps maintain product accuracy when working with large catalogs.
+                </p>
+                <div className="row">
+                  {processSteps.map((step) => (
+                    <div
+                      className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3"
+                      key={step.title}
+                    >
+                      <div className={Style.WaCardTwo}>
+                        <div className={Style.CardIcon} aria-hidden="true">
+                          {step.icon}
+                        </div>
+                        <div className={Style.WaCardBody}>
+                          <h5>{step.title}</h5>
+                          <p>{step.text}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className={`${Style.CtaBlock} text-center my-4 py-4`}>
+                  <h3>Need Help With Product Data Entry?</h3>
+                  <p className="mb-3">
+                    Outsource your ecommerce product data entry and catalog management to Tech2Globe.
+                  </p>
+                  <a href="/contact-us" className={Style.CtaButton}>
+                    Get a Free Quote
+                  </a>
+                </div>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaCheckCircle />
+                  </span>
+                  Why Accurate Product Data Matters for Ecommerce
+                </h2>
+                <p className="para-text">
+                  Product information directly affects how customers understand and evaluate products.
+                </p>
+                <p className="para-text">Accurate product data can help businesses:</p>
+                <div className="row">
+                  {whyAccurateMatters.map((item) => (
+                    <div
+                      className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-3"
+                      key={item.title}
+                    >
+                      <div className={`${Style.ServiceCard} text-center p-4 border rounded h-100 bg-white`}>
+                        <h5 className="fw-bold mb-2">{item.title}</h5>
+                        <p className="text-muted medium mb-0">{item.text}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaDatabase />
+                  </span>
+                  Product Data Entry for Large Ecommerce Catalogs
+                </h2>
+                <p className="para-text">
+                  Large catalogs require more than simply entering information into a spreadsheet.
+                </p>
+                <p className="para-text">
+                  A catalog with thousands of products may contain multiple categories, variations, specifications, images, and product attributes. Maintaining consistency across these fields can become time consuming for an internal ecommerce team.
+                </p>
+                <p className="para-text">
+                  Tech2Globe supports large scale product data projects and currently showcases project experience involving 50,000+ SKUs across Shopify and Amazon with a reported 99.6% accuracy rate, along with other catalog projects involving multilingual data and large product inventories.{" "}
+                  <a href="/product-data-entry-services">Tech2Globe web Solutions LLP</a>
+                </p>
+                <p className="para-text">
+                  Our workflows can be adapted for both one time catalog projects and ongoing product data management.
+                </p>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaUsers />
+                  </span>
+                  Multilingual Product Data Entry
+                </h2>
+                <p className="para-text">
+                  Ecommerce businesses operating across multiple markets may need product information prepared in different languages.
+                </p>
+                <p className="para-text">
+                  Tech2Globe provides multilingual product data support, including languages such as Spanish, German, French, and others, according to project requirements.{" "}
+                  <a href="/product-data-entry-services">Tech2Globe web Solutions LLP</a>
+                </p>
+                <p className="para-text">
+                  This can help businesses manage product catalogs when expanding into new markets or maintaining localized ecommerce stores.
+                </p>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaShoppingBag />
+                  </span>
+                  Industries We Support
+                </h2>
+                <p className="para-text">
+                  Our product data entry and catalog support can be adapted for different industries, including:
+                </p>
+                <div className="row">
+                  {industryImages.map((industry) => (
+                    <div
+                      className="col-lg-3 col-md-3 col-sm-6 col-xs-12 pb-3"
+                      key={industry.name}
+                    >
+                      <div className={Style.ImageBox}>
+                        <Image
+                          src={industry.src}
+                          alt={industry.alt}
+                          width={55}
+                          height={55}
+                        />
+                        <h5>{industry.name}</h5>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <p className="para-text">
+                  The exact workflow depends on the product type, catalog structure, data sources, and ecommerce platform.
+                </p>
+
+                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                  <span className={Style.HeadingIcon} aria-hidden="true">
+                    <FaAmazon />
+                  </span>
+                  Why Choose Tech2Globe for Product Data Entry?
+                </h2>
+                <p className="para-text">
+                  Tech2Globe combines ecommerce experience with structured data management workflows to support product catalogs of different sizes.
+                </p>
+                <p className="para-text">Our approach focuses on:</p>
                 <ul>
-                  <li>Adding the product details to the eCommerce site</li>
-                  <li>Updating the current data every once in a while</li>
-                  <li>Product details, for example, feature or cost aren&apos;t consistent, thus, you have to keep an update</li>
-                  <li>Gathering basic information from digitized catalogs</li>
+                  {whyChooseFocus.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
-              </div>
+                <p className="para-text">
+                  The current page also documents examples of large product data projects, including 50,000+ SKUs for a US retailer, 30,000+ products for a multilingual European catalog, and 45,000+ fashion items with 180,000+ SKU variants.{" "}
+                  <a href="/product-data-entry-services">Tech2Globe web Solutions LLP</a>
+                </p>
 
-              <div className={Style.ContentDiv}>
-                <h4 className="pt-3">Complete Suite of Our Product Data Entry Services</h4>
-                <p>Tech2Globe offers the widest range of online data product entry services to businesses of all sizes. Apart from English, we provide online data entry services in the entire major languages including, Spanish, German, French, and many more. All our services are ISO certified for quality and data security.</p>
+                <div className={`${Style.CtaBlock} text-center my-4 py-4`}>
+                  <h3>Ready to Manage Your Product Catalog More Efficiently?</h3>
+                  <p className="mb-3">
+                    Talk to our ecommerce data experts about your product data entry requirements.
+                  </p>
+                  <a href="/contact-us" className={Style.CtaButton}>
+                    Talk to Our Experts
+                  </a>
+                </div>
               </div>
-
-              <div className={Style.ContentDiv}>
-                <h4 className="pt-3">Tools we leverage in Product Data Entry</h4>
-                <p>We have cutting-edge tools and equipment used for data entry services in India to get you through modest edge like Adobe Acrobat reader DC, Abbyy FineReader, Tesseract, OmniPage, Readiris, Docufree, Prizmo, and Soda PDF Premium.</p>
-              </div>
-
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
               <div className={Style.StickyTop}>
                 <ServiceSidebar sections={sidebarSections} />
-              </div>
-            </div>
-
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-              <div className={Style.ContentDiv}>
-                <h4 className="pt-3">Industries We Provide Data Entry Services</h4>
-                <p>Our experience in the data entry area has given us a few chances to work with customers from various enterprises. Global e-commerce companies have profited by product data entry companies due to cost-effective services. Some of the key verticals we give our quality services to incorporate -</p>
-
-                <div className="row">
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/health.png"
-                        alt="Healthcare"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Healthcare</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/automotive.png"
-                        alt="Automotive"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Automotive</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/insurance.png"
-                        alt="Insurance"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Insurance</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/brokerage.png"
-                        alt="Customs Brokerage"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Customs Brokerage</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/education.png"
-                        alt="Education"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Education</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/energy-&-utilities.png"
-                        alt="Energy & Utilities"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Energy & Utilities</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/textiles.png"
-                        alt="Textiles"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Textiles</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/real-eastate.png"
-                        alt="Real Estate"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Real Estate</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/delivery.png"
-                        alt="Logistics"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Logistics</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/customer-support.png"
-                        alt="Telecommunication"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Telecommunication</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/media-&-entertainment.png"
-                        alt="Media & Entertainment"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Media & Entertainment</h5>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-3">
-                    <div className={Style.ImageBox}>
-                      <Image
-                        src="/images/services/service-inner/retail.png"
-                        alt="Retail"
-                        width={55}
-                        height={55}
-                      />
-                      <h5>Retail</h5>
-                    </div>
-                  </div>
-
-                </div>
               </div>
             </div>
           </div>
@@ -733,7 +1065,6 @@ export default function ProductDataEntryServices() {
       </section>
       <ClientPortfolio clients={portfolioClients} />
       <CaseStudiesService caseStudies={caseStudies} />
-      {/* <PortfolioTabs data={portfolio} /> */}
       <ClientSlider testimonials={testimonials} />
       <FaqSection faqs={faqs} />
     </>

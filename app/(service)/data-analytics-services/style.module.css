@@ -4,52 +4,108 @@
     z-index: 99;
 }
 
-.ContentDiv a {
+.headingText {
+    font-size: 20px;
     font-weight: 600;
-    text-decoration: underline;
 }
 
-.ContentDiv ol {
-    list-style-type: none;
-}
-
-
-.CardBox {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 20px;
-    border-radius: 0.375rem;
-    border: 1px solid #0000002d;
-    border-top: 5px solid #545454;
-}
-
-.CardBox h3 {
-    color: #202020 !important;
-    font-size: 22px;
-    margin-bottom: 0px;
-}
-
-.IconBox {
-    display: flex;
-    border: 1px solid #dee2e6;
-    border-radius: 0.375rem;
-    text-align: center;
-    padding: 1rem;
+.HeadingIcon {
+    display: inline-flex;
     align-items: center;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-    flex-direction: column !important;
     justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #c01f29;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 14px;
 }
 
-
-.IconBox svg {
-    width: 55px;
-    height: 55px;
+.PageAccordion .AccordionItem {
+    margin-bottom: 16px;
+    border: 1px solid #dee2e6;
 }
 
-.IconBox h3 {
-    color: #202020 !important;
+.PageAccordion .AccordionBody {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+}
+
+.PageAccordion .AccordionButton {
+    border: none;
+    width: 100%;
+    background-color: #b0c4de66;
+    color: #234268;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.PageAccordion .AccordionButton:global(.collapsed) {
+    border: none;
+    width: 100%;
+    background-color: #efefef;
+    color: #313131;
+    padding: 1.5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.WaCardTwo {
+    border-radius: 12px;
+    background: #edededc2;
+    border: 1px solid #b8b8b899;
+    text-align: center;
+    height: 100%;
+}
+
+.CardIcon {
+    width: 50px;
+    height: 50px;
+    margin: 16px auto 0;
+    background-color: #c9010c;
+    box-shadow: 0 2px 3px #606060;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     font-size: 22px;
-    margin-bottom: 0px;
+}
+
+.WaCardBody {
+    padding: 20px;
+}
+
+.WaCardBody p {
+    margin-bottom: 0;
+}
+
+.ServiceCard .Icon {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f0fe;
+    display: flex;
+    color: #234268;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 12px auto;
+    font-size: 32px;
+}
+
+.ServiceCard:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .ImageBox {
@@ -72,4 +128,77 @@
 .ImageBox h6 {
     font-size: 16px;
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.IndustryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 16px 0 20px;
+}
+
+.IndustryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 16px 10px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #313131;
+}
+
+.IndustryIcon {
+    color: #c01f29;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.CtaBlock {
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CtaBlock h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.CtaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #c01f29;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.CtaButton:hover {
+    background-color: #a01a22;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .IndustryGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .IndustryGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

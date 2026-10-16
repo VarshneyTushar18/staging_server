@@ -11,7 +11,7 @@ import ClientPortfolio from "@/app/components/services/ClientPortfolio/ClientPor
 export const metadata = {
     title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
     description:
-        "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
+        "Get AI-powered Amazon Consulting Services to optimize product listings, improve PPC campaigns, strengthen SEO, and drive smarter, data-driven growth for your Amazon business.",
     keywords: [
         "amazon consulting services",
         "amazon consulting service",
@@ -25,19 +25,19 @@ export const metadata = {
         title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
+            "Get AI-powered Amazon Consulting Services to optimize product listings, improve PPC campaigns, strengthen SEO, and drive smarter, data-driven growth for your Amazon business.",
         url: "https://stagenew.tech2globe.tech/amazon-consulting-services",
         images: [
-            "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
+            "https://stagenew.tech2globe.tech/images/services/service-inner/tech2globe-consulting-banner-2.webp",
         ],
     },
     twitter: {
         card: "summary_large_image",
         title: "AI-Powered Amazon Consulting Services | Smart PPC, SEO & Account Growth",
         description:
-            "Grow faster on Amazon with Tech2Globe's AI-powered consulting services. We use intelligent data analysis to optimize your PPC campaigns, product listings, and seller account — driving higher rankings and consistent revenue growth.",
+            "Get AI-powered Amazon Consulting Services to optimize product listings, improve PPC campaigns, strengthen SEO, and drive smarter, data-driven growth for your Amazon business.",
         images: [
-            "https://stagenew.tech2globe.tech/images/tech2globe-consulting-banner-2.jpg",
+            "https://stagenew.tech2globe.tech/images/services/service-inner/tech2globe-consulting-banner-2.webp",
         ],
     },
     alternates: {
@@ -51,25 +51,25 @@ const pageHeaderData = {
         "Our Amazon marketing services agency specializes in driving sales, building brands, and engaging customers on the platform. Cost-per-click and cost-per-mile ad solutions can help you achieve your business goals.",
     buttonText: "Contact us",
     buttonLink: "#",
-    backgroundImage: "/images/services/amazon-marketing-services-desktop-banner.png", // your banner image
+    backgroundImage: "/images/services/amazon-marketing-services-desktop-banner.webp", // your banner image
 };
 
 const clients = [
-    { src: "/images/clients/aqua-tech-water-proofing-logo.png", alt: "Waterproofing", title: "Waterproofing" },
-    { src: "/images/clients/ba-logo.png", alt: "BA_logo", title: "BA_logo" },
-    { src: "/images/clients/bluebird-solar.png", alt: "bluebird-solar", title: "bluebird-solar" },
-    { src: "/images/clients/docib-logo.png", alt: "docib-logo", title: "docib-logo" },
-    { src: "/images/clients/du-vert-paris.png", alt: "DuVert-Paris", title: "DuVert-Paris" },
-    { src: "/images/clients/epos.png", alt: "Epos", title: "Epos" },
-    { src: "/images/clients/focus.png", alt: "Focus", title: "Focus" },
-    { src: "/images/clients/frontier.png", alt: "Frontier", title: "Frontier" },
-    { src: "/images/clients/getkart.png", alt: "getkart1920X700", title: "getkart1920X700" },
-    { src: "/images/clients/intas-logo.png", alt: "Intas_Logo", title: "Intas_Logo" },
-    { src: "/images/clients/kodak-logo-logotype-wordmark.png", alt: "wordmark", title: "wordmark" },
-    { src: "/images/clients/patanjali_logo.png", alt: "Patanjali_Logo", title: "Patanjali_Logo" },
-    { src: "/images/clients/pickzon.png", alt: "Pickzon", title: "Pickzon" },
-    { src: "/images/clients/tp-link.png", alt: "Tp-link", title: "Tp-link" },
-    { src: "/images/clients/wooden-street-logo.png", alt: "street", title: "street" }
+    { src: "/images/clients/aqua-tech-water-proofing-logo.webp", alt: "Waterproofing", title: "Waterproofing" },
+    { src: "/images/clients/ba-logo.webp", alt: "BA_logo", title: "BA_logo" },
+    { src: "/images/clients/bluebird-solar.webp", alt: "bluebird-solar", title: "bluebird-solar" },
+    { src: "/images/clients/docib-logo.webp", alt: "docib-logo", title: "docib-logo" },
+    { src: "/images/clients/du-vert-paris.webp", alt: "DuVert-Paris", title: "DuVert-Paris" },
+    { src: "/images/clients/epos.webp", alt: "Epos", title: "Epos" },
+    { src: "/images/clients/focus.webp", alt: "Focus", title: "Focus" },
+    { src: "/images/clients/frontier.webp", alt: "Frontier", title: "Frontier" },
+    { src: "/images/clients/getkart.webp", alt: "getkart1920X700", title: "getkart1920X700" },
+    { src: "/images/clients/intas-logo.webp", alt: "Intas_Logo", title: "Intas_Logo" },
+    { src: "/images/clients/kodak-logo-logotype-wordmark.webp", alt: "wordmark", title: "wordmark" },
+    { src: "/images/clients/patanjali_logo.webp", alt: "Patanjali_Logo", title: "Patanjali_Logo" },
+    { src: "/images/clients/pickzon.webp", alt: "Pickzon", title: "Pickzon" },
+    { src: "/images/clients/tp-link.webp", alt: "Tp-link", title: "Tp-link" },
+    { src: "/images/clients/wooden-street-logo.webp", alt: "street", title: "street" }
 ];
 
 
@@ -132,21 +132,21 @@ const portfolioClients = [
 const testimonials = [
     {
         id: 1,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Tech2Globe transformed our Amazon strategy with data-driven insights. Our sales grew by 78% within 3 months of engaging their consulting team. Their AI-powered approach to account growth is unmatched.",
         name: "James R. Whitfield | BluePeak Outdoors ",
         location: "USA",
     },
     {
         id: 2,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "Exceptional Amazon consulting! Tech2Globe audited our entire account, restructured our PPC, and optimized our listings. Our organic ranking improved drastically and ACOS dropped by 35%.",
         name: "Sophie Brennan | Nordic Home Essentials ",
         location: "UK",
     },
     {
         id: 3,
-        quote: "/images/services/service-inner/quote-icon.png",
+        quote: "/images/services/service-inner/quote-icon.webp",
         text: "We were struggling to scale on Amazon.it and Amazon.de.Tech2Globe's consultants provided a clear roadmap and implemented strategies that doubled our revenue in under 6 months.",
         name: "Luca Martini | ItalCraft Furniture ",
         location: "Italy",
@@ -158,77 +158,77 @@ const caseStudies = [
     {
         "id": 1,
         "title": "Product Visibility & Drive Sales 0.1",
-        "image": "/images/services/service-inner/untitled-design-20.png",
+        "image": "/images/services/service-inner/untitled-design-20.webp",
         "description": "The client has been in the lighting business since 2011, specializing...",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 2 - Sales Increase in different categories-converted.pdf"
     },
     {
         "id": 2,
         "title": "EBC and Storefront",
-        "image": "/images/services/service-inner/ebca.png",
+        "image": "/images/services/service-inner/ebca.webp",
         "description": "Client deals in Health & Household items and Pet Supplies products on Amazon and wants...",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 3 - EBC and Storefront-converted.pdf"
     },
     {
         "id": 3,
         "title": "Amazon PPC",
-        "image": "/images/services/service-inner/amazon-ppc.png",
+        "image": "/images/services/service-inner/amazon-ppc.webp",
         "description": "Clients came to us with a range of Amazon PPC management difficulties....",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Amazon PPC-converted.pdf"
     },
     {
         "id": 4,
         "title": "Product Visibility & Drive Sales",
-        "image": "/images/services/service-inner/untitled-design-18.png",
+        "image": "/images/services/service-inner/untitled-design-18.webp",
         "description": "Client has been in the business of selling fine grooming products for over 15 years......",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case Study 1 - Sales Increase in different categories-converted.pdf"
     },
     {
         "id": 5,
         "title": "e-Commerce Store for Luxury Goods",
-        "image": "/images/services/service-inner/e-commerce-store-for-luxury-goods.png",
+        "image": "/images/services/service-inner/e-commerce-store-for-luxury-goods.webp",
         "description": "It is the ultimate luxury fashion destination for the distribution and retail of Italian, French…",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-Commerce Store for Luxury Goods-converted.pdf"
     },
     {
         "id": 6,
         "title": "Amazon Sale Boost",
-        "image": "/images/services/service-inner/amazon-sale-boost.jpg",
+        "image": "/images/services/service-inner/amazon-sale-boost.webp",
         "description": "Find out the most important areas where our team required utmost attention to showcase the work from day one …",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/amazon-india-case-study.pdf"
     },
     {
         "id": 7,
         "title": "About Drop shipping",
-        "image": "/images/services/service-inner/about-drop-shipping.jpg",
+        "image": "/images/services/service-inner/about-drop-shipping.webp",
         "description": "Drop shipping is an e-retail term where someone facilitates the selling and delivery of an online product without …",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Case-Study-Drop-Shipping.pdf"
     },
     {
         "id": 8,
         "title": "Migration from Sooq to Amazon.ae",
-        "image": "/images/services/service-inner/migration-from-sooq-to-amazon-ae.jpg",
+        "image": "/images/services/service-inner/migration-from-sooq-to-amazon-ae.webp",
         "description": "Forgiving the best solution to our client and comprehensive support is our specialty which we successfully …",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Migration-from-Sooq-to-AmazonAE.pdf"
     },
     {
         "id": 9,
         "title": "e-Commerce Multivendor Store 1.0",
-        "image": "/images/services/service-inner/e-commerce-multivendor-store-1-0.jpg",
+        "image": "/images/services/service-inner/e-commerce-multivendor-store-1-0.webp",
         "description": "Our client approached us for Ecommerce services that included multi-vendor customized solutions along with …",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/E-commerce version upgrade (1).pdf"
     },
     {
         "id": 10,
         "title": "e-Commerce Store Version Upgrade",
-        "image": "/images/services/service-inner/e-commerce-store-version-upgrade.jpg",
+        "image": "/images/services/service-inner/e-commerce-store-version-upgrade.webp",
         "description": "The previous version had issues with accepting payments via credit cards, so one of the improvement areas was to set …",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs/E-commerce version upgrade.pdf"
     },
     {
         "id": 11,
         "title": "Promotion of 2 x Shopify Stores",
-        "image": "/images/services/service-inner/promotion-of-2-x-shopify-stores.png",
+        "image": "/images/services/service-inner/promotion-of-2-x-shopify-stores.webp",
         "description": "In 2.5 periods of month projects handling, we've generated more than 6,000 Facebook Page Followers on “Fashion & Cosmetic”…",
         "docLink": "https://stagenew.tech2globe.tech/casestudies-docs1/Promotion of 2 x Shopify Stores-converted.pdf"
     }
@@ -237,54 +237,148 @@ const caseStudies = [
 const faqs = [
     {
         id: "One",
-        question: "What is Amazon Consulting Services?",
-        answer: `
-        Amazon consulting services is a complete Amazon management service and your go-to reference for selling on Amazon. Amazon consulting has highly specialized Amazon seller services aimed at providing you with the Amazon expert assistance you want exactly when you need it.
-      `,
+        question: "What are Amazon consulting services?",
+        answer:
+            "Amazon consulting services help businesses improve their performance on Amazon through expert guidance on seller accounts, product listings, advertising, product research, and marketplace strategy. These services help sellers identify business challenges, improve their operations, and build a practical plan for long-term growth.",
     },
     {
         id: "Two",
-        question: "Are there any prerequisites for hiring Amazon Consulting Services?",
-        answer: `
-        When it comes to hiring the top Amazon consultants for your company, much study and assessment are required. Examine their previous performance, price structure and competence, number of years in the company, range of services provided, and emphasis on good communication.
-      `,
+        question: "How can Amazon consulting services help grow my business?",
+        answer:
+            "Amazon consulting services can help you identify opportunities to improve product visibility, optimize listings, manage advertising campaigns, and analyze competitors. The right strategy depends on your products, target audience, budget, and current account performance. While these improvements can support business growth, actual results depend on market demand and competition.",
     },
     {
         id: "Three",
-        question: "Why should I consider hiring Amazon Consulting Services?",
-        answer: `
-        You should hire Amazon consultants to analyze your items and branding. These services will work with you to identify your objectives and develop a thorough marketing plan. Tech2Globe is dedicated to assisting businesses in leveraging the strong Amazon platform. We use our knowledge of Amazon marketing services and Amazon AWS consulting to identify the most cost-effective strategies to boost your ROI and meet your company objectives.
-      `,
+        question: "How much do Amazon consulting services cost?",
+        answer:
+            "The cost of Amazon consulting services depends on the scope of work, the number of products, account complexity, and whether you need a one-time consultation or ongoing support. Services may include account audits, listing optimization, PPC strategy, product research, or account management. Contact our team to discuss your requirements and receive a customized quote.",
     },
     {
         id: "Four",
-        question: "How do I choose the right Amazon Consultant for my business?",
-        answer: `
-        Qualities to look out for to hire the right Amazon Consultant are:
-        <ul>
-        <li>Emphasize on powerful SEO strategy</li>
-        <li>Immense and relevant work experience</li>
-        <li>Pursues an individual approach</li>
-        <li>Transparent pricing structure</li>
-        <li>Compliance experts</li>
-        <li>Quickly adapts to changes</li>
-        </ul>
-      `,
+        question: "Can an Amazon consultant help with a suspended seller account?",
+        answer:
+            "Yes. An Amazon consultant can review the suspension notice, identify potential policy or performance issues, and help prepare an appeal with a clear Plan of Action. This may include explaining the root cause, outlining corrective steps, and describing measures to prevent the issue from happening again. Account reinstatement depends on Amazon's review and approval, so it cannot be guaranteed.",
     },
     {
         id: "Five",
-        question: "What specific services do Amazon Consultants offer?",
-        answer: `
-        Amazon consultants use Amazon seller account management approaches as well as Amazon vendor account management knowledge to generate lucrative results. Whether you require full-time help or monthly account audits, Tech2Globe's Amazon specialists will work around your requirements. You can expect extensive reporting and precise suggestions from our Amazon specialists.
-      `,
+        question: "Can Amazon consultants help me find profitable products to sell?",
+        answer:
+            "Yes. Amazon consultants can help evaluate product opportunities by researching customer demand, competition, pricing, estimated costs, and potential profit margins. They may also use product research tools and marketplace data to identify promising niches. However, profitability depends on factors such as sourcing costs, Amazon fees, advertising expenses, and changes in market demand.",
+    },
+    {
+        id: "Six",
+        question: "Do Amazon consulting services include PPC and listing optimization?",
+        answer:
+            "Yes. Depending on the agreed scope, Amazon consulting services can include PPC campaign analysis, keyword research, listing optimization, competitor analysis, pricing recommendations, and performance monitoring. These activities help identify opportunities to improve ad efficiency, product discoverability, and conversions while aligning the strategy with your business goals.",
+    },
+    {
+        id: "Seven",
+        question: "Can Amazon consulting services help me sell in international marketplaces?",
+        answer:
+            "Yes. Amazon consultants can guide businesses looking to expand into international marketplaces by helping them assess market opportunities, understand account setup requirements, research local competition, and plan product listings and advertising. They can also help identify considerations such as taxes, shipping, localization, and marketplace policies. Requirements vary by country, so the expansion plan should be tailored to your target market.",
     },
 ];
 
 export default function AmazonConsulting() {
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/amazon-consulting-services#webpage",
+                url: "https://www.tech2globe.com/amazon-consulting-services",
+                name: "Amazon Consulting Services",
+                description:
+                    "Amazon consulting services to help businesses improve seller account performance, product listings, advertising, product research, marketplace strategy, and long-term growth.",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/amazon-consulting-services#service",
+                },
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/amazon-consulting-services#breadcrumb",
+                },
+                inLanguage: "en-US",
+            },
+            {
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/amazon-consulting-services#service",
+                name: "Amazon Consulting Services",
+                serviceType: "Amazon Marketplace Consulting",
+                description:
+                    "Amazon consulting services covering seller account guidance, product listing optimization, advertising strategy, product research, competitor analysis, account audits, marketplace expansion, and performance improvement.",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                url: "https://www.tech2globe.com/amazon-consulting-services",
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/amazon-consulting-services#webpage",
+                },
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/amazon-consulting-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "Amazon Consulting Services",
+                        item: "https://www.tech2globe.com/amazon-consulting-services",
+                    },
+                ],
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/amazon-consulting-services#faq",
+                url: "https://www.tech2globe.com/amazon-consulting-services",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/amazon-consulting-services#webpage",
+                },
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer,
+                    },
+                })),
+            },
+        ],
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <div className="">
-                <img src="/images/services/service-inner/Amazon-consult-banner.png" alt="AMAZON PPC CONSULTING" className="img-fluid" />
+                <img src="/images/services/Amazon-consult-banner-1.webp" alt="AMAZON PPC CONSULTING" className="img-fluid" />
             </div>
             <Breadcrumb pageName="Amazon Consulting Services" />
             <BrandSection />
@@ -311,7 +405,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorOne}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/ppc-2.png" alt="AMAZON PPC CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/ppc-2.webp" alt="AMAZON PPC CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON PPC CONSULTING</h3>
                                             <p>Guessing how the products are searched on Amazon is now out of fashion. See which product is ranking high through which keywords and Running an effective Amazon campaign is the only way to Track your Amazon PPC results. Drive more traffic and sales! Now is the time to say goodbye to outdated methods and hello to customized Amazon Consulting Services.</p>
@@ -328,7 +422,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorTwo}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/seo-1.png" alt="Amazon Consulting Agency" className="img-fluid" />
+                                                <img src="/images/services/service-inner/seo-1.webp" alt="Amazon Consulting Agency" className="img-fluid" />
                                             </div>
                                             <h3>Amazon Consulting Agency</h3>
                                             <p>If you&apos;re interested in growing and scaling your Amazon businesses swiftly & efficiently, you&apos;re in the right place with our Amazon consulting agency. Moreover, our <strong>Amazon consulting agency</strong> can offer guaranteed Amazon product ranking increases, leading to higher profitability. SEO of Amazon products can easily be populated with the right content strategy & optimized listing.</p>
@@ -347,7 +441,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorThree}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/list-2.png" alt="AMAZON PRODUCT LISTING CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/list-2.webp" alt="AMAZON PRODUCT LISTING CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON PRODUCT LISTING CONSULTING</h3>
                                             <p>Our 15+ years of experience and uploading daily 500+ listings would be a plus in terms of making your products stand out from competitors. How well have my products been listed? We consult free for the product listing, and the rest of the decision is yours. Check out our cataloging samples for more details below and benefit from our <strong>Amazon Consulting Services:</strong></p>
@@ -364,7 +458,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorFour}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/sales-boost-2.png" alt="AMAZON SALES BOOST CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/sales-boost-2.webp" alt="AMAZON SALES BOOST CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON SALES BOOST CONSULTING</h3>
                                             <p>It might be the time to explore the possibilities with <strong>Amazon Services Consulting</strong>. Amazon sales are not only possible with listing since it requires much of the extra important efforts which should be spot on and mainly could match with Amazon A9 algorithm. Doing PPC, optimizing content, and making your content SEO friendly are the bases, and then hitting the low BSR, getting feedback, and reviews are the vital factors.</p>
@@ -383,7 +477,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorFive}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/product-seo-optimization-1.png" alt="AMAZON PRODUCT OPTIMIZATION CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/product-seo-optimization-1.webp" alt="AMAZON PRODUCT OPTIMIZATION CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON PRODUCT OPTIMIZATION CONSULTING</h3>
                                             <p>We at Tech2globe work with you to optimize your Amazon products listing and content. As an <strong>Amazon consultant agency</strong>, we ensure your product to reach and attract more buyers which includes putting your products into the right category, adding most relevant content & filling more details in the edit mode of Amazon products.</p>
@@ -398,7 +492,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorSix}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/store-2.png" alt="AMAZON STORE CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/store-2.webp" alt="AMAZON STORE CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON STORE CONSULTING</h3>
                                             <p>Creating your own Amazon URL would be more exciting to all Brand owners as Amazon stores come with features of various pages designed using predefined modules and creating attractive Hero banner images. With <strong>Amazon consultancy services</strong> like Tech2globe, we believe in not only making Amazon stores effective but also SEO friendly by adding meta title, images alt, etc. + Amazon Store PPC.</p>
@@ -419,7 +513,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorSeven}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/lcatalog_icon-1.png" alt="AMAZON EBC/A+ CATALOGING CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/lcatalog_icon-1.webp" alt="AMAZON EBC/A+ CATALOGING CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON EBC/A+ CATALOGING CONSULTING</h3>
                                             <p>Though Amazon EBC and a+ content will not affect your product SEO, however, 30% of customers are interested in buying products with attractive graphics. See tech2globe Amazon EBC portfolio for more details.</p>
@@ -436,7 +530,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorEight}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/photography-3.png" alt="AMAZON PHOTOGRAPHY CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/photography-3.webp" alt="AMAZON PHOTOGRAPHY CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON PHOTOGRAPHY CONSULTING</h3>
                                             <p>Want more visitors on your products? More Sales? 70% of the users make a purchase when they find Amazon infographic images and quality. Check Tech2globe Amazon infographics portfolio and client feedback.</p>
@@ -454,7 +548,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorNine}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/Reviews-icon-1.png" alt="AMAZON REVIEWS & RATINGS CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/Reviews-icon-1.webp" alt="AMAZON REVIEWS & RATINGS CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON REVIEWS & RATINGS CONSULTING</h3>
                                             <p>Tech2Globe&apos;s <strong>Amazon consulting services</strong> help you in tracking fake reviews and taking down by asking Amazon seller support team by providing authentic proofs. Participating in the “Early Review Program” would help sellers and vendors to get genuine reviews. See our portfolio and check customer reviews on products.</p>
@@ -472,7 +566,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorTen}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/images-3.png" alt="AMAZON ACCOUNT MANAGEMENT CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/images-3.webp" alt="AMAZON ACCOUNT MANAGEMENT CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON ACCOUNT MANAGEMENT CONSULTING</h3>
                                             <p>Our team has immense experience in managing both sellers and vendors account for daily account health management including various below services. We worked on different models, please contact us for more details.</p>
@@ -494,7 +588,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorEleven}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/step-5.png" alt="AMAZON DROPSHIPPING CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/step-5.webp" alt="AMAZON DROPSHIPPING CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON DROPSHIPPING CONSULTING</h3>
                                             <p>Our team of drop shipping consultants can find suppliers, sellers and vendors on demand. We worked on B2B websites and found most selling Amazon products using various tools and list them on their Amazon account. Our team is able to generate a monthly $2000 profit.</p>
@@ -512,7 +606,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorTwelve}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/download-1.png" alt="AMAZON BRAND PROTECTION CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/download-1.webp" alt="AMAZON BRAND PROTECTION CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON BRAND PROTECTION CONSULTING</h3>
                                             <p>As part of our <strong>Amazon Consulting and Services</strong>, the Tech2globe team of Amazon works closely with sellers and vendors to help them get their brand registered by giving enough references of documents needed. Beyond that, we help sellers in finding other sellers who merge Amazon listings and use our seller brand for their own, and we appeal for Brand Infringement to take down the names of the different sellers.</p>
@@ -530,7 +624,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorThirteen}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/globle-selling-1.png" alt="AMAZON GLOBAL SELLING CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/globle-selling-1.webp" alt="AMAZON GLOBAL SELLING CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON GLOBAL SELLING CONSULTING</h3>
                                             <p>We help sellers to widen their wings of selling online in Amazon all marketplace. We help them from account launch till sale. With the help of Tech2lobe global selling help many sellers are now able to run their business successfully.</p>
@@ -548,7 +642,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorFourteen}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/images-2.png" alt="AMAZON BUY BOX CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/images-2.webp" alt="AMAZON BUY BOX CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON BUY BOX CONSULTING</h3>
                                             <p>As one of the <strong>best Amazon Consulting Service Providers</strong>, Tech2globe&apos;s team helps sellers to get the Buy Box button within 2 days against their listing. We use competition analysis to help achieve the results in lesser turnaround time.</p>
@@ -565,7 +659,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorFifteen}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/profitable-3.png" alt="AMAZON PROFITABLE PRODUCTS CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/profitable-3.webp" alt="AMAZON PROFITABLE PRODUCTS CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON PROFITABLE PRODUCTS CONSULTING</h3>
                                             <p>Finding profitable products to sell on Amazon is the biggest challenge for anyone who wants to start a business on Amazon. We at Tech2Globe use various methods to find the most suitable and highly demanded, trending products to sell on Amazon.</p>
@@ -580,7 +674,7 @@ export default function AmazonConsulting() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-3">
                                         <div className={`${Style.ColorIconBox} ${Style.ColorSixteen}`}>
                                             <div className="text-center">
-                                                <img src="/images/services/service-inner/suspend-2.png" alt="AMAZON SUSPENDED ACCOUNT CONSULTING" className="img-fluid" />
+                                                <img src="/images/services/service-inner/suspend-2.webp" alt="AMAZON SUSPENDED ACCOUNT CONSULTING" className="img-fluid" />
                                             </div>
                                             <h3>AMAZON SUSPENDED ACCOUNT CONSULTING</h3>
                                             <p>We helped over 100+ sellers already to get their suspended account reinterment between 5-7 days. We know how to create a Plan of Action (POA) which will impact the very first time when the Amazon seller supports team ground.</p>
@@ -607,7 +701,7 @@ export default function AmazonConsulting() {
                     <div className={`${Style.IcoCardTwo} row`}>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div className={`${Style.IcoCardBlock}`}>
-                                <img src="/images/services/service-inner/user-headset.png" alt className="img-fluid mb-3" />
+                                <img src="/images/services/service-inner/user-headset.webp" alt className="img-fluid mb-3" />
                                 <h5>24 X 7 SUPPORT</h5>
                                 <p>Our clients receive comprehensive support on all topics regarding Amazon. We&apos;re in constant communication with our clients via email, phone, and web conferencing. Tech2globe Amazon Consulting integrates services seamlessly into our clients&apos; businesses by working hand in hand with their internal employees.</p>
                             </div>
@@ -615,7 +709,7 @@ export default function AmazonConsulting() {
 
                         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div className={`${Style.IcoCardBlock}`}>
-                                <img src="/images/services/service-inner/rocket.png" alt className="img-fluid mb-3" />
+                                <img src="/images/services/service-inner/rocket.webp" alt className="img-fluid mb-3" />
                                 <h5>SPEED - 40% Average Increase In Total Product Sales</h5>
                                 <p>Whether you&apos;re entering the marketplace or a veteran seller on Amazon, Tech2globe Consulting gets your seller account up to speed fast. Clients are fully on-boarded, listed appropriately, and advertised on Amazon.</p>
                             </div>
@@ -623,7 +717,7 @@ export default function AmazonConsulting() {
 
                         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div className={`${Style.IcoCardBlock}`}>
-                                <img src="/images/services/service-inner/light-bulb-6.png" alt className="img-fluid mb-3" />
+                                <img src="/images/services/service-inner/light-bulb-6.webp" alt className="img-fluid mb-3" />
                                 <h5>15+ YEARS OF EXPERTISE</h5>
                                 <p>Having collaborated with a diverse range of businesses and sales models, including both 1P and 3P sellers, our <strong>Amazon Consulting Services</strong> possess deep insights into the nuances of these models. We help our clients accelerate in their current business model, pivot into a new one or operate hybrid models.</p>
                             </div>
@@ -637,7 +731,7 @@ export default function AmazonConsulting() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="shadow-lg">
-                                <img src="/images/services/service-inner/tech2globe-consulting-banner-2.jpg" alt className="img-fluid" />
+                                <img src="/images/services/service-inner/tech2globe-consulting-banner-20.jpg" alt className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -652,7 +746,7 @@ export default function AmazonConsulting() {
                             <div className={Style.inner}>
                                 <div className={`${Style.commonInner} inner1`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/health-care.png" alt />
+                                        <img src="/images/services/health-care.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Healthcare
@@ -660,7 +754,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner2`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/skin-care-1-1.png" alt />
+                                        <img src="/images/services/skin-care-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Beauty
@@ -668,7 +762,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner3`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/food.png" alt />
+                                        <img src="/images/services/food.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Food
@@ -676,7 +770,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner4`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/home-1-1.png" alt />
+                                        <img src="/images/services/home-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Home &amp; Kitchen
@@ -684,7 +778,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner9`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/sports-1.png" alt />
+                                        <img src="/images/services/sports-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Sports
@@ -694,7 +788,7 @@ export default function AmazonConsulting() {
                             <div className={Style.inner}>
                                 <div className={`${Style.commonInner} inner5`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/fashion.png" alt />
+                                        <img src="/images/services/fashion.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Fashion
@@ -702,7 +796,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner6`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/open-book-1.png" alt />
+                                        <img src="/images/services/open-book-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Kindle &amp; Books
@@ -710,7 +804,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner7`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/elec.png" alt />
+                                        <img src="/images/services/elec.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Electronics
@@ -718,7 +812,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner8`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/software.png" alt />
+                                        <img src="/images/services/software.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Software
@@ -726,7 +820,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner10`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/all-1.png" alt />
+                                        <img src="/images/services/all-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         All
@@ -739,7 +833,7 @@ export default function AmazonConsulting() {
                             <div className={Style.inner}>
                                 <div className={`${Style.commonInner} inner1`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/health-care.png" alt />
+                                        <img src="/images/services/health-care.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Healthcare
@@ -747,7 +841,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner2`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/skin-care-1-1.png" alt />
+                                        <img src="/images/services/skin-care-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Beauty
@@ -755,7 +849,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner3`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/food.png" alt />
+                                        <img src="/images/services/food.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Food
@@ -763,7 +857,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner4`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/home-1-1.png" alt />
+                                        <img src="/images/services/home-1-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Home &amp; Kitchen
@@ -771,7 +865,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner9`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/sports-1.png" alt />
+                                        <img src="/images/services/sports-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Sports
@@ -779,7 +873,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner5`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/fashion.png" alt />
+                                        <img src="/images/services/fashion.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Fashion
@@ -787,7 +881,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner6`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/open-book-1.png" alt />
+                                        <img src="/images/services/open-book-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Kindle &amp; Books
@@ -795,7 +889,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner7`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/elec.png" alt />
+                                        <img src="/images/services/elec.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Electronics
@@ -803,7 +897,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner8`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/software.png" alt />
+                                        <img src="/images/services/software.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         Software
@@ -811,7 +905,7 @@ export default function AmazonConsulting() {
                                 </div>
                                 <div className={`${Style.commonInner} inner10`}>
                                     <div className={`${Style.img} mx-auto`}>
-                                        <img src="/images/services/all-1.png" alt />
+                                        <img src="/images/services/all-1.webp" alt />
                                     </div>
                                     <div className={`${Style.Title} mx-auto`}>
                                         All
@@ -828,36 +922,39 @@ export default function AmazonConsulting() {
                     <div className="row">
                         <div className={`${Style.ContentImage} col-md-4`}>
                             <h3 className="text-center text-danger pb-3">Amazon Store</h3>
-                            <img src="/images/services/service-inner/10-10.jpg" alt="Amazon Store" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/11-11.jpg" alt="Amazon Store" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/2-2.jpg" alt="Amazon Store" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/26-26.jpg" alt="Amazon Store" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/10-10.webp" alt="Amazon Store" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/11-11.webp" alt="Amazon Store" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/2-2.webp" alt="Amazon Store" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/26-26.webp" alt="Amazon Store" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/19-19.webp" alt="PPC Results" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/20-20.webp" alt="PPC Results" className="img-fluid pb-3" />
                         </div>
 
                         <div className={`${Style.ContentImage} col-md-4`}>
                             <h3 className="text-center text-danger pb-3">PPC Results</h3>
-                            <img src="/images/services/service-inner/19-19.jpg" alt="PPC Results" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/20-20.jpg" alt="PPC Results" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/21-21.jpg" alt="PPC Results" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/22-22.jpg" alt="PPC Results" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/23-23.jpg" alt="PPC Results" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/24-24.jpg" alt="PPC Results" className="img-fluid pb-3" />
+                            
+                            
+                            <img src="/images/services/service-inner/21-21.webp" alt="PPC Results" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/22-22.webp" alt="PPC Results" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/23-23.webp" alt="PPC Results" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/24-24.webp" alt="PPC Results" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/12-12.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
                         </div>
 
                         <div className={`${Style.ContentImage} col-md-4`}>
                             <h3 className="text-center text-danger pb-3">A+ Cataloguing</h3>
-                            <img src="/images/services/service-inner/12-12.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/14-14.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/15-15.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/16-16.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/17-17.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
-                            <img src="/images/services/service-inner/18-18.jpg" alt="A+ Cataloguing" className="img-fluid pb-3" />
+                            
+                            <img src="/images/services/service-inner/14-14.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/15-15.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/16-16.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/17-17.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
+                            <img src="/images/services/service-inner/18-18.webp" alt="A+ Cataloguing" className="img-fluid pb-3" />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="pt-5 pb-3">
+            <div className="pt-5 pb-3 d-none" aria-hidden="true">
                 <div className="container">
                     <div className="row">
                         <h2 className="main-heading mb-4 text-danger text-center">
@@ -991,7 +1088,7 @@ export default function AmazonConsulting() {
 
             <ClientPortfolio clients={portfolioClients} />
 
-            <CaseStudiesService caseStudies={caseStudies} />
+            {/* <CaseStudiesService caseStudies={caseStudies} /> */}
 
             <ClientSlider testimonials={testimonials} />
             <FaqSection faqs={faqs} />

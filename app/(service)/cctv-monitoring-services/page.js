@@ -41,8 +41,8 @@ const pageHeaderData = {
     title: "Best CCTV Monitoring Services",
     description:
         "Upscale your security with Tech2Globe's CCTV Monitoring Services. We monitor 24/7 to enhance your overall protection, peace of mind, and boost operations.",
-    buttonText: "Contact us",
-    buttonLink: "#",
+    buttonText: "Book Your Consultation",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
 };
 
@@ -104,98 +104,143 @@ const testimonials = [
 const faqs = [
     {
         id: "One",
-        question: "What are remote CCTV monitoring services?",
-        answer: `
-        Using on-site IP security cameras, a remote CCTV monitoring service employs trained security personnel to remotely monitor buildings, sites, and other immovable and moveable assets through a network of cameras, therefore enhancing security.
-      `,
+        question: "What are CCTV monitoring services?",
+        answer:
+            "CCTV monitoring services involve monitoring live video feeds from security cameras to help protect properties, people, and assets. Professional monitoring teams can identify suspicious activities, track potential security threats, and alert the relevant personnel when an incident occurs. Tech2Globe provides remote CCTV monitoring solutions with 24/7 monitoring, technical support, and surveillance reporting.",
     },
     {
         id: "Two",
-        question: "What benefits might outsourcing CCTV monitoring services offer?",
-        answer: `
-        CCTV surveillance is crucial for all organisations in the modern world. The following are some advantages of <strong>remote CCTV monitoring services</strong>:
-        <ul>
-        <li>Avoid stealing from internal and external sources including vandalism, robbery, and burglary.</li>
-        <li>Stop crimes like break-ins.</li>
-        <li>Monitoring employee contacts with consumers to determine customer satisfaction.</li>
-        <li>Gathering proof of misbehaviour in preparation for future legal action.</li>
-        <li>Security for employees to prevent incidents like employee conflicts.</li>
-        <li>Monitoring of delicate places like locker rooms and bank vaults.</li>
-        </ul>
-      `,
+        question: "How does 24/7 CCTV monitoring work?",
+        answer:
+            "24/7 CCTV monitoring uses security cameras, network connectivity, and monitoring systems to provide continuous surveillance of your property. Trained monitoring personnel review camera feeds and identify suspicious activities. When a potential security issue is detected, alerts can be shared with designated contacts according to the agreed response procedure. Continuous monitoring helps businesses maintain security coverage beyond regular working hours.",
     },
     {
         id: "Three",
-        question: "What about my privacy?",
-        answer: `
-        Being a <strong>CCTV monitoring company</strong>, one of the main objectives of our services is to keep customer information confidential. Your data is safeguarded from security breaches thanks to our security measures. The following are a few of our data security and privacy measures:
-        <ul>
-            <li>Access control at the document level</li>
-            <li>Adding many layers of defence</li>
-            <li>Educating staff members about protecting consumer data</li>
-            <li>Establishing a strong password policy</li>
-        </ul>
-      `,
+        question: "What are remote CCTV monitoring services?",
+        answer:
+            "Remote CCTV monitoring services allow security cameras to be monitored from an off-site location rather than relying entirely on personnel being physically present at the property. Using connected CCTV systems, monitoring teams can review live footage, identify unusual activities, and provide alerts when necessary. Remote monitoring can also include video documentation, technical support, and routine system checks.",
     },
     {
         id: "Four",
-        question: "What will the price of these monitoring services be?",
-        answer: `
-        Our monitoring solutions are priced based on the unique needs of the client. Please contact us at <a href="mailto:info@tech2globe.com">info@tech2globe.com</a> with your requirements so we can provide you with a quote for our <strong>remote CCTV monitoring service</strong>.
-      `,
+        question: "What are the benefits of outsourcing CCTV monitoring?",
+        answer:
+            "Outsourcing CCTV monitoring can help businesses improve surveillance coverage, reduce the workload on internal teams, and access dedicated monitoring expertise. It can support the early identification of suspicious activities, help deter theft and vandalism, and provide video records for incident reviews. Outsourced monitoring can also offer flexible service arrangements based on a property's security requirements and operating hours.",
     },
     {
         id: "Five",
-        question: "What types of CCTV monitoring services are available?",
-        answer: `
-        Tech2Globe Web Solutions provides a full range of CCTV monitoring solutions adapted to your security level. Our state-of-the-art security surveillance system provides round-the-clock monitoring, remote access, intelligent analytics, and professional support through which we offer cost-efficient solutions for all sectors, such as commercial, residential, and industrial.
-      `,
+        question: "What types of properties can use CCTV monitoring services?",
+        answer:
+            "CCTV monitoring services can support a wide range of properties, including commercial buildings, offices, retail stores, warehouses, factories, construction sites, residential properties, parking facilities, restaurants, schools, and vacant premises. The monitoring approach can be tailored to the property's layout, security risks, camera coverage, and operational requirements.",
+    },
+    {
+        id: "Six",
+        question: "Can CCTV monitoring services provide real-time alerts?",
+        answer:
+            "Yes. CCTV monitoring systems can provide real-time alerts when suspicious activity or a potential security incident is detected. Depending on the system configuration, alerts may be triggered through monitoring personnel or intelligent video analytics and shared with designated contacts. Alert types and response procedures depend on the available technology and the service arrangement.",
+    },
+    {
+        id: "Seven",
+        question: "How does remote CCTV monitoring help improve security?",
+        answer:
+            "Remote CCTV monitoring helps improve security by maintaining surveillance coverage, identifying suspicious behaviour, and enabling quicker notification of potential incidents. It can help businesses monitor entrances, restricted areas, equipment, and other important locations. Recorded footage and incident reports can also support investigations and security reviews. Regular system checks and technical support help maintain reliable monitoring operations.",
+    },
+    {
+        id: "Eight",
+        question: "How much do CCTV monitoring services cost?",
+        answer:
+            "The cost of CCTV monitoring services depends on factors such as the number of cameras, property size, monitoring hours, security requirements, video analytics features, and the level of technical support required. Tech2Globe offers tailored monitoring solutions based on individual business needs. Contact our team with your requirements to discuss suitable options and request a customized quote.",
     },
 ];
 
 export default function CctvMonitoring() {
-
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "What are remote CCTV monitoring services?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Remote CCTV monitoring uses on-site IP cameras and trained security personnel to watch buildings, sites, and other assets through a connected camera network. This improves security by enabling real-time surveillance."
-                }
+                "@type": "Organization",
+                "@id": "https://www.tech2globe.com/#organization",
+                name: "Tech2Globe",
+                url: "https://www.tech2globe.com/",
             },
             {
-                "@type": "Question",
-                "name": "What benefits might outsourcing CCTV monitoring services offer?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Outsourced CCTV monitoring helps prevent vandalism, theft, and break-ins. It also tracks employee–customer interactions, gathers proof of misconduct, protects staff from conflicts, and monitors sensitive areas like vaults and locker rooms."
-                }
+                "@type": "WebSite",
+                "@id": "https://www.tech2globe.com/#website",
+                url: "https://www.tech2globe.com/",
+                name: "Tech2Globe",
+                publisher: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
             },
             {
-                "@type": "Question",
-                "name": "What about my privacy?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "We prioritize data confidentiality. Our security practices include document-level access control, multi-layer protection, employee training on data safety, and strong password policies to safeguard customer information."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/cctv-monitoring-services#webpage",
+                url: "https://www.tech2globe.com/cctv-monitoring-services",
+                name: "CCTV Monitoring Services",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/#website",
+                },
+                about: {
+                    "@id": "https://www.tech2globe.com/cctv-monitoring-services#service",
+                },
+                breadcrumb: {
+                    "@id": "https://www.tech2globe.com/cctv-monitoring-services#breadcrumb",
+                },
+                mainEntity: {
+                    "@id": "https://www.tech2globe.com/cctv-monitoring-services#service",
+                },
             },
             {
-                "@type": "Question",
-                "name": "What will the price of these monitoring services be?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text":
-                        "Pricing depends on your specific requirements. Share your needs at info@tech2globe.com and we will prepare a custom quote for our remote CCTV monitoring services."
-                }
-            }
-        ]
+                "@type": "BreadcrumbList",
+                "@id": "https://www.tech2globe.com/cctv-monitoring-services#breadcrumb",
+                itemListElement: [
+                    {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: "https://www.tech2globe.com/",
+                    },
+                    {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: "CCTV Monitoring Services",
+                        item: "https://www.tech2globe.com/cctv-monitoring-services",
+                    },
+                ],
+            },
+            {
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/cctv-monitoring-services#service",
+                name: "CCTV Monitoring Services",
+                serviceType: [
+                    "24/7 CCTV monitoring",
+                    "Remote CCTV monitoring",
+                    "Real-time security alerts",
+                ],
+                url: "https://www.tech2globe.com/cctv-monitoring-services",
+                provider: {
+                    "@id": "https://www.tech2globe.com/#organization",
+                },
+                mainEntityOfPage: {
+                    "@id": "https://www.tech2globe.com/cctv-monitoring-services#webpage",
+                },
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/cctv-monitoring-services#faq",
+                url: "https://www.tech2globe.com/cctv-monitoring-services",
+                isPartOf: {
+                    "@id": "https://www.tech2globe.com/cctv-monitoring-services#webpage",
+                },
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer,
+                    },
+                })),
+            },
+        ],
     };
 
     return (
@@ -460,6 +505,16 @@ export default function CctvMonitoring() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className={`${Style.CtaBlock} text-center my-4 py-4`}>
+                                <h3>Need Reliable 24/7 CCTV Monitoring?</h3>
+                                <p className="mb-3">
+                                    Protect your property with remote CCTV monitoring, real-time surveillance, and professional monitoring support.
+                                </p>
+                                <a href="/contact-us" className={Style.CtaButton}>
+                                    Get a Free Quote
+                                </a>
                             </div>
 
                         </div>
