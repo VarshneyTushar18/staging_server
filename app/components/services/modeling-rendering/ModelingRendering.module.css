@@ -7,6 +7,16 @@
     display: flex;
 }
 
+.Slider :global(.swiper-pagination) {
+    position: relative;
+    margin-top: 24px;
+    bottom: 0;
+}
+
+.Slider :global(.swiper-pagination-bullet) {
+    margin: 0 5px;
+}
+
 .ProductCard {
     background-color: #e4e4e4;
     margin-top: 5px;

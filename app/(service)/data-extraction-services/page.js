@@ -63,9 +63,9 @@ export const metadata = {
 };
 
 const pageHeaderData = {
-    title: "Data Extraction Services for Accurate, Structured Business Data",
+    title: "Data Extraction Services That Drive Smarter Decisions",
     description:
-        "Businesses rely on accurate data to understand customers, research markets, monitor competitors, manage products, and make informed decisions. Tech2Globe provides professional data extraction services to collect, organize, clean, and deliver business data in a structured and usable format.",
+        "Unlock the power of accurate, real-time information with Tech2Globe’s data extraction services. From websites and documents to images, social media, and market research, our experts extract, process, and deliver clean, usable data to help your business make faster, smarter decisions. With 14+ years of experience and cutting-edge automation tools, we provide reliable, scalable, and cost-effective solutions tailored to your needs.",
     buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg",

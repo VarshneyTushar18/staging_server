@@ -61,9 +61,9 @@ export const metadata = {
 };
 
 const pageHeaderData = {
-    title: "Data Analytics Services for Smarter Business Decisions",
+    title: "Data Analytics Services",
     description:
-        "Tech2Globe provides data analytics services that help businesses organize, analyze and understand their data. We turn complex datasets into clear reports, dashboards and actionable insights that support better planning, performance tracking and decision making.",
+        "Data is a valuable resource in the present business world. Organizations depend intensely on data analytics to quick and all around educated choices, minimize risks, and maximize benefits.",
     buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg",

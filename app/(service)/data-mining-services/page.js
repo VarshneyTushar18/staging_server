@@ -69,7 +69,7 @@ export const metadata = {
 const pageHeaderData = {
     title: "Data Mining Services",
     description:
-        "Turn complex data into meaningful business insights with professional data mining services from Tech2Globe. We help businesses collect, organize, process, and analyze data from multiple sources.",
+        "Trust Tech2Globe for a top-quality data mining firm that provides professional guidance for navigating huge data repositories and delivering accurate and timely information. Our services for data mining allow the efficient search and aggregation of important information from multiple sources.",
     buttonText: "Book Your Consultation",
     buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg",

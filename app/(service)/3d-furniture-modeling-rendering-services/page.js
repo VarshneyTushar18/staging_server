@@ -305,8 +305,8 @@ export default function FurnitureModeling() {
                         <img src="images/services/service-inner/a-high-quality-3d-rendered-interior-scene.webp" className="d-block w-100" alt="Professional 3D Furniture Modeling" />
                         <div className="slide-overlay-2"></div>
                         <div className="carousel-caption centered-content">
-                            <h2>3D Furniture Modeling Services</h2>
-                            <p>Create detailed, realistic 3D furniture models for eCommerce, product visualization, catalogs, marketing, AR, and virtual experiences. Tech2Globe provides professional 3D furniture modeling and rendering services that turn sketches, CAD drawings, product images, and design specifications into high-quality digital assets.</p>
+                            <h2>Professional 3D Furniture Modeling Solutions</h2>
+                            <p>Enhance buyer engagement and drive higher conversion rates with our high-quality 3D furniture rendering services.</p>
                             <a href="/contact-us" className="button-red mt-2 mx-0">
                                 <span className="d-inline-flex align-items-center gap-2">
                                     <FaCalendarCheck aria-hidden="true" />
@@ -324,6 +324,11 @@ export default function FurnitureModeling() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                            <div className={Style.ContentDiv}>
+                                <h2>3D Furniture Modeling Services</h2>
+                                <p>Create detailed, realistic 3D furniture models for eCommerce, product visualization, .catalogs, marketing, AR, and virtual experiences. Tech2Globe provides professional 3D furniture modeling and rendering services that turn sketches, CAD drawings, product images, and design specifications into high-quality digital assets.</p>
+                                <p>From individual furniture pieces to complete collections, our 3D artists create accurate models with realistic dimensions, materials, textures, colors, and finishes. These models can be used across websites, online stores, product catalogs, advertising campaigns, virtual showrooms, and AR/VR experiences.</p>
+                            </div>
                             <div className={Style.ContentDiv}>
                                 <h2>3D Furniture Modeling Services for eCommerce</h2>
                                 <p>Selling furniture online can be challenging when customers cannot physically see or touch the product. High-quality 3D furniture models help bridge this gap by giving shoppers a clearer view of the product, its design, dimensions, materials, and finishes.</p>
@@ -370,7 +375,7 @@ export default function FurnitureModeling() {
 
                             <div className={Style.ContentDiv}>
                                 <div className="col-md-12">
-                                    <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-5 pt-5 mb-0 mob-icon-list px-2">
+                                    <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-5 pt-5 mb-0 mob-icon-list px-2 align-items-stretch">
                                         <div className="col px-1 mb-2">
                                             <div className={`${Style.WhiteDashedBox} h-100 px-2 mb-2`}>
                                                 <h3><FaImages className="me-2" />Create Consistent Product Visuals</h3>
@@ -822,7 +827,7 @@ export default function FurnitureModeling() {
                             <div className={Style.ContentDiv}>
                                 <h2 className="pt-3">Bring Your Furniture Designs to Life</h2>
                                 <p>Have furniture designs that need accurate 3D models, realistic renders, or digital-ready assets? Our 3D furniture modeling experts can help you turn your product designs into high-quality digital assets for eCommerce, catalogs, marketing, AR, and virtual experiences.</p>
-                                <a href="mailto:info@tech2globe.com" className="btn btn-danger px-4 py-2">
+                                <a href="mailto:info@tech2globe.com" className="btn btn-danger px-4 py-2 text-decoration-none">
                                     Talk to Our 3D Furniture Experts
                                 </a>
                             </div>

@@ -420,7 +420,7 @@ export default function BulkProductUpload() {
                             <div className={Style.ContentDiv}>
                                 <h2 className="pt-3">Ready to Simplify Your Product Catalog?</h2>
                                 <p>Let our ecommerce experts handle your bulk product uploads, data formatting, and catalog management across your preferred platforms.</p>
-                                <a href="/contact-us" className="btn btn-danger px-4 py-2">
+                                <a href="/contact-us" className="btn btn-danger text-decoration-none px-4 py-2">
                                     <FaComments className="me-2" aria-hidden="true" />
                                     Talk to Our Ecommerce Experts
                                 </a>

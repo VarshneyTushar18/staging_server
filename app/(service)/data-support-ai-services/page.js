@@ -67,9 +67,9 @@ export const metadata = {
 };
 
 const pageHeaderData = {
-  title: "AI Data Services for Smarter AI Operations",
+  title: "AI Data Support Services",
   description:
-    "Tech2Globe provides AI data services that help businesses prepare, process, manage, validate, and maintain data for AI applications. Our team supports data management, processing, preparation, quality checks, transformation, and ongoing data operations.",
+    "Add intelligence to your business with data support services for an effective and efficient database.",
   buttonText: "Book Your Consultation",
   buttonLink: "/contact-us",
   backgroundImage: "/images/services/data-mining-services-banner.jpg",
