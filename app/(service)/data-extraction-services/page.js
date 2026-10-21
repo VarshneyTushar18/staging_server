@@ -805,7 +805,7 @@ export default function DataExtraction() {
                                             </div>
                                         </div>
                                         <div className="col-xxl-11 col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12">
-                                            <h4>{item.title}</h4>
+                                            <h6 className="fw-semibold">{item.title}</h6>
                                             <p className="para-text mb-0">{item.text}</p>
                                         </div>
                                     </div>
@@ -820,7 +820,7 @@ export default function DataExtraction() {
                                         </div>
                                     </div>
                                     <div className="col-xxl-11 col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12">
-                                        <h4>Global Client Support</h4>
+                                    <h6 className="fw-semibold">Global Client Support</h6>
                                         <p className="para-text mb-0">
                                             Tech2Globe supports businesses across different markets and industries through its global operations and data processing capabilities.
                                         </p>
