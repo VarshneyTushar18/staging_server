@@ -43,16 +43,23 @@
 .centered-content {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    right: 0;
+    bottom: auto;
+    transform: translateY(-50%);
     z-index: 2;
-    text-align: center;
+    text-align: left;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+}
+
+.centered-content .banner-caption-inner {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 80%;
-    max-width: 800px;
+    align-items: flex-start;
+    max-width: 720px;
 }
 
 .slide-overlay-2 {

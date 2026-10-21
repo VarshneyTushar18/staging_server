@@ -305,14 +305,18 @@ export default function FurnitureModeling() {
                         <img src="images/services/service-inner/a-high-quality-3d-rendered-interior-scene.webp" className="d-block w-100" alt="Professional 3D Furniture Modeling" />
                         <div className="slide-overlay-2"></div>
                         <div className="carousel-caption centered-content">
-                            <h2>Professional 3D Furniture Modeling Solutions</h2>
-                            <p>Enhance buyer engagement and drive higher conversion rates with our high-quality 3D furniture rendering services.</p>
-                            <a href="/contact-us" className="button-red mt-2 mx-0">
-                                <span className="d-inline-flex align-items-center gap-2">
-                                    <FaCalendarCheck aria-hidden="true" />
-                                    Book Your Consultation
-                                </span>
-                            </a>
+                            <div className="container">
+                                <div className="banner-caption-inner">
+                                    <h2>Professional 3D Furniture Modeling Solutions</h2>
+                                    <p>Enhance buyer engagement and drive higher conversion rates with our high-quality 3D furniture rendering services.</p>
+                                    <a href="/contact-us" className="button-red mt-2 mx-0">
+                                        <span className="d-inline-flex align-items-center gap-2">
+                                            <FaCalendarCheck aria-hidden="true" />
+                                            Book Your Consultation
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -590,8 +594,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>1. Collect Product References</h5>
-                                                    <p className="mb-0">We review your CAD files, drawings, photographs, sketches, dimensions, specifications, and material references.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>1. Collect Product References</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>We review your CAD files, drawings, photographs, sketches, dimensions, specifications, and material references.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -600,8 +604,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>2. Define Scope and Deliverables</h5>
-                                                    <p className="mb-0">We confirm the required models, level of detail, materials, textures, output formats, renders, views, and final applications.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>2. Define Scope and Deliverables</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>We confirm the required models, level of detail, materials, textures, output formats, renders, views, and final applications.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -610,8 +614,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>3. Build the 3D Model</h5>
-                                                    <p className="mb-0">Our artists create the furniture model based on the supplied references and approved specifications.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>3. Build the 3D Model</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>Our artists create the furniture model based on the supplied references and approved specifications.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -620,8 +624,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>4. Apply Materials and Textures</h5>
-                                                    <p className="mb-0">We add realistic materials, colors, finishes, fabrics, wood grains, metals, and other surface details according to the product requirements.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>4. Apply Materials and Textures</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>We add realistic materials, colors, finishes, fabrics, wood grains, metals, and other surface details according to the product requirements.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -630,8 +634,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>5. Review and Refine</h5>
-                                                    <p className="mb-0">Drafts are shared for review so that dimensions, details, materials, and other elements can be adjusted based on feedback.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>5. Review and Refine</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>Drafts are shared for review so that dimensions, details, materials, and other elements can be adjusted based on feedback.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -640,8 +644,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>6. Render and Optimize</h5>
-                                                    <p className="mb-0">The approved model is prepared for its intended use, whether that means high-resolution rendering, web visualization, animation, AR, or another application.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>6. Render and Optimize</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>The approved model is prepared for its intended use, whether that means high-resolution rendering, web visualization, animation, AR, or another application.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -650,8 +654,8 @@ export default function FurnitureModeling() {
                                         <div className={Style.BorderedWrapper}>
                                             <div className={Style.CustomCard}>
                                                 <div>
-                                                    <h5>7. Deliver Final Assets</h5>
-                                                    <p className="mb-0">We provide the final approved files and visual assets in the required formats.</p>
+                                                    <h5 style={{ textAlign: 'left' }}>7. Deliver Final Assets</h5>
+                                                    <p className="mb-0" style={{ textAlign: 'left' }}>We provide the final approved files and visual assets in the required formats.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -785,12 +785,12 @@ export default function DataExtraction() {
                                     The delivery format can be discussed during the requirement stage so the final data fits your existing workflow.
                                 </p>
 
-                                <h2 className={`${Style.headingText} pt-4 pb-3`}>
+                                <h4 className="pt-4 pb-3">
                                     <span className={Style.HeadingIcon} aria-hidden="true">
                                         <FaHandshake />
                                     </span>
                                     Why Choose Tech2Globe for Data Extraction?
-                                </h2>
+                                </h4>
 
                                 {whyChooseItems.map((item) => (
                                     <div className="row mb-3" key={item.title}>
