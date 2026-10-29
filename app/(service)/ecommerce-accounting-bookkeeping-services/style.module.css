@@ -1,0 +1,175 @@
+.StickyTop {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+.ContentDiv a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ContentDiv ol {
+    list-style-type: none;
+}
+
+.CardBox {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 1px solid #0000002d;
+    border-top: 5px solid #545454;
+    height: 100%;
+}
+
+.CardBox h3,
+.CardBox h5 {
+    color: #202020 !important;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.IconBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.IconBox svg {
+    width: 48px;
+    height: 48px;
+    color: #f15a29;
+    margin-bottom: 10px;
+}
+
+.IconBox h5 {
+    color: #202020 !important;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.ImageBox {
+    display: flex;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 100%;
+}
+
+.ImageBox img {
+    width: 55px;
+    height: auto;
+    object-fit: contain;
+}
+
+.ImageBox h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.ListColTwo {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    margin-bottom: 16px;
+}
+
+.ClientOuter {
+    width: 19%;
+    border: 1px dashed #dfdfdf;
+    margin: 2px;
+}
+
+.ClientOuter .Clientlg {
+    text-align: center;
+    padding-block: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90px;
+}
+
+.ClientOuter .Clientlg span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    padding: 0 6px;
+}
+
+.CtaSection {
+    position: relative;
+    background: url('/images/services/service-inner/bg-micro-cta.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.CtaSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(1px) brightness(0.7);
+    z-index: 0;
+}
+
+.CtaSection>* {
+    position: relative;
+    z-index: 1;
+}
+
+.BtnBlock a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.ProcessStep {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1.25rem;
+    height: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.ProcessNumber {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f15a29;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .ListColTwo {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    .ClientOuter {
+        width: 46% !important;
+    }
+}

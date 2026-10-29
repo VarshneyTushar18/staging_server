@@ -256,8 +256,92 @@ const caseStudies = [
 ];
 
 export default function SeoAeoGeoServices() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tech2globe.com/seo-aeo-geo-services#webpage",
+        url: "https://www.tech2globe.com/seo-aeo-geo-services",
+        name: "SEO, AEO & GEO Services",
+        description:
+          "Improve your online visibility with SEO, Answer Engine Optimization, and Generative Engine Optimization services designed to help your business reach users through search engines and AI-powered search platforms.",
+        mainEntity: {
+          "@id": "https://www.tech2globe.com/seo-aeo-geo-services#service",
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.tech2globe.com/seo-aeo-geo-services#service",
+        name: "SEO, AEO & GEO Services",
+        serviceType: [
+          "Search Engine Optimization",
+          "Answer Engine Optimization",
+          "Generative Engine Optimization",
+        ],
+        url: "https://www.tech2globe.com/seo-aeo-geo-services",
+        description:
+          "Tech2Globe provides SEO, AEO, and GEO services to help businesses improve organic search visibility, optimize content for direct answers, and strengthen their presence across AI-powered search experiences.",
+        provider: {
+          "@type": "Organization",
+          name: "Tech2Globe",
+          url: "https://www.tech2globe.com/",
+        },
+        audience: {
+          "@type": "Audience",
+          audienceType:
+            "Businesses, brands, and organizations seeking improved search visibility",
+        },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "SEO, AEO & GEO Services",
+          itemListElement: [
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Search Engine Optimization (SEO)",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Answer Engine Optimization (AEO)",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Generative Engine Optimization (GEO)",
+              },
+            },
+          ],
+        },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tech2globe.com/seo-aeo-geo-services#faq",
+        url: "https://www.tech2globe.com/seo-aeo-geo-services",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: typeof faq.answer === "string" ? faq.answer.trim() : faq.answer,
+          },
+        })),
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <PageHeader pageHeaderData={pageHeaderData} />
       <Breadcrumb parentName="Services" pageName="SEO, AEO & GEO Services" />
       <BrandSection />

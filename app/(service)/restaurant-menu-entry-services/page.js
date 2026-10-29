@@ -13,7 +13,7 @@ import Breadcrumb from "@/app/components/breadcrumbs/breadcrumbs";
 export const metadata = {
     title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
     description:
-        "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience.",
+        "Need reliable Restaurant Menu Entry Services? Tech2Globe digitizes menus, updates item details and prices, and checks data accuracy. Explore our solutions.",
     keywords: [
         "Outsource restaurant menu entry services",
         "Data entry for restaurant menu",
@@ -30,14 +30,14 @@ export const metadata = {
         title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
         siteName: "Tech2Globe web Solutions LLP",
         description:
-            "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience.",
+            "Need reliable Restaurant Menu Entry Services? Tech2Globe digitizes menus, updates item details and prices, and checks data accuracy. Explore our solutions.",
         url: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"
     },
     twitter: {
         card: "summary_large_image",
         title: "Restaurant Menu Data Entry Services | AI-Assisted Menu Digitization & Management",
         description:
-            "Digitize and manage your restaurant menu effortlessly with Tech2Globe's AI-assisted menu data entry services. We ensure accurate, structured, and SEO-friendly menu content across all platforms — improving discoverability and customer experience."
+            "Need reliable Restaurant Menu Entry Services? Tech2Globe digitizes menus, updates item details and prices, and checks data accuracy. Explore our solutions."
     },
     alternates: {
         canonical: "https://stagenew.tech2globe.tech/restaurant-menu-entry-services"
@@ -48,8 +48,8 @@ const pageHeaderData = {
     title: "Restaurant Menu Entry Services",
     description:
         "Hire Tech2Globe Web Solutions for an array of services, extensive expertise, and adept skills. Benefit from our managed, dependable, and highly successful Restaurant Menu Data Entry Services, all offered at competitive pricing.",
-    buttonText: "Contact us",
-    buttonLink: "#",
+    buttonText: "Book Your Consultation",
+    buttonLink: "/contact-us",
     backgroundImage: "/images/services/data-mining-services-banner.jpg", // your banner image
 };
 
@@ -141,38 +141,45 @@ const testimonials = [
 const faqs = [
     {
         id: "One",
-        question: "How does Tech2Globe's menu entry procedure operate?",
-        answer: `
-        Our menu entry procedure is quick and easy. You give us information about your menu items, costs, and any other pertinent information. Our team of professionals puts this data into your system, checks for accuracy, and, if necessary, optimises it for the required platforms..
-      `,
+        question: "What are restaurant menu entry services?",
+        answer:
+            "These services involve entering and organizing menu information, including item names, descriptions, prices, categories, and other details, in digital systems or restaurant databases.",
     },
     {
         id: "Two",
-        question: "How long does it take to update the menu?",
-        answer: `
-        We recognise the value of timely updates. Depending on the intricacy, more substantial updates may take up to 48 hours, while minor changes can be made in as little as 24 hours.
-      `,
+        question: "Can you convert printed or scanned menus into digital formats?",
+        answer:
+            "Yes. Printed menus, scanned documents, PDFs, and menu images can be converted into structured digital data using suitable data extraction methods and manual verification.",
     },
     {
         id: "Three",
-        question: "Could you assist us with printing our menu design?",
-        answer: `
-        Absolutely! With our professional restaurant menu entry services, we can help with menu design for print projects that are appealing and consistent with your brand.
-      `,
+        question: "How do you ensure menu information is accurate?",
+        answer:
+            "The team checks item names, descriptions, pricing, categories, spelling, and formatting to help maintain consistency and reduce data entry errors.",
     },
     {
         id: "Four",
-        question: "How do you secure the security of the data?",
-        answer: `
-        Our company, Tech2Globe Web Solutions, adheres to stringent data security procedures. We use secure servers and encrypted communication methods to protect your data; access to it is only granted to authorised people.
-      `,
+        question: "Can you update menus when prices or food items change?",
+        answer:
+            "Yes. Menu updates can include changing prices, adding new dishes, removing discontinued items, and updating descriptions or special offers.",
     },
     {
         id: "Five",
-        question: "To what kinds of eateries do you cater?",
-        answer: `
-        We serve many different kinds of eateries, including upscale restaurants, cafes, fast-food franchises, bistros, and more. Our offerings are customised to satisfy the particular needs of each company.
-      `,
+        question: "Can menu data be entered into POS systems and online ordering platforms?",
+        answer:
+            "Yes. Menu information can be prepared for compatible point-of-sale systems, restaurant databases, websites, and online ordering platforms, depending on the client's requirements.",
+    },
+    {
+        id: "Six",
+        question: "How much does it cost to outsource menu data entry?",
+        answer:
+            "The cost depends on the number of menus and items, the complexity of the data, the required format, and the frequency of updates. A customized estimate can be provided based on your project scope.",
+    },
+    {
+        id: "Seven",
+        question: "Can you handle large menus for multiple restaurant locations?",
+        answer:
+            "Yes. Menu data can be organized for multiple branches, including location-specific pricing, menu variations, item availability, and standardized formatting across locations.",
     },
 ];
 
@@ -180,49 +187,99 @@ export default function DataAnalytics() {
 
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
+        "@graph": [
             {
-                "@type": "Question",
-                name: "How does Tech2Globe’s menu entry procedure operate?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "Our menu entry procedure is quick and easy. You give us information about your menu items, costs, and any other pertinent information. Our team of professionals puts this data into your system, checks for accuracy, and, if necessary, optimises it for the required platforms."
-                }
+                "@type": "WebPage",
+                "@id": "https://www.tech2globe.com/restaurant-menu-entry-services#webpage",
+                url: "https://www.tech2globe.com/restaurant-menu-entry-services",
+                name: "Restaurant Menu Entry Services",
+                description:
+                    "Get accurate restaurant menu entry services for digitizing menus, organizing food item details, updating prices, and preparing menu data for POS systems and online ordering platforms.",
+                mainEntity: {
+                    "@id": "https://www.tech2globe.com/restaurant-menu-entry-services#service",
+                },
             },
             {
-                "@type": "Question",
-                name: "How long does it take to update the menu?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "We recognise the value of timely updates. Depending on the intricacy, more substantial updates may take up to 48 hours, while minor changes can be made in as little as 24 hours."
-                }
+                "@type": "Service",
+                "@id": "https://www.tech2globe.com/restaurant-menu-entry-services#service",
+                name: "Restaurant Menu Entry Services",
+                serviceType: "Restaurant Menu Data Entry and Digitization",
+                url: "https://www.tech2globe.com/restaurant-menu-entry-services",
+                description:
+                    "Tech2Globe provides restaurant menu entry services, including menu digitization, food item data entry, descriptions and pricing updates, menu categorization, data accuracy checks, and preparation of menu data for compatible POS systems and online ordering platforms.",
+                provider: {
+                    "@type": "Organization",
+                    name: "Tech2Globe",
+                    url: "https://www.tech2globe.com/",
+                },
+                audience: {
+                    "@type": "Audience",
+                    audienceType:
+                        "Restaurants, food service businesses, restaurant chains, and online food ordering businesses",
+                },
+                hasOfferCatalog: {
+                    "@type": "OfferCatalog",
+                    name: "Restaurant Menu Data Entry Services",
+                    itemListElement: [
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Menu Digitization and Data Entry",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Printed and Scanned Menu Conversion",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Menu Item Description and Pricing Updates",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Menu Categorization and Data Quality Checks",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "POS and Online Ordering Menu Data Preparation",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Multi-Location Menu Data Management",
+                            },
+                        },
+                    ],
+                },
             },
             {
-                "@type": "Question",
-                name: "Could you assist us with printing our menu design?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "Absolutely! With our professional restaurant menu entry services, we can help with menu design for print projects that are appealing and consistent with your brand."
-                }
+                "@type": "FAQPage",
+                "@id": "https://www.tech2globe.com/restaurant-menu-entry-services#faq",
+                url: "https://www.tech2globe.com/restaurant-menu-entry-services",
+                mainEntity: faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                        "@type": "Answer",
+                        text: faq.answer,
+                    },
+                })),
             },
-            {
-                "@type": "Question",
-                name: "How do you secure the security of the data?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "Our company, Tech2Globe Web Solutions, adheres to stringent data security procedures. We use secure servers and encrypted communication methods to protect your data; access to it is only granted to authorised people."
-                }
-            },
-            {
-                "@type": "Question",
-                name: "To what kinds of eateries do you cater?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "We serve many different kinds of eateries, including upscale restaurants, cafes, fast-food franchises, bistros, and more. Our offerings are customised to satisfy the particular needs of each company."
-                }
-            }
-        ]
+        ],
     };
 
     return (

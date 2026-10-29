@@ -33,6 +33,8 @@
 
 .Listing .ListItem a{
     font-size: 14px;
+    color: #234268;
+    text-decoration: none;
 }
 
 .Listing .ListItem a:hover {

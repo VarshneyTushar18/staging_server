@@ -13,6 +13,11 @@
     list-style-type: none;
 }
 
+.ContentDiv h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
 .ContentDiv h2 {
     font-size: 30px;
 }
@@ -23,12 +28,14 @@
     border-radius: 0.375rem;
     border: 1px solid #0000002d;
     border-top: 5px solid #545454;
+    height: 100%;
 }
 
-.CardBox h3 {
+.CardBox h3,
+.CardBox h5 {
     color: #202020 !important;
-    font-size: 22px;
-    margin-bottom: 0px;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .IconBox {
@@ -41,135 +48,76 @@
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
     flex-direction: column !important;
     justify-content: center;
-}
-
-
-.IconBox svg {
-    width: 55px;
-    height: 55px;
-}
-
-.IconBox h3 {
-    color: #202020 !important;
-    font-size: 22px;
-    margin-bottom: 0px;
-}
-
-.ImageBox {
-    display: flex;
-    border: 1px solid #dee2e6;
-    border-radius: 0.375rem;
-    text-align: center;
-    padding: 1rem;
-    align-items: center;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-    flex-direction: column !important;
-    justify-content: center;
     height: 100%;
 }
 
-.ImageBox img {
-    width: 55px;
+.IconBox svg {
+    width: 48px;
+    height: 48px;
+    color: #f15a29;
+    margin-bottom: 10px;
 }
 
-.ImageBox h6 {
+.IconBox h5 {
+    color: #202020 !important;
     font-size: 16px;
-    font-weight: 500;
+    margin-bottom: 0;
 }
 
-.Card {
+.CtaSection {
+    position: relative;
+    background: url('/images/services/service-inner/bg-micro-cta.png') no-repeat center center;
+    background-size: cover;
     overflow: hidden;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-    border: 0;
-    transition: color 0.3s ease;
+}
+
+.CtaSection::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(1px) brightness(0.7);
+    z-index: 0;
+}
+
+.CtaSection>* {
+    position: relative;
     z-index: 1;
 }
 
-.Card h5 {
-    font-size: 16px;
-    color: #202020;
+.BtnBlock a {
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.Card p {
-    font-size: 14px;
-    transform: translateY(0);
-    color: #202020;
+.ProcessStep {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1.25rem;
+    height: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-.CardNumber {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 4rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.08);
-    z-index: 0;
-    line-height: 1;
-}
-
-.IconBox {
-    width: 50px;
-    height: 50px;
-    background-color: #234268;
-    color: #333;
-    display: flex;
+.ProcessNumber {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    font-size: 20px;
-}
-
-.IconBox svg {
-    color: #fff
-}
-
-.Card::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 0%;
-    background-color: #234268;
-    z-index: 0;
-    transition: height 0.4s ease;
-}
-
-.Card:hover::before {
-    height: 100%;
-}
-
-.Card:hover .CardNumber {
-    color: rgb(255 255 255 / 8%)
-}
-
-.Card:hover .IconBox {
-    background-color: #4b698d;
-    border-radius: 80px;
-    border: 0;
-}
-
-.Card:hover h5,
-.Card:hover p {
-    transform: translateY(0);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f15a29;
     color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
-.Card:hover .CardContent a {
-    color: #fff !important;
-}
+@media (max-width: 767px) {
+    .ContentDiv h1 {
+        font-size: 24px;
+    }
 
-.CardContent {
-    position: relative;
-    z-index: 2;
-    transform: translateY(20px);
-    transition: transform 0.4s ease, color 0.3s ease;
-}
-
-.ContentDivNew {
-    padding: 20px;
-    background: #eee;
-    border-radius: 15px;
-    margin-bottom: 30px;
+    .ContentDiv h2 {
+        font-size: 22px;
+    }
 }

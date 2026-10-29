@@ -255,7 +255,7 @@ export default function PerformanceMarketingPackages() {
                       <ul className="text-left">
                         <li><Link href="paid-search-advertising-services" className="text-decoration-none fw-normal"> Search ads</Link></li>
                         <li><Link href="display-advertising-services" className="text-decoration-none fw-normal">Display ads</Link></li>
-                        <li><Link href="shopping-ads-services" className="text-decoration-none fw-normal"> Shopping ads</Link></li>
+                        <li><Link href="/google-shopping-management-services" className="text-decoration-none fw-normal"> Shopping ads</Link></li>
                         <li><Link href="youtube-advertising-services" className="text-decoration-none fw-normal"> Video ads</Link></li>
                       </ul>
                     </div>

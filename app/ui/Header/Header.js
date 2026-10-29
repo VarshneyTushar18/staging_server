@@ -193,13 +193,13 @@ export default function Header() {
                                           <div className="menu-container">
                                              <FontAwesomeIcon icon={faAngleDoubleRight}></FontAwesomeIcon>
                                              <h5 className="menu-header">
-                                                <a href="/walmart-full-service-management" className="text-decoration-none">Walmart Full Service Management</a>
+                                                <a href="/walmart-account-management-services" className="text-decoration-none">Walmart Account Management Services</a>
                                              </h5>
                                           </div>
                                           <ul className="list-unstyled ps-2 menu-items">
                                              <li><a className="menu-link" href="/walmart-advertisement">Walmart Advertising</a>
                                              </li>
-                                             <li><a className="menu-link" href="/walmart-marketplace-management">Walmart Marketplace Management</a>
+                                             <li><a className="menu-link" href="/walmart-marketplace-management-services">Walmart Marketplace Management</a>
                                              </li>
                                              <li><a className="menu-link" href="/walmart-product-upload-seo">Walmart Product Upload & SEO</a>
                                              </li>
@@ -234,7 +234,7 @@ export default function Header() {
                                              <li><a className="menu-link" href="/amazon-seller-central-management">Amazon Seller Central Management</a></li>
                                              <li><a className="menu-link" href="/amazon-vendor-central-management">Amazon Vendor Central Management</a></li>
                                              <li><a className="menu-link" href="/ebay-marketplace-management">eBay Marketplace Management</a></li>
-                                             <li><a className="menu-link" href="/walmart-marketplace-management">Walmart Marketplace Management</a></li>
+                                             <li><a className="menu-link" href="/walmart-marketplace-management-services">Walmart Marketplace Management</a></li>
                                              <li><a className="menu-link" href="/sears-marketplace-management">Sears Marketplace Management</a></li>
                                              <li><a className="menu-link" href="/newegg-marketplace-management">Newegg Marketplace Management</a></li>
                                              <li><a className="menu-link" href="/rakuten-marketplace-management">Rakuten Marketplace Management</a></li>
@@ -326,7 +326,7 @@ export default function Header() {
                                           <ul className="list-unstyled ps-2 menu-items">
                                              <li><a className="menu-link" href="/ecommerce-seo-services">Ecommerce SEO</a></li>
                                              <li><a className="menu-link" href="/ecommerce-social-media-marketing">Ecommerce Social Media</a></li>
-                                             <li><a className="menu-link" href="/shopping-ads-services">Ecommerce Shopping Ads</a></li>
+                                             <li><a className="menu-link" href="/google-shopping-management-services">Google Shopping Management Services</a></li>
                                              <li><a className="menu-link" href="/tiktok-shop-management-services">TikTok Shop Management Services</a></li>
                                           </ul>
                                           <div className="menu-container">
@@ -1476,7 +1476,7 @@ export default function Header() {
                                  <ul className="list-unstyled ps-2 menu-items">
                                     <li><a className="menu-link" href="remarketing-services">Remarketing
                                        Services</a></li>
-                                    <li><a className="menu-link" href="shopping-ads-services">Shopping
+                                    <li><a className="menu-link" href="/google-shopping-management-services">Shopping
                                        Ads Services</a></li>
                                     <li><a className="menu-link" href="youtube-advertising-services">YouTube
                                        Advertising Services</a></li>
@@ -2024,19 +2024,19 @@ export default function Header() {
                                        </li>
                                        <li>
                                           <div className="accordion__item__megamenu">
-                                             <a href="/walmart-full-service-management"
+                                             <a href="/walmart-account-management-services"
                                                 className="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#amazonConsultingOne1-5" aria-expanded="false"
-                                                aria-controls="amazonConsultingOne1-5">Walmart Full Service Management</a>
+                                                aria-controls="amazonConsultingOne1-5">Walmart Account Management Services</a>
                                              <div id="amazonConsultingOne1-5" className="accordion-collapse collapse"
                                                 data-bs-parent="#accordionExample">
                                                 <ul>
                                                    <li><a href="/walmart-advertisement">Walmart Advertising</a>
                                                    </li>
-                                                   <li><a href="/walmart-full-service-management">Walmart Full Service Management</a>
+                                                   <li><a href="/walmart-account-management-services">Walmart Account Management Services</a>
                                                    </li>
-                                                   <li><a href="/walmart-marketplace-management">Walmart Marketplace Management</a>
+                                                   <li><a href="/walmart-marketplace-management-services">Walmart Marketplace Management</a>
                                                    </li>
                                                    <li><a href="/walmart-product-upload-seo">Walmart Product Upload & SEO</a>
                                                    </li>
@@ -2099,7 +2099,7 @@ export default function Header() {
                                                    <li><a href="/amazon-seller-central-management">Amazon Seller Central Management</a></li>
                                                    <li><a href="/amazon-vendor-central-management">Amazon Vendor Central Management</a></li>
                                                    <li><a href="/ebay-marketplace-management">eBay Marketplace Management</a></li>
-                                                   <li><a href="/walmart-marketplace-management">Walmart Marketplace Management</a></li>
+                                                   <li><a href="/walmart-marketplace-management-services">Walmart Marketplace Management</a></li>
                                                    <li><a href="/sears-marketplace-management">Sears Marketplace Management</a></li>
                                                    <li><a href="/newegg-marketplace-management">Newegg Marketplace Management</a></li>
                                                    <li><a href="/rakuten-marketplace-management">Rakuten Marketplace Management</a></li>
@@ -2185,7 +2185,7 @@ export default function Header() {
                                                 <ul>
                                                    <li><a href="/ecommerce-seo-services">Ecommerce SEO</a></li>
                                                    <li><a href="/ecommerce-social-media-marketing">Ecommerce Social Media</a></li>
-                                                   <li><a href="/shopping-ads-services">Ecommerce Shopping Ads</a></li>
+                                                   <li><a href="/google-shopping-management-services">Google Shopping Management Services</a></li>
                                                    <li><a href="/tiktok-shop-management-services">TikTok Shop Management Services</a></li>
                                                 </ul>
                                              </div>
@@ -2657,7 +2657,7 @@ export default function Header() {
                                                       Services</a>
                                                    </li>
                                                    <li><a
-                                                      href="/shopping-ads-services">Shopping
+                                                      href="/google-shopping-management-services">Shopping
                                                       Ads Services</a>
                                                    </li>
                                                    <li><a
