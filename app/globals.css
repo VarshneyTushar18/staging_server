@@ -50,6 +50,16 @@ h4 {
   font-weight: 700;
 }
 
+.hover-underline {
+  text-decoration: none;
+  color: inherit;
+  transition: text-decoration 0.3s ease;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
 a {
   color: inherit;
   text-decoration: none;

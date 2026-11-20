@@ -58,7 +58,7 @@
     display: inline-block;
 }
 
-:global(.swiper-slide) {
+.caseStudiesSection :global(.swiper-slide) {
     height: auto;
 }
 

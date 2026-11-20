@@ -22,18 +22,6 @@
     width: 75%;
 }
 
-:global(.hover-underline) {
-    text-decoration: none;
-    color: inherit;
-    transition: text-decoration 0.3s ease;
-}
-
-:global(.hover-underline:hover) {
-    text-decoration: underline;
-}
-
-
-
 .CertifiedSection :global(ul) {
     flex-wrap: wrap;
     gap: 14px;

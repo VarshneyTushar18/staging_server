@@ -130,6 +130,6 @@
     margin-bottom: 0;
 }
 
-:global(.contactBottominfo) {
+.PageContent :global(.contactBottominfo) {
     display: none;
 }

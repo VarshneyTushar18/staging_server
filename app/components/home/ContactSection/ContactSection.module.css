@@ -95,33 +95,33 @@
 
 /* ===== React Select Fix (GLOBAL) ===== */
 
-:global(.custom-select__menu-portal) {
+.ContactSection :global(.custom-select__menu-portal) {
     z-index: 9999;
 }
 
-:global(.custom-select__menu) {
+.ContactSection :global(.custom-select__menu) {
     z-index: 9999;
 }
 
 /* Default option */
-:global(.custom-select__option) {
+.ContactSection :global(.custom-select__option) {
     background-color: #ffffff;
     color: #000;
 }
 
 /* Hover */
-:global(.custom-select__option--is-focused) {
+.ContactSection :global(.custom-select__option--is-focused) {
     background-color: #E8F0FE !important;
     color: #000;
 }
 
 /* Selected */
-:global(.custom-select__option--is-selected) {
+.ContactSection :global(.custom-select__option--is-selected) {
     background-color: #C01F29 !important;
     color: #fff !important;
 }
 
 /* Active */
-:global(.custom-select__option:active) {
+.ContactSection :global(.custom-select__option:active) {
     background-color: #234268 !important;
 }

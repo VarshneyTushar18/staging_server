@@ -84,7 +84,7 @@
     margin-bottom: 16px;
 }
 
-:global(.table-responsive .table>thead>tr>th) {
+.ContentDiv :global(.table-responsive .table>thead>tr>th) {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
     background: #c6010b;
